@@ -1,0 +1,199 @@
+{
+  "report_metadata": {
+    "investigation_target": "Subito.it impersonation phishing — phone +39 350 860 6411 / domain verifieer.cc",
+    "capture_time_utc": "2026-06-12T20:22:31Z",
+    "investigator_tooling": "Windows CLI (curl, nslookup, openssl) + free keyless public APIs (RDAP, urlscan.io) + web search",
+    "evidence_integrity_note": "All values below are copied from live tool output captured at the time above. No value is inferred or fabricated. Raw responses are stored verbatim in ./raw/. Fields that could not be obtained (paid/key-gated services) are explicitly marked status=NOT_QUERIED.",
+    "raw_evidence_files": {
+      "rdap_domain": "raw/rdap_domain_verifieer_cc.json",
+      "rdap_ip_104": "raw/rdap_ip_104.21.20.73.json",
+      "rdap_ip_172": "raw/rdap_ip_172.67.191.224.json",
+      "urlscan": "raw/urlscan_verifieer_cc.json",
+      "dns": "raw/dns_resolution.txt",
+      "http_headers": "raw/http_headers_subito.txt",
+      "tls_cert": "raw/tls_cert.txt",
+      "capture_time": "raw/_capture_time.txt"
+    }
+  },
+
+  "1_phone_number_osint": {
+    "target_number_e164": "+393508606411",
+    "format_variations_checked": ["3508606411", "350 860 6411", "+39 350 860 6411", "+393508606411"],
+    "country": { "value": "Italy (+39)", "confidence": "HIGH", "source": "E.164 prefix" },
+    "number_range_type": {
+      "value": "Italian mobile range (3xx). 350 is an allocated mobile prefix.",
+      "confidence": "MEDIUM",
+      "note": "Specific carrier CANNOT be reliably derived from the prefix because of Italian mobile number portability (MNP). Authoritative carrier requires a live HLR lookup."
+    },
+    "carrier_line_type_region": {
+      "status": "NOT_QUERIED",
+      "reason": "NumVerify / apilayer / HLR-lookup free tiers all require a registered API key, which is not available in this environment. No result was obtained; none is invented.",
+      "how_to_complete": "Register a free NumVerify key and run: Invoke-RestMethod \"http://apilayer.net/api/validate?access_key=KEY&number=393508606411&country_code=IT\""
+    },
+    "breach_database_presence": {
+      "status": "NOT_QUERIED",
+      "reason": "HaveIBeenPwned phone/email API and equivalents are key-gated and paid. Not queried; no result fabricated.",
+      "how_to_complete": "Use HIBP API (paid key) or check the number against locally-held breach corpora only if lawfully obtained."
+    },
+    "truecaller_lookup": {
+      "status": "NOT_QUERIED",
+      "reason": "Truecaller has no free/legal public API; scraping it violates its ToS and may be unlawful. Deliberately not attempted."
+    },
+    "public_scam_db_web_search": {
+      "value": "No public report found tying this exact number to a scam as of capture time.",
+      "queries_run": [
+        "\"3508606411\" OR \"350 860 6411\" OR \"+393508606411\" truffa scam Subito",
+        "+39 350 860 6411 truffa segnalazione"
+      ],
+      "confidence": "MEDIUM",
+      "interpretation": "Absence is consistent with a WhatsApp Business number registered ~1 month ago: report aggregators (stopscam.it, numfinder, whuis, punto-informatico spam lists) lag fresh scammer numbers. Absence is NOT exoneration.",
+      "recommended_manual_checks": [
+        "https://stopscam.it/segnalazione/lista-segnalazioni/",
+        "https://www.whuis.com (number reputation)",
+        "https://numfinder.com/it/features/who-called-me",
+        "Telegram @ScamAlertBot / community scam channels (requires Telegram account; cannot be queried from CLI)"
+      ]
+    }
+  },
+
+  "2_whatsapp_business_analysis": {
+    "claim": "Number used a WhatsApp Business account registered 'last month'.",
+    "registration_check": {
+      "status": "NOT_QUERIED",
+      "reason": "There is no official/legal API to confirm WhatsApp registration of an arbitrary number. Unofficial 'is-on-whatsapp' endpoints abuse the WA protocol and are unreliable/ToS-violating; not used.",
+      "lawful_alternative": "Open a normal WhatsApp chat to the number from a handset and screenshot the presence of a 'Business' badge and account-created indicators as victim evidence."
+    },
+    "social_engineering_indicator": {
+      "value": "Use of WhatsApp BUSINESS (vs personal) is a recognized trust-boost tactic: the green/verified-style business label lends false legitimacy. Combined with a recently-registered number it fits the throwaway-infrastructure pattern.",
+      "confidence": "MEDIUM (behavioural inference, not a measured datum)"
+    },
+    "temporal_correlation": {
+      "whatsapp_registered": "~May 2026 (user-reported 'last month')",
+      "phishing_subdomain_first_seen": "subito.verifieer.cc first captured by urlscan 2026-06-06; urlscan reports the subdomain age ~30 days at capture (≈ early May 2026)",
+      "assessment": "WhatsApp registration window and the stand-up of the subito.* phishing subdomain align to early May 2026 — coherent single-campaign timeline.",
+      "confidence": "MEDIUM"
+    }
+  },
+
+  "4_domain_correlation": {
+    "domain": "verifieer.cc",
+    "phishing_subdomain": "subito.verifieer.cc",
+    "rdap_source": "https://rdap.org/domain/verifieer.cc -> tld-rdap.verisign.com (.cc registry)",
+    "registry_handle": { "value": "207826166_DOMAIN_CC-VRSN", "confidence": "HIGH" },
+    "registration_date": { "value": "2026-02-03T14:22:25Z", "confidence": "HIGH", "source": "RDAP eventAction=registration" },
+    "expiration_date": { "value": "2027-02-03T14:22:25Z", "confidence": "HIGH" },
+    "last_changed": { "value": "2026-02-03T14:22:31Z", "confidence": "HIGH" },
+    "domain_status": { "value": "client transfer prohibited", "confidence": "HIGH" },
+    "registrar": {
+      "value": "Global Domain Group LLC",
+      "iana_id": "3956",
+      "abuse_email": "abuse@globaldomaingroup.com",
+      "abuse_phone": "+1 805-394-3992",
+      "url": "http://www.globaldomaingroup.com",
+      "confidence": "HIGH"
+    },
+    "nameservers": { "value": ["amy.ns.cloudflare.com", "quincy.ns.cloudflare.com"], "confidence": "HIGH" },
+    "dnssec": { "value": "delegationSigned=false (unsigned)", "confidence": "HIGH" },
+    "registrant_identity": {
+      "value": "Not disclosed in RDAP (no registrant vCard present; .cc registry + privacy). Apex sits behind Cloudflare, masking origin.",
+      "confidence": "HIGH"
+    },
+    "registration_vs_activation_gap": {
+      "note": "Apex registered 2026-02-03 but the subito.* phishing host and its TLS cert were stood up ~2026-06-01 (cert notBefore) / first urlscan 2026-06-06. The domain was aged ~4 months before weaponisation against Subito — a common 'aged-domain' evasion tactic.",
+      "confidence": "MEDIUM"
+    },
+    "urlscan_findings": {
+      "live_phishing_capture": {
+        "uuid": "019e9db1-0700-7785-942e-c66131c97c9e",
+        "time": "2026-06-06T16:08:13Z",
+        "captured_url": "https://subito.verifieer.cc/a/Mi8zRFdpNjBQbmFS?us=gm",
+        "page_title": "Seggiolino per bicicletta | SUBITO.IT",
+        "page_language": "it",
+        "http_status": 200,
+        "served_ip": "172.67.191.224",
+        "asn": "AS13335 CLOUDFLARENET",
+        "confidence": "HIGH",
+        "interpretation": "Live page impersonating SUBITO.IT with an Italian fake listing ('Seggiolino per bicicletta' = child bike seat). Status 200 = active phishing at capture."
+      },
+      "earliest_capture": {
+        "uuid": "019c245d-42fa-76a4-9623-eaada7d19e94",
+        "time": "2026-02-03T16:37:07Z",
+        "url": "https://verifieer.cc/",
+        "tags": ["@ecarlesi", "possiblethreat"],
+        "http_status": 404,
+        "note": "Apex flagged 'possiblethreat' by a community submitter on registration day."
+      },
+      "result_links": [
+        "https://urlscan.io/api/v1/result/019e9db1-0700-7785-942e-c66131c97c9e/",
+        "https://urlscan.io/screenshots/019e9db1-0700-7785-942e-c66131c97c9e.png"
+      ]
+    },
+    "tls_certificate": {
+      "subject_cn": "verifieer.cc",
+      "issuer": "Google Trust Services, CN=WE1",
+      "not_before": "2026-06-01T16:28:17Z",
+      "not_after": "2026-08-30T17:08:32Z",
+      "confidence": "HIGH",
+      "source": "openssl s_client + urlscan",
+      "note": "Free 90-day Google Trust Services DV cert issued 2026-06-01 — matches the early-June weaponisation window."
+    },
+    "virustotal": {
+      "status": "NOT_QUERIED",
+      "reason": "VirusTotal v3 API requires an API key (x-apikey header). No key in environment; result not fabricated.",
+      "how_to_complete": "Invoke-RestMethod -Headers @{'x-apikey'='KEY'} 'https://www.virustotal.com/api/v3/domains/verifieer.cc'"
+    },
+    "securitytrails_dns_history": {
+      "status": "NOT_QUERIED",
+      "reason": "SecurityTrails requires an API key. Passive-DNS history not retrieved."
+    }
+  },
+
+  "5_ip_and_hosting": {
+    "resolved_ips_verifieer_cc": {
+      "ipv4": ["172.67.191.224", "104.21.20.73"],
+      "ipv6": ["2606:4700:3032::ac43:bfe0", "2606:4700:3031::6815:1449"],
+      "confidence": "HIGH",
+      "source": "nslookup"
+    },
+    "resolved_ips_subito_verifieer_cc": {
+      "ipv4": ["104.21.20.73", "172.67.191.224"],
+      "ipv6": ["2606:4700:3031::6815:1449", "2606:4700:3032::ac43:bfe0"],
+      "confidence": "HIGH",
+      "note": "Identical IP set to apex — both are Cloudflare anycast edge addresses, NOT the true origin server."
+    },
+    "ip_whois": {
+      "network_name": "CLOUDFLARENET",
+      "ranges": ["104.16.0.0/12 (NET-104-16-0-0-1)", "172.64.0.0/13 (NET-172-64-0-0-1)"],
+      "org": "Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, US",
+      "asn": "AS13335",
+      "abuse_contact": "abuse@cloudflare.com (+1-650-319-8930)",
+      "abuse_reporting_portal": "https://www.cloudflare.com/abuse",
+      "confidence": "HIGH",
+      "source": "RDAP rdap.arin.net"
+    },
+    "origin_server": {
+      "value": "HIDDEN behind Cloudflare reverse proxy. True hosting IP/provider is NOT observable via DNS.",
+      "confidence": "HIGH",
+      "how_to_obtain": "Only Cloudflare (via abuse report / legal-disclosure request) or the .cc registry/registrar can reveal origin. This is why the abuse report to Cloudflare plus escalation through the relevant national cybercrime channel is the correct path."
+    },
+    "http_server_fingerprint": {
+      "server": "cloudflare",
+      "app_framework": "Next.js (Vary: rsc, next-router-* headers observed)",
+      "root_status": "404 (phishing served only on deep /a/<token> paths, root returns 404 — classic targeted-link phishing)",
+      "confidence": "HIGH",
+      "source": "raw/http_headers_subito.txt"
+    },
+    "abuseipdb": {
+      "status": "NOT_QUERIED",
+      "reason": "AbuseIPDB API requires a free API key (Key header). Not queried; no score invented.",
+      "caveat": "Even if queried, the IPs are shared Cloudflare edge IPs — an AbuseIPDB score would reflect Cloudflare in aggregate, not this actor. Low evidentiary value.",
+      "how_to_complete": "Invoke-RestMethod -Headers @{'Key'='KEY';'Accept'='application/json'} 'https://api.abuseipdb.com/api/v2/check?ipAddress=172.67.191.224'"
+    }
+  },
+
+  "confidence_legend": {
+    "HIGH": "Directly observed in registry/DNS/TLS/HTTP tool output captured this session.",
+    "MEDIUM": "Inference or correlation from observed data + user-reported facts; plausible, not proven.",
+    "NOT_QUERIED": "Service requires a paid/key-gated API not available here; deliberately left blank rather than fabricated."
+  }
+}

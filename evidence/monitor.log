@@ -1,0 +1,185 @@
+[2026-06-14T22:46:23Z] === monitor START (interval 900s) pid=709 ===
+[2026-06-14T22:46:24Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-14T22:46:25Z] NEW CERT on verif.cc  (count 0 -> 12)
+[2026-06-14T22:46:25Z] NEW CERT on subito.cam  (count 0 -> 2)
+[2026-06-14T22:46:25Z] DNS CHANGE  subito.verifieer.cc : - -> NX
+[2026-06-14T22:46:25Z] DNS CHANGE  verifieer.cc : - -> NX
+[2026-06-14T22:46:26Z] DNS CHANGE  subito.cam : - -> 188.114.97.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-14T22:46:26Z] DNS CHANGE  verifa.cc : - -> NX
+[2026-06-14T22:46:26Z] DNS CHANGE  verifica.cc : - -> 216.198.79.1  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-14T22:46:26Z] DNS CHANGE  olx.paycore24-express.sbs : - -> NX
+[2026-06-14T22:48:00Z] === monitor START (interval 900s) pid=845 ===
+[2026-06-14T22:48:03Z] DNS CHANGE  subito.verifieer.cc : - -> NX
+[2026-06-14T22:48:03Z] DNS CHANGE  verifieer.cc : - -> NX
+[2026-06-14T22:48:04Z] DNS CHANGE  subito.cam : - -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-14T22:48:04Z] DNS CHANGE  verifa.cc : - -> NX
+[2026-06-14T22:48:04Z] DNS CHANGE  verifica.cc : - -> 216.198.79.1  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-14T22:48:05Z] DNS CHANGE  olx.paycore24-express.sbs : - -> NX
+[2026-06-14T22:49:22Z] === monitor START (interval 900s) pid=1009 ===
+[2026-06-14T22:49:25Z] DNS CHANGE  subito.verifieer.cc : - -> NX
+[2026-06-14T22:49:25Z] DNS CHANGE  verifieer.cc : - -> NX
+[2026-06-14T22:49:25Z] DNS CHANGE  subito.cam : - -> 188.114.97.3
+[2026-06-14T22:49:25Z] DNS CHANGE  verifa.cc : - -> NX
+[2026-06-14T22:49:26Z] DNS CHANGE  verifica.cc : - -> 216.198.79.1  <== NON-CLOUDFLARE (unknown) — possible origin / different host!
+[2026-06-14T22:49:26Z] DNS CHANGE  olx.paycore24-express.sbs : - -> NX
+[2026-06-14T23:01:27Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-14T23:01:29Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-14T23:03:07Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-14T23:16:31Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-14T23:19:32Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-14T23:31:34Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-14T23:34:35Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-14T23:46:37Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm    (2025-08-23T02:24:55)  
+[2026-06-14T23:46:38Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-14T23:46:39Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-14T23:49:36Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-14T23:49:38Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T00:04:41Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T00:16:44Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T00:18:26Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T00:19:43Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T00:19:45Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T00:34:48Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T00:46:51Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T00:48:33Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T00:49:51Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T01:01:55Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T01:04:54Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T01:16:57Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T01:18:40Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T01:32:01Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T01:32:03Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T01:33:43Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T01:47:04Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T01:47:06Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T02:02:09Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T02:17:12Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T02:18:54Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T02:32:15Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T02:47:21Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T02:47:22Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T02:48:58Z] NEW KIT URL  www.homeserve.com  ip=2600:141b:1c00:1e::1730:e0e5  AS20940  (2023-12-11T17:02:38)  https://www.homeserve.com/en-us/?gm-vt=1
+[2026-06-15T02:48:58Z] NEW KIT URL  www.homeserve.com  ip=23.53.43.50  AS20940  (2024-08-25T15:44:11)  https://www.homeserve.com/en-us/?gm-vt=1
+[2026-06-15T02:48:58Z] NEW KIT URL  www.shipaccel.com  ip=34.199.184.158  AS14618  (2024-09-04T15:23:41)  https://www.shipaccel.com/?cid=email_24-SendTech-US-GM-SA-Intro-E1B
+[2026-06-15T02:48:58Z] NEW KIT URL  www.shipaccel.com  ip=34.199.184.158  AS14618  (2024-09-04T15:25:44)  https://www.shipaccel.com/?cid=email_24-SendTech-US-GM-SA-Intro-E1B
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=172.67.207.195  AS13335  (2025-08-22T21:01:07)  https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm    (2025-08-23T01:22:21)  
+[2026-06-15T02:48:58Z] NEW KIT URL  ordr-747289.com  ip=172.67.144.163  AS13335  (2026-01-23T16:50:48)  https://ordr-747289.com/a/Mi9hOTdPMFV2UjRQ?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.processing-skrill.icu  ip=188.114.96.3  AS13335  (2026-03-17T03:28:06)  https://olx.processing-skrill.icu/a/Mi9mOUhCOTZLaTY0?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.processing-skrill.icu  ip=188.114.97.3  AS13335  (2026-03-17T05:00:10)  https://olx.processing-skrill.icu/a/Mi9mOUhCOTZLaTY0?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paycore-cdd.cfd  ip=188.114.96.3  AS13335  (2026-06-02T08:13:53)  https://olx.paycore-cdd.cfd/a/Mi9KaDVHN2IyMnky?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paycore-cdd.cfd  ip=188.114.97.3  AS13335  (2026-06-02T12:05:06)  https://olx.paycore-cdd.cfd/a/Mi90NDgwczNmMHZE?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.sendcore.cyou  ip=104.21.66.43  AS13335  (2026-06-06T10:19:06)  https://olx.sendcore.cyou/a/Mi9kdXRtakJueFpt?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.sendcore.cyou  ip=104.21.66.43  AS13335  (2026-06-06T11:16:43)  https://olx.sendcore.cyou/a/Mi9McTczUDczcms4?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paysend-paczka.xyz  ip=188.114.96.3  AS13335  (2026-06-10T10:16:22)  https://olx.paysend-paczka.xyz/a/Mi9oMlpBTGhoOHZT?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paysend-paczka.xyz  ip=188.114.96.3  AS13335  (2026-06-10T10:26:36)  https://olx.paysend-paczka.xyz/a/Mi9rSjhPNDJpR0ha?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paysend-paczka.shop  ip=188.114.96.3  AS13335  (2026-06-11T08:53:05)  https://olx.paysend-paczka.shop/a/Mi82dVk1T1hYd1px?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paycore-send.sbs  ip=188.114.96.3  AS13335  (2026-06-11T17:42:41)  https://olx.paycore-send.sbs/a/Mi8zYmg1MWpJMWZM?us=gm
+[2026-06-15T02:48:58Z] NEW KIT URL  olx.paycore-send.shop  ip=188.114.97.3  AS13335  (2026-06-12T12:26:37)  https://olx.paycore-send.shop/a/Mi9hTTE5SWJMS041?us=gm
+[2026-06-15T03:02:24Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T03:02:25Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T03:05:18Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T03:17:28Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T03:20:21Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T03:34:08Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T03:35:26Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T03:49:11Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T03:50:29Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T04:02:38Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T04:04:14Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T04:17:39Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T04:19:20Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T04:32:45Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T04:34:24Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T04:35:40Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T04:47:48Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T04:47:50Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T04:49:27Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T05:02:51Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T05:02:53Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T05:04:31Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T05:05:46Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T05:17:54Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T05:20:50Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T05:32:57Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T05:35:53Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T05:48:01Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T05:48:02Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T05:49:41Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T06:03:05Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T06:04:44Z] NEW KIT URL  olx.sendcore.sbs  ip=172.67.150.97  AS13335  (2026-06-07T20:31:03)  https://olx.sendcore.sbs/a/Mi93eE9sZHBaQUpS?us=gm
+[2026-06-15T06:04:44Z] NEW KIT URL  olx.paycore-send.xyz  ip=2606:4700:3035::6815:3557  AS13335  (2026-06-12T15:26:29)  https://olx.paycore-send.xyz/a/Mi9hTTE5SWJMS041?us=gm
+[2026-06-15T06:04:44Z] NEW KIT URL  olx.paycore-private.cyou  ip=188.114.97.3  AS13335  (2026-06-13T12:00:32)  https://olx.paycore-private.cyou/a/Mi9BOVMxMFh3czlW?us=gm
+[2026-06-15T06:18:14Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T06:18:15Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T06:19:48Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm    (2025-08-22T23:13:33)  
+[2026-06-15T06:19:48Z] NEW KIT URL  olx.paysend-paczka.xyz  ip=188.114.97.3  AS13335  (2026-06-10T14:43:36)  https://olx.paysend-paczka.xyz/a/Mi93NjMzOGJPakhn?us=gm
+[2026-06-15T06:19:48Z] NEW KIT URL  olx.paysend-paczka.xyz  ip=188.114.96.3  AS13335  (2026-06-10T15:14:49)  https://olx.paysend-paczka.xyz/a/Mi9pQnhJTG5pVGY5?us=gm
+[2026-06-15T06:19:48Z] NEW KIT URL  olx.paycore-send.sbs  ip=188.114.96.3  AS13335  (2026-06-11T17:43:24)  https://olx.paycore-send.sbs/a/Mi8zYmg1MWpJMWZM?us=gm
+[2026-06-15T06:19:48Z] NEW KIT URL  olx.paycore24-express.sbs  ip=172.67.150.57  AS13335  (2026-06-14T10:51:14)  https://olx.paycore24-express.sbs/a/Mi9XT0tHSjNwUjk0?us=gm
+[2026-06-15T06:21:02Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T06:33:18Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T06:33:20Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T06:36:07Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T06:48:21Z] NEW KIT URL  olx.paycore-cdd.cfd  ip=188.114.97.3  AS13335  (2026-06-02T08:29:40)  https://olx.paycore-cdd.cfd/a/Mi9KaDVHN2IyMnky?us=gm
+[2026-06-15T06:48:21Z] NEW KIT URL  olx.paycore-cdd.cfd  ip=2a06:98c1:3121::3  AS13335  (2026-06-02T11:01:07)  https://olx.paycore-cdd.cfd/a/Mi90NDgwczNmMHZE?us=gm
+[2026-06-15T06:48:21Z] NEW KIT URL  olx.sendcore.cyou  ip=172.67.156.171  AS13335  (2026-06-06T10:11:31)  https://olx.sendcore.cyou/a/Mi9kdXRtakJueFpt?us=gm
+[2026-06-15T06:48:21Z] NEW KIT URL  olx.paycore24-express.sbs  ip=172.67.150.57  AS13335  (2026-06-14T10:55:49)  https://olx.paycore24-express.sbs/a/Mi8yS0hsYzNGdW1v?us=gm
+[2026-06-15T06:48:21Z] NEW KIT URL  olx.paycore24-express.sbs  ip=104.21.11.194  AS13335  (2026-06-14T11:45:26)  https://olx.paycore24-express.sbs/a/Mi8yS0hsYzNGdW1v?us=gm
+[2026-06-15T06:48:22Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T06:49:56Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T07:03:25Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T07:05:03Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm    (2025-08-23T02:24:55)  
+[2026-06-15T07:05:03Z] NEW KIT URL  olx.sendcore.cyou  ip=104.21.66.43  AS13335  (2026-06-06T11:16:43)  https://olx.sendcore.cyou/a/Mi9McTczUDczcms4?us=gm
+[2026-06-15T07:05:03Z] NEW KIT URL  olx.paysend-paczka.xyz  ip=188.114.96.3  AS13335  (2026-06-10T10:16:22)  https://olx.paysend-paczka.xyz/a/Mi9oMlpBTGhoOHZT?us=gm
+[2026-06-15T07:06:13Z] NEW KIT URL  www.homeserve.com  ip=2600:141b:1c00:1e::1730:e0e5  AS20940  (2023-12-11T17:02:38)  https://www.homeserve.com/en-us/?gm-vt=1
+[2026-06-15T07:06:14Z] NEW KIT URL  www.shipaccel.com  ip=34.199.184.158  AS14618  (2024-09-04T15:23:41)  https://www.shipaccel.com/?cid=email_24-SendTech-US-GM-SA-Intro-E1B
+[2026-06-15T07:06:14Z] NEW KIT URL  www.shipaccel.com  ip=34.199.184.158  AS14618  (2024-09-04T15:25:44)  https://www.shipaccel.com/?cid=email_24-SendTech-US-GM-SA-Intro-E1B
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.processing-skrill.icu  ip=188.114.96.3  AS13335  (2026-03-17T03:28:06)  https://olx.processing-skrill.icu/a/Mi9mOUhCOTZLaTY0?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.processing-skrill.icu  ip=188.114.97.3  AS13335  (2026-03-17T05:00:10)  https://olx.processing-skrill.icu/a/Mi9mOUhCOTZLaTY0?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.billing-skrill.cyou  ip=188.114.97.3  AS13335  (2026-04-17T14:02:18)  https://olx.billing-skrill.cyou/a/Mi9WMm44NmgwZjlt?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore-cdd.cfd  ip=188.114.96.3  AS13335  (2026-06-02T11:02:27)  https://olx.paycore-cdd.cfd/a/Mi90NDgwczNmMHZE?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore-cdd.cfd  ip=188.114.97.3  AS13335  (2026-06-02T12:05:06)  https://olx.paycore-cdd.cfd/a/Mi90NDgwczNmMHZE?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.sendcore.cyou  ip=104.21.66.43  AS13335  (2026-06-06T10:13:52)  https://olx.sendcore.cyou/a/Mi9McTczUDczcms4?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.sendcore.sbs  ip=104.21.63.213  AS13335  (2026-06-07T18:41:10)  https://olx.sendcore.sbs/a/Mi93eE9sZHBaQUpS?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore-deal.xyz  ip=172.67.206.167  AS13335  (2026-06-09T17:18:51)  https://olx.paycore-deal.xyz/a/Mi9nbmo3SGgxRDhB?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paysend-paczka.xyz  ip=188.114.96.3  AS13335  (2026-06-10T15:15:01)  https://olx.paysend-paczka.xyz/a/Mi9pQnhJTG5pVGY5?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore-send.sbs  ip=188.114.96.3  AS13335  (2026-06-11T17:38:51)  https://olx.paycore-send.sbs/a/Mi9hTEx3WDI2ODJR?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore-send.sbs  ip=188.114.96.3  AS13335  (2026-06-11T17:40:52)  https://olx.paycore-send.sbs/a/Mi8zYmg1MWpJMWZM?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore-private.cyou  ip=188.114.97.3  AS13335  (2026-06-13T11:56:07)  https://olx.paycore-private.cyou/a/Mi85VU9YNVBmb0kz?us=gm
+[2026-06-15T07:06:14Z] NEW KIT URL  olx.paycore24-express.cfd  ip=2a06:98c1:3120::3  AS13335  (2026-06-13T16:16:27)  https://olx.paycore24-express.cfd/a/Mi8yWGFrSm1QNzlp?us=gm
+[2026-06-15T07:06:16Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T07:18:31Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T07:18:32Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3  <== NON-CLOUDFLARE (possible origin!)
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=172.67.207.195  AS13335  (2025-08-22T21:01:07)  https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.inteligentnatransakcja24.cyou  ip=https://olx.inteligentnatransakcja24.cyou/receive/583yV9hAs5?us=gm    (2025-08-23T02:24:55)  
+[2026-06-15T07:20:07Z] NEW KIT URL  ordr-747289.com  ip=172.67.144.163  AS13335  (2026-01-23T16:50:48)  https://ordr-747289.com/a/Mi9hOTdPMFV2UjRQ?us=gm
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.sendcore.cyou  ip=104.21.66.43  AS13335  (2026-06-06T10:13:52)  https://olx.sendcore.cyou/a/Mi9McTczUDczcms4?us=gm
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.sendcore.sbs  ip=104.21.63.213  AS13335  (2026-06-07T18:41:10)  https://olx.sendcore.sbs/a/Mi93eE9sZHBaQUpS?us=gm
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.paycore-deal.xyz  ip=172.67.206.167  AS13335  (2026-06-09T17:18:51)  https://olx.paycore-deal.xyz/a/Mi9nbmo3SGgxRDhB?us=gm
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.paycore-private.cyou  ip=188.114.97.3  AS13335  (2026-06-13T11:56:07)  https://olx.paycore-private.cyou/a/Mi85VU9YNVBmb0kz?us=gm
+[2026-06-15T07:20:07Z] NEW KIT URL  olx.paycore24-express.cfd  ip=2a06:98c1:3120::3  AS13335  (2026-06-13T16:16:27)  https://olx.paycore24-express.cfd/a/Mi8yWGFrSm1QNzlp?us=gm
+[2026-06-15T07:20:10Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T07:21:27Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T07:33:34Z] NEW KIT URL  olx.sendcore.sbs  ip=172.67.150.97  AS13335  (2026-06-07T20:31:03)  https://olx.sendcore.sbs/a/Mi93eE9sZHBaQUpS?us=gm
+[2026-06-15T07:33:34Z] NEW KIT URL  olx.paycore-send.xyz  ip=2606:4700:3035::6815:3557  AS13335  (2026-06-12T15:26:29)  https://olx.paycore-send.xyz/a/Mi9hTTE5SWJMS041?us=gm
+[2026-06-15T07:33:34Z] NEW KIT URL  olx.paycore-private.cyou  ip=188.114.97.3  AS13335  (2026-06-13T12:00:32)  https://olx.paycore-private.cyou/a/Mi9BOVMxMFh3czlW?us=gm
+[2026-06-15T07:33:35Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T07:35:14Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3  <== NON-CLOUDFLARE () — possible origin / different host!
+[2026-06-15T07:48:39Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+--- marker: 2026-06-15T07:50:47Z one clean instance starting ---
+[2026-06-15T07:51:08Z] === monitor START (interval 900s) pid=9965 ===
+[2026-06-15T08:06:12Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T08:36:19Z] NEW CERT on verifieer.cc  (count 0 -> 4)
+[2026-06-15T09:36:38Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T10:37:01Z] NEW KIT DOMAIN  olx.express-paycore24.cyou	172.67.223.218	AS13335	https://olx.express-paycore24.cyou/a/Mi9mNGY2blplM1E4?us=gm
+[2026-06-15T10:37:03Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T11:52:20Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T13:52:47Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T14:07:51Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T14:22:54Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T14:37:57Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+[2026-06-15T15:08:04Z] DNS CHANGE  subito.cam : 188.114.96.3 -> 188.114.97.3
+[2026-06-15T15:23:07Z] DNS CHANGE  subito.cam : 188.114.97.3 -> 188.114.96.3
+--- marker: 2026-06-15T15:23:13Z restart at 6h interval ---
+[2026-06-15T15:23:23Z] === monitor START (interval 21600s) pid=13758 ===

@@ -1,0 +1,28 @@
+Non-authoritative answer:
+Server:  dns1.dnsserver1.de
+Address:  46.38.225.230
+
+Name:    verifieer.cc
+Addresses:  2606:4700:3032::ac43:bfe0
+	  2606:4700:3031::6815:1449
+	  172.67.191.224
+	  104.21.20.73
+
+
+Non-authoritative answer:
+Server:  dns1.dnsserver1.de
+Address:  46.38.225.230
+
+Name:    subito.verifieer.cc
+Addresses:  2606:4700:3031::6815:1449
+	  2606:4700:3032::ac43:bfe0
+	  104.21.20.73
+	  172.67.191.224
+
+
+Non-authoritative answer:
+Server:  dns1.dnsserver1.de
+Address:  46.38.225.230
+
+verifieer.cc	nameserver = amy.ns.cloudflare.com
+verifieer.cc	nameserver = quincy.ns.cloudflare.com

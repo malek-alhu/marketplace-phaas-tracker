@@ -1,0 +1,53 @@
+name: infra-monitor
+
+# Keyless infrastructure tracker for the marketplace-PhaaS cluster.
+# Runs every 6 hours, commits any new state/findings back to the repo, and
+# opens a GitHub Issue when a new indicator appears. "Live view" of the
+# operation = this repo's commit history + Issues + the Actions tab.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours (UTC)
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: write            # commit the log/state/findings back to the repo
+  issues: write              # open an alert Issue on new indicators
+
+concurrency:
+  group: infra-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run infrastructure tracker (keyless)
+        run: bash monitor/check.sh
+
+      - name: Commit log + state + findings
+        run: |
+          git config user.name  "infra-monitor"
+          git config user.email "actions@users.noreply.github.com"
+          git add monitor/monitor.log monitor/state monitor/findings.csv || true
+          git commit -m "monitor: $(date -u +%FT%TZ)" || echo "no changes to commit"
+          git push || true
+
+      - name: Alert on new indicators (opens an Issue → you get notified)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -s monitor/NEW_THIS_RUN.txt ]; then
+            gh issue create \
+              --title "New marketplace-PhaaS infrastructure — $(date -u +%F)" \
+              --body "$(printf 'New indicators captured by the keyless tracker on %s (UTC):\n\n' "$(date -u +%FT%TZ)"; sed 's/^/- `/; s/$/`/' monitor/NEW_THIS_RUN.txt; printf '\n\nSee `monitor/findings.csv` and `monitor/monitor.log` for the full record.')"
+          else
+            echo "no new indicators — no issue opened"
+          fi

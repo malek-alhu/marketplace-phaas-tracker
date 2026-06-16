@@ -1,0 +1,26 @@
+HTTP/1.1 307 Temporary Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html
+Date: Sun, 14 Jun 2026 22:34:24 GMT
+Location: https://www.verifica.cc/
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: cdg1::s7226-1781476464547-051a1b973a1c
+Transfer-Encoding: chunked
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline
+Content-Length: 919
+Content-Type: text/html; charset=utf-8
+Date: Sun, 14 Jun 2026 22:34:25 GMT
+Etag: "a6b097c7de57146c3f35652acb6d2963"
+Last-Modified: Sun, 14 Jun 2026 22:34:25 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: cdg1::kc8cg-1781476464884-3d14b9adc3c2
+

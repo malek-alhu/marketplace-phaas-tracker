@@ -1,0 +1,107 @@
+{
+  "results": [
+    {
+      "submitter": {},
+      "task": {
+        "visibility": "public",
+        "method": "api",
+        "domain": "donshriversvideodrain.com",
+        "apexDomain": "donshriversvideodrain.com",
+        "time": "2026-06-06T16:08:13.827Z",
+        "uuid": "019e9db1-0700-7785-942e-c66131c97c9e",
+        "url": "https://donshriversvideodrain.com/766d330",
+        "tags": [
+          "hybridanalysis"
+        ]
+      },
+      "stats": {
+        "uniqIPs": 6,
+        "uniqCountries": 1,
+        "dataLength": 9802787,
+        "encodedDataLength": 1687420,
+        "requests": 112
+      },
+      "page": {
+        "server": "cloudflare",
+        "redirected": "off-domain",
+        "ip": "172.67.191.224",
+        "apexDomainAgeDays": 123,
+        "language": "it",
+        "mimeType": "text/html",
+        "title": "Seggiolino per bicicletta | SUBITO.IT",
+        "url": "https://subito.verifieer.cc/a/Mi8zRFdpNjBQbmFS?us=gm",
+        "tlsValidDays": 90,
+        "tlsAgeDays": 4,
+        "domainAgeDays": 30,
+        "tlsValidFrom": "2026-06-01T16:28:17.000Z",
+        "domain": "subito.verifieer.cc",
+        "apexDomain": "verifieer.cc",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "WE1",
+        "status": "200"
+      },
+      "_id": "019e9db1-0700-7785-942e-c66131c97c9e",
+      "_score": null,
+      "sort": [
+        1780762093827,
+        "019e9db1-0700-7785-942e-c66131c97c9e"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019e9db1-0700-7785-942e-c66131c97c9e/",
+      "screenshot": "https://urlscan.io/screenshots/019e9db1-0700-7785-942e-c66131c97c9e.png"
+    },
+    {
+      "submitter": {},
+      "task": {
+        "visibility": "public",
+        "method": "api",
+        "domain": "verifieer.cc",
+        "apexDomain": "verifieer.cc",
+        "time": "2026-02-03T16:37:07.859Z",
+        "uuid": "019c245d-42fa-76a4-9623-eaada7d19e94",
+        "url": "http://verifieer.cc/",
+        "tags": [
+          "@ecarlesi",
+          "possiblethreat"
+        ]
+      },
+      "stats": {
+        "uniqIPs": 2,
+        "uniqCountries": 1,
+        "dataLength": 501856,
+        "encodedDataLength": 148437,
+        "requests": 13
+      },
+      "page": {
+        "server": "cloudflare",
+        "redirected": "https-only",
+        "ip": "104.21.20.73",
+        "apexDomainAgeDays": 0,
+        "language": "en",
+        "mimeType": "text/html",
+        "url": "https://verifieer.cc/",
+        "tlsValidDays": 90,
+        "tlsAgeDays": 0,
+        "domainAgeDays": 0,
+        "tlsValidFrom": "2026-02-03T13:24:43.000Z",
+        "domain": "verifieer.cc",
+        "apexDomain": "verifieer.cc",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "WE1",
+        "status": "404"
+      },
+      "_id": "019c245d-42fa-76a4-9623-eaada7d19e94",
+      "_score": null,
+      "sort": [
+        1770136627859,
+        "019c245d-42fa-76a4-9623-eaada7d19e94"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019c245d-42fa-76a4-9623-eaada7d19e94/",
+      "screenshot": "https://urlscan.io/screenshots/019c245d-42fa-76a4-9623-eaada7d19e94.png"
+    }
+  ],
+  "total": 2,
+  "took": 759,
+  "has_more": false
+}

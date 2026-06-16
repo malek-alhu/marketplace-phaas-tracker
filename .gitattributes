@@ -1,0 +1,5 @@
+# Keep shell/JS LF-only so the keyless tracker runs correctly on Linux CI runners.
+*.sh   text eol=lf
+*.js   text eol=lf
+# Treat recovered kit bundles as opaque text (no EOL normalization, no diffs).
+kit-source/** -text

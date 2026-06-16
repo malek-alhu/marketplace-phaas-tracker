@@ -1,0 +1,31 @@
+# Marketplace-PhaaS infrastructure tracker — watchlist
+# ---------------------------------------------------------------------------
+#  Lines containing a dot  = apex domains.
+#       -> CT-log subdomain expansion (certspotter + crt.sh) + DNS re-resolution.
+#  Bare tokens (no dot)    = name-pattern fragments.
+#       -> CT-log substring search (crt.sh %token%) + urlscan correlation.
+#  Comments start with '#'. One entry per line. Edit freely — this file drives
+#  every query the tracker runs, so adding a brand/cluster here starts watching it.
+# ---------------------------------------------------------------------------
+
+# --- tracked apexes (Operator-A kit + redirector cluster) ---
+verifieer.cc
+verifa.cc
+pagamento.cc
+subito.cam
+express-paycore24.cyou
+paycore24-express.sbs
+paycore24-express.cfd
+
+# --- name-pattern tokens (kit / cluster naming conventions) ---
+# Substring-matched in CT logs (crt.sh %token%). Prefer DISTINCTIVE, compound
+# fragments — generic words ("paysend", "paczka", "skrill", "verify", "subito")
+# collide with thousands of legitimate domains and only add noise. Token hits are
+# reported as lower-confidence "candidates" (and are NOT auto-resolved). Tune here.
+paycore
+sendcore
+corepay
+paycore24
+paycore-send
+paysend-paczka
+express-paycore

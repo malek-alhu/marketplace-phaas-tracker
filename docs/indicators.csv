@@ -1,0 +1,114 @@
+type,indicator,operator,brand,asn,first_seen,passive_priority,notes
+domain,verifieer.cc,A,Subito,AS13335(Cloudflare),2026-02-03,high,"apex; RDAP/CT/passiveDNS"
+domain,subito.verifieer.cc,A,Subito,AS13335,2026-06-06,high,"lead incident host (now NXDOMAIN)"
+domain,subito.cam,A,Subito,AS13335,2026-06-04,high,"live; Cloudflare 'Suspected Phishing'"
+domain,subito.pagamento.cc,A,Subito,AS13335,2026-02-09,high,
+domain,subito-ricevere-il-pagamento.click,A,Subito,AS13335,2026-02-23,high,"capture has live operator chat"
+domain,pagamento.cc,A,Subito,AS13335,2026-02-09,high,"apex"
+domain,olx.paycore24-express.sbs,A,OLX,AS13335,2026-06-14,high,"rendered kit source recovered here"
+domain,olx.paycore24-express.cfd,A,OLX,AS13335,2026-06-13,high,
+domain,olx.express-paycore24.cyou,A,OLX,AS13335,2026-06-15,high,"LIVE - caught by monitor; NS ashton/rose"
+domain,express-paycore24.cyou,A,OLX,AS13335,2026-06-15,high,"apex"
+domain,olx.paycore-private.cyou,A,OLX,AS13335,2026-06-13,high,
+domain,olx.paycore-send.xyz,A,OLX,AS13335,2026-06-11,high,
+domain,olx.paycore-send.shop,A,OLX,AS13335,2026-06-12,high,
+domain,olx.paycore-send.sbs,A,OLX,AS13335,2026-06-11,high,
+domain,olx.paysend-paczka.shop,A,OLX,AS13335,2026-06-11,high,
+domain,olx.paysend-paczka.xyz,A,OLX,AS13335,2026-06-10,high,
+domain,olx.paycore-deal.xyz,A,OLX,AS13335,2026-06-09,high,
+domain,olx.paycore-deal.shop,A,OLX,AS13335,2026-06-09,high,
+domain,olx.sendcore.sbs,A,OLX,AS13335,2026-06-06,high,
+domain,olx.sendcore.cyou,A,OLX,AS13335,2026-06-06,high,
+domain,olx.sendcore.bond,A,OLX,AS13335,2026-06-07,high,
+domain,olx.corepay.sbs,A,OLX,AS13335,2026-06-04,high,
+domain,olx.corepay.bond,A,OLX,AS13335,2026-06,high,
+domain,olx.paycore-cdd.cfd,A,OLX,AS13335,2026-06-01,high,
+domain,olx.paycore-cdd.sbs,A,OLX,AS13335,2026-06-02,high,
+domain,olx.billing-skrill.cyou,A,OLX,AS13335,2026-04-17,high,"payment stage"
+domain,olx.processing-skrill.icu,A,OLX,AS13335,2026-03-17,high,"payment stage"
+domain,olx.inteligentnatransakcja24.cyou,A,OLX,AS13335,2025-08,high,
+domain,olx.pl-696967.sbs,A,OLX,AS13335,2026-06,high,
+domain,ordr-747289.com,A,OMNIVA,AS13335,2026-01-23,high,"OMNIVA brand"
+domain,srvc-de836549.info,A,Kleinanzeigen,AS13335,2026-06,high,
+domain,9853192.biz,A,Kleinanzeigen,AS13335,2026-06,high,
+domain,id5963835.live,A,Marktplaats,AS13335,2026-06,high,
+domain,donshriversvideodrain.com,redirector,multi,AS13335,2008/2026-06-01,high,"Gname; x-rate-limit:3; NS celeste/rob"
+domain,zhkjcx.org,redirector,multi,AS13335,2012/2026-06-12,high,"Gname; NS hank/lovisa"
+domain,dacajncritter.com,redirector,multi,AS13335,2026-06,high,"Gname; NS andronicus/virginia"
+domain,91tangeche.com,redirector,multi,AS-share-dns,2026-06,high,"Gname; status client hold"
+domain,welcomeshopping.best,redirector,multi,AS13335,2026-06,high,"NameSilo; NS autumn/gordon"
+domain,pdfprotectfree.com,redirector,multi,N/A,2026-06,high,"NameSilo; InPost/Marktplaats"
+url,https://subito.verifieer.cc/a/Mi8zRFdpNjBQbmFS?us=gm,A,Subito,AS13335,2026-06-06,high,"lead lure URL; urlscan 019e9db1"
+url,https://olx.paycore24-express.sbs/a/Mi9XT0tHSjNwUjk0?us=gm,A,OLX,AS13335,2026-06-14,high,"urlscan 019ec607"
+url,https://olx.express-paycore24.cyou/a/Mi9mNGY2blplM1E4?us=gm,A,OLX,AS13335,2026-06-15,high,"urlscan 019ecbd3 (live)"
+url,https://subito.pagamento.cc/a/Mi9taGRJOWdsNDBt,A,Subito,AS13335,2026-02-09,high,"urlscan 019c42ae"
+url,https://subito-ricevere-il-pagamento.click/a/Mi9aazlSODAxTXNG,A,Subito,AS13335,2026-02-23,high,"urlscan 019c8c90"
+ip,172.67.191.224,A,multi,AS13335,2026-06-06,low,"Cloudflare edge - shared CDN, NOT origin"
+ip,104.21.20.73,A,multi,AS13335,2026-06-06,low,"Cloudflare edge"
+ip,188.114.96.3,A,multi,AS13335,2026-06,low,"Cloudflare edge"
+ip,188.114.97.3,A,multi,AS13335,2026-06,low,"Cloudflare edge"
+ip,104.21.80.164,A,Subito,AS13335,2026-02-23,low,"Cloudflare edge"
+ip,172.67.150.57,A,OLX,AS13335,2026-06-14,low,"Cloudflare edge"
+ip,104.21.54.53,A,OLX,AS13335,2026-06-15,low,"Cloudflare edge"
+ip,172.67.223.218,A,OLX,AS13335,2026-06-15,low,"Cloudflare edge"
+ip,172.67.144.163,A,OMNIVA,AS13335,2026-01-23,low,"Cloudflare edge"
+ip,91.206.169.122,B,Subito,AS210558,2025-12,critical,"REAL ORIGIN - 1337 Services GmbH (rdp.sh) bulletproof; abuse@as210558.net"
+ip,2.58.56.70,B,Subito,AS210558,2025-09,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,2.58.56.111,B,Subito,AS210558,2025-05,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,2.58.56.153,B,Subito,AS210558,2024-07,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,2.58.56.189,B,Subito,AS210558,2022-10,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,45.138.16.165,B,Subito,AS210558,2023-10,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,45.138.16.203,B,Subito,AS210558,2025-05,critical,"REAL ORIGIN - 1337 Services GmbH (login-subito.it)"
+ip,45.141.215.196,B,Subito,AS210558,2025-10,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,185.241.208.197,B,Subito,AS210558,2025-05,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,185.241.208.228,B,Subito,AS210558,2025-07,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,194.26.192.78,B,Subito,AS210558,2025-10,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,194.26.192.95,B,Subito,AS210558,2024-05,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,194.26.192.98,B,Subito,AS210558,2022-10,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,194.26.192.126,B,Subito,AS210558,2024-04,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,194.26.192.205,B,Subito,AS210558,2023-12,critical,"REAL ORIGIN - 1337 Services GmbH"
+ip,31.13.195.94,B,Subito,AS34224,2025-05,critical,"REAL ORIGIN (supportodati.com)"
+ip,87.120.254.37,B,Subito,AS34224,2025-01,critical,"REAL ORIGIN"
+ip,87.120.254.171,B,Subito,AS34224,2025-03,critical,"REAL ORIGIN"
+ip,212.73.134.129,B,Subito,AS34224,2025-02,critical,"REAL ORIGIN"
+ip,89.117.1.140,B,Subito,AS142036,2025-01,critical,"REAL ORIGIN (subito-dati.com)"
+ip,38.180.194.236,B,Subito,AS9009,2024-09,critical,"REAL ORIGIN"
+ip,194.102.39.119,B,Subito,AS9009,2022-09,critical,"REAL ORIGIN"
+ip,199.192.31.14,B,Subito,AS22612,2023-05,critical,"REAL ORIGIN (it-subito.it)"
+ip,66.29.141.228,B,Subito,AS22612,2022-12,critical,"REAL ORIGIN"
+ip,176.105.253.99,B,Subito,AS210779,2024-01,critical,"REAL ORIGIN"
+ip,185.166.188.245,B,Subito,AS47583,2022-12,critical,"REAL ORIGIN (confermaindirizzo)"
+ip,82.221.129.16,B,Subito,AS50613,2021-10,critical,"REAL ORIGIN"
+ip,82.221.105.39,B,Subito,AS50613,2022-01,critical,"REAL ORIGIN"
+domain,login-subito.it,B,Subito,AS210558,2025-05,high,"Operator B PHP kit"
+domain,supportodati.com,B,Subito,AS34224,2025-05,high,"Operator B PHP kit"
+domain,controlli-subito.it,B,Subito,AS210558,2025-05,high,"Operator B PHP kit"
+domain,verificasubito.it,B,Subito,AS210558,2026-02,high,"Operator B PHP kit"
+domain,verificatisubito.it,B,Subito,AS210558,2025-09,high,"Operator B PHP kit"
+domain,conferma-subito.me,B,Subito,AS210558,2022-10,high,"Operator B PHP kit"
+domain,consegna-subito.info,B,Subito,AS210558,2023-10,high,"Operator B PHP kit"
+domain,supportosubito.it,B,Subito,AS210558,2025-07,high,"Operator B PHP kit"
+domain,subito-dati.com,B,Subito,AS142036,2025-01,high,"Operator B PHP kit"
+domain,conferma-subito.com,B,Subito,AS34224,2025-02,high,"Operator B PHP kit"
+domain,datispedizione.com,B,Subito,AS34224,2025-03,high,"Operator B PHP kit"
+domain,utentesubito.it,B,Subito,AS210558,2025-12,high,"Operator B PHP kit"
+domain,verifa.cc,unknown,Subito,N/A,2024-10,medium,"sibling; status client hold (NameSilo)"
+endpoint,/a/<base64token>,A,kit,N/A,2026,info,"lure entry; token=base64('2/<id>')"
+endpoint,/helpdesk/<decoded-id>/<brand>,A,kit,N/A,2026,info,"personalised fake listing (iframe)"
+endpoint,/m/<token>/<base64(stripe/<cc>)>,A,kit,N/A,2026,info,"card-capture module (34 country variants)"
+endpoint,/cdn/<32hex>,A,kit,N/A,2026,info,"kit assets"
+endpoint,/static/helpdesk/audio/blackberry.mp3,A,kit,N/A,2026,info,"chat notification sound"
+endpoint,/api/v1/storage/<date>/<asset>,A,kit,N/A,2026,info,"brand template docs (Romanian observed)"
+endpoint,/geoip,A,kit,N/A,2026,info,"-> api.ip.sb (cloak/geo)"
+websocket,wss://<host>/ws/helpdesk,A,kit,N/A,2026,info,"operator console (live chat/control)"
+websocket,wss://<host>/api/ws/stripe/sync,A,kit,N/A,2026,info,"CARD-DATA EXFIL channel"
+websocket,wss://<host>/api/ws/sync,A,kit,N/A,2026,info,"state sync"
+3rd-party,api.ip.sb/geoip,A,kit,N/A,2026,info,"victim geo for cloaking"
+3rd-party,lookup.binlist.net,A,kit,N/A,2026,info,"card BIN -> issuer/bank"
+3rd-party,data.handyapi.com/bin/,A,kit,N/A,2026,info,"card BIN -> issuer/bank"
+3rd-party,v2.simpalsid.com/graphql,A,kit,N/A,2026,info,"Simpals/OLX auth relay"
+3rd-party,nominatim.openstreetmap.org,A,kit,N/A,2026,info,"reverse geocode"
+3rd-party,cdn.jsdelivr.net,A,kit,N/A,2026,info,"currency-api"
+nameserver,ashton.ns.cloudflare.com|rose.ns.cloudflare.com,A,OLX,AS13335,2026,high,"CF account fingerprint - OLX cluster"
+nameserver,amy.ns.cloudflare.com|quincy.ns.cloudflare.com,A,Subito,AS13335,2026,high,"CF account fingerprint - verifieer.cc"
+nameserver,diana.ns.cloudflare.com|jake.ns.cloudflare.com,A,Subito,AS13335,2026,high,"CF account fingerprint - subito.cam"

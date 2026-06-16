@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------
+# Never commit secrets or local recon target files.
+# ---------------------------------------------------------------------------
+*.key
+.shodan_key
+.netlas_key
+.urlscan_key
+.target
+.lure
+.env
+.env.*
+*_key
+*.pem
+*.p12
+
+# transient scratch
+*.tmp
+*.swp
+.DS_Store
+
+# the monitor's per-run delta file is regenerated each run (state/ IS committed)
+monitor/NEW_THIS_RUN.txt

@@ -1,0 +1,10 @@
+User-Agent: facebookexternalhit
+Allow: /
+
+User-Agent: Facebot
+Allow: /
+
+User-Agent: *
+Allow: /
+
+Host: subito.verifieer.cc

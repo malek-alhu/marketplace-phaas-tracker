@@ -1,0 +1,144 @@
+# Subito.it phishing history (urlscan, captured 2026-06-15)
+# NOTE: mixes MULTIPLE kits/operators targeting Subito over 2021-2026 — see DOSSIER for which belong to the analyzed Next.js PhaaS.
+
+Subito-titled/host kit captures: 156 | distinct Subito hosts: 69
+
+=== ALL Subito kit pages (one per host, earliest capture) ===
+  2021-09-20T15:06  www.subito.it                      404 ip=2.18.233.153    ASAS16625  [Subito.it]
+        https://www.subito.it/cash57529275  (scan 4b25cb0f-8990-48a0-a8ec-36ac7029fe1c)
+  2021-10-26T00:56  www.areapagasicuro-tuttosbito.it   200 ip=82.221.129.16   ASAS50613  [TuttoSubito: ricarica il tuo account con il n]
+        https://www.areapagasicuro-tuttosbito.it/  (scan 75b37e27-0ba4-4cf0-9b6f-2c10e7d43cb0)
+  2021-11-24T16:18  subito.delivery01526.icu           200 ip=95.181.152.174  ASAS211390  [Registrazione e ricezione dei fondi - subito.]
+        https://subito.delivery01526.icu/annunci/accensione-ducati-husqvarna-sm-wre-125-bergamo-4119350  (scan ceffbe50-69df-4791-b8fc-537b5496d909)
+  2022-01-14T13:46  infoarea-pagasicuro.it             200 ip=82.221.105.39   ASAS50613  [TuttoSubito: ricarica il tuo account con il n]
+        https://infoarea-pagasicuro.it/tuttosubito/index.php  (scan 55919061-fce4-4a2b-9e2e-a90890f148e3)
+  2022-04-05T14:02  areariservata.subito.it            200 ip=23.32.58.209    ASAS16625  [Recupera password - Subito.it]
+        https://areariservata.subito.it/sendpass?utm_source=pw-compromised  (scan 7f56346f-edb0-4a3d-9fc5-eaeace55ce86)
+  2022-08-26T09:27  subito.payment-delivery.com        200 ip=2a06:98c1:3121::c ASAS13335  [Annunci: vendere, comprare in subito.it]
+        https://subito.payment-delivery.com/receive/order/gPobJZMM5  (scan a2d25a6e-a3eb-4ab4-8c0a-87b06a57737f)
+  2022-09-09T19:57  support11.xyz                      200 ip=194.102.39.119  ASAS9009  [Login area riservata - Subito.it]
+        https://support11.xyz/  (scan 6d890295-c900-4b55-852f-edf57eb9a88b)
+  2022-09-29T12:59  verifica.check-subito.me           200 ip=3.83.217.33     ASAS14618  [Login area riservata - Subito.it]
+        https://verifica.check-subito.me/accesso.php  (scan 7553ef93-aa2b-4356-9bd4-59b1f9a93303)
+  2022-10-17T08:25  www.conferma-subito.me             200 ip=2.58.56.189     ASAS210558  [Login area riservata - Subito.it]
+        https://www.conferma-subito.me/  (scan df6be458-8256-4d94-882e-7fa06c163b8a)
+  2022-10-20T11:32  www.subito-conferma.me             200 ip=194.26.192.98   ASAS210558  [Login area riservata - Subito.it]
+        https://www.subito-conferma.me/  (scan a18799bf-418a-490d-9f26-7f52b637d617)
+  2022-10-20T11:33  subito-conferma.me                 200 ip=194.26.192.98   ASAS210558  [Login area riservata - Subito.it]
+        https://subito-conferma.me/  (scan 5ae3f22f-8c64-462e-aa4b-843730f170af)
+  2022-12-16T13:47  www.loginsubito.online             200 ip=66.29.141.228   ASAS22612  [Subito.it]
+        https://www.loginsubito.online/  (scan 07ca3c70-9d2a-4881-b935-e7d9e1287ac6)
+  2022-12-17T14:29  www.confermaindirizzo.it           200 ip=185.166.188.245 ASAS47583  [Subito.it]
+        https://www.confermaindirizzo.it/  (scan 044e8d76-aaea-4466-b7a0-abdc143c256a)
+  2022-12-18T14:06  confermaindirizzo.com              200 ip=2a02:4780:8:998:0:31ec:bb7e:2 ASAS47583  [Subito.it]
+        https://confermaindirizzo.com/  (scan 25bdb64c-4c00-4b0f-9e10-ce084b8096f5)
+  2022-12-20T14:18  www.confermaindirizzo.com          200 ip=2a02:4780:8:998:0:2583:4e4b:2 ASAS47583  [Subito.it]
+        https://www.confermaindirizzo.com/  (scan a612b62e-a0d8-4171-a8c5-0dc8d7d5cc46)
+  2023-01-08T19:11  subito-confermaindirizzo.it        200 ip=2a06:98c1:3120::3 ASAS13335  [Login area riservata - Subito.it]
+        https://subito-confermaindirizzo.it/  (scan 72059000-cebe-4143-9674-15cc28147083)
+  2023-05-25T09:57  it-subito.it                       200 ip=199.192.31.14   ASAS22612  [Login area riservata - Subito.it]
+        https://it-subito.it/  (scan 680c90bb-5452-4111-8452-101c0ddfa1a7)
+  2023-05-25T09:59  posbyzooz.com                      200 ip=199.192.31.14   ASAS22612  [Login area riservata - Subito.it]
+        http://posbyzooz.com/  (scan 2f596f70-7dd0-4b8b-9eb3-768076eff388)
+  2023-07-27T20:58  sdblog.it                          200 ip=185.2.5.67      ASAS203461  [TRUFFA su Subito.it - Attenzione a TuttoSubit]
+        https://sdblog.it/truffa-su-subito-it-tuttosubito-truffe-pagamenti-sms-falsi-link/  (scan 99481771-da7b-443f-8127-db99cd89b168)
+  2023-10-04T14:36  consegna-subito.info               200 ip=45.138.16.165   ASAS210558  [Login area riservata - Subito.it]
+        https://consegna-subito.info/  (scan e6e8d32b-d2a0-4f9c-821a-ec7734d13abf)
+  2023-10-04T14:41  www.consegna-subito.info           200 ip=45.138.16.165   ASAS210558  [Login area riservata - Subito.it]
+        https://www.consegna-subito.info/  (scan 23548a7b-50a5-4264-abe9-dd3e8eadb3e2)
+  2023-12-18T09:43  confermare-subito.it               200 ip=194.26.192.205  ASAS210558  [Login area riservata - Subito.it]
+        https://confermare-subito.it/  (scan d48650d9-fd7b-4de7-a035-9225c34eb4ae)
+  2023-12-20T15:36  www.vesparesources.com             200 ip=95.110.225.213  ASAS31034  [Faro basso - subito.it - eBay's news - VESPAR]
+        https://www.vesparesources.com/topic/13867-faro-basso-subitoit/?tab=comments  (scan c28a66fb-dffc-44e0-9fbb-803b7d524617)
+  2023-12-22T14:17  subitotracking.com                 200 ip=2a06:98c1:3121::9 ASAS13335  [Login area riservata - Subito.it]
+        https://subitotracking.com/  (scan 0247e368-db42-4fed-a334-b7cca719c5c1)
+  2024-01-29T15:35  supporto.subito.it-cliente.site    200 ip=176.105.253.99  ASAS210779  [Login area riservata - Subito.it]
+        https://supporto.subito.it-cliente.site/  (scan 1824abfd-5f58-41c6-b775-d68f4471d90e)
+  2024-04-22T22:10  www.servizio-clienti-subito.it     200 ip=194.26.192.126  ASAS210558  [Login area riservata - Subito.it]
+        https://www.servizio-clienti-subito.it/  (scan 4e9990b9-e398-4a85-9995-578110a665c0)
+  2024-04-23T08:21  servizio-clienti-subito.it         200 ip=194.26.192.126  ASAS210558  [Login area riservata - Subito.it]
+        https://servizio-clienti-subito.it/  (scan 9a005c74-ff64-4bec-98eb-b1122c3a68d5)
+  2024-05-30T14:12  aiuto-tuttosubito.it               200 ip=194.26.192.95   ASAS210558  [Login area riservata - Subito.it]
+        https://aiuto-tuttosubito.it/  (scan 4f87f06a-4b30-4c1b-aa60-992cca99cb5a)
+  2024-07-25T12:15  perfectpairportal.com              200 ip=3.162.125.18    ASAS16509  [SUBITO.IT DEL SESSO]
+        https://perfectpairportal.com/it/cd-it-tpl_2-resp-10s_milf_1220_ani_bgw_smartdn/index.html  (scan 645cc513-bc16-4fbe-9c0c-1f2a7a00f8f5)
+  2024-07-27T19:51  etichetta-subito.it                200 ip=2.58.56.153     ASAS210558  [Login area riservata - Subito.it]
+        https://etichetta-subito.it/  (scan 1aba19fb-6df4-4f69-a83c-27cc52dcb45a)
+  2024-08-25T13:06  www.annunci-subito.it              200 ip=89.46.110.66    ASAS31034  [Annunci Subito.it Tutta Italia - vendo e comp]
+        https://www.annunci-subito.it/  (scan 3e4dc012-cf5c-4b69-b23a-90432806ca2b)
+  2024-09-18T09:35  subito.confermadati.info           200 ip=38.180.194.236  ASAS9009  [Login Area Riservata - Subito.it]
+        https://subito.confermadati.info/  (scan d08217ec-a01e-4189-bb3e-375c3d1ac452)
+  2024-10-09T03:32  centro-assistenza-subito.it         ip=                AS  [centro-assistenza-subito.it]
+        http://centro-assistenza-subito.it/  (scan 2733196a-ada2-4c25-bdbf-9a875113ceb6)
+  2024-10-27T09:34  info-subito.it                      ip=                AS  [info-subito.it]
+        http://info-subito.it/  (scan 5e662361-42ad-4e7a-87ce-76f191585f58)
+  2025-01-12T06:02  subito-dati.com                    200 ip=89.117.1.140    ASAS142036  [Login Area Riservata - Subito.it]
+        https://subito-dati.com/  (scan b3e9d3c3-9fd0-4669-b793-48a7ef5ceb7a)
+  2025-01-23T10:09  www.subito-conferma.com            200 ip=87.120.254.37   ASAS34224  [Login Area Riservata - Subito.it]
+        https://www.subito-conferma.com/  (scan a2425330-570c-4d5f-ae0b-b57e86f699e4)
+  2025-02-10T13:25  www.conferma-subito.com            200 ip=212.73.134.129  ASAS34224  [Login Area Riservata - Subito.it]
+        https://www.conferma-subito.com/  (scan b556758c-b061-45be-af8f-a9693d527357)
+  2025-02-14T18:54  conferma-subito.com                200 ip=212.73.134.129  ASAS34224  [Login Area Riservata - Subito.it]
+        https://conferma-subito.com/  (scan 5b0c883b-6f32-4018-8450-9859970d137e)
+  2025-03-21T17:58  datispedizione.com                 200 ip=87.120.254.171  ASAS34224  [Login Area Riservata - Subito.it]
+        https://datispedizione.com/  (scan 0195b9da-eb19-7447-b581-09b11f197087)
+  2025-04-28T13:43  datiordine.com                     200 ip=87.120.254.171  ASAS34224  [Login Area Riservata - Subito.it]
+        https://datiordine.com/  (scan 01967ca3-08d4-700a-bed1-9a0d1e7ec219)
+  2025-05-10T08:39  subito.supportodati.com            200 ip=31.13.195.94    ASAS34224  [Login Area Riservata - Subito.it]
+        https://subito.supportodati.com/  (scan 0196b959-0f09-773f-9c90-84982d1d6248)
+  2025-05-10T08:40  www.supportodati.com               200 ip=31.13.195.94    ASAS34224  [Login Area Riservata - Subito.it]
+        https://www.supportodati.com/  (scan 0196b959-d9af-76db-8b79-ecfc7acd7120)
+  2025-05-20T07:44  www.controlli-subito.it            200 ip=185.241.208.197 ASAS210558  [Login area riservata - Subito.it]
+        https://www.controlli-subito.it/  (scan 0196eca6-23e9-745d-8c28-64194e179fb7)
+  2025-05-20T13:28  controlli-subito.it                200 ip=185.241.208.197 ASAS210558  [Login area riservata - Subito.it]
+        https://controlli-subito.it/  (scan 0196ede1-1c37-77c9-8678-6b9059d1f716)
+  2025-05-23T09:46  localmatures.info                  200 ip=188.114.97.3    ASAS13335  [SUBITO.IT per Sesso Stasera!]
+        https://localmatures.info/U/SubitoX/IT-Matures.php?s=285996219  (scan 0196fc89-5cb9-729a-bf1a-56a74e2b571f)
+  2025-05-24T12:57  collector.login-subito.it          200 ip=45.138.16.203   ASAS210558  [Subito.it]
+        https://collector.login-subito.it/  (scan 0197025e-3e1a-72b8-a6a7-065c1c2912f4)
+  2025-05-24T17:27  segnalazionisubito.it              200 ip=2.58.56.111     ASAS210558  [Login area riservata - Subito.it]
+        https://segnalazionisubito.it/  (scan 01970355-c778-72d9-83df-b141b9880e11)
+  2025-05-24T20:07  login-subito.it                    200 ip=45.138.16.203   ASAS210558  [Login area riservata - Subito.it]
+        https://login-subito.it/login/index.php  (scan 019703e8-381c-76fa-8496-55aeab139772)
+  2025-05-25T22:32  tags.login-subito.it               200 ip=45.138.16.203   ASAS210558  [Subito.it]
+        https://tags.login-subito.it/  (scan 01970993-5f43-7753-a3fc-b42003ea0600)
+  2025-05-26T18:39  hades.login-subito.it              200 ip=45.138.16.203   ASAS210558  [Login area riservata - Subito.it]
+        https://hades.login-subito.it/login/index.php  (scan 01970de4-684e-70ec-b5f5-8ed199c9f16a)
+  2025-07-02T16:25  newslibrarykbrtw.web.app           200 ip=2620:0:890::100 ASAS54113  [Scaricare subito.it per ipad]
+        https://newslibrarykbrtw.web.app/scaricare-subitoit-per-ipad-cuhe.html  (scan 0197cbf5-2fc8-729f-a72a-6ba86f96dcc3)
+  2025-07-28T06:14  www.supportosubito.it              200 ip=185.241.208.228 ASAS210558  [Login area riservata - Subito.it]
+        https://www.supportosubito.it/  (scan 01984faa-c6a6-736d-b0b6-af234fdf7568)
+  2025-07-29T11:33  www.serviziosubito.it              200 ip=185.241.208.228 ASAS210558  [Login area riservata - Subito.it]
+        https://www.serviziosubito.it/  (scan 019855f5-0217-730a-b2af-61e0b4f92181)
+  2025-08-16T17:59  n8n.ernepriv.it                    200 ip=2.39.54.29      ASAS30722  [SUBITO.IT Analisi Prodotto]
+        https://n8n.ernepriv.it/form/d2ca5fd9-532e-4bd4-a99e-c19d50482a68/  (scan 0198b409-873c-71b9-b68d-6f5125336bb2)
+  2025-09-12T13:52  www.verificatisubito.it            200 ip=2.58.56.70      ASAS210558  [Login area riservata - Subito.it]
+        https://www.verificatisubito.it/  (scan 01993e32-eedd-722b-a196-cc2a47a65ff0)
+  2025-09-17T07:49  www.verificatosubito.it            200 ip=2.58.56.70      ASAS210558  [Login area riservata - Subito.it]
+        https://www.verificatosubito.it/  (scan 019956a6-0695-7088-af71-7332b4e5aace)
+  2025-10-01T12:15  clientiverificatisubito.it         200 ip=188.114.96.3    ASAS13335  [Login area riservata - Subito.it]
+        https://clientiverificatisubito.it/  (scan 01999fb2-d1dc-72a9-b422-125b903512d6)
+  2025-10-08T09:13  www.riattivazionesubito.it         200 ip=45.141.215.196  ASAS210558  [Login area riservata - Subito.it]
+        https://www.riattivazionesubito.it/  (scan 0199c318-851a-7558-9754-2332a0edcac4)
+  2025-10-13T09:15  www.verificandosubito.it           200 ip=194.26.192.78   ASAS210558  [Login area riservata - Subito.it]
+        https://www.verificandosubito.it/  (scan 0199dcda-0b18-779c-94d1-3d7ce0e5d358)
+  2025-10-30T11:15  subito-verifica.com                200 ip=2a06:98c1:3120::3 ASAS13335  [Login area riservata - Subito.it]
+        https://subito-verifica.com/accedi  (scan 019a34d4-5d9d-7026-999e-f27fb7c87d94)
+  2025-12-23T09:09  utentesubito.it                    200 ip=91.206.169.122  ASAS210558  [Login area riservata - Subito.it]
+        https://utentesubito.it/  (scan 019b4a78-b7cd-718e-9452-08fd64c8df94)
+  2025-12-29T09:40  subito.orderscheck.vu              200 ip=104.21.6.115    ASAS13335  [Subito.it | Subito]
+        https://subito.orderscheck.vu/order/ggrexjyca/  (scan 019b697b-3d21-748e-bbb4-c753e308bc94)
+  2026-01-20T13:58  www.rimuovilimitisubito.it         200 ip=91.206.169.122  ASAS210558  [Login area riservata - Subito.it]
+        https://www.rimuovilimitisubito.it/  (scan 019bdbb2-f0f1-7711-a472-d2d1277eb80d)
+  2026-02-02T13:26  verificasubito.it                  200 ip=91.206.169.122  ASAS210558  [Login area riservata - Subito.it]
+        https://verificasubito.it/  (scan 019c1e88-49d3-7180-9eae-6567f248b671)
+  2026-02-09T13:53  subito.pagamento.cc                200 ip=188.114.97.3    ASAS13335  [Kolo sportiwne | SUBITO.IT]
+        https://subito.pagamento.cc/a/Mi9taGRJOWdsNDBt  (scan 019c42ae-0b96-76da-98dd-75d421eae184)
+  2026-02-23T22:13  subito-ricevere-il-pagamento.click 200 ip=104.21.80.164   ASAS13335  [t-shirt cappelli | SUBITO.IT]
+        https://subito-ricevere-il-pagamento.click/a/Mi9aazlSODAxTXNG  (scan 019c8c90-9e18-7438-aa00-5a4157e9ca42)
+  2026-04-03T11:52  www.verificasubito.it              200 ip=172.67.203.142  ASAS13335  [Login area riservata - Subito.it]
+        https://www.verificasubito.it/  (scan 019d532f-a344-7246-8a65-5f4654d2d4e2)
+  2026-06-04T03:10  subito.cam                         403 ip=188.114.97.3    ASAS13335  [Suspected Phishing | Cloudflare]
+        https://subito.cam/  (scan 019e909c-3bfd-755c-9f48-77df174e12e0)
+  2026-06-06T16:08  subito.verifieer.cc                200 ip=172.67.191.224  ASAS13335  [Seggiolino per bicicletta | SUBITO.IT]
+        https://subito.verifieer.cc/a/Mi8zRFdpNjBQbmFS?us=gm  (scan 019e9db1-0700-7785-942e-c66131c97c9e)

@@ -1,0 +1,4 @@
+issuer=C=US, O=Google Trust Services, CN=WE1
+subject=CN=verifieer.cc
+notBefore=Jun  1 16:28:17 2026 GMT
+notAfter=Aug 30 17:08:32 2026 GMT

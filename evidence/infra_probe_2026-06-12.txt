@@ -1,0 +1,7 @@
+Checked: 2026-06-12T21:0x UTC
+subito.verifieer.cc/a/Mi8zRFdpNjBQbmFS?us=gm -> HTTP 404 (victim token expired)
+apex verifieer.cc/ -> 404 ; subito.verifieer.cc/ -> 404 (app alive, Next.js)
+/robots.txt -> 200 (allows facebookexternalhit + Facebot)
+/api -> 301 -> /api/ ; /sitemap.xml,/login,/admin,/a,/favicon.ico -> 500 (server-side render errors, app present)
+alt-svc h3 (HTTP/3 enabled), Server: cloudflare
+favicon md5: 9eda35c771bdc22ad0cf0b51290b8492 (HTTP 500 body)
