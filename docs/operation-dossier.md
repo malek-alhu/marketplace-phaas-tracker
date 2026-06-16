@@ -115,6 +115,13 @@ WhatsApp Business **`+39 350 860 6411`** (no public scam-DB footprint — fresh 
 ---
 
 ## 6. Visual evidence — screenshots (`screenshots/`) [H]
+> **Publicly verifiable re-scans (submitted public on urlscan.io):** `subito.cam` →
+> https://urlscan.io/result/019ed04a-9141-777f-bbfc-8a647c160bae/ ·
+> `olx.express-paycore24.cfd` → https://urlscan.io/result/019ed04a-9fbf-748a-8226-9cbb121ea75c/ .
+> The original captures below (UUIDs `019e9db1`/`019ec607`/… ) were private to the submitting urlscan
+> account; visibility cannot be changed post-submission and the other hosts are now NXDOMAIN, so the
+> verbatim results + PNGs are preserved here in `evidence/` and `screenshots/`.
+
 | File (scan UUID) | Captured | What it shows |
 |---|---|---|
 | `019e9db1-….png` | **2026-06-06** | Fake Subito "Seggiolino per bicicletta" €15, fake buyer "Francesca Danesi / Teramo", Stripe box, "Ricevi fondi", **live operator chat** instructing card entry. |

@@ -137,6 +137,24 @@ Note on confidence: Cloudflare edge IPs are shared CDN addresses, **not** the op
 they are tagged as such. The actionable IP leads are the **Operator-B real origins** (AS210558 et al.)
 in `indicators.csv`.
 
+## Public evidence on urlscan.io
+
+Publicly viewable scans of the cluster domains that were still live at publication — submitted as
+**public** so anyone can verify them independently:
+
+| Domain | urlscan result | Screenshot |
+|---|---|---|
+| `subito.cam` | https://urlscan.io/result/019ed04a-9141-777f-bbfc-8a647c160bae/ | https://urlscan.io/screenshots/019ed04a-9141-777f-bbfc-8a647c160bae.png |
+| `olx.express-paycore24.cfd` | https://urlscan.io/result/019ed04a-9fbf-748a-8226-9cbb121ea75c/ | https://urlscan.io/screenshots/019ed04a-9fbf-748a-8226-9cbb121ea75c.png |
+
+The historical scans cited in `docs/` (UUIDs `019e9db1`, `019ec607`, `019ecbd3`, `019c42ae`,
+`019c8c90`, `019e909c`) were captured **privately** to the submitting account. urlscan does **not**
+allow changing a scan's visibility after submission, and the rest of the cluster is now NXDOMAIN, so
+those cannot be re-published — verbatim copies of each result (plus rendered screenshots) are
+preserved under `evidence/` and `screenshots/` with SHA-256 manifests. As the tracker catches new
+live domains, submit a public scan of each (urlscan UI, or `POST /api/v1/scan/` with
+`"visibility":"public"`) and add it here.
+
 ## Methodology
 
 Passive OSINT + static analysis only:
