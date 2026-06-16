@@ -1,3 +1,13 @@
 type,indicator,source,asn,first_seen
 ip,104.21.2.244,dns (olx.express-paycore24.cfd),Cloudflare-edge,2026-06-16T11:08:58Z
 ip,172.67.129.215,dns (olx.express-paycore24.cfd),Cloudflare-edge,2026-06-16T11:08:58Z
+cert,corepay.app,ct-log (token candidate — review),,2026-06-16T12:17:27Z
+cert,paycore,ct-log (token candidate — review),,2026-06-16T12:17:27Z
+cert,paycore--vpn.wildixin.com,ct-log (token candidate — review),,2026-06-16T12:17:27Z
+cert,paycore.com.eg,ct-log (token candidate — review),,2026-06-16T12:17:27Z
+cert,paycore.eg,ct-log (token candidate — review),,2026-06-16T12:17:27Z
+cert,paycore.wildixin.com,ct-log (token candidate — review),,2026-06-16T12:17:27Z
+ip,104.21.76.96,dns (subito.cam),Cloudflare-edge,2026-06-16T12:17:27Z
+ip,172.67.192.112,dns (subito.cam),Cloudflare-edge,2026-06-16T12:17:27Z
+ip,2606:4700:3030::ac43:c070,dns (subito.cam),Cloudflare-edge,2026-06-16T12:17:27Z
+ip,2606:4700:3036::6815:4c60,dns (subito.cam),Cloudflare-edge,2026-06-16T12:17:27Z

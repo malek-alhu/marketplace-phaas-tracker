@@ -2,3 +2,14 @@
 [2026-06-16T11:08:58Z] NEW ip  104.21.2.244  [dns (olx.express-paycore24.cfd) / Cloudflare-edge]
 [2026-06-16T11:08:58Z] NEW ip  172.67.129.215  [dns (olx.express-paycore24.cfd) / Cloudflare-edge]
 [2026-06-16T11:08:58Z] 2 new indicator(s) this run
+[2026-06-16T12:17:27Z] candidate cert  corepay.app  [ct-log (token candidate — review)]
+[2026-06-16T12:17:27Z] candidate cert  paycore  [ct-log (token candidate — review)]
+[2026-06-16T12:17:27Z] candidate cert  paycore--vpn.wildixin.com  [ct-log (token candidate — review)]
+[2026-06-16T12:17:27Z] candidate cert  paycore.com.eg  [ct-log (token candidate — review)]
+[2026-06-16T12:17:27Z] candidate cert  paycore.eg  [ct-log (token candidate — review)]
+[2026-06-16T12:17:27Z] candidate cert  paycore.wildixin.com  [ct-log (token candidate — review)]
+[2026-06-16T12:17:27Z] NEW ip  104.21.76.96  [dns (subito.cam) / Cloudflare-edge]
+[2026-06-16T12:17:27Z] NEW ip  172.67.192.112  [dns (subito.cam) / Cloudflare-edge]
+[2026-06-16T12:17:27Z] NEW ip  2606:4700:3030::ac43:c070  [dns (subito.cam) / Cloudflare-edge]
+[2026-06-16T12:17:27Z] NEW ip  2606:4700:3036::6815:4c60  [dns (subito.cam) / Cloudflare-edge]
+[2026-06-16T12:17:27Z] 4 new indicator(s) this run
