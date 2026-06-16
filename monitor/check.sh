@@ -54,8 +54,17 @@ HOSTS="$TMP/hosts";           : > "$HOSTS"         # in-scope hosts to DNS-resol
 DNSPAIRS="$TMP/dns";          : > "$DNSPAIRS"
 
 fetch()      { curl -fsS --max-time 40 -A "$UA" "$1" 2>/dev/null; }
-us_search()  { curl -fsS --max-time 40 -A "$UA" -G "https://urlscan.io/api/v1/search/" \
-                 --data-urlencode "q=$1" --data-urlencode "size=100" 2>/dev/null; }
+# urlscan search: keyless by default. If URLSCAN_KEY is set (e.g. the CI secret),
+# send it as the API-Key header for higher rate limits / fuller results.
+us_search()  {
+  if [ -n "${URLSCAN_KEY:-}" ]; then
+    curl -fsS --max-time 40 -A "$UA" -H "API-Key: $URLSCAN_KEY" -G "https://urlscan.io/api/v1/search/" \
+      --data-urlencode "q=$1" --data-urlencode "size=100" 2>/dev/null
+  else
+    curl -fsS --max-time 40 -A "$UA" -G "https://urlscan.io/api/v1/search/" \
+      --data-urlencode "q=$1" --data-urlencode "size=100" 2>/dev/null
+  fi
+}
 
 # --- parse watchlist into apexes (have a dot) and patterns (bare tokens) ------
 APEXES=(); PATTERNS=()

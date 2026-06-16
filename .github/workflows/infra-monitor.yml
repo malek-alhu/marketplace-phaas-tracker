@@ -28,7 +28,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run infrastructure tracker (keyless)
+      - name: Run infrastructure tracker
+        env:
+          # Optional: higher urlscan rate limits / fuller results. The tracker runs
+          # keyless if this secret is absent. Set via: gh secret set URLSCAN_KEY
+          URLSCAN_KEY: ${{ secrets.URLSCAN_KEY }}
         run: bash monitor/check.sh
 
       - name: Commit log + state + findings

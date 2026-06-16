@@ -84,7 +84,13 @@ keys or servers required. Edit `watchlist.txt` to widen or refocus coverage.
 ```bash
 # run it yourself (keyless; needs bash, curl, node):
 bash monitor/check.sh        # first run seeds a silent baseline; later runs report deltas
+
+# optional: authenticated urlscan queries (higher rate limits / fuller results)
+URLSCAN_KEY=<your-urlscan-key> bash monitor/check.sh
 ```
+
+In CI the same key is read from the `URLSCAN_KEY` repository secret; if it is unset, the tracker
+runs fully keyless.
 
 ## Repository structure
 

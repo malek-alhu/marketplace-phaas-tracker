@@ -1,1 +1,4 @@
 [2026-06-16T10:50:33Z] baseline seeded — certs:8 domains:20 ips:4
+[2026-06-16T11:08:58Z] NEW ip  104.21.2.244  [dns (olx.express-paycore24.cfd) / Cloudflare-edge]
+[2026-06-16T11:08:58Z] NEW ip  172.67.129.215  [dns (olx.express-paycore24.cfd) / Cloudflare-edge]
+[2026-06-16T11:08:58Z] 2 new indicator(s) this run
