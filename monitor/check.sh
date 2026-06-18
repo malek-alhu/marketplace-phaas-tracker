@@ -135,11 +135,12 @@ us_submit() {
 # --- parse watchlist into apexes (have a dot), tokens (bare), origin IPs --------
 # Order matters: an IPv4 contains dots, so it MUST be matched before the apex
 # rule. Origin IPs drive a urlscan page.ip watch (new domains on a known origin).
-APEXES=(); PATTERNS=(); ORIGINS=()
+APEXES=(); PATTERNS=(); ORIGINS=(); DNSONLY=()
 while IFS= read -r line; do
   line="${line%%#*}"; line="$(printf '%s' "$line" | tr -d '[:space:]')"
   [ -z "$line" ] && continue
-  if   [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]] || [[ "$line" == *:*:* ]]; then ORIGINS+=("$line")
+  if   [[ "$line" == "~"* ]]; then DNSONLY+=("${line#\~}")          # legit/compromised: DNS+urlscan+scan, NO CT (their CT = legit-subdomain noise)
+  elif [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]] || [[ "$line" == *:*:* ]]; then ORIGINS+=("$line")
   elif [[ "$line" == *.* ]]; then APEXES+=("$line")
   else PATTERNS+=("$line"); fi
 done < "$WATCH"
@@ -182,6 +183,11 @@ for pat in "${PATTERNS[@]:-}"; do
   crtsh_get "https://crt.sh/?q=%25${pat}%25&output=json" | node "$PARSE" crtsh >> "$CERTS_TOK"
 done
 sort -u "$CERTS_APEX" -o "$CERTS_APEX"
+# Drop cPanel/DNS/mail boilerplate subdomains (auto-created on every cPanel/Exchange
+# host; never phishing landings) so CT enumeration adds no noise. Conservative list —
+# ambiguous web prefixes (login/link/www/...) are kept.
+grep -viE '^(cpanel|whm|cpcalendars|cpcontacts|webdisk|autodiscover|autoconfig|_dmarc|_domainkey|ns[0-9]*|mx[0-9]*|smtp|pop|imap|ftp)\.' "$CERTS_APEX" > "$TMP/ca_clean" || true
+mv "$TMP/ca_clean" "$CERTS_APEX"
 # token candidates: drop any already covered as an apex subdomain
 sort -u "$CERTS_TOK" | comm -23 - "$CERTS_APEX" > "$TMP/ct_tok2" && mv "$TMP/ct_tok2" "$CERTS_TOK"
 
@@ -211,8 +217,9 @@ done
 # new domains landing on a known origin). These do NOT auto-promote (already watched
 # / a shared IP would flood) — they just feed the normal delta + DNS + scan.
 CTX_QUERIES=()
-for apex in "${APEXES[@]:-}"; do [ -n "$apex" ] && CTX_QUERIES+=("page.domain:\"$apex\""); done
-for ip in "${ORIGINS[@]:-}"; do [ -n "$ip" ] && CTX_QUERIES+=("page.ip:\"$ip\""); done
+for apex in "${APEXES[@]:-}";  do [ -n "$apex" ] && CTX_QUERIES+=("page.domain:\"$apex\""); done
+for d in "${DNSONLY[@]:-}";    do [ -n "$d" ]    && CTX_QUERIES+=("page.domain:\"$d\""); done
+for ip in "${ORIGINS[@]:-}";   do [ -n "$ip" ]   && CTX_QUERIES+=("page.ip:\"$ip\""); done
 for q in "${CTX_QUERIES[@]:-}"; do
   [ -z "$q" ] && continue
   us_search "$q" | node "$PARSE" urlscan >> "$USCAN"
@@ -227,7 +234,7 @@ cut -f1 "$USCAN" | grep -v '^$' | sort -u > "$TMP/uscan_doms"
 # history each run is how we never lose anything in the future — it catches a dead
 # domain coming back, or a tracked domain moving to a NEW (possibly non-CF) origin.
 # (Token candidates are still excluded — substring guesses would flood DNS.)
-{ printf '%s\n' "${APEXES[@]:-}"; cat "$CERTS_APEX" "$TMP/uscan_doms" "$SEEN_DOM"; } \
+{ printf '%s\n' "${APEXES[@]:-}" "${DNSONLY[@]:-}"; cat "$CERTS_APEX" "$TMP/uscan_doms" "$SEEN_DOM"; } \
   | grep -v '^$' | sort -u > "$HOSTS"
 
 while IFS= read -r h; do

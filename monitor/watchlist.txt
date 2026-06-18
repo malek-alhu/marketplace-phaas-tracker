@@ -50,12 +50,14 @@ arsenalroel.org
 zhkjcx.org
 
 # === compromised legitimate sites used as redirector / origin layer ===
-# Likely VICTIMS (aged domains hijacked to host kit redirects). humancompostco.com
-# is the Aeza origin (see origin IP below). Watched mainly for DNS/origin tracking.
-humancompostco.com
-reigartkistlerdds.com
-donshriversvideodrain.com
-periyartigers.com
+# Likely VICTIMS (aged domains hijacked to host kit redirects). "~" prefix = track by
+# DNS + urlscan + scan only, NOT CT (their CT is the legit site's own cpanel/webmail/
+# www subdomains = noise). If the kit ever serves a fingerprint on one, the self-evolve
+# promotion auto-upgrades it to full CT watch. humancompostco.com is the Aeza origin.
+~humancompostco.com
+~reigartkistlerdds.com
+~donshriversvideodrain.com
+~periyartigers.com
 
 # === UNVERIFIED co-occurrences ===
 # Matched the kit fingerprint while co-hosted on the SHARED G-Core node; link to
