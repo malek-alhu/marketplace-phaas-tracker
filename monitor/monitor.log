@@ -89,3 +89,17 @@
 [2026-06-18T11:57:31Z] NEW ip  2606:4700:3037::ac43:afb1  [dns (dacajncritter.com) / Cloudflare-edge]
 [2026-06-18T11:57:31Z] HEALTH certspotter=10/35 crtsh=4/5 urlscan=37/39 dns-google=130/130 dns-cf=130/130
 [2026-06-18T11:57:31Z] 22 new indicator(s) this run
+[2026-06-18T12:28:03Z] HEALTH certspotter=10/35 crtsh=3/4 urlscan=39/39 dns-google=132/132 dns-cf=132/132
+[2026-06-18T12:28:03Z] SCAN-SAVED 101.immrtl-hlpr.shop -> https://urlscan.io/result/019edab7-b3c9-766f-b05f-e780a9772e4d/
+[2026-06-18T12:28:03Z] SCAN-SAVED arsenalroel.org -> https://urlscan.io/result/019edab7-bf3d-70d2-8400-627b1c7027df/
+[2026-06-18T12:28:03Z] SCAN-SAVED dacajncritter.com -> https://urlscan.io/result/019edab7-cafd-72c1-8c9f-403a20cc3cc4/
+[2026-06-18T12:28:03Z] SCAN-SAVED donshriversvideodrain.com -> https://urlscan.io/result/019edab7-d6a8-778f-8f2d-76cb337c8c81/
+[2026-06-18T12:28:03Z] SCAN-SAVED feaster.baln-cmoni.shop -> https://urlscan.io/result/019edab7-e2ce-759b-b2a6-5469c55fdd06/
+[2026-06-18T12:28:03Z] SCAN-SAVED humancompostco.com -> https://urlscan.io/result/019edab7-ee7a-71a8-bd7e-dfb388d440bf/
+[2026-06-18T12:28:03Z] SCAN-SAVED make-it.short-conn.shop -> https://urlscan.io/result/019edab7-faf3-77aa-a44d-22adb88cdb3c/
+[2026-06-18T12:28:03Z] SCAN-SAVED masterget.fed-send.xyz -> https://urlscan.io/result/019edab8-0675-77ed-b124-fe17c562bd71/
+[2026-06-18T12:28:03Z] SCAN-SAVED periyartigers.com -> https://urlscan.io/result/019edab8-12d3-710a-a02f-51feb44359c4/
+[2026-06-18T12:28:03Z] SCAN-SAVED reigartkistlerdds.com -> https://urlscan.io/result/019edab8-1ede-710f-a9fb-2a6336e8997e/
+[2026-06-18T12:28:03Z] SCAN-SAVED subito.cam -> https://urlscan.io/result/019edab8-2a1c-729b-ac3f-92e259cce62c/
+[2026-06-18T12:28:03Z] SCAN-SAVED tinyurl.com -> https://urlscan.io/result/019edab8-35f4-70c8-aaf3-0b7a4fc7e416/
+[2026-06-18T12:28:03Z] no new indicators
