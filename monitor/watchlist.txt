@@ -54,34 +54,47 @@ zhkjcx.org
 # DNS + scan only — NO CT and NO urlscan page.domain (both surface the legit site's own
 # cpanel/webmail/www subdomains = noise, and page.domain re-imports any we scanned). If
 # the kit ever serves a fingerprint on one, the global fingerprint queries catch it and
-# self-evolve auto-upgrades the apex to full CT watch. humancompostco.com = Aeza origin.
-~humancompostco.com
+# self-evolve auto-upgrades the apex to full CT watch.
+# reigartkistlerdds.com (US dental practice, 2022), donshriversvideodrain.com (PA
+# plumber, 2008) and periyartigers.com (IN org, 2010) = genuinely aged VICTIMS.
 ~reigartkistlerdds.com
 ~donshriversvideodrain.com
 ~periyartigers.com
+# humancompostco.com — promoted to FULL watch 2026-06-18: created 2024-09 (NOT aged),
+# sits on a near-dedicated Aeza/ALINDA origin (193.148.56.18) with operator-flagged NS
+# ns1-4.mysecurecloudhost.com -> assessed operator-REGISTERED, not a victim.
+humancompostco.com
 
-# === UNVERIFIED co-occurrences ===
-# Matched the kit fingerprint while co-hosted on the SHARED G-Core node; link to
-# this operator not yet confirmed. Monitored so nothing is lost — prune if unrelated.
+# === CONFIRMED operator order/payment-page hosts (was "unverified co-occurrences") ===
+# 2026-06-18: upgraded from UNVERIFIED -> LINKED. These are hijacked aged/expired
+# Chinese-market domains repurposed as /order/<id> capture pages. Confirmed operator-
+# owned via the signature Cloudflare-IPv6 redirector pair 2a06:98c1:3120::3 / ::3121::3
+# (identical to arsenalroel.org) + same kit URLs co-scanned with olx.paycore*. Their
+# served ORIGINS are PEG TECH INC (AS54600 107.149.11.65 / AS398823 38.6.92.67) —
+# NOT G-Core, as previously assumed.
 cnkstcd.com
 szrcgj.com
 longkun100.com
 wfmcsy.com
+dacajncritter.com
 
 # === origin IPs (urlscan page.ip watch — dedicated / near-dedicated only) ===
-# 193.148.56.18 = Aeza International / ALINDA LLC (AS209946), near-dedicated origin
-# for humancompostco.com (nginx/Ubuntu). Bulletproof host — high-value pivot.
-# NOT watched here: G-Core 81.28.12.12 / 2a03:90c0:999c::12 — a SHARED CDN node
-# (75+ unrelated tenants); page.ip would flood. Its kit domains are tracked above.
+# 193.148.56.18 = ALINDA LLC (AS209946), near-dedicated origin for humancompostco.com
+# (nginx/1.24.0). BULLETPROOF, Aeza-adjacent — Spamhaus DROP-listed "network
+# resurrection" ASN; Aeza brand OFAC+UK-NCA sanctioned 2025-07-01. THE key pivot.
+# Whole block 193.148.56.0/24 is the bulletproof range (watch manually; the page.ip
+# query below is the single dedicated host — CIDR isn't supported by the parser).
+# NOT watched: G-Core 81.28.12.12 / 2a03:90c0:999c::12 (AS199524) — shared CDN node,
+# 1000+ tenants; page.ip would flood. PEG TECH AS54600/AS398823 likewise shared.
 193.148.56.18
 
 # === name-pattern tokens (crt.sh %token% substring; low-confidence "candidates") ===
 # Prefer DISTINCTIVE, compound fragments — generic words ("paysend", "verify",
 # "subito") collide with thousands of legit domains and only add noise. Token hits
 # are reported as candidates (NOT auto-resolved, NO alert). Tune here.
-paycore
+# PRUNED 2026-06-18: bare "paycore" (collides with Wildix VoIP customer + PayCore Egypt
+# fintech) and "corepay" (Corepay US PSP) — generic fintech words, zero true positives.
 sendcore
-corepay
 paycore24
 paycore-send
 paysend-paczka
@@ -96,3 +109,9 @@ baln-cmoni
 vps-pay-it
 yeezy-sand
 b-checker
+# NEW 2026-06-18 — German Kleinanzeigen.de target dimension surfaced via the kit's
+# redirect chains. Use the DISTINCTIVE typo/compound forms only (bare "kleinanzeigen"
+# would collide with the legit eBay-Kleinanzeigen brand).
+klelnanzeigen
+kleinanzeigen-deutsch
+kleinanzeigen-bestellung
