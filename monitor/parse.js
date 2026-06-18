@@ -21,9 +21,15 @@ process.stdin.on("data", d => (s += d)).on("end", () => {
       String(c.name_value || "").split(/\n/).forEach(host));
   } else if (mode === "urlscan") {
     ((j && j.results) || []).forEach(r => {
-      const p = r.page || {};
+      const p = r.page || {}, t = r.task || {};
       const dom = String(p.domain || "").trim().toLowerCase();
       if (dom) console.log([dom, String(p.ip || "").trim(), String(p.asn || "").trim()].join("\t"));
+      // F3: the SUBMITTED url's host is often an upstream redirector in the kit
+      // chain (e.g. arsenalroel.org -> landing?us=gm) that page.domain misses.
+      // Emit it as an indicator (no per-result IP/ASN; the DNS pass resolves it).
+      let rhost = "";
+      try { rhost = new URL(String(t.url || "")).hostname.trim().toLowerCase(); } catch {}
+      if (rhost && rhost !== dom) console.log([rhost, "", ""].join("\t"));
     });
   } else if (mode === "doh") {
     ((j && j.Answer) || []).forEach(a => {

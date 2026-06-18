@@ -53,16 +53,57 @@ USCAN="$TMP/uscan";           : > "$USCAN"        # domain<TAB>ip<TAB>asn (kit f
 HOSTS="$TMP/hosts";           : > "$HOSTS"         # in-scope hosts to DNS-resolve
 DNSPAIRS="$TMP/dns";          : > "$DNSPAIRS"
 
-fetch()      { curl -fsS --max-time 40 -A "$UA" "$1" 2>/dev/null; }
-# urlscan search: keyless by default. If URLSCAN_KEY is set (e.g. the CI secret),
-# send it as the API-Key header for higher rate limits / fuller results.
+# --- health accounting (F4) --------------------------------------------------
+# Every external call records ok|empty|error per source so a run can tell
+# "genuinely quiet" from "blind because a source failed". All state is file-based
+# so it survives the pipeline subshells the call sites run in.
+HEALTHF="$TMP/health"; : > "$HEALTHF"
+note_health() { printf '%s\t%s\n' "$1" "$2" >> "$HEALTHF"; }   # source<TAB>ok|empty|error
+
+# fetch_h <timeout> <tries> <label> <url> [curl-opts...]
+#   echoes the body to stdout and records health. Retries transient failures
+#   (non-zero curl exit OR empty body) with linear backoff.
+fetch_h() {
+  local to="$1" tries="$2" label="$3" url="$4"; shift 4
+  local body rc attempt=0
+  while :; do
+    body="$(curl -fsS --max-time "$to" -A "$UA" "$@" "$url" 2>/dev/null)"; rc=$?
+    { [ $rc -eq 0 ] && [ -n "$body" ]; } && break
+    attempt=$((attempt+1)); [ "$attempt" -ge "$tries" ] && break
+    sleep $((attempt*2))
+  done
+  if   [ $rc -ne 0 ];  then note_health "$label" "error"
+  elif [ -z "$body" ]; then note_health "$label" "empty"
+  else                      note_health "$label" "ok"; fi
+  printf '%s' "$body"
+}
+# plain fetch (no health) — used where a miss is benign.
+fetch() { curl -fsS --max-time 40 -A "$UA" "$1" 2>/dev/null; }
+
+# crt.sh is chronically slow/flaky. Retry within fetch_h, AND trip a per-run
+# circuit breaker on the first hard failure so we don't hammer a dead host 14×
+# (the breaker flag is a file because call sites run inside pipeline subshells).
+CRTSH_DEAD="$TMP/crtsh_dead"
+crtsh_get() {
+  [ -e "$CRTSH_DEAD" ] && return 0
+  local body; body="$(fetch_h 50 2 "crtsh" "$1")"
+  [ -z "$body" ] && : > "$CRTSH_DEAD"
+  printf '%s' "$body"
+}
+# DoH fetch — 1.1.1.1 REQUIRES the dns-json Accept header (else HTTP 400, empty
+# body); the header is harmless for dns.google. Short timeout, since DoH is fast
+# and we query two resolvers as mutual fallback.
+fetch_doh() { fetch_h 15 2 "$1" "$2" -H "accept: application/dns-json"; }
+
+# urlscan search: keyless by default; uses URLSCAN_KEY (CI secret) when present
+# for consistent, complete (non-sampled) results. Records health under "urlscan".
 us_search()  {
   if [ -n "${URLSCAN_KEY:-}" ]; then
-    curl -fsS --max-time 40 -A "$UA" -H "API-Key: $URLSCAN_KEY" -G "https://urlscan.io/api/v1/search/" \
-      --data-urlencode "q=$1" --data-urlencode "size=100" 2>/dev/null
+    fetch_h 45 3 "urlscan" "https://urlscan.io/api/v1/search/" -H "API-Key: $URLSCAN_KEY" \
+      -G --data-urlencode "q=$1" --data-urlencode "size=100"
   else
-    curl -fsS --max-time 40 -A "$UA" -G "https://urlscan.io/api/v1/search/" \
-      --data-urlencode "q=$1" --data-urlencode "size=100" 2>/dev/null
+    fetch_h 45 3 "urlscan" "https://urlscan.io/api/v1/search/" \
+      -G --data-urlencode "q=$1" --data-urlencode "size=100"
   fi
 }
 
@@ -92,13 +133,13 @@ is_cf_ip() {
 # ============================ 1. CT LOGS =====================================
 for apex in "${APEXES[@]:-}"; do
   [ -z "$apex" ] && continue
-  fetch "https://api.certspotter.com/v1/issuances?domain=$apex&include_subdomains=true&expand=dns_names" \
+  fetch_h 30 2 "certspotter" "https://api.certspotter.com/v1/issuances?domain=$apex&include_subdomains=true&expand=dns_names" \
     | node "$PARSE" certspotter >> "$CERTS_APEX"
-  fetch "https://crt.sh/?q=$apex&output=json" | node "$PARSE" crtsh >> "$CERTS_APEX"
+  crtsh_get "https://crt.sh/?q=$apex&output=json" | node "$PARSE" crtsh >> "$CERTS_APEX"
 done
 for pat in "${PATTERNS[@]:-}"; do
   [ -z "$pat" ] && continue
-  fetch "https://crt.sh/?q=%25${pat}%25&output=json" | node "$PARSE" crtsh >> "$CERTS_TOK"
+  crtsh_get "https://crt.sh/?q=%25${pat}%25&output=json" | node "$PARSE" crtsh >> "$CERTS_TOK"
 done
 sort -u "$CERTS_APEX" -o "$CERTS_APEX"
 # token candidates: drop any already covered as an apex subdomain
@@ -134,8 +175,8 @@ while IFS= read -r h; do
   [ -z "$h" ] && continue
   for t in A AAAA; do
     {
-      fetch "https://1.1.1.1/dns-query?name=${h}&type=${t}" | node "$PARSE" doh
-      fetch "https://dns.google/resolve?name=${h}&type=${t}" | node "$PARSE" doh
+      fetch_doh "dns-cf"     "https://1.1.1.1/dns-query?name=${h}&type=${t}" | node "$PARSE" doh
+      fetch_doh "dns-google" "https://dns.google/resolve?name=${h}&type=${t}" | node "$PARSE" doh
     } | sort -u | while IFS= read -r ip; do
       [ -z "$ip" ] && continue
       printf '%s\t%s\n' "$h" "$ip" >> "$DNSPAIRS"
@@ -194,6 +235,42 @@ comm -13 "$SEEN_DNS" "$TMP/ips_now" | grep -v '^$' | while IFS= read -r ip; do
     record "ip" "$ip" "dns (${host})" "NON-CF ORIGIN — high value"
   fi
 done
+
+# ====================== F4: source-health accounting =========================
+# A "no new indicators" run is only meaningful if the sources actually answered.
+# Emit a HEALTH line every run, and alert when a CRITICAL source goes blind —
+# deduped against state so a persistent outage doesn't reopen an Issue each run.
+hstat() { # <label> -> prints "ok/total"; exit 1 if DOWN (queried but 0 ok)
+  awk -F'\t' -v L="$1" '
+    $1==L { t++; if ($2=="ok") o++ }
+    END   { printf "%d/%d", o+0, t+0; exit (t>0 && o==0) ? 1 : 0 }' "$HEALTHF"
+}
+CS=$(hstat certspotter); cs_down=$?
+CR=$(hstat crtsh);       cr_down=$?
+US=$(hstat urlscan);     us_down=$?
+DG=$(hstat dns-google);  dg_down=$?
+DC=$(hstat dns-cf);      dc_down=$?
+dns_down=0; [ $dg_down -eq 1 ] && [ $dc_down -eq 1 ] && dns_down=1   # only if BOTH resolvers fail
+echo "[$TS] HEALTH certspotter=$CS crtsh=$CR urlscan=$US dns-google=$DG dns-cf=$DC" >> "$LOG"
+
+# crt.sh is chronically flaky and now retried + breaker-guarded; log-only, never an Issue.
+[ $cr_down -eq 1 ] && echo "[$TS] HEALTH-NOTE crtsh degraded ($CR) — CT token/new-apex discovery skipped this run" >> "$LOG"
+
+# Issue-worthy outages (rare, genuinely alarming): certspotter, urlscan, or BOTH DNS resolvers.
+DOWNF="$STATE/health_down.txt"; touch "$DOWNF"
+NOWDOWN="$TMP/nowdown"; : > "$NOWDOWN"
+[ $cs_down  -eq 1 ] && echo "certspotter" >> "$NOWDOWN"
+[ $us_down  -eq 1 ] && echo "urlscan"     >> "$NOWDOWN"
+[ $dns_down -eq 1 ] && echo "dns"         >> "$NOWDOWN"
+sort -u "$NOWDOWN" -o "$NOWDOWN"
+comm -13 "$DOWNF" "$NOWDOWN" | grep -v '^$' | while IFS= read -r d; do   # newly down -> alert once
+  echo "source-health  $d DOWN — this run is BLIND to $d; 'no new indicators' is not trustworthy until it recovers" >> "$NEW"
+  echo "[$TS] HEALTH-ALERT $d went DOWN" >> "$LOG"
+done
+comm -23 "$DOWNF" "$NOWDOWN" | grep -v '^$' | while IFS= read -r d; do   # recovered -> log only
+  echo "[$TS] HEALTH-RECOVERED $d" >> "$LOG"
+done
+cp "$NOWDOWN" "$DOWNF"
 
 # ---- advance state ----------------------------------------------------------
 sort -u "$SEEN_CERT" "$CERTS_APEX" "$CERTS_TOK" -o "$SEEN_CERT"
