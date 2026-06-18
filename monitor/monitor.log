@@ -25,3 +25,43 @@
 [2026-06-18T11:26:17Z] HEALTH-NOTE crtsh degraded (0/1) — CT token/new-apex discovery skipped this run
 [2026-06-18T11:26:17Z] HEALTH-ALERT urlscan went DOWN
 [2026-06-18T11:26:17Z] 1 new indicator(s) this run
+[2026-06-18T11:31:54Z] NEW domain  101.immrtl-hlpr.shop  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  arsenalroel.org  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  b.b-checker.xyz  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  cnkstcd.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  donshriversvideodrain.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  humancompostco.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  it-pays.vps-pay-it.xyz  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  longkun100.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  mostly.immortal-h.xyz  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  periyartigers.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  reigartkistlerdds.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  rick-rock.immortal-4u.shop  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  sendeasy.yeezy-sand.xyz  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  szrcgj.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  tinyurl.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  wfmcsy.com  [urlscan]
+[2026-06-18T11:31:54Z] NEW domain  zhkjcx.org  [urlscan]
+[2026-06-18T11:31:54Z] NEW ip  104.17.112.233  [dns (tinyurl.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  104.18.111.161  [dns (tinyurl.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  104.21.59.195  [dns (reigartkistlerdds.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  104.21.8.154  [dns (donshriversvideodrain.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  104.21.86.101  [dns (arsenalroel.org) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  172.67.182.240  [dns (reigartkistlerdds.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  172.67.188.140  [dns (donshriversvideodrain.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  172.67.217.212  [dns (arsenalroel.org) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  193.148.56.18  [dns (humancompostco.com) / NON-CF ORIGIN — high value]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700:3030::6815:3bc3  [dns (reigartkistlerdds.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700:3030::6815:89a  [dns (donshriversvideodrain.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700:3033::6815:5665  [dns (arsenalroel.org) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700:3033::ac43:bc8c  [dns (donshriversvideodrain.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700:3034::ac43:d9d4  [dns (arsenalroel.org) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700:3036::ac43:b6f0  [dns (reigartkistlerdds.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700::6811:70e9  [dns (tinyurl.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2606:4700::6812:6fa1  [dns (tinyurl.com) / Cloudflare-edge]
+[2026-06-18T11:31:54Z] NEW ip  2a03:90c0:999c::12  [dns (101.immrtl-hlpr.shop) / NON-CF ORIGIN — high value]
+[2026-06-18T11:31:54Z] NEW ip  81.28.12.12  [dns (101.immrtl-hlpr.shop) / NON-CF ORIGIN — high value]
+[2026-06-18T11:31:54Z] HEALTH certspotter=7/7 crtsh=0/1 urlscan=10/10 dns-google=76/76 dns-cf=76/76
+[2026-06-18T11:31:54Z] HEALTH-NOTE crtsh degraded (0/1) — CT token/new-apex discovery skipped this run
+[2026-06-18T11:31:54Z] HEALTH-RECOVERED urlscan
+[2026-06-18T11:31:54Z] 36 new indicator(s) this run
