@@ -199,3 +199,6 @@
 [2026-06-18T13:41:43Z] 22 new indicator(s) this run
 [2026-06-18T13:53:24Z] HEALTH certspotter=2/31 crtsh=9/19 urlscan=35/35 dns-google=168/168 dns-cf=168/168
 [2026-06-18T13:53:24Z] no new indicators
+[2026-06-18T18:47:06Z] NEW cert  it-pays.vps-pay-it.xyz  [ct-log (apex subdomain)]
+[2026-06-18T18:47:06Z] HEALTH certspotter=11/31 crtsh=14/19 urlscan=35/35 dns-google=172/172 dns-cf=172/172
+[2026-06-18T18:47:06Z] 1 new indicator(s) this run
