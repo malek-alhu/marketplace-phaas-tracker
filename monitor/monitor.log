@@ -173,3 +173,27 @@
 [2026-06-18T13:06:35Z] SCAN-SAVED www.periyartigers.com -> https://urlscan.io/result/019edae3-046d-7429-8da5-0053e765ecc4/
 [2026-06-18T13:06:35Z] SCAN-SAVED www.reigartkistlerdds.com -> https://urlscan.io/result/019edae3-1060-7550-8528-a750c6b27abf/
 [2026-06-18T13:06:35Z] 41 new indicator(s) this run
+[2026-06-18T13:41:43Z] NEW cert  longkun100.com  [ct-log (apex subdomain)]
+[2026-06-18T13:41:43Z] NEW cert  paycore-send.xyz  [ct-log (apex subdomain)]
+[2026-06-18T13:41:43Z] NEW cert  paysend-paczka.xyz  [ct-log (apex subdomain)]
+[2026-06-18T13:41:43Z] NEW cert  www.longkun100.com  [ct-log (apex subdomain)]
+[2026-06-18T13:41:43Z] NEW domain  apps.reigartkistlerdds.com  [urlscan @104.21.59.195 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  cpanel.periyartigers.com  [urlscan @192.250.229.176 / AS209341]
+[2026-06-18T13:41:43Z] NEW domain  cpcalendars.periyartigers.com  [urlscan]
+[2026-06-18T13:41:43Z] NEW domain  cpcontacts.periyartigers.com  [urlscan @192.250.229.176 / AS209341]
+[2026-06-18T13:41:43Z] NEW domain  crm.reigartkistlerdds.com  [urlscan @172.67.182.240 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  dev.reigartkistlerdds.com  [urlscan @172.67.182.240 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  lime.reigartkistlerdds.com  [urlscan @172.67.182.240 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  link.reigartkistlerdds.com  [urlscan]
+[2026-06-18T13:41:43Z] NEW domain  login.reigartkistlerdds.com  [urlscan]
+[2026-06-18T13:41:43Z] NEW domain  m.reigartkistlerdds.com  [urlscan @104.21.59.195 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  mail.reigartkistlerdds.com  [urlscan @104.21.59.195 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  old.reigartkistlerdds.com  [urlscan @172.67.182.240 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  owa.reigartkistlerdds.com  [urlscan @104.21.59.195 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  sitemap.reigartkistlerdds.com  [urlscan @104.21.59.195 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  sitemaps.reigartkistlerdds.com  [urlscan @104.21.59.195 / AS13335]
+[2026-06-18T13:41:43Z] NEW domain  webdisk.periyartigers.com  [urlscan @192.250.229.176 / AS209341]
+[2026-06-18T13:41:43Z] NEW domain  webmail.periyartigers.com  [urlscan @192.250.229.176 / AS209341]
+[2026-06-18T13:41:43Z] NEW domain  www.reigartkistlerdds.com  [urlscan @172.67.182.240 / AS13335]
+[2026-06-18T13:41:43Z] HEALTH certspotter=3/31 crtsh=8/12 urlscan=39/39 dns-google=172/172 dns-cf=172/172
+[2026-06-18T13:41:43Z] 22 new indicator(s) this run
