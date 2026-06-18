@@ -45,9 +45,13 @@ SEEN_DNS="$STATE/seen_dns.txt";      touch "$SEEN_DNS"
 INIT="$STATE/initialized"
 SCANS="$MON/scans.csv"
 SCANNED="$STATE/scanned.txt";        touch "$SCANNED"
+AUTO_APEX="$STATE/auto_apexes.txt";  touch "$AUTO_APEX"   # self-evolved apexes (CT+DNS+scan)
+AUTO_ORIG="$STATE/auto_origins.txt"; touch "$AUTO_ORIG"   # self-evolved origin IPs (page.ip)
+DISCO="$MON/discovered.csv"                               # provenance ledger (promotions + candidates)
 
 [ -s "$FIND" ]  || echo "type,indicator,source,asn,first_seen" > "$FIND"
 [ -s "$SCANS" ] || echo "domain,uuid,result,visibility,first_scanned" > "$SCANS"
+[ -s "$DISCO" ] || echo "kind,indicator,status,reason,first_seen" > "$DISCO"
 
 TMP="$(mktemp -d)"; trap 'rm -rf "$TMP"' EXIT
 CERTS_APEX="$TMP/certs_apex"; : > "$CERTS_APEX"   # subdomains of watched apexes
@@ -83,14 +87,16 @@ fetch_h() {
 # plain fetch (no health) — used where a miss is benign.
 fetch() { curl -fsS --max-time 40 -A "$UA" "$1" 2>/dev/null; }
 
-# crt.sh is chronically slow/flaky. Retry within fetch_h, AND trip a per-run
-# circuit breaker on the first hard failure so we don't hammer a dead host 14×
-# (the breaker flag is a file because call sites run inside pipeline subshells).
-CRTSH_DEAD="$TMP/crtsh_dead"
+# crt.sh is the unlimited CT source (no per-account cap, unlike certspotter) but
+# chronically slow/flaky. Retry within fetch_h; trip a per-run circuit breaker only
+# after 3 CONSECUTIVE hard failures (tolerate transient blips, bail on a real
+# outage). Counter is a file because call sites run in pipeline subshells.
+CRTSH_FAILS="$TMP/crtsh_fails"; echo 0 > "$CRTSH_FAILS"
 crtsh_get() {
-  [ -e "$CRTSH_DEAD" ] && return 0
+  [ "$(cat "$CRTSH_FAILS" 2>/dev/null || echo 0)" -ge 3 ] && return 0
   local body; body="$(fetch_h 50 2 "crtsh" "$1")"
-  [ -z "$body" ] && : > "$CRTSH_DEAD"
+  if [ -z "$body" ]; then echo $(( $(cat "$CRTSH_FAILS" 2>/dev/null || echo 0) + 1 )) > "$CRTSH_FAILS"
+  else echo 0 > "$CRTSH_FAILS"; fi
   printf '%s' "$body"
 }
 # DoH fetch — 1.1.1.1 REQUIRES the dns-json Accept header (else HTTP 400, empty
@@ -137,6 +143,10 @@ while IFS= read -r line; do
   elif [[ "$line" == *.* ]]; then APEXES+=("$line")
   else PATTERNS+=("$line"); fi
 done < "$WATCH"
+# self-evolved entries (kit-confirmed apexes + dedicated origins) — treated exactly
+# like curated watchlist lines, so the monitor grows its own coverage over time.
+while IFS= read -r a;  do [ -n "$a" ]  && APEXES+=("$a");   done < "$AUTO_APEX"
+while IFS= read -r ip; do [ -n "$ip" ] && ORIGINS+=("$ip"); done < "$AUTO_ORIG"
 
 # --- Cloudflare-edge heuristic (so we can flag non-CF origins, the best lead) --
 # Well-known Cloudflare published ranges; an IP outside these is treated as a
@@ -157,7 +167,11 @@ is_cf_ip() {
 # certspotter rate-limits hard when keyless (HTTP 429, 1h cooldown). With a token
 # (CERTSPOTTER_TOKEN secret) it authenticates via Bearer and gets full limits.
 CS_AUTH=(); [ -n "${CERTSPOTTER_TOKEN:-}" ] && CS_AUTH=(-H "Authorization: Bearer $CERTSPOTTER_TOKEN")
-for apex in "${APEXES[@]:-}"; do
+# Shuffle apex order: certspotter free-tier rate-limits after ~10 domain searches,
+# so a STABLE order would always cover the same first apexes and never the tail.
+# Random order each run => every apex gets CT coverage over time (CT is append-only,
+# so eventual coverage loses nothing). crt.sh (unlimited) backs up whatever 429s.
+for apex in $(printf '%s\n' "${APEXES[@]:-}" | grep -v '^$' | shuf); do
   [ -z "$apex" ] && continue
   fetch_h 30 2 "certspotter" "https://api.certspotter.com/v1/issuances?domain=$apex&include_subdomains=true&expand=dns_names" "${CS_AUTH[@]}" \
     | node "$PARSE" certspotter >> "$CERTS_APEX"
@@ -176,18 +190,31 @@ sort -u "$CERTS_TOK" | comm -23 - "$CERTS_APEX" > "$TMP/ct_tok2" && mv "$TMP/ct_
 # the self-hosted card-exfil WebSocket path, and the builder's "Continental
 # Group" /static/cg.png mark) + an exact per-apex query. Deliberately NOT broad
 # path matches like "/a/" or "/ws/helpdesk" — those collide with normal SaaS.
-URLSCAN_QUERIES=(
+# Kit fingerprints (per-victim us= tag, card-exfil WS path, builder mark). Their
+# results feed USCAN *and* yield kit-CONFIRMED apexes (page.apexDomain) for
+# self-promotion — these are high-confidence (only this kit matches), so they are
+# the ONLY thing that auto-grows the watch. Recency-filtered (730d) to drop stale
+# incidental matches.
+FP_QUERIES=(
   'page.url:"us=gm" OR page.url:"us=dlm" OR page.url:"us=sml" OR page.url:"us=ym"'
   'page.url:"/api/ws/stripe/sync"'
   'page.url:"/static/cg.png"'
 )
-for apex in "${APEXES[@]:-}"; do [ -n "$apex" ] && URLSCAN_QUERIES+=("page.domain:\"$apex\""); done
-# Origin-IP watch: surface NEW domains that land on a known (dedicated) origin,
-# even if they match no apex/token yet. Only list dedicated IPs in the watchlist
-# — a shared CDN IP would flood this with unrelated tenants.
-for ip in "${ORIGINS[@]:-}"; do [ -n "$ip" ] && URLSCAN_QUERIES+=("page.ip:\"$ip\""); done
-
-for q in "${URLSCAN_QUERIES[@]}"; do
+KITAPEX="$TMP/kitapex"; : > "$KITAPEX"
+for q in "${FP_QUERIES[@]}"; do
+  resp="$(us_search "$q")"
+  printf '%s' "$resp" | node "$PARSE" urlscan          >> "$USCAN"
+  printf '%s' "$resp" | node "$PARSE" urlscan-apex 730 >> "$KITAPEX"
+  sleep 1
+done
+# Context queries: confirm/track watched apexes + dedicated origins (page.ip surfaces
+# new domains landing on a known origin). These do NOT auto-promote (already watched
+# / a shared IP would flood) — they just feed the normal delta + DNS + scan.
+CTX_QUERIES=()
+for apex in "${APEXES[@]:-}"; do [ -n "$apex" ] && CTX_QUERIES+=("page.domain:\"$apex\""); done
+for ip in "${ORIGINS[@]:-}"; do [ -n "$ip" ] && CTX_QUERIES+=("page.ip:\"$ip\""); done
+for q in "${CTX_QUERIES[@]:-}"; do
+  [ -z "$q" ] && continue
   us_search "$q" | node "$PARSE" urlscan >> "$USCAN"
   sleep 1
 done
@@ -195,10 +222,12 @@ sort -u "$USCAN" -o "$USCAN"
 cut -f1 "$USCAN" | grep -v '^$' | sort -u > "$TMP/uscan_doms"
 
 # ============================ 3. DNS =========================================
-# In-scope hosts only: watched apexes + their CT subdomains + kit-fingerprint
-# urlscan hits. (Token candidates are reported but NOT resolved — they are
-# substring guesses and would flood DNS with unrelated infrastructure.)
-{ printf '%s\n' "${APEXES[@]:-}"; cat "$CERTS_APEX" "$TMP/uscan_doms"; } \
+# Resolve every in-scope host: watched apexes + their CT subdomains + this run's
+# urlscan hits + EVERY domain ever seen (seen_domains). Re-resolving the full
+# history each run is how we never lose anything in the future — it catches a dead
+# domain coming back, or a tracked domain moving to a NEW (possibly non-CF) origin.
+# (Token candidates are still excluded — substring guesses would flood DNS.)
+{ printf '%s\n' "${APEXES[@]:-}"; cat "$CERTS_APEX" "$TMP/uscan_doms" "$SEEN_DOM"; } \
   | grep -v '^$' | sort -u > "$HOSTS"
 
 while IFS= read -r h; do
@@ -263,6 +292,7 @@ comm -13 "$SEEN_DNS" "$TMP/ips_now" | grep -v '^$' | while IFS= read -r ip; do
     record "ip" "$ip" "dns (${host})" "Cloudflare-edge"
   else
     record "ip" "$ip" "dns (${host})" "NON-CF ORIGIN — high value"
+    echo "$ip" >> "$TMP/new_noncf"          # candidate origin -> evaluate for page.ip watch
   fi
 done
 
@@ -301,6 +331,40 @@ comm -23 "$DOWNF" "$NOWDOWN" | grep -v '^$' | while IFS= read -r d; do   # recov
   echo "[$TS] HEALTH-RECOVERED $d" >> "$LOG"
 done
 cp "$NOWDOWN" "$DOWNF"
+
+# ================= SELF-EVOLVE: grow the watch from confirmed infra ===========
+# Bigger AND cleaner over time: only HIGH-CONFIDENCE signals auto-grow the watch.
+# Everything else is logged to discovered.csv for review (kept, never alerted) —
+# nothing is lost, no noise is injected. Promotions are log-only (the discovered
+# domains/IPs themselves already alert via the normal delta).
+#
+# (a) kit-fingerprint-confirmed apexes -> auto_apexes (ongoing CT + DNS + scan)
+cur_apex="$TMP/cur_apex"; printf '%s\n' "${APEXES[@]:-}" | grep -v '^$' | sort -u > "$cur_apex"
+sort -u "$KITAPEX" 2>/dev/null | grep -v '^$' | comm -23 - "$cur_apex" | while IFS= read -r a; do
+  grep -qxF "$a" "$AUTO_APEX" && continue
+  echo "$a" >> "$AUTO_APEX"
+  printf 'apex,%s,promoted,kit-fingerprint confirmed,%s\n' "$a" "$TS" >> "$DISCO"
+  echo "[$TS] AUTO-PROMOTE apex $a (kit-fingerprint) -> now CT/DNS/scan-watched" >> "$LOG"
+done
+
+# (b) new NON-CF IPs -> origin watch IF dedicated (<=8 apexes on the IP per urlscan);
+#     shared/unknown IPs are recorded as candidates for review (no watch, no flood).
+if [ -n "${URLSCAN_KEY:-}" ] && [ -f "$TMP/new_noncf" ]; then
+  sort -u "$TMP/new_noncf" | grep -v '^$' | while IFS= read -r ip; do
+    grep -qxF "$ip" "$AUTO_ORIG" && continue
+    printf '%s\n' "${ORIGINS[@]:-}" | grep -qxF "$ip" && continue
+    cnt="$(us_search "page.ip:\"$ip\"" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{let j=JSON.parse(s);let a=new Set();(j.results||[]).forEach(r=>{let x=(r.page||{}).apexDomain;if(x)a.add(x)});console.log(a.size)}catch(e){console.log(-1)}})')"
+    if [ "${cnt:--1}" -ge 0 ] && [ "${cnt:--1}" -le 8 ]; then
+      echo "$ip" >> "$AUTO_ORIG"
+      printf 'origin,%s,promoted,non-CF dedicated (%s apex on IP),%s\n' "$ip" "$cnt" "$TS" >> "$DISCO"
+      echo "[$TS] AUTO-PROMOTE origin $ip (non-CF, $cnt apex) -> now page.ip-watched" >> "$LOG"
+    else
+      printf 'origin,%s,candidate,non-CF shared/unknown (%s apex on IP) - review,%s\n' "$ip" "$cnt" "$TS" >> "$DISCO"
+      echo "[$TS] ORIGIN-CANDIDATE $ip non-CF shared/unknown ($cnt apex) - recorded for review" >> "$LOG"
+    fi
+    sleep 1
+  done
+fi
 
 # ====================== SAVE: public urlscans of live scam pages =============
 # Preserve timestamped evidence (page + screenshot) for every LIVE in-scope host.
