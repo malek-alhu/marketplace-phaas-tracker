@@ -51,9 +51,10 @@ zhkjcx.org
 
 # === compromised legitimate sites used as redirector / origin layer ===
 # Likely VICTIMS (aged domains hijacked to host kit redirects). "~" prefix = track by
-# DNS + urlscan + scan only, NOT CT (their CT is the legit site's own cpanel/webmail/
-# www subdomains = noise). If the kit ever serves a fingerprint on one, the self-evolve
-# promotion auto-upgrades it to full CT watch. humancompostco.com is the Aeza origin.
+# DNS + scan only — NO CT and NO urlscan page.domain (both surface the legit site's own
+# cpanel/webmail/www subdomains = noise, and page.domain re-imports any we scanned). If
+# the kit ever serves a fingerprint on one, the global fingerprint queries catch it and
+# self-evolve auto-upgrades the apex to full CT watch. humancompostco.com = Aeza origin.
 ~humancompostco.com
 ~reigartkistlerdds.com
 ~donshriversvideodrain.com

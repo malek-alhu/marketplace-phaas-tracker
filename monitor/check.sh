@@ -139,7 +139,7 @@ APEXES=(); PATTERNS=(); ORIGINS=(); DNSONLY=()
 while IFS= read -r line; do
   line="${line%%#*}"; line="$(printf '%s' "$line" | tr -d '[:space:]')"
   [ -z "$line" ] && continue
-  if   [[ "$line" == "~"* ]]; then DNSONLY+=("${line#\~}")          # legit/compromised: DNS+urlscan+scan, NO CT (their CT = legit-subdomain noise)
+  if   [[ "$line" == "~"* ]]; then DNSONLY+=("${line#\~}")          # legit/compromised: DNS+scan only (NO CT, NO page.domain — both are legit-subdomain noise)
   elif [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]] || [[ "$line" == *:*:* ]]; then ORIGINS+=("$line")
   elif [[ "$line" == *.* ]]; then APEXES+=("$line")
   else PATTERNS+=("$line"); fi
@@ -217,9 +217,13 @@ done
 # new domains landing on a known origin). These do NOT auto-promote (already watched
 # / a shared IP would flood) — they just feed the normal delta + DNS + scan.
 CTX_QUERIES=()
-for apex in "${APEXES[@]:-}";  do [ -n "$apex" ] && CTX_QUERIES+=("page.domain:\"$apex\""); done
-for d in "${DNSONLY[@]:-}";    do [ -n "$d" ]    && CTX_QUERIES+=("page.domain:\"$d\""); done
-for ip in "${ORIGINS[@]:-}";   do [ -n "$ip" ]   && CTX_QUERIES+=("page.ip:\"$ip\""); done
+for apex in "${APEXES[@]:-}"; do [ -n "$apex" ] && CTX_QUERIES+=("page.domain:\"$apex\""); done
+for ip in "${ORIGINS[@]:-}";  do [ -n "$ip" ]  && CTX_QUERIES+=("page.ip:\"$ip\""); done
+# DNSONLY (compromised legit sites) deliberately get NO page.domain query: it returns
+# their legit subdomains AND re-imports any boilerplate we publicly scanned (a
+# self-pollution loop). Kit activity on them is still caught by the global fingerprint
+# queries above, which then auto-promote the apex to full CT. They stay DNS+scan-tracked
+# via seen_domains.
 for q in "${CTX_QUERIES[@]:-}"; do
   [ -z "$q" ] && continue
   us_search "$q" | node "$PARSE" urlscan >> "$USCAN"
