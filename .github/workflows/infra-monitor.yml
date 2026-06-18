@@ -30,9 +30,11 @@ jobs:
 
       - name: Run infrastructure tracker
         env:
-          # Optional: higher urlscan rate limits / fuller results. The tracker runs
-          # keyless if this secret is absent. Set via: gh secret set URLSCAN_KEY
+          # Optional: higher urlscan rate limits / fuller results + public scan
+          # submission. The tracker runs keyless if absent. gh secret set URLSCAN_KEY
           URLSCAN_KEY: ${{ secrets.URLSCAN_KEY }}
+          # Optional: authenticated certspotter (Bearer) to avoid keyless 429s.
+          CERTSPOTTER_TOKEN: ${{ secrets.CERTSPOTTER_TOKEN }}
         run: bash monitor/check.sh
 
       - name: Commit log + state + findings

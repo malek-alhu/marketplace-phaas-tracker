@@ -154,9 +154,12 @@ is_cf_ip() {
 }
 
 # ============================ 1. CT LOGS =====================================
+# certspotter rate-limits hard when keyless (HTTP 429, 1h cooldown). With a token
+# (CERTSPOTTER_TOKEN secret) it authenticates via Bearer and gets full limits.
+CS_AUTH=(); [ -n "${CERTSPOTTER_TOKEN:-}" ] && CS_AUTH=(-H "Authorization: Bearer $CERTSPOTTER_TOKEN")
 for apex in "${APEXES[@]:-}"; do
   [ -z "$apex" ] && continue
-  fetch_h 30 2 "certspotter" "https://api.certspotter.com/v1/issuances?domain=$apex&include_subdomains=true&expand=dns_names" \
+  fetch_h 30 2 "certspotter" "https://api.certspotter.com/v1/issuances?domain=$apex&include_subdomains=true&expand=dns_names" "${CS_AUTH[@]}" \
     | node "$PARSE" certspotter >> "$CERTS_APEX"
   crtsh_get "https://crt.sh/?q=$apex&output=json" | node "$PARSE" crtsh >> "$CERTS_APEX"
 done
