@@ -47,3 +47,25 @@ ip,2606:4700::6811:70e9,dns (tinyurl.com),Cloudflare-edge,2026-06-18T11:31:54Z
 ip,2606:4700::6812:6fa1,dns (tinyurl.com),Cloudflare-edge,2026-06-18T11:31:54Z
 ip,2a03:90c0:999c::12,dns (101.immrtl-hlpr.shop),NON-CF ORIGIN — high value,2026-06-18T11:31:54Z
 ip,81.28.12.12,dns (101.immrtl-hlpr.shop),NON-CF ORIGIN — high value,2026-06-18T11:31:54Z
+cert,express-paycore24.cfd,ct-log (apex subdomain),,2026-06-18T11:57:31Z
+cert,paycore-private.cyou,ct-log (apex subdomain),,2026-06-18T11:57:31Z
+cert,paycore-send.sbs,ct-log (apex subdomain),,2026-06-18T11:57:31Z
+domain,8x.immortal-x8.xyz,urlscan @2a03:90c0:999c::12,AS199524,2026-06-18T11:57:31Z
+domain,adsrvr.shorten-it.lat,urlscan @81.28.12.12,AS199524,2026-06-18T11:57:31Z
+domain,dacajncritter.com,urlscan,,2026-06-18T11:57:31Z
+domain,express-paycore24.cfd,urlscan @188.114.97.3,AS13335,2026-06-18T11:57:31Z
+domain,feaster.baln-cmoni.shop,urlscan,,2026-06-18T11:57:31Z
+domain,inpost.express-paycore24.cfd,urlscan @188.114.97.3,AS13335,2026-06-18T11:57:31Z
+domain,m.cnkstcd.com,urlscan @107.149.11.65,AS54600,2026-06-18T11:57:31Z
+domain,m.wfmcsy.com,urlscan @38.6.92.67,AS398823,2026-06-18T11:57:31Z
+domain,make-it.short-conn.shop,urlscan @81.28.12.12,AS199524,2026-06-18T11:57:31Z
+domain,masterget.fed-send.xyz,urlscan @2a03:90c0:999c::12,AS199524,2026-06-18T11:57:31Z
+domain,needtrytopsto.icu,urlscan,,2026-06-18T11:57:31Z
+domain,paycore-private.cyou,urlscan @104.21.94.79,AS13335,2026-06-18T11:57:31Z
+domain,paycore-send.sbs,urlscan @188.114.97.3,AS13335,2026-06-18T11:57:31Z
+domain,paycore-send.shop,urlscan @188.114.96.3,AS13335,2026-06-18T11:57:31Z
+domain,paycore-send.xyz,urlscan @2606:4700:3037::ac43:d308,AS13335,2026-06-18T11:57:31Z
+ip,104.21.56.16,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T11:57:31Z
+ip,172.67.175.177,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T11:57:31Z
+ip,2606:4700:3033::6815:3810,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T11:57:31Z
+ip,2606:4700:3037::ac43:afb1,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T11:57:31Z
