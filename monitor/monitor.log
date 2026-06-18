@@ -202,3 +202,6 @@
 [2026-06-18T18:47:06Z] NEW cert  it-pays.vps-pay-it.xyz  [ct-log (apex subdomain)]
 [2026-06-18T18:47:06Z] HEALTH certspotter=11/31 crtsh=14/19 urlscan=35/35 dns-google=172/172 dns-cf=172/172
 [2026-06-18T18:47:06Z] 1 new indicator(s) this run
+[2026-06-18T20:31:05Z] NEW cert  101.immrtl-hlpr.shop  [ct-log (apex subdomain)]
+[2026-06-18T20:31:05Z] HEALTH certspotter=3/31 crtsh=13/23 urlscan=35/35 dns-google=138/138 dns-cf=138/138
+[2026-06-18T20:31:05Z] 1 new indicator(s) this run
