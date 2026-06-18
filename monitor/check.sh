@@ -95,16 +95,22 @@ crtsh_get() {
 # and we query two resolvers as mutual fallback.
 fetch_doh() { fetch_h 15 2 "$1" "$2" -H "accept: application/dns-json"; }
 
-# urlscan search: keyless by default; uses URLSCAN_KEY (CI secret) when present
-# for consistent, complete (non-sampled) results. Records health under "urlscan".
+# urlscan search. Uses URLSCAN_KEY (CI secret) when present for consistent,
+# complete results — but a bad/expired/throttled key must NOT blind the arm, so
+# fall back to keyless (a 500/day IP quota, ample for this watchlist). Records a
+# single "urlscan" health entry reflecting whether ANY path returned data.
 us_search()  {
+  local q="$1" body=""
   if [ -n "${URLSCAN_KEY:-}" ]; then
-    fetch_h 45 3 "urlscan" "https://urlscan.io/api/v1/search/" -H "API-Key: $URLSCAN_KEY" \
-      -G --data-urlencode "q=$1" --data-urlencode "size=100"
-  else
-    fetch_h 45 3 "urlscan" "https://urlscan.io/api/v1/search/" \
-      -G --data-urlencode "q=$1" --data-urlencode "size=100"
+    body="$(curl -fsS --max-time 45 -A "$UA" -H "API-Key: $URLSCAN_KEY" -G "https://urlscan.io/api/v1/search/" \
+      --data-urlencode "q=$q" --data-urlencode "size=100" 2>/dev/null)"
   fi
+  if [ -z "$body" ]; then   # no key, or the keyed call failed -> keyless fallback
+    body="$(curl -fsS --max-time 45 -A "$UA" -G "https://urlscan.io/api/v1/search/" \
+      --data-urlencode "q=$q" --data-urlencode "size=100" 2>/dev/null)"
+  fi
+  if [ -n "$body" ]; then note_health "urlscan" "ok"; else note_health "urlscan" "error"; fi
+  printf '%s' "$body"
 }
 
 # --- parse watchlist into apexes (have a dot) and patterns (bare tokens) ------
