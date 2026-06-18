@@ -71,3 +71,44 @@ ip,2606:4700:3033::6815:3810,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T
 ip,2606:4700:3037::ac43:afb1,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T11:57:31Z
 ip,2606:4700:3032::ac43:afb1,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T12:46:58Z
 ip,2606:4700:3035::6815:3810,dns (dacajncritter.com),Cloudflare-edge,2026-06-18T12:46:58Z
+cert,adsrvr.shorten-it.lat,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,apps.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,arsenalroel.org,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,cnkstcd.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,cpanel.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,cpcalendars.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,cpcontacts.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,crm.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,dev.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,lime.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,link.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,login.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,m.cnkstcd.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,m.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,m.wfmcsy.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,mail.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,mail.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,old.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,owa.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,paycore-send.shop,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,paysend-paczka.shop,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,rick-rock.immortal-4u.shop,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,short-conn.shop,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,shorten-it.lat,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,sitemap.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,sitemaps.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,szrcgj.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,webdisk.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,webmail.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,wfmcsy.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,www.cnkstcd.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,www.periyartigers.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,www.reigartkistlerdds.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,www.wfmcsy.com,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,www.zhkjcx.org,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+cert,zhkjcx.org,ct-log (apex subdomain),,2026-06-18T13:06:35Z
+ip,170.187.131.209,dns (link.reigartkistlerdds.com),NON-CF ORIGIN — high value,2026-06-18T13:06:35Z
+ip,185.3.93.228,dns (link.reigartkistlerdds.com),NON-CF ORIGIN — high value,2026-06-18T13:06:35Z
+ip,192.250.229.176,dns (cpanel.periyartigers.com),NON-CF ORIGIN — high value,2026-06-18T13:06:35Z

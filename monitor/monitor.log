@@ -107,3 +107,69 @@
 [2026-06-18T12:46:58Z] NEW ip  2606:4700:3035::6815:3810  [dns (dacajncritter.com) / Cloudflare-edge]
 [2026-06-18T12:46:58Z] HEALTH certspotter=9/35 crtsh=9/10 urlscan=39/39 dns-google=132/132 dns-cf=132/132
 [2026-06-18T12:46:58Z] 2 new indicator(s) this run
+[2026-06-18T13:06:35Z] NEW cert  adsrvr.shorten-it.lat  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  apps.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  arsenalroel.org  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  cnkstcd.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  cpanel.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  cpcalendars.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  cpcontacts.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  crm.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  dev.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  lime.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  link.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  login.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  m.cnkstcd.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  m.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  m.wfmcsy.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  mail.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  mail.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  old.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  owa.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  paycore-send.shop  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  paysend-paczka.shop  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  rick-rock.immortal-4u.shop  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  short-conn.shop  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  shorten-it.lat  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  sitemap.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  sitemaps.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  szrcgj.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  webdisk.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  webmail.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  wfmcsy.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  www.cnkstcd.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  www.periyartigers.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  www.reigartkistlerdds.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  www.wfmcsy.com  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  www.zhkjcx.org  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW cert  zhkjcx.org  [ct-log (apex subdomain)]
+[2026-06-18T13:06:35Z] NEW ip  170.187.131.209  [dns (link.reigartkistlerdds.com) / NON-CF ORIGIN — high value]
+[2026-06-18T13:06:35Z] NEW ip  185.3.93.228  [dns (link.reigartkistlerdds.com) / NON-CF ORIGIN — high value]
+[2026-06-18T13:06:35Z] NEW ip  192.250.229.176  [dns (cpanel.periyartigers.com) / NON-CF ORIGIN — high value]
+[2026-06-18T13:06:35Z] HEALTH certspotter=3/35 crtsh=17/23 urlscan=39/39 dns-google=178/178 dns-cf=178/178
+[2026-06-18T13:06:35Z] ORIGIN-CANDIDATE 170.187.131.209 non-CF shared/unknown (100 apex) - recorded for review
+[2026-06-18T13:06:35Z] ORIGIN-CANDIDATE 185.3.93.228 non-CF shared/unknown (100 apex) - recorded for review
+[2026-06-18T13:06:35Z] ORIGIN-CANDIDATE 192.250.229.176 non-CF shared/unknown (19 apex) - recorded for review
+[2026-06-18T13:06:35Z] SCAN-SAVED apps.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-36c4-709d-8362-0b90817f0066/
+[2026-06-18T13:06:35Z] SCAN-SAVED cpanel.periyartigers.com -> https://urlscan.io/result/019edae2-42c1-70c5-8db2-3a10430e5fb4/
+[2026-06-18T13:06:35Z] SCAN-SAVED cpcalendars.periyartigers.com -> https://urlscan.io/result/019edae2-4dfa-775f-869f-f84d6f49c490/
+[2026-06-18T13:06:35Z] SCAN-SAVED cpcontacts.periyartigers.com -> https://urlscan.io/result/019edae2-57e6-736b-b968-7078466c089c/
+[2026-06-18T13:06:35Z] SCAN-SAVED crm.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-61e9-755c-a496-58c8d8f95cf2/
+[2026-06-18T13:06:35Z] SCAN-SAVED dev.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-6dd8-722c-8866-1974427702b1/
+[2026-06-18T13:06:35Z] SCAN-SAVED lime.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-7942-760c-abd6-06651ab74cd4/
+[2026-06-18T13:06:35Z] SCAN-SAVED link.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-84bb-7101-8327-9b695ecbb75e/
+[2026-06-18T13:06:35Z] SCAN-SAVED login.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-903c-734b-aec4-f1d4c9d4183b/
+[2026-06-18T13:06:35Z] SCAN-SAVED m.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-9c1b-7379-94cb-a1ad15f8eb52/
+[2026-06-18T13:06:35Z] SCAN-SAVED mail.periyartigers.com -> https://urlscan.io/result/019edae2-a7ba-706a-8149-7f6f61e1aa19/
+[2026-06-18T13:06:35Z] SCAN-SAVED mail.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-b209-756a-b9f0-245e2c0170c6/
+[2026-06-18T13:06:35Z] SCAN-SAVED old.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-bd99-7731-bf24-f832c81e1149/
+[2026-06-18T13:06:35Z] SCAN-SAVED owa.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-c9aa-77cd-b770-d1293c1cd2a1/
+[2026-06-18T13:06:35Z] SCAN-SAVED sitemap.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-d4cf-777d-a4a4-837e26894861/
+[2026-06-18T13:06:35Z] SCAN-SAVED sitemaps.reigartkistlerdds.com -> https://urlscan.io/result/019edae2-e026-775d-a889-43d4a36999d5/
+[2026-06-18T13:06:35Z] SCAN-SAVED webdisk.periyartigers.com -> https://urlscan.io/result/019edae2-eb97-75ae-9c91-25e3cddcf853/
+[2026-06-18T13:06:35Z] SCAN-SAVED webmail.periyartigers.com -> https://urlscan.io/result/019edae2-f75e-706b-ad7f-44bd988ba582/
+[2026-06-18T13:06:35Z] SCAN-SAVED www.periyartigers.com -> https://urlscan.io/result/019edae3-046d-7429-8da5-0053e765ecc4/
+[2026-06-18T13:06:35Z] SCAN-SAVED www.reigartkistlerdds.com -> https://urlscan.io/result/019edae3-1060-7550-8528-a750c6b27abf/
+[2026-06-18T13:06:35Z] 41 new indicator(s) this run
