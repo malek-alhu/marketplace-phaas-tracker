@@ -149,6 +149,22 @@ done < "$WATCH"
 while IFS= read -r a;  do [ -n "$a" ]  && APEXES+=("$a");   done < "$AUTO_APEX"
 while IFS= read -r ip; do [ -n "$ip" ] && ORIGINS+=("$ip"); done < "$AUTO_ORIG"
 
+# --- ~victim subdomain suppression ------------------------------------------
+# A "~" (DNSONLY) entry is a compromised LEGIT site: we DNS+scan the apex itself but
+# its own cpanel/webmail/www/... subdomains are the victim's infrastructure, not kit
+# landings. The page.domain query is already skipped for these (below), but a victim
+# sub can still reach us via a fingerprint/page.ip hit or stale seen_domains. Drop any
+# host that is a STRICT subdomain of a ~apex from every import/resolve path; the apex
+# itself is kept (length guard) so it stays tracked.
+DNSONLY_SFX="$TMP/dnsonly_sfx"; : > "$DNSONLY_SFX"
+for v in "${DNSONLY[@]:-}"; do [ -n "$v" ] && printf '.%s\n' "$v" >> "$DNSONLY_SFX"; done
+strip_victim_subs() {  # filter stdin -> stdout: drop hosts ending in ".<victim-apex>"
+  [ -s "$DNSONLY_SFX" ] || { cat; return; }
+  awk -v sfxf="$DNSONLY_SFX" '
+    BEGIN{ while((getline s < sfxf)>0) sfx[++n]=s }
+    { drop=0; for(i=1;i<=n;i++){ L=length(sfx[i]); if(length($0)>L && substr($0,length($0)-L+1)==sfx[i]){drop=1;break} } if(!drop) print }'
+}
+
 # --- Cloudflare-edge heuristic (so we can flag non-CF origins, the best lead) --
 # Well-known Cloudflare published ranges; an IP outside these is treated as a
 # candidate real origin and flagged. (Heuristic, not authoritative ASN lookup.)
@@ -230,7 +246,7 @@ for q in "${CTX_QUERIES[@]:-}"; do
   sleep 1
 done
 sort -u "$USCAN" -o "$USCAN"
-cut -f1 "$USCAN" | grep -v '^$' | sort -u > "$TMP/uscan_doms"
+cut -f1 "$USCAN" | grep -v '^$' | strip_victim_subs | sort -u > "$TMP/uscan_doms"
 
 # ============================ 3. DNS =========================================
 # Resolve every in-scope host: watched apexes + their CT subdomains + this run's
@@ -239,7 +255,7 @@ cut -f1 "$USCAN" | grep -v '^$' | sort -u > "$TMP/uscan_doms"
 # domain coming back, or a tracked domain moving to a NEW (possibly non-CF) origin.
 # (Token candidates are still excluded — substring guesses would flood DNS.)
 { printf '%s\n' "${APEXES[@]:-}" "${DNSONLY[@]:-}"; cat "$CERTS_APEX" "$TMP/uscan_doms" "$SEEN_DOM"; } \
-  | grep -v '^$' | sort -u > "$HOSTS"
+  | grep -v '^$' | strip_victim_subs | sort -u > "$HOSTS"
 
 while IFS= read -r h; do
   [ -z "$h" ] && continue
@@ -395,7 +411,7 @@ if [ -n "${URLSCAN_KEY:-}" ]; then
     fi
     sleep 2
   done
-  rem=$(comm -23 "$TMP/live_hosts" <(sort -u "$SCANNED") | grep -c . 2>/dev/null || echo 0)
+  rem=$(comm -23 "$TMP/live_hosts" <(sort -u "$SCANNED") | grep -c . || true)   # grep -c prints 0 on no-match; the old `|| echo 0` doubled it to "0\n0"
   [ "${rem:-0}" -gt 0 ] && echo "[$TS] SCAN-BACKLOG $rem live host(s) queued for next run (cap $SCAN_MAX/run)" >> "$LOG"
 fi
 
