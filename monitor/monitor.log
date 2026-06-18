@@ -103,3 +103,7 @@
 [2026-06-18T12:28:03Z] SCAN-SAVED subito.cam -> https://urlscan.io/result/019edab8-2a1c-729b-ac3f-92e259cce62c/
 [2026-06-18T12:28:03Z] SCAN-SAVED tinyurl.com -> https://urlscan.io/result/019edab8-35f4-70c8-aaf3-0b7a4fc7e416/
 [2026-06-18T12:28:03Z] no new indicators
+[2026-06-18T12:46:58Z] NEW ip  2606:4700:3032::ac43:afb1  [dns (dacajncritter.com) / Cloudflare-edge]
+[2026-06-18T12:46:58Z] NEW ip  2606:4700:3035::6815:3810  [dns (dacajncritter.com) / Cloudflare-edge]
+[2026-06-18T12:46:58Z] HEALTH certspotter=9/35 crtsh=9/10 urlscan=39/39 dns-google=132/132 dns-cf=132/132
+[2026-06-18T12:46:58Z] 2 new indicator(s) this run
