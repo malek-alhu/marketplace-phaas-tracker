@@ -4,24 +4,78 @@
 #       -> CT-log subdomain expansion (certspotter + crt.sh) + DNS re-resolution.
 #  Bare tokens (no dot)    = name-pattern fragments.
 #       -> CT-log substring search (crt.sh %token%) + urlscan correlation.
+#  Lines that are an IP    = origin hosts (v4 or v6).
+#       -> urlscan page.ip correlation: catch NEW domains landing on a known
+#          origin even before they match any apex/token. DEDICATED origins only;
+#          a shared CDN IP would flood this with unrelated tenants.
 #  Comments start with '#'. One entry per line. Edit freely — this file drives
 #  every query the tracker runs, so adding a brand/cluster here starts watching it.
 # ---------------------------------------------------------------------------
 
-# --- tracked apexes (Operator-A kit + redirector cluster) ---
+# === tracked apexes — Operator-A kit + redirector cluster (original) ===
 verifieer.cc
 verifa.cc
 pagamento.cc
 subito.cam
 express-paycore24.cyou
+express-paycore24.cfd
 paycore24-express.sbs
 paycore24-express.cfd
+# OLX-impersonation cluster apexes — were caught only via urlscan/token at baseline
+# (their apexes were never CT/DNS-watched). Added 2026-06-18 to close that gap.
+paycore-private.cyou
+paycore-send.sbs
+paycore-send.shop
+paycore-send.xyz
+paysend-paczka.shop
+paysend-paczka.xyz
 
-# --- name-pattern tokens (kit / cluster naming conventions) ---
-# Substring-matched in CT logs (crt.sh %token%). Prefer DISTINCTIVE, compound
-# fragments — generic words ("paysend", "paczka", "skrill", "verify", "subito")
-# collide with thousands of legitimate domains and only add noise. Token hits are
-# reported as lower-confidence "candidates" (and are NOT auto-resolved). Tune here.
+# === NEW kit apexes (discovered 2026-06-18 via urlscan kit-fingerprint + redirector capture) ===
+# "immortal / immrtl helper" family — freshly registered (days/weeks), cheap TLDs
+immrtl-hlpr.shop
+immortal-h.xyz
+immortal-4u.shop
+immortal-x8.xyz
+# pay / checker / send / shortener kit components (same kit fingerprint)
+vps-pay-it.xyz
+b-checker.xyz
+fed-send.xyz
+short-conn.shop
+shorten-it.lat
+baln-cmoni.shop
+yeezy-sand.xyz
+
+# === operator-registered redirectors (fresh throwaways, days old) ===
+arsenalroel.org
+zhkjcx.org
+
+# === compromised legitimate sites used as redirector / origin layer ===
+# Likely VICTIMS (aged domains hijacked to host kit redirects). humancompostco.com
+# is the Aeza origin (see origin IP below). Watched mainly for DNS/origin tracking.
+humancompostco.com
+reigartkistlerdds.com
+donshriversvideodrain.com
+periyartigers.com
+
+# === UNVERIFIED co-occurrences ===
+# Matched the kit fingerprint while co-hosted on the SHARED G-Core node; link to
+# this operator not yet confirmed. Monitored so nothing is lost — prune if unrelated.
+cnkstcd.com
+szrcgj.com
+longkun100.com
+wfmcsy.com
+
+# === origin IPs (urlscan page.ip watch — dedicated / near-dedicated only) ===
+# 193.148.56.18 = Aeza International / ALINDA LLC (AS209946), near-dedicated origin
+# for humancompostco.com (nginx/Ubuntu). Bulletproof host — high-value pivot.
+# NOT watched here: G-Core 81.28.12.12 / 2a03:90c0:999c::12 — a SHARED CDN node
+# (75+ unrelated tenants); page.ip would flood. Its kit domains are tracked above.
+193.148.56.18
+
+# === name-pattern tokens (crt.sh %token% substring; low-confidence "candidates") ===
+# Prefer DISTINCTIVE, compound fragments — generic words ("paysend", "verify",
+# "subito") collide with thousands of legit domains and only add noise. Token hits
+# are reported as candidates (NOT auto-resolved, NO alert). Tune here.
 paycore
 sendcore
 corepay
@@ -29,3 +83,13 @@ paycore24
 paycore-send
 paysend-paczka
 express-paycore
+# NEW distinctive fragments (2026-06-18) — catch TLD/word rotation of the new families
+immrtl
+immortal-
+fed-send
+short-conn
+shorten-it
+baln-cmoni
+vps-pay-it
+yeezy-sand
+b-checker

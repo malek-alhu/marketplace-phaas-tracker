@@ -113,12 +113,16 @@ us_search()  {
   printf '%s' "$body"
 }
 
-# --- parse watchlist into apexes (have a dot) and patterns (bare tokens) ------
-APEXES=(); PATTERNS=()
+# --- parse watchlist into apexes (have a dot), tokens (bare), origin IPs --------
+# Order matters: an IPv4 contains dots, so it MUST be matched before the apex
+# rule. Origin IPs drive a urlscan page.ip watch (new domains on a known origin).
+APEXES=(); PATTERNS=(); ORIGINS=()
 while IFS= read -r line; do
   line="${line%%#*}"; line="$(printf '%s' "$line" | tr -d '[:space:]')"
   [ -z "$line" ] && continue
-  if [[ "$line" == *.* ]]; then APEXES+=("$line"); else PATTERNS+=("$line"); fi
+  if   [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]] || [[ "$line" == *:*:* ]]; then ORIGINS+=("$line")
+  elif [[ "$line" == *.* ]]; then APEXES+=("$line")
+  else PATTERNS+=("$line"); fi
 done < "$WATCH"
 
 # --- Cloudflare-edge heuristic (so we can flag non-CF origins, the best lead) --
@@ -162,6 +166,10 @@ URLSCAN_QUERIES=(
   'page.url:"/static/cg.png"'
 )
 for apex in "${APEXES[@]:-}"; do [ -n "$apex" ] && URLSCAN_QUERIES+=("page.domain:\"$apex\""); done
+# Origin-IP watch: surface NEW domains that land on a known (dedicated) origin,
+# even if they match no apex/token yet. Only list dedicated IPs in the watchlist
+# — a shared CDN IP would flood this with unrelated tenants.
+for ip in "${ORIGINS[@]:-}"; do [ -n "$ip" ] && URLSCAN_QUERIES+=("page.ip:\"$ip\""); done
 
 for q in "${URLSCAN_QUERIES[@]}"; do
   us_search "$q" | node "$PARSE" urlscan >> "$USCAN"
