@@ -43,8 +43,11 @@ SEEN_CERT="$STATE/seen_certs.txt";   touch "$SEEN_CERT"
 SEEN_DOM="$STATE/seen_domains.txt";  touch "$SEEN_DOM"
 SEEN_DNS="$STATE/seen_dns.txt";      touch "$SEEN_DNS"
 INIT="$STATE/initialized"
+SCANS="$MON/scans.csv"
+SCANNED="$STATE/scanned.txt";        touch "$SCANNED"
 
-[ -s "$FIND" ] || echo "type,indicator,source,asn,first_seen" > "$FIND"
+[ -s "$FIND" ]  || echo "type,indicator,source,asn,first_seen" > "$FIND"
+[ -s "$SCANS" ] || echo "domain,uuid,result,visibility,first_scanned" > "$SCANS"
 
 TMP="$(mktemp -d)"; trap 'rm -rf "$TMP"' EXIT
 CERTS_APEX="$TMP/certs_apex"; : > "$CERTS_APEX"   # subdomains of watched apexes
@@ -111,6 +114,16 @@ us_search()  {
   fi
   if [ -n "$body" ]; then note_health "urlscan" "ok"; else note_health "urlscan" "error"; fi
   printf '%s' "$body"
+}
+# urlscan SUBMIT — save a PUBLIC scan (timestamped page + screenshot = evidence) of
+# a live scam page. Requires URLSCAN_KEY. Fire-and-forget; the scan finishes async
+# on urlscan's side. Echoes "uuid<TAB>result_url" on success, nothing on failure.
+us_submit() {
+  [ -n "${URLSCAN_KEY:-}" ] || return 0
+  curl -fsS --max-time 30 -A "$UA" -H "API-Key: $URLSCAN_KEY" -H "Content-Type: application/json" \
+    --data "{\"url\":\"https://$1/\",\"visibility\":\"public\",\"tags\":[\"marketplace-phaas\",\"auto-monitor\"]}" \
+    "https://urlscan.io/api/v1/scan/" 2>/dev/null \
+  | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{let j=JSON.parse(s);if(j.uuid)console.log(j.uuid+"\t"+(j.result||""))}catch(e){}})'
 }
 
 # --- parse watchlist into apexes (have a dot), tokens (bare), origin IPs --------
@@ -285,6 +298,28 @@ comm -23 "$DOWNF" "$NOWDOWN" | grep -v '^$' | while IFS= read -r d; do   # recov
   echo "[$TS] HEALTH-RECOVERED $d" >> "$LOG"
 done
 cp "$NOWDOWN" "$DOWNF"
+
+# ====================== SAVE: public urlscans of live scam pages =============
+# Preserve timestamped evidence (page + screenshot) for every LIVE in-scope host.
+# Backfills currently-live hosts over a few runs (capped), then catches new ones
+# as they appear. Deduped via state/scanned.txt (a host is scanned at most once).
+# Requires URLSCAN_KEY; visibility = public (citable case-file evidence).
+if [ -n "${URLSCAN_KEY:-}" ]; then
+  cut -f1 "$DNSPAIRS" | grep -v '^$' | sort -u > "$TMP/live_hosts"
+  SCAN_MAX=20
+  comm -23 "$TMP/live_hosts" <(sort -u "$SCANNED") | head -n "$SCAN_MAX" | while IFS= read -r h; do
+    [ -z "$h" ] && continue
+    IFS=$'\t' read -r uuid url <<< "$(us_submit "$h")"
+    if [ -n "${uuid:-}" ]; then
+      printf '%s,%s,%s,public,%s\n' "$h" "$uuid" "$url" "$TS" >> "$SCANS"
+      echo "[$TS] SCAN-SAVED $h -> $url" >> "$LOG"
+      echo "$h" >> "$SCANNED"
+    fi
+    sleep 2
+  done
+  rem=$(comm -23 "$TMP/live_hosts" <(sort -u "$SCANNED") | grep -c . 2>/dev/null || echo 0)
+  [ "${rem:-0}" -gt 0 ] && echo "[$TS] SCAN-BACKLOG $rem live host(s) queued for next run (cap $SCAN_MAX/run)" >> "$LOG"
+fi
 
 # ---- advance state ----------------------------------------------------------
 sort -u "$SEEN_CERT" "$CERTS_APEX" "$CERTS_TOK" -o "$SEEN_CERT"
