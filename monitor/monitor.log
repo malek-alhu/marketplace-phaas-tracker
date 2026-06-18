@@ -197,3 +197,5 @@
 [2026-06-18T13:41:43Z] NEW domain  www.reigartkistlerdds.com  [urlscan @172.67.182.240 / AS13335]
 [2026-06-18T13:41:43Z] HEALTH certspotter=3/31 crtsh=8/12 urlscan=39/39 dns-google=172/172 dns-cf=172/172
 [2026-06-18T13:41:43Z] 22 new indicator(s) this run
+[2026-06-18T13:53:24Z] HEALTH certspotter=2/31 crtsh=9/19 urlscan=35/35 dns-google=168/168 dns-cf=168/168
+[2026-06-18T13:53:24Z] no new indicators
