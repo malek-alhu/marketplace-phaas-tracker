@@ -205,3 +205,14 @@
 [2026-06-18T20:31:05Z] NEW cert  101.immrtl-hlpr.shop  [ct-log (apex subdomain)]
 [2026-06-18T20:31:05Z] HEALTH certspotter=3/31 crtsh=13/23 urlscan=35/35 dns-google=138/138 dns-cf=138/138
 [2026-06-18T20:31:05Z] 1 new indicator(s) this run
+[2026-06-19T00:45:37Z] NEW cert  8x.immortal-x8.xyz  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] NEW cert  dacajncritter.com  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] NEW cert  humancompostco.com  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] NEW cert  make-it.short-conn.shop  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] NEW cert  sendeasy.yeezy-sand.xyz  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] NEW cert  www.dacajncritter.com  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] NEW cert  www.humancompostco.com  [ct-log (apex subdomain)]
+[2026-06-19T00:45:37Z] HEALTH certspotter=11/33 crtsh=34/45 urlscan=37/37 dns-google=144/144 dns-cf=144/144
+[2026-06-19T00:45:37Z] SCAN-SAVED www.dacajncritter.com -> https://urlscan.io/result/019edd67-6c01-73aa-a533-3461027a5e68/
+[2026-06-19T00:45:37Z] SCAN-SAVED www.humancompostco.com -> https://urlscan.io/result/019edd67-775a-76ca-ad3f-0a1971e6cf8e/
+[2026-06-19T00:45:37Z] 7 new indicator(s) this run
