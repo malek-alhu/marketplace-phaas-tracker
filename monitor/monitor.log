@@ -224,3 +224,7 @@
 [2026-06-19T07:49:57Z] NEW ip  2606:4700:3031::6815:3bc3  [dns (reigartkistlerdds.com) / Cloudflare-edge]
 [2026-06-19T07:49:57Z] HEALTH certspotter=12/33 crtsh=29/40 urlscan=37/37 dns-google=144/144 dns-cf=144/144
 [2026-06-19T07:49:57Z] 6 new indicator(s) this run
+[2026-06-19T13:09:03Z] candidate cert  ebay--klelnanzeigen--deliveryexpress.online  [ct-log (token candidate — review)]
+[2026-06-19T13:09:03Z] candidate cert  ebay-klelnanzeigen--deliveryexpress.online  [ct-log (token candidate — review)]
+[2026-06-19T13:09:03Z] HEALTH certspotter=11/33 crtsh=44/50 urlscan=37/37 dns-google=144/144 dns-cf=144/144
+[2026-06-19T13:09:03Z] no new indicators

@@ -149,3 +149,5 @@ cert,mostly.immortal-h.xyz,ct-log (apex subdomain),,2026-06-19T07:49:57Z
 domain,www.dacajncritter.com,urlscan @104.21.56.16,AS13335,2026-06-19T07:49:57Z
 ip,2606:4700:3030::ac43:b6f0,dns (reigartkistlerdds.com),Cloudflare-edge,2026-06-19T07:49:57Z
 ip,2606:4700:3031::6815:3bc3,dns (reigartkistlerdds.com),Cloudflare-edge,2026-06-19T07:49:57Z
+cert,ebay--klelnanzeigen--deliveryexpress.online,ct-log (token candidate — review),,2026-06-19T13:09:03Z
+cert,ebay-klelnanzeigen--deliveryexpress.online,ct-log (token candidate — review),,2026-06-19T13:09:03Z
