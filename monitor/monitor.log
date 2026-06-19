@@ -228,3 +228,5 @@
 [2026-06-19T13:09:03Z] candidate cert  ebay-klelnanzeigen--deliveryexpress.online  [ct-log (token candidate — review)]
 [2026-06-19T13:09:03Z] HEALTH certspotter=11/33 crtsh=44/50 urlscan=37/37 dns-google=144/144 dns-cf=144/144
 [2026-06-19T13:09:03Z] no new indicators
+[2026-06-19T18:35:19Z] HEALTH certspotter=11/33 crtsh=48/50 urlscan=37/37 dns-google=140/140 dns-cf=140/140
+[2026-06-19T18:35:19Z] no new indicators
