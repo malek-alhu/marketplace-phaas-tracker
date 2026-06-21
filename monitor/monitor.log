@@ -238,3 +238,6 @@
 [2026-06-20T12:34:28Z] no new indicators
 [2026-06-20T18:28:40Z] HEALTH certspotter=10/33 crtsh=9/13 urlscan=37/37 dns-google=138/138 dns-cf=138/138
 [2026-06-20T18:28:40Z] no new indicators
+[2026-06-21T00:39:42Z] NEW cert  b.b-checker.xyz  [ct-log (apex subdomain)]
+[2026-06-21T00:39:42Z] HEALTH certspotter=10/33 crtsh=4/7 urlscan=37/37 dns-google=138/138 dns-cf=138/138
+[2026-06-21T00:39:42Z] 1 new indicator(s) this run
