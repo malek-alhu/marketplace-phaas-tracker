@@ -277,3 +277,8 @@
 [2026-06-25T00:36:45Z] no new indicators
 [2026-06-25T07:09:27Z] HEALTH certspotter=10/33 crtsh=7/11 urlscan=37/37 dns-google=134/134 dns-cf=134/134
 [2026-06-25T07:09:27Z] no new indicators
+[2026-06-25T12:46:09Z] NEW ip  2606:4700:3033::6815:89a  [dns (donshriversvideodrain.com) / Cloudflare-edge]
+[2026-06-25T12:46:09Z] NEW ip  2606:4700:3035::ac43:bc8c  [dns (donshriversvideodrain.com) / Cloudflare-edge]
+[2026-06-25T12:46:09Z] HEALTH certspotter=10/33 crtsh=0/3 urlscan=37/37 dns-google=134/134 dns-cf=134/134
+[2026-06-25T12:46:09Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-06-25T12:46:09Z] 2 new indicator(s) this run
