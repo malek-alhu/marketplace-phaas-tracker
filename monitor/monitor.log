@@ -345,3 +345,13 @@
 [2026-07-02T08:44:15Z] no new indicators
 [2026-07-02T13:42:38Z] HEALTH certspotter=10/33 crtsh=1/4 urlscan=37/37 dns-google=134/134 dns-cf=134/134
 [2026-07-02T13:42:38Z] no new indicators
+[2026-07-02T19:13:21Z] NEW domain  inpost.pay-flow.cfd  [urlscan @172.67.165.195 / AS13335]
+[2026-07-02T19:13:21Z] NEW domain  singleframefilms.com  [urlscan]
+[2026-07-02T19:13:21Z] NEW ip  104.21.38.34  [dns (singleframefilms.com) / Cloudflare-edge]
+[2026-07-02T19:13:21Z] NEW ip  172.67.218.78  [dns (singleframefilms.com) / Cloudflare-edge]
+[2026-07-02T19:13:21Z] NEW ip  2606:4700:3032::ac43:da4e  [dns (singleframefilms.com) / Cloudflare-edge]
+[2026-07-02T19:13:21Z] NEW ip  2606:4700:3035::6815:2622  [dns (singleframefilms.com) / Cloudflare-edge]
+[2026-07-02T19:13:21Z] HEALTH certspotter=11/33 crtsh=27/34 urlscan=37/37 dns-google=148/148 dns-cf=148/148
+[2026-07-02T19:13:21Z] AUTO-PROMOTE apex pay-flow.cfd (kit-fingerprint) -> now CT/DNS/scan-watched
+[2026-07-02T19:13:21Z] SCAN-SAVED singleframefilms.com -> https://urlscan.io/result/019f244b-a5ee-733e-b0ca-c0b9ea9e4425/
+[2026-07-02T19:13:21Z] 6 new indicator(s) this run
