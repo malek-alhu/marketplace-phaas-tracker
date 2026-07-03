@@ -357,3 +357,6 @@
 [2026-07-02T19:13:21Z] 6 new indicator(s) this run
 [2026-07-03T02:10:12Z] HEALTH certspotter=10/34 crtsh=3/6 urlscan=38/38 dns-google=140/140 dns-cf=140/140
 [2026-07-03T02:10:12Z] no new indicators
+[2026-07-03T08:52:07Z] NEW cert  pay-flow.cfd  [ct-log (apex subdomain)]
+[2026-07-03T08:52:07Z] HEALTH certspotter=11/34 crtsh=47/51 urlscan=38/38 dns-google=150/150 dns-cf=150/150
+[2026-07-03T08:52:07Z] 1 new indicator(s) this run
