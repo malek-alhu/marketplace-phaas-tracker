@@ -385,3 +385,6 @@
 [2026-07-05T19:04:51Z] no new indicators
 [2026-07-06T02:28:43Z] HEALTH certspotter=11/34 crtsh=10/21 urlscan=38/38 dns-google=142/142 dns-cf=142/142
 [2026-07-06T02:28:43Z] no new indicators
+[2026-07-06T10:00:33Z] HEALTH certspotter=10/34 crtsh=0/3 urlscan=38/38 dns-google=140/140 dns-cf=140/140
+[2026-07-06T10:00:33Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-07-06T10:00:33Z] no new indicators
