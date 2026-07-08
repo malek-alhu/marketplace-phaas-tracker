@@ -407,3 +407,8 @@
 [2026-07-08T08:12:09Z] no new indicators
 [2026-07-08T13:46:15Z] HEALTH certspotter=12/34 crtsh=27/33 urlscan=38/38 dns-google=150/150 dns-cf=150/150
 [2026-07-08T13:46:15Z] no new indicators
+[2026-07-08T19:11:56Z] NEW ip  2606:4700:3033::6815:4c60  [dns (subito.cam) / Cloudflare-edge]
+[2026-07-08T19:11:56Z] NEW ip  2606:4700:3037::ac43:c070  [dns (subito.cam) / Cloudflare-edge]
+[2026-07-08T19:11:56Z] HEALTH certspotter=11/34 crtsh=0/3 urlscan=38/38 dns-google=140/140 dns-cf=140/140
+[2026-07-08T19:11:56Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-07-08T19:11:56Z] 2 new indicator(s) this run
