@@ -164,3 +164,4 @@ cert,pay-flow.cfd,ct-log (apex subdomain),,2026-07-03T08:52:07Z
 ip,2606:4700:3033::6815:4c60,dns (subito.cam),Cloudflare-edge,2026-07-08T19:11:56Z
 ip,2606:4700:3037::ac43:c070,dns (subito.cam),Cloudflare-edge,2026-07-08T19:11:56Z
 domain,dba.lnvoicel-47293.com,urlscan @172.67.216.229,AS13335,2026-07-10T02:10:11Z
+cert,lnvoicel-47293.com,ct-log (apex subdomain),,2026-07-10T14:04:53Z

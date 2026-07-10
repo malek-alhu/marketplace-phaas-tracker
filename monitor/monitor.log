@@ -426,3 +426,6 @@
 [2026-07-10T02:10:11Z] 1 new indicator(s) this run
 [2026-07-10T09:21:36Z] HEALTH certspotter=11/35 crtsh=3/9 urlscan=39/39 dns-google=144/144 dns-cf=144/144
 [2026-07-10T09:21:36Z] no new indicators
+[2026-07-10T14:04:53Z] NEW cert  lnvoicel-47293.com  [ct-log (apex subdomain)]
+[2026-07-10T14:04:53Z] HEALTH certspotter=12/35 crtsh=41/48 urlscan=39/39 dns-google=154/154 dns-cf=154/154
+[2026-07-10T14:04:53Z] 1 new indicator(s) this run
