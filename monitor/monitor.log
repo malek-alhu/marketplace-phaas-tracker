@@ -486,3 +486,6 @@
 [2026-07-16T07:59:19Z] 1 new indicator(s) this run
 [2026-07-16T13:26:14Z] HEALTH certspotter=10/35 crtsh=4/8 urlscan=39/40 dns-google=146/146 dns-cf=146/146
 [2026-07-16T13:26:14Z] no new indicators
+[2026-07-16T18:59:15Z] NEW cert  immrtl-hlpr.shop  [ct-log (apex subdomain)]
+[2026-07-16T18:59:15Z] HEALTH certspotter=10/35 crtsh=2/5 urlscan=40/40 dns-google=146/146 dns-cf=146/146
+[2026-07-16T18:59:15Z] 1 new indicator(s) this run
