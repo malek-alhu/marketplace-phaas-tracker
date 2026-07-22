@@ -169,3 +169,4 @@ ip,196.251.107.209,dns (reigartkistlerdds.com),NON-CF ORIGIN — high value,2026
 domain,196.251.107.209,urlscan @196.251.107.209,AS214351,2026-07-14T01:47:57Z
 cert,fed-send.xyz,ct-log (apex subdomain),,2026-07-16T07:59:19Z
 cert,immrtl-hlpr.shop,ct-log (apex subdomain),,2026-07-16T18:59:15Z
+ip,172.65.211.209,dns (reigartkistlerdds.com),Cloudflare-edge,2026-07-22T13:25:33Z

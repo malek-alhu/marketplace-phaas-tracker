@@ -539,3 +539,6 @@
 [2026-07-22T08:12:06Z] HEALTH certspotter=10/35 crtsh=0/3 urlscan=40/40 dns-google=146/146 dns-cf=146/146
 [2026-07-22T08:12:06Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-07-22T08:12:06Z] no new indicators
+[2026-07-22T13:25:33Z] NEW ip  172.65.211.209  [dns (reigartkistlerdds.com) / Cloudflare-edge]
+[2026-07-22T13:25:33Z] HEALTH certspotter=11/35 crtsh=12/19 urlscan=40/40 dns-google=148/148 dns-cf=148/148
+[2026-07-22T13:25:33Z] 1 new indicator(s) this run
