@@ -570,3 +570,6 @@
 [2026-07-25T01:57:25Z] no new indicators
 [2026-07-25T07:53:28Z] HEALTH certspotter=12/35 crtsh=22/36 urlscan=40/40 dns-google=152/152 dns-cf=152/152
 [2026-07-25T07:53:28Z] no new indicators
+[2026-07-25T13:06:18Z] HEALTH certspotter=0/35 crtsh=20/28 urlscan=40/40 dns-google=148/148 dns-cf=148/148
+[2026-07-25T13:06:18Z] HEALTH-ALERT certspotter went DOWN
+[2026-07-25T13:06:18Z] 1 new indicator(s) this run
