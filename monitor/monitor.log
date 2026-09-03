@@ -953,3 +953,11 @@
 [2026-09-03T10:28:10Z] no new indicators
 [2026-09-03T15:33:28Z] HEALTH certspotter=10/35 crtsh=52/52 urlscan=40/40 dns-google=156/156 dns-cf=156/156
 [2026-09-03T15:33:28Z] no new indicators
+[2026-09-03T20:20:39Z] NEW ip  104.21.92.141  [dns (www.zhkjcx.org) / Cloudflare-edge]
+[2026-09-03T20:20:39Z] NEW ip  172.67.194.140  [dns (www.zhkjcx.org) / Cloudflare-edge]
+[2026-09-03T20:20:39Z] NEW ip  2606:4700:3030::6815:5c8d  [dns (www.zhkjcx.org) / Cloudflare-edge]
+[2026-09-03T20:20:39Z] NEW ip  2606:4700:3031::ac43:c28c  [dns (www.zhkjcx.org) / Cloudflare-edge]
+[2026-09-03T20:20:39Z] HEALTH certspotter=10/35 crtsh=52/52 urlscan=40/40 dns-google=156/156 dns-cf=156/156
+[2026-09-03T20:20:39Z] SCAN-SAVED www.zhkjcx.org -> https://urlscan.io/result/01a068f9-4f0e-7723-9418-fd0e510966c0/
+[2026-09-03T20:20:39Z] SCAN-SAVED zhkjcx.org -> https://urlscan.io/result/01a068f9-58dc-76db-8075-1efe84911d0e/
+[2026-09-03T20:20:39Z] 4 new indicator(s) this run
