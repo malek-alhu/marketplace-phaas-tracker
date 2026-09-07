@@ -1000,3 +1000,9 @@
 [2026-09-07T11:11:24Z] NEW domain  www.wfmcsy.com  [urlscan @104.21.43.38 / AS13335]
 [2026-09-07T11:11:24Z] HEALTH certspotter=10/35 crtsh=4/7 urlscan=40/40 dns-google=150/150 dns-cf=150/150
 [2026-09-07T11:11:24Z] 1 new indicator(s) this run
+[2026-09-07T16:57:42Z] NEW domain  amoreliie.com  [urlscan]
+[2026-09-07T16:57:42Z] NEW domain  www.amoreliie.com  [urlscan @193.148.56.18 / AS209946]
+[2026-09-07T16:57:42Z] HEALTH certspotter=11/35 crtsh=50/52 urlscan=40/40 dns-google=160/160 dns-cf=160/160
+[2026-09-07T16:57:42Z] SCAN-SAVED amoreliie.com -> https://urlscan.io/result/01a07cdb-3a6c-7541-9c25-6deccad02fe3/
+[2026-09-07T16:57:42Z] SCAN-SAVED www.amoreliie.com -> https://urlscan.io/result/01a07cdb-464f-703b-8fa8-5a849e75b49c/
+[2026-09-07T16:57:42Z] 2 new indicator(s) this run

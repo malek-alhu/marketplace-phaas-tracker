@@ -179,3 +179,5 @@ ip,172.67.218.222,dns (m.wfmcsy.com),Cloudflare-edge,2026-09-07T02:09:29Z
 ip,2606:4700:3032::6815:2b26,dns (m.wfmcsy.com),Cloudflare-edge,2026-09-07T02:09:29Z
 ip,2606:4700:3034::ac43:dade,dns (m.wfmcsy.com),Cloudflare-edge,2026-09-07T02:09:29Z
 domain,www.wfmcsy.com,urlscan @104.21.43.38,AS13335,2026-09-07T11:11:24Z
+domain,amoreliie.com,urlscan,,2026-09-07T16:57:42Z
+domain,www.amoreliie.com,urlscan @193.148.56.18,AS209946,2026-09-07T16:57:42Z
