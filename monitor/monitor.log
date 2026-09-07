@@ -988,3 +988,12 @@
 [2026-09-06T14:42:29Z] no new indicators
 [2026-09-06T19:49:43Z] HEALTH certspotter=11/35 crtsh=39/52 urlscan=40/40 dns-google=156/156 dns-cf=156/156
 [2026-09-06T19:49:43Z] no new indicators
+[2026-09-07T02:09:29Z] NEW ip  104.21.43.38  [dns (m.wfmcsy.com) / Cloudflare-edge]
+[2026-09-07T02:09:29Z] NEW ip  172.67.218.222  [dns (m.wfmcsy.com) / Cloudflare-edge]
+[2026-09-07T02:09:29Z] NEW ip  2606:4700:3032::6815:2b26  [dns (m.wfmcsy.com) / Cloudflare-edge]
+[2026-09-07T02:09:29Z] NEW ip  2606:4700:3034::ac43:dade  [dns (m.wfmcsy.com) / Cloudflare-edge]
+[2026-09-07T02:09:29Z] HEALTH certspotter=10/35 crtsh=5/11 urlscan=40/40 dns-google=148/148 dns-cf=148/148
+[2026-09-07T02:09:29Z] SCAN-SAVED m.wfmcsy.com -> https://urlscan.io/result/01a079a9-2b0f-700b-af0b-3aa70a4a8d4a/
+[2026-09-07T02:09:29Z] SCAN-SAVED wfmcsy.com -> https://urlscan.io/result/01a079a9-363b-77ec-aa2a-5aa475b4d56d/
+[2026-09-07T02:09:29Z] SCAN-SAVED www.wfmcsy.com -> https://urlscan.io/result/01a079a9-40a0-724d-95ff-c7cd54da5963/
+[2026-09-07T02:09:29Z] 4 new indicator(s) this run
