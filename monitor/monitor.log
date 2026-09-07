@@ -997,3 +997,6 @@
 [2026-09-07T02:09:29Z] SCAN-SAVED wfmcsy.com -> https://urlscan.io/result/01a079a9-363b-77ec-aa2a-5aa475b4d56d/
 [2026-09-07T02:09:29Z] SCAN-SAVED www.wfmcsy.com -> https://urlscan.io/result/01a079a9-40a0-724d-95ff-c7cd54da5963/
 [2026-09-07T02:09:29Z] 4 new indicator(s) this run
+[2026-09-07T11:11:24Z] NEW domain  www.wfmcsy.com  [urlscan @104.21.43.38 / AS13335]
+[2026-09-07T11:11:24Z] HEALTH certspotter=10/35 crtsh=4/7 urlscan=40/40 dns-google=150/150 dns-cf=150/150
+[2026-09-07T11:11:24Z] 1 new indicator(s) this run
