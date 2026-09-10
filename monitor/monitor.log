@@ -1026,3 +1026,11 @@
 [2026-09-09T15:40:22Z] no new indicators
 [2026-09-09T20:14:44Z] HEALTH certspotter=10/35 crtsh=2/5 urlscan=40/40 dns-google=152/152 dns-cf=152/152
 [2026-09-09T20:14:44Z] no new indicators
+[2026-09-10T02:23:56Z] NEW ip  104.41.191.220  [dns (pay-flow.cfd) / NON-CF ORIGIN — high value]
+[2026-09-10T02:23:56Z] NEW ip  72.143.72.16  [dns (paycore-send.shop) / NON-CF ORIGIN — high value]
+[2026-09-10T02:23:56Z] HEALTH certspotter=11/35 crtsh=46/52 urlscan=40/40 dns-google=160/160 dns-cf=160/160
+[2026-09-10T02:23:56Z] AUTO-PROMOTE origin 104.41.191.220 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-10T02:23:56Z] AUTO-PROMOTE origin 72.143.72.16 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-10T02:23:56Z] SCAN-SAVED pay-flow.cfd -> https://urlscan.io/result/01a08930-6398-745c-b2e2-28c3dc0586fc/
+[2026-09-10T02:23:56Z] SCAN-SAVED paycore-send.shop -> https://urlscan.io/result/01a08930-6ff0-712f-bb22-74b669f20ae0/
+[2026-09-10T02:23:56Z] 2 new indicator(s) this run
