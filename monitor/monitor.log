@@ -1034,3 +1034,6 @@
 [2026-09-10T02:23:56Z] SCAN-SAVED pay-flow.cfd -> https://urlscan.io/result/01a08930-6398-745c-b2e2-28c3dc0586fc/
 [2026-09-10T02:23:56Z] SCAN-SAVED paycore-send.shop -> https://urlscan.io/result/01a08930-6ff0-712f-bb22-74b669f20ae0/
 [2026-09-10T02:23:56Z] 2 new indicator(s) this run
+[2026-09-10T10:20:14Z] NEW domain  pay-flow.cfd  [urlscan]
+[2026-09-10T10:20:14Z] HEALTH certspotter=11/35 crtsh=40/52 urlscan=42/42 dns-google=160/160 dns-cf=160/160
+[2026-09-10T10:20:14Z] 1 new indicator(s) this run
