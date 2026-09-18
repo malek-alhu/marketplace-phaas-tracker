@@ -1098,3 +1098,24 @@
 [2026-09-17T15:57:51Z] no new indicators
 [2026-09-17T20:47:56Z] HEALTH certspotter=11/35 crtsh=52/52 urlscan=42/42 dns-google=160/160 dns-cf=160/160
 [2026-09-17T20:47:56Z] no new indicators
+[2026-09-18T02:30:43Z] NEW domain  www.autonocion.com  [urlscan @2606:4700:3108::ac42:286f]
+[2026-09-18T02:30:43Z] NEW domain  www.dan.postercollage.com  [urlscan]
+[2026-09-18T02:30:43Z] NEW domain  www.leddeliverybox.ph  [urlscan]
+[2026-09-18T02:30:43Z] NEW ip  172.234.220.54  [dns (www.dan.postercollage.com) / NON-CF ORIGIN — high value]
+[2026-09-18T02:30:43Z] NEW ip  172.238.172.53  [dns (www.dan.postercollage.com) / NON-CF ORIGIN — high value]
+[2026-09-18T02:30:43Z] NEW ip  172.239.43.14  [dns (www.dan.postercollage.com) / NON-CF ORIGIN — high value]
+[2026-09-18T02:30:43Z] NEW ip  172.66.40.111  [dns (www.autonocion.com) / Cloudflare-edge]
+[2026-09-18T02:30:43Z] NEW ip  172.66.43.145  [dns (www.autonocion.com) / Cloudflare-edge]
+[2026-09-18T02:30:43Z] NEW ip  2606:4700:3108::ac42:286f  [dns (www.autonocion.com) / Cloudflare-edge]
+[2026-09-18T02:30:43Z] NEW ip  2606:4700:3108::ac42:2b91  [dns (www.autonocion.com) / Cloudflare-edge]
+[2026-09-18T02:30:43Z] NEW ip  45.79.222.138  [dns (www.leddeliverybox.ph) / NON-CF ORIGIN — high value]
+[2026-09-18T02:30:43Z] HEALTH certspotter=11/35 crtsh=51/52 urlscan=42/42 dns-google=166/166 dns-cf=166/166
+[2026-09-18T02:30:43Z] AUTO-PROMOTE apex autonocion.com (kit-fingerprint) -> now CT/DNS/scan-watched
+[2026-09-18T02:30:43Z] ORIGIN-CANDIDATE 172.234.220.54 non-CF shared/unknown (45 apex) - recorded for review
+[2026-09-18T02:30:43Z] ORIGIN-CANDIDATE 172.238.172.53 non-CF shared/unknown (51 apex) - recorded for review
+[2026-09-18T02:30:43Z] ORIGIN-CANDIDATE 172.239.43.14 non-CF shared/unknown (41 apex) - recorded for review
+[2026-09-18T02:30:43Z] ORIGIN-CANDIDATE 45.79.222.138 non-CF shared/unknown (99 apex) - recorded for review
+[2026-09-18T02:30:43Z] SCAN-SAVED www.autonocion.com -> https://urlscan.io/result/01a0b267-35a6-725a-8571-fa35c53e5b6d/
+[2026-09-18T02:30:43Z] SCAN-SAVED www.dan.postercollage.com -> https://urlscan.io/result/01a0b267-44a2-754e-8d8a-b29ca9bfbba1/
+[2026-09-18T02:30:43Z] SCAN-SAVED www.leddeliverybox.ph -> https://urlscan.io/result/01a0b267-5036-7681-86fc-a3bae7ddc863/
+[2026-09-18T02:30:43Z] 11 new indicator(s) this run

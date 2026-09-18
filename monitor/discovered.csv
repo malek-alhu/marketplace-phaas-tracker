@@ -7,3 +7,8 @@ apex,lnvoicel-47293.com,promoted,kit-fingerprint confirmed,2026-07-10T02:10:11Z
 origin,196.251.107.209,promoted,non-CF dedicated (0 apex on IP),2026-07-13T19:15:24Z
 origin,104.41.191.220,promoted,non-CF dedicated (0 apex on IP),2026-09-10T02:23:56Z
 origin,72.143.72.16,promoted,non-CF dedicated (0 apex on IP),2026-09-10T02:23:56Z
+apex,autonocion.com,promoted,kit-fingerprint confirmed,2026-09-18T02:30:43Z
+origin,172.234.220.54,candidate,non-CF shared/unknown (45 apex on IP) - review,2026-09-18T02:30:43Z
+origin,172.238.172.53,candidate,non-CF shared/unknown (51 apex on IP) - review,2026-09-18T02:30:43Z
+origin,172.239.43.14,candidate,non-CF shared/unknown (41 apex on IP) - review,2026-09-18T02:30:43Z
+origin,45.79.222.138,candidate,non-CF shared/unknown (99 apex on IP) - review,2026-09-18T02:30:43Z

@@ -184,3 +184,14 @@ domain,www.amoreliie.com,urlscan @193.148.56.18,AS209946,2026-09-07T16:57:42Z
 ip,104.41.191.220,dns (pay-flow.cfd),NON-CF ORIGIN — high value,2026-09-10T02:23:56Z
 ip,72.143.72.16,dns (paycore-send.shop),NON-CF ORIGIN — high value,2026-09-10T02:23:56Z
 domain,pay-flow.cfd,urlscan,,2026-09-10T10:20:14Z
+domain,www.autonocion.com,urlscan @2606:4700:3108::ac42:286f,,2026-09-18T02:30:43Z
+domain,www.dan.postercollage.com,urlscan,,2026-09-18T02:30:43Z
+domain,www.leddeliverybox.ph,urlscan,,2026-09-18T02:30:43Z
+ip,172.234.220.54,dns (www.dan.postercollage.com),NON-CF ORIGIN — high value,2026-09-18T02:30:43Z
+ip,172.238.172.53,dns (www.dan.postercollage.com),NON-CF ORIGIN — high value,2026-09-18T02:30:43Z
+ip,172.239.43.14,dns (www.dan.postercollage.com),NON-CF ORIGIN — high value,2026-09-18T02:30:43Z
+ip,172.66.40.111,dns (www.autonocion.com),Cloudflare-edge,2026-09-18T02:30:43Z
+ip,172.66.43.145,dns (www.autonocion.com),Cloudflare-edge,2026-09-18T02:30:43Z
+ip,2606:4700:3108::ac42:286f,dns (www.autonocion.com),Cloudflare-edge,2026-09-18T02:30:43Z
+ip,2606:4700:3108::ac42:2b91,dns (www.autonocion.com),Cloudflare-edge,2026-09-18T02:30:43Z
+ip,45.79.222.138,dns (www.leddeliverybox.ph),NON-CF ORIGIN — high value,2026-09-18T02:30:43Z
