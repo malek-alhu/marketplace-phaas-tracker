@@ -123,3 +123,9 @@ origin,46.8.8.229,candidate,non-CF shared/unknown (99 apex on IP) - review,2026-
 origin,64.120.31.121,promoted,non-CF dedicated (3 apex on IP),2026-09-18T15:32:51Z
 origin,74.207.241.245,candidate,non-CF shared/unknown (60 apex on IP) - review,2026-09-18T15:32:51Z
 origin,78.157.209.171,candidate,non-CF shared/unknown (48 apex on IP) - review,2026-09-18T15:32:51Z
+origin,103.224.182.247,candidate,non-CF shared/unknown (64 apex on IP) - review,2026-09-18T20:12:57Z
+origin,172.98.192.46,promoted,non-CF dedicated (0 apex on IP),2026-09-18T20:12:57Z
+origin,212.92.104.5,candidate,non-CF shared/unknown (75 apex on IP) - review,2026-09-18T20:12:57Z
+origin,23.82.16.53,promoted,non-CF dedicated (0 apex on IP),2026-09-18T20:12:57Z
+origin,23.82.16.56,promoted,non-CF dedicated (1 apex on IP),2026-09-18T20:12:57Z
+origin,64.120.31.120,promoted,non-CF dedicated (6 apex on IP),2026-09-18T20:12:57Z

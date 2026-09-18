@@ -1523,3 +1523,62 @@
 [2026-09-18T15:32:51Z] SCAN-SAVED hugemoney631.pages.dev -> https://urlscan.io/result/01a0b535-f718-722c-889f-344225d46d49/
 [2026-09-18T15:32:51Z] SCAN-BACKLOG 77 live host(s) queued for next run (cap 20/run)
 [2026-09-18T15:32:51Z] 55 new indicator(s) this run
+[2026-09-18T20:12:57Z] NEW domain  28907216-2365-4117.supopurytheals.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  29049120-31512-25233.supopurytheals.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  accounting.standardlessons.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  alerts.robointernet.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  blog.barclays-virtual.ph  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  britishblades.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  control.bigappleoutlet.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  d21w.cn  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  demo.castrostreeservice.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  dev.autonocion.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  ewwgxymg.nexthop.ws  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  m.cgi.ebay.com.ebaymotors.ebayisapi.wvcc.us  [urlscan @64.120.31.121 / AS396362]
+[2026-09-18T20:12:57Z] NEW domain  m.splitmerge.us  [urlscan @23.82.16.55 / AS7203]
+[2026-09-18T20:12:57Z] NEW domain  mejortorrent1.net  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  new.bancobanesto.ws  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  portfolio.findxplorer.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  staging.castrostreeservice.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  test.castrostreeservice.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  us46907biywpcq.09up7pqs1us.co  [urlscan @64.120.31.121 / AS396362]
+[2026-09-18T20:12:57Z] NEW domain  whm.api.dynamicauth.site  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  ww7.wellsfargo-secure.ws  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  www.scotiabank.servise-now.com  [urlscan]
+[2026-09-18T20:12:57Z] NEW domain  www.topfranceturf.com  [urlscan @64.120.31.121 / AS396362]
+[2026-09-18T20:12:57Z] NEW domain  www.ww16.customer.yhcvpn.xyz  [urlscan]
+[2026-09-18T20:12:57Z] NEW ip  103.224.182.247  [dns (alerts.robointernet.com) / NON-CF ORIGIN — high value]
+[2026-09-18T20:12:57Z] NEW ip  172.98.192.46  [dns (bidv.azurwebsites.net) / NON-CF ORIGIN — high value]
+[2026-09-18T20:12:57Z] NEW ip  212.92.104.5  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-18T20:12:57Z] NEW ip  23.82.16.53  [dns (m.cgi.ebay.com.ebaymotors.ebayisapi.wvcc.us) / NON-CF ORIGIN — high value]
+[2026-09-18T20:12:57Z] NEW ip  23.82.16.56  [dns (skyzsports24.live) / NON-CF ORIGIN — high value]
+[2026-09-18T20:12:57Z] NEW ip  64.120.31.120  [dns (ww25.ladjkj.lmpresivedate.com) / NON-CF ORIGIN — high value]
+[2026-09-18T20:12:57Z] HEALTH certspotter=11/36 crtsh=48/53 urlscan=52/56 dns-google=462/462 dns-cf=462/462
+[2026-09-18T20:12:57Z] ORIGIN-CANDIDATE 103.224.182.247 non-CF shared/unknown (64 apex) - recorded for review
+[2026-09-18T20:12:57Z] AUTO-PROMOTE origin 172.98.192.46 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-18T20:12:57Z] ORIGIN-CANDIDATE 212.92.104.5 non-CF shared/unknown (75 apex) - recorded for review
+[2026-09-18T20:12:57Z] AUTO-PROMOTE origin 23.82.16.53 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-18T20:12:57Z] AUTO-PROMOTE origin 23.82.16.56 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-18T20:12:57Z] AUTO-PROMOTE origin 64.120.31.120 (non-CF, 6 apex) -> now page.ip-watched
+[2026-09-18T20:12:57Z] SCAN-SAVED 28907216-2365-4117.supopurytheals.com -> https://urlscan.io/result/01a0b641-6575-7088-8eb7-f0bd150246ac/
+[2026-09-18T20:12:57Z] SCAN-SAVED 29049120-31512-25233.supopurytheals.com -> https://urlscan.io/result/01a0b641-71c3-717e-a566-9a1e1f418b58/
+[2026-09-18T20:12:57Z] SCAN-SAVED accounting.standardlessons.com -> https://urlscan.io/result/01a0b641-7ff0-7277-a4f6-3bcda60871d5/
+[2026-09-18T20:12:57Z] SCAN-SAVED admin.test.neeva.com -> https://urlscan.io/result/01a0b641-8a96-74f7-903d-ac2506458ce0/
+[2026-09-18T20:12:57Z] SCAN-SAVED alerts.robointernet.com -> https://urlscan.io/result/01a0b641-9a1b-71a9-919d-b8c66de7c43f/
+[2026-09-18T20:12:57Z] SCAN-SAVED blog.barclays-virtual.ph -> https://urlscan.io/result/01a0b641-a573-75fb-8d42-308e552bff2c/
+[2026-09-18T20:12:57Z] SCAN-SAVED britishblades.com -> https://urlscan.io/result/01a0b641-b14e-75d9-8d09-b98104fbb79d/
+[2026-09-18T20:12:57Z] SCAN-SAVED control.bigappleoutlet.com -> https://urlscan.io/result/01a0b641-c082-76bb-93f6-9c62c42d9184/
+[2026-09-18T20:12:57Z] SCAN-SAVED d21w.cn -> https://urlscan.io/result/01a0b641-d2a3-772b-b4a2-7b05ade77451/
+[2026-09-18T20:12:57Z] SCAN-SAVED demo.castrostreeservice.com -> https://urlscan.io/result/01a0b641-df22-72ba-8490-454f9633f942/
+[2026-09-18T20:12:57Z] SCAN-SAVED ewwgxymg.nexthop.ws -> https://urlscan.io/result/01a0b641-ecb2-7503-bb32-c1bf9b40a6f6/
+[2026-09-18T20:12:57Z] SCAN-SAVED imprenditore.ws -> https://urlscan.io/result/01a0b641-fa2d-704a-8ee5-c16d2dd5cd0b/
+[2026-09-18T20:12:57Z] SCAN-SAVED industry-electronics.uk -> https://urlscan.io/result/01a0b642-0663-7128-8644-3cff4dc8e555/
+[2026-09-18T20:12:57Z] SCAN-SAVED info-booking-sex.pages.dev -> https://urlscan.io/result/01a0b642-123d-7589-b7db-79ad008a0512/
+[2026-09-18T20:12:57Z] SCAN-SAVED iqsqjww31.bankofthewestonline.com -> https://urlscan.io/result/01a0b642-2320-764c-a8a8-50557d69222a/
+[2026-09-18T20:12:57Z] SCAN-SAVED kienlongbank.herouapp.com -> https://urlscan.io/result/01a0b642-32ac-736d-9b1c-b2527c8a8e2e/
+[2026-09-18T20:12:57Z] SCAN-SAVED kirsten.velazquwez.com -> https://urlscan.io/result/01a0b642-3ea3-7328-97d7-062a262aa8ef/
+[2026-09-18T20:12:57Z] SCAN-SAVED lululemon.cm -> https://urlscan.io/result/01a0b642-4a94-777b-a7ce-abe140a3138d/
+[2026-09-18T20:12:57Z] SCAN-SAVED m.cgi.ebay.com.ebaymotors.ebayisapi.wvcc.us -> https://urlscan.io/result/01a0b642-56a5-72da-9fbf-fc0225cf319b/
+[2026-09-18T20:12:57Z] SCAN-SAVED m.x-banking.ws -> https://urlscan.io/result/01a0b642-63e0-7765-b4be-3034d1330122/
+[2026-09-18T20:12:57Z] SCAN-BACKLOG 82 live host(s) queued for next run (cap 20/run)
+[2026-09-18T20:12:57Z] 30 new indicator(s) this run
