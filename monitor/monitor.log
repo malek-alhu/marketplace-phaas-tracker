@@ -1415,3 +1415,111 @@
 [2026-09-18T10:19:22Z] SCAN-SAVED buildingcongress.comlinkedin.com -> https://urlscan.io/result/01a0b419-c387-7128-8efd-2c730b951f78/
 [2026-09-18T10:19:22Z] SCAN-BACKLOG 79 live host(s) queued for next run (cap 20/run)
 [2026-09-18T10:19:22Z] 192 new indicator(s) this run
+[2026-09-18T15:32:51Z] NEW domain  13.223.25.84  [urlscan @13.223.25.84 / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  54.243.117.197  [urlscan @54.243.117.197 / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  60t9v.junkremovalservice.xyz  [urlscan]
+[2026-09-18T15:32:51Z] NEW domain  admin.test.neeva.com  [urlscan]
+[2026-09-18T15:32:51Z] NEW domain  autonocion.com  [urlscan @172.66.43.145 / AS13335]
+[2026-09-18T15:32:51Z] NEW domain  de.schleichs.com  [urlscan @2600:1f18:4ae:c605:dd5d:b838:5816:d7fb / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  dl.upcleaner.net  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  euclidapartments8.ph  [urlscan]
+[2026-09-18T15:32:51Z] NEW domain  fapcraft.org  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  hesinternational.us  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  mondawe.ca  [urlscan]
+[2026-09-18T15:32:51Z] NEW domain  mondawe.net  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  notify.webelapp.com  [urlscan @2600:1f18:4ae:c605:dd5d:b838:5816:d7fb / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  onlineincomeacademy.com  [urlscan @2600:1f18:4ae:c606:78d4:4260:db4e:aeee / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  pkoval.com  [urlscan @2600:1f18:4ae:c605:dd5d:b838:5816:d7fb / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  royalsecurity.us  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  skyzsports24.live  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  static.bisrv.com  [urlscan @2600:1f18:4ae:c605:dd5d:b838:5816:d7fb / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  tpddata.com  [urlscan @2600:1f18:4ae:c606:78d4:4260:db4e:aeee / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  unitvpro.top  [urlscan]
+[2026-09-18T15:32:51Z] NEW domain  vactrix.com  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  www.aanshuman.com  [urlscan @2600:1f18:4ae:c605:dd5d:b838:5816:d7fb / AS14618]
+[2026-09-18T15:32:51Z] NEW domain  www.eliteccwonline.com  [urlscan @173.234.157.138 / AS396362]
+[2026-09-18T15:32:51Z] NEW domain  www.invoiceepay.billerig.com  [urlscan]
+[2026-09-18T15:32:51Z] NEW domain  yhoreviewmi.ph  [urlscan]
+[2026-09-18T15:32:51Z] NEW ip  103.224.182.208  [dns (unitvpro.top) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  172.98.192.45  [dns (bidv.azurwebsites.net) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  192.155.84.236  [dns (autodiscover.ciupang.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  192.157.56.141  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  199.191.50.185  [dns (www.invoiceepay.billerig.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  208.115.249.236  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  212.32.255.84  [dns (vactrix.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  212.7.209.207  [dns (ww25.ladjkj.lmpresivedate.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  212.92.104.122  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  23.227.38.65  [dns (mondawe.ca) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  23.239.4.93  [dns (autodiscover.ciupang.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  23.82.16.54  [dns (royalsecurity.us) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  23.82.16.55  [dns (ww25.ladjkj.lmpresivedate.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  23.82.16.57  [dns (www.eliteccwonline.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  2600:3c01::2000:3aff:feb3:2e94  [dns (bidv.versel.app) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  2600:3c01::f03c:95ff:fe91:5de5  [dns (bidv.versel.app) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  2600:3c01::f03c:95ff:feeb:5ed6  [dns (bidv.versel.app) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  37.48.77.81  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.220  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.222  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.223  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.224  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.225  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.226  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.227  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.228  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  46.8.8.229  [dns (securityapps.info) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  64.120.31.121  [dns (www.eliteccwonline.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  74.207.241.245  [dns (autodiscover.ciupang.com) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] NEW ip  78.157.209.171  [dns (hesinternational.us) / NON-CF ORIGIN — high value]
+[2026-09-18T15:32:51Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=50/50 dns-google=418/418 dns-cf=418/418
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 103.224.182.208 non-CF shared/unknown (29 apex) - recorded for review
+[2026-09-18T15:32:51Z] AUTO-PROMOTE origin 172.98.192.45 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 192.155.84.236 non-CF shared/unknown (62 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 192.157.56.141 non-CF shared/unknown (67 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 199.191.50.185 non-CF shared/unknown (74 apex) - recorded for review
+[2026-09-18T15:32:51Z] AUTO-PROMOTE origin 208.115.249.236 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 212.32.255.84 non-CF shared/unknown (83 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 212.7.209.207 non-CF shared/unknown (86 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 212.92.104.122 non-CF shared/unknown (85 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 23.227.38.65 non-CF shared/unknown (95 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 23.239.4.93 non-CF shared/unknown (61 apex) - recorded for review
+[2026-09-18T15:32:51Z] AUTO-PROMOTE origin 23.82.16.54 (non-CF, 2 apex) -> now page.ip-watched
+[2026-09-18T15:32:51Z] AUTO-PROMOTE origin 23.82.16.55 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-18T15:32:51Z] AUTO-PROMOTE origin 23.82.16.57 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 2600:3c01::2000:3aff:feb3:2e94 non-CF shared/unknown (86 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 2600:3c01::f03c:95ff:fe91:5de5 non-CF shared/unknown (78 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 2600:3c01::f03c:95ff:feeb:5ed6 non-CF shared/unknown (80 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 37.48.77.81 non-CF shared/unknown (85 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.220 non-CF shared/unknown (98 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.222 non-CF shared/unknown (98 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.223 non-CF shared/unknown (94 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.224 non-CF shared/unknown (98 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.225 non-CF shared/unknown (98 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.226 non-CF shared/unknown (94 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.227 non-CF shared/unknown (96 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.228 non-CF shared/unknown (97 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 46.8.8.229 non-CF shared/unknown (99 apex) - recorded for review
+[2026-09-18T15:32:51Z] AUTO-PROMOTE origin 64.120.31.121 (non-CF, 3 apex) -> now page.ip-watched
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 74.207.241.245 non-CF shared/unknown (60 apex) - recorded for review
+[2026-09-18T15:32:51Z] ORIGIN-CANDIDATE 78.157.209.171 non-CF shared/unknown (48 apex) - recorded for review
+[2026-09-18T15:32:51Z] SCAN-SAVED 60t9v.junkremovalservice.xyz -> https://urlscan.io/result/01a0b535-132f-7428-80f5-44915972ed71/
+[2026-09-18T15:32:51Z] SCAN-SAVED buzhfwww.webmail.reditonebank.com -> https://urlscan.io/result/01a0b535-21ef-73e4-b435-d8dc24a8c5a3/
+[2026-09-18T15:32:51Z] SCAN-SAVED cfnenttmkc.8666989a1.top -> https://urlscan.io/result/01a0b535-2e3b-739b-b6de-0750312b7f7d/
+[2026-09-18T15:32:51Z] SCAN-SAVED chillhaytv.com -> https://urlscan.io/result/01a0b535-3ac3-71ee-9b5d-35fdbac528cf/
+[2026-09-18T15:32:51Z] SCAN-SAVED cmaufking.top -> https://urlscan.io/result/01a0b535-46f2-75c3-82c1-ba285a968e44/
+[2026-09-18T15:32:51Z] SCAN-SAVED cmctelecom.vercal.app -> https://urlscan.io/result/01a0b535-5254-74bf-bdb6-da2112d9f85b/
+[2026-09-18T15:32:51Z] SCAN-SAVED comgoogle.comlinkedin.com -> https://urlscan.io/result/01a0b535-61ea-7232-8dd5-0215a82998a1/
+[2026-09-18T15:32:51Z] SCAN-SAVED coupang.trackdiscovery.net -> https://urlscan.io/result/01a0b535-6c68-743f-a15f-ec0407a8edf5/
+[2026-09-18T15:32:51Z] SCAN-SAVED de.schleichs.com -> https://urlscan.io/result/01a0b535-7926-70dc-b3e2-c8f16d28317c/
+[2026-09-18T15:32:51Z] SCAN-SAVED dev.autonocion.com -> https://urlscan.io/result/01a0b535-83e0-7240-8a6c-742dbd0fc76e/
+[2026-09-18T15:32:51Z] SCAN-SAVED dl.upcleaner.net -> https://urlscan.io/result/01a0b535-8f5d-757f-97fa-1f2fd3cc5a59/
+[2026-09-18T15:32:51Z] SCAN-SAVED euclidapartments8.ph -> https://urlscan.io/result/01a0b535-9a0b-728f-8f39-4d9a17a9d12c/
+[2026-09-18T15:32:51Z] SCAN-SAVED evotric.co.uk -> https://urlscan.io/result/01a0b535-a46c-70d7-b321-a08e9acdf971/
+[2026-09-18T15:32:51Z] SCAN-SAVED facebook-for-writers-and-ambassadors.ph -> https://urlscan.io/result/01a0b535-b03d-70f8-8cec-1ef839b3d507/
+[2026-09-18T15:32:51Z] SCAN-SAVED fapcraft.org -> https://urlscan.io/result/01a0b535-bbc7-74aa-a8e8-345eb9526a80/
+[2026-09-18T15:32:51Z] SCAN-SAVED freeeconomics.com -> https://urlscan.io/result/01a0b535-cb58-738a-9cc7-fc48947d58e6/
+[2026-09-18T15:32:51Z] SCAN-SAVED googele.com -> https://urlscan.io/result/01a0b535-d642-7398-aa75-a370d684dc9d/
+[2026-09-18T15:32:51Z] SCAN-SAVED googleassistantprivacysettlment.com -> https://urlscan.io/result/01a0b535-dfe8-773d-a98e-75819572a60d/
+[2026-09-18T15:32:51Z] SCAN-SAVED hesinternational.us -> https://urlscan.io/result/01a0b535-eb95-72c7-93f5-78accb2e5323/
+[2026-09-18T15:32:51Z] SCAN-SAVED hugemoney631.pages.dev -> https://urlscan.io/result/01a0b535-f718-722c-889f-344225d46d49/
+[2026-09-18T15:32:51Z] SCAN-BACKLOG 77 live host(s) queued for next run (cap 20/run)
+[2026-09-18T15:32:51Z] 55 new indicator(s) this run
