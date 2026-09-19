@@ -1582,3 +1582,63 @@
 [2026-09-18T20:12:57Z] SCAN-SAVED m.x-banking.ws -> https://urlscan.io/result/01a0b642-63e0-7765-b4be-3034d1330122/
 [2026-09-18T20:12:57Z] SCAN-BACKLOG 82 live host(s) queued for next run (cap 20/run)
 [2026-09-18T20:12:57Z] 30 new indicator(s) this run
+[2026-09-19T02:29:44Z] NEW domain  bitcoin-capital.info  [urlscan @64.120.31.120 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  free.newsasia365.com  [urlscan @64.120.31.120 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  hotmaiil.live  [urlscan @64.120.31.120 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  leftfieldnyc.us  [urlscan @64.120.31.120 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  m.logme.co  [urlscan]
+[2026-09-19T02:29:44Z] NEW domain  m.wapngon.mobi  [urlscan @23.82.16.54 / AS7203]
+[2026-09-19T02:29:44Z] NEW domain  onlinekhabar.live  [urlscan @173.234.157.138 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  proefgroup.onmicrosoft.co  [urlscan @64.120.31.120 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  ww1.logme.co  [urlscan @23.82.16.56 / AS7203]
+[2026-09-19T02:29:44Z] NEW domain  ww38.box.securedriverupdater.com  [urlscan]
+[2026-09-19T02:29:44Z] NEW domain  www.logme.co  [urlscan]
+[2026-09-19T02:29:44Z] NEW domain  www.spiderhoodieonline.us  [urlscan @64.120.31.120 / AS396362]
+[2026-09-19T02:29:44Z] NEW domain  www.splitmerge.us  [urlscan @23.82.16.54 / AS7203]
+[2026-09-19T02:29:44Z] NEW ip  104.219.250.36  [dns (www.splitmerge.us) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  172.241.213.96  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  172.241.213.98  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  2.59.170.19  [dns (www.splitmerge.us) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  208.115.249.238  [dns (proefgroup.onmicrosoft.co) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  212.32.255.111  [dns (www.spiderhoodieonline.us) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  212.92.104.123  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  37.48.72.213  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  5.79.75.200  [dns (proefgroup.onmicrosoft.co) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  64.190.63.136  [dns (ww16.safecarwash.com) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  78.157.209.173  [dns (hesinternational.us) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] NEW ip  78.157.209.174  [dns (royalsecurity.us) / NON-CF ORIGIN — high value]
+[2026-09-19T02:29:44Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=60/60 dns-google=490/490 dns-cf=490/490
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 104.219.250.36 non-CF shared/unknown (98 apex) - recorded for review
+[2026-09-19T02:29:44Z] AUTO-PROMOTE origin 172.241.213.96 (non-CF, 2 apex) -> now page.ip-watched
+[2026-09-19T02:29:44Z] AUTO-PROMOTE origin 172.241.213.98 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 2.59.170.19 non-CF shared/unknown (100 apex) - recorded for review
+[2026-09-19T02:29:44Z] AUTO-PROMOTE origin 208.115.249.238 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 212.32.255.111 non-CF shared/unknown (90 apex) - recorded for review
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 212.92.104.123 non-CF shared/unknown (84 apex) - recorded for review
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 37.48.72.213 non-CF shared/unknown (77 apex) - recorded for review
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 5.79.75.200 non-CF shared/unknown (85 apex) - recorded for review
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 64.190.63.136 non-CF shared/unknown (66 apex) - recorded for review
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 78.157.209.173 non-CF shared/unknown (49 apex) - recorded for review
+[2026-09-19T02:29:44Z] ORIGIN-CANDIDATE 78.157.209.174 non-CF shared/unknown (46 apex) - recorded for review
+[2026-09-19T02:29:44Z] SCAN-SAVED bitcoin-capital.info -> https://urlscan.io/result/01a0b78f-15fe-7219-9d35-92595bce6171/
+[2026-09-19T02:29:44Z] SCAN-SAVED free.newsasia365.com -> https://urlscan.io/result/01a0b78f-2073-72eb-a39c-a5c393f1136a/
+[2026-09-19T02:29:44Z] SCAN-SAVED hotmaiil.live -> https://urlscan.io/result/01a0b78f-2cf2-72f1-8b2e-b4017d7ee704/
+[2026-09-19T02:29:44Z] SCAN-SAVED leftfieldnyc.us -> https://urlscan.io/result/01a0b78f-3852-733d-b70d-788c76beaac7/
+[2026-09-19T02:29:44Z] SCAN-SAVED m.logme.co -> https://urlscan.io/result/01a0b78f-4440-770a-9e0b-8ef341b9ab34/
+[2026-09-19T02:29:44Z] SCAN-SAVED mail.sabrespringsnaillounge.com -> https://urlscan.io/result/01a0b78f-529c-75bc-b0af-72082364db42/
+[2026-09-19T02:29:44Z] SCAN-SAVED mangahasu.me -> https://urlscan.io/result/01a0b78f-5e39-76ef-82c1-215f33196adc/
+[2026-09-19T02:29:44Z] SCAN-SAVED mcp.bnpparisbasfortis-card-manage-secure.ph -> https://urlscan.io/result/01a0b78f-68b4-741f-99df-38fc0f4cf6de/
+[2026-09-19T02:29:44Z] SCAN-SAVED mejortorrent1.net -> https://urlscan.io/result/01a0b78f-7498-718f-914d-4b13d4fa55cc/
+[2026-09-19T02:29:44Z] SCAN-SAVED mondawe.ca -> https://urlscan.io/result/01a0b78f-7f41-76b4-a33a-c7a5b079285f/
+[2026-09-19T02:29:44Z] SCAN-SAVED mta-sts.reports.oceaniacruses.com -> https://urlscan.io/result/01a0b78f-8a86-74dc-9b9f-3bed63babec2/
+[2026-09-19T02:29:44Z] SCAN-SAVED mta-sts.slammandalay.com -> https://urlscan.io/result/01a0b78f-b328-775c-b8f0-eabeedc539e0/
+[2026-09-19T02:29:44Z] SCAN-SAVED mta-sts.stats.discoveryedication.com -> https://urlscan.io/result/01a0b78f-c893-7215-ac1d-9135d45b8398/
+[2026-09-19T02:29:44Z] SCAN-SAVED new.bancobanesto.ws -> https://urlscan.io/result/01a0b78f-d48d-7198-a9df-a4d4c9b951af/
+[2026-09-19T02:29:44Z] SCAN-SAVED notify.webelapp.com -> https://urlscan.io/result/01a0b78f-e077-7691-bc19-1c885240fe57/
+[2026-09-19T02:29:44Z] SCAN-SAVED novotel.foolghtcrazydia.info -> https://urlscan.io/result/01a0b78f-ec8c-72dd-ad5a-0bc8e86e1ad0/
+[2026-09-19T02:29:44Z] SCAN-SAVED onlineincomeacademy.com -> https://urlscan.io/result/01a0b78f-f6fc-716f-80c9-72d72f9752e9/
+[2026-09-19T02:29:44Z] SCAN-SAVED onlinekhabar.live -> https://urlscan.io/result/01a0b790-02ee-710e-8d56-08f4c0b5e9a6/
+[2026-09-19T02:29:44Z] SCAN-SAVED pelisflix.li -> https://urlscan.io/result/01a0b790-1346-754c-8ddb-c64222c2828b/
+[2026-09-19T02:29:44Z] SCAN-SAVED ph-nn777.one -> https://urlscan.io/result/01a0b790-2138-724a-9402-3bab1363d279/
+[2026-09-19T02:29:44Z] SCAN-BACKLOG 74 live host(s) queued for next run (cap 20/run)
+[2026-09-19T02:29:44Z] 25 new indicator(s) this run

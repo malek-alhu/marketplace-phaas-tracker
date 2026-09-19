@@ -129,3 +129,15 @@ origin,212.92.104.5,candidate,non-CF shared/unknown (75 apex on IP) - review,202
 origin,23.82.16.53,promoted,non-CF dedicated (0 apex on IP),2026-09-18T20:12:57Z
 origin,23.82.16.56,promoted,non-CF dedicated (1 apex on IP),2026-09-18T20:12:57Z
 origin,64.120.31.120,promoted,non-CF dedicated (6 apex on IP),2026-09-18T20:12:57Z
+origin,104.219.250.36,candidate,non-CF shared/unknown (98 apex on IP) - review,2026-09-19T02:29:44Z
+origin,172.241.213.96,promoted,non-CF dedicated (2 apex on IP),2026-09-19T02:29:44Z
+origin,172.241.213.98,promoted,non-CF dedicated (0 apex on IP),2026-09-19T02:29:44Z
+origin,2.59.170.19,candidate,non-CF shared/unknown (100 apex on IP) - review,2026-09-19T02:29:44Z
+origin,208.115.249.238,promoted,non-CF dedicated (0 apex on IP),2026-09-19T02:29:44Z
+origin,212.32.255.111,candidate,non-CF shared/unknown (90 apex on IP) - review,2026-09-19T02:29:44Z
+origin,212.92.104.123,candidate,non-CF shared/unknown (84 apex on IP) - review,2026-09-19T02:29:44Z
+origin,37.48.72.213,candidate,non-CF shared/unknown (77 apex on IP) - review,2026-09-19T02:29:44Z
+origin,5.79.75.200,candidate,non-CF shared/unknown (85 apex on IP) - review,2026-09-19T02:29:44Z
+origin,64.190.63.136,candidate,non-CF shared/unknown (66 apex on IP) - review,2026-09-19T02:29:44Z
+origin,78.157.209.173,candidate,non-CF shared/unknown (49 apex on IP) - review,2026-09-19T02:29:44Z
+origin,78.157.209.174,candidate,non-CF shared/unknown (46 apex on IP) - review,2026-09-19T02:29:44Z
