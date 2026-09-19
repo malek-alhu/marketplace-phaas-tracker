@@ -1677,3 +1677,52 @@
 [2026-09-19T10:02:48Z] SCAN-SAVED suncoastrecoveryservices.online -> https://urlscan.io/result/01a0b92f-c7f7-752c-89b8-2103e14e0085/
 [2026-09-19T10:02:48Z] SCAN-BACKLOG 55 live host(s) queued for next run (cap 20/run)
 [2026-09-19T10:02:48Z] 7 new indicator(s) this run
+[2026-09-19T15:06:38Z] NEW domain  api.www.howellscampingarea.com  [urlscan]
+[2026-09-19T15:06:38Z] NEW domain  coloradoworks.org  [urlscan]
+[2026-09-19T15:06:38Z] NEW domain  m.mail5.gmeil.com  [urlscan @64.31.3.237 / AS46475]
+[2026-09-19T15:06:38Z] NEW domain  video.662820.com  [urlscan]
+[2026-09-19T15:06:38Z] NEW domain  whm.demo.google-dmv.com  [urlscan]
+[2026-09-19T15:06:38Z] NEW domain  www.buybeararcheryonline.com  [urlscan @64.31.3.237 / AS46475]
+[2026-09-19T15:06:38Z] NEW domain  www.i8coh.szqxvo.com  [urlscan @208.115.249.235 / AS46475]
+[2026-09-19T15:06:38Z] NEW domain  www.ikmhua.com  [urlscan]
+[2026-09-19T15:06:38Z] NEW domain  www.j2zfz.1-win26.xyz  [urlscan]
+[2026-09-19T15:06:38Z] NEW domain  xn--eclidaprtments-cib348d.ph  [urlscan]
+[2026-09-19T15:06:38Z] NEW ip  172.241.213.97  [dns (www.i8coh.szqxvo.com) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  173.234.157.130  [dns (www.eliteccwonline.com) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  208.115.249.234  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  212.92.104.121  [dns (proefgroup.onmicrosoft.co) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  212.92.104.7  [dns (www.i8coh.szqxvo.com) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  37.48.77.83  [dns (www.buybeararcheryonline.com) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  64.31.3.234  [dns (m.mail5.gmeil.com) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] NEW ip  64.31.3.236  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T15:06:38Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=65/65 dns-google=514/514 dns-cf=514/514
+[2026-09-19T15:06:38Z] AUTO-PROMOTE origin 172.241.213.97 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T15:06:38Z] AUTO-PROMOTE origin 173.234.157.130 (non-CF, 6 apex) -> now page.ip-watched
+[2026-09-19T15:06:38Z] AUTO-PROMOTE origin 208.115.249.234 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T15:06:38Z] ORIGIN-CANDIDATE 212.92.104.121 non-CF shared/unknown (84 apex) - recorded for review
+[2026-09-19T15:06:38Z] ORIGIN-CANDIDATE 212.92.104.7 non-CF shared/unknown (83 apex) - recorded for review
+[2026-09-19T15:06:38Z] ORIGIN-CANDIDATE 37.48.77.83 non-CF shared/unknown (88 apex) - recorded for review
+[2026-09-19T15:06:38Z] AUTO-PROMOTE origin 64.31.3.234 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T15:06:38Z] AUTO-PROMOTE origin 64.31.3.236 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T15:06:38Z] SCAN-SAVED api.www.howellscampingarea.com -> https://urlscan.io/result/01a0ba43-8878-7697-80b5-2f9c770eb71a/
+[2026-09-19T15:06:38Z] SCAN-SAVED coloradoworks.org -> https://urlscan.io/result/01a0ba43-98f4-75d9-8b95-ffe01c22f3c3/
+[2026-09-19T15:06:38Z] SCAN-SAVED m.mail5.gmeil.com -> https://urlscan.io/result/01a0ba43-a670-7018-9e82-92a02d8c7885/
+[2026-09-19T15:06:38Z] SCAN-SAVED support1.lgtool.net -> https://urlscan.io/result/01a0ba43-b24a-70ff-8728-798075ec2d07/
+[2026-09-19T15:06:38Z] SCAN-SAVED test.castrostreeservice.com -> https://urlscan.io/result/01a0ba43-bff5-75fd-8e79-820c09b7a107/
+[2026-09-19T15:06:38Z] SCAN-SAVED toyota-fork-truck-cad-data.evobyte.cfd -> https://urlscan.io/result/01a0ba43-d0ed-72b4-a5c3-c2fc7ac5b7f8/
+[2026-09-19T15:06:38Z] SCAN-SAVED tpddata.com -> https://urlscan.io/result/01a0ba43-ddf9-764a-92f2-6f25caf38b53/
+[2026-09-19T15:06:38Z] SCAN-SAVED unitvpro.top -> https://urlscan.io/result/01a0ba43-edcd-70fe-a45d-69c37938437c/
+[2026-09-19T15:06:38Z] SCAN-SAVED us46907biywpcq.09up7pqs1us.co -> https://urlscan.io/result/01a0ba43-f825-74d2-9ae9-b3b122e7a4f8/
+[2026-09-19T15:06:38Z] SCAN-SAVED vactrix.com -> https://urlscan.io/result/01a0ba44-03ad-7669-a8e8-8c744e880e77/
+[2026-09-19T15:06:38Z] SCAN-SAVED video.662820.com -> https://urlscan.io/result/01a0ba44-111c-701f-9b85-d51dc1348e0a/
+[2026-09-19T15:06:38Z] SCAN-SAVED waitnjoy.com -> https://urlscan.io/result/01a0ba44-1c9b-7550-9d87-4395906ec25c/
+[2026-09-19T15:06:38Z] SCAN-SAVED whm.api.dynamicauth.site -> https://urlscan.io/result/01a0ba44-297d-754b-ad41-a90f3ae0493b/
+[2026-09-19T15:06:38Z] SCAN-SAVED whm.backend.smileybilling.com -> https://urlscan.io/result/01a0ba44-378b-7373-8b1f-39927265382e/
+[2026-09-19T15:06:38Z] SCAN-SAVED whm.demo.google-dmv.com -> https://urlscan.io/result/01a0ba44-43fa-76c8-bc89-6437df668475/
+[2026-09-19T15:06:38Z] SCAN-SAVED whm.mail.moneyinvestor.ws -> https://urlscan.io/result/01a0ba44-505d-74c9-b323-ea792ffdeb64/
+[2026-09-19T15:06:38Z] SCAN-SAVED whm.www.backend.hireupdate.top -> https://urlscan.io/result/01a0ba44-5e03-735d-b1b1-47ad927a0513/
+[2026-09-19T15:06:38Z] SCAN-SAVED wordpress.footoise.asso.ws -> https://urlscan.io/result/01a0ba44-6c77-73e3-82a7-7b122155a10b/
+[2026-09-19T15:06:38Z] SCAN-SAVED ww1.logme.co -> https://urlscan.io/result/01a0ba44-786e-7401-b769-186c95076924/
+[2026-09-19T15:06:38Z] SCAN-SAVED ww1.willowsurgery.co.uk -> https://urlscan.io/result/01a0ba44-875e-751b-ab9f-3cff3d66f0f2/
+[2026-09-19T15:06:38Z] SCAN-BACKLOG 45 live host(s) queued for next run (cap 20/run)
+[2026-09-19T15:06:38Z] 18 new indicator(s) this run
