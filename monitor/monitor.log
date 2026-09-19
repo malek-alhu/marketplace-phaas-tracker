@@ -1642,3 +1642,38 @@
 [2026-09-19T02:29:44Z] SCAN-SAVED ph-nn777.one -> https://urlscan.io/result/01a0b790-2138-724a-9402-3bab1363d279/
 [2026-09-19T02:29:44Z] SCAN-BACKLOG 74 live host(s) queued for next run (cap 20/run)
 [2026-09-19T02:29:44Z] 25 new indicator(s) this run
+[2026-09-19T10:02:48Z] NEW domain  stratz.one  [urlscan @172.241.213.96 / AS395954]
+[2026-09-19T10:02:48Z] NEW domain  support1.lgtool.net  [urlscan @172.241.213.96 / AS395954]
+[2026-09-19T10:02:48Z] NEW ip  192.157.56.140  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T10:02:48Z] NEW ip  192.157.56.142  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-19T10:02:48Z] NEW ip  208.115.249.235  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T10:02:48Z] NEW ip  212.7.209.215  [dns (hotmaiil.live) / NON-CF ORIGIN — high value]
+[2026-09-19T10:02:48Z] NEW ip  64.31.3.237  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-19T10:02:48Z] HEALTH certspotter=11/36 crtsh=48/53 urlscan=63/63 dns-google=488/488 dns-cf=488/488
+[2026-09-19T10:02:48Z] ORIGIN-CANDIDATE 192.157.56.140 non-CF shared/unknown (65 apex) - recorded for review
+[2026-09-19T10:02:48Z] ORIGIN-CANDIDATE 192.157.56.142 non-CF shared/unknown (55 apex) - recorded for review
+[2026-09-19T10:02:48Z] AUTO-PROMOTE origin 208.115.249.235 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T10:02:48Z] ORIGIN-CANDIDATE 212.7.209.215 non-CF shared/unknown (76 apex) - recorded for review
+[2026-09-19T10:02:48Z] AUTO-PROMOTE origin 64.31.3.237 (non-CF, 2 apex) -> now page.ip-watched
+[2026-09-19T10:02:48Z] SCAN-SAVED pkoval.com -> https://urlscan.io/result/01a0b92e-ea65-7073-b742-77932de1895a/
+[2026-09-19T10:02:48Z] SCAN-SAVED pokmongo.com -> https://urlscan.io/result/01a0b92e-f579-72bc-8fb0-f4fbe3540159/
+[2026-09-19T10:02:48Z] SCAN-SAVED portal.supportccbill.com -> https://urlscan.io/result/01a0b92f-030d-762c-841c-86f11f9745b4/
+[2026-09-19T10:02:48Z] SCAN-SAVED portfolio.findxplorer.com -> https://urlscan.io/result/01a0b92f-0f80-75ee-9411-c953370063da/
+[2026-09-19T10:02:48Z] SCAN-SAVED powhm.k0igfwhm.amvd.www.876587654322116bdba-fff6-43ec-abcd-946a59ecfe52.qeado.com -> https://urlscan.io/result/01a0b92f-1ba2-73a4-aec0-49344feb7eba/
+[2026-09-19T10:02:48Z] SCAN-SAVED pricelinecom.com -> https://urlscan.io/result/01a0b92f-25fb-759a-be19-8f10306ecedd/
+[2026-09-19T10:02:48Z] SCAN-SAVED proefgroup.onmicrosoft.co -> https://urlscan.io/result/01a0b92f-317e-7532-89ad-c5ea64f16d29/
+[2026-09-19T10:02:48Z] SCAN-SAVED quebec-argent.com.ph -> https://urlscan.io/result/01a0b92f-3d19-75fc-b8ad-f5e01726f954/
+[2026-09-19T10:02:48Z] SCAN-SAVED qvqnlz.sweetmlif.net -> https://urlscan.io/result/01a0b92f-489e-72c6-831f-6612c6ed9b40/
+[2026-09-19T10:02:48Z] SCAN-SAVED rbi-singular.ph -> https://urlscan.io/result/01a0b92f-525a-73fc-8066-d8a213d294f5/
+[2026-09-19T10:02:48Z] SCAN-SAVED royalsecurity.us -> https://urlscan.io/result/01a0b92f-5e00-72cb-a8e0-d567a3346506/
+[2026-09-19T10:02:48Z] SCAN-SAVED scrapmetalpricesperkgindonesia.net.ph -> https://urlscan.io/result/01a0b92f-68bb-705a-8ca0-598326f91381/
+[2026-09-19T10:02:48Z] SCAN-SAVED securityapps.info -> https://urlscan.io/result/01a0b92f-749a-74f7-80e9-144f0d404580/
+[2026-09-19T10:02:48Z] SCAN-SAVED seriesemperor.com -> https://urlscan.io/result/01a0b92f-8096-727e-938b-4008ca49426d/
+[2026-09-19T10:02:48Z] SCAN-SAVED shop.coipang.com -> https://urlscan.io/result/01a0b92f-8b50-718a-aedf-f162b1b2e949/
+[2026-09-19T10:02:48Z] SCAN-SAVED skyzsports24.live -> https://urlscan.io/result/01a0b92f-96db-7227-8ffc-cfc55acc6faa/
+[2026-09-19T10:02:48Z] SCAN-SAVED ssylka.net -> https://urlscan.io/result/01a0b92f-a260-776c-978b-921e6503f143/
+[2026-09-19T10:02:48Z] SCAN-SAVED staging.castrostreeservice.com -> https://urlscan.io/result/01a0b92f-af8e-7647-93ce-078983bb9596/
+[2026-09-19T10:02:48Z] SCAN-SAVED static.bisrv.com -> https://urlscan.io/result/01a0b92f-bc6f-717c-ab7a-3211254aef79/
+[2026-09-19T10:02:48Z] SCAN-SAVED suncoastrecoveryservices.online -> https://urlscan.io/result/01a0b92f-c7f7-752c-89b8-2103e14e0085/
+[2026-09-19T10:02:48Z] SCAN-BACKLOG 55 live host(s) queued for next run (cap 20/run)
+[2026-09-19T10:02:48Z] 7 new indicator(s) this run
