@@ -1726,3 +1726,46 @@
 [2026-09-19T15:06:38Z] SCAN-SAVED ww1.willowsurgery.co.uk -> https://urlscan.io/result/01a0ba44-875e-751b-ab9f-3cff3d66f0f2/
 [2026-09-19T15:06:38Z] SCAN-BACKLOG 45 live host(s) queued for next run (cap 20/run)
 [2026-09-19T15:06:38Z] 18 new indicator(s) this run
+[2026-09-19T19:50:03Z] NEW domain  girlhotpic.com  [urlscan @173.234.157.130 / AS396362]
+[2026-09-19T19:50:03Z] NEW domain  govtrac.us  [urlscan @173.234.157.130 / AS396362]
+[2026-09-19T19:50:03Z] NEW domain  jav9.live  [urlscan @173.234.157.130 / AS396362]
+[2026-09-19T19:50:03Z] NEW domain  m.n4.c5710dn.cn  [urlscan]
+[2026-09-19T19:50:03Z] NEW domain  macieyvette.momenr.xyz  [urlscan @173.234.157.130 / AS396362]
+[2026-09-19T19:50:03Z] NEW domain  mdhomeinc.com  [urlscan @64.31.3.236 / AS46475]
+[2026-09-19T19:50:03Z] NEW domain  mta-sts.report.whereesgeorge.com  [urlscan]
+[2026-09-19T19:50:03Z] NEW domain  padfuse.com  [urlscan @172.241.213.97 / AS395954]
+[2026-09-19T19:50:03Z] NEW domain  us42516gyrio.09up7pqs1us.co  [urlscan @173.234.157.130 / AS396362]
+[2026-09-19T19:50:03Z] NEW domain  ww25.wms.cashapp.cc  [urlscan @173.234.157.130 / AS396362]
+[2026-09-19T19:50:03Z] NEW domain  www.scotiabankprod.servise-now.com  [urlscan]
+[2026-09-19T19:50:03Z] NEW domain  xn--elidapartments-5qb8795i.ph  [urlscan]
+[2026-09-19T19:50:03Z] NEW ip  172.241.213.99  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-19T19:50:03Z] NEW ip  212.92.104.2  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T19:50:03Z] NEW ip  64.31.3.235  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-19T19:50:03Z] NEW ip  64.31.3.238  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-19T19:50:03Z] HEALTH certspotter=11/36 crtsh=49/53 urlscan=70/70 dns-google=538/538 dns-cf=538/538
+[2026-09-19T19:50:03Z] AUTO-PROMOTE origin 172.241.213.99 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T19:50:03Z] ORIGIN-CANDIDATE 212.92.104.2 non-CF shared/unknown (84 apex) - recorded for review
+[2026-09-19T19:50:03Z] AUTO-PROMOTE origin 64.31.3.235 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-19T19:50:03Z] AUTO-PROMOTE origin 64.31.3.238 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-19T19:50:03Z] SCAN-SAVED girlhotpic.com -> https://urlscan.io/result/01a0bb47-b323-70bf-8d87-97453715f8af/
+[2026-09-19T19:50:03Z] SCAN-SAVED govtrac.us -> https://urlscan.io/result/01a0bb47-bf25-7396-885f-02d300483fd7/
+[2026-09-19T19:50:03Z] SCAN-SAVED jav9.live -> https://urlscan.io/result/01a0bb47-cd68-76f2-8a02-b1b1c47cf91c/
+[2026-09-19T19:50:03Z] SCAN-SAVED m.n4.c5710dn.cn -> https://urlscan.io/result/01a0bb47-e137-7358-b04c-27bfc9536808/
+[2026-09-19T19:50:03Z] SCAN-SAVED macieyvette.momenr.xyz -> https://urlscan.io/result/01a0bb47-ebec-7283-97bd-ecafdfcef7f9/
+[2026-09-19T19:50:03Z] SCAN-SAVED mdhomeinc.com -> https://urlscan.io/result/01a0bb47-f7ed-744f-a0d2-415f9b9a90ad/
+[2026-09-19T19:50:03Z] SCAN-SAVED mta-sts.report.whereesgeorge.com -> https://urlscan.io/result/01a0bb48-057c-738f-b4e0-ff089ab2958b/
+[2026-09-19T19:50:03Z] SCAN-SAVED padfuse.com -> https://urlscan.io/result/01a0bb48-109d-720f-8a88-d01efe8268cd/
+[2026-09-19T19:50:03Z] SCAN-SAVED us42516gyrio.09up7pqs1us.co -> https://urlscan.io/result/01a0bb48-1c51-7625-9445-cb87fe62c166/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww16.safecarwash.com -> https://urlscan.io/result/01a0bb48-29b9-7481-89f8-663d9d15157e/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww17.ust-elegest.s-night.life -> https://urlscan.io/result/01a0bb48-3699-7769-b097-fadb2783642a/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww25.2194l.securevacu.top -> https://urlscan.io/result/01a0bb48-43fe-7089-b060-11913a71c517/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww25.backup.myminingaccount.top -> https://urlscan.io/result/01a0bb48-4ec9-767b-8e2e-47e89a3fd838/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww25.ladjkj.lmpresivedate.com -> https://urlscan.io/result/01a0bb48-5b12-75cd-80c4-84b8784d294b/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww25.wms.cashapp.cc -> https://urlscan.io/result/01a0bb48-66be-7245-939e-b4ea5c796da1/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww25.yandex.blablacar.pochta.avito.cdek.pochtabank.cdek.transcriptdid8.com -> https://urlscan.io/result/01a0bb48-73b6-74bf-a631-a7962bd054ab/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww38.box.securedriverupdater.com -> https://urlscan.io/result/01a0bb48-8089-7579-ac8e-f0c00dcb91f4/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww38.coinbaseverifier.8x8pnhv.com -> https://urlscan.io/result/01a0bb48-8ae8-76eb-af52-6fc2a107f17c/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww38.ww38.ww25.ww25.ww25.ww25.ww38.ww38.rutchfield.com -> https://urlscan.io/result/01a0bb48-9696-71a8-b6a0-52f195054602/
+[2026-09-19T19:50:03Z] SCAN-SAVED ww7.wellsfargo-secure.ws -> https://urlscan.io/result/01a0bb48-a2b2-73eb-83b2-850de50ca713/
+[2026-09-19T19:50:03Z] SCAN-BACKLOG 37 live host(s) queued for next run (cap 20/run)
+[2026-09-19T19:50:03Z] 16 new indicator(s) this run
