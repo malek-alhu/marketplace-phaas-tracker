@@ -1882,3 +1882,25 @@
 [2026-09-20T15:11:30Z] SCAN-SAVED xn--sheviewmi-m8a95h.ph -> https://urlscan.io/result/01a0bf6e-504c-774c-8100-391f20a5b0d1/
 [2026-09-20T15:11:30Z] SCAN-BACKLOG 5 live host(s) queued for next run (cap 20/run)
 [2026-09-20T15:11:30Z] 21 new indicator(s) this run
+[2026-09-20T20:03:54Z] NEW domain  api.coipang.com  [urlscan]
+[2026-09-20T20:03:54Z] NEW domain  esdisney-plus-hot-star.ph  [urlscan]
+[2026-09-20T20:03:54Z] NEW domain  fn9nrwerf6.282038dhxl.top  [urlscan]
+[2026-09-20T20:03:54Z] NEW domain  moneybirds.top  [urlscan]
+[2026-09-20T20:03:54Z] NEW domain  x4i4ff59f0.282038dhxl.top  [urlscan]
+[2026-09-20T20:03:54Z] NEW ip  23.92.212.164  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-20T20:03:54Z] NEW ip  78.41.207.39  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-20T20:03:54Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=75/75 dns-google=590/590 dns-cf=590/590
+[2026-09-20T20:03:54Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-20T20:03:54Z] AUTO-PROMOTE origin 23.92.212.164 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-20T20:03:54Z] ORIGIN-CANDIDATE 78.41.207.39 non-CF shared/unknown (19 apex) - recorded for review
+[2026-09-20T20:03:54Z] SCAN-SAVED api.coipang.com -> https://urlscan.io/result/01a0c073-77c1-715b-85c8-d6ffc9ebdd91/
+[2026-09-20T20:03:54Z] SCAN-SAVED esdisney-plus-hot-star.ph -> https://urlscan.io/result/01a0c073-83fa-77e8-acf9-399f14ef80cc/
+[2026-09-20T20:03:54Z] SCAN-SAVED fn9nrwerf6.282038dhxl.top -> https://urlscan.io/result/01a0c073-900f-7050-97e7-fef960b5f841/
+[2026-09-20T20:03:54Z] SCAN-SAVED moneybirds.top -> https://urlscan.io/result/01a0c073-9d41-74ed-9c9a-6c4c0272f19a/
+[2026-09-20T20:03:54Z] SCAN-SAVED x4i4ff59f0.282038dhxl.top -> https://urlscan.io/result/01a0c073-a85e-7690-92c7-720914ef3096/
+[2026-09-20T20:03:54Z] SCAN-SAVED xn--shreviewni-fcb.ph -> https://urlscan.io/result/01a0c073-b408-747d-8d50-70edd7844d79/
+[2026-09-20T20:03:54Z] SCAN-SAVED xsjbsdddbw.8666989a1.top -> https://urlscan.io/result/01a0c073-c06b-73ac-9f14-dc32d298078d/
+[2026-09-20T20:03:54Z] SCAN-SAVED xtraruf.com -> https://urlscan.io/result/01a0c073-cc3a-7551-b0a5-88588d2d32e7/
+[2026-09-20T20:03:54Z] SCAN-SAVED yhoreviewmi.ph -> https://urlscan.io/result/01a0c073-d6d7-73d2-8d92-59e22d760396/
+[2026-09-20T20:03:54Z] SCAN-SAVED youtubetranscript.io -> https://urlscan.io/result/01a0c073-e5b5-706b-980c-bb1502dcc704/
+[2026-09-20T20:03:54Z] 7 new indicator(s) this run
