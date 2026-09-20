@@ -1769,3 +1769,43 @@
 [2026-09-19T19:50:03Z] SCAN-SAVED ww7.wellsfargo-secure.ws -> https://urlscan.io/result/01a0bb48-a2b2-73eb-83b2-850de50ca713/
 [2026-09-19T19:50:03Z] SCAN-BACKLOG 37 live host(s) queued for next run (cap 20/run)
 [2026-09-19T19:50:03Z] 16 new indicator(s) this run
+[2026-09-20T02:40:47Z] NEW domain  accounts.scotiabbank.com  [urlscan]
+[2026-09-20T02:40:47Z] NEW domain  auth.renassantbank.com  [urlscan]
+[2026-09-20T02:40:47Z] NEW domain  bak.estheticswiss.com  [urlscan]
+[2026-09-20T02:40:47Z] NEW domain  di2nss.pun.bz  [urlscan @172.241.213.99 / AS395954]
+[2026-09-20T02:40:47Z] NEW domain  hentai-zip.net  [urlscan @64.31.3.238 / AS46475]
+[2026-09-20T02:40:47Z] NEW domain  liguiqin.cn  [urlscan]
+[2026-09-20T02:40:47Z] NEW domain  movestripe-vinry.info  [urlscan]
+[2026-09-20T02:40:47Z] NEW domain  www.creditclosermiami.com  [urlscan]
+[2026-09-20T02:40:47Z] NEW domain  youtubetranscript.io  [urlscan]
+[2026-09-20T02:40:47Z] NEW ip  192.157.56.139  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-20T02:40:47Z] NEW ip  208.115.249.237  [dns (mdhomeinc.com) / NON-CF ORIGIN — high value]
+[2026-09-20T02:40:47Z] NEW ip  37.48.77.79  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-20T02:40:47Z] NEW ip  5.79.75.212  [dns (hentai-zip.net) / NON-CF ORIGIN — high value]
+[2026-09-20T02:40:47Z] HEALTH certspotter=10/36 crtsh=11/16 urlscan=73/73 dns-google=542/542 dns-cf=542/542
+[2026-09-20T02:40:47Z] ORIGIN-CANDIDATE 192.157.56.139 non-CF shared/unknown (67 apex) - recorded for review
+[2026-09-20T02:40:47Z] AUTO-PROMOTE origin 208.115.249.237 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-20T02:40:47Z] ORIGIN-CANDIDATE 37.48.77.79 non-CF shared/unknown (85 apex) - recorded for review
+[2026-09-20T02:40:47Z] ORIGIN-CANDIDATE 5.79.75.212 non-CF shared/unknown (90 apex) - recorded for review
+[2026-09-20T02:40:47Z] SCAN-SAVED accounts.scotiabbank.com -> https://urlscan.io/result/01a0bcba-c409-72d6-a13c-ed70aff6103c/
+[2026-09-20T02:40:47Z] SCAN-SAVED auth.renassantbank.com -> https://urlscan.io/result/01a0bcba-d045-74c8-a102-9fc58a18beef/
+[2026-09-20T02:40:47Z] SCAN-SAVED bak.estheticswiss.com -> https://urlscan.io/result/01a0bcba-dc13-7602-978f-1038bc8e29cb/
+[2026-09-20T02:40:47Z] SCAN-SAVED di2nss.pun.bz -> https://urlscan.io/result/01a0bcba-e79f-7318-a026-d95a47aa13d8/
+[2026-09-20T02:40:47Z] SCAN-SAVED hentai-zip.net -> https://urlscan.io/result/01a0bcba-f3bf-707b-b225-5893bf114f44/
+[2026-09-20T02:40:47Z] SCAN-SAVED liguiqin.cn -> https://urlscan.io/result/01a0bcbb-0fec-77f8-becc-5e569cb4edec/
+[2026-09-20T02:40:47Z] SCAN-SAVED movestripe-vinry.info -> https://urlscan.io/result/01a0bcbb-1acd-756f-b49c-ccb29f3ac65e/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.70f155f8-6a16-43cd-aafa-38a430dcec89.hooka-shisha.com -> https://urlscan.io/result/01a0bcbb-2750-7690-a3d4-5785b7d506c1/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.aanshuman.com -> https://urlscan.io/result/01a0bcbb-329d-764f-8980-737e5515fe75/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.asianexploration.ph -> https://urlscan.io/result/01a0bcbb-3ec4-7043-ba48-d4124fa79d38/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.buybeararcheryonline.com -> https://urlscan.io/result/01a0bcbb-4a49-764b-bef5-a4b01b77d46b/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.creditclosermiami.com -> https://urlscan.io/result/01a0bcbb-58b8-71f3-8d92-f42ab4efea4a/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.download.allegrotile.com -> https://urlscan.io/result/01a0bcbb-6838-7188-9c26-8a68021730c2/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.eliteccwonline.com -> https://urlscan.io/result/01a0bcbb-72e0-738a-9da6-0ee0f9817c05/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.found-bankofbaroda.ph -> https://urlscan.io/result/01a0bcbb-7e73-749a-a450-72e60d10cd94/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.i8coh.szqxvo.com -> https://urlscan.io/result/01a0bcbb-889f-7667-9051-387b8e7391ea/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.ikmhua.com -> https://urlscan.io/result/01a0bcbb-94f6-7629-8ea5-a60908029ba5/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.invoiceepay.billerig.com -> https://urlscan.io/result/01a0bcbb-a02d-753f-a1b2-fdd816a6cbb2/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.isla-bank-santa-lucia.ph -> https://urlscan.io/result/01a0bcbb-acd6-76fe-959d-f2dbfcf45a59/
+[2026-09-20T02:40:47Z] SCAN-SAVED www.j2zfz.1-win26.xyz -> https://urlscan.io/result/01a0bcbb-b703-733e-a919-4f083b7d0345/
+[2026-09-20T02:40:47Z] SCAN-BACKLOG 26 live host(s) queued for next run (cap 20/run)
+[2026-09-20T02:40:47Z] 13 new indicator(s) this run
