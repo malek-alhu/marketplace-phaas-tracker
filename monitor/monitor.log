@@ -1809,3 +1809,30 @@
 [2026-09-20T02:40:47Z] SCAN-SAVED www.j2zfz.1-win26.xyz -> https://urlscan.io/result/01a0bcbb-b703-733e-a919-4f083b7d0345/
 [2026-09-20T02:40:47Z] SCAN-BACKLOG 26 live host(s) queued for next run (cap 20/run)
 [2026-09-20T02:40:47Z] 13 new indicator(s) this run
+[2026-09-20T10:21:59Z] NEW ip  212.92.104.10  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-20T10:21:59Z] NEW ip  64.190.63.111  [dns (144.trabzonhaber.xyz) / NON-CF ORIGIN — high value]
+[2026-09-20T10:21:59Z] HEALTH certspotter=11/36 crtsh=47/53 urlscan=74/74 dns-google=554/554 dns-cf=554/554
+[2026-09-20T10:21:59Z] ORIGIN-CANDIDATE 212.92.104.10 non-CF shared/unknown (79 apex) - recorded for review
+[2026-09-20T10:21:59Z] ORIGIN-CANDIDATE 64.190.63.111 non-CF shared/unknown (92 apex) - recorded for review
+[2026-09-20T10:21:59Z] SCAN-SAVED www.logme.co -> https://urlscan.io/result/01a0be69-844d-74ba-9f92-3d8f14c16c41/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.m.homewarming.club -> https://urlscan.io/result/01a0be69-909c-7461-95fb-a2254839a6ac/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.m.swisstrades365.com -> https://urlscan.io/result/01a0be69-9d0e-71a7-824a-0e7bed5a02e8/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.matcherenting.org.ph -> https://urlscan.io/result/01a0be69-a89a-704c-8b7a-56719c25cb05/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.scotiabank.servise-now.com -> https://urlscan.io/result/01a0be69-b381-7778-8fc0-2592ebdf44e7/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.scotiabankprod.servise-now.com -> https://urlscan.io/result/01a0be69-bea0-72a4-8f8b-95ea08e384eb/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.spiderhoodieonline.us -> https://urlscan.io/result/01a0be69-cad7-774a-b789-b9762fe60e0f/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.splitmerge.us -> https://urlscan.io/result/01a0be69-d4e1-760a-9ea8-a2a616a2a5df/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.topfranceturf.com -> https://urlscan.io/result/01a0be69-e043-7206-9681-2f82af44cdd5/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.vpn-s10.ph -> https://urlscan.io/result/01a0be69-ea4d-75d5-bb41-073506f38d2b/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.whichincarceratedhumanshouldpresidentobamapardon.ph -> https://urlscan.io/result/01a0be69-f678-7368-a533-6099c8c9b0d7/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.ww16.customer.yhcvpn.xyz -> https://urlscan.io/result/01a0be6a-0317-77eb-b69a-e4fe9d32b03d/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.ww38.karma.cavecredit.com -> https://urlscan.io/result/01a0be6a-0da1-70a8-87b3-d8710230a162/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.ww7.easy-bank.ws -> https://urlscan.io/result/01a0be6a-1997-71aa-9f0d-0e1011272a92/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.ww7.expediaie.com -> https://urlscan.io/result/01a0be6a-2512-712f-9e65-ee837ff079cd/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.ww7.newewallet.bar -> https://urlscan.io/result/01a0be6a-3253-723d-9b9a-37c46243c84a/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.ww7.willowhayes.com -> https://urlscan.io/result/01a0be6a-3e28-76bc-a459-436e60f95306/
+[2026-09-20T10:21:59Z] SCAN-SAVED www.wwboschsecurity.ph -> https://urlscan.io/result/01a0be6a-4a70-729a-b900-94f1a8b73753/
+[2026-09-20T10:21:59Z] SCAN-SAVED xn--eclidaprtments-cib348d.ph -> https://urlscan.io/result/01a0be6a-5427-7564-aee1-cf22863a841e/
+[2026-09-20T10:21:59Z] SCAN-SAVED xn--elidapartments-5qb8795i.ph -> https://urlscan.io/result/01a0be6a-5f0b-73ad-850d-cd2ac9592b47/
+[2026-09-20T10:21:59Z] SCAN-BACKLOG 6 live host(s) queued for next run (cap 20/run)
+[2026-09-20T10:21:59Z] 2 new indicator(s) this run
