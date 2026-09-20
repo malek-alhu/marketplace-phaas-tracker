@@ -1836,3 +1836,49 @@
 [2026-09-20T10:21:59Z] SCAN-SAVED xn--elidapartments-5qb8795i.ph -> https://urlscan.io/result/01a0be6a-5f0b-73ad-850d-cd2ac9592b47/
 [2026-09-20T10:21:59Z] SCAN-BACKLOG 6 live host(s) queued for next run (cap 20/run)
 [2026-09-20T10:21:59Z] 2 new indicator(s) this run
+[2026-09-20T15:11:30Z] NEW domain  beta.diesel-central.com  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  c2335hy36g.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  csd5j3pepd.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  dxwagou.cn  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  eijesjhstj.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  fullhdfilmizlesene.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  gpbyp7rzwy.282038dhxl.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  hfnptprcqp.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  hzpkpx3pcn.282038dhxl.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  kfeqfg3fpm.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  m0dsdbrsac.282038dhxl.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  nmrdsjkr8s.282038dhxl.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  nmzgn5bftd.282038dhxl.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  soybia.cn  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  susd-edu.sitelop.com  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  tdaiktwwz4.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  wrm0ckaxrk.282038dhxl.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  www.nkedin.com  [urlscan]
+[2026-09-20T15:11:30Z] NEW domain  xsjbsdddbw.8666989a1.top  [urlscan]
+[2026-09-20T15:11:30Z] NEW ip  212.92.104.6  [dns (mdhomeinc.com) / NON-CF ORIGIN — high value]
+[2026-09-20T15:11:30Z] NEW ip  23.92.212.166  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-20T15:11:30Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=74/74 dns-google=594/594 dns-cf=594/594
+[2026-09-20T15:11:30Z] ORIGIN-CANDIDATE 212.92.104.6 non-CF shared/unknown (83 apex) - recorded for review
+[2026-09-20T15:11:30Z] AUTO-PROMOTE origin 23.92.212.166 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-20T15:11:30Z] SCAN-SAVED beta.diesel-central.com -> https://urlscan.io/result/01a0bf6d-65bd-745f-bc81-94b1f573af36/
+[2026-09-20T15:11:30Z] SCAN-SAVED c2335hy36g.8666989a1.top -> https://urlscan.io/result/01a0bf6d-7197-75a2-9398-35c0f2dafb5a/
+[2026-09-20T15:11:30Z] SCAN-SAVED csd5j3pepd.8666989a1.top -> https://urlscan.io/result/01a0bf6d-7d11-76c9-ba59-25c852a71a6a/
+[2026-09-20T15:11:30Z] SCAN-SAVED dxwagou.cn -> https://urlscan.io/result/01a0bf6d-8daf-775c-9865-b8054595cd91/
+[2026-09-20T15:11:30Z] SCAN-SAVED eijesjhstj.8666989a1.top -> https://urlscan.io/result/01a0bf6d-9984-7678-bf23-aeb2aabc1326/
+[2026-09-20T15:11:30Z] SCAN-SAVED fullhdfilmizlesene.top -> https://urlscan.io/result/01a0bf6d-a59e-7219-a8d2-a42c80b1456d/
+[2026-09-20T15:11:30Z] SCAN-SAVED gpbyp7rzwy.282038dhxl.top -> https://urlscan.io/result/01a0bf6d-afb1-741d-90ee-d259853ebf59/
+[2026-09-20T15:11:30Z] SCAN-SAVED hfnptprcqp.8666989a1.top -> https://urlscan.io/result/01a0bf6d-ba54-70a9-a982-d918cbf48613/
+[2026-09-20T15:11:30Z] SCAN-SAVED hzpkpx3pcn.282038dhxl.top -> https://urlscan.io/result/01a0bf6d-c62c-73ac-b558-6e9658553380/
+[2026-09-20T15:11:30Z] SCAN-SAVED kfeqfg3fpm.8666989a1.top -> https://urlscan.io/result/01a0bf6d-d1a3-7409-9a44-cbbfe2d5a5d9/
+[2026-09-20T15:11:30Z] SCAN-SAVED m0dsdbrsac.282038dhxl.top -> https://urlscan.io/result/01a0bf6d-dd64-711a-9d43-b7f2e1ce9982/
+[2026-09-20T15:11:30Z] SCAN-SAVED nmrdsjkr8s.282038dhxl.top -> https://urlscan.io/result/01a0bf6d-e79e-72c4-b75b-f2fc2d59acf8/
+[2026-09-20T15:11:30Z] SCAN-SAVED nmzgn5bftd.282038dhxl.top -> https://urlscan.io/result/01a0bf6d-f313-7535-b2ea-98d3c67588c3/
+[2026-09-20T15:11:30Z] SCAN-SAVED soybia.cn -> https://urlscan.io/result/01a0bf6e-0d8c-72ff-ad1d-e808ac788294/
+[2026-09-20T15:11:30Z] SCAN-SAVED susd-edu.sitelop.com -> https://urlscan.io/result/01a0bf6e-1952-75e4-ab15-167d7c49d4b8/
+[2026-09-20T15:11:30Z] SCAN-SAVED tdaiktwwz4.8666989a1.top -> https://urlscan.io/result/01a0bf6e-24cb-76fb-ab7c-c91a43a17eeb/
+[2026-09-20T15:11:30Z] SCAN-SAVED wrm0ckaxrk.282038dhxl.top -> https://urlscan.io/result/01a0bf6e-307b-77b8-a675-8dd915ae68f1/
+[2026-09-20T15:11:30Z] SCAN-SAVED www.nkedin.com -> https://urlscan.io/result/01a0bf6e-3c3e-72c3-96bd-5b91533407a4/
+[2026-09-20T15:11:30Z] SCAN-SAVED xn--horviewmi-4ld32c.ph -> https://urlscan.io/result/01a0bf6e-46ac-71fa-89ed-83a0a928b0dd/
+[2026-09-20T15:11:30Z] SCAN-SAVED xn--sheviewmi-m8a95h.ph -> https://urlscan.io/result/01a0bf6e-504c-774c-8100-391f20a5b0d1/
+[2026-09-20T15:11:30Z] SCAN-BACKLOG 5 live host(s) queued for next run (cap 20/run)
+[2026-09-20T15:11:30Z] 21 new indicator(s) this run
