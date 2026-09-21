@@ -1928,3 +1928,44 @@
 [2026-09-21T11:35:59Z] SCAN-SAVED ww25.webdisk.twittervideodownloader.co -> https://urlscan.io/result/01a0c3cb-98f5-73d2-b911-ddef42099dc6/
 [2026-09-21T11:35:59Z] SCAN-SAVED www.noszz.exclusiverewards.7064.ws -> https://urlscan.io/result/01a0c3cb-a4c4-738c-b1fb-8dfc58ac8cdc/
 [2026-09-21T11:35:59Z] 6 new indicator(s) this run
+[2026-09-21T17:33:23Z] NEW domain  alpha-barclays.com.ph  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  cssmesh.com  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  download.ircfast2.com  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  facebook-support-verification-portal.com.ph  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  postype.co  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  test.ww7.parcelfoce.com  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  whm.admin.klsecurity.ws  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  www.dufzz.exclusiverewards.7064.ws  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  www.jerzz.exclusiverewards.7064.ws  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  www.refinanciamentoveiculo.520creditos.com.br  [urlscan]
+[2026-09-21T17:33:23Z] NEW domain  xn--euclidapartmen-txd455a.ph  [urlscan]
+[2026-09-21T17:33:23Z] NEW ip  108.179.192.29  [dns (www.refinanciamentoveiculo.520creditos.com.br) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  172.234.27.224  [dns (cssmesh.com) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  172.237.152.158  [dns (test.ww7.parcelfoce.com) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  172.237.152.229  [dns (test.ww7.parcelfoce.com) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  172.237.159.210  [dns (cssmesh.com) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  172.238.172.237  [dns (test.ww7.parcelfoce.com) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  172.239.193.217  [dns (cssmesh.com) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] NEW ip  212.92.104.119  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-21T17:33:23Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=78/78 dns-google=622/622 dns-cf=622/622
+[2026-09-21T17:33:23Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 108.179.192.29 non-CF shared/unknown (35 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 172.234.27.224 non-CF shared/unknown (73 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 172.237.152.158 non-CF shared/unknown (67 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 172.237.152.229 non-CF shared/unknown (73 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 172.237.159.210 non-CF shared/unknown (75 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 172.238.172.237 non-CF shared/unknown (67 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 172.239.193.217 non-CF shared/unknown (67 apex) - recorded for review
+[2026-09-21T17:33:23Z] ORIGIN-CANDIDATE 212.92.104.119 non-CF shared/unknown (77 apex) - recorded for review
+[2026-09-21T17:33:23Z] SCAN-SAVED alpha-barclays.com.ph -> https://urlscan.io/result/01a0c510-103b-7008-9024-08de3003ed31/
+[2026-09-21T17:33:23Z] SCAN-SAVED cssmesh.com -> https://urlscan.io/result/01a0c510-1c97-7309-8867-e76e28445a93/
+[2026-09-21T17:33:23Z] SCAN-SAVED download.ircfast2.com -> https://urlscan.io/result/01a0c510-2884-746f-b0d2-880891d70329/
+[2026-09-21T17:33:23Z] SCAN-SAVED facebook-support-verification-portal.com.ph -> https://urlscan.io/result/01a0c510-348b-774d-8e70-fde79e9016e8/
+[2026-09-21T17:33:23Z] SCAN-SAVED postype.co -> https://urlscan.io/result/01a0c510-401f-771e-90ed-29babda5a9c2/
+[2026-09-21T17:33:23Z] SCAN-SAVED test.ww7.parcelfoce.com -> https://urlscan.io/result/01a0c510-49fd-76ee-9d51-05d1f462a63a/
+[2026-09-21T17:33:23Z] SCAN-SAVED whm.admin.klsecurity.ws -> https://urlscan.io/result/01a0c510-57d2-746b-bc8b-6dae45c90ca4/
+[2026-09-21T17:33:23Z] SCAN-SAVED www.dufzz.exclusiverewards.7064.ws -> https://urlscan.io/result/01a0c510-63da-72dc-8d71-0ed7da378363/
+[2026-09-21T17:33:23Z] SCAN-SAVED www.jerzz.exclusiverewards.7064.ws -> https://urlscan.io/result/01a0c510-701d-7555-ace0-5f109f40957b/
+[2026-09-21T17:33:23Z] SCAN-SAVED www.refinanciamentoveiculo.520creditos.com.br -> https://urlscan.io/result/01a0c510-7b59-70dc-af52-0d87bc9b3459/
+[2026-09-21T17:33:23Z] SCAN-SAVED xn--euclidapartmen-txd455a.ph -> https://urlscan.io/result/01a0c510-85cd-758b-a86f-92f0697c7fb9/
+[2026-09-21T17:33:23Z] 19 new indicator(s) this run
