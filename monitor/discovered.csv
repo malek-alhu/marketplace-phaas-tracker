@@ -168,3 +168,6 @@ origin,212.92.104.6,candidate,non-CF shared/unknown (83 apex on IP) - review,202
 origin,23.92.212.166,promoted,non-CF dedicated (0 apex on IP),2026-09-20T15:11:30Z
 origin,23.92.212.164,promoted,non-CF dedicated (0 apex on IP),2026-09-20T20:03:54Z
 origin,78.41.207.39,candidate,non-CF shared/unknown (19 apex on IP) - review,2026-09-20T20:03:54Z
+origin,172.98.192.44,promoted,non-CF dedicated (0 apex on IP),2026-09-21T02:38:05Z
+origin,212.92.104.117,candidate,non-CF shared/unknown (81 apex on IP) - review,2026-09-21T02:38:05Z
+origin,212.92.104.4,candidate,non-CF shared/unknown (84 apex on IP) - review,2026-09-21T02:38:05Z

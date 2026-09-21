@@ -1904,3 +1904,14 @@
 [2026-09-20T20:03:54Z] SCAN-SAVED yhoreviewmi.ph -> https://urlscan.io/result/01a0c073-d6d7-73d2-8d92-59e22d760396/
 [2026-09-20T20:03:54Z] SCAN-SAVED youtubetranscript.io -> https://urlscan.io/result/01a0c073-e5b5-706b-980c-bb1502dcc704/
 [2026-09-20T20:03:54Z] 7 new indicator(s) this run
+[2026-09-21T02:38:05Z] NEW domain  www.ww25.demo.securityhealthcare.org  [urlscan]
+[2026-09-21T02:38:05Z] NEW ip  172.98.192.44  [dns (bidv.azurwebsites.net) / NON-CF ORIGIN — high value]
+[2026-09-21T02:38:05Z] NEW ip  212.92.104.117  [dns (proefgroup.onmicrosoft.co) / NON-CF ORIGIN — high value]
+[2026-09-21T02:38:05Z] NEW ip  212.92.104.4  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-21T02:38:05Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=76/76 dns-google=592/592 dns-cf=592/592
+[2026-09-21T02:38:05Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-21T02:38:05Z] AUTO-PROMOTE origin 172.98.192.44 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-21T02:38:05Z] ORIGIN-CANDIDATE 212.92.104.117 non-CF shared/unknown (81 apex) - recorded for review
+[2026-09-21T02:38:05Z] ORIGIN-CANDIDATE 212.92.104.4 non-CF shared/unknown (84 apex) - recorded for review
+[2026-09-21T02:38:05Z] SCAN-SAVED www.ww25.demo.securityhealthcare.org -> https://urlscan.io/result/01a0c1db-74a4-732f-8740-227615072dab/
+[2026-09-21T02:38:05Z] 4 new indicator(s) this run
