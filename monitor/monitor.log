@@ -1969,3 +1969,23 @@
 [2026-09-21T17:33:23Z] SCAN-SAVED www.refinanciamentoveiculo.520creditos.com.br -> https://urlscan.io/result/01a0c510-7b59-70dc-af52-0d87bc9b3459/
 [2026-09-21T17:33:23Z] SCAN-SAVED xn--euclidapartmen-txd455a.ph -> https://urlscan.io/result/01a0c510-85cd-758b-a86f-92f0697c7fb9/
 [2026-09-21T17:33:23Z] 19 new indicator(s) this run
+[2026-09-21T21:29:46Z] NEW domain  contacttracings.org  [urlscan]
+[2026-09-21T21:29:46Z] NEW domain  jt4njwbpfg.488223dhxl.top  [urlscan]
+[2026-09-21T21:29:46Z] NEW domain  natwest.bankonline.site  [urlscan]
+[2026-09-21T21:29:46Z] NEW domain  www.ww12.bclaim.xyz  [urlscan]
+[2026-09-21T21:29:46Z] NEW ip  172.232.10.213  [dns (contacttracings.org) / NON-CF ORIGIN — high value]
+[2026-09-21T21:29:46Z] NEW ip  172.237.145.148  [dns (contacttracings.org) / NON-CF ORIGIN — high value]
+[2026-09-21T21:29:46Z] NEW ip  172.239.193.246  [dns (contacttracings.org) / NON-CF ORIGIN — high value]
+[2026-09-21T21:29:46Z] NEW ip  212.92.104.118  [dns (fapcraft.org) / NON-CF ORIGIN — high value]
+[2026-09-21T21:29:46Z] NEW ip  78.41.207.20  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-21T21:29:46Z] HEALTH certspotter=11/36 crtsh=51/53 urlscan=78/78 dns-google=644/644 dns-cf=644/644
+[2026-09-21T21:29:46Z] ORIGIN-CANDIDATE 172.232.10.213 non-CF shared/unknown (27 apex) - recorded for review
+[2026-09-21T21:29:46Z] ORIGIN-CANDIDATE 172.237.145.148 non-CF shared/unknown (31 apex) - recorded for review
+[2026-09-21T21:29:46Z] ORIGIN-CANDIDATE 172.239.193.246 non-CF shared/unknown (29 apex) - recorded for review
+[2026-09-21T21:29:46Z] ORIGIN-CANDIDATE 212.92.104.118 non-CF shared/unknown (71 apex) - recorded for review
+[2026-09-21T21:29:46Z] ORIGIN-CANDIDATE 78.41.207.20 non-CF shared/unknown (14 apex) - recorded for review
+[2026-09-21T21:29:46Z] SCAN-SAVED contacttracings.org -> https://urlscan.io/result/01a0c5f2-fd8f-775d-b227-506f2fdcb557/
+[2026-09-21T21:29:46Z] SCAN-SAVED jt4njwbpfg.488223dhxl.top -> https://urlscan.io/result/01a0c5f3-0a5a-738a-bb95-d4de340f181d/
+[2026-09-21T21:29:46Z] SCAN-SAVED natwest.bankonline.site -> https://urlscan.io/result/01a0c5f3-14e7-706f-82da-6ffa34c76500/
+[2026-09-21T21:29:46Z] SCAN-SAVED www.ww12.bclaim.xyz -> https://urlscan.io/result/01a0c5f3-210d-77ba-9349-a3dd2a723357/
+[2026-09-21T21:29:46Z] 9 new indicator(s) this run
