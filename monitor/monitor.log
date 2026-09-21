@@ -1915,3 +1915,16 @@
 [2026-09-21T02:38:05Z] ORIGIN-CANDIDATE 212.92.104.4 non-CF shared/unknown (84 apex) - recorded for review
 [2026-09-21T02:38:05Z] SCAN-SAVED www.ww25.demo.securityhealthcare.org -> https://urlscan.io/result/01a0c1db-74a4-732f-8740-227615072dab/
 [2026-09-21T02:38:05Z] 4 new indicator(s) this run
+[2026-09-21T11:35:59Z] NEW domain  172.98.192.44  [urlscan @172.98.192.44 / AS31863]
+[2026-09-21T11:35:59Z] NEW domain  m.xn--0221-2jzy01cc-gu4uz87bw8o1ha9503bdc1e.jzy21.cfd  [urlscan]
+[2026-09-21T11:35:59Z] NEW domain  ww25.webdisk.twittervideodownloader.co  [urlscan]
+[2026-09-21T11:35:59Z] NEW domain  www.noszz.exclusiverewards.7064.ws  [urlscan]
+[2026-09-21T11:35:59Z] NEW ip  23.92.212.165  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-21T11:35:59Z] NEW ip  5.79.75.210  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-21T11:35:59Z] HEALTH certspotter=10/36 crtsh=6/11 urlscan=77/77 dns-google=600/600 dns-cf=600/600
+[2026-09-21T11:35:59Z] AUTO-PROMOTE origin 23.92.212.165 (non-CF, 0 apex) -> now page.ip-watched
+[2026-09-21T11:35:59Z] ORIGIN-CANDIDATE 5.79.75.210 non-CF shared/unknown (86 apex) - recorded for review
+[2026-09-21T11:35:59Z] SCAN-SAVED m.xn--0221-2jzy01cc-gu4uz87bw8o1ha9503bdc1e.jzy21.cfd -> https://urlscan.io/result/01a0c3cb-8c7f-775f-be74-303c184e8915/
+[2026-09-21T11:35:59Z] SCAN-SAVED ww25.webdisk.twittervideodownloader.co -> https://urlscan.io/result/01a0c3cb-98f5-73d2-b911-ddef42099dc6/
+[2026-09-21T11:35:59Z] SCAN-SAVED www.noszz.exclusiverewards.7064.ws -> https://urlscan.io/result/01a0c3cb-a4c4-738c-b1fb-8dfc58ac8cdc/
+[2026-09-21T11:35:59Z] 6 new indicator(s) this run
