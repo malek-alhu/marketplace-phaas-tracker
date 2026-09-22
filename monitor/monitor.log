@@ -2052,3 +2052,21 @@
 [2026-09-22T16:01:45Z] SCAN-SAVED sakira-edu-vn.sitelop.com -> https://urlscan.io/result/01a0c9ec-00e0-7668-995e-28f2eee92f40/
 [2026-09-22T16:01:45Z] SCAN-SAVED zalog-authentication.t15.org -> https://urlscan.io/result/01a0c9ec-0dae-74cf-bc63-bbf83ff0bbb3/
 [2026-09-22T16:01:45Z] 11 new indicator(s) this run
+[2026-09-22T20:42:16Z] NEW domain  08ps3qkehbsc38tl.magnetoempleo.com  [urlscan]
+[2026-09-22T20:42:16Z] NEW domain  522d94ixmskyejud.websiteexploration.com  [urlscan]
+[2026-09-22T20:42:16Z] NEW domain  a.gustafson.updatephone.club  [urlscan]
+[2026-09-22T20:42:16Z] NEW domain  absihalalburger.com  [urlscan]
+[2026-09-22T20:42:16Z] NEW domain  belgrade-beer-fest.booking-hotels.biz  [urlscan]
+[2026-09-22T20:42:16Z] NEW domain  dashboard.smileyapple.com  [urlscan]
+[2026-09-22T20:42:16Z] NEW domain  ww38.funding-coinbase.com  [urlscan]
+[2026-09-22T20:42:16Z] NEW ip  78.41.207.28  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-22T20:42:16Z] HEALTH certspotter=10/36 crtsh=2/5 urlscan=79/79 dns-google=686/686 dns-cf=686/686
+[2026-09-22T20:42:16Z] AUTO-PROMOTE origin 78.41.207.28 (non-CF, 8 apex) -> now page.ip-watched
+[2026-09-22T20:42:16Z] SCAN-SAVED 08ps3qkehbsc38tl.magnetoempleo.com -> https://urlscan.io/result/01a0cae4-4a45-7554-99f7-2ba7a0430051/
+[2026-09-22T20:42:16Z] SCAN-SAVED 522d94ixmskyejud.websiteexploration.com -> https://urlscan.io/result/01a0cae4-5683-77ea-9543-1be98f54ef17/
+[2026-09-22T20:42:16Z] SCAN-SAVED a.gustafson.updatephone.club -> https://urlscan.io/result/01a0cae4-6352-708d-a91e-9338d033291d/
+[2026-09-22T20:42:16Z] SCAN-SAVED absihalalburger.com -> https://urlscan.io/result/01a0cae4-7181-775e-88aa-5ca3ef6144ac/
+[2026-09-22T20:42:16Z] SCAN-SAVED belgrade-beer-fest.booking-hotels.biz -> https://urlscan.io/result/01a0cae4-7b94-72a9-8a21-7c6275df2c31/
+[2026-09-22T20:42:16Z] SCAN-SAVED dashboard.smileyapple.com -> https://urlscan.io/result/01a0cae4-8919-749a-b01c-a2350b80b523/
+[2026-09-22T20:42:16Z] SCAN-SAVED ww38.funding-coinbase.com -> https://urlscan.io/result/01a0cae4-9d14-700c-ae8d-1a3644bc4d8a/
+[2026-09-22T20:42:16Z] 8 new indicator(s) this run
