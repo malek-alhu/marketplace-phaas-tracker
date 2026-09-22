@@ -1989,3 +1989,11 @@
 [2026-09-21T21:29:46Z] SCAN-SAVED natwest.bankonline.site -> https://urlscan.io/result/01a0c5f3-14e7-706f-82da-6ffa34c76500/
 [2026-09-21T21:29:46Z] SCAN-SAVED www.ww12.bclaim.xyz -> https://urlscan.io/result/01a0c5f3-210d-77ba-9349-a3dd2a723357/
 [2026-09-21T21:29:46Z] 9 new indicator(s) this run
+[2026-09-22T02:39:50Z] NEW domain  194.rustore.coinbase-support.app  [urlscan]
+[2026-09-22T02:39:50Z] NEW domain  www.m.posti.ws  [urlscan]
+[2026-09-22T02:39:50Z] NEW ip  23.92.212.163  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-22T02:39:50Z] HEALTH certspotter=11/36 crtsh=10/19 urlscan=78/78 dns-google=636/636 dns-cf=636/636
+[2026-09-22T02:39:50Z] AUTO-PROMOTE origin 23.92.212.163 (non-CF, 1 apex) -> now page.ip-watched
+[2026-09-22T02:39:50Z] SCAN-SAVED 194.rustore.coinbase-support.app -> https://urlscan.io/result/01a0c70c-7cf0-775f-b207-2c7d16995f6b/
+[2026-09-22T02:39:50Z] SCAN-SAVED www.m.posti.ws -> https://urlscan.io/result/01a0c70c-8b87-713e-acfd-337dc99676ed/
+[2026-09-22T02:39:50Z] 3 new indicator(s) this run
