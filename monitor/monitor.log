@@ -1997,3 +1997,38 @@
 [2026-09-22T02:39:50Z] SCAN-SAVED 194.rustore.coinbase-support.app -> https://urlscan.io/result/01a0c70c-7cf0-775f-b207-2c7d16995f6b/
 [2026-09-22T02:39:50Z] SCAN-SAVED www.m.posti.ws -> https://urlscan.io/result/01a0c70c-8b87-713e-acfd-337dc99676ed/
 [2026-09-22T02:39:50Z] 3 new indicator(s) this run
+[2026-09-22T10:41:19Z] NEW domain  consulta-receitafederal-gov-br.org  [urlscan @173.234.157.130 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  dalmatabooking.com  [urlscan @64.120.31.121 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  ebaysupermarket.com  [urlscan @64.120.31.120 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  freeclaim.live  [urlscan @173.234.157.130 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  hashsecure.tech  [urlscan @173.234.157.138 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  iavv.me  [urlscan @23.92.212.163 / AS31863]
+[2026-09-22T10:41:19Z] NEW domain  kontolin.cc  [urlscan @64.120.31.120 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  nexitally.org  [urlscan @64.120.31.121 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  postoffice.ltd  [urlscan @173.234.157.130 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  proxy-support-boeing.com  [urlscan @173.234.157.130 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  saksfifthave.us  [urlscan @173.234.157.130 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  vodafoneathomefantasticoffers.com  [urlscan @173.234.157.130 / AS396362]
+[2026-09-22T10:41:19Z] NEW domain  woodtrack.click  [urlscan @64.120.31.121 / AS396362]
+[2026-09-22T10:41:19Z] NEW ip  104.21.68.148  [dns (iavv.me) / Cloudflare-edge]
+[2026-09-22T10:41:19Z] NEW ip  172.67.196.47  [dns (iavv.me) / Cloudflare-edge]
+[2026-09-22T10:41:19Z] NEW ip  212.92.104.116  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-22T10:41:19Z] NEW ip  2606:4700:3030::ac43:c42f  [dns (iavv.me) / Cloudflare-edge]
+[2026-09-22T10:41:19Z] NEW ip  2606:4700:3035::6815:4494  [dns (iavv.me) / Cloudflare-edge]
+[2026-09-22T10:41:19Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=79/79 dns-google=660/660 dns-cf=660/660
+[2026-09-22T10:41:19Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-22T10:41:19Z] ORIGIN-CANDIDATE 212.92.104.116 non-CF shared/unknown (76 apex) - recorded for review
+[2026-09-22T10:41:19Z] SCAN-SAVED consulta-receitafederal-gov-br.org -> https://urlscan.io/result/01a0c8bd-3fa2-74ea-ba4b-e9b5bb15e338/
+[2026-09-22T10:41:19Z] SCAN-SAVED dalmatabooking.com -> https://urlscan.io/result/01a0c8bd-4b92-7231-ada1-d95a74f89308/
+[2026-09-22T10:41:19Z] SCAN-SAVED ebaysupermarket.com -> https://urlscan.io/result/01a0c8bd-57c3-71c8-89cf-bc715e430407/
+[2026-09-22T10:41:19Z] SCAN-SAVED freeclaim.live -> https://urlscan.io/result/01a0c8bd-63e1-7111-901e-a4bdfc93cc29/
+[2026-09-22T10:41:19Z] SCAN-SAVED hashsecure.tech -> https://urlscan.io/result/01a0c8bd-6e0e-71cf-9f84-01f6908a5fc7/
+[2026-09-22T10:41:19Z] SCAN-SAVED iavv.me -> https://urlscan.io/result/01a0c8bd-79a9-725c-b7b0-ac49e79f83a4/
+[2026-09-22T10:41:19Z] SCAN-SAVED kontolin.cc -> https://urlscan.io/result/01a0c8bd-8657-7209-b940-bc0993d510f4/
+[2026-09-22T10:41:19Z] SCAN-SAVED nexitally.org -> https://urlscan.io/result/01a0c8bd-9235-77cf-ac45-b2cd207044a7/
+[2026-09-22T10:41:19Z] SCAN-SAVED postoffice.ltd -> https://urlscan.io/result/01a0c8bd-a0a3-749e-a41c-7720868426fd/
+[2026-09-22T10:41:19Z] SCAN-SAVED proxy-support-boeing.com -> https://urlscan.io/result/01a0c8bd-ac99-75dd-8174-085607a45d1a/
+[2026-09-22T10:41:19Z] SCAN-SAVED saksfifthave.us -> https://urlscan.io/result/01a0c8bd-b857-72da-91ce-63076733e6d8/
+[2026-09-22T10:41:19Z] SCAN-SAVED vodafoneathomefantasticoffers.com -> https://urlscan.io/result/01a0c8bd-c3f3-7048-af73-e3a56b724ecf/
+[2026-09-22T10:41:19Z] SCAN-SAVED woodtrack.click -> https://urlscan.io/result/01a0c8bd-cfee-70ef-949f-d3de99b984c0/
+[2026-09-22T10:41:19Z] 18 new indicator(s) this run
