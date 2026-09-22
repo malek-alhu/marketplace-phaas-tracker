@@ -2032,3 +2032,23 @@
 [2026-09-22T10:41:19Z] SCAN-SAVED vodafoneathomefantasticoffers.com -> https://urlscan.io/result/01a0c8bd-c3f3-7048-af73-e3a56b724ecf/
 [2026-09-22T10:41:19Z] SCAN-SAVED woodtrack.click -> https://urlscan.io/result/01a0c8bd-cfee-70ef-949f-d3de99b984c0/
 [2026-09-22T10:41:19Z] 18 new indicator(s) this run
+[2026-09-22T16:01:45Z] NEW domain  abbank.herouapp.com  [urlscan]
+[2026-09-22T16:01:45Z] NEW domain  demo.villadelsoldoro.com  [urlscan]
+[2026-09-22T16:01:45Z] NEW domain  hugemoney553.pages.dev  [urlscan]
+[2026-09-22T16:01:45Z] NEW domain  lynnandlather.com  [urlscan]
+[2026-09-22T16:01:45Z] NEW domain  sakira-edu-vn.sitelop.com  [urlscan]
+[2026-09-22T16:01:45Z] NEW domain  zalog-authentication.t15.org  [urlscan]
+[2026-09-22T16:01:45Z] NEW ip  172.66.44.163  [dns (hugemoney553.pages.dev) / Cloudflare-edge]
+[2026-09-22T16:01:45Z] NEW ip  172.66.47.93  [dns (hugemoney553.pages.dev) / Cloudflare-edge]
+[2026-09-22T16:01:45Z] NEW ip  212.92.104.115  [dns (dl.upcleaner.net) / NON-CF ORIGIN — high value]
+[2026-09-22T16:01:45Z] NEW ip  2606:4700:310c::ac42:2ca3  [dns (hugemoney553.pages.dev) / Cloudflare-edge]
+[2026-09-22T16:01:45Z] NEW ip  2606:4700:310c::ac42:2f5d  [dns (hugemoney553.pages.dev) / Cloudflare-edge]
+[2026-09-22T16:01:45Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=79/79 dns-google=686/686 dns-cf=686/686
+[2026-09-22T16:01:45Z] ORIGIN-CANDIDATE 212.92.104.115 non-CF shared/unknown (85 apex) - recorded for review
+[2026-09-22T16:01:45Z] SCAN-SAVED abbank.herouapp.com -> https://urlscan.io/result/01a0c9eb-d1d5-768b-a188-ab59390f4106/
+[2026-09-22T16:01:45Z] SCAN-SAVED demo.villadelsoldoro.com -> https://urlscan.io/result/01a0c9eb-dd65-7675-ae46-f633c66914e2/
+[2026-09-22T16:01:45Z] SCAN-SAVED hugemoney553.pages.dev -> https://urlscan.io/result/01a0c9eb-e8f2-778f-a6c5-2fc589f8363f/
+[2026-09-22T16:01:45Z] SCAN-SAVED lynnandlather.com -> https://urlscan.io/result/01a0c9eb-f55b-71ee-bffd-a1f36b0be5b2/
+[2026-09-22T16:01:45Z] SCAN-SAVED sakira-edu-vn.sitelop.com -> https://urlscan.io/result/01a0c9ec-00e0-7668-995e-28f2eee92f40/
+[2026-09-22T16:01:45Z] SCAN-SAVED zalog-authentication.t15.org -> https://urlscan.io/result/01a0c9ec-0dae-74cf-bc63-bbf83ff0bbb3/
+[2026-09-22T16:01:45Z] 11 new indicator(s) this run
