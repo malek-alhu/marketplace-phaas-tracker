@@ -659,3 +659,21 @@ domain,belgrade-beer-fest.booking-hotels.biz,urlscan,,2026-09-22T20:42:16Z
 domain,dashboard.smileyapple.com,urlscan,,2026-09-22T20:42:16Z
 domain,ww38.funding-coinbase.com,urlscan,,2026-09-22T20:42:16Z
 ip,78.41.207.28,dns (www.nkedin.com),NON-CF ORIGIN — high value,2026-09-22T20:42:16Z
+domain,bancodesantander.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,banesco.com.co,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,bankhapoalim-mufg-cfe.ph,urlscan,,2026-09-23T02:39:56Z
+domain,ecucontrol.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,fedexpress.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,gmai.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,myntra-scotiabank.ph,urlscan,,2026-09-23T02:39:56Z
+domain,myoutube.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,scotaibank.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,ww1.scotaibank.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,www.gmai.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+domain,wwwstandard.com,urlscan @78.41.207.28,AS62370,2026-09-23T02:39:56Z
+ip,13.248.169.48,dns (ecucontrol.com),NON-CF ORIGIN — high value,2026-09-23T02:39:56Z
+ip,76.223.54.146,dns (ecucontrol.com),NON-CF ORIGIN — high value,2026-09-23T02:39:56Z
+ip,78.41.207.11,dns (fedexpress.com),NON-CF ORIGIN — high value,2026-09-23T02:39:56Z
+ip,78.41.207.18,dns (wwwstandard.com),NON-CF ORIGIN — high value,2026-09-23T02:39:56Z
+ip,78.41.207.24,dns (ww1.scotaibank.com),NON-CF ORIGIN — high value,2026-09-23T02:39:56Z
+ip,78.41.207.37,dns (gmai.com),NON-CF ORIGIN — high value,2026-09-23T02:39:56Z
