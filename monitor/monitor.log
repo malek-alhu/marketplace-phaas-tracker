@@ -2108,3 +2108,9 @@
 [2026-09-23T02:39:56Z] SCAN-SAVED www.gmai.com -> https://urlscan.io/result/01a0cc39-5ff7-73bb-aa73-245110814b0c/
 [2026-09-23T02:39:56Z] SCAN-SAVED wwwstandard.com -> https://urlscan.io/result/01a0cc39-6c93-720d-a478-2ff60184edb0/
 [2026-09-23T02:39:56Z] 18 new indicator(s) this run
+[2026-09-23T10:32:47Z] NEW ip  78.41.207.19  [dns (www.gmai.com) / NON-CF ORIGIN — high value]
+[2026-09-23T10:32:47Z] NEW ip  78.41.207.21  [dns (fedexpress.com) / NON-CF ORIGIN — high value]
+[2026-09-23T10:32:47Z] HEALTH certspotter=10/36 crtsh=3/6 urlscan=80/80 dns-google=712/712 dns-cf=712/712
+[2026-09-23T10:32:47Z] ORIGIN-CANDIDATE 78.41.207.19 non-CF shared/unknown (16 apex) - recorded for review
+[2026-09-23T10:32:47Z] ORIGIN-CANDIDATE 78.41.207.21 non-CF shared/unknown (16 apex) - recorded for review
+[2026-09-23T10:32:47Z] 2 new indicator(s) this run
