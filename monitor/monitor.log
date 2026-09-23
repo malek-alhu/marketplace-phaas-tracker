@@ -2138,3 +2138,32 @@
 [2026-09-23T15:51:56Z] SCAN-SAVED www.v2.897186-coinbase.com -> https://urlscan.io/result/01a0cf09-115b-73fe-b7aa-d89feb071d47/
 [2026-09-23T15:51:56Z] SCAN-SAVED xz64bbwdrp.8888513-ddh00.top -> https://urlscan.io/result/01a0cf09-1dab-72ee-b934-8b042e34e8ab/
 [2026-09-23T15:51:56Z] 11 new indicator(s) this run
+[2026-09-23T20:54:51Z] NEW domain  account.amzinfluencer.club  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  cdn-telegram-authority.com.cn  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  clevelandclinic.medbrigego.com  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  member.citizennewstube.com  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  sandbox.hebay.com  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  www.airbnb-businessinquiries-web2web.ph  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  www.facebooksupportphonenumberantivirusarmy.ph  [urlscan]
+[2026-09-23T20:54:51Z] NEW domain  www.newsroom.cleavlandclinic.org  [urlscan]
+[2026-09-23T20:54:51Z] NEW ip  103.224.212.130  [dns (mail.sabrespringsnaillounge.com) / NON-CF ORIGIN — high value]
+[2026-09-23T20:54:51Z] NEW ip  172.236.114.30  [dns (sandbox.hebay.com) / NON-CF ORIGIN — high value]
+[2026-09-23T20:54:51Z] NEW ip  172.237.159.142  [dns (sandbox.hebay.com) / NON-CF ORIGIN — high value]
+[2026-09-23T20:54:51Z] NEW ip  172.239.193.106  [dns (sandbox.hebay.com) / NON-CF ORIGIN — high value]
+[2026-09-23T20:54:51Z] NEW ip  212.92.104.114  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-23T20:54:51Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=80/80 dns-google=740/740 dns-cf=740/740
+[2026-09-23T20:54:51Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-23T20:54:51Z] ORIGIN-CANDIDATE 103.224.212.130 non-CF shared/unknown (48 apex) - recorded for review
+[2026-09-23T20:54:51Z] ORIGIN-CANDIDATE 172.236.114.30 non-CF shared/unknown (9 apex) - recorded for review
+[2026-09-23T20:54:51Z] ORIGIN-CANDIDATE 172.237.159.142 non-CF shared/unknown (10 apex) - recorded for review
+[2026-09-23T20:54:51Z] ORIGIN-CANDIDATE 172.239.193.106 non-CF shared/unknown (13 apex) - recorded for review
+[2026-09-23T20:54:51Z] ORIGIN-CANDIDATE 212.92.104.114 non-CF shared/unknown (77 apex) - recorded for review
+[2026-09-23T20:54:51Z] SCAN-SAVED account.amzinfluencer.club -> https://urlscan.io/result/01a0d015-276a-705e-887e-f2213e05a528/
+[2026-09-23T20:54:51Z] SCAN-SAVED cdn-telegram-authority.com.cn -> https://urlscan.io/result/01a0d015-342e-7589-96be-ae25af36847f/
+[2026-09-23T20:54:51Z] SCAN-SAVED clevelandclinic.medbrigego.com -> https://urlscan.io/result/01a0d015-40c2-7054-a93b-52a621dce1d0/
+[2026-09-23T20:54:51Z] SCAN-SAVED member.citizennewstube.com -> https://urlscan.io/result/01a0d015-4b30-7449-b567-51b52c2b1da2/
+[2026-09-23T20:54:51Z] SCAN-SAVED sandbox.hebay.com -> https://urlscan.io/result/01a0d015-571d-7413-a633-9d72c6232a72/
+[2026-09-23T20:54:51Z] SCAN-SAVED www.airbnb-businessinquiries-web2web.ph -> https://urlscan.io/result/01a0d015-6245-719d-942d-410403da50bc/
+[2026-09-23T20:54:51Z] SCAN-SAVED www.facebooksupportphonenumberantivirusarmy.ph -> https://urlscan.io/result/01a0d015-6ce1-7198-83d1-2f8303b7e057/
+[2026-09-23T20:54:51Z] SCAN-SAVED www.newsroom.cleavlandclinic.org -> https://urlscan.io/result/01a0d015-7aee-747e-bd41-0ddedaffd2dc/
+[2026-09-23T20:54:51Z] 13 new indicator(s) this run
