@@ -2114,3 +2114,27 @@
 [2026-09-23T10:32:47Z] ORIGIN-CANDIDATE 78.41.207.19 non-CF shared/unknown (16 apex) - recorded for review
 [2026-09-23T10:32:47Z] ORIGIN-CANDIDATE 78.41.207.21 non-CF shared/unknown (16 apex) - recorded for review
 [2026-09-23T10:32:47Z] 2 new indicator(s) this run
+[2026-09-23T15:51:56Z] NEW domain  auth.best-web-365.com  [urlscan]
+[2026-09-23T15:51:56Z] NEW domain  fuboo.tv  [urlscan]
+[2026-09-23T15:51:56Z] NEW domain  visual.accountsgogle.com  [urlscan]
+[2026-09-23T15:51:56Z] NEW domain  ww1.moneyonmymind.ws  [urlscan]
+[2026-09-23T15:51:56Z] NEW domain  www.santander-ciaro-fedexsubdelive.ph  [urlscan]
+[2026-09-23T15:51:56Z] NEW domain  www.v2.897186-coinbase.com  [urlscan]
+[2026-09-23T15:51:56Z] NEW domain  xz64bbwdrp.8888513-ddh00.top  [urlscan]
+[2026-09-23T15:51:56Z] NEW ip  212.92.104.3  [dns (hentai-zip.net) / NON-CF ORIGIN — high value]
+[2026-09-23T15:51:56Z] NEW ip  212.92.104.9  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-23T15:51:56Z] NEW ip  37.48.77.82  [dns (www.i8coh.szqxvo.com) / NON-CF ORIGIN — high value]
+[2026-09-23T15:51:56Z] NEW ip  78.41.207.25  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-23T15:51:56Z] HEALTH certspotter=10/36 crtsh=46/49 urlscan=80/80 dns-google=738/738 dns-cf=738/738
+[2026-09-23T15:51:56Z] ORIGIN-CANDIDATE 212.92.104.3 non-CF shared/unknown (81 apex) - recorded for review
+[2026-09-23T15:51:56Z] ORIGIN-CANDIDATE 212.92.104.9 non-CF shared/unknown (78 apex) - recorded for review
+[2026-09-23T15:51:56Z] ORIGIN-CANDIDATE 37.48.77.82 non-CF shared/unknown (82 apex) - recorded for review
+[2026-09-23T15:51:56Z] ORIGIN-CANDIDATE 78.41.207.25 non-CF shared/unknown (14 apex) - recorded for review
+[2026-09-23T15:51:56Z] SCAN-SAVED auth.best-web-365.com -> https://urlscan.io/result/01a0cf08-cc3d-7065-97d5-f996fd6a5069/
+[2026-09-23T15:51:56Z] SCAN-SAVED fuboo.tv -> https://urlscan.io/result/01a0cf08-db8a-768c-8c71-0039b8b9b0ec/
+[2026-09-23T15:51:56Z] SCAN-SAVED visual.accountsgogle.com -> https://urlscan.io/result/01a0cf08-e705-7627-85e1-972eed3a05a1/
+[2026-09-23T15:51:56Z] SCAN-SAVED ww1.moneyonmymind.ws -> https://urlscan.io/result/01a0cf08-f48f-70e6-9693-e1f339404cb1/
+[2026-09-23T15:51:56Z] SCAN-SAVED www.santander-ciaro-fedexsubdelive.ph -> https://urlscan.io/result/01a0cf09-00b4-7511-b227-fabc74e8dbbd/
+[2026-09-23T15:51:56Z] SCAN-SAVED www.v2.897186-coinbase.com -> https://urlscan.io/result/01a0cf09-115b-73fe-b7aa-d89feb071d47/
+[2026-09-23T15:51:56Z] SCAN-SAVED xz64bbwdrp.8888513-ddh00.top -> https://urlscan.io/result/01a0cf09-1dab-72ee-b934-8b042e34e8ab/
+[2026-09-23T15:51:56Z] 11 new indicator(s) this run
