@@ -2181,3 +2181,7 @@
 [2026-09-24T02:29:40Z] SCAN-SAVED usasteaming.live -> https://urlscan.io/result/01a0d153-93f8-707b-a8e7-8d8d42b05324/
 [2026-09-24T02:29:40Z] SCAN-SAVED www.olacabs-airbnb.com.ph -> https://urlscan.io/result/01a0d153-9f75-70a4-84ec-82d485811e91/
 [2026-09-24T02:29:40Z] 6 new indicator(s) this run
+[2026-09-24T10:50:53Z] NEW ip  78.41.207.22  [dns (bancodesantander.com) / NON-CF ORIGIN — high value]
+[2026-09-24T10:50:53Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=80/80 dns-google=766/766 dns-cf=766/766
+[2026-09-24T10:50:53Z] ORIGIN-CANDIDATE 78.41.207.22 non-CF shared/unknown (12 apex) - recorded for review
+[2026-09-24T10:50:53Z] 1 new indicator(s) this run
