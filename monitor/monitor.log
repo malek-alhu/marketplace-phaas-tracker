@@ -2185,3 +2185,10 @@
 [2026-09-24T10:50:53Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=80/80 dns-google=766/766 dns-cf=766/766
 [2026-09-24T10:50:53Z] ORIGIN-CANDIDATE 78.41.207.22 non-CF shared/unknown (12 apex) - recorded for review
 [2026-09-24T10:50:53Z] 1 new indicator(s) this run
+[2026-09-24T16:14:05Z] NEW ip  212.92.104.11  [dns (support1.lgtool.net) / NON-CF ORIGIN — high value]
+[2026-09-24T16:14:05Z] NEW ip  78.41.207.27  [dns (bancodesantander.com) / NON-CF ORIGIN — high value]
+[2026-09-24T16:14:05Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=80/80 dns-google=752/752 dns-cf=752/752
+[2026-09-24T16:14:05Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-24T16:14:05Z] ORIGIN-CANDIDATE 212.92.104.11 non-CF shared/unknown (80 apex) - recorded for review
+[2026-09-24T16:14:05Z] ORIGIN-CANDIDATE 78.41.207.27 non-CF shared/unknown (15 apex) - recorded for review
+[2026-09-24T16:14:05Z] 2 new indicator(s) this run
