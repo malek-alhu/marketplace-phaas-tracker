@@ -2192,3 +2192,5 @@
 [2026-09-24T16:14:05Z] ORIGIN-CANDIDATE 212.92.104.11 non-CF shared/unknown (80 apex) - recorded for review
 [2026-09-24T16:14:05Z] ORIGIN-CANDIDATE 78.41.207.27 non-CF shared/unknown (15 apex) - recorded for review
 [2026-09-24T16:14:05Z] 2 new indicator(s) this run
+[2026-09-24T20:59:08Z] HEALTH certspotter=10/36 crtsh=1/4 urlscan=80/80 dns-google=752/752 dns-cf=752/752
+[2026-09-24T20:59:08Z] no new indicators
