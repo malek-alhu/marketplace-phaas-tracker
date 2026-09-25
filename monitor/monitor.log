@@ -2194,3 +2194,10 @@
 [2026-09-24T16:14:05Z] 2 new indicator(s) this run
 [2026-09-24T20:59:08Z] HEALTH certspotter=10/36 crtsh=1/4 urlscan=80/80 dns-google=752/752 dns-cf=752/752
 [2026-09-24T20:59:08Z] no new indicators
+[2026-09-25T02:46:43Z] NEW ip  78.41.207.23  [dns (www.nkedin.com) / NON-CF ORIGIN — high value]
+[2026-09-25T02:46:43Z] NEW ip  78.41.207.26  [dns (myoutube.com) / NON-CF ORIGIN — high value]
+[2026-09-25T02:46:43Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=80/80 dns-google=752/752 dns-cf=752/752
+[2026-09-25T02:46:43Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-25T02:46:43Z] AUTO-PROMOTE origin 78.41.207.23 (non-CF, 8 apex) -> now page.ip-watched
+[2026-09-25T02:46:43Z] ORIGIN-CANDIDATE 78.41.207.26 non-CF shared/unknown (14 apex) - recorded for review
+[2026-09-25T02:46:43Z] 2 new indicator(s) this run
