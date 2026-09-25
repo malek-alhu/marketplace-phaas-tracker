@@ -2221,3 +2221,14 @@
 [2026-09-25T16:14:22Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-09-25T16:14:22Z] ORIGIN-CANDIDATE 212.92.104.120 non-CF shared/unknown (88 apex) - recorded for review
 [2026-09-25T16:14:22Z] 1 new indicator(s) this run
+[2026-09-25T20:56:15Z] NEW ip  2600:1f18:4ae:c607:5974:bfa8:d54b:7fe5  [dns (szrcgj.com) / NON-CF ORIGIN — high value]
+[2026-09-25T20:56:15Z] NEW ip  2600:1f18:4ae:c608:1ae1:9fc3:6ee2:84dd  [dns (szrcgj.com) / NON-CF ORIGIN — high value]
+[2026-09-25T20:56:15Z] NEW ip  44.208.83.180  [dns (szrcgj.com) / NON-CF ORIGIN — high value]
+[2026-09-25T20:56:15Z] NEW ip  54.84.240.235  [dns (szrcgj.com) / NON-CF ORIGIN — high value]
+[2026-09-25T20:56:15Z] HEALTH certspotter=11/36 crtsh=48/53 urlscan=81/81 dns-google=778/778 dns-cf=778/778
+[2026-09-25T20:56:15Z] ORIGIN-CANDIDATE 2600:1f18:4ae:c607:5974:bfa8:d54b:7fe5 non-CF shared/unknown (78 apex) - recorded for review
+[2026-09-25T20:56:15Z] ORIGIN-CANDIDATE 2600:1f18:4ae:c608:1ae1:9fc3:6ee2:84dd non-CF shared/unknown (74 apex) - recorded for review
+[2026-09-25T20:56:15Z] ORIGIN-CANDIDATE 44.208.83.180 non-CF shared/unknown (84 apex) - recorded for review
+[2026-09-25T20:56:15Z] ORIGIN-CANDIDATE 54.84.240.235 non-CF shared/unknown (79 apex) - recorded for review
+[2026-09-25T20:56:15Z] SCAN-SAVED szrcgj.com -> https://urlscan.io/result/01a0da6f-70b4-709a-a869-7a38831a4134/
+[2026-09-25T20:56:15Z] 4 new indicator(s) this run

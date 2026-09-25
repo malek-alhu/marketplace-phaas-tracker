@@ -213,3 +213,7 @@ origin,78.41.207.27,candidate,non-CF shared/unknown (15 apex on IP) - review,202
 origin,78.41.207.23,promoted,non-CF dedicated (8 apex on IP),2026-09-25T02:46:43Z
 origin,78.41.207.26,candidate,non-CF shared/unknown (14 apex on IP) - review,2026-09-25T02:46:43Z
 origin,212.92.104.120,candidate,non-CF shared/unknown (88 apex on IP) - review,2026-09-25T16:14:22Z
+origin,2600:1f18:4ae:c607:5974:bfa8:d54b:7fe5,candidate,non-CF shared/unknown (78 apex on IP) - review,2026-09-25T20:56:15Z
+origin,2600:1f18:4ae:c608:1ae1:9fc3:6ee2:84dd,candidate,non-CF shared/unknown (74 apex on IP) - review,2026-09-25T20:56:15Z
+origin,44.208.83.180,candidate,non-CF shared/unknown (84 apex on IP) - review,2026-09-25T20:56:15Z
+origin,54.84.240.235,candidate,non-CF shared/unknown (79 apex on IP) - review,2026-09-25T20:56:15Z
