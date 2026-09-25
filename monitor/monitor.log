@@ -2216,3 +2216,8 @@
 [2026-09-25T10:54:21Z] SCAN-SAVED phebank.com -> https://urlscan.io/result/01a0d83d-8df0-7175-9876-e1ce689ad623/
 [2026-09-25T10:54:21Z] SCAN-SAVED www.cocoacola.com -> https://urlscan.io/result/01a0d83d-99fc-707c-9746-07a423479add/
 [2026-09-25T10:54:21Z] 6 new indicator(s) this run
+[2026-09-25T16:14:22Z] NEW ip  212.92.104.120  [dns (proefgroup.onmicrosoft.co) / NON-CF ORIGIN — high value]
+[2026-09-25T16:14:22Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=81/81 dns-google=764/764 dns-cf=764/764
+[2026-09-25T16:14:22Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-25T16:14:22Z] ORIGIN-CANDIDATE 212.92.104.120 non-CF shared/unknown (88 apex) - recorded for review
+[2026-09-25T16:14:22Z] 1 new indicator(s) this run
