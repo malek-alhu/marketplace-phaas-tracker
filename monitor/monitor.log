@@ -2201,3 +2201,18 @@
 [2026-09-25T02:46:43Z] AUTO-PROMOTE origin 78.41.207.23 (non-CF, 8 apex) -> now page.ip-watched
 [2026-09-25T02:46:43Z] ORIGIN-CANDIDATE 78.41.207.26 non-CF shared/unknown (14 apex) - recorded for review
 [2026-09-25T02:46:43Z] 2 new indicator(s) this run
+[2026-09-25T10:54:21Z] NEW domain  40gmail.com  [urlscan @78.41.207.23 / AS62370]
+[2026-09-25T10:54:21Z] NEW domain  huffigntonpost.com  [urlscan @78.41.207.23 / AS62370]
+[2026-09-25T10:54:21Z] NEW domain  icicic.com  [urlscan @78.41.207.23 / AS62370]
+[2026-09-25T10:54:21Z] NEW domain  outook.offce.com  [urlscan @78.41.207.23 / AS62370]
+[2026-09-25T10:54:21Z] NEW domain  phebank.com  [urlscan @78.41.207.23 / AS62370]
+[2026-09-25T10:54:21Z] NEW domain  www.cocoacola.com  [urlscan @78.41.207.23 / AS62370]
+[2026-09-25T10:54:21Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=81/81 dns-google=764/764 dns-cf=764/764
+[2026-09-25T10:54:21Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-25T10:54:21Z] SCAN-SAVED 40gmail.com -> https://urlscan.io/result/01a0d83d-6037-740d-a7e9-1172bf5d036b/
+[2026-09-25T10:54:21Z] SCAN-SAVED huffigntonpost.com -> https://urlscan.io/result/01a0d83d-6c18-7329-9fc8-53eb628ace98/
+[2026-09-25T10:54:21Z] SCAN-SAVED icicic.com -> https://urlscan.io/result/01a0d83d-787c-70f8-b387-180d2b4658fc/
+[2026-09-25T10:54:21Z] SCAN-SAVED outook.offce.com -> https://urlscan.io/result/01a0d83d-82ed-75ce-8da0-12d00c89e234/
+[2026-09-25T10:54:21Z] SCAN-SAVED phebank.com -> https://urlscan.io/result/01a0d83d-8df0-7175-9876-e1ce689ad623/
+[2026-09-25T10:54:21Z] SCAN-SAVED www.cocoacola.com -> https://urlscan.io/result/01a0d83d-99fc-707c-9746-07a423479add/
+[2026-09-25T10:54:21Z] 6 new indicator(s) this run
