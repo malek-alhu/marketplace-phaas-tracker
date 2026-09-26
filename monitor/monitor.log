@@ -2240,3 +2240,11 @@
 [2026-09-26T10:34:32Z] no new indicators
 [2026-09-26T15:27:57Z] HEALTH certspotter=11/36 crtsh=52/53 urlscan=81/81 dns-google=776/776 dns-cf=776/776
 [2026-09-26T15:27:57Z] no new indicators
+[2026-09-26T20:27:01Z] NEW domain  billing.simpulumlamerop.com  [urlscan]
+[2026-09-26T20:27:01Z] NEW domain  customer-care-number.online  [urlscan]
+[2026-09-26T20:27:01Z] NEW domain  www.cpanel.loktaklake.com  [urlscan]
+[2026-09-26T20:27:01Z] HEALTH certspotter=11/36 crtsh=50/53 urlscan=81/81 dns-google=784/784 dns-cf=784/784
+[2026-09-26T20:27:01Z] SCAN-SAVED billing.simpulumlamerop.com -> https://urlscan.io/result/01a0df7b-81b6-7632-8117-1162a423c9cb/
+[2026-09-26T20:27:01Z] SCAN-SAVED customer-care-number.online -> https://urlscan.io/result/01a0df7b-8d5d-71d3-9630-a21328c9bc40/
+[2026-09-26T20:27:01Z] SCAN-SAVED www.cpanel.loktaklake.com -> https://urlscan.io/result/01a0df7b-9b20-76ec-838a-87e85505bc87/
+[2026-09-26T20:27:01Z] 3 new indicator(s) this run
