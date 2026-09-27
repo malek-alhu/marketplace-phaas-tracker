@@ -2265,3 +2265,7 @@
 [2026-09-27T16:07:25Z] HEALTH certspotter=11/36 crtsh=0/3 urlscan=81/81 dns-google=778/778 dns-cf=778/778
 [2026-09-27T16:07:25Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-09-27T16:07:25Z] no new indicators
+[2026-09-27T20:39:29Z] NEW ip  212.92.104.8  [dns (di2nss.pun.bz) / NON-CF ORIGIN — high value]
+[2026-09-27T20:39:29Z] HEALTH certspotter=10/36 crtsh=53/53 urlscan=81/81 dns-google=792/792 dns-cf=792/792
+[2026-09-27T20:39:29Z] ORIGIN-CANDIDATE 212.92.104.8 non-CF shared/unknown (84 apex) - recorded for review
+[2026-09-27T20:39:29Z] 1 new indicator(s) this run
