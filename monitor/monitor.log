@@ -2248,3 +2248,15 @@
 [2026-09-26T20:27:01Z] SCAN-SAVED customer-care-number.online -> https://urlscan.io/result/01a0df7b-8d5d-71d3-9630-a21328c9bc40/
 [2026-09-26T20:27:01Z] SCAN-SAVED www.cpanel.loktaklake.com -> https://urlscan.io/result/01a0df7b-9b20-76ec-838a-87e85505bc87/
 [2026-09-26T20:27:01Z] 3 new indicator(s) this run
+[2026-09-27T02:51:05Z] NEW domain  livetv373.me  [urlscan]
+[2026-09-27T02:51:05Z] NEW domain  megastreaming.ink  [urlscan]
+[2026-09-27T02:51:05Z] NEW domain  test.www.apimoney.ws  [urlscan]
+[2026-09-27T02:51:05Z] NEW domain  xn--lakecast1etonlivng-nyc.ph  [urlscan]
+[2026-09-27T02:51:05Z] NEW ip  103.224.182.215  [dns (livetv373.me) / NON-CF ORIGIN — high value]
+[2026-09-27T02:51:05Z] HEALTH certspotter=11/36 crtsh=52/53 urlscan=81/81 dns-google=792/792 dns-cf=792/792
+[2026-09-27T02:51:05Z] ORIGIN-CANDIDATE 103.224.182.215 non-CF shared/unknown (70 apex) - recorded for review
+[2026-09-27T02:51:05Z] SCAN-SAVED livetv373.me -> https://urlscan.io/result/01a0e0da-61bb-7786-ab16-e3263ec003ec/
+[2026-09-27T02:51:05Z] SCAN-SAVED megastreaming.ink -> https://urlscan.io/result/01a0e0da-6e60-7029-82fa-fe42bc2ddd6d/
+[2026-09-27T02:51:05Z] SCAN-SAVED test.www.apimoney.ws -> https://urlscan.io/result/01a0e0da-7a41-7360-bb8f-d2cd1a731f1f/
+[2026-09-27T02:51:05Z] SCAN-SAVED xn--lakecast1etonlivng-nyc.ph -> https://urlscan.io/result/01a0e0da-84fd-7724-bffa-dcaaf90ecb4c/
+[2026-09-27T02:51:05Z] 5 new indicator(s) this run
