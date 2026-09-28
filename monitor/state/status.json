@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T23:01:33Z",
-  "last_run_at": "2026-09-25T22:06:35Z",
+  "generated_at": "2026-09-28T21:48:41Z",
+  "last_run_at": "2026-09-28T21:48:33Z",
   "last_run_summary": "[2026-09-25T22:06:35Z] 4 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-09-25T22:06:35Z] HEALTH certspotter=36/36 crtsh=36/47 urlscan=53/54 dns-google=152/152 dns-cf=0/152",
+  "last_health_line": "[2026-09-28T12:30:32Z] HEALTH certspotter=11/36 crtsh=53/53 urlscan=81/81 dns-google=792/792 dns-cf=792/792",
   "tracked_hosts": {
     "total": 76,
     "by_status": {
@@ -161,6 +161,6 @@
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 172,
+  "manual_review_candidates_pending": 181,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
