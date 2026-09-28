@@ -210,3 +210,7 @@ origin,212.92.104.114,candidate,non-CF shared/unknown (77 apex on IP) - review,2
 origin,78.41.207.22,candidate,non-CF shared/unknown (12 apex on IP) - review,2026-09-24T10:50:53Z
 origin,212.92.104.11,candidate,non-CF shared/unknown (80 apex on IP) - review,2026-09-24T16:14:05Z
 origin,78.41.207.27,candidate,non-CF shared/unknown (15 apex on IP) - review,2026-09-24T16:14:05Z
+origin,2600:1f18:4ae:c607:5974:bfa8:d54b:7fe5,candidate,non-CF on szrcgj.com (manual review only — auto-promotion removed 2026-09-25),2026-09-25T22:06:35Z
+origin,2600:1f18:4ae:c608:1ae1:9fc3:6ee2:84dd,candidate,non-CF on szrcgj.com (manual review only — auto-promotion removed 2026-09-25),2026-09-25T22:06:35Z
+origin,44.208.83.180,candidate,non-CF on szrcgj.com (manual review only — auto-promotion removed 2026-09-25),2026-09-25T22:06:35Z
+origin,54.84.240.235,candidate,non-CF on szrcgj.com (manual review only — auto-promotion removed 2026-09-25),2026-09-25T22:06:35Z

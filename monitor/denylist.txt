@@ -1,0 +1,86 @@
+# Marketplace-PhaaS tracker — denylist
+# ---------------------------------------------------------------------------
+# Entries here are NEVER queried, resolved, watched, or recorded, no matter
+# what CT/urlscan/DNS produces. This is the containment mechanism for the
+# 2026-09-10 -> 09-24 origin-auto-promotion incident (see docs/operation-
+# dossier.md "Incident" note and monitor/migrate-2026-09.sh): dead Operator-A
+# apexes were re-pointed at shared cloud IPs, which got auto-promoted as
+# "dedicated origins" and then flooded findings.csv with hundreds of unrelated
+# domains sharing those IPs. Automatic origin promotion has been REMOVED
+# entirely (see check.sh) — this file exists to retroactively silence the
+# fallout and to let a human permanently block anything a future review finds.
+#
+# One entry per line. An entry is either:
+#   - an exact apex/domain (dropped from every apex/token/dnsonly/CT/urlscan
+#     result path, and from tracked_hosts.tsv)
+#   - an exact IPv4/IPv6 address
+#   - a dotted IPv4 PREFIX ending in "." (e.g. "23.82.16." denies the whole
+#     23.82.16.0/24 — this repo has no CIDR math, so prefixes are the
+#     supported shorthand for "this whole shared pool")
+# Comments start with '#'. Add entries manually after review; nothing in
+# check.sh writes to this file automatically for domains/apexes — only the
+# urlscan-ip circuit breaker can newly denylist an AUTO-DISCOVERED IP that
+# turns out to be shared (never a curated watchlist.txt origin, which only
+# gets a warning for human review).
+
+# --- false-positive apex (2026-09-17): legit Spanish car-news site matched
+# --- the "us=gm" fingerprint via urlscan's word-tokenized search (its article
+# --- path /us/gm-is-finally-solving-... isn't the kit's ?us=gm param at all)
+autonocion.com
+dev.autonocion.com
+mail.autonocion.com
+res.autonocion.com
+
+# --- former auto_origins.txt entries (2026-07 to 2026-09-22): traced live —
+# --- zero of these are operator infrastructure. Ignition (2026-09-10): dead
+# --- Operator-A apexes pay-flow.cfd / paycore-send.shop re-resolved to
+# --- generic cloud IPs after their kit domains died (normal churn), which
+# --- then got auto-promoted with a urlscan apex-count of 0 (treated as
+# --- "dedicated", actually just "the check returned nothing").
+196.251.107.209
+104.41.191.220
+72.143.72.16
+13.223.25.84
+5.56.62.239
+54.243.117.197
+78.41.207.28
+# address pools that repeatedly produced one "new" IP per run (load-balanced /
+# rotating shared ranges — Namecheap/PrivateEmail-class and similar shared
+# hosting, NOT bulletproof/dedicated):
+172.98.192.43
+172.98.192.44
+172.98.192.45
+172.98.192.46
+23.82.16.53
+23.82.16.54
+23.82.16.55
+23.82.16.56
+23.82.16.57
+64.31.3.234
+64.31.3.235
+64.31.3.236
+64.31.3.237
+64.31.3.238
+172.241.213.96
+172.241.213.97
+172.241.213.98
+172.241.213.99
+208.115.249.234
+208.115.249.235
+208.115.249.236
+208.115.249.237
+208.115.249.238
+23.92.212.163
+23.92.212.164
+23.92.212.165
+23.92.212.166
+173.234.157.130
+173.234.157.138
+64.120.31.120
+64.120.31.121
+2600:1f18:4ae:c605:dd5d:b838:5816:d7fb
+2600:1f18:4ae:c606:78d4:4260:db4e:aeee
+
+# Loopback/private/bogon ranges are rejected in check.sh's is_bogon_ip()
+# directly (RFC1918 dotted-prefix math is out of scope for this file's simple
+# exact/prefix matching) — not listed here.

@@ -1,0 +1,89 @@
+{
+ "total": 314,
+ "results": [
+  {
+   "task": {
+    "time": "2026-07-17T15:38:30.997Z",
+    "url": "https://urderld.com/a/DnHatMF5DXEyeZI1?us=cg",
+    "uuid": "019f70ba-94d0-72bb-aeff-6c1d243ebc42"
+   },
+   "page": {
+    "url": "https://urderld.com/a/DnHatMF5DXEyeZI1?us=cg",
+    "domain": "urderld.com",
+    "apexDomain": "urderld.com",
+    "ip": "172.67.184.196",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-17T13:23:56.283Z",
+    "url": "https://depop.verification-help.com/24xaLyyKT9W1QF0S",
+    "uuid": "019f703f-5367-74a8-ba03-a379f8b74219"
+   },
+   "page": {
+    "url": "https://depop.verification-help.com/24xaLyyKT9W1QF0S",
+    "domain": "depop.verification-help.com",
+    "apexDomain": "verification-help.com",
+    "ip": "172.67.189.245",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-17T11:15:21.017Z",
+    "url": "http://olx.ex24-pola.cfd/",
+    "uuid": "019f6fc9-a8e7-7058-a74e-bd6d0b156989"
+   },
+   "page": {
+    "url": "https://olx.ex24-pola.cfd/",
+    "domain": "olx.ex24-pola.cfd",
+    "apexDomain": "ex24-pola.cfd",
+    "ip": "188.114.96.3",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-17T07:42:27.770Z",
+    "url": "http://fix-paycore.lol/",
+    "uuid": "019f6f06-c1f4-72ae-8209-8e43e842d794"
+   },
+   "page": {
+    "url": "https://fix-paycore.lol/",
+    "domain": "fix-paycore.lol",
+    "apexDomain": "fix-paycore.lol",
+    "ip": "172.67.132.131",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-17T06:34:13.185Z",
+    "url": "https://page91194.shop/",
+    "uuid": "019f6ec8-4309-70dd-b67e-323b059343f9"
+   },
+   "page": {
+    "url": "https://page91194.shop/",
+    "domain": "page91194.shop",
+    "apexDomain": "page91194.shop",
+    "ip": "172.67.157.247",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-17T06:18:41.780Z",
+    "url": "http://verifiers-online-compras.shop/",
+    "uuid": "019f6eb9-ecbe-77f2-9f7a-0b5addfc3f42"
+   },
+   "page": {
+    "url": "https://verifiers-online-compras.shop/",
+    "domain": "verifiers-online-compras.shop",
+    "apexDomain": "verifiers-online-compras.shop",
+    "ip": "104.21.13.16",
+    "asn": "AS13335"
+   }
+  }
+ ]
+}

@@ -1,117 +1,148 @@
 # Marketplace-PhaaS infrastructure tracker — watchlist
 # ---------------------------------------------------------------------------
-#  Lines containing a dot  = apex domains.
-#       -> CT-log subdomain expansion (certspotter + crt.sh) + DNS re-resolution.
-#  Bare tokens (no dot)    = name-pattern fragments.
-#       -> CT-log substring search (crt.sh %token%) + urlscan correlation.
-#  Lines that are an IP    = origin hosts (v4 or v6).
-#       -> urlscan page.ip correlation: catch NEW domains landing on a known
-#          origin even before they match any apex/token. DEDICATED origins only;
-#          a shared CDN IP would flood this with unrelated tenants.
-#  Comments start with '#'. One entry per line. Edit freely — this file drives
-#  every query the tracker runs, so adding a brand/cluster here starts watching it.
+# Format (2026-09-25 rewrite): one entry per line, whitespace-separated:
+#     <entry>  <kind>  <tier>  <operator>
+#   kind     : apex    -> CT-log subdomain expansion + DNS re-resolution
+#              token   -> CT-log substring search (crt.sh %token%) — ALWAYS
+#                         tier 2 (log-only candidate; brand words collide with
+#                         unrelated legit domains, never auto-resolved/alerted)
+#              origin  -> urlscan page.ip correlation (dedicated/near-dedicated
+#                         hosts only — a shared CDN/cloud IP would flood this)
+#              dnsonly -> DNS + scan only, NO CT, NO urlscan page.domain (a
+#                         compromised LEGIT site: its own cpanel/webmail/www
+#                         subdomains are the victim's infra, not kit landings)
+#   tier     : 1 -> drives per-run alerting (Operator A: GitHub Issue each run;
+#                   Operator B: appended to state/pending_opb.txt, surfaced as
+#                   a weekly digest so Operator A — "the big scam running" —
+#                   isn't buried by the already-documented, more static side
+#                   of the case). 2 -> logged to findings.csv only, never alerts.
+#   operator : A (the live, Cloudflare-hidden, daily-rotating Next.js kit —
+#                 the PRIMARY tracking target) | B (the older, already-EXPOSED
+#                 PHP "Login area riservata" kit — origins are real/actionable
+#                 but static; secondary priority) | - (unclear/ecosystem-wide)
+#
+# Comments start with '#'. Edit freely — this file drives every query the
+# tracker runs. New tier-1 apexes/origins ALSO get added automatically by
+# check.sh's self-evolution (state/auto_apexes.txt) when a kit content-hash or
+# strict URL+ASN fingerprint confirms one (see monitor/fingerprints.txt) —
+# automatic ORIGIN promotion was REMOVED after the 2026-09 incident (see
+# docs/operation-dossier.md and monitor/migrate-2026-09.sh); a new non-CF IP
+# on a tracked host is now only ever logged to discovered.csv for manual
+# review and promotion here.
 # ---------------------------------------------------------------------------
 
-# === tracked apexes — Operator-A kit + redirector cluster (original) ===
-verifieer.cc
-verifa.cc
-pagamento.cc
-subito.cam
-express-paycore24.cyou
-express-paycore24.cfd
-paycore24-express.sbs
-paycore24-express.cfd
-# OLX-impersonation cluster apexes — were caught only via urlscan/token at baseline
-# (their apexes were never CT/DNS-watched). Added 2026-06-18 to close that gap.
-paycore-private.cyou
-paycore-send.sbs
-paycore-send.shop
-paycore-send.xyz
-paysend-paczka.shop
-paysend-paczka.xyz
+# === Operator A — tracked apexes (Cloudflare-fronted, rotate ~daily; dead
+# === apex names here are EXPECTED churn, not a bug — tracked_hosts.tsv decays
+# === them automatically. Kept curated so CT/DNS coverage never gaps while a
+# === fresh hash/URL+ASN fingerprint hit finds the CURRENT rotation.) ===
+verifieer.cc            apex 1 A
+verifa.cc               apex 1 A
+pagamento.cc            apex 1 A
+subito.cam              apex 1 A
+express-paycore24.cyou  apex 1 A
+express-paycore24.cfd   apex 1 A
+paycore24-express.sbs   apex 1 A
+paycore24-express.cfd   apex 1 A
+paycore-private.cyou    apex 1 A
+paycore-send.sbs        apex 1 A
+paycore-send.shop       apex 1 A
+paycore-send.xyz        apex 1 A
+paysend-paczka.shop     apex 1 A
+paysend-paczka.xyz      apex 1 A
+immrtl-hlpr.shop        apex 1 A
+immortal-h.xyz          apex 1 A
+immortal-4u.shop        apex 1 A
+immortal-x8.xyz         apex 1 A
+vps-pay-it.xyz          apex 1 A
+b-checker.xyz           apex 1 A
+fed-send.xyz            apex 1 A
+short-conn.shop         apex 1 A
+shorten-it.lat          apex 1 A
+baln-cmoni.shop         apex 1 A
+yeezy-sand.xyz          apex 1 A
+arsenalroel.org         apex 1 A
+zhkjcx.org              apex 1 A
+pay-flow.cfd            apex 1 A
+lnvoicel-47293.com      apex 1 A
 
-# === NEW kit apexes (discovered 2026-06-18 via urlscan kit-fingerprint + redirector capture) ===
-# "immortal / immrtl helper" family — freshly registered (days/weeks), cheap TLDs
-immrtl-hlpr.shop
-immortal-h.xyz
-immortal-4u.shop
-immortal-x8.xyz
-# pay / checker / send / shortener kit components (same kit fingerprint)
-vps-pay-it.xyz
-b-checker.xyz
-fed-send.xyz
-short-conn.shop
-shorten-it.lat
-baln-cmoni.shop
-yeezy-sand.xyz
+# === Operator A — compromised/registered hosts used as redirector or
+# === order/payment-page layer (see docs/operation-dossier.md) ===
+cnkstcd.com             apex 1 A
+szrcgj.com              apex 1 A
+longkun100.com          apex 1 A
+wfmcsy.com              apex 1 A
+dacajncritter.com       apex 1 A
 
-# === operator-registered redirectors (fresh throwaways, days old) ===
-arsenalroel.org
-zhkjcx.org
+# === Operator A — compromised LEGIT sites (genuinely aged victims, DNS+scan
+# === only, no CT/page.domain — see "dnsonly" above) ===
+reigartkistlerdds.com   dnsonly 1 A
+donshriversvideodrain.com dnsonly 1 A
+periyartigers.com       dnsonly 1 A
 
-# === compromised legitimate sites used as redirector / origin layer ===
-# Likely VICTIMS (aged domains hijacked to host kit redirects). "~" prefix = track by
-# DNS + scan only — NO CT and NO urlscan page.domain (both surface the legit site's own
-# cpanel/webmail/www subdomains = noise, and page.domain re-imports any we scanned). If
-# the kit ever serves a fingerprint on one, the global fingerprint queries catch it and
-# self-evolve auto-upgrades the apex to full CT watch.
-# reigartkistlerdds.com (US dental practice, 2022), donshriversvideodrain.com (PA
-# plumber, 2008) and periyartigers.com (IN org, 2010) = genuinely aged VICTIMS.
-~reigartkistlerdds.com
-~donshriversvideodrain.com
-~periyartigers.com
-# humancompostco.com — promoted to FULL watch 2026-06-18: created 2024-09 (NOT aged),
-# sits on a near-dedicated Aeza/ALINDA origin (193.148.56.18) with operator-flagged NS
-# ns1-4.mysecurecloudhost.com -> assessed operator-REGISTERED, not a victim.
-humancompostco.com
+# === Operator B — real bulletproof origins, 1337 Services GmbH / AS210558
+# === (Hamburg DE). Live-verified 2026-09-25: dominant or sole tenant is
+# === *-subito.it phishing on every IP below (one as recently active as
+# === 2026-08-30). This is the most directly-actionable lead in the dataset
+# === (no Cloudflare subpoena needed) but the case is already documented/
+# === exposed, so it's tier 1 at WEEKLY-DIGEST priority, not per-run alerting
+# === — see check.sh / .github/workflows/infra-monitor.yml. ===
+91.206.169.122   origin 1 B
+2.58.56.70       origin 1 B
+2.58.56.111      origin 1 B
+2.58.56.153      origin 1 B
+2.58.56.189      origin 1 B
+45.138.16.165    origin 1 B
+45.138.16.203    origin 1 B
+185.241.208.228  origin 1 B
+185.241.208.197  origin 1 B
+194.26.192.78    origin 1 B
+194.26.192.95    origin 1 B
+194.26.192.126   origin 1 B
+194.26.192.205   origin 1 B
+# Reviewed and DELIBERATELY excluded (2026-09-25) — same AS210558 block but
+# shared/mixed hosting, not dedicated to Operator B: 45.141.215.196 (a Plesk
+# panel host serving unrelated courier-phishing brands, zero Subito tenants)
+# and 194.26.192.98 (14 distinct tenants, only 2 Subito-branded — mostly
+# unrelated Turkish real-estate-brand domains).
+#
+# === UNCONFIRMED — needs re-attribution, NOT alerted (tier 2) ===
+# 193.148.56.18 / humancompostco.com were promoted to full watch on
+# 2026-06-18 on WEAK circumstantial grounds (NS fingerprint + "not an aged
+# domain") — NOT a confirmed kit-fingerprint match, and no dossier section
+# ever ties this ASN (AS209946, ALINDA LLC) to either operator. Re-verified
+# live 2026-09-25: humancompostco.com serves a hacked-WordPress spam-injection
+# page (no /a/<token> kit path, no marketplace/courier branding), and its
+# co-tenant amoreliie.com is an unrelated typosquat of a German lingerie
+# retailer. Neither shows any marketplace-PhaaS kit signature. Demoted out of
+# tier 1 pending a real kit-fingerprint hit on this IP; kept here only so it
+# isn't silently lost.
+193.148.56.18    origin 2 -
 
-# === CONFIRMED operator order/payment-page hosts (was "unverified co-occurrences") ===
-# 2026-06-18: upgraded from UNVERIFIED -> LINKED. These are hijacked aged/expired
-# Chinese-market domains repurposed as /order/<id> capture pages. Confirmed operator-
-# owned via the signature Cloudflare-IPv6 redirector pair 2a06:98c1:3120::3 / ::3121::3
-# (identical to arsenalroel.org) + same kit URLs co-scanned with olx.paycore*. Their
-# served ORIGINS are PEG TECH INC (AS54600 107.149.11.65 / AS398823 38.6.92.67) —
-# NOT G-Core, as previously assumed.
-cnkstcd.com
-szrcgj.com
-longkun100.com
-wfmcsy.com
-dacajncritter.com
-
-# === origin IPs (urlscan page.ip watch — dedicated / near-dedicated only) ===
-# 193.148.56.18 = ALINDA LLC (AS209946), near-dedicated origin for humancompostco.com
-# (nginx/1.24.0). BULLETPROOF, Aeza-adjacent — Spamhaus DROP-listed "network
-# resurrection" ASN; Aeza brand OFAC+UK-NCA sanctioned 2025-07-01. THE key pivot.
-# Whole block 193.148.56.0/24 is the bulletproof range (watch manually; the page.ip
-# query below is the single dedicated host — CIDR isn't supported by the parser).
-# NOT watched: G-Core 81.28.12.12 / 2a03:90c0:999c::12 (AS199524) — shared CDN node,
-# 1000+ tenants; page.ip would flood. PEG TECH AS54600/AS398823 likewise shared.
-193.148.56.18
-
-# === name-pattern tokens (crt.sh %token% substring; low-confidence "candidates") ===
-# Prefer DISTINCTIVE, compound fragments — generic words ("paysend", "verify",
-# "subito") collide with thousands of legit domains and only add noise. Token hits
-# are reported as candidates (NOT auto-resolved, NO alert). Tune here.
-# PRUNED 2026-06-18: bare "paycore" (collides with Wildix VoIP customer + PayCore Egypt
-# fintech) and "corepay" (Corepay US PSP) — generic fintech words, zero true positives.
-sendcore
-paycore24
-paycore-send
-paysend-paczka
-express-paycore
-# NEW distinctive fragments (2026-06-18) — catch TLD/word rotation of the new families
-immrtl
-immortal-
-fed-send
-short-conn
-shorten-it
-baln-cmoni
-vps-pay-it
-yeezy-sand
-b-checker
-# NEW 2026-06-18 — German Kleinanzeigen.de target dimension surfaced via the kit's
-# redirect chains. Use the DISTINCTIVE typo/compound forms only (bare "kleinanzeigen"
-# would collide with the legit eBay-Kleinanzeigen brand).
-klelnanzeigen
-kleinanzeigen-deutsch
-kleinanzeigen-bestellung
+# === name-pattern tokens (crt.sh %token% substring; ALWAYS tier 2 — log-only
+# === candidates, never auto-resolved/alerted; generic words collide with
+# === thousands of legit domains) ===
+sendcore                token 2 A
+paycore24               token 2 A
+paycore-send            token 2 A
+paysend-paczka          token 2 A
+express-paycore         token 2 A
+immrtl                  token 2 A
+immortal-               token 2 A
+fed-send                token 2 A
+short-conn              token 2 A
+shorten-it              token 2 A
+baln-cmoni              token 2 A
+vps-pay-it              token 2 A
+yeezy-sand              token 2 A
+b-checker               token 2 A
+klelnanzeigen           token 2 A
+kleinanzeigen-deutsch   token 2 A
+kleinanzeigen-bestellung token 2 A
+# Recurring distinctive fragments from the recovered June-July hash-pivot
+# campaign (docs/indicators.csv) — each individual domain was a one-off
+# registration, but these word-fragments recurred across the family. Primary
+# ongoing detection is now the content-hash fingerprints (fingerprints.txt);
+# these tokens are secondary CT-log coverage only.
+express24-core          token 2 A
+flowcore-expres         token 2 A
+paycore-spinz           token 2 A

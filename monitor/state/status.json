@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-09-25T23:01:33Z",
+  "last_run_at": "2026-09-25T22:06:35Z",
+  "last_run_summary": "[2026-09-25T22:06:35Z] 4 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-09-25T22:06:35Z] HEALTH certspotter=36/36 crtsh=36/47 urlscan=53/54 dns-google=152/152 dns-cf=0/152",
+  "tracked_hosts": {
+    "total": 76,
+    "by_status": {
+      "active": 76
+    },
+    "by_operator_tier": {
+      "A:tier1": 76
+    }
+  },
+  "fingerprints": [
+    {
+      "hash": "fa7787e1805d9c1b4b07bb22aec0c1a22ac7b79b86dcd20ccd1dce2de2bd0552",
+      "label": "next-chunk-a",
+      "added": "2026-09-25",
+      "last_confirmed_hit": "2026-07-17",
+      "status": "seed"
+    },
+    {
+      "hash": "67736529ec2f5eab8105119d6393bf626fa38c289c83a719dc31748ad3bfbb9a",
+      "label": "next-chunk-b",
+      "added": "2026-09-25",
+      "last_confirmed_hit": "2026-07-13",
+      "status": "seed"
+    },
+    {
+      "hash": "08a004fa77ac598070256673c457bc4d9a4736e17589f17c0d98d61577e84838",
+      "label": "next-chunk-c",
+      "added": "2026-09-25",
+      "last_confirmed_hit": "2026-06-20",
+      "status": "seed"
+    }
+  ],
+  "tier1_findings_total_by_operator": {
+    "A": 112
+  },
+  "recent_tier1_findings": [
+    {
+      "type": "cert",
+      "indicator": "it-pays.vps-pay-it.xyz",
+      "operator": "A",
+      "first_seen": "2026-06-18T18:47:06Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "101.immrtl-hlpr.shop",
+      "operator": "A",
+      "first_seen": "2026-06-18T20:31:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "8x.immortal-x8.xyz",
+      "operator": "A",
+      "first_seen": "2026-06-19T00:45:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "dacajncritter.com",
+      "operator": "A",
+      "first_seen": "2026-06-19T00:45:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "make-it.short-conn.shop",
+      "operator": "A",
+      "first_seen": "2026-06-19T00:45:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "sendeasy.yeezy-sand.xyz",
+      "operator": "A",
+      "first_seen": "2026-06-19T00:45:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.dacajncritter.com",
+      "operator": "A",
+      "first_seen": "2026-06-19T00:45:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "feaster.baln-cmoni.shop",
+      "operator": "A",
+      "first_seen": "2026-06-19T07:49:57Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "masterget.fed-send.xyz",
+      "operator": "A",
+      "first_seen": "2026-06-19T07:49:57Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "mostly.immortal-h.xyz",
+      "operator": "A",
+      "first_seen": "2026-06-19T07:49:57Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.dacajncritter.com",
+      "operator": "A",
+      "first_seen": "2026-06-19T07:49:57Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "b.b-checker.xyz",
+      "operator": "A",
+      "first_seen": "2026-06-21T00:39:42Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "inpost.pay-flow.cfd",
+      "operator": "A",
+      "first_seen": "2026-07-02T19:13:21Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "pay-flow.cfd",
+      "operator": "A",
+      "first_seen": "2026-07-03T08:52:07Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "dba.lnvoicel-47293.com",
+      "operator": "A",
+      "first_seen": "2026-07-10T02:10:11Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "lnvoicel-47293.com",
+      "operator": "A",
+      "first_seen": "2026-07-10T14:04:53Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "fed-send.xyz",
+      "operator": "A",
+      "first_seen": "2026-07-16T07:59:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "immrtl-hlpr.shop",
+      "operator": "A",
+      "first_seen": "2026-07-16T18:59:15Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.wfmcsy.com",
+      "operator": "A",
+      "first_seen": "2026-09-07T11:11:24Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "pay-flow.cfd",
+      "operator": "A",
+      "first_seen": "2026-09-10T10:20:14Z"
+    }
+  ],
+  "pending_operator_b_digest_count": 0,
+  "manual_review_candidates_pending": 172,
+  "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
+}

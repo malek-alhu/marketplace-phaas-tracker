@@ -2,17 +2,27 @@ name: infra-monitor
 
 # Keyless infrastructure tracker for the marketplace-PhaaS cluster.
 # Runs every 6 hours, commits any new state/findings back to the repo, and
-# opens a GitHub Issue when a new indicator appears. "Live view" of the
-# operation = this repo's commit history + Issues + the Actions tab.
+# opens/updates a GitHub Issue when a new TIER-1 OPERATOR-A indicator appears
+# (the live, Cloudflare-hidden, daily-rotating kit — "the big scam running").
+# Operator-B findings (the older, already-documented/exposed PHP kit — real
+# but static bulletproof origins) are tier-1 too but roll into a separate
+# WEEKLY digest instead of a per-run Issue, so Operator A is never buried.
+# "Live view" of the operation = this repo's commit history + Issues + the
+# Actions tab.
+#
+# 2026-09-25: see docs/operation-dossier.md's incident note and
+# monitor/check.sh's header for why alerting now keys off NEW_TIER1.txt
+# (Operator-A only) instead of every indicator the tracker sees.
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours (UTC)
+    - cron: '0 */6 * * *'   # every 6 hours (UTC) — main tracker run
+    - cron: '0 8 * * 1'     # Mondays 08:00 UTC — Operator-B weekly digest
   workflow_dispatch: {}      # manual "Run workflow" button
 
 permissions:
   contents: write            # commit the log/state/findings back to the repo
-  issues: write              # open an alert Issue on new indicators
+  issues: write               # open/update alert Issues
 
 concurrency:
   group: infra-monitor
@@ -20,6 +30,7 @@ concurrency:
 
 jobs:
   monitor:
+    if: github.event.schedule != '0 8 * * 1' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,10 +39,14 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Regression tests (offline — fail loudly before touching live state)
+        run: bash monitor/tests/run.sh
+
       - name: Run infrastructure tracker
         env:
           # Optional: higher urlscan rate limits / fuller results + public scan
-          # submission. The tracker runs keyless if absent. gh secret set URLSCAN_KEY
+          # submission + hash-chaining (result-API fetches). Keyless if absent.
+          # gh secret set URLSCAN_KEY
           URLSCAN_KEY: ${{ secrets.URLSCAN_KEY }}
           # Optional: authenticated certspotter (Bearer) to avoid keyless 429s.
           CERTSPOTTER_TOKEN: ${{ secrets.CERTSPOTTER_TOKEN }}
@@ -41,19 +56,58 @@ jobs:
         run: |
           git config user.name  "infra-monitor"
           git config user.email "actions@users.noreply.github.com"
-          git add monitor/monitor.log monitor/state monitor/findings.csv monitor/scans.csv monitor/discovered.csv || true
+          # kit-source/raw_bodies: hash-chaining archives each newly-chained
+          # fingerprint's JS body there — must be committed or it's lost with the runner.
+          git add monitor/monitor.log monitor/state monitor/findings.csv monitor/scans.csv monitor/discovered.csv monitor/fingerprints.txt kit-source/raw_bodies || true
           git commit -m "monitor: $(date -u +%FT%TZ)" || echo "no changes to commit"
           git push || true
 
-      - name: Alert on new indicators (opens an Issue → you get notified)
+      - name: Alert on new Operator-A indicators (opens an Issue → you get notified)
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -s monitor/NEW_THIS_RUN.txt ]; then
+          if [ -s monitor/NEW_TIER1.txt ]; then
+            # `gh issue create --label X` hard-fails if label X doesn't exist yet,
+            # which would silently drop the alert — create it idempotently first.
+            gh label create "operator-a" --color B60205 --description "Live Operator-A kit (primary target)" --force >/dev/null 2>&1 || true
             gh issue create \
-              --title "New marketplace-PhaaS infrastructure — $(date -u +%F)" \
-              --body "$(printf 'New indicators captured by the keyless tracker on %s (UTC):\n\n' "$(date -u +%FT%TZ)"; sed 's/^/- `/; s/$/`/' monitor/NEW_THIS_RUN.txt; printf '\n\nSee `monitor/findings.csv` and `monitor/monitor.log` for the full record.')"
+              --title "New marketplace-PhaaS infrastructure (Operator A) — $(date -u +%F)" \
+              --label "operator-a" \
+              --body "$(printf 'New tier-1 Operator-A indicators captured by the keyless tracker on %s (UTC):\n\n' "$(date -u +%FT%TZ)"; sed 's/^/- `/; s/$/`/' monitor/NEW_TIER1.txt; printf '\n\nOperator-B (already-documented/exposed) findings are NOT included here — see the weekly digest issue instead. Full record: `monitor/findings.csv` and `monitor/monitor.log`.')"
           else
-            echo "no new indicators — no issue opened"
+            echo "no new tier-1 Operator-A indicators — no issue opened"
+          fi
+
+  weekly-digest:
+    # On a manual run both jobs fire — `needs` serializes them so the digest
+    # sees (and doesn't race) the monitor's push. always() keeps the digest
+    # running on its own Monday schedule, when `monitor` is skipped.
+    needs: [monitor]
+    if: ${{ always() && (github.event.schedule == '0 8 * * 1' || github.event_name == 'workflow_dispatch') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}   # branch tip, including anything `monitor` just pushed
+
+      - name: Open Operator-B weekly digest Issue (if anything accumulated)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          F="monitor/state/pending_opb.txt"
+          if [ -s "$F" ]; then
+            gh label create "operator-b" --color FBCA04 --description "Operator-B (already-exposed PHP kit) weekly digest" --force >/dev/null 2>&1 || true
+            gh issue create \
+              --title "Weekly Operator-B digest — $(date -u +%F)" \
+              --label "operator-b" \
+              --body "$(printf 'Operator-B (older, already-documented/exposed PHP kit — real bulletproof origins, static) indicators accumulated since the last digest:\n\n'; sed 's/^/- /' "$F"; printf '\n\nThis is intentionally a WEEKLY summary, not a per-run alert — see monitor/watchlist.txt for why. Full record: `monitor/findings.csv`.')"
+            : > "$F"
+            git config user.name  "infra-monitor"
+            git config user.email "actions@users.noreply.github.com"
+            git add "$F"
+            git commit -m "monitor: weekly Operator-B digest $(date -u +%F)" || echo "no changes to commit"
+            git push || true
+          else
+            echo "no pending Operator-B indicators — no digest issue opened"
           fi

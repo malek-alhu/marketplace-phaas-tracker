@@ -1,0 +1,74 @@
+{
+ "total": 5,
+ "results": [
+  {
+   "task": {
+    "time": "2026-09-17T23:54:57.063Z",
+    "url": "http://www.leddeliverybox.ph/",
+    "uuid": "01a0b1ca-fff1-7013-a886-ebb03ebe80bc"
+   },
+   "page": {
+    "url": "https://www.autonocion.com/us/gm-is-finally-solving-the-biggest-problem-with-its-evs/",
+    "domain": "www.autonocion.com",
+    "apexDomain": "autonocion.com",
+    "ip": "2606:4700:3108::ac42:286f"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-09-17T23:46:29.901Z",
+    "url": "https://www.dan.postercollage.com/",
+    "uuid": "01a0b1c3-9216-7347-abe0-e6576f515d9a"
+   },
+   "page": {
+    "url": "https://www.autonocion.com/us/gm-is-finally-solving-the-biggest-problem-with-its-evs/",
+    "domain": "www.autonocion.com",
+    "apexDomain": "autonocion.com",
+    "ip": "2606:4700:3108::ac42:2b91",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-09T21:33:18.926Z",
+    "url": "https://dba.lnvoicel-47293.com/a/GfurQBjbfBT9H79T?us=dlm",
+    "uuid": "019f48cb-ff6a-70b8-88ce-63ecba417f92"
+   },
+   "page": {
+    "url": "https://dba.lnvoicel-47293.com/a/GfurQBjbfBT9H79T?us=dlm",
+    "domain": "dba.lnvoicel-47293.com",
+    "apexDomain": "lnvoicel-47293.com",
+    "ip": "172.67.216.229",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-07-02T16:04:40.174Z",
+    "url": "http://singleframefilms.com/order/uyx9Ym5n",
+    "uuid": "019f2393-1f18-770f-8628-4417e6bc48cb"
+   },
+   "page": {
+    "url": "https://inpost.pay-flow.cfd/a/ske2-R4zKXpC2S0o?us=sml",
+    "domain": "inpost.pay-flow.cfd",
+    "apexDomain": "pay-flow.cfd",
+    "ip": "172.67.165.195",
+    "asn": "AS13335"
+   }
+  },
+  {
+   "task": {
+    "time": "2026-06-16T08:56:49.047Z",
+    "url": "https://sendeasy.yeezy-sand.xyz/file_search.php?urls=IXbtrp1XSHTf4",
+    "uuid": "019ecfa5-b3c4-71d8-be21-f2a68adce466"
+   },
+   "page": {
+    "url": "https://olx.express-paycore24.cfd/a/Mi83NnhPMnpBUTFw?us=ym",
+    "domain": "olx.express-paycore24.cfd",
+    "apexDomain": "express-paycore24.cfd",
+    "ip": "188.114.97.3",
+    "asn": "AS13335"
+   }
+  }
+ ]
+}

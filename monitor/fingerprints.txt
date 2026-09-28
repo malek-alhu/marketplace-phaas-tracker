@@ -1,0 +1,28 @@
+# Marketplace-PhaaS tracker — kit content-hash fingerprints
+# ---------------------------------------------------------------------------
+# sha256<TAB>label<TAB>added<TAB>last_confirmed_hit<TAB>status
+#
+# Each hash is the sha256 of one of the kit's own Next.js JS chunk bodies
+# (originals preserved in kit-source/raw_bodies/, per SHA256SUMS.txt), queried
+# live via urlscan's `hash:<sha256>` search. This REPLACES the two dead
+# page.url fingerprints (`/api/ws/stripe/sync`, `/static/cg.png`) that never
+# matched anything — page.url only ever holds the top-level navigated URL,
+# never a WebSocket path or a static asset reference. Content-hash search has
+# no such blind spot and, verified live, recovers 60-72 distinct Operator-A
+# apexes per hash query (the old page.url fingerprints recovered ~2).
+#
+# These three seed hashes are from the June-July 2026 kit build (last live
+# hit 2026-07-17/07-20 at seed time) — they are the highest-value HISTORICAL
+# recovery signal (see docs/indicators.csv for the recovered apex list) but
+# will go stale as the operators rebuild the bundle. check.sh's hash-chaining
+# step (URLSCAN_KEY required) is what keeps this file current: every fresh
+# kit-confirmed scan is fetched via the result API, its chunk hashes are
+# extracted, and a new hash is auto-added here once it co-occurs with >=2
+# already-known kit apexes.
+#
+# status: seed = from the original raw_bodies capture; chained = auto-added
+# by hash-chaining; candidate = co-occurred with <2 apexes, needs manual
+# review before trusting (edit status to "seed"/"chained" once confirmed).
+fa7787e1805d9c1b4b07bb22aec0c1a22ac7b79b86dcd20ccd1dce2de2bd0552	next-chunk-a	2026-09-25	2026-07-17	seed
+67736529ec2f5eab8105119d6393bf626fa38c289c83a719dc31748ad3bfbb9a	next-chunk-b	2026-09-25	2026-07-13	seed
+08a004fa77ac598070256673c457bc4d9a4736e17589f17c0d98d61577e84838	next-chunk-c	2026-09-25	2026-06-20	seed

@@ -19,4 +19,5 @@
 .DS_Store
 
 # the monitor's per-run delta file is regenerated each run (state/ IS committed)
+monitor/NEW_TIER1.txt
 monitor/NEW_THIS_RUN.txt

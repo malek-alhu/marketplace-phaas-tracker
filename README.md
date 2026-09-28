@@ -189,26 +189,52 @@ since the last run:
 | Signal | Source (keyless) | What it catches |
 |---|---|---|
 | **CT logs** | certspotter + crt.sh | New certificates / subdomains of watched apexes; candidate new cluster apexes (token matches) |
-| **urlscan** | urlscan.io search API | New live kit domains via the kit's URL/path fingerprints, plus the IP/ASN each was served from |
-| **DNS** | DoH via 1.1.1.1 + 8.8.8.8 | New A/AAAA records for in-scope hosts, with **non-Cloudflare origins flagged** (the highest-value lead) |
+| **urlscan** | urlscan.io search API | New live kit domains via **content-hash fingerprints** (primary) and a strict URL+ASN-filtered `us=` param match (secondary), plus the IP/ASN each was served from |
+| **DNS** | DoH via 1.1.1.1 + 8.8.8.8 | New A/AAAA records for **tracked hosts only** (not full history — see decay below), with **non-Cloudflare origins flagged for manual review** |
 
-New indicators are appended to **[`monitor/findings.csv`](monitor/findings.csv)** (`type,indicator,source,asn,first_seen`)
-and **`monitor/monitor.log`**; dedup state lives in `monitor/state/`. To keep signal high, DNS is resolved only for
-**confirmed in-scope hosts**, and broad CT token matches (which collide with unrelated legitimate domains) are logged as
-lower-confidence **candidates** for manual review — they are never auto-resolved and never raise an alert. Only
-high-confidence signals (new subdomains of watched apexes, kit-fingerprint urlscan domains, and new in-scope IPs /
-non-Cloudflare origins) open an Issue.
+### Scope: Operator A is the primary target, Operator B is secondary
+
+Every indicator carries a **tier** (1 = alerts, 2 = log-only candidate) and an **operator** (A = the live,
+Cloudflare-hidden, daily-rotating Next.js kit — the actual "big scam running," and the tracker's primary target; B =
+the older, already-**documented/exposed** PHP kit — real, directly-actionable bulletproof origins, but static, so it's
+secondary). Tier-1 Operator-A findings open a **GitHub Issue on every run**. Tier-1 Operator-B findings accumulate in
+`monitor/state/pending_opb.txt` and surface as a **weekly digest Issue** instead, so the already-exposed side of the
+case never buries the live one. Tier-2 candidates (brand-substring CT tokens, manual-review origin candidates) are
+logged to `findings.csv`/`discovered.csv` only and never alert.
+
+New indicators are appended to **[`monitor/findings.csv`](monitor/findings.csv)**
+(`type,indicator,source,asn,first_seen,tier,operator`) and **`monitor/monitor.log`**; dedup state lives in
+`monitor/state/`. Nothing on **[`monitor/denylist.txt`](monitor/denylist.txt)** is ever queried, resolved, or recorded,
+whatever a source returns. To keep signal high, DNS is resolved only for hosts in
+**`monitor/state/tracked_hosts.tsv`** (curated watchlist + CT subdomains + confirmed kit-fingerprint hits — not the
+full historical set), and a host **decays**: 8 consecutive empty resolutions marks it `dead` (expected churn — the
+kit's apexes rotate ~daily), and ~90 days of periodic rechecks with no response retires it. A dead/retired host that
+reappears on Cloudflare raises an alert (possible operator reuse); reappearing on a non-Cloudflare IP is logged quietly,
+never alerted. Broad CT token matches (which collide with unrelated legitimate domains) are always tier-2 candidates —
+never auto-resolved, never alerted.
+
+> ⚠️ **2026-09-25 incident note.** An earlier version of this tracker auto-promoted any new non-Cloudflare IP to a
+> permanent watch, which turned into a self-reinforcing noise loop (2026-09-10 → 09-24): dead Operator-A apexes
+> re-resolved to shared cloud IPs (normal domain-death churn), those got auto-promoted as "dedicated origins," and each
+> one's follow-up query pulled in ~100 unrelated tenant domains per run. **Automatic origin promotion has been removed
+> entirely** — a new non-CF IP is now only ever logged for manual review. The same pass replaced two kit-fingerprint
+> queries that had never actually matched anything (`page.url` cannot see a WebSocket path or a static asset) with
+> **content-hash search**, which recovered 99 previously-missed Operator-A apexes from the June–July 2026 campaign
+> (now in `docs/indicators.csv`) — the old fingerprints had caught only 2 of them. Full write-up:
+> [`docs/operation-dossier.md`](docs/operation-dossier.md).
 
 **Watch it live.** The [`infra-monitor`](.github/workflows/infra-monitor.yml) GitHub Action runs **every 6 hours** (and
 on demand), commits the updated log/state/findings back to the repo, and **opens a GitHub Issue** whenever a new
-indicator appears. The live view of the operation is therefore just this repo: the **commit history**, the **Issues**,
-and the **Actions** tab — no keys or servers required. Edit `watchlist.txt` to widen or refocus coverage.
+tier-1 Operator-A indicator appears (Operator-B gets a Monday weekly-digest Issue instead). The live view of the
+operation is therefore just this repo: the **commit history**, the **Issues**, and the **Actions** tab — no keys or
+servers required. Edit `watchlist.txt` to widen or refocus coverage.
 
 ```bash
 # Run it yourself (keyless; needs bash, curl, node):
-bash monitor/check.sh        # first run seeds a silent baseline; later runs report deltas
+bash monitor/check.sh        # reports deltas against monitor/state/ each run
 
-# Optional: authenticated urlscan queries (higher rate limits / fuller results)
+# Optional: authenticated urlscan queries (higher rate limits / fuller results /
+# hash-chaining, which keeps monitor/fingerprints.txt current as the kit rebuilds)
 URLSCAN_KEY=<your-urlscan-key> bash monitor/check.sh
 ```
 
@@ -307,10 +333,34 @@ Telegram-bot exfil typical of those franchises — a **more advanced, custom bui
 ├── evidence/            — raw OSINT (RDAP/CT/TLS/DNS/urlscan/captures + SHA-256 manifests)
 ├── kit-analysis/        — readable, annotated reconstruction of the kit's architecture
 ├── kit-source/          — the kit's own client JS (decompressed + raw bodies) — see SECURITY.md
-├── monitor/             — the keyless infrastructure tracker (check.sh, watchlist, findings, state)
+├── monitor/             — the keyless infrastructure tracker (see data dictionary below)
 ├── tools/               — re-runnable analysis scripts (keyless; read keys from local files)
 └── .github/workflows/   — the infra-monitor cron
 ```
+
+### `monitor/` data dictionary — start here if you're picking this up cold
+
+**Read [`monitor/state/status.json`](monitor/state/status.json) first.** It's regenerated at the end of every run and
+answers "what's the state of things right now" in one file: last run time + health, tracked hosts by status
+(active / dead / retired), every fingerprint hash with its last live hit, the 20 most recent tier-1 findings, and how
+many candidates are waiting for review. Then drill into the files below as needed.
+
+| File | Written by | What it holds |
+|---|---|---|
+| `watchlist.txt` | human | Curated inputs: `<entry> <kind> <tier> <operator>` — apexes, origins, CT tokens |
+| `denylist.txt` | human | Never query/resolve/record these (with the reason each was added) |
+| `fingerprints.txt` | human + hash-chaining | Kit JS content hashes (the primary Operator-A detector) + last-hit date |
+| `findings.csv` | every run | Every new indicator: `type,indicator,source,asn,first_seen,tier,operator,matched_url,scan_uuid`. For urlscan-found domains, `matched_url`/`scan_uuid` point at the exact scan that proved it (`https://urlscan.io/result/<scan_uuid>/`) |
+| `discovered.csv` | every run | Candidates for **manual review** (non-CF origins, unconfirmed hashes) + auto-promoted apexes |
+| `scans.csv` | every run (key only) | Evidence captures submitted to urlscan (screenshot + DOM) per live host |
+| `monitor.log` | every run | Human-readable run log incl. a `HEALTH` line per run (is "no findings" trustworthy?) |
+| `state/status.json` | every run | Orientation snapshot (above) |
+| `state/tracked_hosts.tsv` | every run | The DNS re-resolve set + decay state per host (`active`/`dead`/`retired`) |
+| `state/pending_opb.txt` | every run | Operator-B findings waiting for Monday's digest Issue |
+| `state/seen_*.txt` | every run | Dedup memory only (what's already been reported) |
+| `../kit-source/raw_bodies/` | human + hash-chaining | The actual JS source behind every fingerprint hash (`SHA256SUMS.txt` = chain of custody) |
+| `migrate-2026-09*.{sh,tsv}` | one-time | The 2026-09-25 cleanup + the 99 hash-pivot apexes it recovered (historical) |
+| `tests/run.sh` + `tests/fixtures/` | human | Offline regression suite (real urlscan responses) + state invariants; CI runs it before every tracker run — `bash monitor/tests/run.sh` |
 
 ---
 
