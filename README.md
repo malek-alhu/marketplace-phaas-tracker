@@ -229,6 +229,13 @@ tier-1 Operator-A indicator appears (Operator-B gets a Monday weekly-digest Issu
 operation is therefore just this repo: the **commit history**, the **Issues**, and the **Actions** tab — no keys or
 servers required. Edit `watchlist.txt` to widen or refocus coverage.
 
+**Automatic review.** Every few hours a scheduled Claude routine picks up open detection Issues (labels `operator-a`
+/ `operator-b`) and verifies each indicator passively: urlscan evidence, kit URL shape, ASN, fingerprint, liveness,
+brand and country. It posts **one comment** per Issue with a verdict per indicator (confirmed kit / likely / dead /
+false positive / needs human) and a *suggested* action, then labels the Issue `claude-reviewed`. It never commits or
+edits the repo. Any watchlist or denylist change stays the maintainer's decision. Its instructions live in
+[`monitor/review-prompt.md`](monitor/review-prompt.md), so they can be tuned in a normal commit.
+
 ```bash
 # Run it yourself (keyless; needs bash, curl, node):
 bash monitor/check.sh        # reports deltas against monitor/state/ each run
@@ -361,6 +368,7 @@ many candidates are waiting for review. Then drill into the files below as neede
 | `../kit-source/raw_bodies/` | human + hash-chaining | The actual JS source behind every fingerprint hash (`SHA256SUMS.txt` = chain of custody) |
 | `migrate-2026-09*.{sh,tsv}` | one-time | The 2026-09-25 cleanup + the 99 hash-pivot apexes it recovered (historical) |
 | `tests/run.sh` + `tests/fixtures/` | human | Offline regression suite (real urlscan responses) + state invariants; CI runs it before every tracker run — `bash monitor/tests/run.sh` |
+| `review-prompt.md` | human | Instructions for the scheduled Claude review of detection Issues (comment-only, never commits) |
 
 ---
 

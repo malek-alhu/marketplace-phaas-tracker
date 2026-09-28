@@ -46,6 +46,14 @@ echo "== parse.js: CSV safety =="
 out="$(printf '%s' '{"results":[{"task":{"time":"2099-01-01T00:00:00Z","uuid":"u1","url":"https://x.test/a/AAAAAAAAAAAAAAAA?us=gm&q=a,b"},"page":{"url":"https://x.test/a/AAAAAAAAAAAAAAAA?us=gm&q=a,b","domain":"x.test","apexDomain":"x.test","ip":"1.2.3.4","asn":"AS13335"}}]}' | $P urlscan-kit 99999 url)"
 check "commas inside matched_url are %2C-encoded (no CSV column shift)"  'printf "%s" "$out" | grep -q "q=a%2Cb" && ! printf "%s" "$out" | cut -f5 | grep -q ","'
 
+echo "== check.sh: hash-chaining learns only from confirmed kit hits =="
+CS="$MON/check.sh"
+check "FRESH_HITS never fed from raw search results"                     '! grep -q "slice(0,2)" "$CS"'
+check "FRESH_HITS only written inside the two urlscan-kit loops (2 writers)" '[ "$(grep -c ">> \"\$FRESH_HITS\"" "$CS")" -eq 2 ]'
+order="$(printf '2\thashhit\n1\turlhit\n2\thashhit\n1\turlhit2\n' | sort -t "$(printf '\t')" -k1,1n | cut -f2 | awk '!seen[$0]++' | head -n 3 | paste -sd,)"
+check "chaining picks URL+ASN hits first, deduped (rebuilt kit visible first)" '[ "$order" = "urlhit,urlhit2,hashhit" ]'
+check "check.sh uses that exact priority pipeline"                        'grep -qF "sort -t \"\$(printf '"'"'\\t'"'"')\" -k1,1n \"\$FRESH_HITS\" | cut -f2 | awk '"'"'!seen[\$0]++'"'"' | head -n 3" "$CS"'
+
 echo "== state invariants (committed files) =="
 F="$MON/findings.csv"; TH="$MON/state/tracked_hosts.tsv"; W="$MON/watchlist.txt"; D="$MON/denylist.txt"
 check "findings.csv: every row has exactly 9 columns"                    '[ -z "$(awk -F, "NF!=9" "$F")" ]'

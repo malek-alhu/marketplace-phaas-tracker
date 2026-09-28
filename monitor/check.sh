@@ -343,7 +343,12 @@ sort -u "$CERTS_TOK" | comm -23 - "$CERTS_APEX" > "$TMP/ct_tok2" && mv "$TMP/ct_
 # hashes go stale as the operators rebuild the bundle (hash-chaining below is
 # what keeps fingerprints.txt current).
 KITAPEX="$TMP/kitapex"; : > "$KITAPEX"   # apex<TAB>operator (self-promotion candidates)
-FRESH_HITS="$TMP/fresh_hits"; : > "$FRESH_HITS"  # uuids of this run's confirmed hits, for hash-chaining
+# "<priority><TAB><scan_uuid>" of this run's ACCEPTED kit hits only, for hash-
+# chaining. Priority 1 = URL+ASN hit (the only way a fully REBUILT kit, whose
+# chunk hashes are all new, can be seen at all), 2 = hash hit (already a known
+# build, but its page may carry other not-yet-known chunks). Raw search results
+# must never feed this: the broad "/a/" query returns mostly unrelated sites.
+FRESH_HITS="$TMP/fresh_hits"; : > "$FRESH_HITS"
 while IFS=$'\t' read -r hash label added lasthit status; do
   hash="${hash%%#*}"; hash="$(printf '%s' "$hash" | tr -d '[:space:]')"
   [ -z "$hash" ] && continue
@@ -352,8 +357,8 @@ while IFS=$'\t' read -r hash label added lasthit status; do
     is_denied "$apex" && continue
     printf '%s\t%s\n' "$apex" "A" >> "$KITAPEX"
     printf '%s\t%s\t%s\t1\tA\thash:%s\t%s\t%s\n' "$dom" "$ip" "$asn" "${label:-$hash}" "$url" "$uuid" >> "$USCAN"
+    [ -n "$uuid" ] && printf '2\t%s\n' "$uuid" >> "$FRESH_HITS"
   done
-  printf '%s' "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{let j=JSON.parse(s);(j.results||[]).slice(0,2).forEach(r=>{if(r.task&&r.task.uuid)console.log(r.task.uuid)})}catch(e){}})' >> "$FRESH_HITS"
   sleep 1
 done < "$FPRINTS"
 # Secondary fingerprint: the `us=<channel>` per-victim URL param. urlscan's
@@ -366,8 +371,8 @@ printf '%s' "$resp" | node "$PARSE" urlscan-kit 30 url | while IFS=$'\t' read -r
   is_denied "$apex" && continue
   printf '%s\t%s\n' "$apex" "A" >> "$KITAPEX"
   printf '%s\t%s\t%s\t1\tA\turlscan-kit(us=)\t%s\t%s\n' "$dom" "$ip" "$asn" "$url" "$uuid" >> "$USCAN"
+  [ -n "$uuid" ] && printf '1\t%s\n' "$uuid" >> "$FRESH_HITS"
 done
-printf '%s' "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{let j=JSON.parse(s);(j.results||[]).slice(0,2).forEach(r=>{if(r.task&&r.task.uuid)console.log(r.task.uuid)})}catch(e){}})' >> "$FRESH_HITS"
 
 # Context queries: confirm/track CURATED apexes + origins (page.ip surfaces new
 # domains landing on a KNOWN, human-reviewed origin — never an auto-promoted
@@ -591,7 +596,7 @@ sort -u "$AUTO_APEX" -o "$AUTO_APEX"
 # (otherwise log it as a review candidate — never trust a single co-occurrence).
 if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
   KNOWN_HASHES="$TMP/known_hashes"; cut -f1 "$FPRINTS" | grep -v '^#' | grep -v '^$' >> "$KNOWN_HASHES" 2>/dev/null || : > "$KNOWN_HASHES"
-  sort -u "$FRESH_HITS" | head -n 2 | while IFS= read -r uuid; do
+  sort -t "$(printf '\t')" -k1,1n "$FRESH_HITS" | cut -f2 | awk '!seen[$0]++' | head -n 3 | while IFS= read -r uuid; do
     [ -z "$uuid" ] && continue
     hashes="$(us_result "$uuid" | node "$PARSE" urlscan-hashes | sort -u)"
     printf '%s\n' "$hashes" | grep -v '^$' | while IFS= read -r h; do
