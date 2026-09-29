@@ -1215,3 +1215,5 @@
 [2026-09-28T21:48:33Z] MERGE main's old-tracker runs 2026-09-25..28 folded in: 23 noise findings + their log lines dropped (none tier-1); auto_origins.txt stays removed; 78.41.207.0/24 typosquat-parking pool denylisted
 [2026-09-28T22:48:54Z] HEALTH certspotter=11/36 crtsh=56/56 urlscan=54/54 dns-google=154/154 dns-cf=154/154
 [2026-09-28T22:48:54Z] no new tier-1 Operator-A indicators
+[2026-09-29T03:32:20Z] HEALTH certspotter=11/36 crtsh=49/56 urlscan=54/54 dns-google=154/154 dns-cf=154/154
+[2026-09-29T03:32:20Z] no new tier-1 Operator-A indicators
