@@ -1226,3 +1226,5 @@
 [2026-09-29T11:53:18Z] AUTO-PROMOTE apex blocket-system.cam (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
 [2026-09-29T11:53:18Z] SCAN-SAVED blocket-system.cam -> https://urlscan.io/result/01a0ed07-34a4-72ae-861e-ff7082bc9b19/
 [2026-09-29T11:53:18Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-09-29T17:22:58Z] HEALTH certspotter=10/37 crtsh=12/17 urlscan=55/55 dns-google=156/156 dns-cf=156/156
+[2026-09-29T17:22:58Z] no new tier-1 Operator-A indicators
