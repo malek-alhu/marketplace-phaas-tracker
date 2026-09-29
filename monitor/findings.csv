@@ -189,3 +189,4 @@ ip,104.21.91.241,dns (blocket-system.cam),Cloudflare-edge,2026-09-29T11:53:18Z,2
 ip,172.67.182.40,dns (blocket-system.cam),Cloudflare-edge,2026-09-29T11:53:18Z,2,A,,
 ip,2606:4700:3031::6815:5bf1,dns (blocket-system.cam),Cloudflare-edge,2026-09-29T11:53:18Z,2,A,,
 ip,2606:4700:3037::ac43:b628,dns (blocket-system.cam),Cloudflare-edge,2026-09-29T11:53:18Z,2,A,,
+cert,blocket-system.cam,ct-log (apex subdomain),,2026-09-29T21:42:38Z,1,A,,

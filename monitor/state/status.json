@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T17:30:20Z",
-  "last_run_at": "2026-09-29T17:22:58Z",
-  "last_run_summary": "[2026-09-29T17:22:58Z] no new tier-1 Operator-A indicators",
-  "last_health_line": "[2026-09-29T17:22:58Z] HEALTH certspotter=10/37 crtsh=12/17 urlscan=55/55 dns-google=156/156 dns-cf=156/156",
+  "generated_at": "2026-09-29T21:59:20Z",
+  "last_run_at": "2026-09-29T21:42:38Z",
+  "last_run_summary": "[2026-09-29T21:42:38Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-09-29T21:42:38Z] HEALTH certspotter=11/37 crtsh=51/57 urlscan=55/55 dns-google=156/156 dns-cf=156/156",
   "tracked_hosts": {
     "total": 78,
     "by_status": {
@@ -36,15 +36,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 113
+    "A": 114
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "101.immrtl-hlpr.shop",
-      "operator": "A",
-      "first_seen": "2026-06-18T20:31:05Z"
-    },
     {
       "type": "cert",
       "indicator": "8x.immortal-x8.xyz",
@@ -158,6 +152,12 @@
       "indicator": "blocket-system.cam",
       "operator": "A",
       "first_seen": "2026-09-29T11:53:18Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "blocket-system.cam",
+      "operator": "A",
+      "first_seen": "2026-09-29T21:42:38Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
