@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T03:50:58Z",
-  "last_run_at": "2026-09-29T03:32:20Z",
-  "last_run_summary": "[2026-09-29T03:32:20Z] no new tier-1 Operator-A indicators",
-  "last_health_line": "[2026-09-29T03:32:20Z] HEALTH certspotter=11/36 crtsh=49/56 urlscan=54/54 dns-google=154/154 dns-cf=154/154",
+  "generated_at": "2026-09-29T11:57:49Z",
+  "last_run_at": "2026-09-29T11:53:18Z",
+  "last_run_summary": "[2026-09-29T11:53:18Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-09-29T11:53:18Z] HEALTH certspotter=10/36 crtsh=1/4 urlscan=54/54 dns-google=156/156 dns-cf=156/156",
   "tracked_hosts": {
-    "total": 77,
+    "total": 78,
     "by_status": {
-      "active": 77
+      "active": 78
     },
     "by_operator_tier": {
-      "A:tier1": 77
+      "A:tier1": 78
     }
   },
   "fingerprints": [
@@ -36,15 +36,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 112
+    "A": 113
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "it-pays.vps-pay-it.xyz",
-      "operator": "A",
-      "first_seen": "2026-06-18T18:47:06Z"
-    },
     {
       "type": "cert",
       "indicator": "101.immrtl-hlpr.shop",
@@ -158,6 +152,12 @@
       "indicator": "pay-flow.cfd",
       "operator": "A",
       "first_seen": "2026-09-10T10:20:14Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "blocket-system.cam",
+      "operator": "A",
+      "first_seen": "2026-09-29T11:53:18Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

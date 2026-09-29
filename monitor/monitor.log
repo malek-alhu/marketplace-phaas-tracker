@@ -1217,3 +1217,12 @@
 [2026-09-28T22:48:54Z] no new tier-1 Operator-A indicators
 [2026-09-29T03:32:20Z] HEALTH certspotter=11/36 crtsh=49/56 urlscan=54/54 dns-google=154/154 dns-cf=154/154
 [2026-09-29T03:32:20Z] no new tier-1 Operator-A indicators
+[2026-09-29T11:53:18Z] NEW domain  blocket-system.cam  [urlscan @104.21.91.241 (urlscan-kit(us=)) / AS13335] tier=1 op=A
+[2026-09-29T11:53:18Z] candidate ip  104.21.91.241  [dns (blocket-system.cam)] tier=2 op=A
+[2026-09-29T11:53:18Z] candidate ip  172.67.182.40  [dns (blocket-system.cam)] tier=2 op=A
+[2026-09-29T11:53:18Z] candidate ip  2606:4700:3031::6815:5bf1  [dns (blocket-system.cam)] tier=2 op=A
+[2026-09-29T11:53:18Z] candidate ip  2606:4700:3037::ac43:b628  [dns (blocket-system.cam)] tier=2 op=A
+[2026-09-29T11:53:18Z] HEALTH certspotter=10/36 crtsh=1/4 urlscan=54/54 dns-google=156/156 dns-cf=156/156
+[2026-09-29T11:53:18Z] AUTO-PROMOTE apex blocket-system.cam (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-09-29T11:53:18Z] SCAN-SAVED blocket-system.cam -> https://urlscan.io/result/01a0ed07-34a4-72ae-861e-ff7082bc9b19/
+[2026-09-29T11:53:18Z] 1 new tier-1 Operator-A indicator(s) this run
