@@ -1231,3 +1231,6 @@
 [2026-09-29T21:42:38Z] NEW cert  blocket-system.cam  [ct-log (apex subdomain)] tier=1 op=A
 [2026-09-29T21:42:38Z] HEALTH certspotter=11/37 crtsh=51/57 urlscan=55/55 dns-google=156/156 dns-cf=156/156
 [2026-09-29T21:42:38Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-09-30T03:17:28Z] HEALTH certspotter=10/37 crtsh=0/3 urlscan=55/55 dns-google=156/156 dns-cf=156/156
+[2026-09-30T03:17:28Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-09-30T03:17:28Z] no new tier-1 Operator-A indicators
