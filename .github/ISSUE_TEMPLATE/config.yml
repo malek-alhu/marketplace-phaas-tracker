@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Lost money or entered card details on one of these pages?
+    url: https://github.com/malek-alhu/marketplace-phaas-tracker/blob/main/docs/reporting-and-takedown.md
+    about: Call your bank first to block the card, then report to your national police/CERT. This repository cannot recover funds.

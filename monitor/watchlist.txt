@@ -38,7 +38,9 @@
 verifieer.cc            apex 1 A
 verifa.cc               apex 1 A
 pagamento.cc            apex 1 A
-subito.cam              apex 1 A
+# subito.cam retired 2026-09-30: Cloudflare "Suspected Phishing" interstitial
+# continuously since 2026-06-16 (latest urlscan 019ffa3c, 2026-08-13) — neutralised.
+# subito.cam            apex 1 A
 express-paycore24.cyou  apex 1 A
 express-paycore24.cfd   apex 1 A
 paycore24-express.sbs   apex 1 A
@@ -64,13 +66,16 @@ arsenalroel.org         apex 1 A
 zhkjcx.org              apex 1 A
 pay-flow.cfd            apex 1 A
 lnvoicel-47293.com      apex 1 A
+blocket-system.cam      apex 1 A
 
 # === Operator A — compromised/registered hosts used as redirector or
 # === order/payment-page layer (see docs/operation-dossier.md) ===
 cnkstcd.com             apex 1 A
 szrcgj.com              apex 1 A
 longkun100.com          apex 1 A
-wfmcsy.com              apex 1 A
+# wfmcsy.com retired 2026-09-30: repurposed — serves an unrelated Chinese
+# video-streaming site since 2026-09-07 (urlscan 01a079a9), no kit content.
+# wfmcsy.com            apex 1 A
 dacajncritter.com       apex 1 A
 
 # === Operator A — compromised LEGIT sites (genuinely aged victims, DNS+scan

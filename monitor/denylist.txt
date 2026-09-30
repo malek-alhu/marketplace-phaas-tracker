@@ -90,3 +90,10 @@ res.autonocion.com
 # --- promoting IPs from it (.28 on 2026-09-22, .23 on 2026-09-26) — parked lookalike
 # --- domains, never kit infrastructure. Whole pool denied (dotted-prefix form).
 78.41.207.
+
+# --- 81.28.12.12 / 2a03:90c0:999c::12 (AS199524, G-Core Labs) — shared hosting pool,
+# --- ~4,800 urlscan captures of unrelated tenants (VPN apps, blogs, a German skip-hire
+# --- firm). Dead Operator-A hosts make-it.short-conn.shop and 101.immrtl-hlpr.shop
+# --- re-resolved here after being dropped (502 since 2026-06-18): parking, not origin.
+81.28.12.12
+2a03:90c0:999c::12

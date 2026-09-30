@@ -1,0 +1,58 @@
+name: Report an indicator
+description: A domain, URL, IP or nameserver you believe belongs to this phishing operation.
+title: "[indicator] "
+labels: ["community-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Reports are reviewed by a maintainer before anything reaches the tracker or the public feeds.
+        **Passive sources only** — never visit, log in to, or submit data to a suspected phishing site.
+        Redact victims' personal data. Do not paste card numbers or codes.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Indicator type
+      options: [domain, URL, IP address, Cloudflare nameserver pair, other]
+    validations: { required: true }
+  - type: textarea
+    id: indicators
+    attributes:
+      label: Indicator(s)
+      description: One per line. Defang if you like (hxxps://example[.]com).
+      render: text
+    validations: { required: true }
+  - type: dropdown
+    id: brand
+    attributes:
+      label: Impersonated brand
+      options: [OLX, Subito, Kleinanzeigen, Blocket, Marktplaats, InPost, OMNIVA, Allegro, Vinted, DHL / DPD / courier, Bank / 3-D Secure page, Other / unknown]
+  - type: input
+    id: country
+    attributes:
+      label: Target country
+      placeholder: "e.g. SE, PL, IT"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: urlscan result link, CT log entry, feed record, redacted screenshot — something a reviewer can verify.
+    validations: { required: true }
+  - type: dropdown
+    id: signal
+    attributes:
+      label: Kit signal seen
+      description: See CONTRIBUTING.md — "What makes an indicator Operator A".
+      options:
+        - "URL shape /a/<token>?us=… or /viewer/<b64>/<b64>/<id>"
+        - Kit content hash match
+        - "Neither — brand/naming only"
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Confirmation
+      options:
+        - label: I gathered this from passive sources only and did not interact with the phishing site.
+          required: true
+        - label: I removed victims' personal data.
+          required: true

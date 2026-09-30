@@ -255,7 +255,8 @@ Drop-in fingerprints for hunting and detection rules (full reference: [`docs/kit
 
 | Signature | Meaning |
 |---|---|
-| `/a/<base64>?us=<gm\|dlm\|sml\|ym>` | Per-victim entry URL; `base64⁻¹` decodes to `2/<base62>` |
+| `/a/<base64>?us=<gm\|dlm\|sml\|ym\|cg>` | Per-victim entry URL; `base64⁻¹` decodes to `2/<base62>` (`cg` first seen 2026-09-29 on `blocket-system.cam`) |
+| `/viewer/<b64(bank)>/<b64(scenario)>/<adtag>` | Bank-tailored fake login stage, e.g. `/viewer/aXBrbw/Ml8w/…` = `ipko` / `2_0` (fake PKO BP iPKO). Literal template `/viewer/[TYPE_B64]/[SERVICE_METHOD]/[ADTAG]` in the bundle |
 | `/helpdesk/<token>/<brand>` | Personalised fake listing page |
 | `/m/<token>/<base64-service>` | Card-capture module (e.g. `c3RyaXBl` = "stripe") |
 | `wss://<host>/api/ws/stripe/sync` | Card-data exfil channel |
@@ -264,6 +265,24 @@ Drop-in fingerprints for hunting and detection rules (full reference: [`docs/kit
 | `/static/cg.png` | Builder's default *"Continental Group"* brand mark |
 | `x-rate-limit-limit: 3` | Redirector / gateway worker header |
 | `api.ip.sb/geoip`, `lookup.binlist.net`, `data.handyapi.com/bin/`, `v2.simpalsid.com/graphql` | Third-party calls the kit makes |
+
+### Ready-to-use feeds and rules
+
+For defenders who want to **block or detect** this operation without reading the research:
+
+| What | File | Plug into |
+|---|---|---|
+| All reviewed kit + redirector domains | [`feeds/domains.txt`](feeds/domains.txt) | DNS firewalls, Pi-hole, SIEM lookups |
+| Same, adblock syntax | [`feeds/adblock.txt`](feeds/adblock.txt) | uBlock Origin, AdGuard (Home) |
+| Domains still resolving | [`feeds/domains-live.txt`](feeds/domains-live.txt) | Takedown queues, triage |
+| Operator-B origin IPs | [`feeds/origin-ips.txt`](feeds/origin-ips.txt) | Firewalls, abuse reports |
+| Everything as STIX 2.1 | [`feeds/stix2-bundle.json`](feeds/stix2-bundle.json) | MISP, OpenCTI, any TIP |
+| Proxy-log rule (survives domain rotation) | [`detection/sigma/`](detection/sigma/) | Splunk, Elastic, Sentinel… via `sigma convert` |
+| Kit JS rule | [`detection/yara/`](detection/yara/) | urlscan Pro, VirusTotal, crawlers |
+
+The feeds are regenerated every 6 hours by the tracker. Hacked legitimate sites that were abused as
+redirectors are deliberately **excluded**, so the lists never block a victim's own mail or hosting.
+Validation notes and urlscan hunting queries: [`detection/README.md`](detection/README.md).
 
 ---
 
@@ -341,8 +360,11 @@ Telegram-bot exfil typical of those franchises — a **more advanced, custom bui
 ├── kit-analysis/        — readable, annotated reconstruction of the kit's architecture
 ├── kit-source/          — the kit's own client JS (decompressed + raw bodies) — see SECURITY.md
 ├── monitor/             — the keyless infrastructure tracker (see data dictionary below)
+├── feeds/               — generated blocklists + STIX 2.1 bundle (every 6 h)
+├── detection/           — Sigma (proxy logs) + YARA (kit JS) rules, hunting queries
 ├── tools/               — re-runnable analysis scripts (keyless; read keys from local files)
-└── .github/workflows/   — the infra-monitor cron
+├── CONTRIBUTING.md      — how to report indicators and submit rules
+└── .github/             — the infra-monitor cron + the "Report an indicator" issue form
 ```
 
 ### `monitor/` data dictionary — start here if you're picking this up cold
@@ -368,6 +390,7 @@ many candidates are waiting for review. Then drill into the files below as neede
 | `../kit-source/raw_bodies/` | human + hash-chaining | The actual JS source behind every fingerprint hash (`SHA256SUMS.txt` = chain of custody) |
 | `migrate-2026-09*.{sh,tsv}` | one-time | The 2026-09-25 cleanup + the 99 hash-pivot apexes it recovered (historical) |
 | `tests/run.sh` + `tests/fixtures/` | human | Offline regression suite (real urlscan responses) + state invariants; CI runs it before every tracker run — `bash monitor/tests/run.sh` |
+| `export-feeds.js` | every run | Builds `feeds/` from `docs/indicators.csv` + fingerprint-confirmed tier-1 findings; drops denylisted entries and hacked-legit (`dnsonly`) sites |
 | `review-prompt.md` | human | Instructions for the scheduled Claude review of detection Issues (comment-only, never commits) |
 
 ---
@@ -417,10 +440,10 @@ recommended-private repository visibility, and the safe handling of `kit-source/
 
 ## Contributing
 
-Spotted a related domain, certificate, or origin? Add the apex or a distinctive name fragment to
-[`monitor/watchlist.txt`](monitor/watchlist.txt) and open a PR or Issue with the indicator and **how you found it** — keep
-it to **passive sources only** (no active probing of operator systems). Corrections to the analysis are very welcome;
-please cite the artifact.
+Spotted a related domain, certificate, or origin? Open an Issue with the **"Report an indicator"** form and say
+**how you found it** — keep it to **passive sources only** (no active probing of operator systems). Detection-rule
+improvements and corrections to the analysis are very welcome; please cite the artifact. Details, including what
+counts as an Operator-A signal: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 

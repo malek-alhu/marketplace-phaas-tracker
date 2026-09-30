@@ -134,6 +134,7 @@ The bundle contains **253 distinct Cyrillic strings** — not just lure text but
 | `/a/<base64token>?us=<ch>` | page | lure entry (token→`2/<id>`) |
 | `/helpdesk/<id>/<brand>` | page (iframe) | personalised fake listing |
 | `/m/<token>/stripe/<cc>` | page | card-capture module (per-country) |
+| `/viewer/<b64 type>/<b64 service_method>/<adtag>` | page | bank-tailored fake login (template `/viewer/[TYPE_B64]/[SERVICE_METHOD]/[ADTAG]`; live example `aXBrbw`=`ipko`, `Ml8w`=`2_0`, urlscan 019ee4df) |
 | `/cdn/<hash>` | asset | kit assets |
 | `/static/helpdesk/audio/*.mp3` | asset | chat sounds |
 | `/api/v1/storage/<date>/<asset>` | api | brand template docs |

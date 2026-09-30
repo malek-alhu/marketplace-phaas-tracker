@@ -1,0 +1,55 @@
+title: Marketplace PhaaS Operator-A Kit Victim URL
+id: 3f6c2b1e-9a4d-4e57-8c1a-6b0d2e7f5a91
+status: experimental
+description: |
+    Detects a client opening a per-victim URL of the "Operator A" marketplace phishing kit
+    (Classiscam/Telekopye-class; fake "receive your payment" pages impersonating OLX, Subito,
+    Kleinanzeigen, Blocket, InPost and others). The kit rotates domains daily, so this rule keys on
+    the URL structure, not domains. A hit means a user (typically a seller) opened a lure link and
+    may have entered card/OTP data.
+references:
+    - https://github.com/malek-alhu/marketplace-phaas-tracker
+author: marketplace-phaas-tracker contributors
+date: 2026-09-30
+tags:
+    - attack.initial-access
+    - attack.t1566.002
+    - detection.threat-hunting
+logsource:
+    category: proxy
+detection:
+    selection_entry:
+        c-uri|re: '/a/[A-Za-z0-9_-]{12,24}\?us=(gm|dlm|sml|ym|cg)(&|$)'
+    selection_card_module:
+        c-uri|re: '/m/[A-Za-z0-9_-]{8,32}/c3RyaXBl'
+    condition: 1 of selection_*
+falsepositives:
+    - Unlikely; the /a/<token>?us=<code> shape plus the c3RyaXBl ("stripe" in base64) module path are kit-specific
+level: high
+---
+title: Marketplace PhaaS Operator-A Kit Follow-on Stages
+id: 8d2e4a7c-51b3-4f06-9e8d-2c7a1f0b3e64
+status: experimental
+description: |
+    Detects the follow-on stages of the same kit: the personalised fake listing
+    (/helpdesk/<10-char id>/<brand>) and the bank-tailored fake login
+    (/viewer/<base64 bank>/<base64 scenario>/<adtag>, e.g. /viewer/aXBrbw/Ml8w/... = "ipko"/"2_0"; Ml8w/MV8w = the kit's 2.0/1.0 scenarios).
+references:
+    - https://github.com/malek-alhu/marketplace-phaas-tracker
+author: marketplace-phaas-tracker contributors
+date: 2026-09-30
+tags:
+    - attack.initial-access
+    - attack.t1566.002
+    - detection.threat-hunting
+logsource:
+    category: proxy
+detection:
+    selection_listing:
+        c-uri|re: '/helpdesk/[A-Za-z0-9]{10}/(olx|subito|kleinanzeigen|marktplaats|blocket|bytbil|inpost|omniva|allegro|leboncoin|vinted|wallapop|dba|finn|tradera|bazar|dpd|dhl|correos|ctt|posta)\b'
+    selection_bank:
+        c-uri|re: '/viewer/[A-Za-z0-9_-]{3,24}/(Ml8w|MV8w)/[A-Za-z0-9_-]{6,}'
+    condition: 1 of selection_*
+falsepositives:
+    - Self-hosted helpdesk products that use /helpdesk/<id>/<name> paths; review the destination domain (Operator A is always behind Cloudflare, domains are days old)
+level: medium

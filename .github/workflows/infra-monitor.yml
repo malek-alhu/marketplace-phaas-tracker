@@ -52,13 +52,16 @@ jobs:
           CERTSPOTTER_TOKEN: ${{ secrets.CERTSPOTTER_TOKEN }}
         run: bash monitor/check.sh
 
+      - name: Export community feeds (domains, adblock, STIX 2.1)
+        run: node monitor/export-feeds.js .
+
       - name: Commit log + state + findings
         run: |
           git config user.name  "infra-monitor"
           git config user.email "actions@users.noreply.github.com"
           # kit-source/raw_bodies: hash-chaining archives each newly-chained
           # fingerprint's JS body there — must be committed or it's lost with the runner.
-          git add monitor/monitor.log monitor/state monitor/findings.csv monitor/scans.csv monitor/discovered.csv monitor/fingerprints.txt kit-source/raw_bodies || true
+          git add monitor/monitor.log monitor/state monitor/findings.csv monitor/scans.csv monitor/discovered.csv monitor/fingerprints.txt kit-source/raw_bodies feeds || true
           git commit -m "monitor: $(date -u +%FT%TZ)" || echo "no changes to commit"
           git push || true
 
