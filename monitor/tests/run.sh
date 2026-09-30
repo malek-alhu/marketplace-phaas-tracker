@@ -71,5 +71,21 @@ check "no denylisted entry is in watchlist.txt or tracked_hosts.tsv" \
       '[ -z "$(printf "%s\n" "$denied" | grep -xFf - <( (sed "s/#.*//" "$W" | awk "{print \$1}"; cut -f1 "$TH" 2>/dev/null) | grep -v "^$") )" ]'
 check "snapshot.js emits valid JSON"                                     'node "$MON/snapshot.js" "$MON" | node -e "JSON.parse(require(\"fs\").readFileSync(0,\"utf8\"))"'
 
+echo "== export-feeds.js: public feeds never harm victims =="
+FT="$(mktemp -d)"; mkdir -p "$FT/docs" "$FT/monitor/state"
+cp "$MON/../docs/indicators.csv" "$FT/docs/"; cp "$F" "$W" "$D" "$FT/monitor/"; cp "$TH" "$FT/monitor/state/" 2>/dev/null
+node "$MON/export-feeds.js" "$FT" >/dev/null 2>&1
+feed="$(grep -hv '^#' "$FT/feeds/domains.txt" 2>/dev/null)"
+victims="$(sed 's/#.*//' "$W" | awk '$2=="dnsonly"{print $1}')"
+check "docs/indicators.csv: every row has 8 CSV fields (quotes respected)" 'node -e "
+  for (const l of require(\"fs\").readFileSync(process.argv[1],\"utf8\").split(\"\n\").filter(Boolean)) {
+    let n=1,q=false; for (const c of l) { if (c===\"\\\"\") q=!q; else if (c===\",\"&&!q) n++; }
+    if (n!==8) process.exit(1); }" "$MON/../docs/indicators.csv"'
+check "export-feeds.js writes a non-empty domain feed"                   '[ -n "$feed" ]'
+check "no hacked-legit (dnsonly) site or its subdomains in the feed"     '[ -z "$(printf "%s\n" "$feed" | grep -E "(^|\.)($(printf "%s\n" "$victims" | sed "s/\./\\\\./g" | paste -sd"|"))\$")" ]'
+check "no denylisted entry in any feed"                                  '[ -z "$(printf "%s\n" "$denied" | grep -xFf - <(grep -hv "^[#!]" "$FT"/feeds/*.txt | sed "s/^||//; s/\^\$//"))" ]'
+check "stix2-bundle.json parses and only holds 2.1 objects"              'node -e "const b=JSON.parse(require(\"fs\").readFileSync(process.argv[1],\"utf8\"));if(b.type!==\"bundle\"||b.objects.some(o=>o.type!==\"bundle\"&&o.spec_version!==\"2.1\"))process.exit(1)" "$FT/feeds/stix2-bundle.json"'
+rm -rf "$FT"
+
 echo "== $pass passed, $fail failed =="
 [ "$fail" -eq 0 ]

@@ -1,0 +1,33 @@
+# Marketplace PhaaS — Operator-B real origin IPs (bulletproof hosting)
+# Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
+# Entries: 28 · newest first_seen: 2026-09-01 · TLP:CLEAR
+# Most kit domains rotate within days; historical entries are kept for retro-hunting.
+# Hacked legitimate sites used as redirectors are intentionally excluded.
+176.105.253.99
+185.166.188.245
+185.241.208.197
+185.241.208.228
+194.102.39.119
+194.26.192.126
+194.26.192.205
+194.26.192.78
+194.26.192.95
+194.26.192.98
+199.192.31.14
+2.58.56.111
+2.58.56.153
+2.58.56.189
+2.58.56.70
+212.73.134.129
+31.13.195.94
+38.180.194.236
+45.138.16.165
+45.138.16.203
+45.141.215.196
+66.29.141.228
+82.221.105.39
+82.221.129.16
+87.120.254.171
+87.120.254.37
+89.117.1.140
+91.206.169.122
