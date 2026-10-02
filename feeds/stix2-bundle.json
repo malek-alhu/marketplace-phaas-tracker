@@ -65,6 +65,37 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--67e0ae83-2750-50be-9c2b-713de2db6dfe",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "0rd56t457543567567567.sbs",
+   "pattern": "[domain-name:value = '0rd56t457543567567567.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--8805fee5-82e3-5dd0-96a8-fd7fabbfe721",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--67e0ae83-2750-50be-9c2b-713de2db6dfe",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--81e1570b-a30e-51da-8ecd-1f1b4c0f1a00",
    "created": "2026-06-26T00:00:00.000Z",
    "modified": "2026-06-26T00:00:00.000Z",
@@ -96,14 +127,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--bf3a2c84-d43e-5ab8-93d3-271e9476eadb",
+   "created": "2026-09-22T00:00:00.000Z",
+   "modified": "2026-09-22T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "58stw.com",
+   "pattern": "[domain-name:value = '58stw.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-22T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--90d56b0e-16a7-57c2-973e-7861eb4a417b",
+   "created": "2026-09-22T00:00:00.000Z",
+   "modified": "2026-09-22T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--bf3a2c84-d43e-5ab8-93d3-271e9476eadb",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--1d06a6b6-38a2-5949-bff8-64af8057b453",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "91tangeche.com",
    "pattern": "[domain-name:value = '91tangeche.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -117,8 +179,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--4524ef02-67f2-5f15-ba2e-6714309c1a47",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--1d06a6b6-38a2-5949-bff8-64af8057b453",
@@ -128,13 +190,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--81255f48-3436-50d1-abb6-bc924e6459e7",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "9853192.biz",
    "pattern": "[domain-name:value = '9853192.biz']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -148,11 +210,259 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--dbb6fd04-63e1-520a-986a-0b39111beca9",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--81255f48-3436-50d1-abb6-bc924e6459e7",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--e0b15b23-b65c-5f7f-b4b3-be170ebf20e9",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "action-paycore-pl.shop",
+   "pattern": "[domain-name:value = 'action-paycore-pl.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--61b4e908-3520-5da1-8842-d1907d1edbc9",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--e0b15b23-b65c-5f7f-b4b3-be170ebf20e9",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--7392a63a-8224-5018-90aa-f7aa4dddd41c",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "auth-lnfo.com",
+   "pattern": "[domain-name:value = 'auth-lnfo.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-17T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--0bf87f14-61c5-5e73-a067-dc3070296ccc",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--7392a63a-8224-5018-90aa-f7aa4dddd41c",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4f4d569b-b01a-5ea7-b810-4f7a9995fb8d",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "avhenting2409.cc",
+   "pattern": "[domain-name:value = 'avhenting2409.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "FINN (NO)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--4cfa78e1-ec80-599b-b9b9-3e4299b1db85",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--4f4d569b-b01a-5ea7-b810-4f7a9995fb8d",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--3ea672ad-2753-5c3c-90cf-50db5d64fb6b",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "avhenting2709.cc",
+   "pattern": "[domain-name:value = 'avhenting2709.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-28T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "FINN (NO)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--941981ec-1f2d-5bd8-ab39-fbb100f4a8f8",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--3ea672ad-2753-5c3c-90cf-50db5d64fb6b",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f6826e4a-c076-58cd-ac36-fa718caf2bfe",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "avhenting2909.cc",
+   "pattern": "[domain-name:value = 'avhenting2909.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "FINN (NO)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--57d7485b-de8c-51a9-8a90-80e880ada915",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--f6826e4a-c076-58cd-ac36-fa718caf2bfe",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--99c0c587-1ed0-534d-80a6-1303f9683280",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "bekreftjs.com",
+   "pattern": "[domain-name:value = 'bekreftjs.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "FINN (NO)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--38738145-c32c-5743-9172-70655a13a073",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--99c0c587-1ed0-534d-80a6-1303f9683280",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--234fd928-9960-5315-a5fc-85d488904b8e",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "bekreftnorwq.com",
+   "pattern": "[domain-name:value = 'bekreftnorwq.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "FINN (NO)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--93780b09-5b5b-5ba5-ab9a-1cf6f9178966",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--234fd928-9960-5315-a5fc-85d488904b8e",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--921979a0-d263-58bf-81d9-7b3fd5f9079d",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "bekreftoo.com",
+   "pattern": "[domain-name:value = 'bekreftoo.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "FINN (NO)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--88883e2b-174b-5e24-b2cd-f9cd935bf73b",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--921979a0-d263-58bf-81d9-7b3fd5f9079d",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -345,6 +655,130 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--8d35adef-8387-5c7d-80ff-267a51d7b1da",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "c0mpra-verify.help",
+   "pattern": "[domain-name:value = 'c0mpra-verify.help']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-28T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--89df2f79-ea76-5e62-9f2e-c581ab799bda",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--8d35adef-8387-5c7d-80ff-267a51d7b1da",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--7a256d7b-692b-5c66-a213-01b4d08e140d",
+   "created": "2026-09-23T00:00:00.000Z",
+   "modified": "2026-09-23T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "ch-cn-ng28app.com",
+   "pattern": "[domain-name:value = 'ch-cn-ng28app.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-23T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Blocket (SE)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--d48c71af-33d1-5844-a218-cdda3eb05288",
+   "created": "2026-09-23T00:00:00.000Z",
+   "modified": "2026-09-23T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--7a256d7b-692b-5c66-a213-01b4d08e140d",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--2d68e7e6-c469-52f2-bf8c-12a7843c45ff",
+   "created": "2026-09-18T00:00:00.000Z",
+   "modified": "2026-09-18T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "checkn-auth.com",
+   "pattern": "[domain-name:value = 'checkn-auth.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-18T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--e7234102-ea01-547f-9396-fb9c5b2a9652",
+   "created": "2026-09-18T00:00:00.000Z",
+   "modified": "2026-09-18T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--2d68e7e6-c469-52f2-bf8c-12a7843c45ff",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f0b9b999-64af-5991-a804-fff13056d5d3",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "cn-en-c7app.com",
+   "pattern": "[domain-name:value = 'cn-en-c7app.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Blocket (SE)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--dacb0ced-0ae3-5155-9243-e0ea63ec0349",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--f0b9b999-64af-5991-a804-fff13056d5d3",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--0f457d13-6c8e-54e7-a5d7-549e21e4f127",
    "created": "2026-07-11T00:00:00.000Z",
    "modified": "2026-07-11T00:00:00.000Z",
@@ -376,14 +810,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--ae47d861-2fca-5a2d-9c09-4e64507daee6",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "compra-verif.cfd",
+   "pattern": "[domain-name:value = 'compra-verif.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-28T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "compra lure (ES)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--808b75a1-1238-5aa2-a7c4-aeb734277368",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--ae47d861-2fca-5a2d-9c09-4e64507daee6",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--e00b6718-16e6-5ff0-8aa8-ea70e134da70",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "conferma-subito.com",
    "pattern": "[domain-name:value = 'conferma-subito.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -397,8 +862,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--72e2bbed-6918-5163-951c-eecc6a695520",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e00b6718-16e6-5ff0-8aa8-ea70e134da70",
@@ -408,13 +873,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--413b886a-2e32-5af7-ae84-81c807bb83f8",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "conferma-subito.me",
    "pattern": "[domain-name:value = 'conferma-subito.me']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -428,8 +893,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--f37bdccf-143c-5db2-96c0-e6a0afc5a28c",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--413b886a-2e32-5af7-ae84-81c807bb83f8",
@@ -469,6 +934,223 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--318afa9e-b995-5e22-a38b-857239c3b5fa",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order-gg.cfd",
+   "pattern": "[domain-name:value = 'confirmation-order-gg.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--ca42d974-50fb-51a6-9329-fedfb0aef4a0",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--318afa9e-b995-5e22-a38b-857239c3b5fa",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c5f60a22-3c36-5ba7-96c9-3e743fbd8336",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order-gg.sbs",
+   "pattern": "[domain-name:value = 'confirmation-order-gg.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Bank Millennium (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--792d55e7-13bb-514c-9602-dca5a3ffa8cc",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--c5f60a22-3c36-5ba7-96c9-3e743fbd8336",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--30f3ca7f-5495-5741-a55d-dd99c45a7220",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order-payu.cfd",
+   "pattern": "[domain-name:value = 'confirmation-order-payu.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "PayU (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--375c63fd-a5a5-5499-bf79-7d20d9a929c0",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--30f3ca7f-5495-5741-a55d-dd99c45a7220",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--16dd6599-e697-5c2a-8df3-1309cd5c9c69",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order-payu.lol",
+   "pattern": "[domain-name:value = 'confirmation-order-payu.lol']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--96a98cbd-0af9-54fd-859d-7b6cc94f5738",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--16dd6599-e697-5c2a-8df3-1309cd5c9c69",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--8e45f751-f174-5fb4-9dae-10be210e939d",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order-payu.sbs",
+   "pattern": "[domain-name:value = 'confirmation-order-payu.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "PayU (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--737545a4-e3b5-5ec3-b2be-e79cf36cd8e8",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--8e45f751-f174-5fb4-9dae-10be210e939d",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ccb452cb-c28c-5c0e-b8ca-912e3d632bab",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order-pl.sbs",
+   "pattern": "[domain-name:value = 'confirmation-order-pl.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--d361802f-cd2d-5c7e-a998-c4ba715eab60",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--ccb452cb-c28c-5c0e-b8ca-912e3d632bab",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--05f083fa-f8c8-5a0c-9ac0-55208caeee04",
+   "created": "2026-09-12T00:00:00.000Z",
+   "modified": "2026-09-12T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "confirmation-order.sbs",
+   "pattern": "[domain-name:value = 'confirmation-order.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-12T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--8b37c73e-fd12-55d3-a0a1-e1e835773e2b",
+   "created": "2026-09-12T00:00:00.000Z",
+   "modified": "2026-09-12T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--05f083fa-f8c8-5a0c-9ac0-55208caeee04",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--bb6fa996-4900-5f0b-a769-ce931172cda9",
    "created": "2026-06-30T00:00:00.000Z",
    "modified": "2026-06-30T00:00:00.000Z",
@@ -501,13 +1183,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--9bed87cc-4a25-5ca3-8296-db52040b129a",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "consegna-subito.info",
    "pattern": "[domain-name:value = 'consegna-subito.info']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -521,8 +1203,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--f863ce88-5262-5c15-8819-2ed3d480f72d",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--9bed87cc-4a25-5ca3-8296-db52040b129a",
@@ -532,13 +1214,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--ffc9765f-38f8-593b-8fb4-7fd116d8ef9d",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "controlli-subito.it",
    "pattern": "[domain-name:value = 'controlli-subito.it']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -552,8 +1234,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--28a98da7-525c-5140-830d-5800bda14743",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--ffc9765f-38f8-593b-8fb4-7fd116d8ef9d",
@@ -624,14 +1306,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--1f6a2200-003f-5c7d-8558-ee59b56395d6",
+   "created": "2026-09-25T00:00:00.000Z",
+   "modified": "2026-09-25T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "cylex-verifbankid.cfd",
+   "pattern": "[domain-name:value = 'cylex-verifbankid.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-25T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "BankID (SE)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--a1dc91e3-732b-5fd7-a614-dc5f50463fc2",
+   "created": "2026-09-25T00:00:00.000Z",
+   "modified": "2026-09-25T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--1f6a2200-003f-5c7d-8558-ee59b56395d6",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--497fa3d4-dbfe-538b-9128-9e2adeee7d47",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "dacajncritter.com",
    "pattern": "[domain-name:value = 'dacajncritter.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -645,8 +1358,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--c3a2e877-adb3-5a77-81bb-d2c1d76fabae",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--497fa3d4-dbfe-538b-9128-9e2adeee7d47",
@@ -656,13 +1369,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--fbb4e176-c5fe-5e56-9dfd-34254b30bfb8",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "datispedizione.com",
    "pattern": "[domain-name:value = 'datispedizione.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -676,12 +1389,105 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--8a1287eb-9fad-59a1-8ca7-421a8cca71f0",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--fbb4e176-c5fe-5e56-9dfd-34254b30bfb8",
    "target_ref": "campaign--72ff06ee-9c77-540f-99f2-e72d203ac295"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d106350d-2412-55cd-934c-fdd943bec9e2",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "dfclgzw.com",
+   "pattern": "[domain-name:value = 'dfclgzw.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-29T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Depop"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--6034dc51-b93a-5582-9c6a-c766c9708f44",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--d106350d-2412-55cd-934c-fdd943bec9e2",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--6e61d70c-1659-5e85-8dcb-903a4b370933",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "dpd-cz.live",
+   "pattern": "[domain-name:value = 'dpd-cz.live']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "DPD (CZ)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--3720c4ec-082c-54cc-936f-9740148e32d2",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--6e61d70c-1659-5e85-8dcb-903a4b370933",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--3feafba3-9452-5bf9-9316-17b5aca49ddc",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "encaiss.top",
+   "pattern": "[domain-name:value = 'encaiss.top']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-02T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--21359650-6e7e-560e-a9d3-8123162124ad",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--3feafba3-9452-5bf9-9316-17b5aca49ddc",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
    "type": "indicator",
@@ -1213,6 +2019,37 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--5f5ed614-adbd-575d-8125-6ea7701db4dd",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "frakt-orderhubid94699.eu.cc",
+   "pattern": "[domain-name:value = 'frakt-orderhubid94699.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Blocket (SE)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--011361c3-9e7f-5906-9aa7-20dcd7eef2c5",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--5f5ed614-adbd-575d-8125-6ea7701db4dd",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--2f873a6c-1100-5fbc-8c38-0da30160fa15",
    "created": "2026-07-03T00:00:00.000Z",
    "modified": "2026-07-03T00:00:00.000Z",
@@ -1337,14 +2174,76 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--40f58589-c79e-5144-8581-b1e64b9b6572",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "gumtree-payment.shop",
+   "pattern": "[domain-name:value = 'gumtree-payment.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Gumtree"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--1af28190-2db9-575f-a797-beb8efd126e3",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--40f58589-c79e-5144-8581-b1e64b9b6572",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f3365aea-8e3f-5273-9a57-be096d32be1b",
+   "created": "2026-09-25T00:00:00.000Z",
+   "modified": "2026-09-25T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "huian189.com",
+   "pattern": "[domain-name:value = 'huian189.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-25T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Depop"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--22900992-0135-5785-b8c1-0292e6161498",
+   "created": "2026-09-25T00:00:00.000Z",
+   "modified": "2026-09-25T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--f3365aea-8e3f-5273-9a57-be096d32be1b",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--7aa5fd0c-2d69-52b1-8a71-2b2ccf4636c4",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "id5963835.live",
    "pattern": "[domain-name:value = 'id5963835.live']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -1358,8 +2257,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--1aecd120-9770-5322-ae9e-9ed77ce5447e",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--7aa5fd0c-2d69-52b1-8a71-2b2ccf4636c4",
@@ -1456,6 +2355,68 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--aa562fd6-e62c-5c75-93b3-bd9a28bf03aa",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--20da9eba-c35b-52a2-8a5e-e8138fb6abb8",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "info-auth.com",
+   "pattern": "[domain-name:value = 'info-auth.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--0524650f-9008-541a-b3d1-297c6a1f576b",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--20da9eba-c35b-52a2-8a5e-e8138fb6abb8",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--18f6df56-f4d1-5493-badb-ac847f563332",
+   "created": "2026-09-15T00:00:00.000Z",
+   "modified": "2026-09-15T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "invoice-center.info",
+   "pattern": "[domain-name:value = 'invoice-center.info']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-15T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--74275e30-1194-5b53-8ad3-f4a90b4da385",
+   "created": "2026-09-15T00:00:00.000Z",
+   "modified": "2026-09-15T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--18f6df56-f4d1-5493-badb-ac847f563332",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -1648,13 +2609,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--740c874a-2c06-508a-8959-ce13422d21aa",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "login-subito.it",
    "pattern": "[domain-name:value = 'login-subito.it']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -1668,8 +2629,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--e3816b5a-ec65-55f5-bae6-6eb853a209a4",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--740c874a-2c06-508a-8959-ce13422d21aa",
@@ -1802,6 +2763,37 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--6bedebb0-0090-51e4-b178-924e11c07348",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "monrelaisplusin.icu",
+   "pattern": "[domain-name:value = 'monrelaisplusin.icu']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-29T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Leboncoin (FR)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--cab5b566-194e-500d-b493-c6154d2829f9",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--6bedebb0-0090-51e4-b178-924e11c07348",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--cf0429b7-046f-59b5-b145-a013869614e9",
    "created": "2026-07-12T00:00:00.000Z",
    "modified": "2026-07-12T00:00:00.000Z",
@@ -1864,6 +2856,37 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--bf0ca3a1-b770-5d35-b8a1-57388f6b5d9b",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "negabarit.sbs",
+   "pattern": "[domain-name:value = 'negabarit.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-28T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--39c49095-1a0d-59e8-8465-d269a2c4e23a",
+   "created": "2026-09-28T00:00:00.000Z",
+   "modified": "2026-09-28T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--bf0ca3a1-b770-5d35-b8a1-57388f6b5d9b",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--1d16eae6-8a22-51b1-8fc3-935651764062",
    "created": "2026-07-08T00:00:00.000Z",
    "modified": "2026-07-08T00:00:00.000Z",
@@ -1890,6 +2913,37 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--1d16eae6-8a22-51b1-8fc3-935651764062",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ceb5da09-d702-58fe-be10-c43412538648",
+   "created": "2026-09-15T00:00:00.000Z",
+   "modified": "2026-09-15T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "olx-entrega.it.com",
+   "pattern": "[domain-name:value = 'olx-entrega.it.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-15T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--62850045-e2a8-54e6-83dc-2205da4b7402",
+   "created": "2026-09-15T00:00:00.000Z",
+   "modified": "2026-09-15T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--ceb5da09-d702-58fe-be10-c43412538648",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -1927,13 +2981,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--e1895174-f5aa-56cd-934b-a29360c71b5a",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "olx.corepay.bond",
    "pattern": "[domain-name:value = 'olx.corepay.bond']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -1947,8 +3001,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--7fbbb2b9-7c3f-5956-8816-86c2e195d12b",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e1895174-f5aa-56cd-934b-a29360c71b5a",
@@ -2020,13 +3074,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--e764def2-1d41-562a-a7b4-2f9ff3d69d6c",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "olx.inteligentnatransakcja24.cyou",
    "pattern": "[domain-name:value = 'olx.inteligentnatransakcja24.cyou']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -2040,8 +3094,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--96c31404-2fd0-5081-9dea-a8c5f6406943",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e764def2-1d41-562a-a7b4-2f9ff3d69d6c",
@@ -2454,13 +3508,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--12017a42-9da9-5f88-9e3e-4b03c2f403b3",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "olx.pl-696967.sbs",
    "pattern": "[domain-name:value = 'olx.pl-696967.sbs']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -2474,8 +3528,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--1fb21171-7fad-585c-be81-735aef345b52",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--12017a42-9da9-5f88-9e3e-4b03c2f403b3",
@@ -2634,6 +3688,223 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--58eff687-da25-5c3d-8aa4-c4537c97ea5f",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--0beea037-82af-5eb1-b99f-d68c4d157df6",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order-detaljer.shop",
+   "pattern": "[domain-name:value = 'order-detaljer.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-17T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--6ed28960-3e77-5197-b9b9-8b30a7dac91d",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--0beea037-82af-5eb1-b99f-d68c4d157df6",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--759f2ef8-a80f-5c87-a0ea-24d0d3072aa5",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order-id8219.shop",
+   "pattern": "[domain-name:value = 'order-id8219.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Leboncoin (FR)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--67377c4e-7875-52fc-b10f-2fcdcd8c3b79",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--759f2ef8-a80f-5c87-a0ea-24d0d3072aa5",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ccdb4444-4bec-56db-9219-2238d328164e",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order-info62351.com",
+   "pattern": "[domain-name:value = 'order-info62351.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--5ead4cc3-485a-5dc8-922b-67ab7446b855",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--ccdb4444-4bec-56db-9219-2238d328164e",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--e31c5e92-3dc5-5db1-84dd-1ab610769d90",
+   "created": "2026-09-23T00:00:00.000Z",
+   "modified": "2026-09-23T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order-info84719.com",
+   "pattern": "[domain-name:value = 'order-info84719.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-23T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--409b2531-2af9-5541-a4f2-336522a6c1e3",
+   "created": "2026-09-23T00:00:00.000Z",
+   "modified": "2026-09-23T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--e31c5e92-3dc5-5db1-84dd-1ab610769d90",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4a541128-0ef1-502d-a4b8-4187be76c44f",
+   "created": "2026-09-21T00:00:00.000Z",
+   "modified": "2026-09-21T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order21.shop",
+   "pattern": "[domain-name:value = 'order21.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-21T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Gumtree"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--a22a3153-d9a1-5b80-ae60-3b362760862e",
+   "created": "2026-09-21T00:00:00.000Z",
+   "modified": "2026-09-21T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--4a541128-0ef1-502d-a4b8-4187be76c44f",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d45197ec-8a7b-51e1-9477-1b408c8ee649",
+   "created": "2026-09-14T00:00:00.000Z",
+   "modified": "2026-09-14T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order3274.cfd",
+   "pattern": "[domain-name:value = 'order3274.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-14T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--991e6ba5-a454-5623-b854-c28233fcf5c9",
+   "created": "2026-09-14T00:00:00.000Z",
+   "modified": "2026-09-14T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--d45197ec-8a7b-51e1-9477-1b408c8ee649",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--9dd3c532-ff6d-5b65-819a-43461d9bdc20",
+   "created": "2026-09-11T00:00:00.000Z",
+   "modified": "2026-09-11T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "order4851.com",
+   "pattern": "[domain-name:value = 'order4851.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-11T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Gumtree"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--ca15bbc8-bbbc-57b1-ae84-81bccb13a27e",
+   "created": "2026-09-11T00:00:00.000Z",
+   "modified": "2026-09-11T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--9dd3c532-ff6d-5b65-819a-43461d9bdc20",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -2949,6 +4220,68 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--a1ce3e5e-5c25-5905-a210-0b9446c35981",
+   "created": "2026-09-18T00:00:00.000Z",
+   "modified": "2026-09-18T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "orders-info92841.com",
+   "pattern": "[domain-name:value = 'orders-info92841.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-18T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--db64e205-9ec1-576a-b9d6-e87e032ab1c8",
+   "created": "2026-09-18T00:00:00.000Z",
+   "modified": "2026-09-18T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--a1ce3e5e-5c25-5905-a210-0b9446c35981",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--8ffb31f1-e1c8-543c-b906-f350c1c73a48",
+   "created": "2026-09-23T00:00:00.000Z",
+   "modified": "2026-09-23T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "orders-info93657.com",
+   "pattern": "[domain-name:value = 'orders-info93657.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-23T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--6352a45e-9b79-550d-b1a2-57dd1e726642",
+   "created": "2026-09-23T00:00:00.000Z",
+   "modified": "2026-09-23T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--8ffb31f1-e1c8-543c-b906-f350c1c73a48",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--412231a6-5d12-5a64-bc54-4a7ef66714ed",
    "created": "2026-06-18T00:00:00.000Z",
    "modified": "2026-06-18T00:00:00.000Z",
@@ -3073,6 +4406,37 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--c27f170f-8f45-5b14-8909-611d49fcd386",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "osrofoptp.com",
+   "pattern": "[domain-name:value = 'osrofoptp.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-19T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--6d22be14-9547-5ddd-b4a8-b66fb213908d",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--c27f170f-8f45-5b14-8909-611d49fcd386",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--07c9fcd8-dcf9-5431-bb8c-6dd9554d3961",
    "created": "2026-07-09T00:00:00.000Z",
    "modified": "2026-07-09T00:00:00.000Z",
@@ -3104,6 +4468,68 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--d2d9e03f-4857-58f2-9e71-19c96dfde2ca",
+   "created": "2026-09-11T00:00:00.000Z",
+   "modified": "2026-09-11T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paczzka4342362.cyou",
+   "pattern": "[domain-name:value = 'paczzka4342362.cyou']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-11T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--ef34b6e1-5a0e-57e4-bade-9382f407f800",
+   "created": "2026-09-11T00:00:00.000Z",
+   "modified": "2026-09-11T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--d2d9e03f-4857-58f2-9e71-19c96dfde2ca",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--939b34a8-fe8f-5f76-979b-519f0544c4bb",
+   "created": "2026-09-22T00:00:00.000Z",
+   "modified": "2026-09-22T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paczzka434236212.shop",
+   "pattern": "[domain-name:value = 'paczzka434236212.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-22T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--212d6214-910e-55e3-8962-13da5ff98fd4",
+   "created": "2026-09-22T00:00:00.000Z",
+   "modified": "2026-09-22T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--939b34a8-fe8f-5f76-979b-519f0544c4bb",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--d038a074-4238-5f47-ac3c-2a3eabe4b0fc",
    "created": "2026-06-28T00:00:00.000Z",
    "modified": "2026-06-28T00:00:00.000Z",
@@ -3130,6 +4556,37 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--d038a074-4238-5f47-ac3c-2a3eabe4b0fc",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f57b67a5-b81c-52ed-89d4-70440a2b343f",
+   "created": "2026-09-20T00:00:00.000Z",
+   "modified": "2026-09-20T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paczzkaa763238.click",
+   "pattern": "[domain-name:value = 'paczzkaa763238.click']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-20T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--a4b808a4-58a5-5897-969d-c2c4dcc39e6d",
+   "created": "2026-09-20T00:00:00.000Z",
+   "modified": "2026-09-20T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--f57b67a5-b81c-52ed-89d4-70440a2b343f",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -3290,6 +4747,37 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--9b0126e2-e02f-5f64-b96d-9d8c1ae90c21",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "pay-service-customer.eu.cc",
+   "pattern": "[domain-name:value = 'pay-service-customer.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--b22f1a64-3a9d-54a6-9836-e5293c9f5740",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--9b0126e2-e02f-5f64-b96d-9d8c1ae90c21",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--d39e4721-736e-5687-9bf3-fda424384f07",
    "created": "2026-06-28T00:00:00.000Z",
    "modified": "2026-06-28T00:00:00.000Z",
@@ -3347,6 +4835,285 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--80dec358-af38-587a-87e3-dce56b6825e6",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--a8711dc3-e5ab-5da2-bfd8-03a5d3207819",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-bup-process.sbs",
+   "pattern": "[domain-name:value = 'paycore-bup-process.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--f62f4f91-ecca-58a8-9399-73355cda29b1",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--a8711dc3-e5ab-5da2-bfd8-03a5d3207819",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--51ada7c4-b68f-5d5c-a3f1-7225eb8c6e49",
+   "created": "2026-09-20T00:00:00.000Z",
+   "modified": "2026-09-20T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation.biz.id",
+   "pattern": "[domain-name:value = 'paycore-confirmation.biz.id']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-20T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--5be3cf79-661e-5c7f-b63a-c0c6fde736ce",
+   "created": "2026-09-20T00:00:00.000Z",
+   "modified": "2026-09-20T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--51ada7c4-b68f-5d5c-a3f1-7225eb8c6e49",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b68ddd52-e2d1-5bf8-bcd5-42c3cebcd41c",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation.lol",
+   "pattern": "[domain-name:value = 'paycore-confirmation.lol']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--94513c89-fce0-5013-9866-e37e22e93a0f",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--b68ddd52-e2d1-5bf8-bcd5-42c3cebcd41c",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--2e09f807-90ba-5d16-b30c-05062fe94993",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation.sbs",
+   "pattern": "[domain-name:value = 'paycore-confirmation.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--03ec532c-79fb-565f-90e3-ba7b9fa433b7",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--2e09f807-90ba-5d16-b30c-05062fe94993",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b2d9f804-d423-5a25-9027-e4ab79e45702",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation.shop",
+   "pattern": "[domain-name:value = 'paycore-confirmation.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-19T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--f55cb03c-9270-5d42-aaac-f20030858fa2",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--b2d9f804-d423-5a25-9027-e4ab79e45702",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f57e767d-2f6f-5cc9-a990-04fb14a3d31d",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation44232.beer",
+   "pattern": "[domain-name:value = 'paycore-confirmation44232.beer']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--0e7422cb-eb6e-58c6-b399-7f5f46382c57",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--f57e767d-2f6f-5cc9-a990-04fb14a3d31d",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--cf47709e-acb5-5b9d-9a64-64a8869ec360",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation44232.casa",
+   "pattern": "[domain-name:value = 'paycore-confirmation44232.casa']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--72a77f04-70aa-5eb6-879a-d7805c748ebd",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--cf47709e-acb5-5b9d-9a64-64a8869ec360",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--829959ef-c741-5de4-affb-5a903c06e46e",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation44232.lol",
+   "pattern": "[domain-name:value = 'paycore-confirmation44232.lol']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--83253641-434f-563f-bbf0-59f4f03919d4",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--829959ef-c741-5de4-affb-5a903c06e46e",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--7d49f4c6-20a8-5d3f-9b17-08e135d3c4e7",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-confirmation44232.study",
+   "pattern": "[domain-name:value = 'paycore-confirmation44232.study']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--e96406ff-2b1f-5c34-bbfc-63faa1d7e7c6",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--7d49f4c6-20a8-5d3f-9b17-08e135d3c4e7",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -3440,6 +5207,37 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e8eb1166-c42a-5228-991a-a5d85a26eb83",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--70d7dfa3-730e-5a68-99e1-16e1f9a0f46c",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-pl-action.eu.cc",
+   "pattern": "[domain-name:value = 'paycore-pl-action.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "DPD (CZ)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--89c226f1-8a34-56c8-9b04-1638ddf62ec1",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--70d7dfa3-730e-5a68-99e1-16e1f9a0f46c",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -3600,6 +5398,68 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--6ac221c0-fcaa-5082-973c-fa4f0fe88684",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-trust-process.cfd",
+   "pattern": "[domain-name:value = 'paycore-trust-process.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--b5f3366f-3ea9-5f88-b897-1abb9341c596",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--6ac221c0-fcaa-5082-973c-fa4f0fe88684",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--638f71eb-b474-58d9-ae60-c94fbc6ba3ce",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "paycore-trust-process.sbs",
+   "pattern": "[domain-name:value = 'paycore-trust-process.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-13T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--24f41988-4cfa-55b5-beec-d3a97c98324b",
+   "created": "2026-09-13T00:00:00.000Z",
+   "modified": "2026-09-13T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--638f71eb-b474-58d9-ae60-c94fbc6ba3ce",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--11e66795-d44f-5e71-a040-ee3af850ee6b",
    "created": "2026-06-26T00:00:00.000Z",
    "modified": "2026-06-26T00:00:00.000Z",
@@ -3724,6 +5584,161 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--6895e56d-1cd1-5c82-9c4a-a13d6d464b60",
+   "created": "2026-09-22T00:00:00.000Z",
+   "modified": "2026-09-22T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "payplcore.biz.id",
+   "pattern": "[domain-name:value = 'payplcore.biz.id']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-22T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--157333e2-0e22-5372-a08a-0950d7820827",
+   "created": "2026-09-22T00:00:00.000Z",
+   "modified": "2026-09-22T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--6895e56d-1cd1-5c82-9c4a-a13d6d464b60",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d37de937-5e44-5f2c-b304-50f0c92acebe",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "payprotect.shop",
+   "pattern": "[domain-name:value = 'payprotect.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Njuskalo (HR)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--d24c0675-1622-5951-90a8-dd1abc5bf728",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--d37de937-5e44-5f2c-b304-50f0c92acebe",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--8dcfcfde-06a3-528b-84ab-e663209d4796",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "payprzelew-core1.fun",
+   "pattern": "[domain-name:value = 'payprzelew-core1.fun']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-29T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--d4bb5848-d421-5607-8941-89ba6bcf7e5d",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--8dcfcfde-06a3-528b-84ab-e663209d4796",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f96f8453-fa45-53d1-aa5f-cdd175517981",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "payprzelew-core1.site",
+   "pattern": "[domain-name:value = 'payprzelew-core1.site']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-29T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--1fddb903-135d-5ceb-add8-87b8dc289ed7",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--f96f8453-fa45-53d1-aa5f-cdd175517981",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--0dff944c-63ee-5822-9c9b-0d1f657236ec",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "payprzelew-core2.eu.cc",
+   "pattern": "[domain-name:value = 'payprzelew-core2.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-29T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--efc06f7f-4df6-5b41-b3d4-ff0dccea884d",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--0dff944c-63ee-5822-9c9b-0d1f657236ec",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--eb1394a2-2cd0-56e4-b95f-9195080d96e4",
    "created": "2026-06-11T00:00:00.000Z",
    "modified": "2026-06-11T00:00:00.000Z",
@@ -3786,14 +5801,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--7f471b0c-c971-519e-b2f8-cd8147260ef0",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "payu-confirmation-pl.eu.cc",
+   "pattern": "[domain-name:value = 'payu-confirmation-pl.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-02T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "PayU (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--0ee2ddfe-3298-5496-be87-02add694b607",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--7f471b0c-c971-519e-b2f8-cd8147260ef0",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--571b1e7d-f306-56a2-9297-f24a0afde383",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "pdfprotectfree.com",
    "pattern": "[domain-name:value = 'pdfprotectfree.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -3807,11 +5853,135 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--a8bb5277-04db-5e88-a288-da4d698658f6",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--571b1e7d-f306-56a2-9297-f24a0afde383",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ec217968-ea00-57b0-9e04-f1b8af98e035",
+   "created": "2026-09-24T00:00:00.000Z",
+   "modified": "2026-09-24T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "poland-corepay1.eu.cc",
+   "pattern": "[domain-name:value = 'poland-corepay1.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-24T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--58e4dd4d-3d2f-5683-b7e9-1a634fe85c13",
+   "created": "2026-09-24T00:00:00.000Z",
+   "modified": "2026-09-24T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--ec217968-ea00-57b0-9e04-f1b8af98e035",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4b044189-51ef-54b2-8e5e-525d6ddbcf43",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "poland-corepay3.eu.cc",
+   "pattern": "[domain-name:value = 'poland-corepay3.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--d7de1ce7-4e90-5dc4-b530-c80e28a783e0",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--4b044189-51ef-54b2-8e5e-525d6ddbcf43",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--5836dfe5-c1bc-51f9-a1d1-a4c95a252bbf",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "poland-corepay4.eu.cc",
+   "pattern": "[domain-name:value = 'poland-corepay4.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--a2902fbb-c6e6-57c0-82fa-38a1817ca51e",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--5836dfe5-c1bc-51f9-a1d1-a4c95a252bbf",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--2ec7c5c7-9ee6-5d63-a8eb-337a0dde9aa2",
+   "created": "2026-09-25T00:00:00.000Z",
+   "modified": "2026-09-25T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "poland-corepay5.eu.cc",
+   "pattern": "[domain-name:value = 'poland-corepay5.eu.cc']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-25T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--451add43-2459-50bb-9055-495fca14d79f",
+   "created": "2026-09-25T00:00:00.000Z",
+   "modified": "2026-09-25T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--2ec7c5c7-9ee6-5d63-a8eb-337a0dde9aa2",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -3848,6 +6018,285 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--907f85d2-8f9d-5fc2-9c81-7911aeb84a16",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "przelew-paycore.biz.id",
+   "pattern": "[domain-name:value = 'przelew-paycore.biz.id']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-19T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--fdbcf164-76e8-507b-af46-a24a491caa8e",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--907f85d2-8f9d-5fc2-9c81-7911aeb84a16",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4a49d65b-2153-5e01-a4f5-3261781fed54",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "przelew-paycore.cfd",
+   "pattern": "[domain-name:value = 'przelew-paycore.cfd']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--9c646390-6aad-5a22-a9b5-bb98946178eb",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--4a49d65b-2153-5e01-a4f5-3261781fed54",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--6870da96-7aa7-5dde-90f8-a20db62b7122",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "przelew-paycore.cyou",
+   "pattern": "[domain-name:value = 'przelew-paycore.cyou']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-17T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--c29d4394-4b74-56d5-9ac4-0e93faa386e8",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--6870da96-7aa7-5dde-90f8-a20db62b7122",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--22f3c29f-01e8-5c07-8947-f42a4aa695f9",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "przelew-paycore.sbs",
+   "pattern": "[domain-name:value = 'przelew-paycore.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "OLX"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--f0655ea9-f3d4-55ce-9bf3-76289fc759f3",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--22f3c29f-01e8-5c07-8947-f42a4aa695f9",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--308bd4ee-ff5c-5cf2-904a-70f38a1f8646",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "przelew-paycore.shop",
+   "pattern": "[domain-name:value = 'przelew-paycore.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-19T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--d52cfd0b-6f19-59e8-9956-cd2a5e471ed1",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--308bd4ee-ff5c-5cf2-904a-70f38a1f8646",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--472011fb-76a1-5466-a76b-b544cc027908",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "przelew-pl.shop",
+   "pattern": "[domain-name:value = 'przelew-pl.shop']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-29T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "bank transfer lure (PL)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--712867c8-5008-52e2-9005-ccaea24db948",
+   "created": "2026-09-29T00:00:00.000Z",
+   "modified": "2026-09-29T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--472011fb-76a1-5466-a76b-b544cc027908",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--9ce701a3-150b-5f54-a327-de08fc7626e5",
+   "created": "2026-09-24T00:00:00.000Z",
+   "modified": "2026-09-24T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "psd18.com",
+   "pattern": "[domain-name:value = 'psd18.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-24T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--ece83c95-ac2e-530f-86ad-a7315dba0124",
+   "created": "2026-09-24T00:00:00.000Z",
+   "modified": "2026-09-24T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--9ce701a3-150b-5f54-a327-de08fc7626e5",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--5b77017a-a6c3-5fc0-99b3-5f49c8aac527",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "qas9daj89fhj27252874.sbs",
+   "pattern": "[domain-name:value = 'qas9daj89fhj27252874.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--97d0e88c-c341-52c6-afbd-4a8686b81764",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--5b77017a-a6c3-5fc0-99b3-5f49c8aac527",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--012b67e0-012f-5ac5-9d7b-591a361af5f0",
+   "created": "2026-09-26T00:00:00.000Z",
+   "modified": "2026-09-26T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "qdscdq.com",
+   "pattern": "[domain-name:value = 'qdscdq.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-26T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--77a6358d-2193-58b6-8be0-64e7650efb59",
+   "created": "2026-09-26T00:00:00.000Z",
+   "modified": "2026-09-26T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--012b67e0-012f-5ac5-9d7b-591a361af5f0",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--7b1d0afd-5562-55aa-b1bc-ba59eb94c01a",
    "created": "2026-07-04T00:00:00.000Z",
    "modified": "2026-07-04T00:00:00.000Z",
@@ -3874,6 +6323,99 @@
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--7b1d0afd-5562-55aa-b1bc-ba59eb94c01a",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--2529d758-9b66-57be-9d6c-94866e9e3646",
+   "created": "2026-09-11T00:00:00.000Z",
+   "modified": "2026-09-11T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "real-compra-verif.world",
+   "pattern": "[domain-name:value = 'real-compra-verif.world']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-11T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "compra lure (ES)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--e5b49d27-c9cf-50fd-ba01-39580b77f632",
+   "created": "2026-09-11T00:00:00.000Z",
+   "modified": "2026-09-11T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--2529d758-9b66-57be-9d6c-94866e9e3646",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--5f04f00e-b80e-53a6-a901-7ca35cb247f7",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "realdr-id.com",
+   "pattern": "[domain-name:value = 'realdr-id.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-19T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--cfae1a81-1805-5521-9f3b-e4a831d2ada0",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--5f04f00e-b80e-53a6-a901-7ca35cb247f7",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--727b21eb-4204-5cb4-8f39-0a2bec2b0d9a",
+   "created": "2026-09-14T00:00:00.000Z",
+   "modified": "2026-09-14T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "receive.sale",
+   "pattern": "[domain-name:value = 'receive.sale']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-14T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--ba54c037-0e79-545a-a681-031d957bb1be",
+   "created": "2026-09-14T00:00:00.000Z",
+   "modified": "2026-09-14T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--727b21eb-4204-5cb4-8f39-0a2bec2b0d9a",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -4034,14 +6576,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--7682b212-ea1b-580f-92bd-7d6766f19751",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "smurfysstore.com",
+   "pattern": "[domain-name:value = 'smurfysstore.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--c59cd5d3-f928-5166-825d-a4009d08c181",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--7682b212-ea1b-580f-92bd-7d6766f19751",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--a5d33f5b-3d18-5f1c-a468-4963182d57dc",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "srvc-de836549.info",
    "pattern": "[domain-name:value = 'srvc-de836549.info']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4055,8 +6628,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--0315abd8-5afc-5682-8f35-f6ce8ac1b072",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--a5d33f5b-3d18-5f1c-a468-4963182d57dc",
@@ -4066,13 +6639,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--8bb7384b-bf43-555f-ade3-92e68a0fd5b5",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "subito-dati.com",
    "pattern": "[domain-name:value = 'subito-dati.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4086,8 +6659,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--6a2f6d05-c9e9-5466-8742-3138cec4f81f",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--8bb7384b-bf43-555f-ade3-92e68a0fd5b5",
@@ -4222,13 +6795,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--6aeb44b5-0113-5763-97d8-b9b25f7a999f",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "supportodati.com",
    "pattern": "[domain-name:value = 'supportodati.com']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4242,8 +6815,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--5d81ca76-7443-5598-ab38-4b507f05e555",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--6aeb44b5-0113-5763-97d8-b9b25f7a999f",
@@ -4253,13 +6826,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--e62dc03d-d2b4-5ceb-8ac8-1ed84114933a",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "supportosubito.it",
    "pattern": "[domain-name:value = 'supportosubito.it']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4273,12 +6846,43 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--37421c29-8c76-5d82-a691-0d0fc3ee8a55",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e62dc03d-d2b4-5ceb-8ac8-1ed84114933a",
    "target_ref": "campaign--72ff06ee-9c77-540f-99f2-e72d203ac295"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b3525568-2143-5d29-9163-cd16959b41f6",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "uchooo.com",
+   "pattern": "[domain-name:value = 'uchooo.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-17T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--a894e67b-16a4-5e07-9241-7a4a39fb0cfc",
+   "created": "2026-09-17T00:00:00.000Z",
+   "modified": "2026-09-17T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--b3525568-2143-5d29-9163-cd16959b41f6",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
    "type": "indicator",
@@ -4345,14 +6949,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--0fe21c1c-3439-5cf0-8323-5f6a30117997",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "user8396926.me",
+   "pattern": "[domain-name:value = 'user8396926.me']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-19T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--ab50998b-cbfa-5753-bb69-e075a68767d1",
+   "created": "2026-09-19T00:00:00.000Z",
+   "modified": "2026-09-19T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--0fe21c1c-3439-5cf0-8323-5f6a30117997",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--d65c30fc-80d7-5b93-ace7-dcbf7a8867af",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "utentesubito.it",
    "pattern": "[domain-name:value = 'utentesubito.it']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4366,8 +7001,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--c4d57fe9-14ef-5b3e-88dd-0fd1d8cb59cb",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--d65c30fc-80d7-5b93-ace7-dcbf7a8867af",
@@ -4407,14 +7042,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--bd08b82a-bda5-5099-96bc-b5be0fac98e8",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "veriffy.sbs",
+   "pattern": "[domain-name:value = 'veriffy.sbs']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-02T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--608a3899-3764-561e-b40d-a24fb019f2cf",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--bd08b82a-bda5-5099-96bc-b5be0fac98e8",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--02792ea0-1c1b-50f6-8433-89fc2b631215",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "verificasubito.it",
    "pattern": "[domain-name:value = 'verificasubito.it']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4428,8 +7094,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--2762af05-699a-5d46-8b11-504727920454",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--02792ea0-1c1b-50f6-8433-89fc2b631215",
@@ -4469,14 +7135,76 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--d9b6d7c9-9e0b-5efc-ad62-0ac948584350",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "verification-page6748.com",
+   "pattern": "[domain-name:value = 'verification-page6748.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-27T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--f8ae4848-1791-559d-b76c-6933b82732a0",
+   "created": "2026-09-27T00:00:00.000Z",
+   "modified": "2026-09-27T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--d9b6d7c9-9e0b-5efc-ad62-0ac948584350",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--23745aa6-7ebb-5cec-9955-1787b10f7f86",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "verification-payment.com",
+   "pattern": "[domain-name:value = 'verification-payment.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-16T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--6cb68542-8fb7-5bd6-ba36-8cfa13644465",
+   "created": "2026-09-16T00:00:00.000Z",
+   "modified": "2026-09-16T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--23745aa6-7ebb-5cec-9955-1787b10f7f86",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--b403c0bf-e15c-5a63-98a1-38270545dba7",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "verificatisubito.it",
    "pattern": "[domain-name:value = 'verificatisubito.it']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4490,8 +7218,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--a065dd7b-ea1b-5aa1-b78f-16b06b60e725",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--b403c0bf-e15c-5a63-98a1-38270545dba7",
@@ -4624,14 +7352,169 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--eb6b87a4-4e7e-5fc6-9e85-14e686bbf459",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "verkaufer-auszahlung.com",
+   "pattern": "[domain-name:value = 'verkaufer-auszahlung.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Kleinanzeigen (DE)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--9925b501-4362-5dbd-913e-b21aa85cee08",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--eb6b87a4-4e7e-5fc6-9e85-14e686bbf459",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--89b35475-4853-5e38-ae41-cd55f308ffb1",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "vintdeactive.com",
+   "pattern": "[domain-name:value = 'vintdeactive.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--b656262a-3de3-51e8-b586-eaf60eca8fc8",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--89b35475-4853-5e38-ae41-cd55f308ffb1",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--a16363ee-5d9d-52a4-a32d-85c9aa2305fc",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "vintedverify.my.id",
+   "pattern": "[domain-name:value = 'vintedverify.my.id']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-30T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--be9166f3-b11e-5e3e-9358-27e450512acc",
+   "created": "2026-09-30T00:00:00.000Z",
+   "modified": "2026-09-30T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--a16363ee-5d9d-52a4-a32d-85c9aa2305fc",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--199bddb5-bc78-5d40-ae5d-5ca51eb5586e",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "vintedverify.web.id",
+   "pattern": "[domain-name:value = 'vintedverify.web.id']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--3da4897e-24e5-5d30-a65d-0dc4d7f29362",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--199bddb5-bc78-5d40-ae5d-5ca51eb5586e",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b839c264-7fb4-53cc-99f8-0e2b677d41ea",
+   "created": "2026-09-24T00:00:00.000Z",
+   "modified": "2026-09-24T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "visa-order.help",
+   "pattern": "[domain-name:value = 'visa-order.help']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-24T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--fe7c35df-c636-526d-b00e-4164726bdc3b",
+   "created": "2026-09-24T00:00:00.000Z",
+   "modified": "2026-09-24T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--b839c264-7fb4-53cc-99f8-0e2b677d41ea",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--a21d7629-da7a-5268-8a08-b06f9629b459",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "welcomeshopping.best",
    "pattern": "[domain-name:value = 'welcomeshopping.best']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4645,11 +7528,73 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--256db573-0b36-547c-aea5-b02f3a947f86",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--a21d7629-da7a-5268-8a08-b06f9629b459",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--900e4f2a-619c-5d50-9806-7e95b3f6d959",
+   "created": "2026-09-21T00:00:00.000Z",
+   "modified": "2026-09-21T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "wfscgj.com",
+   "pattern": "[domain-name:value = 'wfscgj.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-21T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "Vinted"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--35a07673-fd0e-595d-88e6-e7c13836781a",
+   "created": "2026-09-21T00:00:00.000Z",
+   "modified": "2026-09-21T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--900e4f2a-619c-5d50-9806-7e95b3f6d959",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ef89b4e4-77d3-580e-a5a3-3a1ba2071771",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "xzmsffm.com",
+   "pattern": "[domain-name:value = 'xzmsffm.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-10-01T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--79b92734-3464-57d0-b80a-1dd5ee8a4f8f",
+   "created": "2026-10-01T00:00:00.000Z",
+   "modified": "2026-10-01T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--ef89b4e4-77d3-580e-a5a3-3a1ba2071771",
    "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
   },
   {
@@ -4687,13 +7632,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--a45b344d-c46a-511f-b682-45d6ac1a53fa",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "zhkjcx.org",
    "pattern": "[domain-name:value = 'zhkjcx.org']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4707,8 +7652,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--99334ec3-24ce-581d-9741-7f2998220f25",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--a45b344d-c46a-511f-b682-45d6ac1a53fa",
@@ -4717,14 +7662,45 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--e6e33a9c-6f0f-58d6-a03f-9d85bb1fdb36",
+   "created": "2026-09-26T00:00:00.000Z",
+   "modified": "2026-09-26T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "name": "zzuav.com",
+   "pattern": "[domain-name:value = 'zzuav.com']",
+   "pattern_type": "stix",
+   "valid_from": "2026-09-26T00:00:00.000Z",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "labels": [
+    "phishing",
+    "kit",
+    "marketplace-PhaaS (various)"
+   ]
+  },
+  {
+   "type": "relationship",
+   "spec_version": "2.1",
+   "id": "relationship--0967631d-0be0-57a1-8893-4ca62ef979af",
+   "created": "2026-09-26T00:00:00.000Z",
+   "modified": "2026-09-26T00:00:00.000Z",
+   "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--e6e33a9c-6f0f-58d6-a03f-9d85bb1fdb36",
+   "target_ref": "campaign--e43c1c85-835c-5168-89aa-72e51cfb085d"
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--5d49eb3e-8d15-5780-849b-ad33f43d4fc3",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "176.105.253.99",
    "pattern": "[ipv4-addr:value = '176.105.253.99']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4737,8 +7713,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--78bdebf4-afa2-53cb-a164-a03046e5d366",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--5d49eb3e-8d15-5780-849b-ad33f43d4fc3",
@@ -4748,13 +7724,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--c26acacf-269b-5d00-a960-86c74685c759",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "185.166.188.245",
    "pattern": "[ipv4-addr:value = '185.166.188.245']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4767,8 +7743,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--9297633d-5e3a-5b06-b64f-8b919f9465f5",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--c26acacf-269b-5d00-a960-86c74685c759",
@@ -4778,13 +7754,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--5f1945f0-0691-5407-b809-c44ba672539b",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "185.241.208.197",
    "pattern": "[ipv4-addr:value = '185.241.208.197']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4797,8 +7773,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--92099224-ac21-5569-9b81-d69ce5498a09",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--5f1945f0-0691-5407-b809-c44ba672539b",
@@ -4808,13 +7784,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--486a6ec5-e5d7-5370-8547-d1840d874d60",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "185.241.208.228",
    "pattern": "[ipv4-addr:value = '185.241.208.228']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4827,8 +7803,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--19959ddb-b9ff-5668-ba7c-952d18b00275",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--486a6ec5-e5d7-5370-8547-d1840d874d60",
@@ -4838,13 +7814,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--1a4e4bb7-7c39-5e7c-b498-6bfb220f342c",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "194.102.39.119",
    "pattern": "[ipv4-addr:value = '194.102.39.119']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4857,8 +7833,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--86b56192-81b3-52f0-80d5-562afdfb9551",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--1a4e4bb7-7c39-5e7c-b498-6bfb220f342c",
@@ -4868,13 +7844,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--c04219d6-0af9-598d-8959-29c0527016d3",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "194.26.192.126",
    "pattern": "[ipv4-addr:value = '194.26.192.126']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4887,8 +7863,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--4d7c70d7-9fe3-5b52-93d0-8ab7cde9233e",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--c04219d6-0af9-598d-8959-29c0527016d3",
@@ -4898,13 +7874,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--cb5d3c3d-72ee-5cf2-bcce-487c34936c18",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "194.26.192.205",
    "pattern": "[ipv4-addr:value = '194.26.192.205']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4917,8 +7893,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--a637fa19-13b6-54bf-82b6-d9ad4056360a",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--cb5d3c3d-72ee-5cf2-bcce-487c34936c18",
@@ -4928,13 +7904,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--afb6e158-d92e-5a08-a740-ad82fa731861",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "194.26.192.78",
    "pattern": "[ipv4-addr:value = '194.26.192.78']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4947,8 +7923,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--6985cc07-f9d0-5d93-83bf-bb772093b896",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--afb6e158-d92e-5a08-a740-ad82fa731861",
@@ -4958,13 +7934,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--87fdbc1e-c82b-5c36-a110-2820dafefe84",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "194.26.192.95",
    "pattern": "[ipv4-addr:value = '194.26.192.95']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -4977,8 +7953,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--75a00f5f-084f-5e06-85e0-2b308ef35ffd",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--87fdbc1e-c82b-5c36-a110-2820dafefe84",
@@ -4988,13 +7964,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--cf759c1e-afe1-5103-8416-317fbff689c2",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "194.26.192.98",
    "pattern": "[ipv4-addr:value = '194.26.192.98']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5007,8 +7983,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--53478e74-f46d-5969-b87a-1fdec580d634",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--cf759c1e-afe1-5103-8416-317fbff689c2",
@@ -5018,13 +7994,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--ab4c197f-11e5-542e-883a-e9f040b60704",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "199.192.31.14",
    "pattern": "[ipv4-addr:value = '199.192.31.14']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5037,8 +8013,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--ba175410-76e2-518f-b7cf-31071fe549bc",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--ab4c197f-11e5-542e-883a-e9f040b60704",
@@ -5048,13 +8024,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--1622e954-ba5b-5133-a4d3-5140d540d9dc",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "2.58.56.111",
    "pattern": "[ipv4-addr:value = '2.58.56.111']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5067,8 +8043,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--c65a1021-753f-5e13-963e-943ff5b0bf10",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--1622e954-ba5b-5133-a4d3-5140d540d9dc",
@@ -5078,13 +8054,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--4f3b6061-1734-58ee-8627-57098a60d2ba",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "2.58.56.153",
    "pattern": "[ipv4-addr:value = '2.58.56.153']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5097,8 +8073,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--a5807b4c-915a-5cd5-b464-dd9a54aa3116",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--4f3b6061-1734-58ee-8627-57098a60d2ba",
@@ -5108,13 +8084,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--5696976b-808e-51c5-818d-4064d87f34ae",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "2.58.56.189",
    "pattern": "[ipv4-addr:value = '2.58.56.189']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5127,8 +8103,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--41982c5b-2250-5203-94c3-3050947bfc20",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--5696976b-808e-51c5-818d-4064d87f34ae",
@@ -5138,13 +8114,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--53a201c4-440f-5dc3-b831-4174d2d6b1c7",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "2.58.56.70",
    "pattern": "[ipv4-addr:value = '2.58.56.70']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5157,8 +8133,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--01b4a3bf-1bd0-537c-9f94-f8d63c47ad01",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--53a201c4-440f-5dc3-b831-4174d2d6b1c7",
@@ -5168,13 +8144,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--eca098b2-9c88-5238-b1a6-67be0c5fa0c9",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "212.73.134.129",
    "pattern": "[ipv4-addr:value = '212.73.134.129']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5187,8 +8163,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--0a396d2e-159c-5db0-83d6-33c75a335667",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--eca098b2-9c88-5238-b1a6-67be0c5fa0c9",
@@ -5198,13 +8174,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--a37bad76-efe0-5fca-9cd2-5e3685515518",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "31.13.195.94",
    "pattern": "[ipv4-addr:value = '31.13.195.94']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5217,8 +8193,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--543054c7-5526-5449-a9e7-4513c47f43e4",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--a37bad76-efe0-5fca-9cd2-5e3685515518",
@@ -5228,13 +8204,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--b41d8203-aaa8-5597-83d9-aeec1a156856",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "38.180.194.236",
    "pattern": "[ipv4-addr:value = '38.180.194.236']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5247,8 +8223,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--939f0a52-d12e-5933-88ad-3d22f0f848a5",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--b41d8203-aaa8-5597-83d9-aeec1a156856",
@@ -5258,13 +8234,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--e8888717-c180-58e9-9645-8a01d404a071",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "45.138.16.165",
    "pattern": "[ipv4-addr:value = '45.138.16.165']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5277,8 +8253,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--cf7e495b-9be5-506f-9cf1-e8782b2e9344",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e8888717-c180-58e9-9645-8a01d404a071",
@@ -5288,13 +8264,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--ff1c2576-0beb-5f11-9677-f36a5e6f578e",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "45.138.16.203",
    "pattern": "[ipv4-addr:value = '45.138.16.203']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5307,8 +8283,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--847fcb57-88a3-55ea-b59a-521ffb7da4e7",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--ff1c2576-0beb-5f11-9677-f36a5e6f578e",
@@ -5318,13 +8294,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--e731c1c4-f1b8-53d9-9d75-7355e2af8c7d",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "45.141.215.196",
    "pattern": "[ipv4-addr:value = '45.141.215.196']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5337,8 +8313,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--8cd4f936-f4cc-5231-a628-cd1780903a35",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--e731c1c4-f1b8-53d9-9d75-7355e2af8c7d",
@@ -5348,13 +8324,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--5bb1ed99-5e85-55fb-8696-fd6a940864f9",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "66.29.141.228",
    "pattern": "[ipv4-addr:value = '66.29.141.228']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5367,8 +8343,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--d31140af-9f0a-585b-844e-4389c0a7f5ca",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--5bb1ed99-5e85-55fb-8696-fd6a940864f9",
@@ -5378,13 +8354,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--4f29883e-3559-585d-be6c-8ca4459587a5",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "82.221.105.39",
    "pattern": "[ipv4-addr:value = '82.221.105.39']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5397,8 +8373,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--e1e0ab99-d996-5966-bb1e-91d78bc117b2",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--4f29883e-3559-585d-be6c-8ca4459587a5",
@@ -5408,13 +8384,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--706ba4a9-b146-57a9-a10c-43d65e0f6ded",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "82.221.129.16",
    "pattern": "[ipv4-addr:value = '82.221.129.16']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5427,8 +8403,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--8c879d3f-5aec-542d-9a87-0f9775cff4a2",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--706ba4a9-b146-57a9-a10c-43d65e0f6ded",
@@ -5438,13 +8414,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--7c3d19fd-1696-578d-8324-ca2bccecb668",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "87.120.254.171",
    "pattern": "[ipv4-addr:value = '87.120.254.171']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5457,8 +8433,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--e992fa11-1c6d-5970-a6ec-c1d80dbb7f1e",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--7c3d19fd-1696-578d-8324-ca2bccecb668",
@@ -5468,13 +8444,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--5b512f7f-83f5-5d76-bbd5-515b27bc370b",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "87.120.254.37",
    "pattern": "[ipv4-addr:value = '87.120.254.37']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5487,8 +8463,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--0ac71d36-6b3e-50dd-8c1f-3274c86f74c0",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--5b512f7f-83f5-5d76-bbd5-515b27bc370b",
@@ -5498,13 +8474,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--5ba35377-f818-507a-8fd9-09aa0c0dc5ad",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "89.117.1.140",
    "pattern": "[ipv4-addr:value = '89.117.1.140']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5517,8 +8493,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--94914257-4e82-5327-b3bc-1e8f36853e0b",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--5ba35377-f818-507a-8fd9-09aa0c0dc5ad",
@@ -5528,13 +8504,13 @@
    "type": "indicator",
    "spec_version": "2.1",
    "id": "indicator--cd6aba15-f66f-58eb-86e3-820916e22979",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "name": "91.206.169.122",
    "pattern": "[ipv4-addr:value = '91.206.169.122']",
    "pattern_type": "stix",
-   "valid_from": "2026-09-01T00:00:00.000Z",
+   "valid_from": "2026-10-02T00:00:00.000Z",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -5547,8 +8523,8 @@
    "type": "relationship",
    "spec_version": "2.1",
    "id": "relationship--3eb04bfc-fefc-5450-beb3-af678c2b786c",
-   "created": "2026-09-01T00:00:00.000Z",
-   "modified": "2026-09-01T00:00:00.000Z",
+   "created": "2026-10-02T00:00:00.000Z",
+   "modified": "2026-10-02T00:00:00.000Z",
    "created_by_ref": "identity--851b5083-2148-5402-899a-4dea0cc836fc",
    "relationship_type": "indicates",
    "source_ref": "indicator--cd6aba15-f66f-58eb-86e3-820916e22979",

@@ -90,8 +90,8 @@ process.stdin.on("data", d => (s += d)).on("end", () => {
     // "us=gm" matches "/us/gm-..." too (word-adjacency, not exact substring). This
     // regex is the actual precision gate — it is enforced HERE, client-side, not
     // in the query string (verified live: no query-string form avoids the collision).
-    const URLRE = /^https?:\/\/[^\/]+\/a\/[A-Za-z0-9_-]{12,24}(?:[?#]|$).*?(?:[?&]us=(?:gm|dlm|sml|ym)(?:&|$))?/i;
-    const USRE  = /[?&]us=(?:gm|dlm|sml|ym)(?:&|$)/i;
+    const URLRE = /^https?:\/\/[^\/]+\/a\/[A-Za-z0-9_-]{12,24}(?:[?#]|$).*?(?:[?&]us=(?:gm|dlm|sml|ym|cg)(?:&|$))?/i;
+    const USRE  = /[?&]us=(?:gm|dlm|sml|ym|cg)(?:&|$)/i;
     ((j && j.results) || []).forEach(r => {
       const p = r.page || {}, t = r.task || {};
       const ts = Date.parse(t.time || "");
@@ -153,11 +153,33 @@ process.stdin.on("data", d => (s += d)).on("end", () => {
   } else if (mode === "urlscan-hashes") {
     // Result-API JSON (not search JSON): pull sha256 hashes of the kit's own JS chunks
     // for hash-chaining fingerprints.txt as the operators rebuild the kit.
+    // urlscan puts the body hash at requests[].response.hash (a sibling of the
+    // HTTP-level requests[].response.response object). Reading only the nested
+    // path silently returned nothing from 2026-09-25 to 2026-10-02, so chaining
+    // never ran while the kit was rebuilt; accept both locations.
     ((j && j.data && j.data.requests) || []).forEach(req => {
-      const url = String((req.request && req.request.request && req.request.request.url) || "");
-      const hash = (req.response && req.response.response && req.response.response.hash) || "";
-      if (hash && /\/_next\/static\/chunks\/.*\.js(?:[?#]|$)/i.test(url)) console.log(hash);
+      const url = String((req.request && req.request.request && req.request.request.url) ||
+                         (req.response && req.response.response && req.response.response.url) || "");
+      const r = req.response || {};
+      const hash = r.hash || (r.response && r.response.hash) || "";
+      if (/^[a-f0-9]{64}$/i.test(hash) && /\/_next\/static\/chunks\/.*\.js(?:[?#]|$)/i.test(url)) console.log(hash.toLowerCase());
     });
+  } else if (mode === "urlscan-known") {
+    // Hash-chaining precision gate. Search JSON for hash:<sha256> → "<total>\t<known>",
+    // where <known> = distinct apexes/domains in the results that are already known kit
+    // infrastructure (argv[3] = file, one domain per line). Kit chunks co-occur with
+    // known kit domains; generic Next.js/Cloudflare chunks don't.
+    let known = new Set();
+    try { known = new Set(require("fs").readFileSync(process.argv[3], "utf8").split(/\s+/).filter(Boolean).map(x => x.toLowerCase())); } catch {}
+    const seen = new Set();
+    ((j && j.results) || []).forEach(r => {
+      const p = r.page || {};
+      for (const d of [p.apexDomain, p.domain]) {
+        const x = String(d || "").trim().toLowerCase();
+        if (x && known.has(x)) seen.add(x);
+      }
+    });
+    console.log([Number((j && j.total) || 0), seen.size].join("\t"));
   } else if (mode === "doh") {
     ((j && j.Answer) || []).forEach(a => {
       if (a && (a.type === 1 || a.type === 28)) console.log(String(a.data).trim());

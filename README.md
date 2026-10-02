@@ -390,6 +390,7 @@ many candidates are waiting for review. Then drill into the files below as neede
 | `../kit-source/raw_bodies/` | human + hash-chaining | The actual JS source behind every fingerprint hash (`SHA256SUMS.txt` = chain of custody) |
 | `migrate-2026-09*.{sh,tsv}` | one-time | The 2026-09-25 cleanup + the 99 hash-pivot apexes it recovered (historical) |
 | `tests/run.sh` + `tests/fixtures/` | human | Offline regression suite (real urlscan responses) + state invariants; CI runs it before every tracker run — `bash monitor/tests/run.sh` |
+| `FP_STALE.txt` | every run (not committed) | Non-empty when no kit fingerprint has matched for 7+ days (probable kit rebuild) → the workflow opens one `tracker-health` Issue |
 | `export-feeds.js` | every run | Builds `feeds/` from `docs/indicators.csv` + fingerprint-confirmed tier-1 findings; drops denylisted entries and hacked-legit (`dnsonly`) sites |
 | `review-prompt.md` | human | Instructions for the scheduled Claude review of detection Issues (comment-only, never commits) |
 
