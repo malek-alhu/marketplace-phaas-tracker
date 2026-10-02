@@ -49,7 +49,32 @@ check "commas inside matched_url are %2C-encoded (no CSV column shift)"  'printf
 echo "== check.sh: hash-chaining learns only from confirmed kit hits =="
 CS="$MON/check.sh"
 check "FRESH_HITS never fed from raw search results"                     '! grep -q "slice(0,2)" "$CS"'
-check "FRESH_HITS only written inside the two urlscan-kit loops (2 writers)" '[ "$(grep -c ">> \"\$FRESH_HITS\"" "$CS")" -eq 2 ]'
+check "FRESH_HITS written only by the 2 kit loops + the stale-seed from active kit hosts (3 writers)" '[ "$(grep -c ">> \"\$FRESH_HITS\"" "$CS")" -eq 3 ]'
+check "stale-seed reads only active Operator-A kit hosts (never raw search results)" 'grep -q "\$8==\"active\" && (\$4==\"kit-fingerprint\" || \$4==\"watchlist\")" "$CS"'
+
+echo "== parse.js: hash chaining (bug 2026-09-25 -> 10-02: chaining silently found 0 hashes) =="
+RES='{"data":{"requests":[{"request":{"request":{"url":"https://k.test/_next/static/chunks/0c1z7lvoy9-r5.js"}},"response":{"hash":"AAAA0000000000000000000000000000000000000000000000000000000000aa","response":{"url":"https://k.test/_next/static/chunks/0c1z7lvoy9-r5.js"}}},{"request":{"request":{"url":"https://k.test/favicon.ico"}},"response":{"hash":"bbbb000000000000000000000000000000000000000000000000000000000000"}}]}}'
+check "urlscan-hashes reads requests[].response.hash (urlscan's real location)" '[ "$(printf "%s" "$RES" | $P urlscan-hashes)" = "aaaa0000000000000000000000000000000000000000000000000000000000aa" ]'
+KN="$(mktemp)"; printf 'known1.test\nknown2.test\n' > "$KN"
+SR='{"total":64,"results":[{"page":{"apexDomain":"known1.test","domain":"x.known1.test"}},{"page":{"apexDomain":"known2.test","domain":"known2.test"}},{"page":{"apexDomain":"random.test"}}]}'
+check "urlscan-known counts co-occurrence with KNOWN kit domains only" '[ "$(printf "%s" "$SR" | $P urlscan-known "$KN")" = "$(printf "64\t2")" ]'
+check "chaining gate requires >=2 known domains and <1000 total scans" 'grep -q "\"\${cnt:-0}\" -ge 2 \] && \[ \"\${total:-0}\" -lt 1000" "$CS"'
+rm -f "$KN"
+
+echo "== check.sh: fingerprint freshness never wipes the roster =="
+FT2="$(mktemp -d)"
+sed -n '/^# --- fingerprint freshness + staleness alarm/,/^# Context queries:/p' "$CS" > "$FT2/block.sh"
+grep -v '^#' "$MON/fingerprints.txt" > "$FT2/fp"; before="$(wc -l < "$FT2/fp")"
+( TMP="$FT2"; MON="$FT2"; LOG="$FT2/log"; TS=2099-01-01T00:00:00Z; FPRINTS="$FT2/fp"; FRESH_HITS="$FT2/fresh"
+  TRACKED="$FT2/none"; PARSE="$MON/parse.js"; : > "$TRACKED"; is_denied(){ return 1; }; us_search(){ :; }
+  : > "$TMP/fp_hits"; . "$FT2/block.sh" ) >/dev/null 2>&1
+check "no-hit run keeps every fingerprint row (empty fp_hits must not wipe it)" '[ "$(wc -l < "$FT2/fp")" -eq "$before" ]'
+awk -F'\t' '$4<"2026-08-01"' "$MON/fingerprints.txt" | grep -v '^#' > "$FT2/fp_old"
+( TMP="$FT2"; MON="$FT2"; LOG="$FT2/log"; TS=2099-01-01T00:00:00Z; FPRINTS="$FT2/fp_old"; FRESH_HITS="$FT2/fresh"
+  TRACKED="$FT2/none"; PARSE="$MON/parse.js"; : > "$TRACKED"; is_denied(){ return 1; }; us_search(){ :; }
+  : > "$TMP/fp_hits"; . "$FT2/block.sh" ) >/dev/null 2>&1
+check "roster with only months-old hits raises FP_STALE.txt (the rebuild alarm)" '[ -s "$FT2/FP_STALE.txt" ]'
+rm -rf "$FT2"
 order="$(printf '2\thashhit\n1\turlhit\n2\thashhit\n1\turlhit2\n' | sort -t "$(printf '\t')" -k1,1n | cut -f2 | awk '!seen[$0]++' | head -n 3 | paste -sd,)"
 check "chaining picks URL+ASN hits first, deduped (rebuilt kit visible first)" '[ "$order" = "urlhit,urlhit2,hashhit" ]'
 check "check.sh uses that exact priority pipeline"                        'grep -qF "sort -t \"\$(printf '"'"'\\t'"'"')\" -k1,1n \"\$FRESH_HITS\" | cut -f2 | awk '"'"'!seen[\$0]++'"'"' | head -n 3" "$CS"'

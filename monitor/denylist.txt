@@ -97,3 +97,9 @@ res.autonocion.com
 # --- re-resolved here after being dropped (502 since 2026-06-18): parking, not origin.
 81.28.12.12
 2a03:90c0:999c::12
+
+# --- eu.cc: a free public subdomain registry (like a TLD). urlscan reports it as the
+# --- APEX of every *.eu.cc host, so auto-promotion would CT-expand thousands of unrelated
+# --- tenants (the 2026-09 flood pattern). Kit zones under it are curated by hand in
+# --- watchlist.txt (e.g. frakt-orderhubid94699.eu.cc) instead.
+eu.cc

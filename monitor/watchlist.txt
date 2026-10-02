@@ -67,6 +67,41 @@ zhkjcx.org              apex 1 A
 pay-flow.cfd            apex 1 A
 lnvoicel-47293.com      apex 1 A
 blocket-system.cam      apex 1 A
+# === 2026-09 rebuild campaign — zones resolving on Cloudflare 2026-10-02 (hash pivot,
+# === fingerprints next2-chunk-*). Dead ones decay automatically via tracked_hosts.tsv. ===
+0rd56t457543567567567.sbs apex 1 A
+ch-cn-ng28app.com       apex 1 A
+cn-en-c7app.com         apex 1 A
+compra-verif.cfd        apex 1 A
+confirmado.cc           apex 1 A
+cylex-verifbankid.cfd   apex 1 A
+dpd-cz.live             apex 1 A
+encaiss.top             apex 1 A
+frakt-orderhubid94699.eu.cc apex 1 A
+gumtree-payment.shop    apex 1 A
+invoice-center.info     apex 1 A
+monrelaisplusin.icu     apex 1 A
+olx-entrega.it.com      apex 1 A
+order-info62351.com     apex 1 A
+order21.shop            apex 1 A
+order3274.cfd           apex 1 A
+order4851.com           apex 1 A
+orders-info93657.com    apex 1 A
+paczzkaa763238.click    apex 1 A
+paycore-trust-process.cfd apex 1 A
+payprotect.shop         apex 1 A
+payu-confirmation-pl.eu.cc apex 1 A
+przelew-paycore.shop    apex 1 A
+veriffy.sbs             apex 1 A
+verification-page6748.com apex 1 A
+verification-payment.com apex 1 A
+verifiers-online-compras.shop apex 1 A
+verkaufer-auszahlung.com apex 1 A
+vintdeactive.com        apex 1 A
+vintedverify.my.id      apex 1 A
+vintedverify.web.id     apex 1 A
+xzmsffm.com             apex 1 A
+zzuav.com               apex 1 A
 
 # === Operator A — compromised/registered hosts used as redirector or
 # === order/payment-page layer (see docs/operation-dossier.md) ===

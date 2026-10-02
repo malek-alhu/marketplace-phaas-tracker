@@ -358,6 +358,7 @@ while IFS=$'\t' read -r hash label added lasthit status; do
     printf '%s\t%s\n' "$apex" "A" >> "$KITAPEX"
     printf '%s\t%s\t%s\t1\tA\thash:%s\t%s\t%s\n' "$dom" "$ip" "$asn" "${label:-$hash}" "$url" "$uuid" >> "$USCAN"
     [ -n "$uuid" ] && printf '2\t%s\n' "$uuid" >> "$FRESH_HITS"
+    printf '%s\n' "$hash" >> "$TMP/fp_hits"
   done
   sleep 1
 done < "$FPRINTS"
@@ -366,13 +367,46 @@ done < "$FPRINTS"
 # "?us=gm" from "/us/gm-..."), so the ACTUAL precision gate is the client-side
 # regex + AS13335 check inside parse.js's urlscan-kit "url" mode, not this
 # query string.
-resp="$(us_search 'page.url:"us=gm" OR page.url:"us=dlm" OR page.url:"us=sml" OR page.url:"us=ym" OR page.url:"/a/"')"
+resp="$(us_search 'page.url:"us=gm" OR page.url:"us=dlm" OR page.url:"us=sml" OR page.url:"us=ym" OR page.url:"us=cg" OR page.url:"/a/"')"
 printf '%s' "$resp" | node "$PARSE" urlscan-kit 30 url | while IFS=$'\t' read -r apex dom ip asn url uuid; do
   is_denied "$apex" && continue
   printf '%s\t%s\n' "$apex" "A" >> "$KITAPEX"
   printf '%s\t%s\t%s\t1\tA\turlscan-kit(us=)\t%s\t%s\n' "$dom" "$ip" "$asn" "$url" "$uuid" >> "$USCAN"
   [ -n "$uuid" ] && printf '1\t%s\n' "$uuid" >> "$FRESH_HITS"
 done
+
+# --- fingerprint freshness + staleness alarm ---------------------------------
+# A rebuilt kit changes every chunk hash, and urlscan search only looks back
+# 30 days, so "no fingerprint hits" is ambiguous: quiet operators, or a build we
+# can't see. Record the last hit per hash; if NO fingerprint has hit for
+# FP_STALE_DAYS, raise FP_STALE.txt (-> health Issue) and seed hash-chaining
+# with the newest scans of still-active kit hosts so the new build gets learned.
+FP_STALE_DAYS="${FP_STALE_DAYS:-7}"
+TODAY="$(date -u +%F)"
+touch "$TMP/fp_hits"
+# FILENAME, not NR==FNR: fp_hits is usually EMPTY, and NR==FNR would then
+# swallow every fingerprints.txt line as "hits" and wipe the file.
+awk -F'\t' -v OFS='\t' -v today="$TODAY" -v hitsf="$TMP/fp_hits" 'FILENAME==hitsf{hit[$1]=1; next}
+  /^#/ || NF<5 {print; next}
+  ($1 in hit) {$4=today} {print}' "$TMP/fp_hits" "$FPRINTS" > "$TMP/fp_new"
+# never replace the roster with a truncated copy
+if [ "$(grep -vc '^#' "$TMP/fp_new")" -ge "$(grep -vc '^#' "$FPRINTS")" ]; then cat "$TMP/fp_new" > "$FPRINTS"; fi
+NEWEST_HIT="$(grep -v '^#' "$FPRINTS" | awk -F'\t' 'NF>=5{print $4}' | sort | tail -1)"
+FPSTALE="$MON/FP_STALE.txt"; : > "$FPSTALE"
+if [ -n "$NEWEST_HIT" ]; then
+  age_days=$(( ( $(date -u +%s) - $(date -u -d "$NEWEST_HIT" +%s 2>/dev/null || date -u +%s) ) / 86400 ))
+  if [ "$age_days" -ge "$FP_STALE_DAYS" ]; then
+    echo "[$TS] HEALTH-NOTE fingerprints stale: newest kit-hash hit $NEWEST_HIT (${age_days}d) — kit probably rebuilt; seeding hash-chaining from active kit hosts" >> "$LOG"
+    printf 'No kit content-hash fingerprint has matched since %s (%s days). The kit was probably rebuilt.\n' "$NEWEST_HIT" "$age_days" > "$FPSTALE"
+    # newest-first active Operator-A hosts that are confirmed kit (not CT-only subdomains)
+    awk -F'\t' '$3=="A" && $8=="active" && ($4=="kit-fingerprint" || $4=="watchlist"){print $5"\t"$1}' "$TRACKED" 2>/dev/null \
+      | sort -r | cut -f2 | while IFS= read -r h; do is_denied "$h" || echo "$h"; done | head -n 3 | while IFS= read -r h; do
+        uuid="$(us_search "page.domain:\"$h\"" | node "$PARSE" urlscan-kit 14 hash | head -n 1 | cut -f6)"
+        [ -n "$uuid" ] && printf '3\t%s\n' "$uuid" >> "$FRESH_HITS" && printf -- '- seeded chaining from %s (scan %s)\n' "$h" "$uuid" >> "$FPSTALE"
+        sleep 1
+      done
+  fi
+fi
 
 # Context queries: confirm/track CURATED apexes + origins (page.ip surfaces new
 # domains landing on a KNOWN, human-reviewed origin — never an auto-promoted
@@ -596,15 +630,24 @@ sort -u "$AUTO_APEX" -o "$AUTO_APEX"
 # (otherwise log it as a review candidate — never trust a single co-occurrence).
 if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
   KNOWN_HASHES="$TMP/known_hashes"; cut -f1 "$FPRINTS" | grep -v '^#' | grep -v '^$' >> "$KNOWN_HASHES" 2>/dev/null || : > "$KNOWN_HASHES"
+  # Known kit infrastructure = reviewed indicators + watchlist apexes + tracked hosts.
+  KNOWN_DOMS="$TMP/known_doms"
+  { awk -F, 'NR>1 && $1=="domain"{print $2}' "$ROOT/docs/indicators.csv" 2>/dev/null
+    sed 's/#.*//' "$WATCH" | awk '$2=="apex"{print $1}'
+    cut -f1 "$TRACKED"; cut -f1 "$AUTO_APEX"; } | tr '[:upper:]' '[:lower:]' | grep -v '^$' | sort -u > "$KNOWN_DOMS"
   sort -t "$(printf '\t')" -k1,1n "$FRESH_HITS" | cut -f2 | awk '!seen[$0]++' | head -n 3 | while IFS= read -r uuid; do
     [ -z "$uuid" ] && continue
     hashes="$(us_result "$uuid" | node "$PARSE" urlscan-hashes | sort -u)"
     printf '%s\n' "$hashes" | grep -v '^$' | while IFS= read -r h; do
       grep -qxF "$h" "$KNOWN_HASHES" 2>/dev/null && continue
-      cnt="$(us_search "hash:\"$h\"" | node "$PARSE" urlscan-kit 30 hash | cut -f1 | sort -u | wc -l)"
-      if [ "${cnt:-0}" -ge 2 ]; then
-        printf '%s\tchained\t%s\t%s\tchained\n' "$h" "$TS" "$TS" >> "$FPRINTS"
-        echo "[$TS] HASH-CHAIN new fingerprint $h co-occurs with $cnt apexes -> added to fingerprints.txt" >> "$LOG"
+      # Accept only chunks that co-occur with >=2 ALREADY-KNOWN kit domains and are
+      # not ubiquitous (generic Next.js/Cloudflare chunks hit thousands of sites).
+      # Validated 2026-10-02 on the rebuilt kit: 13/13 kit chunks accepted, 12/12
+      # generic ones rejected (docs/operation-dossier.md §15).
+      IFS=$'\t' read -r total cnt <<< "$(us_search "hash:\"$h\"" | node "$PARSE" urlscan-known "$KNOWN_DOMS")"
+      if [ "${cnt:-0}" -ge 2 ] && [ "${total:-0}" -lt 1000 ]; then
+        printf '%s\tchained\t%s\t%s\tchained\n' "$h" "${TS%%T*}" "${TS%%T*}" >> "$FPRINTS"
+        echo "[$TS] HASH-CHAIN new fingerprint $h co-occurs with $cnt known kit domains ($total scans) -> added to fingerprints.txt" >> "$LOG"
         # Archive the actual source, same convention as kit-source/raw_bodies/ —
         # a hash in fingerprints.txt is only as useful to a future analyst as
         # the code sample it represents; urlscan's own retention is not forever.
@@ -618,8 +661,8 @@ if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
             echo "[$TS] HASH-CHAIN archived source body for $h -> kit-source/raw_bodies/$h.js" >> "$LOG"
           fi
         fi
-      else
-        printf 'hash,%s,candidate,co-occurs with only %s apex(es) - needs manual review,%s\n' "$h" "${cnt:-0}" "$TS" >> "$DISCO"
+      elif [ "${cnt:-0}" -ge 1 ] && [ "${total:-0}" -lt 1000 ]; then
+        printf 'hash,%s,candidate,co-occurs with %s known kit domain(s) in %s scans - needs manual review,%s\n' "$h" "${cnt:-0}" "${total:-0}" "$TS" >> "$DISCO"
       fi
       sleep 1
     done

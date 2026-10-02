@@ -82,6 +82,27 @@ jobs:
             echo "no new tier-1 Operator-A indicators — no issue opened"
           fi
 
+      - name: Alert when kit fingerprints go stale (probable kit rebuild)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # One open health Issue at a time. It also carries `operator-a` so the
+          # scheduled Claude review picks it up and runs the drift pivot
+          # (monitor/review-prompt.md §6).
+          if [ -s monitor/FP_STALE.txt ]; then
+            gh label create "tracker-health" --color 5319E7 --description "Tracker blind spot (e.g. stale kit fingerprints)" --force >/dev/null 2>&1 || true
+            gh label create "operator-a" --color B60205 --description "Live Operator-A kit (primary target)" --force >/dev/null 2>&1 || true
+            if [ -z "$(gh issue list --label tracker-health --state open --json number --jq '.[].number')" ]; then
+              gh issue create \
+                --title "Tracker health: kit fingerprints stale — $(date -u +%F)" \
+                --label "tracker-health" --label "operator-a" \
+                --body "$(cat monitor/FP_STALE.txt; printf '\n\nThe tracker is probably blind to the current kit build. Hash-chaining was seeded from the newest scans of active kit hosts; the scheduled review will run the drift pivot and post candidate fingerprints here. Close this Issue once fingerprints.txt holds hashes that hit again.')"
+            else
+              echo "tracker-health Issue already open — not duplicating"
+            fi
+          fi
+
   weekly-digest:
     # On a manual run both jobs fire — `needs` serializes them so the digest
     # sees (and doesn't race) the monitor's push. always() keeps the digest

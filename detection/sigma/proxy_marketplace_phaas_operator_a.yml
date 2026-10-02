@@ -34,10 +34,13 @@ description: |
     Detects the follow-on stages of the same kit: the personalised fake listing
     (/helpdesk/<10-char id>/<brand>) and the bank-tailored fake login
     (/viewer/<base64 bank>/<base64 scenario>/<adtag>, e.g. /viewer/aXBrbw/Ml8w/... = "ipko"/"2_0"; Ml8w/MV8w = the kit's 2.0/1.0 scenarios).
+    Also the September 2026 rebuild's entry link, which usually drops ?us= and uses a random
+    16-character token: /a/<16 chars>.
 references:
     - https://github.com/malek-alhu/marketplace-phaas-tracker
 author: marketplace-phaas-tracker contributors
 date: 2026-09-30
+modified: 2026-10-02
 tags:
     - attack.initial-access
     - attack.t1566.002
@@ -49,7 +52,10 @@ detection:
         c-uri|re: '/helpdesk/[A-Za-z0-9]{10}/(olx|subito|kleinanzeigen|marktplaats|blocket|bytbil|inpost|omniva|allegro|leboncoin|vinted|wallapop|dba|finn|tradera|bazar|dpd|dhl|correos|ctt|posta)\b'
     selection_bank:
         c-uri|re: '/viewer/[A-Za-z0-9_-]{3,24}/(Ml8w|MV8w)/[A-Za-z0-9_-]{6,}'
+    selection_entry_2026_09:
+        c-uri|re: '/a/[A-Za-z0-9_-]{16}(\?|#|$)'
     condition: 1 of selection_*
 falsepositives:
+    - Any site with a /a/<16-character id> path (short-link services, some CMSs); triage on the destination domain - Operator A is always behind Cloudflare on days-old domains
     - Self-hosted helpdesk products that use /helpdesk/<id>/<name> paths; review the destination domain (Operator A is always behind Cloudflare, domains are days old)
 level: medium
