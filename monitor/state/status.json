@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T17:11:55Z",
-  "last_run_at": "2026-10-02T17:09:15Z",
-  "last_run_summary": "[2026-10-02T17:09:15Z] no new tier-1 Operator-A indicators",
-  "last_health_line": "[2026-10-02T17:09:15Z] HEALTH certspotter=10/36 crtsh=0/3 urlscan=54/54 dns-google=20/20 dns-cf=20/20",
+  "generated_at": "2026-10-02T21:43:06Z",
+  "last_run_at": "2026-10-02T21:38:59Z",
+  "last_run_summary": "[2026-10-02T21:38:59Z] no new tier-1 Operator-A indicators",
+  "last_health_line": "[2026-10-02T21:38:59Z] HEALTH certspotter=10/36 crtsh=1/4 urlscan=54/54 dns-google=20/20 dns-cf=20/20",
   "tracked_hosts": {
     "total": 78,
     "by_status": {
