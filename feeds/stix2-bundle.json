@@ -396,7 +396,8 @@
    "labels": [
     "phishing",
     "kit",
-    "FINN (NO)"
+    "FINN (NO)",
+    "resolving"
    ]
   },
   {
@@ -459,7 +460,8 @@
    "labels": [
     "phishing",
     "kit",
-    "FINN (NO)"
+    "FINN (NO)",
+    "resolving"
    ]
   },
   {
@@ -962,7 +964,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -1121,7 +1124,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -1152,7 +1156,8 @@
    "labels": [
     "phishing",
     "kit",
-    "OLX"
+    "OLX",
+    "resolving"
    ]
   },
   {
@@ -1432,7 +1437,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Depop"
+    "Depop",
+    "resolving"
    ]
   },
   {
@@ -2242,7 +2248,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Depop"
+    "Depop",
+    "resolving"
    ]
   },
   {
@@ -3767,7 +3774,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Leboncoin (FR)"
+    "Leboncoin (FR)",
+    "resolving"
    ]
   },
   {
@@ -4519,7 +4527,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -4550,7 +4559,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -4799,7 +4809,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -5273,7 +5284,8 @@
    "labels": [
     "phishing",
     "kit",
-    "DPD (CZ)"
+    "DPD (CZ)",
+    "resolving"
    ]
   },
   {
@@ -5711,7 +5723,8 @@
    "labels": [
     "phishing",
     "kit",
-    "OLX"
+    "OLX",
+    "resolving"
    ]
   },
   {
@@ -5774,7 +5787,8 @@
    "labels": [
     "phishing",
     "kit",
-    "bank transfer lure (PL)"
+    "bank transfer lure (PL)",
+    "resolving"
    ]
   },
   {
@@ -5930,7 +5944,8 @@
    "labels": [
     "phishing",
     "kit",
-    "OLX"
+    "OLX",
+    "resolving"
    ]
   },
   {
@@ -6245,7 +6260,8 @@
    "labels": [
     "phishing",
     "kit",
-    "bank transfer lure (PL)"
+    "bank transfer lure (PL)",
+    "resolving"
    ]
   },
   {
@@ -6276,7 +6292,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Vinted"
+    "Vinted",
+    "resolving"
    ]
   },
   {
@@ -6307,7 +6324,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Vinted"
+    "Vinted",
+    "resolving"
    ]
   },
   {
@@ -6338,7 +6356,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Vinted"
+    "Vinted",
+    "resolving"
    ]
   },
   {
@@ -6464,7 +6483,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -6650,7 +6670,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Vinted"
+    "Vinted",
+    "resolving"
    ]
   },
   {
@@ -6930,7 +6951,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Vinted"
+    "Vinted",
+    "resolving"
    ]
   },
   {
@@ -7180,7 +7202,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -7622,7 +7645,8 @@
    "labels": [
     "phishing",
     "kit",
-    "Vinted"
+    "Vinted",
+    "resolving"
    ]
   },
   {

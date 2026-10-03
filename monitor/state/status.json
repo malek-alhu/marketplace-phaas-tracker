@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-03T03:19:45Z",
-  "last_run_at": "2026-10-03T03:09:31Z",
-  "last_run_summary": "[2026-10-03T03:09:31Z] 127 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-03T03:09:31Z] HEALTH certspotter=10/69 crtsh=0/3 urlscan=100/100 dns-google=290/290 dns-cf=290/290",
+  "generated_at": "2026-10-03T11:10:39Z",
+  "last_run_at": "2026-10-03T10:53:59Z",
+  "last_run_summary": "[2026-10-03T10:53:59Z] 32 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-03T10:53:59Z] HEALTH certspotter=10/132 crtsh=0/3 urlscan=189/189 dns-google=368/368 dns-cf=368/368",
   "tracked_hosts": {
-    "total": 213,
+    "total": 252,
     "by_status": {
       "dead": 70,
-      "active": 143
+      "active": 182
     },
     "by_operator_tier": {
-      "A:tier1": 213
+      "A:tier1": 252
     }
   },
   "fingerprints": [
@@ -307,134 +307,197 @@
       "added": "2026-10-03",
       "last_confirmed_hit": "2026-10-03",
       "status": "chained"
+    },
+    {
+      "hash": "50f73fc2fca6b8efb617d8613e5988b78ba91041c968f87cc1dc02a82763c00e",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "a7d6704aa536ded7b9dd4fa6bec24eb8aff0728c114e273de92655be78bf3710",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "50f73fc2fca6b8efb617d8613e5988b78ba91041c968f87cc1dc02a82763c00e",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "a7d6704aa536ded7b9dd4fa6bec24eb8aff0728c114e273de92655be78bf3710",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "c947feaccc2e6940ee7e00358ab46ebc5f9f4925af5600961be44e49b9fe6469",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
+    },
+    {
+      "hash": "d4784798bf7ea53e968a72e0519716bbb33c9dbff291ca37c0de0d5d877af5d0",
+      "label": "chained",
+      "added": "2026-10-03",
+      "last_confirmed_hit": "2026-10-03",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 241
+    "A": 273
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "verifiers-online-compras.shop",
+      "indicator": "dfclgzw.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vintdeactive.com",
+      "indicator": "dpd.poland-corepay1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.0rd56t457543567567567.sbs",
+      "indicator": "dub.sh",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.order-info84719.com",
+      "indicator": "frakt-orderhubid94699.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.order3274.cfd",
+      "indicator": "gumlree.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.psd18.com",
+      "indicator": "gumtree-payment.shop",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.qas9daj89fhj27252874.sbs",
+      "indicator": "inpost.paczzka4342362.buzz",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.qdscdq.com",
+      "indicator": "inpost.paczzka4342362.sbs",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.realdr-id.com",
+      "indicator": "nfw.cz",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.smurfysstore.com",
+      "indicator": "paczzka4342362.buzz",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.uchooo.com",
+      "indicator": "prelo.psd18.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.veriffy.sbs",
+      "indicator": "smurfysstore.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.verification-page6748.com",
+      "indicator": "verif-compr-es.cfd",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.wfscgj.com",
+      "indicator": "verif-compras.online",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vintedverify.my.id",
+      "indicator": "verification-help.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "vintedverify.web.id",
+      "indicator": "vinted-au-user-verif.pages.dev",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "visa-order.help",
+      "indicator": "vinted-verify.online",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "wallapop.confirmado.cc",
+      "indicator": "vinted.58stw.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "xzmsffm.com",
+      "indicator": "vinted.9mwh.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     },
     {
       "type": "domain",
-      "indicator": "zzuav.com",
+      "indicator": "website.depop.qdscdq.com",
       "operator": "A",
-      "first_seen": "2026-10-03T03:09:31Z"
+      "first_seen": "2026-10-03T10:53:59Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 186,
+  "manual_review_candidates_pending": 191,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

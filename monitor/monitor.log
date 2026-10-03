@@ -1670,3 +1670,88 @@
 [2026-10-03T03:09:31Z] SCAN-SAVED gumtree.order4851.com -> https://urlscan.io/result/01a0ffc6-5676-745a-8cc7-f811c1df353f/
 [2026-10-03T03:09:31Z] SCAN-BACKLOG 44 live host(s) queued for next run (cap 20/run)
 [2026-10-03T03:09:31Z] 127 new tier-1 Operator-A indicator(s) this run
+[2026-10-03T10:53:59Z] NEW cert  confirmation-order.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW cert  frakt-orderhubid94699.eu.cc  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW cert  order4851.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW cert  pay-service-customer.eu.cc  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW cert  payprzelew-core1.site  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW cert  qdscdq.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  0rd56t457543567567567.sbs  [urlscan @172.67.140.163 (apex-context:0rd56t457543567567567.sbs) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  beseif.compra-verif.cfd  [urlscan @188.114.96.3 (apex-context:compra-verif.cfd) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  ch-cn-ng28app.com  [urlscan @188.114.96.3 (apex-context:ch-cn-ng28app.com) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  cn-en-c7app.com  [urlscan @172.67.188.196 (apex-context:cn-en-c7app.com) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  confirmado.cc  [urlscan @2a06:98c1:3120::3 (apex-context:confirmado.cc) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  correos.compra-verif.cfd  [urlscan @188.114.97.3 (apex-context:compra-verif.cfd) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  dfclgzw.com  [urlscan @104.21.94.129 (apex-context:dfclgzw.com) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  dpd.poland-corepay1.eu.cc  [urlscan @http://dpd.poland-corepay1.eu.cc/ (apex-context:poland-corepay1.eu.cc) / 01a0d425-72c7-77a6-8d2d-cf46ab54182d] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  dub.sh  [urlscan @https://depop.huian189.com/a/di9TcUpBcGRJZUdM (apex-context:huian189.com) / 01a0d74d-9b67-702a-9d20-0ac9e9425676] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  frakt-orderhubid94699.eu.cc  [urlscan @188.114.96.3 (apex-context:frakt-orderhubid94699.eu.cc) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  gumlree.com  [urlscan @https://smurfysstore.com/l0aa4ma3r (apex-context:smurfysstore.com) / 01a04e51-97cb-7196-9230-1935766aba4b] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  gumtree-payment.shop  [urlscan @188.114.96.3 (apex-context:gumtree-payment.shop) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  inpost.paczzka4342362.buzz  [urlscan @172.67.140.237 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  inpost.paczzka4342362.sbs  [urlscan @104.21.69.37 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  nfw.cz  [urlscan @https://dfclgzw.com/a/bItn7C3ausd6BP8e (apex-context:dfclgzw.com) / 01a0eb7d-47d1-725e-8d3b-b3de17389567] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  paczzka4342362.buzz  [urlscan @172.67.140.237 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  prelo.psd18.com  [urlscan @104.21.25.161 (apex-context:psd18.com) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  smurfysstore.com  [urlscan @172.67.164.105 (apex-context:smurfysstore.com) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  verif-compr-es.cfd  [urlscan @104.21.88.233 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  verif-compras.online  [urlscan @2a06:98c1:3121::3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  verification-help.com  [urlscan @172.67.189.245 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  vinted-au-user-verif.pages.dev  [urlscan @https://vinted.uchooo.com/a/di9DN1NwRmhiSk1F (apex-context:uchooo.com) / 01a0adea-8f57-76fe-9726-894a7b788229] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  vinted-verify.online  [urlscan @https://gumtree.58stw.com/a/di9IS1U5VTlKRmZ6 (apex-context:58stw.com) / 01a0c779-95cc-7207-a22b-51494ab97dd8] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  vinted.58stw.com  [urlscan @104.21.24.224 (apex-context:58stw.com) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  vinted.9mwh.com  [urlscan @104.21.45.28 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-03T10:53:59Z] NEW domain  website.depop.qdscdq.com  [urlscan @https://website.depop.qdscdq.com/ (apex-context:qdscdq.com) / 01a0e429-e310-77c2-acf1-2a606bf13e8d] tier=1 op=A
+[2026-10-03T10:53:59Z] candidate ip  104.21.20.229  [dns (nfw.cz)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  172.67.194.189  [dns (nfw.cz)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  220.15.71.65  [dns (paczzka434236212.shop)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  2606:4700:3030::6815:14e5  [dns (nfw.cz)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  2606:4700:3030::ac43:c2bd  [dns (nfw.cz)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  45.74.137.37  [dns (confirmation-order.sbs)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  64.239.109.1  [dns (dub.sh)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  64.239.109.65  [dns (dub.sh)] tier=2 op=A
+[2026-10-03T10:53:59Z] candidate ip  64.239.123.1  [dns (dub.sh)] tier=2 op=A
+[2026-10-03T10:53:59Z] HEALTH certspotter=10/132 crtsh=0/3 urlscan=189/189 dns-google=368/368 dns-cf=368/368
+[2026-10-03T10:53:59Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-03T10:53:59Z] AUTO-PROMOTE apex 9mwh.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T10:53:59Z] AUTO-PROMOTE apex paczzka4342362.buzz (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T10:53:59Z] AUTO-PROMOTE apex paczzka4342362.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T10:53:59Z] AUTO-PROMOTE apex verif-compr-es.cfd (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T10:53:59Z] AUTO-PROMOTE apex verif-compras.online (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T10:53:59Z] AUTO-PROMOTE apex verification-help.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint 50f73fc2fca6b8efb617d8613e5988b78ba91041c968f87cc1dc02a82763c00e co-occurs with 3 known kit domains (2 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN archived source body for 50f73fc2fca6b8efb617d8613e5988b78ba91041c968f87cc1dc02a82763c00e -> kit-source/raw_bodies/50f73fc2fca6b8efb617d8613e5988b78ba91041c968f87cc1dc02a82763c00e.js
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint 87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328 co-occurs with 6 known kit domains (4 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN archived source body for 87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328 -> kit-source/raw_bodies/87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328.js
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint a7d6704aa536ded7b9dd4fa6bec24eb8aff0728c114e273de92655be78bf3710 co-occurs with 3 known kit domains (2 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN archived source body for a7d6704aa536ded7b9dd4fa6bec24eb8aff0728c114e273de92655be78bf3710 -> kit-source/raw_bodies/a7d6704aa536ded7b9dd4fa6bec24eb8aff0728c114e273de92655be78bf3710.js
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint 50f73fc2fca6b8efb617d8613e5988b78ba91041c968f87cc1dc02a82763c00e co-occurs with 3 known kit domains (2 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint 87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328 co-occurs with 6 known kit domains (4 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint a7d6704aa536ded7b9dd4fa6bec24eb8aff0728c114e273de92655be78bf3710 co-occurs with 3 known kit domains (2 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint 87743dc278f7042cebf957703ae7e71b376b54572700a998e2cb3539137aa328 co-occurs with 6 known kit domains (4 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint c947feaccc2e6940ee7e00358ab46ebc5f9f4925af5600961be44e49b9fe6469 co-occurs with 3 known kit domains (2 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN archived source body for c947feaccc2e6940ee7e00358ab46ebc5f9f4925af5600961be44e49b9fe6469 -> kit-source/raw_bodies/c947feaccc2e6940ee7e00358ab46ebc5f9f4925af5600961be44e49b9fe6469.js
+[2026-10-03T10:53:59Z] HASH-CHAIN new fingerprint d4784798bf7ea53e968a72e0519716bbb33c9dbff291ca37c0de0d5d877af5d0 co-occurs with 3 known kit domains (2 scans) -> added to fingerprints.txt
+[2026-10-03T10:53:59Z] HASH-CHAIN archived source body for d4784798bf7ea53e968a72e0519716bbb33c9dbff291ca37c0de0d5d877af5d0 -> kit-source/raw_bodies/d4784798bf7ea53e968a72e0519716bbb33c9dbff291ca37c0de0d5d877af5d0.js
+[2026-10-03T10:53:59Z] SCAN-SAVED confirmation-order.sbs -> https://urlscan.io/result/01a10174-9558-772e-8232-d13a8e04a9ef/
+[2026-10-03T10:53:59Z] SCAN-SAVED dub.sh -> https://urlscan.io/result/01a10174-a137-70dc-a870-df15f0da2714/
+[2026-10-03T10:53:59Z] SCAN-SAVED invoice-center.info -> https://urlscan.io/result/01a10174-ab69-7231-912a-6422746c7473/
+[2026-10-03T10:53:59Z] SCAN-SAVED klelnanzeigen-deutch.verkaufer-auszahlung.com -> https://urlscan.io/result/01a10174-b856-724d-a78e-e7a57a8043cd/
+[2026-10-03T10:53:59Z] SCAN-SAVED leboncoin.monrelaisplusin.icu -> https://urlscan.io/result/01a10174-c3ca-77cd-b516-3f3f358261d2/
+[2026-10-03T10:53:59Z] SCAN-SAVED lnk.ink -> https://urlscan.io/result/01a10174-cf98-7303-a0ae-aa317fc5fde2/
+[2026-10-03T10:53:59Z] SCAN-SAVED marktplaats.verkaufer-auszahlung.com -> https://urlscan.io/result/01a10174-db77-75fc-ac86-486d0a5e60d7/
+[2026-10-03T10:53:59Z] SCAN-SAVED milanuncios.compra-verif.cfd -> https://urlscan.io/result/01a10174-e692-7455-bca8-2d65ca5ea7d0/
+[2026-10-03T10:53:59Z] SCAN-SAVED milanuncios.confirmado.cc -> https://urlscan.io/result/01a10174-f20a-72cc-963f-eb785990113f/
+[2026-10-03T10:53:59Z] SCAN-SAVED monrelaisplusin.icu -> https://urlscan.io/result/01a10174-fefd-7762-8144-336dc65a42be/
+[2026-10-03T10:53:59Z] SCAN-SAVED nfw.cz -> https://urlscan.io/result/01a10175-0a4a-73cc-a995-fd182f0adf4a/
+[2026-10-03T10:53:59Z] SCAN-SAVED njuskalo.payprotect.shop -> https://urlscan.io/result/01a10175-160c-73db-bc32-eb955d4d8d3f/
+[2026-10-03T10:53:59Z] SCAN-SAVED olx-entrega.it.com -> https://urlscan.io/result/01a10175-21d4-70b1-ab78-9bddf5051db8/
+[2026-10-03T10:53:59Z] SCAN-SAVED order-detaljer.shop -> https://urlscan.io/result/01a10175-2d0d-7394-88fc-efd21f7dc89b/
+[2026-10-03T10:53:59Z] SCAN-SAVED order-info62351.com -> https://urlscan.io/result/01a10175-38f9-77ab-8f91-f9a95c11d8cf/
+[2026-10-03T10:53:59Z] SCAN-SAVED order21.shop -> https://urlscan.io/result/01a10175-432f-74bc-8bdf-7e775477cf44/
+[2026-10-03T10:53:59Z] SCAN-SAVED order3274.cfd -> https://urlscan.io/result/01a10175-5041-777c-b405-47495ac7ff07/
+[2026-10-03T10:53:59Z] SCAN-SAVED order4851.com -> https://urlscan.io/result/01a10175-5c35-76e7-a2e5-f88e8e1a7993/
+[2026-10-03T10:53:59Z] SCAN-SAVED orders-info93657.com -> https://urlscan.io/result/01a10175-67bd-774c-be25-c17582ff03df/
+[2026-10-03T10:53:59Z] SCAN-SAVED paczzka434236212.shop -> https://urlscan.io/result/01a10175-73b2-7038-9fc5-304f8629df7b/
+[2026-10-03T10:53:59Z] SCAN-BACKLOG 29 live host(s) queued for next run (cap 20/run)
+[2026-10-03T10:53:59Z] 32 new tier-1 Operator-A indicator(s) this run

@@ -466,3 +466,44 @@ ip,2606:4700:3037::ac43:b474,dns (leboncoin.monrelaisplusin.icu),Cloudflare-edge
 ip,2606:4700:3037::ac43:b6eb,dns (cylex-verifbankid.cfd),Cloudflare-edge,2026-10-03T03:09:31Z,2,A,,
 ip,2606:4700:3037::ac43:cf2e,dns (payu-confirmation-pl.eu.cc),Cloudflare-edge,2026-10-03T03:09:31Z,2,A,,
 ip,88.154.127.228,dns (paycore-confirmation.lol),NON-CF — host left Cloudflare (manual review),2026-10-03T03:09:31Z,2,A,,
+cert,confirmation-order.sbs,ct-log (apex subdomain),,2026-10-03T10:53:59Z,1,A,,
+cert,frakt-orderhubid94699.eu.cc,ct-log (apex subdomain),,2026-10-03T10:53:59Z,1,A,,
+cert,order4851.com,ct-log (apex subdomain),,2026-10-03T10:53:59Z,1,A,,
+cert,pay-service-customer.eu.cc,ct-log (apex subdomain),,2026-10-03T10:53:59Z,1,A,,
+cert,payprzelew-core1.site,ct-log (apex subdomain),,2026-10-03T10:53:59Z,1,A,,
+cert,qdscdq.com,ct-log (apex subdomain),,2026-10-03T10:53:59Z,1,A,,
+domain,0rd56t457543567567567.sbs,urlscan @172.67.140.163 (apex-context:0rd56t457543567567567.sbs),AS13335,2026-10-03T10:53:59Z,1,A,https://0rd56t457543567567567.sbs/,01a0ffc5-83df-75ed-8dd4-c92ac43d4506
+domain,beseif.compra-verif.cfd,urlscan @188.114.96.3 (apex-context:compra-verif.cfd),AS13335,2026-10-03T10:53:59Z,1,A,https://beseif.compra-verif.cfd/,01a0ffc5-8ee7-7458-83e2-6618935e0e43
+domain,ch-cn-ng28app.com,urlscan @188.114.96.3 (apex-context:ch-cn-ng28app.com),AS13335,2026-10-03T10:53:59Z,1,A,https://ch-cn-ng28app.com/,01a0ffc5-c612-7089-b457-05f6a9ce2164
+domain,cn-en-c7app.com,urlscan @172.67.188.196 (apex-context:cn-en-c7app.com),AS13335,2026-10-03T10:53:59Z,1,A,https://cn-en-c7app.com/,01a0ffc5-d0e0-764f-bf10-97c7d52af841
+domain,confirmado.cc,urlscan @2a06:98c1:3120::3 (apex-context:confirmado.cc),AS13335,2026-10-03T10:53:59Z,1,A,https://confirmado.cc/,01a0ffc5-e77f-718e-9ba8-1e2b3aca35ac
+domain,correos.compra-verif.cfd,urlscan @188.114.97.3 (apex-context:compra-verif.cfd),AS13335,2026-10-03T10:53:59Z,1,A,https://correos.compra-verif.cfd/,01a0ffc5-fca2-77b2-96d7-86f7be6efddd
+domain,dfclgzw.com,urlscan @104.21.94.129 (apex-context:dfclgzw.com),AS13335,2026-10-03T10:53:59Z,1,A,https://dfclgzw.com/,01a0ea4d-026b-71ee-9b87-b06eac49842d
+domain,dpd.poland-corepay1.eu.cc,urlscan @http://dpd.poland-corepay1.eu.cc/ (apex-context:poland-corepay1.eu.cc),01a0d425-72c7-77a6-8d2d-cf46ab54182d,2026-10-03T10:53:59Z,1,A,,
+domain,dub.sh,urlscan @https://depop.huian189.com/a/di9TcUpBcGRJZUdM (apex-context:huian189.com),01a0d74d-9b67-702a-9d20-0ac9e9425676,2026-10-03T10:53:59Z,1,A,,
+domain,frakt-orderhubid94699.eu.cc,urlscan @188.114.96.3 (apex-context:frakt-orderhubid94699.eu.cc),AS13335,2026-10-03T10:53:59Z,1,A,https://frakt-orderhubid94699.eu.cc/,01a0ffc6-351e-7618-97a3-adb5b5b3055b
+domain,gumlree.com,urlscan @https://smurfysstore.com/l0aa4ma3r (apex-context:smurfysstore.com),01a04e51-97cb-7196-9230-1935766aba4b,2026-10-03T10:53:59Z,1,A,,
+domain,gumtree-payment.shop,urlscan @188.114.96.3 (apex-context:gumtree-payment.shop),AS13335,2026-10-03T10:53:59Z,1,A,https://gumtree-payment.shop/,01a0ffc6-4061-71ed-b984-c6bc46289648
+domain,inpost.paczzka4342362.buzz,urlscan @172.67.140.237 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://inpost.paczzka4342362.buzz/,01a087dd-324f-707c-9735-d5ed369e9e83
+domain,inpost.paczzka4342362.sbs,urlscan @104.21.69.37 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://inpost.paczzka4342362.sbs/,01a08c0c-6781-72ab-a841-8b94aeb7d0d6
+domain,nfw.cz,urlscan @https://dfclgzw.com/a/bItn7C3ausd6BP8e (apex-context:dfclgzw.com),01a0eb7d-47d1-725e-8d3b-b3de17389567,2026-10-03T10:53:59Z,1,A,,
+domain,paczzka4342362.buzz,urlscan @172.67.140.237 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://paczzka4342362.buzz/,01a089e4-107f-7415-9b02-fac997d5a4d6
+domain,prelo.psd18.com,urlscan @104.21.25.161 (apex-context:psd18.com),AS13335,2026-10-03T10:53:59Z,1,A,https://prelo.psd18.com/a/i2NI50Zft5XDcodN,01a0d9db-cbb3-73cc-8fd0-2ba08e74cb4a
+domain,smurfysstore.com,urlscan @172.67.164.105 (apex-context:smurfysstore.com),AS13335,2026-10-03T10:53:59Z,1,A,https://smurfysstore.com/l0aa4ma3r,01a04e51-97cb-7196-9230-1935766aba4b
+domain,verif-compr-es.cfd,urlscan @104.21.88.233 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://verif-compr-es.cfd/,01a08576-0bb4-73b0-80cc-61f3956ad19c
+domain,verif-compras.online,urlscan @2a06:98c1:3121::3 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://verif-compras.online/,01a08a69-583b-714e-8025-24e78878ffe2
+domain,verification-help.com,urlscan @172.67.189.245 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://verification-help.com/,01a08c8e-5fbc-706c-8e5a-ceafce13cdec
+domain,vinted-au-user-verif.pages.dev,urlscan @https://vinted.uchooo.com/a/di9DN1NwRmhiSk1F (apex-context:uchooo.com),01a0adea-8f57-76fe-9726-894a7b788229,2026-10-03T10:53:59Z,1,A,,
+domain,vinted-verify.online,urlscan @https://gumtree.58stw.com/a/di9IS1U5VTlKRmZ6 (apex-context:58stw.com),01a0c779-95cc-7207-a22b-51494ab97dd8,2026-10-03T10:53:59Z,1,A,,
+domain,vinted.58stw.com,urlscan @104.21.24.224 (apex-context:58stw.com),AS13335,2026-10-03T10:53:59Z,1,A,https://vinted.58stw.com/a/Dbqn8CHh25DOkaKN,01a0c5b7-547f-70a4-a7da-649d8dd56855
+domain,vinted.9mwh.com,urlscan @104.21.45.28 (hash:chained),AS13335,2026-10-03T10:53:59Z,1,A,https://vinted.9mwh.com/a/di9hdXNnbGs4Mmo1,01a08a6b-d52c-761f-8396-3406f686206b
+domain,website.depop.qdscdq.com,urlscan @https://website.depop.qdscdq.com/ (apex-context:qdscdq.com),01a0e429-e310-77c2-acf1-2a606bf13e8d,2026-10-03T10:53:59Z,1,A,,
+ip,104.21.20.229,dns (nfw.cz),Cloudflare-edge,2026-10-03T10:53:59Z,2,A,,
+ip,172.67.194.189,dns (nfw.cz),Cloudflare-edge,2026-10-03T10:53:59Z,2,A,,
+ip,220.15.71.65,dns (paczzka434236212.shop),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
+ip,2606:4700:3030::6815:14e5,dns (nfw.cz),Cloudflare-edge,2026-10-03T10:53:59Z,2,A,,
+ip,2606:4700:3030::ac43:c2bd,dns (nfw.cz),Cloudflare-edge,2026-10-03T10:53:59Z,2,A,,
+ip,45.74.137.37,dns (confirmation-order.sbs),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
+ip,64.239.109.1,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
+ip,64.239.109.65,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
+ip,64.239.123.1,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
