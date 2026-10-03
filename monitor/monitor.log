@@ -1755,3 +1755,56 @@
 [2026-10-03T10:53:59Z] SCAN-SAVED paczzka434236212.shop -> https://urlscan.io/result/01a10175-73b2-7038-9fc5-304f8629df7b/
 [2026-10-03T10:53:59Z] SCAN-BACKLOG 29 live host(s) queued for next run (cap 20/run)
 [2026-10-03T10:53:59Z] 32 new tier-1 Operator-A indicator(s) this run
+[2026-10-03T15:30:08Z] NEW cert  auth-lnfo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW cert  bekreftoo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW cert  ch-cn-ng28app.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW cert  order21.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW cert  osrofoptp.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW cert  payprotect.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW cert  vintdeactive.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  confirmation-order.sbs  [urlscan @https://confirmation-order.sbs/ (apex-context:confirmation-order.sbs) / 01a10174-9558-772e-8232-d13a8e04a9ef] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  milanuncios.compra-verif.cfd  [urlscan @188.114.96.3 (apex-context:compra-verif.cfd) / AS13335] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  monrelaisplusin.icu  [urlscan @172.67.180.116 (apex-context:monrelaisplusin.icu) / AS13335] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  order21.shop  [urlscan @172.67.179.51 (apex-context:order21.shop) / AS13335] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  order3274.cfd  [urlscan @188.114.97.3 (apex-context:order3274.cfd) / AS13335] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  paczzka434236212.shop  [urlscan @https://paczzka434236212.shop/ (apex-context:paczzka434236212.shop) / 01a10175-73b2-7038-9fc5-304f8629df7b] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  payu-confirmation-pl.fun  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  vinted-confirmation-au.pages.dev  [urlscan @https://vinted.9mwh.com/a/di9hdXNnbGs4Mmo1 (apex-context:9mwh.com) / 01a08a6b-d52c-761f-8396-3406f686206b] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  vinted-user538813-au.pages.dev  [urlscan @https://vinted.9mwh.com/a/8tlWDvcG2EYsaf4D (apex-context:9mwh.com) / 01a08dac-eb1a-703b-9990-fa28e3e3088a] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  vinted-verif6331-au.pages.dev  [urlscan @https://vinted.9mwh.com/a/7qD_Rh5Y1EYVVSHX (apex-context:9mwh.com) / 01a0a144-cb19-7662-8bba-239cd71d0bf5] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  vinted-verification97221-au.pages.dev  [urlscan @https://vinted.9mwh.com/a/di9xQ09HSlNUOXVL (apex-context:9mwh.com) / 01a08921-e953-70f9-9be7-b86d762e43bd] tier=1 op=A
+[2026-10-03T15:30:08Z] NEW domain  www.9mwh.com  [urlscan @188.114.96.3 (apex-context:9mwh.com) / AS13335] tier=1 op=A
+[2026-10-03T15:30:08Z] candidate ip  104.21.0.157  [dns (payu-confirmation-pl.fun)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  172.66.44.174  [dns (vinted-confirmation-au.pages.dev)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  172.66.47.82  [dns (vinted-confirmation-au.pages.dev)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  172.67.151.66  [dns (payu-confirmation-pl.fun)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  2606:4700:3034::6815:9d  [dns (payu-confirmation-pl.fun)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  2606:4700:3034::ac43:9742  [dns (payu-confirmation-pl.fun)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  2606:4700:310c::ac42:2cae  [dns (vinted-confirmation-au.pages.dev)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  2606:4700:310c::ac42:2f52  [dns (vinted-confirmation-au.pages.dev)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  64.239.109.129  [dns (dub.sh)] tier=2 op=A
+[2026-10-03T15:30:08Z] candidate ip  64.239.123.129  [dns (dub.sh)] tier=2 op=A
+[2026-10-03T15:30:08Z] HEALTH certspotter=11/138 crtsh=1/4 urlscan=204/204 dns-google=380/380 dns-cf=380/380
+[2026-10-03T15:30:08Z] AUTO-PROMOTE apex payu-confirmation-pl.fun (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T15:30:08Z] SCAN-SAVED paczzkaa763238.click -> https://urlscan.io/result/01a1027c-e543-77af-98e4-bfcf85674c0a/
+[2026-10-03T15:30:08Z] SCAN-SAVED paycore-confirmation.lol -> https://urlscan.io/result/01a1027c-efc7-706b-9907-7ba3e91ddc25/
+[2026-10-03T15:30:08Z] SCAN-SAVED paycore-confirmation.sbs -> https://urlscan.io/result/01a1027c-fbbd-7289-8964-f5d6d9dc2285/
+[2026-10-03T15:30:08Z] SCAN-SAVED paycore-trust-process.cfd -> https://urlscan.io/result/01a1027d-06ab-701f-929d-2be9a402212a/
+[2026-10-03T15:30:08Z] SCAN-SAVED payprotect.shop -> https://urlscan.io/result/01a1027d-1190-71b8-881c-6f4e72fb1595/
+[2026-10-03T15:30:08Z] SCAN-SAVED payu-confirmation-pl.eu.cc -> https://urlscan.io/result/01a1027d-1d73-76f1-8431-ab9cd99f7cff/
+[2026-10-03T15:30:08Z] SCAN-SAVED payu-confirmation-pl.fun -> https://urlscan.io/result/01a1027d-293c-724f-827f-766f14afd761/
+[2026-10-03T15:30:08Z] SCAN-SAVED payu-confirmation.shop -> https://urlscan.io/result/01a1027d-3511-722c-8b1d-bc8e5cd0febd/
+[2026-10-03T15:30:08Z] SCAN-SAVED przelew-paycore.cyou -> https://urlscan.io/result/01a1027d-4102-741a-9aaf-227dc1269010/
+[2026-10-03T15:30:08Z] SCAN-SAVED przelew-paycore.sbs -> https://urlscan.io/result/01a1027d-4b64-71f8-93a1-472439485162/
+[2026-10-03T15:30:08Z] SCAN-SAVED przelew-paycore.shop -> https://urlscan.io/result/01a1027d-559f-7741-bb08-734950b3ab42/
+[2026-10-03T15:30:08Z] SCAN-SAVED stephanie.gumtree-payment.shop -> https://urlscan.io/result/01a1027d-6188-77a9-a371-caebf7ab3f75/
+[2026-10-03T15:30:08Z] SCAN-SAVED veriffy.sbs -> https://urlscan.io/result/01a1027d-6bd7-7365-bf5d-688ae1ae40a7/
+[2026-10-03T15:30:08Z] SCAN-SAVED verification-help.com -> https://urlscan.io/result/01a1027d-77a8-731e-9efe-a4fdaa6e88d8/
+[2026-10-03T15:30:08Z] SCAN-SAVED verification-page6748.com -> https://urlscan.io/result/01a1027d-83b4-7369-85e1-798273bbf281/
+[2026-10-03T15:30:08Z] SCAN-SAVED verification-payment.com -> https://urlscan.io/result/01a1027d-8dc2-7228-b730-71778b6729b3/
+[2026-10-03T15:30:08Z] SCAN-SAVED verifiers-online-compras.shop -> https://urlscan.io/result/01a1027d-9993-762b-90c5-576aa12225c9/
+[2026-10-03T15:30:08Z] SCAN-SAVED verkaufer-auszahlung.com -> https://urlscan.io/result/01a1027d-a58c-705e-8246-5014d398f7a2/
+[2026-10-03T15:30:08Z] SCAN-SAVED vintdeactive.com -> https://urlscan.io/result/01a1027d-b11f-7458-b929-5fd52302ba89/
+[2026-10-03T15:30:08Z] SCAN-SAVED vinted-confirmation-au.pages.dev -> https://urlscan.io/result/01a1027d-bddd-707f-85b2-15474327e025/
+[2026-10-03T15:30:08Z] SCAN-BACKLOG 11 live host(s) queued for next run (cap 20/run)
+[2026-10-03T15:30:08Z] 19 new tier-1 Operator-A indicator(s) this run

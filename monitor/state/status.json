@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-03T11:10:39Z",
-  "last_run_at": "2026-10-03T10:53:59Z",
-  "last_run_summary": "[2026-10-03T10:53:59Z] 32 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-03T10:53:59Z] HEALTH certspotter=10/132 crtsh=0/3 urlscan=189/189 dns-google=368/368 dns-cf=368/368",
+  "generated_at": "2026-10-03T15:59:19Z",
+  "last_run_at": "2026-10-03T15:30:08Z",
+  "last_run_summary": "[2026-10-03T15:30:08Z] 19 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-03T15:30:08Z] HEALTH certspotter=11/138 crtsh=1/4 urlscan=204/204 dns-google=380/380 dns-cf=380/380",
   "tracked_hosts": {
-    "total": 252,
+    "total": 260,
     "by_status": {
       "dead": 70,
-      "active": 182
+      "active": 190
     },
     "by_operator_tier": {
-      "A:tier1": 252
+      "A:tier1": 260
     }
   },
   "fingerprints": [
@@ -373,131 +373,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 273
+    "A": 292
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "dfclgzw.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "dpd.poland-corepay1.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "dub.sh",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "frakt-orderhubid94699.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "gumlree.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "gumtree-payment.shop",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "inpost.paczzka4342362.buzz",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "inpost.paczzka4342362.sbs",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "nfw.cz",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "paczzka4342362.buzz",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "prelo.psd18.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "smurfysstore.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "verif-compr-es.cfd",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "verif-compras.online",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "verification-help.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vinted-au-user-verif.pages.dev",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vinted-verify.online",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vinted.58stw.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vinted.9mwh.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
     {
       "type": "domain",
       "indicator": "website.depop.qdscdq.com",
       "operator": "A",
       "first_seen": "2026-10-03T10:53:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "auth-lnfo.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "bekreftoo.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ch-cn-ng28app.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "order21.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "osrofoptp.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "payprotect.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "vintdeactive.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "confirmation-order.sbs",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "milanuncios.compra-verif.cfd",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "monrelaisplusin.icu",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "order21.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "order3274.cfd",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paczzka434236212.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payu-confirmation-pl.fun",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted-confirmation-au.pages.dev",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted-user538813-au.pages.dev",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted-verif6331-au.pages.dev",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted-verification97221-au.pages.dev",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.9mwh.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T15:30:08Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 191,
+  "manual_review_candidates_pending": 193,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

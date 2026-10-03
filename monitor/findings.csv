@@ -507,3 +507,32 @@ ip,45.74.137.37,dns (confirmation-order.sbs),NON-CF — host left Cloudflare (ma
 ip,64.239.109.1,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
 ip,64.239.109.65,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
 ip,64.239.123.1,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T10:53:59Z,2,A,,
+cert,auth-lnfo.com,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+cert,bekreftoo.com,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+cert,ch-cn-ng28app.com,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+cert,order21.shop,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+cert,osrofoptp.com,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+cert,payprotect.shop,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+cert,vintdeactive.com,ct-log (apex subdomain),,2026-10-03T15:30:08Z,1,A,,
+domain,confirmation-order.sbs,urlscan @https://confirmation-order.sbs/ (apex-context:confirmation-order.sbs),01a10174-9558-772e-8232-d13a8e04a9ef,2026-10-03T15:30:08Z,1,A,,
+domain,milanuncios.compra-verif.cfd,urlscan @188.114.96.3 (apex-context:compra-verif.cfd),AS13335,2026-10-03T15:30:08Z,1,A,https://milanuncios.compra-verif.cfd/,01a10174-e692-7455-bca8-2d65ca5ea7d0
+domain,monrelaisplusin.icu,urlscan @172.67.180.116 (apex-context:monrelaisplusin.icu),AS13335,2026-10-03T15:30:08Z,1,A,https://monrelaisplusin.icu/,01a10174-fefd-7762-8144-336dc65a42be
+domain,order21.shop,urlscan @172.67.179.51 (apex-context:order21.shop),AS13335,2026-10-03T15:30:08Z,1,A,https://order21.shop/,01a10175-432f-74bc-8bdf-7e775477cf44
+domain,order3274.cfd,urlscan @188.114.97.3 (apex-context:order3274.cfd),AS13335,2026-10-03T15:30:08Z,1,A,https://order3274.cfd/,01a10175-5041-777c-b405-47495ac7ff07
+domain,paczzka434236212.shop,urlscan @https://paczzka434236212.shop/ (apex-context:paczzka434236212.shop),01a10175-73b2-7038-9fc5-304f8629df7b,2026-10-03T15:30:08Z,1,A,,
+domain,payu-confirmation-pl.fun,urlscan @188.114.97.3 (hash:next2-chunk-01),AS13335,2026-10-03T15:30:08Z,1,A,https://payu-confirmation-pl.fun/,01a101c7-bfbe-762f-9c58-3ce47073f03e
+domain,vinted-confirmation-au.pages.dev,urlscan @https://vinted.9mwh.com/a/di9hdXNnbGs4Mmo1 (apex-context:9mwh.com),01a08a6b-d52c-761f-8396-3406f686206b,2026-10-03T15:30:08Z,1,A,,
+domain,vinted-user538813-au.pages.dev,urlscan @https://vinted.9mwh.com/a/8tlWDvcG2EYsaf4D (apex-context:9mwh.com),01a08dac-eb1a-703b-9990-fa28e3e3088a,2026-10-03T15:30:08Z,1,A,,
+domain,vinted-verif6331-au.pages.dev,urlscan @https://vinted.9mwh.com/a/7qD_Rh5Y1EYVVSHX (apex-context:9mwh.com),01a0a144-cb19-7662-8bba-239cd71d0bf5,2026-10-03T15:30:08Z,1,A,,
+domain,vinted-verification97221-au.pages.dev,urlscan @https://vinted.9mwh.com/a/di9xQ09HSlNUOXVL (apex-context:9mwh.com),01a08921-e953-70f9-9be7-b86d762e43bd,2026-10-03T15:30:08Z,1,A,,
+domain,www.9mwh.com,urlscan @188.114.96.3 (apex-context:9mwh.com),AS13335,2026-10-03T15:30:08Z,1,A,https://www.9mwh.com/2TQV01MNGH,01a07aaf-78d5-76a4-8ebb-7dc4a9f49c93
+ip,104.21.0.157,dns (payu-confirmation-pl.fun),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,172.66.44.174,dns (vinted-confirmation-au.pages.dev),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,172.66.47.82,dns (vinted-confirmation-au.pages.dev),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,172.67.151.66,dns (payu-confirmation-pl.fun),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,2606:4700:3034::6815:9d,dns (payu-confirmation-pl.fun),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,2606:4700:3034::ac43:9742,dns (payu-confirmation-pl.fun),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,2606:4700:310c::ac42:2cae,dns (vinted-confirmation-au.pages.dev),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,2606:4700:310c::ac42:2f52,dns (vinted-confirmation-au.pages.dev),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
+ip,64.239.109.129,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T15:30:08Z,2,A,,
+ip,64.239.123.129,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T15:30:08Z,2,A,,
