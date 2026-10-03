@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-03T15:59:19Z",
-  "last_run_at": "2026-10-03T15:30:08Z",
-  "last_run_summary": "[2026-10-03T15:30:08Z] 19 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-03T15:30:08Z] HEALTH certspotter=11/138 crtsh=1/4 urlscan=204/204 dns-google=380/380 dns-cf=380/380",
+  "generated_at": "2026-10-03T20:43:26Z",
+  "last_run_at": "2026-10-03T20:25:03Z",
+  "last_run_summary": "[2026-10-03T20:25:03Z] 15 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-03T20:25:03Z] HEALTH certspotter=11/139 crtsh=3/6 urlscan=205/205 dns-google=388/388 dns-cf=388/388",
   "tracked_hosts": {
-    "total": 260,
+    "total": 264,
     "by_status": {
       "dead": 70,
-      "active": 190
+      "active": 194
     },
     "by_operator_tier": {
-      "A:tier1": 260
+      "A:tier1": 264
     }
   },
   "fingerprints": [
@@ -373,99 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 292
+    "A": 307
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "website.depop.qdscdq.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T10:53:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "auth-lnfo.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "bekreftoo.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ch-cn-ng28app.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "order21.shop",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "osrofoptp.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "payprotect.shop",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "vintdeactive.com",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "confirmation-order.sbs",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "milanuncios.compra-verif.cfd",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "monrelaisplusin.icu",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "order21.shop",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "order3274.cfd",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "paczzka434236212.shop",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "payu-confirmation-pl.fun",
-      "operator": "A",
-      "first_seen": "2026-10-03T15:30:08Z"
-    },
     {
       "type": "domain",
       "indicator": "vinted-confirmation-au.pages.dev",
@@ -495,9 +405,99 @@
       "indicator": "www.9mwh.com",
       "operator": "A",
       "first_seen": "2026-10-03T15:30:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "0rd56t457543567567567.sbs",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "avhenting2909.cc",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "blocket.order-detaljer.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "order-detaljer.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paycore-confirmation.lol",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paycore-confirmation44232.study",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "payu-confirmation-pl.fun",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "qas9daj89fhj27252874.sbs",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "real-compra-verif.world",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "verif-compr-es.cfd",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "web.order-detaljer.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.order-detaljer.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payprotect.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payu-confirmation-pl.shop",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "verkaufer-auszahlung.com",
+      "operator": "A",
+      "first_seen": "2026-10-03T20:25:03Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 193,
+  "manual_review_candidates_pending": 194,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

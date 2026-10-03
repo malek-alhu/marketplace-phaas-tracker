@@ -332,9 +332,11 @@ paycore24-express.cfd
 paycore24-express.sbs
 payid.receive.sale
 payplcore.biz.id
+payprotect.shop
 payprzelew-core1.site
 payu-confirmation-pl.eu.cc
 payu-confirmation-pl.fun
+payu-confirmation-pl.shop
 payu-confirmation.shop
 pelisflix.li
 periyartigers.com
@@ -413,6 +415,7 @@ verification-page6748.com
 verification-payment.com
 verifieer.cc
 verifiers-online-compras.shop
+verkaufer-auszahlung.com
 video.662820.com
 vintdeactive.com
 vinted-au-user-verif.pages.dev

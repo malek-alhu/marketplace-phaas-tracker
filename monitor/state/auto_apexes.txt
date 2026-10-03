@@ -50,6 +50,7 @@ payprzelew-core1.fun	A
 payprzelew-core1.site	A
 payprzelew-core2.eu.cc	A
 payu-confirmation-pl.fun	A
+payu-confirmation-pl.shop	A
 payu-confirmation.shop	A
 poland-corepay1.eu.cc	A
 przelew-paycore.biz.id	A

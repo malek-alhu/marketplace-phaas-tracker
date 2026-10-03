@@ -1808,3 +1808,41 @@
 [2026-10-03T15:30:08Z] SCAN-SAVED vinted-confirmation-au.pages.dev -> https://urlscan.io/result/01a1027d-bddd-707f-85b2-15474327e025/
 [2026-10-03T15:30:08Z] SCAN-BACKLOG 11 live host(s) queued for next run (cap 20/run)
 [2026-10-03T15:30:08Z] 19 new tier-1 Operator-A indicator(s) this run
+[2026-10-03T20:25:03Z] NEW cert  0rd56t457543567567567.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  avhenting2909.cc  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  blocket.order-detaljer.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  order-detaljer.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  paycore-confirmation.lol  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  paycore-confirmation44232.study  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  payu-confirmation-pl.fun  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  qas9daj89fhj27252874.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  real-compra-verif.world  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  verif-compr-es.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  web.order-detaljer.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW cert  www.order-detaljer.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW domain  payprotect.shop  [urlscan @2a06:98c1:3120::3 (apex-context:payprotect.shop) / AS13335] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW domain  payu-confirmation-pl.shop  [urlscan @104.21.10.140 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T20:25:03Z] NEW domain  verkaufer-auszahlung.com  [urlscan @172.67.152.50 (apex-context:verkaufer-auszahlung.com) / AS13335] tier=1 op=A
+[2026-10-03T20:25:03Z] candidate ip  104.21.10.140  [dns (payu-confirmation-pl.shop)] tier=2 op=A
+[2026-10-03T20:25:03Z] candidate ip  172.67.190.114  [dns (payu-confirmation-pl.shop)] tier=2 op=A
+[2026-10-03T20:25:03Z] candidate ip  2606:4700:3030::ac43:be72  [dns (payu-confirmation-pl.shop)] tier=2 op=A
+[2026-10-03T20:25:03Z] candidate ip  2606:4700:3035::6815:a8c  [dns (payu-confirmation-pl.shop)] tier=2 op=A
+[2026-10-03T20:25:03Z] candidate ip  64.239.123.193  [dns (dub.sh)] tier=2 op=A
+[2026-10-03T20:25:03Z] HEALTH certspotter=11/139 crtsh=3/6 urlscan=205/205 dns-google=388/388 dns-cf=388/388
+[2026-10-03T20:25:03Z] AUTO-PROMOTE apex payu-confirmation-pl.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T20:25:03Z] SCAN-SAVED blocket.order-detaljer.shop -> https://urlscan.io/result/01a10381-41f4-715d-a43e-4fc29911fd2d/
+[2026-10-03T20:25:03Z] SCAN-SAVED payu-confirmation-pl.shop -> https://urlscan.io/result/01a10381-4d29-757e-bc0a-51e4826a18d2/
+[2026-10-03T20:25:03Z] SCAN-SAVED vinted.0rd56t457543567567567.sbs -> https://urlscan.io/result/01a10381-57be-73d8-ad5c-1b9cddec890a/
+[2026-10-03T20:25:03Z] SCAN-SAVED vinted.order3274.cfd -> https://urlscan.io/result/01a10381-6304-733a-a3f4-afffe676f99a/
+[2026-10-03T20:25:03Z] SCAN-SAVED vinted.veriffy.sbs -> https://urlscan.io/result/01a10381-6d58-72a4-b77b-b23ddf04a7cb/
+[2026-10-03T20:25:03Z] SCAN-SAVED vinted.verification-page6748.com -> https://urlscan.io/result/01a10381-7881-71ea-ba8a-bd7541b0a136/
+[2026-10-03T20:25:03Z] SCAN-SAVED vintedverify.my.id -> https://urlscan.io/result/01a10381-8316-717d-8e57-0b3bb0e3fba0/
+[2026-10-03T20:25:03Z] SCAN-SAVED vintedverify.web.id -> https://urlscan.io/result/01a10381-8e8e-754f-b3a9-d4c12264f1ea/
+[2026-10-03T20:25:03Z] SCAN-SAVED wallapop.compra-verif.cfd -> https://urlscan.io/result/01a10381-99cf-71de-8c59-aa95cb3adc2d/
+[2026-10-03T20:25:03Z] SCAN-SAVED wallapop.confirmado.cc -> https://urlscan.io/result/01a10381-a4c9-7578-a245-1420532723ba/
+[2026-10-03T20:25:03Z] SCAN-SAVED web.compra-verif.cfd -> https://urlscan.io/result/01a10381-afe3-7669-961d-3e5cbaefe560/
+[2026-10-03T20:25:03Z] SCAN-SAVED web.order-detaljer.shop -> https://urlscan.io/result/01a10381-b966-748f-98b3-3c5b11e5d245/
+[2026-10-03T20:25:03Z] SCAN-SAVED www.order-detaljer.shop -> https://urlscan.io/result/01a10381-c4a1-7350-914e-23a3b1f50366/
+[2026-10-03T20:25:03Z] SCAN-SAVED xzmsffm.com -> https://urlscan.io/result/01a10381-cfb6-75f0-9426-09f68d435a63/
+[2026-10-03T20:25:03Z] SCAN-SAVED zzuav.com -> https://urlscan.io/result/01a10381-dbb4-751d-ac63-9e5f7a8de734/
+[2026-10-03T20:25:03Z] 15 new tier-1 Operator-A indicator(s) this run

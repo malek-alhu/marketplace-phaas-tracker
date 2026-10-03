@@ -536,3 +536,23 @@ ip,2606:4700:310c::ac42:2cae,dns (vinted-confirmation-au.pages.dev),Cloudflare-e
 ip,2606:4700:310c::ac42:2f52,dns (vinted-confirmation-au.pages.dev),Cloudflare-edge,2026-10-03T15:30:08Z,2,A,,
 ip,64.239.109.129,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T15:30:08Z,2,A,,
 ip,64.239.123.129,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T15:30:08Z,2,A,,
+cert,0rd56t457543567567567.sbs,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,avhenting2909.cc,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,blocket.order-detaljer.shop,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,order-detaljer.shop,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,paycore-confirmation.lol,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,paycore-confirmation44232.study,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,payu-confirmation-pl.fun,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,qas9daj89fhj27252874.sbs,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,real-compra-verif.world,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,verif-compr-es.cfd,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,web.order-detaljer.shop,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+cert,www.order-detaljer.shop,ct-log (apex subdomain),,2026-10-03T20:25:03Z,1,A,,
+domain,payprotect.shop,urlscan @2a06:98c1:3120::3 (apex-context:payprotect.shop),AS13335,2026-10-03T20:25:03Z,1,A,https://payprotect.shop/,01a1027d-1190-71b8-881c-6f4e72fb1595
+domain,payu-confirmation-pl.shop,urlscan @104.21.10.140 (hash:next2-chunk-01),AS13335,2026-10-03T20:25:03Z,1,A,https://payu-confirmation-pl.shop/,01a10351-6811-70ee-99d6-3d0e27035d23
+domain,verkaufer-auszahlung.com,urlscan @172.67.152.50 (apex-context:verkaufer-auszahlung.com),AS13335,2026-10-03T20:25:03Z,1,A,https://verkaufer-auszahlung.com/,01a1027d-a58c-705e-8246-5014d398f7a2
+ip,104.21.10.140,dns (payu-confirmation-pl.shop),Cloudflare-edge,2026-10-03T20:25:03Z,2,A,,
+ip,172.67.190.114,dns (payu-confirmation-pl.shop),Cloudflare-edge,2026-10-03T20:25:03Z,2,A,,
+ip,2606:4700:3030::ac43:be72,dns (payu-confirmation-pl.shop),Cloudflare-edge,2026-10-03T20:25:03Z,2,A,,
+ip,2606:4700:3035::6815:a8c,dns (payu-confirmation-pl.shop),Cloudflare-edge,2026-10-03T20:25:03Z,2,A,,
+ip,64.239.123.193,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-03T20:25:03Z,2,A,,
