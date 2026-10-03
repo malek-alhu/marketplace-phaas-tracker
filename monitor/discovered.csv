@@ -225,3 +225,71 @@ origin,78.41.207.12,candidate,non-CF shared/unknown (19 apex on IP) - review,202
 origin,103.224.182.215,candidate,non-CF shared/unknown (70 apex on IP) - review,2026-09-27T02:51:05Z
 origin,212.92.104.8,candidate,non-CF shared/unknown (84 apex on IP) - review,2026-09-27T20:39:29Z
 apex,blocket-system.cam,promoted,kit-fingerprint confirmed,2026-09-29T11:53:18Z
+origin,133.55.211.112,candidate,non-CF on przelew-paycore.cyou (manual review only - auto-promotion removed 2026-09-25),2026-10-03T03:09:31Z
+origin,163.206.244.33,candidate,non-CF on paycore-confirmation.sbs (manual review only - auto-promotion removed 2026-09-25),2026-10-03T03:09:31Z
+origin,181.86.216.198,candidate,non-CF on przelew-paycore.sbs (manual review only - auto-promotion removed 2026-09-25),2026-10-03T03:09:31Z
+origin,185.53.179.136,candidate,non-CF on order-detaljer.shop (manual review only - auto-promotion removed 2026-09-25),2026-10-03T03:09:31Z
+origin,88.154.127.228,candidate,non-CF on paycore-confirmation.lol (manual review only - auto-promotion removed 2026-09-25),2026-10-03T03:09:31Z
+apex,58stw.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,action-paycore-pl.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,auth-lnfo.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,avhenting2409.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,avhenting2709.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,avhenting2909.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,bekreftjs.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,bekreftnorwq.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,bekreftoo.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,c0mpra-verify.help,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,checkn-auth.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order-gg.cfd,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order-gg.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order-payu.cfd,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order-payu.lol,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order-payu.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order-pl.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,confirmation-order.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,dfclgzw.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,huian189.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,info-auth.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,negabarit.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,order-detaljer.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,order-id8219.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,order-info84719.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,orders-info92841.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,osrofoptp.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paczzka4342362.cyou,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paczzka434236212.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,pay-service-customer.eu.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-bup-process.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation.biz.id,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation.lol,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation44232.beer,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation44232.casa,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation44232.lol,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-confirmation44232.study,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-pl-action.eu.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,paycore-trust-process.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,payplcore.biz.id,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,payprzelew-core1.fun,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,payprzelew-core1.site,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,payprzelew-core2.eu.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,payu-confirmation.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,poland-corepay1.eu.cc,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,przelew-paycore.biz.id,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,przelew-paycore.cfd,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,przelew-paycore.cyou,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,przelew-paycore.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,przelew-pl.shop,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,psd18.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,qas9daj89fhj27252874.sbs,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,qdscdq.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,real-compra-verif.world,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,realdr-id.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,receive.sale,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,smurfysstore.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,uchooo.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,user8396926.me,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,visa-order.help,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z
+apex,wfscgj.com,promoted,kit-fingerprint confirmed,2026-10-03T03:09:31Z

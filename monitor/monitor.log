@@ -1261,3 +1261,412 @@
 [2026-10-02T17:09:15Z] no new tier-1 Operator-A indicators
 [2026-10-02T21:38:59Z] HEALTH certspotter=10/36 crtsh=1/4 urlscan=54/54 dns-google=20/20 dns-cf=20/20
 [2026-10-02T21:38:59Z] no new tier-1 Operator-A indicators
+[2026-10-03T03:09:31Z] NEW cert  beseif.compra-verif.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  compra-verif.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  correos.compra-verif.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  dpd-cz.live  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  gumtree-payment.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  milanuncios.compra-verif.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  paycore-trust-process.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  wallapop.compra-verif.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW cert  web.compra-verif.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  58stw.com  [urlscan @104.21.24.224 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  action-paycore-pl.shop  [urlscan @188.114.97.12 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  auth-lnfo.com  [urlscan @172.67.213.222 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  avhenting2409.cc  [urlscan @104.21.14.131 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  avhenting2709.cc  [urlscan @104.21.50.251 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  avhenting2909.cc  [urlscan @104.21.15.34 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  bekreftnorwq.com  [urlscan @104.21.45.99 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  blocket.ch-cn-ng28app.com  [urlscan @172.67.179.28 (apex-context:ch-cn-ng28app.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  blocket.cn-en-c7app.com  [urlscan @104.21.49.12 (apex-context:cn-en-c7app.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  blocket.frakt-orderhubid94699.eu.cc  [urlscan @104.21.14.210 (apex-context:frakt-orderhubid94699.eu.cc) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  blocket.orders-info93657.com  [urlscan @104.21.10.99 (apex-context:orders-info93657.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  c0mpra-verify.help  [urlscan @172.67.212.78 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  checkn-auth.com  [urlscan @172.67.209.11 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  compra-verif.cfd  [urlscan @188.114.96.3 (apex-context:compra-verif.cfd) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  confirmation-order-gg.sbs  [urlscan @172.67.146.10 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  confirmation-order-payu.cfd  [urlscan @172.67.143.109 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  confirmation-order-payu.lol  [urlscan @2606:4700:3032::6815:e42 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  confirmation-order-payu.sbs  [urlscan @172.67.209.63 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  conor.gumtree-payment.shop  [urlscan @104.21.56.142 (apex-context:gumtree-payment.shop) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  cylex-verifbankid.cfd  [urlscan @104.21.59.191 (apex-context:cylex-verifbankid.cfd) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  depop.dfclgzw.com  [urlscan @172.67.136.77 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  depop.huian189.com  [urlscan @2a06:98c1:3120::3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  depop.qdscdq.com  [urlscan @104.21.18.201 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  depop.verification-help.com  [urlscan @https://encaiss.top/a/24xaLyyKT9W1QF0S (apex-context:encaiss.top) / 01a0fa4d-85bf-7298-9630-3d93593b846c] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  dpd-cz.live  [urlscan @172.67.203.46 (apex-context:dpd-cz.live) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  dpd.paycore-pl-action.eu.cc  [urlscan @172.67.144.163 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  encaiss.top  [urlscan @172.67.134.223 (apex-context:encaiss.top) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  finn.bekreftjs.com  [urlscan @172.67.130.236 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  finn.bekreftoo.com  [urlscan @104.21.54.127 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  gumtree.58stw.com  [urlscan @172.67.220.225 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  gumtree.order21.shop  [urlscan @172.67.179.51 (apex-context:order21.shop) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  gumtree.order4851.com  [urlscan @104.21.75.190 (apex-context:order4851.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  info-auth.com  [urlscan @188.114.96.3 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.confirmation-order-gg.cfd  [urlscan @104.21.49.245 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.confirmation-order-pl.sbs  [urlscan @188.114.96.3 (hash:next2-chunk-08) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.paczzka4342362.cyou  [urlscan @188.114.96.3 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.paczzka434236212.shop  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.pay-service-customer.eu.cc  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.paycore-confirmation.shop  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.paycore-confirmation44232.casa  [urlscan @172.67.150.131 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.payplcore.biz.id  [urlscan @2606:4700:3031::6815:4b18 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.payprzelew-core2.eu.cc  [urlscan @172.67.195.115 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.przelew-paycore.biz.id  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.przelew-paycore.cfd  [urlscan @2606:4700:3031::6815:1f77 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.przelew-paycore.sbs  [urlscan @104.21.51.251 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  inpost.przelew-pl.shop  [urlscan @104.21.18.10 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  invoice-center.info  [urlscan @172.67.200.91 (apex-context:invoice-center.info) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  klelnanzeigen-deutch.verkaufer-auszahlung.com  [urlscan @172.67.152.50 (apex-context:verkaufer-auszahlung.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  leboncoin.monrelaisplusin.icu  [urlscan @172.67.180.116 (apex-context:monrelaisplusin.icu) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  leboncoin.order-id8219.shop  [urlscan @172.67.181.187 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  lnk.ink  [urlscan @https://xzmsffm.com/a/c1-MndDJHOpNnjl6 (apex-context:xzmsffm.com) / 01a0f8c7-44d6-718d-9e25-9fc6b45e9c72] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  marktplaats.verkaufer-auszahlung.com  [urlscan @104.21.80.169 (apex-context:verkaufer-auszahlung.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  milanuncios.confirmado.cc  [urlscan @2a06:98c1:3120::3 (apex-context:confirmado.cc) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  negabarit.sbs  [urlscan @172.67.174.82 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  njuskalo.payprotect.shop  [urlscan @2a06:98c1:3121::3 (apex-context:payprotect.shop) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx-entrega.it.com  [urlscan @188.114.97.3 (apex-context:olx-entrega.it.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.confirmation-order-payu.lol  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.confirmation-order.sbs  [urlscan @188.114.97.3 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.paycore-confirmation44232.casa  [urlscan @172.67.150.131 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.payprzelew-core1.fun  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.poland-corepay1.eu.cc  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.przelew-paycore.cyou  [urlscan @172.67.167.121 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  olx.przelew-paycore.sbs  [urlscan @104.21.51.251 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  order-detaljer.shop  [urlscan @188.114.97.3 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  order-info62351.com  [urlscan @172.67.219.140 (apex-context:order-info62351.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  order-info84719.com  [urlscan @2a06:98c1:3120::3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  orders-info92841.com  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  orders-info93657.com  [urlscan @2a06:98c1:3121::3 (apex-context:orders-info93657.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  osrofoptp.com  [urlscan @172.67.183.181 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paczzkaa763238.click  [urlscan @188.114.96.3 (apex-context:paczzkaa763238.click) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-bup-process.sbs  [urlscan @188.114.96.3 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation.biz.id  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation.lol  [urlscan @172.67.170.138 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation.sbs  [urlscan @104.21.1.114 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation.shop  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation44232.beer  [urlscan @104.21.85.127 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation44232.casa  [urlscan @172.67.150.131 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation44232.lol  [urlscan @188.114.96.3 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-confirmation44232.study  [urlscan @188.114.96.3 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-trust-process.cfd  [urlscan @188.114.96.3 (apex-context:paycore-trust-process.cfd) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  paycore-trust-process.sbs  [urlscan @172.67.171.30 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  payid.receive.sale  [urlscan @104.21.41.37 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  payplcore.biz.id  [urlscan @172.67.210.64 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  payprzelew-core1.site  [urlscan @104.21.88.19 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  payu-confirmation-pl.eu.cc  [urlscan @188.114.96.3 (apex-context:payu-confirmation-pl.eu.cc) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  payu-confirmation.shop  [urlscan @172.67.139.196 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  przelew-paycore.biz.id  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  przelew-paycore.cfd  [urlscan @104.21.31.119 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  przelew-paycore.cyou  [urlscan @172.67.167.121 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  przelew-paycore.sbs  [urlscan @104.21.51.251 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  przelew-paycore.shop  [urlscan @188.114.96.3 (apex-context:przelew-paycore.shop) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  real-compra-verif.world  [urlscan @172.67.174.237 (hash:next2-chunk-09) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  realdr-id.com  [urlscan @172.67.218.218 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  stephanie.gumtree-payment.shop  [urlscan @104.21.56.142 (apex-context:gumtree-payment.shop) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  user8396926.me  [urlscan @172.67.212.39 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  veriffy.sbs  [urlscan @104.21.2.34 (apex-context:veriffy.sbs) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  verification-page6748.com  [urlscan @188.114.96.3 (apex-context:verification-page6748.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  verification-payment.com  [urlscan @172.67.192.150 (apex-context:verification-payment.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  verifiers-online-compras.shop  [urlscan @104.21.13.16 (apex-context:verifiers-online-compras.shop) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vintdeactive.com  [urlscan @188.114.97.3 (apex-context:vintdeactive.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.0rd56t457543567567567.sbs  [urlscan @104.21.62.243 (apex-context:0rd56t457543567567567.sbs) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.order-info84719.com  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.order3274.cfd  [urlscan @104.21.49.237 (apex-context:order3274.cfd) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.psd18.com  [urlscan @104.21.25.161 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.qas9daj89fhj27252874.sbs  [urlscan @188.114.97.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.qdscdq.com  [urlscan @104.21.18.201 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.realdr-id.com  [urlscan @104.21.53.214 (hash:next2-chunk-03) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.smurfysstore.com  [urlscan @172.67.194.93 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.uchooo.com  [urlscan @104.21.1.227 (hash:next2-chunk-02) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.veriffy.sbs  [urlscan @104.21.2.34 (apex-context:veriffy.sbs) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.verification-page6748.com  [urlscan @172.67.139.182 (apex-context:verification-page6748.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vinted.wfscgj.com  [urlscan @104.21.13.179 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vintedverify.my.id  [urlscan @104.21.62.171 (apex-context:vintedverify.my.id) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  vintedverify.web.id  [urlscan @104.21.28.59 (apex-context:vintedverify.web.id) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  visa-order.help  [urlscan @172.67.152.97 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  wallapop.confirmado.cc  [urlscan @188.114.96.3 (apex-context:confirmado.cc) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  xzmsffm.com  [urlscan @104.21.40.185 (apex-context:xzmsffm.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] NEW domain  zzuav.com  [urlscan @2606:4700:3037::ac43:af88 (apex-context:zzuav.com) / AS13335] tier=1 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.10.99  [dns (blocket.orders-info93657.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.13.16  [dns (verifiers-online-compras.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.14.210  [dns (blocket.frakt-orderhubid94699.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.2.34  [dns (veriffy.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.21.207  [dns (confirmado.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.21.212  [dns (invoice-center.info)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.25.231  [dns (encaiss.top)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.27.2  [dns (payu-confirmation.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.28.118  [dns (njuskalo.payprotect.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.28.59  [dns (vintedverify.web.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.36.109  [dns (verification-payment.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.38.59  [dns (order-info62351.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.40.185  [dns (xzmsffm.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.40.67  [dns (blocket.ch-cn-ng28app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.41.48  [dns (paczzkaa763238.click)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.42.137  [dns (beseif.compra-verif.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.49.12  [dns (blocket.cn-en-c7app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.49.237  [dns (order3274.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.5.141  [dns (paycore-trust-process.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.56.142  [dns (conor.gumtree-payment.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.56.153  [dns (lnk.ink)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.59.191  [dns (cylex-verifbankid.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.62.171  [dns (vintedverify.my.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.62.243  [dns (0rd56t457543567567567.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.69.26  [dns (dpd-cz.live)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.74.228  [dns (payu-confirmation-pl.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.75.190  [dns (gumtree.order4851.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.8.162  [dns (verification-page6748.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.80.169  [dns (klelnanzeigen-deutch.verkaufer-auszahlung.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.81.179  [dns (vintdeactive.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.89.163  [dns (depop.verification-help.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.9.94  [dns (olx-entrega.it.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.91.163  [dns (zzuav.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.91.198  [dns (gumtree.order21.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.91.211  [dns (leboncoin.monrelaisplusin.icu)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  104.21.95.58  [dns (przelew-paycore.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  133.55.211.112  [dns (przelew-paycore.cyou)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  163.206.244.33  [dns (paycore-confirmation.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.128.169  [dns (veriffy.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.131.78  [dns (blocket.orders-info93657.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.134.223  [dns (encaiss.top)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.137.143  [dns (vintedverify.my.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.139.182  [dns (verification-page6748.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.139.196  [dns (payu-confirmation.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.140.163  [dns (0rd56t457543567567567.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.143.86  [dns (przelew-paycore.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.145.139  [dns (vintdeactive.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.145.254  [dns (njuskalo.payprotect.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.152.126  [dns (conor.gumtree-payment.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.152.193  [dns (lnk.ink)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.152.50  [dns (klelnanzeigen-deutch.verkaufer-auszahlung.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.154.165  [dns (paycore-trust-process.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.156.74  [dns (xzmsffm.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.159.188  [dns (olx-entrega.it.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.159.248  [dns (paczzkaa763238.click)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.160.146  [dns (blocket.frakt-orderhubid94699.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.167.229  [dns (verifiers-online-compras.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.170.100  [dns (vintedverify.web.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.175.136  [dns (zzuav.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.179.28  [dns (blocket.ch-cn-ng28app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.179.51  [dns (gumtree.order21.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.180.116  [dns (leboncoin.monrelaisplusin.icu)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.180.224  [dns (gumtree.order4851.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.182.235  [dns (cylex-verifbankid.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.188.196  [dns (blocket.cn-en-c7app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.189.245  [dns (depop.verification-help.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.192.150  [dns (verification-payment.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.195.211  [dns (order3274.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.200.86  [dns (confirmado.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.200.91  [dns (invoice-center.info)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.203.46  [dns (dpd-cz.live)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.206.28  [dns (beseif.compra-verif.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.207.46  [dns (payu-confirmation-pl.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  172.67.219.140  [dns (order-info62351.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  181.86.216.198  [dns (przelew-paycore.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  185.53.179.136  [dns (order-detaljer.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:19e7  [dns (encaiss.top)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:1c3b  [dns (vintedverify.web.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:246d  [dns (verification-payment.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:2843  [dns (blocket.ch-cn-ng28app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:3899  [dns (lnk.ink)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:5bd3  [dns (leboncoin.monrelaisplusin.icu)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::6815:8a2  [dns (verification-page6748.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::ac43:987e  [dns (conor.gumtree-payment.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3030::ac43:b333  [dns (gumtree.order21.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::6815:388e  [dns (conor.gumtree-payment.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::6815:4bbe  [dns (gumtree.order4851.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::6815:51b3  [dns (vintdeactive.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::6815:58d  [dns (paycore-trust-process.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::ac43:8f56  [dns (przelew-paycore.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::ac43:9aa5  [dns (paycore-trust-process.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::ac43:a7e5  [dns (verifiers-online-compras.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3031::ac43:ce1c  [dns (beseif.compra-verif.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::6815:310c  [dns (blocket.cn-en-c7app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::6815:451a  [dns (dpd-cz.live)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::6815:5ba3  [dns (zzuav.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::6815:ed2  [dns (blocket.frakt-orderhubid94699.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::ac43:918b  [dns (vintdeactive.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::ac43:a092  [dns (blocket.frakt-orderhubid94699.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3032::ac43:cb2e  [dns (dpd-cz.live)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::6815:2930  [dns (paczzkaa763238.click)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::6815:31ed  [dns (order3274.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::6815:5bc6  [dns (gumtree.order21.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::6815:a63  [dns (blocket.orders-info93657.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:80a9  [dns (veriffy.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:834e  [dns (blocket.orders-info93657.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:86df  [dns (encaiss.top)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:898f  [dns (vintedverify.my.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:91fe  [dns (njuskalo.payprotect.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:bcc4  [dns (blocket.cn-en-c7app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:bdf5  [dns (depop.verification-help.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:c096  [dns (verification-payment.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3033::ac43:db8c  [dns (order-info62351.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::6815:59a3  [dns (depop.verification-help.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::6815:5f3a  [dns (przelew-paycore.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::6815:d10  [dns (verifiers-online-compras.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::ac43:8bb6  [dns (verification-page6748.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::ac43:98c1  [dns (lnk.ink)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::ac43:9ff8  [dns (paczzkaa763238.click)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::ac43:b31c  [dns (blocket.ch-cn-ng28app.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::ac43:c3d3  [dns (order3274.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3034::ac43:c856  [dns (confirmado.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:15cf  [dns (confirmado.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:15d4  [dns (invoice-center.info)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:263b  [dns (order-info62351.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:28b9  [dns (xzmsffm.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:3bbf  [dns (cylex-verifbankid.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:3eab  [dns (vintedverify.my.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::6815:95e  [dns (olx-entrega.it.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::ac43:8bc4  [dns (payu-confirmation.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3035::ac43:aa64  [dns (vintedverify.web.id)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::6815:1c76  [dns (njuskalo.payprotect.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::6815:222  [dns (veriffy.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::6815:2a89  [dns (beseif.compra-verif.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::6815:3ef3  [dns (0rd56t457543567567567.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::6815:4ae4  [dns (payu-confirmation-pl.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::ac43:9832  [dns (klelnanzeigen-deutch.verkaufer-auszahlung.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::ac43:b4e0  [dns (gumtree.order4851.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3036::ac43:c85b  [dns (invoice-center.info)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::6815:1b02  [dns (payu-confirmation.shop)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::6815:50a9  [dns (klelnanzeigen-deutch.verkaufer-auszahlung.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:8ca3  [dns (0rd56t457543567567567.sbs)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:9c4a  [dns (xzmsffm.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:9fbc  [dns (olx-entrega.it.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:af88  [dns (zzuav.com)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:b474  [dns (leboncoin.monrelaisplusin.icu)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:b6eb  [dns (cylex-verifbankid.cfd)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  2606:4700:3037::ac43:cf2e  [dns (payu-confirmation-pl.eu.cc)] tier=2 op=A
+[2026-10-03T03:09:31Z] candidate ip  88.154.127.228  [dns (paycore-confirmation.lol)] tier=2 op=A
+[2026-10-03T03:09:31Z] HEALTH certspotter=10/69 crtsh=0/3 urlscan=100/100 dns-google=290/290 dns-cf=290/290
+[2026-10-03T03:09:31Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex 58stw.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex action-paycore-pl.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex auth-lnfo.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex avhenting2409.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex avhenting2709.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex avhenting2909.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex bekreftjs.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex bekreftnorwq.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex bekreftoo.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex c0mpra-verify.help (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex checkn-auth.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order-gg.cfd (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order-gg.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order-payu.cfd (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order-payu.lol (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order-payu.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order-pl.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex confirmation-order.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex dfclgzw.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex huian189.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex info-auth.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex negabarit.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex order-detaljer.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex order-id8219.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex order-info84719.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex orders-info92841.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex osrofoptp.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paczzka4342362.cyou (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paczzka434236212.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex pay-service-customer.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-bup-process.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation.biz.id (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation.lol (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation44232.beer (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation44232.casa (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation44232.lol (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-confirmation44232.study (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-pl-action.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex paycore-trust-process.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex payplcore.biz.id (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex payprzelew-core1.fun (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex payprzelew-core1.site (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex payprzelew-core2.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex payu-confirmation.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex poland-corepay1.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex przelew-paycore.biz.id (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex przelew-paycore.cfd (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex przelew-paycore.cyou (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex przelew-paycore.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex przelew-pl.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex psd18.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex qas9daj89fhj27252874.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex qdscdq.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex real-compra-verif.world (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex realdr-id.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex receive.sale (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex smurfysstore.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex uchooo.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex user8396926.me (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex visa-order.help (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] AUTO-PROMOTE apex wfscgj.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 7dc4ce572df102dfef5e142a66a11cbcc644e555c5af64a2a11060ead0ed689a co-occurs with 20 known kit domains (28 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 7dc4ce572df102dfef5e142a66a11cbcc644e555c5af64a2a11060ead0ed689a -> kit-source/raw_bodies/7dc4ce572df102dfef5e142a66a11cbcc644e555c5af64a2a11060ead0ed689a.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 9fda853870ebafea132bf5dcb9f761f01d5493d20566f3b5160dc34a55e4adca co-occurs with 17 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 9fda853870ebafea132bf5dcb9f761f01d5493d20566f3b5160dc34a55e4adca -> kit-source/raw_bodies/9fda853870ebafea132bf5dcb9f761f01d5493d20566f3b5160dc34a55e4adca.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint c44974f786226283e4ad01e315cd71964d486585d452ea93593c52abf3f585e8 co-occurs with 17 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for c44974f786226283e4ad01e315cd71964d486585d452ea93593c52abf3f585e8 -> kit-source/raw_bodies/c44974f786226283e4ad01e315cd71964d486585d452ea93593c52abf3f585e8.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 119c0c4c36f66331dca1e26260544249630dedbb71602b1eefdc1a0156554ee9 co-occurs with 6 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 119c0c4c36f66331dca1e26260544249630dedbb71602b1eefdc1a0156554ee9 -> kit-source/raw_bodies/119c0c4c36f66331dca1e26260544249630dedbb71602b1eefdc1a0156554ee9.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 12b82e4b91a90c320d45ce8c75ec97fbd2c29a6d55f0daff296547fe4cf6a070 co-occurs with 6 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 12b82e4b91a90c320d45ce8c75ec97fbd2c29a6d55f0daff296547fe4cf6a070 -> kit-source/raw_bodies/12b82e4b91a90c320d45ce8c75ec97fbd2c29a6d55f0daff296547fe4cf6a070.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 2a4ddcaa25b70b3861eaf0a36931e385366dae5ddd37dd8ac138ddc2aa62bc18 co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 2a4ddcaa25b70b3861eaf0a36931e385366dae5ddd37dd8ac138ddc2aa62bc18 -> kit-source/raw_bodies/2a4ddcaa25b70b3861eaf0a36931e385366dae5ddd37dd8ac138ddc2aa62bc18.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 36e515d8a464e182cc9b28fd2b8c28003764ae862797cc7d543c47257027994a co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 36e515d8a464e182cc9b28fd2b8c28003764ae862797cc7d543c47257027994a -> kit-source/raw_bodies/36e515d8a464e182cc9b28fd2b8c28003764ae862797cc7d543c47257027994a.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 3a356f24efc28e544e1a375297fa845c9db8bae1de0beea3fdb4a5075db14c9e co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 3a356f24efc28e544e1a375297fa845c9db8bae1de0beea3fdb4a5075db14c9e -> kit-source/raw_bodies/3a356f24efc28e544e1a375297fa845c9db8bae1de0beea3fdb4a5075db14c9e.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 404807b37066e7fddfe25485604b8ed2d5592a10f4c20c00fc20c24cbeb12cb8 co-occurs with 26 known kit domains (27 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 404807b37066e7fddfe25485604b8ed2d5592a10f4c20c00fc20c24cbeb12cb8 -> kit-source/raw_bodies/404807b37066e7fddfe25485604b8ed2d5592a10f4c20c00fc20c24cbeb12cb8.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 68394bc1757e7f0b000909c5104ccfcae3b813b6fee8a08e35bd510c6a03a01a co-occurs with 6 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 68394bc1757e7f0b000909c5104ccfcae3b813b6fee8a08e35bd510c6a03a01a -> kit-source/raw_bodies/68394bc1757e7f0b000909c5104ccfcae3b813b6fee8a08e35bd510c6a03a01a.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 6a32ee12abd8315df5aeab34a72e3f651f2f9a33292d8df5fea80b27375b867d co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 6a32ee12abd8315df5aeab34a72e3f651f2f9a33292d8df5fea80b27375b867d -> kit-source/raw_bodies/6a32ee12abd8315df5aeab34a72e3f651f2f9a33292d8df5fea80b27375b867d.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 7769ef3f2187838cf08ac32b36f92de9505b18a38cc6a18cb5e96ab1e829da08 co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 7769ef3f2187838cf08ac32b36f92de9505b18a38cc6a18cb5e96ab1e829da08 -> kit-source/raw_bodies/7769ef3f2187838cf08ac32b36f92de9505b18a38cc6a18cb5e96ab1e829da08.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 7dc4ce572df102dfef5e142a66a11cbcc644e555c5af64a2a11060ead0ed689a co-occurs with 20 known kit domains (28 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 82ad52e16edd2055f61e8534734a8e57abf4d2ef459da071962da7d6315b5a71 co-occurs with 6 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 82ad52e16edd2055f61e8534734a8e57abf4d2ef459da071962da7d6315b5a71 -> kit-source/raw_bodies/82ad52e16edd2055f61e8534734a8e57abf4d2ef459da071962da7d6315b5a71.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 89edf388fbea0291f0db39c17027526f9e2d22483ebfe2df37cf8233cebfe7b1 co-occurs with 6 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for 89edf388fbea0291f0db39c17027526f9e2d22483ebfe2df37cf8233cebfe7b1 -> kit-source/raw_bodies/89edf388fbea0291f0db39c17027526f9e2d22483ebfe2df37cf8233cebfe7b1.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 9fda853870ebafea132bf5dcb9f761f01d5493d20566f3b5160dc34a55e4adca co-occurs with 17 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint abe1c9b154a9ea4cd16ed960f6c1f541c795a06202a3834a59f9d1e23fa64c51 co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for abe1c9b154a9ea4cd16ed960f6c1f541c795a06202a3834a59f9d1e23fa64c51 -> kit-source/raw_bodies/abe1c9b154a9ea4cd16ed960f6c1f541c795a06202a3834a59f9d1e23fa64c51.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint b3b324a38b2ab2ff6b358adcd6273a23df97d7b443b1036bd5a7d2f83f3e1e06 co-occurs with 6 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for b3b324a38b2ab2ff6b358adcd6273a23df97d7b443b1036bd5a7d2f83f3e1e06 -> kit-source/raw_bodies/b3b324a38b2ab2ff6b358adcd6273a23df97d7b443b1036bd5a7d2f83f3e1e06.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint b4158b5b09fd0c75d85f6ddb916dd232d51d0cc087569ed5b7cf45da7edbfbb0 co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for b4158b5b09fd0c75d85f6ddb916dd232d51d0cc087569ed5b7cf45da7edbfbb0 -> kit-source/raw_bodies/b4158b5b09fd0c75d85f6ddb916dd232d51d0cc087569ed5b7cf45da7edbfbb0.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint b5fdec282829ab6a9093c8fc71252e686de2c89e230efc3fb7c84cdea427c4cb co-occurs with 16 known kit domains (19 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for b5fdec282829ab6a9093c8fc71252e686de2c89e230efc3fb7c84cdea427c4cb -> kit-source/raw_bodies/b5fdec282829ab6a9093c8fc71252e686de2c89e230efc3fb7c84cdea427c4cb.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint c44974f786226283e4ad01e315cd71964d486585d452ea93593c52abf3f585e8 co-occurs with 17 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint c7f164f98c2971429803524aba8ca9307430f3b3e1061379c3321e9552e3b038 co-occurs with 7 known kit domains (8 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for c7f164f98c2971429803524aba8ca9307430f3b3e1061379c3321e9552e3b038 -> kit-source/raw_bodies/c7f164f98c2971429803524aba8ca9307430f3b3e1061379c3321e9552e3b038.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint fd1748a96d386578db0d30b92d9aff9b6b9394dc9d60e56d26485ef82ea44363 co-occurs with 16 known kit domains (15 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN archived source body for fd1748a96d386578db0d30b92d9aff9b6b9394dc9d60e56d26485ef82ea44363 -> kit-source/raw_bodies/fd1748a96d386578db0d30b92d9aff9b6b9394dc9d60e56d26485ef82ea44363.js
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 7dc4ce572df102dfef5e142a66a11cbcc644e555c5af64a2a11060ead0ed689a co-occurs with 20 known kit domains (28 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint 9fda853870ebafea132bf5dcb9f761f01d5493d20566f3b5160dc34a55e4adca co-occurs with 17 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] HASH-CHAIN new fingerprint c44974f786226283e4ad01e315cd71964d486585d452ea93593c52abf3f585e8 co-occurs with 17 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-03T03:09:31Z] SCAN-SAVED 0rd56t457543567567567.sbs -> https://urlscan.io/result/01a0ffc5-83df-75ed-8dd4-c92ac43d4506/
+[2026-10-03T03:09:31Z] SCAN-SAVED beseif.compra-verif.cfd -> https://urlscan.io/result/01a0ffc5-8ee7-7458-83e2-6618935e0e43/
+[2026-10-03T03:09:31Z] SCAN-SAVED blocket.ch-cn-ng28app.com -> https://urlscan.io/result/01a0ffc5-9918-7720-9cf5-0359eced51e6/
+[2026-10-03T03:09:31Z] SCAN-SAVED blocket.cn-en-c7app.com -> https://urlscan.io/result/01a0ffc5-a48a-77cd-9fe0-5bc387f0d0b0/
+[2026-10-03T03:09:31Z] SCAN-SAVED blocket.frakt-orderhubid94699.eu.cc -> https://urlscan.io/result/01a0ffc5-afd8-73f9-98e1-40f77eac7886/
+[2026-10-03T03:09:31Z] SCAN-SAVED blocket.orders-info93657.com -> https://urlscan.io/result/01a0ffc5-bb16-706f-9833-b6bd7fb5f20f/
+[2026-10-03T03:09:31Z] SCAN-SAVED ch-cn-ng28app.com -> https://urlscan.io/result/01a0ffc5-c612-7089-b457-05f6a9ce2164/
+[2026-10-03T03:09:31Z] SCAN-SAVED cn-en-c7app.com -> https://urlscan.io/result/01a0ffc5-d0e0-764f-bf10-97c7d52af841/
+[2026-10-03T03:09:31Z] SCAN-SAVED compra-verif.cfd -> https://urlscan.io/result/01a0ffc5-dc5f-7448-824d-1da7615c1b6c/
+[2026-10-03T03:09:31Z] SCAN-SAVED confirmado.cc -> https://urlscan.io/result/01a0ffc5-e77f-718e-9ba8-1e2b3aca35ac/
+[2026-10-03T03:09:31Z] SCAN-SAVED conor.gumtree-payment.shop -> https://urlscan.io/result/01a0ffc5-f169-74bc-8286-9a8e7480edea/
+[2026-10-03T03:09:31Z] SCAN-SAVED correos.compra-verif.cfd -> https://urlscan.io/result/01a0ffc5-fca2-77b2-96d7-86f7be6efddd/
+[2026-10-03T03:09:31Z] SCAN-SAVED cylex-verifbankid.cfd -> https://urlscan.io/result/01a0ffc6-07e3-76fe-8d61-bb0d5d1b6616/
+[2026-10-03T03:09:31Z] SCAN-SAVED depop.verification-help.com -> https://urlscan.io/result/01a0ffc6-1306-70cf-80b8-961fd5042dd7/
+[2026-10-03T03:09:31Z] SCAN-SAVED dpd-cz.live -> https://urlscan.io/result/01a0ffc6-1ece-748b-833d-0214d57c4351/
+[2026-10-03T03:09:31Z] SCAN-SAVED encaiss.top -> https://urlscan.io/result/01a0ffc6-29fc-7031-86e4-2efb27b5e5fb/
+[2026-10-03T03:09:31Z] SCAN-SAVED frakt-orderhubid94699.eu.cc -> https://urlscan.io/result/01a0ffc6-351e-7618-97a3-adb5b5b3055b/
+[2026-10-03T03:09:31Z] SCAN-SAVED gumtree-payment.shop -> https://urlscan.io/result/01a0ffc6-4061-71ed-b984-c6bc46289648/
+[2026-10-03T03:09:31Z] SCAN-SAVED gumtree.order21.shop -> https://urlscan.io/result/01a0ffc6-4bce-73b8-b35d-1bae2de79d7c/
+[2026-10-03T03:09:31Z] SCAN-SAVED gumtree.order4851.com -> https://urlscan.io/result/01a0ffc6-5676-745a-8cc7-f811c1df353f/
+[2026-10-03T03:09:31Z] SCAN-BACKLOG 44 live host(s) queued for next run (cap 20/run)
+[2026-10-03T03:09:31Z] 127 new tier-1 Operator-A indicator(s) this run
