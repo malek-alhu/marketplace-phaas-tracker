@@ -1869,3 +1869,10 @@
 [2026-10-04T03:37:30Z] candidate ip  64.239.123.65  [dns (dub.sh)] tier=2 op=A
 [2026-10-04T03:37:30Z] HEALTH certspotter=11/140 crtsh=7/10 urlscan=206/206 dns-google=404/404 dns-cf=404/404
 [2026-10-04T03:37:30Z] 19 new tier-1 Operator-A indicator(s) this run
+[2026-10-04T11:35:50Z] NEW cert  negabarit.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T11:35:50Z] NEW cert  paycore-confirmation.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T11:35:50Z] NEW cert  paycore-confirmation44232.lol  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T11:35:50Z] NEW cert  vintedverify.web.id  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T11:35:50Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=404/404 dns-cf=404/404
+[2026-10-04T11:35:50Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-04T11:35:50Z] 4 new tier-1 Operator-A indicator(s) this run

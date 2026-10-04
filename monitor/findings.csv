@@ -577,3 +577,7 @@ domain,web.order-detaljer.shop,urlscan @https://web.order-detaljer.shop/ (apex-c
 domain,www.order-detaljer.shop,urlscan @https://www.order-detaljer.shop/ (apex-context:order-detaljer.shop),01a10381-c4a1-7350-914e-23a3b1f50366,2026-10-04T03:37:30Z,1,A,,
 ip,64.239.109.193,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-04T03:37:30Z,2,A,,
 ip,64.239.123.65,dns (dub.sh),NON-CF — host left Cloudflare (manual review),2026-10-04T03:37:30Z,2,A,,
+cert,negabarit.sbs,ct-log (apex subdomain),,2026-10-04T11:35:50Z,1,A,,
+cert,paycore-confirmation.sbs,ct-log (apex subdomain),,2026-10-04T11:35:50Z,1,A,,
+cert,paycore-confirmation44232.lol,ct-log (apex subdomain),,2026-10-04T11:35:50Z,1,A,,
+cert,vintedverify.web.id,ct-log (apex subdomain),,2026-10-04T11:35:50Z,1,A,,
