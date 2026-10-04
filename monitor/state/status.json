@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-04T11:48:48Z",
-  "last_run_at": "2026-10-04T11:35:50Z",
-  "last_run_summary": "[2026-10-04T11:35:50Z] 4 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-04T11:35:50Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=404/404 dns-cf=404/404",
+  "generated_at": "2026-10-04T16:37:19Z",
+  "last_run_at": "2026-10-04T16:14:08Z",
+  "last_run_summary": "[2026-10-04T16:14:08Z] 4 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-04T16:14:08Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=406/406 dns-cf=406/406",
   "tracked_hosts": {
-    "total": 272,
+    "total": 273,
     "by_status": {
       "dead": 70,
-      "active": 202
+      "active": 203
     },
     "by_operator_tier": {
-      "A:tier1": 272
+      "A:tier1": 273
     }
   },
   "fingerprints": [
@@ -373,33 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 330
+    "A": 334
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "dfclgzw.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "encaiss.top",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "m.dfclgzw.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "operation.uchooo.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
     {
       "type": "cert",
       "indicator": "psd18.com",
@@ -495,6 +471,30 @@
       "indicator": "vintedverify.web.id",
       "operator": "A",
       "first_seen": "2026-10-04T11:35:50Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paczzka4342362.buzz",
+      "operator": "A",
+      "first_seen": "2026-10-04T16:14:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "verification-help.com",
+      "operator": "A",
+      "first_seen": "2026-10-04T16:14:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "verkaufer-auszahlung.com",
+      "operator": "A",
+      "first_seen": "2026-10-04T16:14:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payu-confirmation.shop",
+      "operator": "A",
+      "first_seen": "2026-10-04T16:14:08Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

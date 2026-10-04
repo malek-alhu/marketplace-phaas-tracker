@@ -1876,3 +1876,11 @@
 [2026-10-04T11:35:50Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=404/404 dns-cf=404/404
 [2026-10-04T11:35:50Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-10-04T11:35:50Z] 4 new tier-1 Operator-A indicator(s) this run
+[2026-10-04T16:14:08Z] NEW cert  paczzka4342362.buzz  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T16:14:08Z] NEW cert  verification-help.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T16:14:08Z] NEW cert  verkaufer-auszahlung.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T16:14:08Z] NEW domain  olx.payu-confirmation.shop  [urlscan @104.21.27.2 (apex-context:payu-confirmation.shop) / AS13335] tier=1 op=A
+[2026-10-04T16:14:08Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=406/406 dns-cf=406/406
+[2026-10-04T16:14:08Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-04T16:14:08Z] SCAN-SAVED olx.payu-confirmation.shop -> https://urlscan.io/result/01a107c6-e49d-72db-b24b-07c9c52f7125/
+[2026-10-04T16:14:08Z] 4 new tier-1 Operator-A indicator(s) this run

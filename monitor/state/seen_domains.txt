@@ -294,6 +294,7 @@ olx.paycore24-express.sbs
 olx.payprzelew-core1.fun
 olx.paysend-paczka.shop
 olx.paysend-paczka.xyz
+olx.payu-confirmation.shop
 olx.poland-corepay1.eu.cc
 olx.przelew-paycore.cyou
 olx.przelew-paycore.sbs
