@@ -1846,3 +1846,26 @@
 [2026-10-03T20:25:03Z] SCAN-SAVED xzmsffm.com -> https://urlscan.io/result/01a10381-cfb6-75f0-9426-09f68d435a63/
 [2026-10-03T20:25:03Z] SCAN-SAVED zzuav.com -> https://urlscan.io/result/01a10381-dbb4-751d-ac63-9e5f7a8de734/
 [2026-10-03T20:25:03Z] 15 new tier-1 Operator-A indicator(s) this run
+[2026-10-04T03:37:30Z] NEW cert  api-new-uchu.uchooo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  api-uchu.uchooo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  cn-en-c7app.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  dfclgzw.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  encaiss.top  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  m.dfclgzw.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  operation.uchooo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  psd18.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  test.uchooo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  uchooo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  user8396926.me  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  wap.dfclgzw.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  www.dfclgzw.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW cert  www.uchooo.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW domain  blocket.order-detaljer.shop  [urlscan @https://blocket.order-detaljer.shop/ (apex-context:order-detaljer.shop) / 01a10381-41f4-715d-a43e-4fc29911fd2d] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW domain  wallapop.compra-verif.cfd  [urlscan @188.114.97.3 (apex-context:compra-verif.cfd) / AS13335] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW domain  web.compra-verif.cfd  [urlscan @104.21.42.137 (apex-context:compra-verif.cfd) / AS13335] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW domain  web.order-detaljer.shop  [urlscan @https://web.order-detaljer.shop/ (apex-context:order-detaljer.shop) / 01a10381-b966-748f-98b3-3c5b11e5d245] tier=1 op=A
+[2026-10-04T03:37:30Z] NEW domain  www.order-detaljer.shop  [urlscan @https://www.order-detaljer.shop/ (apex-context:order-detaljer.shop) / 01a10381-c4a1-7350-914e-23a3b1f50366] tier=1 op=A
+[2026-10-04T03:37:30Z] candidate ip  64.239.109.193  [dns (dub.sh)] tier=2 op=A
+[2026-10-04T03:37:30Z] candidate ip  64.239.123.65  [dns (dub.sh)] tier=2 op=A
+[2026-10-04T03:37:30Z] HEALTH certspotter=11/140 crtsh=7/10 urlscan=206/206 dns-google=404/404 dns-cf=404/404
+[2026-10-04T03:37:30Z] 19 new tier-1 Operator-A indicator(s) this run
