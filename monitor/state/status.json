@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T16:37:19Z",
-  "last_run_at": "2026-10-04T16:14:08Z",
-  "last_run_summary": "[2026-10-04T16:14:08Z] 4 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-04T16:14:08Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=406/406 dns-cf=406/406",
+  "generated_at": "2026-10-04T20:56:34Z",
+  "last_run_at": "2026-10-04T20:43:13Z",
+  "last_run_summary": "[2026-10-04T20:43:13Z] 4 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-04T20:43:13Z] HEALTH certspotter=10/140 crtsh=1/4 urlscan=206/206 dns-google=406/406 dns-cf=406/406",
   "tracked_hosts": {
     "total": 273,
     "by_status": {
-      "dead": 70,
-      "active": 203
+      "dead": 141,
+      "active": 132
     },
     "by_operator_tier": {
       "A:tier1": 273
@@ -373,33 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 334
+    "A": 338
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "psd18.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "test.uchooo.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "uchooo.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "user8396926.me",
-      "operator": "A",
-      "first_seen": "2026-10-04T03:37:30Z"
-    },
     {
       "type": "cert",
       "indicator": "wap.dfclgzw.com",
@@ -495,6 +471,30 @@
       "indicator": "olx.payu-confirmation.shop",
       "operator": "A",
       "first_seen": "2026-10-04T16:14:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "order3274.cfd",
+      "operator": "A",
+      "first_seen": "2026-10-04T20:43:13Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "verif-compras.online",
+      "operator": "A",
+      "first_seen": "2026-10-04T20:43:13Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "verification-page6748.com",
+      "operator": "A",
+      "first_seen": "2026-10-04T20:43:13Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "zzuav.com",
+      "operator": "A",
+      "first_seen": "2026-10-04T20:43:13Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

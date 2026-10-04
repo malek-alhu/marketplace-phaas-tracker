@@ -1884,3 +1884,9 @@
 [2026-10-04T16:14:08Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-10-04T16:14:08Z] SCAN-SAVED olx.payu-confirmation.shop -> https://urlscan.io/result/01a107c6-e49d-72db-b24b-07c9c52f7125/
 [2026-10-04T16:14:08Z] 4 new tier-1 Operator-A indicator(s) this run
+[2026-10-04T20:43:13Z] NEW cert  order3274.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T20:43:13Z] NEW cert  verif-compras.online  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T20:43:13Z] NEW cert  verification-page6748.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T20:43:13Z] NEW cert  zzuav.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-04T20:43:13Z] HEALTH certspotter=10/140 crtsh=1/4 urlscan=206/206 dns-google=406/406 dns-cf=406/406
+[2026-10-04T20:43:13Z] 4 new tier-1 Operator-A indicator(s) this run

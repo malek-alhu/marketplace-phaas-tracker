@@ -1,30 +1,17 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 98 · newest first_seen: 2026-10-02 · TLP:CLEAR
+# Entries: 64 · newest first_seen: 2026-10-02 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
-58stw.com
-action-paycore-pl.shop
-auth-lnfo.com
-avhenting2409.cc
-avhenting2709.cc
-avhenting2909.cc
 bekreftjs.com
-bekreftnorwq.com
 bekreftoo.com
 blocket-system.cam
-c0mpra-verify.help
 ch-cn-ng28app.com
-checkn-auth.com
 cn-en-c7app.com
 compra-verif.cfd
 confirmado.cc
 confirmation-order-gg.cfd
-confirmation-order-gg.sbs
-confirmation-order-payu.cfd
-confirmation-order-payu.lol
-confirmation-order-payu.sbs
 confirmation-order-pl.sbs
 confirmation-order.sbs
 cylex-verifbankid.cfd
@@ -34,46 +21,29 @@ encaiss.top
 frakt-orderhubid94699.eu.cc
 gumtree-payment.shop
 huian189.com
-info-auth.com
 invoice-center.info
 monrelaisplusin.icu
-negabarit.sbs
 olx-entrega.it.com
 order-detaljer.shop
 order-id8219.shop
 order-info62351.com
-order-info84719.com
 order21.shop
 order3274.cfd
 order4851.com
-orders-info92841.com
 orders-info93657.com
-osrofoptp.com
 paczzka4342362.cyou
 paczzka434236212.shop
 paczzkaa763238.click
 pay-service-customer.eu.cc
-paycore-bup-process.sbs
-paycore-confirmation.biz.id
 paycore-confirmation.lol
 paycore-confirmation.sbs
-paycore-confirmation.shop
-paycore-confirmation44232.beer
-paycore-confirmation44232.casa
-paycore-confirmation44232.lol
-paycore-confirmation44232.study
 paycore-pl-action.eu.cc
 paycore-trust-process.cfd
-paycore-trust-process.sbs
-payplcore.biz.id
 payprotect.shop
 payprzelew-core1.fun
-payprzelew-core1.site
 payprzelew-core2.eu.cc
 payu-confirmation-pl.eu.cc
 poland-corepay1.eu.cc
-przelew-paycore.biz.id
-przelew-paycore.cfd
 przelew-paycore.cyou
 przelew-paycore.sbs
 przelew-paycore.shop
@@ -81,13 +51,10 @@ przelew-pl.shop
 psd18.com
 qas9daj89fhj27252874.sbs
 qdscdq.com
-real-compra-verif.world
-realdr-id.com
 receive.sale
 smurfysstore.com
 subito.cam
 uchooo.com
-user8396926.me
 veriffy.sbs
 verification-help.com
 verification-page6748.com
@@ -97,7 +64,6 @@ verkaufer-auszahlung.com
 vintdeactive.com
 vintedverify.my.id
 vintedverify.web.id
-visa-order.help
 wfscgj.com
 xzmsffm.com
 zzuav.com
