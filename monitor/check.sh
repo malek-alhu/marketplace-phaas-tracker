@@ -57,7 +57,8 @@
 #
 #  Signals per run:
 #    1. CT logs   — new certs / subdomains (certspotter + crt.sh, keyless)
-#                   · apex queries  -> subdomains of watched apexes (tier 1)
+#                   · apex queries  -> subdomains of watched apexes (tier 1 only
+#                     if live on Cloudflare this run; else tier 2 + state/ct_pending.tsv)
 #                   · token queries -> candidate new cluster apexes (tier 2)
 #    2. urlscan   — kit fingerprints (content-hash primary, URL+ASN-filtered
 #                   `us=` secondary) -> new live kit domains + served IP/ASN
@@ -99,6 +100,7 @@ SCANNED="$STATE/scanned.txt";        touch "$SCANNED"
 AUTO_APEX="$STATE/auto_apexes.txt";  touch "$AUTO_APEX"   # self-evolved apexes: "apex<TAB>operator"
 TRACKED="$STATE/tracked_hosts.tsv";  touch "$TRACKED"     # host tier operator source first_seen last_ok fail_streak status
 PENDOPB="$STATE/pending_opb.txt";    touch "$PENDOPB"     # Operator-B tier-1 delta, accumulates for the weekly digest
+CT_PENDING="$STATE/ct_pending.tsv";  touch "$CT_PENDING"  # "name<TAB>first_seen": new certs not (yet) live on Cloudflare
 DISCO="$MON/discovered.csv"                               # manual-review candidates (never auto-watched)
 
 [ -s "$FIND" ]  || echo "type,indicator,source,asn,first_seen,tier,operator,matched_url,scan_uuid" > "$FIND"
@@ -316,9 +318,25 @@ record_quiet() { # like record() but NEVER alerts — for tier-2/low-confidence 
 # certspotter rate-limits hard when keyless (HTTP 429, 1h cooldown). With a token
 # (CERTSPOTTER_TOKEN secret) it authenticates via Bearer and gets full limits.
 CS_AUTH=(); [ -n "${CERTSPOTTER_TOKEN:-}" ] && CS_AUTH=(-H "Authorization: Bearer $CERTSPOTTER_TOKEN")
-# Shuffle apex order: certspotter free-tier rate-limits after ~10 domain searches,
-# so a STABLE order would always cover the same first apexes and never the tail.
-for apex in $(printf '%s\n' "${APEXES[@]:-}" | grep -v '^$' | shuf); do
+# certspotter's free tier answers only ~10 domain searches per run (HEALTH log,
+# 2026-10-04/05: certspotter=10/140), so query order decides what gets covered.
+# Apexes that are live (or not yet tracked) go first, shuffled so the same ones
+# aren't always first. Dead apexes (tracked_hosts.tsv status=dead) are queried only on
+# their periodic DNS-recheck run (fail_streak % 4 == 0, same rule as section 4),
+# after the live ones; retired apexes are skipped. Before this, two thirds of the
+# budget went to dead zones (94 of 138 apexes), and their old certs reached tier 1
+# as "new" (Issues #78-#83).
+ct_apex_order() { # stdin: apexes -> stdout: query order
+  awk -F'\t' -v tf="$TRACKED" '
+    BEGIN { while ((getline l < tf) > 0) { split(l, f, "\t"); st[f[1]]=f[8]; fl[f[1]]=f[7]+0 } close(tf) }
+    NF && !seen[$1]++ {
+      s = st[$1]
+      if (s == "retired") next
+      if (s == "dead") { if (fl[$1] % 4 == 0) print "2\t" $1; next }
+      print "1\t" $1
+    }' | shuf | sort -s -t $'\t' -k1,1n | cut -f2
+}
+for apex in $(printf '%s\n' "${APEXES[@]:-}" | grep -v '^$' | ct_apex_order); do
   [ -z "$apex" ] && continue
   fetch_h 30 2 "certspotter" "https://api.certspotter.com/v1/issuances?domain=$apex&include_subdomains=true&expand=dns_names" "${CS_AUTH[@]}" \
     | node "$PARSE" certspotter | grep -v '^$' | while IFS= read -r h; do is_denied "$h" || echo "$h"; done >> "$CERTS_APEX"
@@ -533,10 +551,42 @@ if [ ! -f "$INIT" ]; then
   exit 0
 fi
 
-# ---- DELTAS: new certs — apex subdomains (tier1) then token candidates (tier2) ---
+# ---- DELTAS: new certs — apex subdomains (tier1 if live) then token candidates (tier2) ---
+# A cert is "new" the first time we see it, which includes the whole CT history
+# of an apex the first time it is queried. On its own it shows nothing is
+# running. On 2026-10-04/05 about 80% of tier-1 rows (#78-#83) were certs for
+# NXDOMAIN, SERVFAIL or parked hosts. Operator A is always behind Cloudflare, so a
+# cert is tier 1 only if this run's DNS pass saw the name on a Cloudflare edge
+# IP. Otherwise it is logged tier 2 and parked in ct_pending.tsv. A parked name
+# that comes up on Cloudflare within CT_PENDING_DAYS alerts then ("went live").
+# After that, the dead-host revival check in section 4 covers it.
+CT_PENDING_DAYS=14
+live_on_cf() { # host -> 0 if this run's DNS pass resolved it to a Cloudflare edge IP
+  local ip
+  while IFS= read -r ip; do is_cf_ip "$ip" && return 0; done < <(awk -F'\t' -v h="$1" '$1==h{print $2}' "$DNSPAIRS")
+  return 1
+}
+ct_cutoff="$(date -u -d "@$(( $(date -u -d "$TS" +%s) - CT_PENDING_DAYS*86400 ))" +%FT%TZ)"
+: > "$TMP/ct_pending_new"; : > "$TMP/ct_live"
+while IFS=$'\t' read -r name since; do                       # names parked by earlier runs
+  [ -z "${name:-}" ] && continue
+  if live_on_cf "$name"; then
+    record "cert" "$name" "ct-log (apex subdomain — went live on Cloudflare)" "" 1 A
+    echo "$name" >> "$TMP/ct_live"
+  elif [[ ! "${since:-}" < "$ct_cutoff" ]]; then
+    printf '%s\t%s\n' "$name" "$since" >> "$TMP/ct_pending_new"
+  fi
+done < "$CT_PENDING"
 comm -13 "$SEEN_CERT" "$CERTS_APEX" | grep -v '^$' | while IFS= read -r name; do
-  record "cert" "$name" "ct-log (apex subdomain)" "" 1 A
+  if live_on_cf "$name"; then
+    record "cert" "$name" "ct-log (apex subdomain)" "" 1 A
+    echo "$name" >> "$TMP/ct_live"
+  else
+    record_quiet "cert" "$name" "ct-log (apex subdomain — not live on Cloudflare)" "" 2 A
+    printf '%s\t%s\n' "$name" "$TS" >> "$TMP/ct_pending_new"
+  fi
 done
+sort -t $'\t' -k1,1 -u "$TMP/ct_pending_new" > "$CT_PENDING"
 comm -13 "$SEEN_CERT" "$CERTS_TOK" | grep -v '^$' | while IFS= read -r name; do
   record_quiet "cert" "$name" "ct-log (token candidate — review)" "" 2 A
 done
@@ -697,16 +747,19 @@ awk -F'\t' -v ts="$TS" '
   }
   {
     h=$1; tier=$2; oper=$3; src=$4; first=$5; lastok=$6; fails=$7+0; status=$8
-    if (h in checked) {
-      if (h in resolved) {
-        was_dead = (status=="dead" || status=="retired")
-        lastok=ts; fails=0; status="active"
-        if (was_dead) print h > "'"$TMP"'/revived"
-      } else {
-        fails++
-        if (status=="active" && fails>=8) status="dead"
-        else if (status=="dead" && fails>=8+360) status="retired"
-      }
+    if ((h in checked) && (h in resolved)) {
+      was_dead = (status=="dead" || status=="retired")
+      lastok=ts; fails=0; status="active"
+      if (was_dead) print h > "'"$TMP"'/revived"
+    } else if ((h in checked) || status=="dead") {
+      # A dead host must count up on every run, checked or not. fail_streak
+      # drives both its 1-in-4 recheck (section 4: fails%4==0) and retirement.
+      # Counting only checked runs left all 176 dead hosts stuck at 9
+      # (2026-10-03 to 10-05), so none was ever rechecked again and the revival
+      # alert below could never fire.
+      fails++
+      if (status=="active" && fails>=8) status="dead"
+      else if (status=="dead" && fails>=8+360) status="retired"
     }
     print h"\t"tier"\t"oper"\t"src"\t"first"\t"lastok"\t"fails"\t"status
   }
@@ -715,6 +768,7 @@ mv "$TMP/tracked_step2" "$TRACKED"
 if [ -s "$TMP/revived" ]; then
   while IFS= read -r h; do
     [ -z "$h" ] && continue
+    grep -qxF "$h" "$TMP/ct_live" 2>/dev/null && continue   # already alerted this run as a cert that went live
     ip="$(awk -F'\t' -v h="$h" '$1==h{print $2; exit}' "$DNSPAIRS")"
     htier="${TIER[$h]:-1}"; hop="${OPER[$h]:-A}"
     if is_cf_ip "$ip"; then
