@@ -1,60 +1,39 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 64 · newest first_seen: 2026-10-02 · TLP:CLEAR
+# Entries: 42 · newest first_seen: 2026-10-02 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
-bekreftjs.com
-bekreftoo.com
-blocket-system.cam
 ch-cn-ng28app.com
 cn-en-c7app.com
 compra-verif.cfd
 confirmado.cc
-confirmation-order-gg.cfd
-confirmation-order-pl.sbs
 confirmation-order.sbs
 cylex-verifbankid.cfd
-dfclgzw.com
 dpd-cz.live
 encaiss.top
 frakt-orderhubid94699.eu.cc
 gumtree-payment.shop
-huian189.com
 invoice-center.info
 monrelaisplusin.icu
 olx-entrega.it.com
 order-detaljer.shop
-order-id8219.shop
 order-info62351.com
 order21.shop
 order3274.cfd
 order4851.com
 orders-info93657.com
-paczzka4342362.cyou
 paczzka434236212.shop
 paczzkaa763238.click
-pay-service-customer.eu.cc
 paycore-confirmation.lol
 paycore-confirmation.sbs
-paycore-pl-action.eu.cc
 paycore-trust-process.cfd
 payprotect.shop
-payprzelew-core1.fun
-payprzelew-core2.eu.cc
 payu-confirmation-pl.eu.cc
-poland-corepay1.eu.cc
 przelew-paycore.cyou
 przelew-paycore.sbs
 przelew-paycore.shop
-przelew-pl.shop
-psd18.com
-qas9daj89fhj27252874.sbs
-qdscdq.com
-receive.sale
-smurfysstore.com
 subito.cam
-uchooo.com
 veriffy.sbs
 verification-help.com
 verification-page6748.com
@@ -64,6 +43,5 @@ verkaufer-auszahlung.com
 vintdeactive.com
 vintedverify.my.id
 vintedverify.web.id
-wfscgj.com
 xzmsffm.com
 zzuav.com

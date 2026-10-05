@@ -1890,3 +1890,21 @@
 [2026-10-04T20:43:13Z] NEW cert  zzuav.com  [ct-log (apex subdomain)] tier=1 op=A
 [2026-10-04T20:43:13Z] HEALTH certspotter=10/140 crtsh=1/4 urlscan=206/206 dns-google=406/406 dns-cf=406/406
 [2026-10-04T20:43:13Z] 4 new tier-1 Operator-A indicator(s) this run
+[2026-10-05T03:20:16Z] NEW cert  9mwh.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  action-paycore-pl.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  checkn-auth.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  confirmation-order-payu.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  info-auth.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  m.psd18.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  olx-entrega.it.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  order-id8219.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  paczzka4342362.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  paycore-confirmation.biz.id  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  paycore-confirmation.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  przelew-paycore.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  smurfysstore.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  verifiers-online-compras.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  wfscgj.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] NEW cert  www.psd18.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T03:20:16Z] HEALTH certspotter=12/140 crtsh=50/54 urlscan=206/206 dns-google=410/410 dns-cf=410/410
+[2026-10-05T03:20:16Z] 16 new tier-1 Operator-A indicator(s) this run
