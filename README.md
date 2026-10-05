@@ -210,8 +210,10 @@ whatever a source returns. To keep signal high, DNS is resolved only for hosts i
 full historical set), and a host **decays**: 8 consecutive empty resolutions marks it `dead` (expected churn — the
 kit's apexes rotate ~daily), and ~90 days of periodic rechecks with no response retires it. A dead/retired host that
 reappears on Cloudflare raises an alert (possible operator reuse); reappearing on a non-Cloudflare IP is logged quietly,
-never alerted. Broad CT token matches (which collide with unrelated legitimate domains) are always tier-2 candidates —
-never auto-resolved, never alerted.
+never alerted. A new certificate for a watched apex alerts only if that name resolves on Cloudflare in the same run.
+Certificates for dead, parked or unresolvable names are logged as tier 2 and held in `monitor/state/ct_pending.tsv`
+for 14 days, and alert if they come up on Cloudflare in that time. Broad CT token matches (which collide with unrelated
+legitimate domains) are always tier-2 candidates — never auto-resolved, never alerted.
 
 > ⚠️ **2026-09-25 incident note.** An earlier version of this tracker auto-promoted any new non-Cloudflare IP to a
 > permanent watch, which turned into a self-reinforcing noise loop (2026-09-10 → 09-24): dead Operator-A apexes
@@ -386,6 +388,7 @@ many candidates are waiting for review. Then drill into the files below as neede
 | `state/status.json` | every run | Orientation snapshot (above) |
 | `state/tracked_hosts.tsv` | every run | The DNS re-resolve set + decay state per host (`active`/`dead`/`retired`) |
 | `state/pending_opb.txt` | every run | Operator-B findings waiting for Monday's digest Issue |
+| `state/ct_pending.tsv` | every run | New certificates for watched apexes that were not yet live on Cloudflare (`name<TAB>first_seen`); each alerts if it goes live within 14 days |
 | `state/seen_*.txt` | every run | Dedup memory only (what's already been reported) |
 | `../kit-source/raw_bodies/` | human + hash-chaining | The actual JS source behind every fingerprint hash (`SHA256SUMS.txt` = chain of custody) |
 | `migrate-2026-09*.{sh,tsv}` | one-time | The 2026-09-25 cleanup + the 99 hash-pivot apexes it recovered (historical) |

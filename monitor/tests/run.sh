@@ -79,6 +79,41 @@ order="$(printf '2\thashhit\n1\turlhit\n2\thashhit\n1\turlhit2\n' | sort -t "$(p
 check "chaining picks URL+ASN hits first, deduped (rebuilt kit visible first)" '[ "$order" = "urlhit,urlhit2,hashhit" ]'
 check "check.sh uses that exact priority pipeline"                        'grep -qF "sort -t \"\$(printf '"'"'\\t'"'"')\" -k1,1n \"\$FRESH_HITS\" | cut -f2 | awk '"'"'!seen[\$0]++'"'"' | head -n 3" "$CS"'
 
+echo "== check.sh: CT certs alert only when live on Cloudflare (#78-#83 noise) =="
+CT="$(mktemp -d)"
+{ sed -n '/^is_cf_ip()/,/^}/p' "$CS"; sed -n '/^record()/,/^}/p' "$CS"; sed -n '/^record_quiet()/,/^}/p' "$CS"
+  sed -n '/^# ---- DELTAS: new certs/,/^comm -13 "\$SEEN_CERT" "\$CERTS_TOK"/p' "$CS" | sed '$d'; } > "$CT/block.sh"
+printf 'live.test\t104.21.1.1\nparked.test\t185.53.179.136\nback.test\t2606:4700::1\n' > "$CT/dns"
+printf 'dead.test\nlive.test\nparked.test\n' > "$CT/certs"
+printf 'back.test\t2099-01-09T00:00:00Z\nold.test\t2098-12-01T00:00:00Z\n' > "$CT/pending"
+( TMP="$CT"; TS=2099-01-10T00:00:00Z; FIND="$CT/find"; LOG="$CT/log"; NEW1="$CT/new1"; PENDOPB="$CT/opb"
+  DNSPAIRS="$CT/dns"; CERTS_APEX="$CT/certs"; SEEN_CERT="$CT/seen"; CT_PENDING="$CT/pending"
+  : > "$SEEN_CERT"; : > "$NEW1"; . "$CT/block.sh" ) >/dev/null 2>&1
+check "tier-1 cert alerts = live-on-CF new cert + parked cert that went live" '[ "$(awk "{print \$2}" "$CT/new1" | sort | paste -sd,)" = "back.test,live.test" ]'
+check "certs for NXDOMAIN or off-Cloudflare names are logged tier 2"     '[ "$(awk -F, "\$6==2{print \$2}" "$CT/find" | sort | paste -sd,)" = "dead.test,parked.test" ]'
+check "ct_pending.tsv keeps not-yet-live certs, drops went-live + >14d"  '[ "$(cut -f1 "$CT/pending" | paste -sd,)" = "dead.test,parked.test" ]'
+rm -rf "$CT"
+
+echo "== check.sh: dead hosts keep counting so they get rechecked and retired =="
+DT="$(mktemp -d)"
+sed -n '/^# ---- decay: mark/,/^mv "\$TMP\/tracked_step2" "\$TRACKED"/p' "$CS" > "$DT/block.sh"
+printf 'stuck.test\t1\tA\tw\tx\t\t9\tdead\nold.test\t1\tA\tw\tx\t\t367\tdead\nfading.test\t1\tA\tw\tx\t\t7\tactive\nup.test\t1\tA\tw\tx\t\t12\tdead\n' > "$DT/tracked"
+printf 'fading.test\nup.test\n' > "$DT/hosts"; printf 'up.test\t104.21.1.1\n' > "$DT/dns"
+( TMP="$DT"; TS=2099-01-10T00:00:00Z; HOSTS="$DT/hosts"; DNSPAIRS="$DT/dns"; TRACKED="$DT/tracked"; . "$DT/block.sh" ) >/dev/null 2>&1
+st() { awk -F'\t' -v h="$1" '$1==h{print $7"/"$8}' "$DT/tracked"; }
+check "unchecked dead host still counts up (was stuck at 9 forever)"     '[ "$(st stuck.test)" = "10/dead" ]'
+check "dead host retires after 8+360 runs"                               '[ "$(st old.test)" = "368/retired" ]'
+check "active host goes dead after 8 empty checks"                       '[ "$(st fading.test)" = "8/dead" ]'
+check "rechecked dead host that resolves is revived (revival alert input)" '[ "$(st up.test)" = "0/active" ] && grep -qx up.test "$DT/revived"'
+rm -rf "$DT"
+
+echo "== check.sh: CT budget goes to live apexes first =="
+OT="$(mktemp -d)"; sed -n '/^ct_apex_order()/,/^}/p' "$CS" > "$OT/f.sh"
+printf 'a.test\t1\tA\tw\tx\t\t0\tactive\nb.test\t1\tA\tw\tx\t\t9\tdead\nc.test\t1\tA\tw\tx\t\t12\tdead\nd.test\t1\tA\tw\tx\t\t400\tretired\n' > "$OT/tracked"
+ctorder="$( TRACKED="$OT/tracked"; . "$OT/f.sh"; printf 'c.test\nb.test\nd.test\na.test\ne.test\n' | ct_apex_order | paste -sd, )"
+check "live/untracked apexes first, dead only on recheck runs, retired never" 'case "$ctorder" in a.test,e.test,c.test|e.test,a.test,c.test) true;; *) false;; esac'
+rm -rf "$OT"
+
 echo "== state invariants (committed files) =="
 F="$MON/findings.csv"; TH="$MON/state/tracked_hosts.tsv"; W="$MON/watchlist.txt"; D="$MON/denylist.txt"
 check "findings.csv: every row has exactly 9 columns"                    '[ -z "$(awk -F, "NF!=9" "$F")" ]'
