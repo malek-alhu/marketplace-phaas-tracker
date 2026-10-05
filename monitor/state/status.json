@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-05T03:41:39Z",
-  "last_run_at": "2026-10-05T03:20:16Z",
-  "last_run_summary": "[2026-10-05T03:20:16Z] 16 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-05T03:20:16Z] HEALTH certspotter=12/140 crtsh=50/54 urlscan=206/206 dns-google=410/410 dns-cf=410/410",
+  "generated_at": "2026-10-05T13:22:45Z",
+  "last_run_at": "2026-10-05T13:11:03Z",
+  "last_run_summary": "[2026-10-05T13:11:03Z] 6 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-05T13:11:03Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=270/270 dns-cf=270/270",
   "tracked_hosts": {
-    "total": 275,
+    "total": 276,
     "by_status": {
-      "dead": 176,
-      "active": 99
+      "dead": 184,
+      "active": 92
     },
     "by_operator_tier": {
-      "A:tier1": 275
+      "A:tier1": 276
     }
   },
   "fingerprints": [
@@ -373,45 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 354
+    "A": 360
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "order3274.cfd",
-      "operator": "A",
-      "first_seen": "2026-10-04T20:43:13Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "verif-compras.online",
-      "operator": "A",
-      "first_seen": "2026-10-04T20:43:13Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "verification-page6748.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T20:43:13Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "zzuav.com",
-      "operator": "A",
-      "first_seen": "2026-10-04T20:43:13Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "9mwh.com",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "action-paycore-pl.shop",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "checkn-auth.com",
@@ -495,6 +459,42 @@
       "indicator": "www.psd18.com",
       "operator": "A",
       "first_seen": "2026-10-05T03:20:16Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "c0mpra-verify.help",
+      "operator": "A",
+      "first_seen": "2026-10-05T13:11:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "order-info62351.com",
+      "operator": "A",
+      "first_seen": "2026-10-05T13:11:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paycore-confirmation44232.beer",
+      "operator": "A",
+      "first_seen": "2026-10-05T13:11:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "payu-confirmation-pl.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-05T13:11:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "payu-confirmation.shop",
+      "operator": "A",
+      "first_seen": "2026-10-05T13:11:03Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "g-starsoftwareapi.sbs",
+      "operator": "A",
+      "first_seen": "2026-10-05T13:11:03Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

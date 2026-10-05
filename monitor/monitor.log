@@ -1908,3 +1908,18 @@
 [2026-10-05T03:20:16Z] NEW cert  www.psd18.com  [ct-log (apex subdomain)] tier=1 op=A
 [2026-10-05T03:20:16Z] HEALTH certspotter=12/140 crtsh=50/54 urlscan=206/206 dns-google=410/410 dns-cf=410/410
 [2026-10-05T03:20:16Z] 16 new tier-1 Operator-A indicator(s) this run
+[2026-10-05T13:11:03Z] NEW cert  c0mpra-verify.help  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T13:11:03Z] NEW cert  order-info62351.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T13:11:03Z] NEW cert  paycore-confirmation44232.beer  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T13:11:03Z] NEW cert  payu-confirmation-pl.eu.cc  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T13:11:03Z] NEW cert  payu-confirmation.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-05T13:11:03Z] NEW domain  g-starsoftwareapi.sbs  [urlscan @188.114.96.3 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-05T13:11:03Z] candidate ip  104.21.18.16  [dns (g-starsoftwareapi.sbs)] tier=2 op=A
+[2026-10-05T13:11:03Z] candidate ip  172.67.179.149  [dns (g-starsoftwareapi.sbs)] tier=2 op=A
+[2026-10-05T13:11:03Z] candidate ip  2606:4700:3034::6815:1210  [dns (g-starsoftwareapi.sbs)] tier=2 op=A
+[2026-10-05T13:11:03Z] candidate ip  2606:4700:3037::ac43:b395  [dns (g-starsoftwareapi.sbs)] tier=2 op=A
+[2026-10-05T13:11:03Z] HEALTH certspotter=10/140 crtsh=0/3 urlscan=206/206 dns-google=270/270 dns-cf=270/270
+[2026-10-05T13:11:03Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-05T13:11:03Z] AUTO-PROMOTE apex g-starsoftwareapi.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-05T13:11:03Z] SCAN-SAVED g-starsoftwareapi.sbs -> https://urlscan.io/result/01a10c3b-1cc5-726b-af95-0bfa3b3717e2/
+[2026-10-05T13:11:03Z] 6 new tier-1 Operator-A indicator(s) this run
