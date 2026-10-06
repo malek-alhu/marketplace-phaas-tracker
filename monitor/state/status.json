@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-06T12:41:14Z",
-  "last_run_at": "2026-10-06T12:31:02Z",
-  "last_run_summary": "[2026-10-06T12:31:02Z] 2 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-06T12:31:02Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=208/208 dns-google=186/186 dns-cf=186/186",
+  "generated_at": "2026-10-06T22:13:38Z",
+  "last_run_at": "2026-10-06T22:04:27Z",
+  "last_run_summary": "[2026-10-06T22:04:27Z] 2 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-06T22:04:27Z] HEALTH certspotter=10/45 crtsh=2/6 urlscan=208/208 dns-google=188/188 dns-cf=188/188",
   "tracked_hosts": {
-    "total": 277,
+    "total": 278,
     "by_status": {
-      "dead": 195,
+      "dead": 196,
       "active": 82
     },
     "by_operator_tier": {
-      "A:tier1": 277
+      "A:tier1": 278
     }
   },
   "fingerprints": [
@@ -373,21 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 365
+    "A": 367
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "order-id8219.shop",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "paczzka4342362.sbs",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "paycore-confirmation.biz.id",
@@ -495,6 +483,18 @@
       "indicator": "payu-confirmation-pl.shop",
       "operator": "A",
       "first_seen": "2026-10-06T12:31:02Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "verification-payment.com",
+      "operator": "A",
+      "first_seen": "2026-10-06T22:04:27Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payu-nitro-pl.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-06T22:04:27Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

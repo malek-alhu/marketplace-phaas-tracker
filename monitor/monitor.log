@@ -1942,3 +1942,8 @@
 [2026-10-06T12:31:02Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=208/208 dns-google=186/186 dns-cf=186/186
 [2026-10-06T12:31:02Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-10-06T12:31:02Z] 2 new tier-1 Operator-A indicator(s) this run
+[2026-10-06T22:04:27Z] NEW cert  verification-payment.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-06T22:04:27Z] NEW domain  olx.payu-nitro-pl.eu.cc  [urlscan @172.67.195.155 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-06T22:04:27Z] HEALTH certspotter=10/45 crtsh=2/6 urlscan=208/208 dns-google=188/188 dns-cf=188/188
+[2026-10-06T22:04:27Z] AUTO-PROMOTE apex payu-nitro-pl.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-06T22:04:27Z] 2 new tier-1 Operator-A indicator(s) this run
