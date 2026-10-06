@@ -1923,3 +1923,17 @@
 [2026-10-05T13:11:03Z] AUTO-PROMOTE apex g-starsoftwareapi.sbs (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
 [2026-10-05T13:11:03Z] SCAN-SAVED g-starsoftwareapi.sbs -> https://urlscan.io/result/01a10c3b-1cc5-726b-af95-0bfa3b3717e2/
 [2026-10-05T13:11:03Z] 6 new tier-1 Operator-A indicator(s) this run
+[2026-10-06T04:07:27Z] NEW cert  cylex-verifbankid.cfd  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-06T04:07:27Z] NEW cert  g-starsoftwareapi.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-06T04:07:27Z] NEW domain  payu-nitro-pl.shop  [urlscan @104.21.93.156 (hash:next2-chunk-01) / AS13335] tier=1 op=A
+[2026-10-06T04:07:27Z] candidate ip  104.21.93.156  [dns (payu-nitro-pl.shop)] tier=2 op=A
+[2026-10-06T04:07:27Z] candidate ip  151.243.18.165  [dns (beseif.compra-verif.cfd)] tier=2 op=A
+[2026-10-06T04:07:27Z] candidate ip  172.67.211.184  [dns (payu-nitro-pl.shop)] tier=2 op=A
+[2026-10-06T04:07:27Z] candidate ip  2606:4700:3037::6815:5d9c  [dns (payu-nitro-pl.shop)] tier=2 op=A
+[2026-10-06T04:07:27Z] candidate ip  2606:4700:3037::ac43:d3b8  [dns (payu-nitro-pl.shop)] tier=2 op=A
+[2026-10-06T04:07:27Z] candidate ip  87.58.206.103  [dns (encaiss.top)] tier=2 op=A
+[2026-10-06T04:07:27Z] HEALTH certspotter=10/47 crtsh=0/3 urlscan=207/207 dns-google=202/202 dns-cf=202/202
+[2026-10-06T04:07:27Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-06T04:07:27Z] AUTO-PROMOTE apex payu-nitro-pl.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-06T04:07:27Z] SCAN-SAVED payu-nitro-pl.shop -> https://urlscan.io/result/01a10f6f-3e3a-73fc-b49d-3b158bf0975b/
+[2026-10-06T04:07:27Z] 3 new tier-1 Operator-A indicator(s) this run

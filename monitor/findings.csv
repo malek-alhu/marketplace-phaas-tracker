@@ -615,3 +615,12 @@ ip,104.21.18.16,dns (g-starsoftwareapi.sbs),Cloudflare-edge,2026-10-05T13:11:03Z
 ip,172.67.179.149,dns (g-starsoftwareapi.sbs),Cloudflare-edge,2026-10-05T13:11:03Z,2,A,,
 ip,2606:4700:3034::6815:1210,dns (g-starsoftwareapi.sbs),Cloudflare-edge,2026-10-05T13:11:03Z,2,A,,
 ip,2606:4700:3037::ac43:b395,dns (g-starsoftwareapi.sbs),Cloudflare-edge,2026-10-05T13:11:03Z,2,A,,
+cert,cylex-verifbankid.cfd,ct-log (apex subdomain),,2026-10-06T04:07:27Z,1,A,,
+cert,g-starsoftwareapi.sbs,ct-log (apex subdomain),,2026-10-06T04:07:27Z,1,A,,
+domain,payu-nitro-pl.shop,urlscan @104.21.93.156 (hash:next2-chunk-01),AS13335,2026-10-06T04:07:27Z,1,A,https://payu-nitro-pl.shop/,01a10e73-7f88-739d-a667-ba7f71869e1c
+ip,104.21.93.156,dns (payu-nitro-pl.shop),Cloudflare-edge,2026-10-06T04:07:27Z,2,A,,
+ip,151.243.18.165,dns (beseif.compra-verif.cfd),NON-CF — host left Cloudflare (manual review),2026-10-06T04:07:27Z,2,A,,
+ip,172.67.211.184,dns (payu-nitro-pl.shop),Cloudflare-edge,2026-10-06T04:07:27Z,2,A,,
+ip,2606:4700:3037::6815:5d9c,dns (payu-nitro-pl.shop),Cloudflare-edge,2026-10-06T04:07:27Z,2,A,,
+ip,2606:4700:3037::ac43:d3b8,dns (payu-nitro-pl.shop),Cloudflare-edge,2026-10-06T04:07:27Z,2,A,,
+ip,87.58.206.103,dns (encaiss.top),NON-CF — host left Cloudflare (manual review),2026-10-06T04:07:27Z,2,A,,
