@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T04:18:33Z",
-  "last_run_at": "2026-10-06T04:07:27Z",
-  "last_run_summary": "[2026-10-06T04:07:27Z] 3 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-06T04:07:27Z] HEALTH certspotter=10/47 crtsh=0/3 urlscan=207/207 dns-google=202/202 dns-cf=202/202",
+  "generated_at": "2026-10-06T12:41:14Z",
+  "last_run_at": "2026-10-06T12:31:02Z",
+  "last_run_summary": "[2026-10-06T12:31:02Z] 2 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-06T12:31:02Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=208/208 dns-google=186/186 dns-cf=186/186",
   "tracked_hosts": {
     "total": 277,
     "by_status": {
-      "dead": 184,
-      "active": 93
+      "dead": 195,
+      "active": 82
     },
     "by_operator_tier": {
       "A:tier1": 277
@@ -373,21 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 363
+    "A": 365
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "m.psd18.com",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "olx-entrega.it.com",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "order-id8219.shop",
@@ -495,6 +483,18 @@
       "indicator": "payu-nitro-pl.shop",
       "operator": "A",
       "first_seen": "2026-10-06T04:07:27Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "orders-info93657.com",
+      "operator": "A",
+      "first_seen": "2026-10-06T12:31:02Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "payu-confirmation-pl.shop",
+      "operator": "A",
+      "first_seen": "2026-10-06T12:31:02Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

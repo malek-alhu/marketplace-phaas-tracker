@@ -1937,3 +1937,8 @@
 [2026-10-06T04:07:27Z] AUTO-PROMOTE apex payu-nitro-pl.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
 [2026-10-06T04:07:27Z] SCAN-SAVED payu-nitro-pl.shop -> https://urlscan.io/result/01a10f6f-3e3a-73fc-b49d-3b158bf0975b/
 [2026-10-06T04:07:27Z] 3 new tier-1 Operator-A indicator(s) this run
+[2026-10-06T12:31:02Z] NEW cert  orders-info93657.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-06T12:31:02Z] NEW cert  payu-confirmation-pl.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-06T12:31:02Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=208/208 dns-google=186/186 dns-cf=186/186
+[2026-10-06T12:31:02Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-06T12:31:02Z] 2 new tier-1 Operator-A indicator(s) this run
