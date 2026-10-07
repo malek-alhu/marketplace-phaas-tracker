@@ -628,3 +628,6 @@ cert,orders-info93657.com,ct-log (apex subdomain),,2026-10-06T12:31:02Z,1,A,,
 cert,payu-confirmation-pl.shop,ct-log (apex subdomain),,2026-10-06T12:31:02Z,1,A,,
 cert,verification-payment.com,ct-log (apex subdomain),,2026-10-06T22:04:27Z,1,A,,
 domain,olx.payu-nitro-pl.eu.cc,urlscan @172.67.195.155 (hash:next2-chunk-01),AS13335,2026-10-06T22:04:27Z,1,A,https://olx.payu-nitro-pl.eu.cc/,01a1119f-4d70-72a9-b685-4a65582f4eff
+cert,payu-nitro-pl.eu.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-07T03:34:54Z,2,A,,
+cert,vintedverify.my.id,ct-log (apex subdomain),,2026-10-07T03:34:54Z,1,A,,
+ip,195.46.17.204,dns (visa-order.help),NON-CF — host left Cloudflare (manual review),2026-10-07T03:34:54Z,2,A,,

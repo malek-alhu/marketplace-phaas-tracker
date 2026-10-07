@@ -1947,3 +1947,11 @@
 [2026-10-06T22:04:27Z] HEALTH certspotter=10/45 crtsh=2/6 urlscan=208/208 dns-google=188/188 dns-cf=188/188
 [2026-10-06T22:04:27Z] AUTO-PROMOTE apex payu-nitro-pl.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
 [2026-10-06T22:04:27Z] 2 new tier-1 Operator-A indicator(s) this run
+[2026-10-07T03:34:54Z] candidate cert  payu-nitro-pl.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-07T03:34:54Z] NEW cert  vintedverify.my.id  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-07T03:34:54Z] candidate ip  195.46.17.204  [dns (visa-order.help)] tier=2 op=A
+[2026-10-07T03:34:54Z] HEALTH certspotter=10/136 crtsh=0/3 urlscan=209/209 dns-google=520/520 dns-cf=520/520
+[2026-10-07T03:34:54Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-07T03:34:54Z] SCAN-SAVED visa-order.help -> https://urlscan.io/result/01a1147a-12f7-714e-af31-c9b26ecfb3c2/
+[2026-10-07T03:34:54Z] REVIVED-NONCF visa-order.help -> 195.46.17.204 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-07T03:34:54Z] 1 new tier-1 Operator-A indicator(s) this run
