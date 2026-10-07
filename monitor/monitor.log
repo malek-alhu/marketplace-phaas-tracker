@@ -1955,3 +1955,9 @@
 [2026-10-07T03:34:54Z] SCAN-SAVED visa-order.help -> https://urlscan.io/result/01a1147a-12f7-714e-af31-c9b26ecfb3c2/
 [2026-10-07T03:34:54Z] REVIVED-NONCF visa-order.help -> 195.46.17.204 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
 [2026-10-07T03:34:54Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-07T12:24:07Z] NEW cert  invoice-center.info  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-07T12:24:07Z] candidate cert  przelew-paycore.cyou  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-07T12:24:07Z] NEW cert  veriffy.sbs  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-07T12:24:07Z] HEALTH certspotter=10/48 crtsh=0/3 urlscan=209/209 dns-google=184/184 dns-cf=184/184
+[2026-10-07T12:24:07Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-07T12:24:07Z] 2 new tier-1 Operator-A indicator(s) this run

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-07T03:48:29Z",
-  "last_run_at": "2026-10-07T03:34:54Z",
-  "last_run_summary": "[2026-10-07T03:34:54Z] 1 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-07T03:34:54Z] HEALTH certspotter=10/136 crtsh=0/3 urlscan=209/209 dns-google=520/520 dns-cf=520/520",
+  "generated_at": "2026-10-07T12:32:25Z",
+  "last_run_at": "2026-10-07T12:24:07Z",
+  "last_run_summary": "[2026-10-07T12:24:07Z] 2 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-07T12:24:07Z] HEALTH certspotter=10/48 crtsh=0/3 urlscan=209/209 dns-google=184/184 dns-cf=184/184",
   "tracked_hosts": {
     "total": 279,
     "by_status": {
-      "dead": 195,
-      "active": 84
+      "dead": 197,
+      "active": 82
     },
     "by_operator_tier": {
       "A:tier1": 279
@@ -373,21 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 368
+    "A": 370
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "paycore-confirmation.shop",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "przelew-paycore.sbs",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "smurfysstore.com",
@@ -495,6 +483,18 @@
       "indicator": "vintedverify.my.id",
       "operator": "A",
       "first_seen": "2026-10-07T03:34:54Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "invoice-center.info",
+      "operator": "A",
+      "first_seen": "2026-10-07T12:24:07Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "veriffy.sbs",
+      "operator": "A",
+      "first_seen": "2026-10-07T12:24:07Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
