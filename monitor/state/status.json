@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-07T12:32:25Z",
-  "last_run_at": "2026-10-07T12:24:07Z",
-  "last_run_summary": "[2026-10-07T12:24:07Z] 2 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-07T12:24:07Z] HEALTH certspotter=10/48 crtsh=0/3 urlscan=209/209 dns-google=184/184 dns-cf=184/184",
+  "generated_at": "2026-10-07T22:38:28Z",
+  "last_run_at": "2026-10-07T22:28:58Z",
+  "last_run_summary": "[2026-10-07T22:28:58Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-07T22:28:58Z] HEALTH certspotter=10/45 crtsh=2/6 urlscan=209/209 dns-google=168/168 dns-cf=168/168",
   "tracked_hosts": {
     "total": 279,
     "by_status": {
-      "dead": 197,
-      "active": 82
+      "dead": 199,
+      "active": 80
     },
     "by_operator_tier": {
       "A:tier1": 279
@@ -373,15 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 370
+    "A": 371
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "smurfysstore.com",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "verifiers-online-compras.shop",
@@ -495,6 +489,12 @@
       "indicator": "veriffy.sbs",
       "operator": "A",
       "first_seen": "2026-10-07T12:24:07Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paczzkaa763238.click",
+      "operator": "A",
+      "first_seen": "2026-10-07T22:28:58Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
