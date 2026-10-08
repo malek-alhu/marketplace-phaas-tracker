@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T12:48:04Z",
-  "last_run_at": "2026-10-08T12:33:38Z",
-  "last_run_summary": "[2026-10-08T12:33:38Z] 1 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-08T12:33:38Z] HEALTH certspotter=10/135 crtsh=0/3 urlscan=209/209 dns-google=512/512 dns-cf=512/512",
+  "generated_at": "2026-10-08T22:50:43Z",
+  "last_run_at": "2026-10-08T22:42:04Z",
+  "last_run_summary": "[2026-10-08T22:42:04Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-08T22:42:04Z] HEALTH certspotter=10/49 crtsh=1/4 urlscan=209/209 dns-google=178/178 dns-cf=178/178",
   "tracked_hosts": {
     "total": 279,
     "by_status": {
@@ -373,15 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 372
+    "A": 373
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "wfscgj.com",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "www.psd18.com",
@@ -495,6 +489,12 @@
       "indicator": "confirmado.cc",
       "operator": "A",
       "first_seen": "2026-10-08T12:33:38Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "przelew-pl.shop",
+      "operator": "A",
+      "first_seen": "2026-10-08T22:42:04Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

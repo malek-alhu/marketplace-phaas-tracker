@@ -1987,3 +1987,8 @@
 [2026-10-08T12:33:38Z] REVIVED-NONCF action-paycore-pl.shop -> 15.52.139.56 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
 [2026-10-08T12:33:38Z] REVIVED-NONCF przelew-pl.shop -> 54.44.64.67 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
 [2026-10-08T12:33:38Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-08T22:42:04Z] candidate cert  przelew-pl.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-08T22:42:04Z] NEW domain  przelew-pl.shop  [urlscan @https://przelew-pl.shop/ (apex-context:przelew-pl.shop) / 01a11b8e-7244-70bf-9f44-130a0c6e6b56] tier=1 op=A
+[2026-10-08T22:42:04Z] HEALTH certspotter=10/49 crtsh=1/4 urlscan=209/209 dns-google=178/178 dns-cf=178/178
+[2026-10-08T22:42:04Z] SCAN-BACKLOG 1 live host(s) queued for next run (cap 20/run)
+[2026-10-08T22:42:04Z] 1 new tier-1 Operator-A indicator(s) this run

@@ -643,3 +643,5 @@ ip,15.52.139.56,dns (action-paycore-pl.shop),NON-CF — host left Cloudflare (ma
 ip,211.29.122.90,dns (negabarit.sbs),NON-CF — host left Cloudflare (manual review),2026-10-08T12:33:38Z,2,A,,
 ip,54.44.64.67,dns (przelew-pl.shop),NON-CF — host left Cloudflare (manual review),2026-10-08T12:33:38Z,2,A,,
 ip,8.8.8.8,dns (inpost.pay-flow.cfd),NON-CF — host left Cloudflare (manual review),2026-10-08T12:33:38Z,2,A,,
+cert,przelew-pl.shop,ct-log (apex subdomain — not live on Cloudflare),,2026-10-08T22:42:04Z,2,A,,
+domain,przelew-pl.shop,urlscan @https://przelew-pl.shop/ (apex-context:przelew-pl.shop),01a11b8e-7244-70bf-9f44-130a0c6e6b56,2026-10-08T22:42:04Z,1,A,,
