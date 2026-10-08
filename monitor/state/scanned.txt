@@ -429,3 +429,6 @@ olx.payu-confirmation.shop
 g-starsoftwareapi.sbs
 payu-nitro-pl.shop
 visa-order.help
+action-paycore-pl.shop
+negabarit.sbs
+przelew-pl.shop

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-08T03:57:34Z",
-  "last_run_at": "2026-10-08T03:49:23Z",
-  "last_run_summary": "[2026-10-08T03:49:23Z] no new tier-1 Operator-A indicators",
-  "last_health_line": "[2026-10-08T03:49:23Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=209/209 dns-google=186/186 dns-cf=186/186",
+  "generated_at": "2026-10-08T12:48:04Z",
+  "last_run_at": "2026-10-08T12:33:38Z",
+  "last_run_summary": "[2026-10-08T12:33:38Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-08T12:33:38Z] HEALTH certspotter=10/135 crtsh=0/3 urlscan=209/209 dns-google=512/512 dns-cf=512/512",
   "tracked_hosts": {
     "total": 279,
     "by_status": {
-      "dead": 203,
-      "active": 76
+      "dead": 200,
+      "active": 79
     },
     "by_operator_tier": {
       "A:tier1": 279
@@ -373,15 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 371
+    "A": 372
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "verifiers-online-compras.shop",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "wfscgj.com",
@@ -495,9 +489,15 @@
       "indicator": "paczzkaa763238.click",
       "operator": "A",
       "first_seen": "2026-10-07T22:28:58Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "confirmado.cc",
+      "operator": "A",
+      "first_seen": "2026-10-08T12:33:38Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 200,
+  "manual_review_candidates_pending": 204,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

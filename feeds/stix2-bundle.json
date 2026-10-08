@@ -235,7 +235,8 @@
    "labels": [
     "phishing",
     "kit",
-    "bank transfer lure (PL)"
+    "bank transfer lure (PL)",
+    "resolving"
    ]
   },
   {
@@ -2879,7 +2880,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -4747,7 +4749,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {
@@ -6212,7 +6215,8 @@
    "labels": [
     "phishing",
     "kit",
-    "bank transfer lure (PL)"
+    "bank transfer lure (PL)",
+    "resolving"
    ]
   },
   {
@@ -7617,8 +7621,7 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)",
-    "resolving"
+    "marketplace-PhaaS (various)"
    ]
   },
   {

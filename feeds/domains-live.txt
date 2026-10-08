@@ -1,9 +1,10 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 38 · newest first_seen: 2026-10-02 · TLP:CLEAR
+# Entries: 41 · newest first_seen: 2026-10-02 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
+action-paycore-pl.shop
 compra-verif.cfd
 confirmado.cc
 confirmation-order.sbs
@@ -13,6 +14,7 @@ encaiss.top
 gumtree-payment.shop
 invoice-center.info
 monrelaisplusin.icu
+negabarit.sbs
 olx-entrega.it.com
 order-detaljer.shop
 order21.shop
@@ -21,6 +23,7 @@ order4851.com
 orders-info93657.com
 paczzka434236212.shop
 paczzkaa763238.click
+pay-flow.cfd
 paycore-confirmation.lol
 paycore-confirmation.sbs
 paycore-trust-process.cfd
@@ -29,6 +32,7 @@ payu-confirmation-pl.eu.cc
 przelew-paycore.cyou
 przelew-paycore.sbs
 przelew-paycore.shop
+przelew-pl.shop
 subito.cam
 veriffy.sbs
 verification-help.com
@@ -39,5 +43,4 @@ vintdeactive.com
 vintedverify.my.id
 vintedverify.web.id
 visa-order.help
-xzmsffm.com
 zzuav.com

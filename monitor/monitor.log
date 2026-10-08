@@ -1969,3 +1969,21 @@
 [2026-10-08T03:49:23Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=209/209 dns-google=186/186 dns-cf=186/186
 [2026-10-08T03:49:23Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-10-08T03:49:23Z] no new tier-1 Operator-A indicators
+[2026-10-08T12:33:38Z] NEW cert  confirmado.cc  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-08T12:33:38Z] candidate cert  visa-order.help  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-08T12:33:38Z] candidate ip  15.52.139.56  [dns (action-paycore-pl.shop)] tier=2 op=A
+[2026-10-08T12:33:38Z] candidate ip  211.29.122.90  [dns (negabarit.sbs)] tier=2 op=A
+[2026-10-08T12:33:38Z] candidate ip  54.44.64.67  [dns (przelew-pl.shop)] tier=2 op=A
+[2026-10-08T12:33:38Z] candidate ip  8.8.8.8  [dns (inpost.pay-flow.cfd)] tier=2 op=A
+[2026-10-08T12:33:38Z] HEALTH certspotter=10/135 crtsh=0/3 urlscan=209/209 dns-google=512/512 dns-cf=512/512
+[2026-10-08T12:33:38Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-08T12:33:38Z] SCAN-SAVED action-paycore-pl.shop -> https://urlscan.io/result/01a11b8e-50ca-742c-8709-0a66d0f654f4/
+[2026-10-08T12:33:38Z] SCAN-SAVED negabarit.sbs -> https://urlscan.io/result/01a11b8e-65ca-7003-9b2c-8f349f3a9d8c/
+[2026-10-08T12:33:38Z] SCAN-SAVED przelew-pl.shop -> https://urlscan.io/result/01a11b8e-7244-70bf-9f44-130a0c6e6b56/
+[2026-10-08T12:33:38Z] SCAN-BACKLOG 1 live host(s) queued for next run (cap 20/run)
+[2026-10-08T12:33:38Z] REVIVED-NONCF inpost.pay-flow.cfd -> 8.8.8.8 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-08T12:33:38Z] REVIVED-NONCF pay-flow.cfd -> 8.8.8.8 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-08T12:33:38Z] REVIVED-NONCF negabarit.sbs -> 211.29.122.90 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-08T12:33:38Z] REVIVED-NONCF action-paycore-pl.shop -> 15.52.139.56 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-08T12:33:38Z] REVIVED-NONCF przelew-pl.shop -> 54.44.64.67 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-08T12:33:38Z] 1 new tier-1 Operator-A indicator(s) this run
