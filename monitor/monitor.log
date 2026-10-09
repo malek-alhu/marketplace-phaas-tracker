@@ -1997,3 +1997,13 @@
 [2026-10-09T03:54:32Z] HEALTH certspotter=11/45 crtsh=14/21 urlscan=209/209 dns-google=162/162 dns-cf=162/162
 [2026-10-09T03:54:32Z] SCAN-BACKLOG 1 live host(s) queued for next run (cap 20/run)
 [2026-10-09T03:54:32Z] no new tier-1 Operator-A indicators
+[2026-10-09T12:21:33Z] NEW domain  dailyrss-website.versec.workers.dev  [urlscan @188.114.97.1 (urlscan-kit(us=)) / AS13335] tier=1 op=A
+[2026-10-09T12:21:33Z] candidate ip  104.21.58.171  [dns (dailyrss-website.versec.workers.dev)] tier=2 op=A
+[2026-10-09T12:21:33Z] candidate ip  172.67.162.78  [dns (dailyrss-website.versec.workers.dev)] tier=2 op=A
+[2026-10-09T12:21:33Z] candidate ip  2606:4700:3035::6815:3aab  [dns (dailyrss-website.versec.workers.dev)] tier=2 op=A
+[2026-10-09T12:21:33Z] candidate ip  2606:4700:3035::ac43:a24e  [dns (dailyrss-website.versec.workers.dev)] tier=2 op=A
+[2026-10-09T12:21:33Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=209/209 dns-google=186/186 dns-cf=186/186
+[2026-10-09T12:21:33Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-09T12:21:33Z] AUTO-PROMOTE apex versec.workers.dev (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-09T12:21:33Z] SCAN-SAVED dailyrss-website.versec.workers.dev -> https://urlscan.io/result/01a120a4-30c6-77dd-9020-b91637b06a59/
+[2026-10-09T12:21:33Z] 1 new tier-1 Operator-A indicator(s) this run

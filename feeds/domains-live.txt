@@ -1,6 +1,6 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 41 · newest first_seen: 2026-10-02 · TLP:CLEAR
+# Entries: 42 · newest first_seen: 2026-10-09 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
@@ -9,6 +9,7 @@ compra-verif.cfd
 confirmado.cc
 confirmation-order.sbs
 cylex-verifbankid.cfd
+dailyrss-website.versec.workers.dev
 dpd-cz.live
 encaiss.top
 gumtree-payment.shop

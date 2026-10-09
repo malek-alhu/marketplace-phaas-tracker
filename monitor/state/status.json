@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-09T04:09:47Z",
-  "last_run_at": "2026-10-09T03:54:32Z",
-  "last_run_summary": "[2026-10-09T03:54:32Z] no new tier-1 Operator-A indicators",
-  "last_health_line": "[2026-10-09T03:54:32Z] HEALTH certspotter=11/45 crtsh=14/21 urlscan=209/209 dns-google=162/162 dns-cf=162/162",
+  "generated_at": "2026-10-09T12:29:55Z",
+  "last_run_at": "2026-10-09T12:21:33Z",
+  "last_run_summary": "[2026-10-09T12:21:33Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-09T12:21:33Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=209/209 dns-google=186/186 dns-cf=186/186",
   "tracked_hosts": {
-    "total": 279,
+    "total": 280,
     "by_status": {
-      "dead": 202,
+      "dead": 203,
       "active": 77
     },
     "by_operator_tier": {
-      "A:tier1": 279
+      "A:tier1": 280
     }
   },
   "fingerprints": [
@@ -373,15 +373,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 373
+    "A": 374
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "www.psd18.com",
-      "operator": "A",
-      "first_seen": "2026-10-05T03:20:16Z"
-    },
     {
       "type": "cert",
       "indicator": "c0mpra-verify.help",
@@ -495,6 +489,12 @@
       "indicator": "przelew-pl.shop",
       "operator": "A",
       "first_seen": "2026-10-08T22:42:04Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "dailyrss-website.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-09T12:21:33Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

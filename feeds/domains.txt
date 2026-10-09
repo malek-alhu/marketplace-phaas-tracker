@@ -1,6 +1,6 @@
 # Marketplace PhaaS — all known kit/redirector domains
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 247 · newest first_seen: 2026-10-02 · TLP:CLEAR
+# Entries: 248 · newest first_seen: 2026-10-09 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0767s.com
@@ -46,6 +46,7 @@ corepay-24.sbs
 corepay-24.xyz
 cylex-verifbankid.cfd
 dacajncritter.com
+dailyrss-website.versec.workers.dev
 datispedizione.com
 dfclgzw.com
 dpd-cz.live

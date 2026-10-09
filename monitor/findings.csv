@@ -647,3 +647,8 @@ cert,przelew-pl.shop,ct-log (apex subdomain — not live on Cloudflare),,2026-10
 domain,przelew-pl.shop,urlscan @https://przelew-pl.shop/ (apex-context:przelew-pl.shop),01a11b8e-7244-70bf-9f44-130a0c6e6b56,2026-10-08T22:42:04Z,1,A,,
 cert,monrelaisplusin.icu,ct-log (apex subdomain — not live on Cloudflare),,2026-10-09T03:54:32Z,2,A,,
 cert,payu-nitro-pl.shop,ct-log (apex subdomain — not live on Cloudflare),,2026-10-09T03:54:32Z,2,A,,
+domain,dailyrss-website.versec.workers.dev,urlscan @188.114.97.1 (urlscan-kit(us=)),AS13335,2026-10-09T12:21:33Z,1,A,https://dailyrss-website.versec.workers.dev/a/Fksp41ggPJonkxGAZR_b8X,01a1208a-07f9-725f-a49f-e8bc68c0e403
+ip,104.21.58.171,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,
+ip,172.67.162.78,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,
+ip,2606:4700:3035::6815:3aab,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,
+ip,2606:4700:3035::ac43:a24e,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,

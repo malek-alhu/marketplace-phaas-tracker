@@ -1,7 +1,7 @@
 ! Title: Marketplace PhaaS (Classiscam/Telekopye-class) kit domains
 ! Homepage: https://github.com/malek-alhu/marketplace-phaas-tracker
 ! Expires: 1 day
-! Entries: 247
+! Entries: 248
 ||0767s.com^
 ||0rd56t457543567567567.sbs^
 ||0rderkleinan.shop^
@@ -45,6 +45,7 @@
 ||corepay-24.xyz^
 ||cylex-verifbankid.cfd^
 ||dacajncritter.com^
+||dailyrss-website.versec.workers.dev^
 ||datispedizione.com^
 ||dfclgzw.com^
 ||dpd-cz.live^
