@@ -652,3 +652,6 @@ ip,104.21.58.171,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-
 ip,172.67.162.78,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,
 ip,2606:4700:3035::6815:3aab,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,
 ip,2606:4700:3035::ac43:a24e,dns (dailyrss-website.versec.workers.dev),Cloudflare-edge,2026-10-09T12:21:33Z,2,A,,
+domain,leakcheckerweb.versec.workers.dev,urlscan @188.114.96.3 (apex-context:versec.workers.dev),AS13335,2026-10-09T22:04:12Z,1,A,https://leakcheckerweb.versec.workers.dev/,019fddd2-6271-708c-9252-9aeaba3a2f5e
+ip,224.0.33.211,dns (qas9daj89fhj27252874.sbs),NON-CF — host left Cloudflare (manual review),2026-10-09T22:04:12Z,2,A,,
+ip,66.14.163.53,dns (c0mpra-verify.help),NON-CF — host left Cloudflare (manual review),2026-10-09T22:04:12Z,2,A,,

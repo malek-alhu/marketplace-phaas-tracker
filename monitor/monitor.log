@@ -2007,3 +2007,22 @@
 [2026-10-09T12:21:33Z] AUTO-PROMOTE apex versec.workers.dev (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
 [2026-10-09T12:21:33Z] SCAN-SAVED dailyrss-website.versec.workers.dev -> https://urlscan.io/result/01a120a4-30c6-77dd-9020-b91637b06a59/
 [2026-10-09T12:21:33Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-09T22:04:12Z] NEW domain  leakcheckerweb.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-09T22:04:12Z] candidate ip  224.0.33.211  [dns (qas9daj89fhj27252874.sbs)] tier=2 op=A
+[2026-10-09T22:04:12Z] candidate ip  66.14.163.53  [dns (c0mpra-verify.help)] tier=2 op=A
+[2026-10-09T22:04:12Z] HEALTH certspotter=10/133 crtsh=2/5 urlscan=210/210 dns-google=510/510 dns-cf=510/510
+[2026-10-09T22:04:12Z] HASH-CHAIN new fingerprint 1690099f7b8508b67a977550228e60227381373414fe6667fae620da493d4478 co-occurs with 7 known kit domains (6 scans) -> added to fingerprints.txt
+[2026-10-09T22:04:12Z] HASH-CHAIN archived source body for 1690099f7b8508b67a977550228e60227381373414fe6667fae620da493d4478 -> kit-source/raw_bodies/1690099f7b8508b67a977550228e60227381373414fe6667fae620da493d4478.js
+[2026-10-09T22:04:12Z] HASH-CHAIN new fingerprint 7da8719e2f95f1d693ee15499e5625d40a38b58a3f2707cd02d5de8378ae3d92 co-occurs with 7 known kit domains (6 scans) -> added to fingerprints.txt
+[2026-10-09T22:04:12Z] HASH-CHAIN archived source body for 7da8719e2f95f1d693ee15499e5625d40a38b58a3f2707cd02d5de8378ae3d92 -> kit-source/raw_bodies/7da8719e2f95f1d693ee15499e5625d40a38b58a3f2707cd02d5de8378ae3d92.js
+[2026-10-09T22:04:12Z] HASH-CHAIN new fingerprint e055ea632522572b1e724ff8a4aebf396e03a86ee474a08219ebd6407f58ebea co-occurs with 7 known kit domains (6 scans) -> added to fingerprints.txt
+[2026-10-09T22:04:12Z] HASH-CHAIN archived source body for e055ea632522572b1e724ff8a4aebf396e03a86ee474a08219ebd6407f58ebea -> kit-source/raw_bodies/e055ea632522572b1e724ff8a4aebf396e03a86ee474a08219ebd6407f58ebea.js
+[2026-10-09T22:04:12Z] HASH-CHAIN new fingerprint ee0990a33c6a076d13a64b9d8a35e965065c0331bb4f72b81d89cdfd1bceb52e co-occurs with 7 known kit domains (6 scans) -> added to fingerprints.txt
+[2026-10-09T22:04:12Z] HASH-CHAIN archived source body for ee0990a33c6a076d13a64b9d8a35e965065c0331bb4f72b81d89cdfd1bceb52e -> kit-source/raw_bodies/ee0990a33c6a076d13a64b9d8a35e965065c0331bb4f72b81d89cdfd1bceb52e.js
+[2026-10-09T22:04:12Z] SCAN-SAVED c0mpra-verify.help -> https://urlscan.io/result/01a122be-6591-7565-af12-91e50e9cc98c/
+[2026-10-09T22:04:12Z] SCAN-SAVED inpost.pay-flow.cfd -> https://urlscan.io/result/01a122be-6fa1-7557-89da-4d88d5a32bef/
+[2026-10-09T22:04:12Z] SCAN-SAVED leakcheckerweb.versec.workers.dev -> https://urlscan.io/result/01a122be-7981-716a-b455-db9e2b200730/
+[2026-10-09T22:04:12Z] SCAN-SAVED qas9daj89fhj27252874.sbs -> https://urlscan.io/result/01a122be-84ad-7280-9138-dbff248e1e72/
+[2026-10-09T22:04:12Z] REVIVED-NONCF c0mpra-verify.help -> 66.14.163.53 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-09T22:04:12Z] REVIVED-NONCF qas9daj89fhj27252874.sbs -> 224.0.33.211 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-09T22:04:12Z] 1 new tier-1 Operator-A indicator(s) this run

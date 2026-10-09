@@ -1,10 +1,11 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 42 · newest first_seen: 2026-10-09 · TLP:CLEAR
+# Entries: 44 · newest first_seen: 2026-10-09 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
 action-paycore-pl.shop
+c0mpra-verify.help
 compra-verif.cfd
 confirmado.cc
 confirmation-order.sbs
@@ -34,6 +35,7 @@ przelew-paycore.cyou
 przelew-paycore.sbs
 przelew-paycore.shop
 przelew-pl.shop
+qas9daj89fhj27252874.sbs
 subito.cam
 veriffy.sbs
 verification-help.com

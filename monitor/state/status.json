@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-09T12:29:55Z",
-  "last_run_at": "2026-10-09T12:21:33Z",
-  "last_run_summary": "[2026-10-09T12:21:33Z] 1 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-09T12:21:33Z] HEALTH certspotter=10/45 crtsh=0/3 urlscan=209/209 dns-google=186/186 dns-cf=186/186",
+  "generated_at": "2026-10-09T22:17:55Z",
+  "last_run_at": "2026-10-09T22:04:12Z",
+  "last_run_summary": "[2026-10-09T22:04:12Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-09T22:04:12Z] HEALTH certspotter=10/133 crtsh=2/5 urlscan=210/210 dns-google=510/510 dns-cf=510/510",
   "tracked_hosts": {
-    "total": 280,
+    "total": 282,
     "by_status": {
-      "dead": 203,
-      "active": 77
+      "dead": 201,
+      "active": 81
     },
     "by_operator_tier": {
-      "A:tier1": 280
+      "A:tier1": 282
     }
   },
   "fingerprints": [
@@ -370,18 +370,40 @@
       "added": "2026-10-03",
       "last_confirmed_hit": "2026-10-09",
       "status": "chained"
+    },
+    {
+      "hash": "1690099f7b8508b67a977550228e60227381373414fe6667fae620da493d4478",
+      "label": "chained",
+      "added": "2026-10-09",
+      "last_confirmed_hit": "2026-10-09",
+      "status": "chained"
+    },
+    {
+      "hash": "7da8719e2f95f1d693ee15499e5625d40a38b58a3f2707cd02d5de8378ae3d92",
+      "label": "chained",
+      "added": "2026-10-09",
+      "last_confirmed_hit": "2026-10-09",
+      "status": "chained"
+    },
+    {
+      "hash": "e055ea632522572b1e724ff8a4aebf396e03a86ee474a08219ebd6407f58ebea",
+      "label": "chained",
+      "added": "2026-10-09",
+      "last_confirmed_hit": "2026-10-09",
+      "status": "chained"
+    },
+    {
+      "hash": "ee0990a33c6a076d13a64b9d8a35e965065c0331bb4f72b81d89cdfd1bceb52e",
+      "label": "chained",
+      "added": "2026-10-09",
+      "last_confirmed_hit": "2026-10-09",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 374
+    "A": 375
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "c0mpra-verify.help",
-      "operator": "A",
-      "first_seen": "2026-10-05T13:11:03Z"
-    },
     {
       "type": "cert",
       "indicator": "order-info62351.com",
@@ -495,9 +517,15 @@
       "indicator": "dailyrss-website.versec.workers.dev",
       "operator": "A",
       "first_seen": "2026-10-09T12:21:33Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "leakcheckerweb.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-09T22:04:12Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 204,
+  "manual_review_candidates_pending": 206,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
