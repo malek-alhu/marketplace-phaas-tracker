@@ -1992,3 +1992,8 @@
 [2026-10-08T22:42:04Z] HEALTH certspotter=10/49 crtsh=1/4 urlscan=209/209 dns-google=178/178 dns-cf=178/178
 [2026-10-08T22:42:04Z] SCAN-BACKLOG 1 live host(s) queued for next run (cap 20/run)
 [2026-10-08T22:42:04Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-09T03:54:32Z] candidate cert  monrelaisplusin.icu  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-09T03:54:32Z] candidate cert  payu-nitro-pl.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-09T03:54:32Z] HEALTH certspotter=11/45 crtsh=14/21 urlscan=209/209 dns-google=162/162 dns-cf=162/162
+[2026-10-09T03:54:32Z] SCAN-BACKLOG 1 live host(s) queued for next run (cap 20/run)
+[2026-10-09T03:54:32Z] no new tier-1 Operator-A indicators
