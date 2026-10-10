@@ -2026,3 +2026,56 @@
 [2026-10-09T22:04:12Z] REVIVED-NONCF c0mpra-verify.help -> 66.14.163.53 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
 [2026-10-09T22:04:12Z] REVIVED-NONCF qas9daj89fhj27252874.sbs -> 224.0.33.211 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
 [2026-10-09T22:04:12Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-10T03:38:57Z] NEW cert  1000-errors.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  403-forbidden.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  adult-questionnaire.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  api-nonproduction.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  assistant.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  breach-monitoring.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  dailyrss-website.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  dailyrsswithemail.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  defanger.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  hello-world-flat-sky-1b66.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  leakcheckerweb.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  limacharlie.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  lucky-mud-a315.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  managed-challenge.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  managed-challengez.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  o1thinker.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  plex-list-rss.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  przelew-paycore.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  ransom-monitor.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  smss.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  testing-worker-non-production.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  tickets.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] candidate cert  versec.workers.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-10T03:38:57Z] NEW cert  weather-croydon.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  weather-test-clicksend.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  worker-calm-disk-b393.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  worker-proud-rice-41eb.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  worker-tight-sun-5332.versec.workers.dev  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW cert  www.payprotect.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-10T03:38:57Z] NEW domain  qas9daj89fhj27252874.sbs  [urlscan @https://qas9daj89fhj27252874.sbs/ (apex-context:qas9daj89fhj27252874.sbs) / 01a122be-84ad-7280-9138-dbff248e1e72] tier=1 op=A
+[2026-10-10T03:38:57Z] HEALTH certspotter=11/50 crtsh=65/70 urlscan=214/214 dns-google=232/232 dns-cf=232/232
+[2026-10-10T03:38:57Z] SCAN-SAVED 1000-errors.versec.workers.dev -> https://urlscan.io/result/01a123f8-51b5-70bc-a331-92a4c4155aa1/
+[2026-10-10T03:38:57Z] SCAN-SAVED 403-forbidden.versec.workers.dev -> https://urlscan.io/result/01a123f8-5ce2-7207-9db7-f4c44c861362/
+[2026-10-10T03:38:57Z] SCAN-SAVED adult-questionnaire.versec.workers.dev -> https://urlscan.io/result/01a123f8-6823-72a8-a812-edcb392a8c24/
+[2026-10-10T03:38:57Z] SCAN-SAVED api-nonproduction.versec.workers.dev -> https://urlscan.io/result/01a123f8-7344-73f5-b640-c69f617cbf37/
+[2026-10-10T03:38:57Z] SCAN-SAVED assistant.versec.workers.dev -> https://urlscan.io/result/01a123f8-7cd7-7433-b076-85be5ee52026/
+[2026-10-10T03:38:57Z] SCAN-SAVED breach-monitoring.versec.workers.dev -> https://urlscan.io/result/01a123f8-8654-731d-b88a-1507ef057438/
+[2026-10-10T03:38:57Z] SCAN-SAVED dailyrsswithemail.versec.workers.dev -> https://urlscan.io/result/01a123f8-9051-7689-b2be-8237bb80c4b3/
+[2026-10-10T03:38:57Z] SCAN-SAVED defanger.versec.workers.dev -> https://urlscan.io/result/01a123f8-9b7a-75fe-895b-716f72d9c08f/
+[2026-10-10T03:38:57Z] SCAN-SAVED hello-world-flat-sky-1b66.versec.workers.dev -> https://urlscan.io/result/01a123f8-a6a1-723c-8279-09b738602eeb/
+[2026-10-10T03:38:57Z] SCAN-SAVED limacharlie.versec.workers.dev -> https://urlscan.io/result/01a123f8-b1d0-7720-a18d-894741dfb0c7/
+[2026-10-10T03:38:57Z] SCAN-SAVED lucky-mud-a315.versec.workers.dev -> https://urlscan.io/result/01a123f8-bd1c-753f-888a-7148f532f564/
+[2026-10-10T03:38:57Z] SCAN-SAVED managed-challenge.versec.workers.dev -> https://urlscan.io/result/01a123f8-c785-73fb-887e-7cf9d0e78ed0/
+[2026-10-10T03:38:57Z] SCAN-SAVED managed-challengez.versec.workers.dev -> https://urlscan.io/result/01a123f8-d186-768a-89b9-231549c52167/
+[2026-10-10T03:38:57Z] SCAN-SAVED o1thinker.versec.workers.dev -> https://urlscan.io/result/01a123f8-db26-7265-aec5-058b093df59c/
+[2026-10-10T03:38:57Z] SCAN-SAVED plex-list-rss.versec.workers.dev -> https://urlscan.io/result/01a123f8-e5d1-77cb-8085-296b97dbc041/
+[2026-10-10T03:38:57Z] SCAN-SAVED ransom-monitor.versec.workers.dev -> https://urlscan.io/result/01a123f8-f0f0-75b8-8c78-04baa61cabe8/
+[2026-10-10T03:38:57Z] SCAN-SAVED smss.versec.workers.dev -> https://urlscan.io/result/01a123f8-fbd2-72ec-bece-9c3a7ea4f296/
+[2026-10-10T03:38:57Z] SCAN-SAVED testing-worker-non-production.versec.workers.dev -> https://urlscan.io/result/01a123f9-06f9-724e-b3c6-4d950312e231/
+[2026-10-10T03:38:57Z] SCAN-SAVED tickets.versec.workers.dev -> https://urlscan.io/result/01a123f9-1142-724e-8620-f575dc047be1/
+[2026-10-10T03:38:57Z] SCAN-SAVED weather-croydon.versec.workers.dev -> https://urlscan.io/result/01a123f9-1aac-762e-9f3f-f42ac8ba35ee/
+[2026-10-10T03:38:57Z] SCAN-BACKLOG 5 live host(s) queued for next run (cap 20/run)
+[2026-10-10T03:38:57Z] 29 new tier-1 Operator-A indicator(s) this run
