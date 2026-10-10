@@ -457,3 +457,8 @@ smss.versec.workers.dev
 testing-worker-non-production.versec.workers.dev
 tickets.versec.workers.dev
 weather-croydon.versec.workers.dev
+weather-test-clicksend.versec.workers.dev
+worker-calm-disk-b393.versec.workers.dev
+worker-proud-rice-41eb.versec.workers.dev
+worker-tight-sun-5332.versec.workers.dev
+www.payprotect.shop

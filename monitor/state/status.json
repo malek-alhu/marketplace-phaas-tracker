@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T04:01:32Z",
-  "last_run_at": "2026-10-10T03:38:57Z",
-  "last_run_summary": "[2026-10-10T03:38:57Z] 29 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-10T03:38:57Z] HEALTH certspotter=11/50 crtsh=65/70 urlscan=214/214 dns-google=232/232 dns-cf=232/232",
+  "generated_at": "2026-10-10T11:48:33Z",
+  "last_run_at": "2026-10-10T11:40:12Z",
+  "last_run_summary": "[2026-10-10T11:40:12Z] 20 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-10T11:40:12Z] HEALTH certspotter=10/46 crtsh=0/3 urlscan=214/214 dns-google=216/216 dns-cf=216/216",
   "tracked_hosts": {
     "total": 307,
     "by_status": {
@@ -401,128 +401,128 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 404
+    "A": 424
   },
   "recent_tier1_findings": [
     {
-      "type": "cert",
-      "indicator": "hello-world-flat-sky-1b66.versec.workers.dev",
+      "type": "domain",
+      "indicator": "1000-errors.versec.workers.dev",
       "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "leakcheckerweb.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "limacharlie.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "lucky-mud-a315.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "managed-challenge.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "managed-challengez.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "o1thinker.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "plex-list-rss.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "przelew-paycore.shop",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ransom-monitor.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "smss.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "testing-worker-non-production.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "tickets.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "weather-croydon.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "weather-test-clicksend.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "worker-calm-disk-b393.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "worker-proud-rice-41eb.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "worker-tight-sun-5332.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.payprotect.shop",
-      "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
+      "first_seen": "2026-10-10T11:40:12Z"
     },
     {
       "type": "domain",
-      "indicator": "qas9daj89fhj27252874.sbs",
+      "indicator": "403-forbidden.versec.workers.dev",
       "operator": "A",
-      "first_seen": "2026-10-10T03:38:57Z"
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "adult-questionnaire.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "api-nonproduction.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "assistant.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "breach-monitoring.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "dailyrsswithemail.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "defanger.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "hello-world-flat-sky-1b66.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "limacharlie.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "lucky-mud-a315.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "managed-challenge.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "managed-challengez.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "o1thinker.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "plex-list-rss.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "ransom-monitor.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "smss.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "testing-worker-non-production.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "tickets.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "weather-croydon.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T11:40:12Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

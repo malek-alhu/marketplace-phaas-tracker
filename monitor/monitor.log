@@ -2079,3 +2079,31 @@
 [2026-10-10T03:38:57Z] SCAN-SAVED weather-croydon.versec.workers.dev -> https://urlscan.io/result/01a123f9-1aac-762e-9f3f-f42ac8ba35ee/
 [2026-10-10T03:38:57Z] SCAN-BACKLOG 5 live host(s) queued for next run (cap 20/run)
 [2026-10-10T03:38:57Z] 29 new tier-1 Operator-A indicator(s) this run
+[2026-10-10T11:40:12Z] NEW domain  1000-errors.versec.workers.dev  [urlscan @188.114.97.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  403-forbidden.versec.workers.dev  [urlscan @172.67.162.78 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  adult-questionnaire.versec.workers.dev  [urlscan @188.114.96.12 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  api-nonproduction.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  assistant.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  breach-monitoring.versec.workers.dev  [urlscan @172.67.162.78 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  dailyrsswithemail.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  defanger.versec.workers.dev  [urlscan @2606:4700:3035::ac43:a24e (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  hello-world-flat-sky-1b66.versec.workers.dev  [urlscan @188.114.97.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  limacharlie.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  lucky-mud-a315.versec.workers.dev  [urlscan @188.114.97.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  managed-challenge.versec.workers.dev  [urlscan @172.67.162.78 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  managed-challengez.versec.workers.dev  [urlscan @104.21.58.171 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  o1thinker.versec.workers.dev  [urlscan @188.114.97.12 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  plex-list-rss.versec.workers.dev  [urlscan @188.114.97.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  ransom-monitor.versec.workers.dev  [urlscan @188.114.97.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  smss.versec.workers.dev  [urlscan @188.114.97.12 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  testing-worker-non-production.versec.workers.dev  [urlscan @188.114.97.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  tickets.versec.workers.dev  [urlscan @188.114.96.12 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] NEW domain  weather-croydon.versec.workers.dev  [urlscan @172.67.162.78 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T11:40:12Z] HEALTH certspotter=10/46 crtsh=0/3 urlscan=214/214 dns-google=216/216 dns-cf=216/216
+[2026-10-10T11:40:12Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-10T11:40:12Z] SCAN-SAVED weather-test-clicksend.versec.workers.dev -> https://urlscan.io/result/01a125a4-7ff0-71b9-be59-7c9703dbaa10/
+[2026-10-10T11:40:12Z] SCAN-SAVED worker-calm-disk-b393.versec.workers.dev -> https://urlscan.io/result/01a125a4-8b4c-7215-98b9-11a3a82823fa/
+[2026-10-10T11:40:12Z] SCAN-SAVED worker-proud-rice-41eb.versec.workers.dev -> https://urlscan.io/result/01a125a4-95fa-73db-90d5-79045399e9f4/
+[2026-10-10T11:40:12Z] SCAN-SAVED worker-tight-sun-5332.versec.workers.dev -> https://urlscan.io/result/01a125a4-a153-773f-ad7c-757ec3e32037/
+[2026-10-10T11:40:12Z] SCAN-SAVED www.payprotect.shop -> https://urlscan.io/result/01a125a4-acb0-77ea-994f-76ee799c15ae/
+[2026-10-10T11:40:12Z] 20 new tier-1 Operator-A indicator(s) this run
