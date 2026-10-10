@@ -2115,3 +2115,8 @@
 [2026-10-10T16:41:45Z] NEW domain  www.payprotect.shop  [urlscan @188.114.97.3 (apex-context:payprotect.shop) / AS13335] tier=1 op=A
 [2026-10-10T16:41:45Z] HEALTH certspotter=10/47 crtsh=6/9 urlscan=214/214 dns-google=242/242 dns-cf=242/242
 [2026-10-10T16:41:45Z] 5 new tier-1 Operator-A indicator(s) this run
+[2026-10-10T20:57:37Z] candidate ip  191.33.62.122  [dns (blocket-system.cam)] tier=2 op=A
+[2026-10-10T20:57:37Z] HEALTH certspotter=10/133 crtsh=0/3 urlscan=214/214 dns-google=560/560 dns-cf=560/560
+[2026-10-10T20:57:37Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-10T20:57:37Z] REVIVED-NONCF blocket-system.cam -> 191.33.62.122 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-10T20:57:37Z] no new tier-1 Operator-A indicators
