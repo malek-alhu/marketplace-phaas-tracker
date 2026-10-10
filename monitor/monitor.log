@@ -2107,3 +2107,11 @@
 [2026-10-10T11:40:12Z] SCAN-SAVED worker-tight-sun-5332.versec.workers.dev -> https://urlscan.io/result/01a125a4-a153-773f-ad7c-757ec3e32037/
 [2026-10-10T11:40:12Z] SCAN-SAVED www.payprotect.shop -> https://urlscan.io/result/01a125a4-acb0-77ea-994f-76ee799c15ae/
 [2026-10-10T11:40:12Z] 20 new tier-1 Operator-A indicator(s) this run
+[2026-10-10T16:41:45Z] candidate cert  paczzka434236212.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-10T16:41:45Z] NEW domain  weather-test-clicksend.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T16:41:45Z] NEW domain  worker-calm-disk-b393.versec.workers.dev  [urlscan @188.114.96.3 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T16:41:45Z] NEW domain  worker-proud-rice-41eb.versec.workers.dev  [urlscan @172.67.162.78 (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T16:41:45Z] NEW domain  worker-tight-sun-5332.versec.workers.dev  [urlscan @2606:4700:3035::6815:3aab (apex-context:versec.workers.dev) / AS13335] tier=1 op=A
+[2026-10-10T16:41:45Z] NEW domain  www.payprotect.shop  [urlscan @188.114.97.3 (apex-context:payprotect.shop) / AS13335] tier=1 op=A
+[2026-10-10T16:41:45Z] HEALTH certspotter=10/47 crtsh=6/9 urlscan=214/214 dns-google=242/242 dns-cf=242/242
+[2026-10-10T16:41:45Z] 5 new tier-1 Operator-A indicator(s) this run

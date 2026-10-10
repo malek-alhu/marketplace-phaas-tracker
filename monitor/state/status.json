@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T11:48:33Z",
-  "last_run_at": "2026-10-10T11:40:12Z",
-  "last_run_summary": "[2026-10-10T11:40:12Z] 20 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-10T11:40:12Z] HEALTH certspotter=10/46 crtsh=0/3 urlscan=214/214 dns-google=216/216 dns-cf=216/216",
+  "generated_at": "2026-10-10T16:52:15Z",
+  "last_run_at": "2026-10-10T16:41:45Z",
+  "last_run_summary": "[2026-10-10T16:41:45Z] 5 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-10T16:41:45Z] HEALTH certspotter=10/47 crtsh=6/9 urlscan=214/214 dns-google=242/242 dns-cf=242/242",
   "tracked_hosts": {
     "total": 307,
     "by_status": {
@@ -401,39 +401,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 424
+    "A": 429
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "1000-errors.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "403-forbidden.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "adult-questionnaire.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "api-nonproduction.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "assistant.versec.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
-    },
     {
       "type": "domain",
       "indicator": "breach-monitoring.versec.workers.dev",
@@ -523,6 +493,36 @@
       "indicator": "weather-croydon.versec.workers.dev",
       "operator": "A",
       "first_seen": "2026-10-10T11:40:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "weather-test-clicksend.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T16:41:45Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "worker-calm-disk-b393.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T16:41:45Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "worker-proud-rice-41eb.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T16:41:45Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "worker-tight-sun-5332.versec.workers.dev",
+      "operator": "A",
+      "first_seen": "2026-10-10T16:41:45Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.payprotect.shop",
+      "operator": "A",
+      "first_seen": "2026-10-10T16:41:45Z"
     }
   ],
   "pending_operator_b_digest_count": 0,

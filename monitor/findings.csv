@@ -705,3 +705,9 @@ domain,smss.versec.workers.dev,urlscan @188.114.97.12 (apex-context:versec.worke
 domain,testing-worker-non-production.versec.workers.dev,urlscan @188.114.97.3 (apex-context:versec.workers.dev),AS13335,2026-10-10T11:40:12Z,1,A,https://testing-worker-non-production.versec.workers.dev/,01a123f9-06f9-724e-b3c6-4d950312e231
 domain,tickets.versec.workers.dev,urlscan @188.114.96.12 (apex-context:versec.workers.dev),AS13335,2026-10-10T11:40:12Z,1,A,https://tickets.versec.workers.dev/,01a123f9-1142-724e-8620-f575dc047be1
 domain,weather-croydon.versec.workers.dev,urlscan @172.67.162.78 (apex-context:versec.workers.dev),AS13335,2026-10-10T11:40:12Z,1,A,https://weather-croydon.versec.workers.dev/,01a123f9-1aac-762e-9f3f-f42ac8ba35ee
+cert,paczzka434236212.shop,ct-log (apex subdomain — not live on Cloudflare),,2026-10-10T16:41:45Z,2,A,,
+domain,weather-test-clicksend.versec.workers.dev,urlscan @188.114.96.3 (apex-context:versec.workers.dev),AS13335,2026-10-10T16:41:45Z,1,A,https://weather-test-clicksend.versec.workers.dev/,01a125a4-7ff0-71b9-be59-7c9703dbaa10
+domain,worker-calm-disk-b393.versec.workers.dev,urlscan @188.114.96.3 (apex-context:versec.workers.dev),AS13335,2026-10-10T16:41:45Z,1,A,https://worker-calm-disk-b393.versec.workers.dev/,01a125a4-8b4c-7215-98b9-11a3a82823fa
+domain,worker-proud-rice-41eb.versec.workers.dev,urlscan @172.67.162.78 (apex-context:versec.workers.dev),AS13335,2026-10-10T16:41:45Z,1,A,https://worker-proud-rice-41eb.versec.workers.dev/,01a125a4-95fa-73db-90d5-79045399e9f4
+domain,worker-tight-sun-5332.versec.workers.dev,urlscan @2606:4700:3035::6815:3aab (apex-context:versec.workers.dev),AS13335,2026-10-10T16:41:45Z,1,A,https://worker-tight-sun-5332.versec.workers.dev/,01a125a4-a153-773f-ad7c-757ec3e32037
+domain,www.payprotect.shop,urlscan @188.114.97.3 (apex-context:payprotect.shop),AS13335,2026-10-10T16:41:45Z,1,A,https://www.payprotect.shop/,01a125a4-acb0-77ea-994f-76ee799c15ae
