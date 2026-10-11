@@ -1,6 +1,6 @@
 # Marketplace PhaaS — all known kit/redirector domains
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 248 · newest first_seen: 2026-10-09 · TLP:CLEAR
+# Entries: 249 · newest first_seen: 2026-10-11 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0767s.com
@@ -117,6 +117,7 @@ olx.paycore24-expressi.cfd
 olx.paysend-paczka.shop
 olx.paysend-paczka.xyz
 olx.pl-696967.sbs
+olx.poland-payhub.qpon
 olx.processing-skrill.icu
 olx.sendcore.bond
 olx.sendcore.cyou

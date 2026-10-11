@@ -2125,3 +2125,68 @@
 [2026-10-11T11:53:18Z] HEALTH certspotter=10/47 crtsh=0/3 urlscan=214/214 dns-google=218/218 dns-cf=218/218
 [2026-10-11T11:53:18Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
 [2026-10-11T11:53:18Z] no new tier-1 Operator-A indicators
+[2026-10-11T17:07:40Z] NEW domain  olx.poland-payhub.qpon  [urlscan @104.21.3.52 (urlscan-kit(us=)) / AS13335] tier=1 op=A
+[2026-10-11T17:07:40Z] candidate ip  193.111.117.211  [dns (olx.poland-payhub.qpon)] tier=2 op=A
+[2026-10-11T17:07:40Z] HEALTH certspotter=10/48 crtsh=0/3 urlscan=214/214 dns-google=246/246 dns-cf=246/246
+[2026-10-11T17:07:40Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-11T17:07:40Z] AUTO-PROMOTE apex poland-payhub.qpon (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 100913131f3142394de2e095297b72a8cb2aaeeca25c86f3182a6eb83c547b15 co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 100913131f3142394de2e095297b72a8cb2aaeeca25c86f3182a6eb83c547b15 -> kit-source/raw_bodies/100913131f3142394de2e095297b72a8cb2aaeeca25c86f3182a6eb83c547b15.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 16074ed660b73eb47c7137ec7dc7bdbdf96bc38552328721676a8e79175ce88c co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 16074ed660b73eb47c7137ec7dc7bdbdf96bc38552328721676a8e79175ce88c -> kit-source/raw_bodies/16074ed660b73eb47c7137ec7dc7bdbdf96bc38552328721676a8e79175ce88c.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 28a5d5867795c87a95a0ec3ca4196da0043e31e87572f1c0c98a3a25058df816 co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 28a5d5867795c87a95a0ec3ca4196da0043e31e87572f1c0c98a3a25058df816 -> kit-source/raw_bodies/28a5d5867795c87a95a0ec3ca4196da0043e31e87572f1c0c98a3a25058df816.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 2de772b3b8f53a2eb2662ec6e25e5f2724fe587a0920745213ad5a6bd5878a4a co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 2de772b3b8f53a2eb2662ec6e25e5f2724fe587a0920745213ad5a6bd5878a4a -> kit-source/raw_bodies/2de772b3b8f53a2eb2662ec6e25e5f2724fe587a0920745213ad5a6bd5878a4a.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 4303c0535bdf0608118039af8852c05f5cc5f22d8071dffbee0c474a6f1a5445 co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 4303c0535bdf0608118039af8852c05f5cc5f22d8071dffbee0c474a6f1a5445 -> kit-source/raw_bodies/4303c0535bdf0608118039af8852c05f5cc5f22d8071dffbee0c474a6f1a5445.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 55e8d4a648ff1372cdc37820d6abc86900b2c34c904f748b2c61057da2fa5435 co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 55e8d4a648ff1372cdc37820d6abc86900b2c34c904f748b2c61057da2fa5435 -> kit-source/raw_bodies/55e8d4a648ff1372cdc37820d6abc86900b2c34c904f748b2c61057da2fa5435.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 59158f07bee0162550c9943415e8af9f55fcf22702b963627c83b29bed474736 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 59158f07bee0162550c9943415e8af9f55fcf22702b963627c83b29bed474736 -> kit-source/raw_bodies/59158f07bee0162550c9943415e8af9f55fcf22702b963627c83b29bed474736.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 76d5f066de1e04992e681a0659687614fd3ac0d7fe5a63133ea4a3c3feb32c92 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 76d5f066de1e04992e681a0659687614fd3ac0d7fe5a63133ea4a3c3feb32c92 -> kit-source/raw_bodies/76d5f066de1e04992e681a0659687614fd3ac0d7fe5a63133ea4a3c3feb32c92.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 7f61ef401b74f959274636d7dbc67f9eb22bff24a54eefa6e4fda65539649408 co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 7f61ef401b74f959274636d7dbc67f9eb22bff24a54eefa6e4fda65539649408 -> kit-source/raw_bodies/7f61ef401b74f959274636d7dbc67f9eb22bff24a54eefa6e4fda65539649408.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 812570bb54f8ccff93dfa908bdd768bcc9d4db370b3f241e6b5f2cb0b183800e co-occurs with 2 known kit domains (24 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 812570bb54f8ccff93dfa908bdd768bcc9d4db370b3f241e6b5f2cb0b183800e -> kit-source/raw_bodies/812570bb54f8ccff93dfa908bdd768bcc9d4db370b3f241e6b5f2cb0b183800e.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 814880e527670f5f84c9468901185d91cecc9590125c4cecec6bf5be411e4f2a co-occurs with 24 known kit domains (26 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 814880e527670f5f84c9468901185d91cecc9590125c4cecec6bf5be411e4f2a -> kit-source/raw_bodies/814880e527670f5f84c9468901185d91cecc9590125c4cecec6bf5be411e4f2a.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 82d3c2329be3a4fcac1d402b93ba26ea077019458a7be2e48d2c5151e48a7838 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 82d3c2329be3a4fcac1d402b93ba26ea077019458a7be2e48d2c5151e48a7838 -> kit-source/raw_bodies/82d3c2329be3a4fcac1d402b93ba26ea077019458a7be2e48d2c5151e48a7838.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 850dd10e6a42d5d4b67629e7baea0ea5c3eb10c6ff460b9a34bf982aafb83b77 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 850dd10e6a42d5d4b67629e7baea0ea5c3eb10c6ff460b9a34bf982aafb83b77 -> kit-source/raw_bodies/850dd10e6a42d5d4b67629e7baea0ea5c3eb10c6ff460b9a34bf982aafb83b77.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 8789e846bfc136e7852383a5c6d816999f9ba434fb830d0595c763b801f63ba7 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 8789e846bfc136e7852383a5c6d816999f9ba434fb830d0595c763b801f63ba7 -> kit-source/raw_bodies/8789e846bfc136e7852383a5c6d816999f9ba434fb830d0595c763b801f63ba7.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint 958bd2a796a0864240f5575d73a864d7f8bd236494065bff46bf0169291af565 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for 958bd2a796a0864240f5575d73a864d7f8bd236494065bff46bf0169291af565 -> kit-source/raw_bodies/958bd2a796a0864240f5575d73a864d7f8bd236494065bff46bf0169291af565.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint a2155667029d068df38aeeb31447d4daac91404d366a57d538d807886fa15182 co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for a2155667029d068df38aeeb31447d4daac91404d366a57d538d807886fa15182 -> kit-source/raw_bodies/a2155667029d068df38aeeb31447d4daac91404d366a57d538d807886fa15182.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint ab036a7503e22e4d28f4ebe281d5282364bc9a972d2b3aaa885a376ac95836a4 co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for ab036a7503e22e4d28f4ebe281d5282364bc9a972d2b3aaa885a376ac95836a4 -> kit-source/raw_bodies/ab036a7503e22e4d28f4ebe281d5282364bc9a972d2b3aaa885a376ac95836a4.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62 -> kit-source/raw_bodies/ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint b56c262f084d496b5c71c12ba4faa5ef19a6ae0635097ff71c1a94729bf4fb8e co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for b56c262f084d496b5c71c12ba4faa5ef19a6ae0635097ff71c1a94729bf4fb8e -> kit-source/raw_bodies/b56c262f084d496b5c71c12ba4faa5ef19a6ae0635097ff71c1a94729bf4fb8e.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint b6a6a92baa9d980718a0fd2821b91d445eedff1a335fd36b05b53a55f52f1c69 co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for b6a6a92baa9d980718a0fd2821b91d445eedff1a335fd36b05b53a55f52f1c69 -> kit-source/raw_bodies/b6a6a92baa9d980718a0fd2821b91d445eedff1a335fd36b05b53a55f52f1c69.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint c29c12ec1e41b8ffa1c7c548cb1f9cd845d1a91d1e1a4476eaebbedacd5fe73f co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for c29c12ec1e41b8ffa1c7c548cb1f9cd845d1a91d1e1a4476eaebbedacd5fe73f -> kit-source/raw_bodies/c29c12ec1e41b8ffa1c7c548cb1f9cd845d1a91d1e1a4476eaebbedacd5fe73f.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint c3cad3c1972281dc17879c474559e98cddba0800b2bd0797738ab4b0632dbfd9 co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for c3cad3c1972281dc17879c474559e98cddba0800b2bd0797738ab4b0632dbfd9 -> kit-source/raw_bodies/c3cad3c1972281dc17879c474559e98cddba0800b2bd0797738ab4b0632dbfd9.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint cadcc37071f9596fdd1be6e087e448c5073030551684fa9c89c8ce5b5b4a18e4 co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for cadcc37071f9596fdd1be6e087e448c5073030551684fa9c89c8ce5b5b4a18e4 -> kit-source/raw_bodies/cadcc37071f9596fdd1be6e087e448c5073030551684fa9c89c8ce5b5b4a18e4.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint cd5f29364d365748f72e06eb4130ac12555694244c44ea4093eda5c60c9d0af9 co-occurs with 10 known kit domains (53 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for cd5f29364d365748f72e06eb4130ac12555694244c44ea4093eda5c60c9d0af9 -> kit-source/raw_bodies/cd5f29364d365748f72e06eb4130ac12555694244c44ea4093eda5c60c9d0af9.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint cf724aa81674d1a7394cb11382e50ad7d3e7cfe9870c8d143f98567097025623 co-occurs with 14 known kit domains (11 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for cf724aa81674d1a7394cb11382e50ad7d3e7cfe9870c8d143f98567097025623 -> kit-source/raw_bodies/cf724aa81674d1a7394cb11382e50ad7d3e7cfe9870c8d143f98567097025623.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint d0273711d7d373d2995374d2252fadb0e0e3b0200a273debc7fb6f9bce02f7a7 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for d0273711d7d373d2995374d2252fadb0e0e3b0200a273debc7fb6f9bce02f7a7 -> kit-source/raw_bodies/d0273711d7d373d2995374d2252fadb0e0e3b0200a273debc7fb6f9bce02f7a7.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint dc9d3e1c79ddf50cf96fc84297a71e6335d800c15fe73efd06feed3b78bdcbad co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for dc9d3e1c79ddf50cf96fc84297a71e6335d800c15fe73efd06feed3b78bdcbad -> kit-source/raw_bodies/dc9d3e1c79ddf50cf96fc84297a71e6335d800c15fe73efd06feed3b78bdcbad.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint f6eee7d08c3772392741212bab1994194d68f141436563f030960f1b047f2819 co-occurs with 2 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for f6eee7d08c3772392741212bab1994194d68f141436563f030960f1b047f2819 -> kit-source/raw_bodies/f6eee7d08c3772392741212bab1994194d68f141436563f030960f1b047f2819.js
+[2026-10-11T17:07:40Z] HASH-CHAIN new fingerprint f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c co-occurs with 2 known kit domains (16 scans) -> added to fingerprints.txt
+[2026-10-11T17:07:40Z] HASH-CHAIN archived source body for f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c -> kit-source/raw_bodies/f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c.js
+[2026-10-11T17:07:40Z] SCAN-SAVED olx.poland-payhub.qpon -> https://urlscan.io/result/01a12bf9-dc16-71de-8fb7-b1c74d1d38ac/
+[2026-10-11T17:07:40Z] 1 new tier-1 Operator-A indicator(s) this run
