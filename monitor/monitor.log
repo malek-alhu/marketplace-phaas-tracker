@@ -2122,3 +2122,6 @@
 [2026-10-10T20:57:37Z] no new tier-1 Operator-A indicators
 [2026-10-11T03:11:54Z] HEALTH certspotter=10/51 crtsh=1/4 urlscan=214/214 dns-google=234/234 dns-cf=234/234
 [2026-10-11T03:11:54Z] no new tier-1 Operator-A indicators
+[2026-10-11T11:53:18Z] HEALTH certspotter=10/47 crtsh=0/3 urlscan=214/214 dns-google=218/218 dns-cf=218/218
+[2026-10-11T11:53:18Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-11T11:53:18Z] no new tier-1 Operator-A indicators

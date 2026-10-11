@@ -1,6 +1,6 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 45 · newest first_seen: 2026-10-09 · TLP:CLEAR
+# Entries: 44 · newest first_seen: 2026-10-09 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
@@ -46,5 +46,4 @@ verifiers-online-compras.shop
 vintdeactive.com
 vintedverify.my.id
 vintedverify.web.id
-visa-order.help
 zzuav.com
