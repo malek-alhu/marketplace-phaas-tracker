@@ -714,3 +714,66 @@ domain,www.payprotect.shop,urlscan @188.114.97.3 (apex-context:payprotect.shop),
 ip,191.33.62.122,dns (blocket-system.cam),NON-CF — host left Cloudflare (manual review),2026-10-10T20:57:37Z,2,A,,
 domain,olx.poland-payhub.qpon,urlscan @104.21.3.52 (urlscan-kit(us=)),AS13335,2026-10-11T17:07:40Z,1,A,https://olx.poland-payhub.qpon/a/i8yrFQKEXrnL-e-B?us=sml,01a12bdc-68c4-7247-8a39-6b541106b945
 ip,193.111.117.211,dns (olx.poland-payhub.qpon),NON-CF — host left Cloudflare (manual review),2026-10-11T17:07:40Z,2,A,,
+cert,bekreftnorwq.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-11T21:18:36Z,2,A,,
+cert,poland-payhub.qpon,ct-log (apex subdomain — not live on Cloudflare),,2026-10-11T21:18:36Z,2,A,,
+cert,receive.sale,ct-log (apex subdomain — not live on Cloudflare),,2026-10-11T21:18:36Z,2,A,,
+domain,avhenting0110.cc,urlscan @172.67.163.222 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://avhenting0110.cc/a/Mi94Z1I1TGxZZjNH,01a10b06-51a1-755e-96eb-6ad4b568034d
+domain,avhenting0510.cc,urlscan @2606:4700:3036::6815:4f8d (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://avhenting0510.cc/,01a11f62-0eb3-7658-b131-170a640fdef8
+domain,confirm-9580.shop,urlscan @94.26.0.245 (hash:chained),AS135388,2026-10-11T21:18:36Z,1,A,https://confirm-9580.shop/,01a1260f-f476-77e9-8eaa-5390f312f966
+domain,direkt-auszahlung.com,urlscan @188.114.96.12 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://direkt-auszahlung.com/,01a1106b-f233-70dc-8388-ddee0115d63e
+domain,finn.bekreftls.com,urlscan @172.67.161.207 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://finn.bekreftls.com/a/Ay1d7W4JecJDnSYZ,01a11589-fd10-7008-b2b9-d0af610a5d0f
+domain,inpost.paycore-poland.eu.cc,urlscan @104.21.76.230 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://inpost.paycore-poland.eu.cc/,01a12cc4-2316-72aa-9b26-58c2310017a5
+domain,inpost.payu-nitro1.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://inpost.payu-nitro1.eu.cc/,01a118a6-4e2b-727f-a038-a5f8a010c881
+domain,inpost.payu-nitro2.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://inpost.payu-nitro2.eu.cc/,01a11838-6add-757f-b70d-9b4b56130acb
+domain,inpost.payu-nitro5.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://inpost.payu-nitro5.eu.cc/,01a1208a-d55b-7211-8e4c-378057716ade
+domain,inpost.payu-nitro7.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://inpost.payu-nitro7.eu.cc/,01a1218d-f0ec-756a-8aeb-355ce1590cb1
+domain,inpost.poland-paycore.eu.cc,urlscan @172.67.179.92 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://inpost.poland-paycore.eu.cc/,01a12a91-213c-70fd-aeb3-06ef4da31ce0
+domain,inpost.poland-payhub.bond,urlscan @172.67.191.213 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://inpost.poland-payhub.bond/,01a12b35-e3c6-7273-a3d2-a04b09fb99c5
+domain,klelnanzeigen-deutch.direkt-auszahlung.com,urlscan @104.21.29.98 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://klelnanzeigen-deutch.direkt-auszahlung.com/,01a110c9-63bf-71b9-ba22-e8a4f0e3d749
+domain,microsoft--cm-2ja.com,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://microsoft--cm-2ja.com/,01a11940-cfb6-734c-80f1-a7278c2d1eaf
+domain,olx.paycore-nitro-pl.bond,urlscan @104.21.53.249 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://olx.paycore-nitro-pl.bond/,01a11b6e-cd67-7669-ace1-0596910b5668
+domain,olx.payu-nitro1.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://olx.payu-nitro1.eu.cc/,01a11785-fa30-7396-a712-bd317f2d5384
+domain,olx.payu-nitro2.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://olx.payu-nitro2.eu.cc/,01a1182b-6a31-720f-bc1c-aceaf8f1602c
+domain,olx.poland-paycore.eu.cc,urlscan @172.67.179.92 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://olx.poland-paycore.eu.cc/,01a12a91-5040-704d-9f41-d8d1fd875ca3
+domain,olx.poland-paycore.shop,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://olx.poland-paycore.shop/,01a12ad5-e92b-7157-9a1d-33ab58088608
+domain,olx.poland-payhub.bond,urlscan @104.21.20.63 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://olx.poland-payhub.bond/,01a12b28-3339-714e-bc0d-ab0a8a93cd6c
+domain,option0448.com,urlscan @172.67.204.129 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://option0448.com/,01a1297e-4330-769b-892c-b5dcbef3f825
+domain,payu-nitro1.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://payu-nitro1.eu.cc/,01a118cf-7e14-731c-99b9-8aff557993b0
+domain,payu-nitro2.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://payu-nitro2.eu.cc/,01a118a6-548f-7533-9263-4c7b9f54198b
+domain,poczta-polska.payu-nitro6.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-11T21:18:36Z,1,A,https://poczta-polska.payu-nitro6.eu.cc/,01a1258b-9ae6-74da-bbc7-1bc493a02250
+domain,robinhoodrsrv.com,urlscan @172.67.195.248 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://robinhoodrsrv.com/,01a117b1-1d69-76cc-99ac-1c347a855694
+domain,verification-page.pro,urlscan @2606:4700:3035::6815:4383 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://verification-page.pro/,01a1203b-fc25-7788-9b3f-56aececfec78
+domain,verified-compra-es.cyou,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://verified-compra-es.cyou/,01a12688-7b35-711a-9f81-5a84d215ef7f
+domain,verify-compra.shop,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-11T21:18:36Z,1,A,https://verify-compra.shop/,01a11c5a-f1a3-7549-aee1-847986b4de85
+domain,womenhao.com,urlscan @https://olx.poland-payhub.qpon/a/i8yrFQKEXrnL-e-B?us=sml (apex-context:poland-payhub.qpon),01a12bdc-68c4-7247-8a39-6b541106b945,2026-10-11T21:18:36Z,1,A,,
+ip,104.21.21.17,dns (robinhoodrsrv.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,104.21.60.34,dns (microsoft--cm-2ja.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,104.21.61.5,dns (option0448.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,104.21.65.138,dns (verified-compra-es.cyou),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,104.21.67.131,dns (verification-page.pro),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,104.21.76.230,dns (inpost.paycore-poland.eu.cc),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,104.21.91.217,dns (womenhao.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.163.165,dns (verified-compra-es.cyou),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.175.163,dns (verification-page.pro),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.180.196,dns (womenhao.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.191.32,dns (microsoft--cm-2ja.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.195.248,dns (robinhoodrsrv.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.201.239,dns (inpost.paycore-poland.eu.cc),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,172.67.204.129,dns (option0448.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,180.230.23.101,dns (paycore-confirmation.shop),NON-CF — host left Cloudflare (manual review),2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3031::ac43:a3a5,dns (verified-compra-es.cyou),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3032::ac43:bf20,dns (microsoft--cm-2ja.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3033::6815:1511,dns (robinhoodrsrv.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3033::6815:3c22,dns (microsoft--cm-2ja.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3033::6815:418a,dns (verified-compra-es.cyou),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3033::6815:5bd9,dns (womenhao.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3033::ac43:c3f8,dns (robinhoodrsrv.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3035::6815:4383,dns (verification-page.pro),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3035::ac43:afa3,dns (verification-page.pro),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3035::ac43:b4c4,dns (womenhao.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3037::6815:3d05,dns (option0448.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3037::6815:4ce6,dns (inpost.paycore-poland.eu.cc),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3037::ac43:c9ef,dns (inpost.paycore-poland.eu.cc),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,2606:4700:3037::ac43:cc81,dns (option0448.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
+ip,91.92.34.221,dns (avhenting0110.cc),NON-CF — host left Cloudflare (manual review),2026-10-11T21:18:36Z,2,A,,
+ip,94.26.0.245,dns (confirm-9580.shop),NON-CF — host left Cloudflare (manual review),2026-10-11T21:18:36Z,2,A,,

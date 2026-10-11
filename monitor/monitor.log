@@ -2190,3 +2190,111 @@
 [2026-10-11T17:07:40Z] HASH-CHAIN archived source body for f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c -> kit-source/raw_bodies/f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c.js
 [2026-10-11T17:07:40Z] SCAN-SAVED olx.poland-payhub.qpon -> https://urlscan.io/result/01a12bf9-dc16-71de-8fb7-b1c74d1d38ac/
 [2026-10-11T17:07:40Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-11T21:18:36Z] candidate cert  bekreftnorwq.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate cert  poland-payhub.qpon  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate cert  receive.sale  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-11T21:18:36Z] NEW domain  avhenting0110.cc  [urlscan @172.67.163.222 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  avhenting0510.cc  [urlscan @2606:4700:3036::6815:4f8d (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  confirm-9580.shop  [urlscan @94.26.0.245 (hash:chained) / AS135388] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  direkt-auszahlung.com  [urlscan @188.114.96.12 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  finn.bekreftls.com  [urlscan @172.67.161.207 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.paycore-poland.eu.cc  [urlscan @104.21.76.230 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.payu-nitro1.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.payu-nitro2.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.payu-nitro5.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.payu-nitro7.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.poland-paycore.eu.cc  [urlscan @172.67.179.92 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  inpost.poland-payhub.bond  [urlscan @172.67.191.213 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  klelnanzeigen-deutch.direkt-auszahlung.com  [urlscan @104.21.29.98 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  microsoft--cm-2ja.com  [urlscan @188.114.97.3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  olx.paycore-nitro-pl.bond  [urlscan @104.21.53.249 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  olx.payu-nitro1.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  olx.payu-nitro2.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  olx.poland-paycore.eu.cc  [urlscan @172.67.179.92 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  olx.poland-paycore.shop  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  olx.poland-payhub.bond  [urlscan @104.21.20.63 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  option0448.com  [urlscan @172.67.204.129 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  payu-nitro1.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  payu-nitro2.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  poczta-polska.payu-nitro6.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  robinhoodrsrv.com  [urlscan @172.67.195.248 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  verification-page.pro  [urlscan @2606:4700:3035::6815:4383 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  verified-compra-es.cyou  [urlscan @188.114.97.3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  verify-compra.shop  [urlscan @188.114.97.3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-11T21:18:36Z] NEW domain  womenhao.com  [urlscan @https://olx.poland-payhub.qpon/a/i8yrFQKEXrnL-e-B?us=sml (apex-context:poland-payhub.qpon) / 01a12bdc-68c4-7247-8a39-6b541106b945] tier=1 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.21.17  [dns (robinhoodrsrv.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.60.34  [dns (microsoft--cm-2ja.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.61.5  [dns (option0448.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.65.138  [dns (verified-compra-es.cyou)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.67.131  [dns (verification-page.pro)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.76.230  [dns (inpost.paycore-poland.eu.cc)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  104.21.91.217  [dns (womenhao.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.163.165  [dns (verified-compra-es.cyou)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.175.163  [dns (verification-page.pro)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.180.196  [dns (womenhao.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.191.32  [dns (microsoft--cm-2ja.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.195.248  [dns (robinhoodrsrv.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.201.239  [dns (inpost.paycore-poland.eu.cc)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  172.67.204.129  [dns (option0448.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  180.230.23.101  [dns (paycore-confirmation.shop)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3031::ac43:a3a5  [dns (verified-compra-es.cyou)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3032::ac43:bf20  [dns (microsoft--cm-2ja.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3033::6815:1511  [dns (robinhoodrsrv.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3033::6815:3c22  [dns (microsoft--cm-2ja.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3033::6815:418a  [dns (verified-compra-es.cyou)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3033::6815:5bd9  [dns (womenhao.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3033::ac43:c3f8  [dns (robinhoodrsrv.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3035::6815:4383  [dns (verification-page.pro)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3035::ac43:afa3  [dns (verification-page.pro)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3035::ac43:b4c4  [dns (womenhao.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3037::6815:3d05  [dns (option0448.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3037::6815:4ce6  [dns (inpost.paycore-poland.eu.cc)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3037::ac43:c9ef  [dns (inpost.paycore-poland.eu.cc)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  2606:4700:3037::ac43:cc81  [dns (option0448.com)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  91.92.34.221  [dns (avhenting0110.cc)] tier=2 op=A
+[2026-10-11T21:18:36Z] candidate ip  94.26.0.245  [dns (confirm-9580.shop)] tier=2 op=A
+[2026-10-11T21:18:36Z] HEALTH certspotter=12/133 crtsh=52/59 urlscan=244/244 dns-google=620/620 dns-cf=620/620
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex avhenting0110.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex avhenting0510.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex bekreftls.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex confirm-9580.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex direkt-auszahlung.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex microsoft--cm-2ja.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex option0448.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex paycore-nitro-pl.bond (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex paycore-poland.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex payu-nitro1.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex payu-nitro2.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex payu-nitro5.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex payu-nitro6.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex payu-nitro7.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex poland-paycore.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex poland-paycore.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex poland-payhub.bond (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex robinhoodrsrv.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex verification-page.pro (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex verified-compra-es.cyou (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] AUTO-PROMOTE apex verify-compra.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-11T21:18:36Z] SCAN-SAVED avhenting0110.cc -> https://urlscan.io/result/01a12ced-d4bc-764d-b299-6aacdcaec5d6/
+[2026-10-11T21:18:36Z] SCAN-SAVED avhenting0510.cc -> https://urlscan.io/result/01a12ced-e06c-7501-980c-383eba56e64d/
+[2026-10-11T21:18:36Z] SCAN-SAVED confirm-9580.shop -> https://urlscan.io/result/01a12ced-ebd7-70cd-9445-7561b3775c68/
+[2026-10-11T21:18:36Z] SCAN-SAVED direkt-auszahlung.com -> https://urlscan.io/result/01a12ced-f724-740e-8aad-dcaab50164a6/
+[2026-10-11T21:18:36Z] SCAN-SAVED finn.bekreftls.com -> https://urlscan.io/result/01a12cee-032f-72ab-919d-8f60a3c740a1/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.paycore-poland.eu.cc -> https://urlscan.io/result/01a12cee-0e37-7238-a509-c49597005c16/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.payu-nitro1.eu.cc -> https://urlscan.io/result/01a12cee-1bab-733a-be29-5eded025b628/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.payu-nitro2.eu.cc -> https://urlscan.io/result/01a12cee-2b20-7532-b8b8-0c8eb9b5be2c/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.payu-nitro5.eu.cc -> https://urlscan.io/result/01a12cee-3783-7462-9450-4ccf07f40163/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.payu-nitro7.eu.cc -> https://urlscan.io/result/01a12cee-460e-720b-8fd2-d881dc83d1b3/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.poland-paycore.eu.cc -> https://urlscan.io/result/01a12cee-53c4-7126-9eb3-c99c2ca77765/
+[2026-10-11T21:18:36Z] SCAN-SAVED inpost.poland-payhub.bond -> https://urlscan.io/result/01a12cee-5e29-720f-ab8f-3c63fe58f734/
+[2026-10-11T21:18:36Z] SCAN-SAVED klelnanzeigen-deutch.direkt-auszahlung.com -> https://urlscan.io/result/01a12cee-696e-773d-8911-c6f06b87976d/
+[2026-10-11T21:18:36Z] SCAN-SAVED microsoft--cm-2ja.com -> https://urlscan.io/result/01a12cee-74f3-76c0-bb68-9299452f24dc/
+[2026-10-11T21:18:36Z] SCAN-SAVED olx.paycore-nitro-pl.bond -> https://urlscan.io/result/01a12cee-8065-740d-90bd-74dbd9987e72/
+[2026-10-11T21:18:36Z] SCAN-SAVED olx.payu-nitro1.eu.cc -> https://urlscan.io/result/01a12cee-8bec-745d-8f15-ee1dbb3f4daa/
+[2026-10-11T21:18:36Z] SCAN-SAVED olx.payu-nitro2.eu.cc -> https://urlscan.io/result/01a12cee-965c-7208-b3db-d732a4a8399a/
+[2026-10-11T21:18:36Z] SCAN-SAVED olx.poland-paycore.eu.cc -> https://urlscan.io/result/01a12cee-a1aa-7028-937a-2a2a6ab24ae3/
+[2026-10-11T21:18:36Z] SCAN-SAVED olx.poland-paycore.shop -> https://urlscan.io/result/01a12cee-ac99-7558-afd9-6033d68aa6d1/
+[2026-10-11T21:18:36Z] SCAN-SAVED olx.poland-payhub.bond -> https://urlscan.io/result/01a12cee-b848-721a-9a8a-5fea4e8677c3/
+[2026-10-11T21:18:36Z] SCAN-BACKLOG 11 live host(s) queued for next run (cap 20/run)
+[2026-10-11T21:18:36Z] REVIVED-NONCF paycore-confirmation.shop -> 180.230.23.101 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-11T21:18:36Z] 29 new tier-1 Operator-A indicator(s) this run

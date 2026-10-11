@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-11T17:19:19Z",
-  "last_run_at": "2026-10-11T17:07:40Z",
-  "last_run_summary": "[2026-10-11T17:07:40Z] 1 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-11T17:07:40Z] HEALTH certspotter=10/48 crtsh=0/3 urlscan=214/214 dns-google=246/246 dns-cf=246/246",
+  "generated_at": "2026-10-11T21:46:46Z",
+  "last_run_at": "2026-10-11T21:18:36Z",
+  "last_run_summary": "[2026-10-11T21:18:36Z] 29 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-11T21:18:36Z] HEALTH certspotter=12/133 crtsh=52/59 urlscan=244/244 dns-google=620/620 dns-cf=620/620",
   "tracked_hosts": {
-    "total": 308,
+    "total": 338,
     "by_status": {
-      "dead": 202,
-      "active": 106
+      "dead": 201,
+      "active": 137
     },
     "by_operator_tier": {
-      "A:tier1": 308
+      "A:tier1": 338
     }
   },
   "fingerprints": [
@@ -604,131 +604,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 430
+    "A": 459
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "dailyrsswithemail.versec.workers.dev",
+      "indicator": "inpost.payu-nitro7.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "defanger.versec.workers.dev",
+      "indicator": "inpost.poland-paycore.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "hello-world-flat-sky-1b66.versec.workers.dev",
+      "indicator": "inpost.poland-payhub.bond",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "limacharlie.versec.workers.dev",
+      "indicator": "klelnanzeigen-deutch.direkt-auszahlung.com",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "lucky-mud-a315.versec.workers.dev",
+      "indicator": "microsoft--cm-2ja.com",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "managed-challenge.versec.workers.dev",
+      "indicator": "olx.paycore-nitro-pl.bond",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "managed-challengez.versec.workers.dev",
+      "indicator": "olx.payu-nitro1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "o1thinker.versec.workers.dev",
+      "indicator": "olx.payu-nitro2.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "plex-list-rss.versec.workers.dev",
+      "indicator": "olx.poland-paycore.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "ransom-monitor.versec.workers.dev",
+      "indicator": "olx.poland-paycore.shop",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "smss.versec.workers.dev",
+      "indicator": "olx.poland-payhub.bond",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "testing-worker-non-production.versec.workers.dev",
+      "indicator": "option0448.com",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "tickets.versec.workers.dev",
+      "indicator": "payu-nitro1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "weather-croydon.versec.workers.dev",
+      "indicator": "payu-nitro2.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T11:40:12Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "weather-test-clicksend.versec.workers.dev",
+      "indicator": "poczta-polska.payu-nitro6.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-10T16:41:45Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "worker-calm-disk-b393.versec.workers.dev",
+      "indicator": "robinhoodrsrv.com",
       "operator": "A",
-      "first_seen": "2026-10-10T16:41:45Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "worker-proud-rice-41eb.versec.workers.dev",
+      "indicator": "verification-page.pro",
       "operator": "A",
-      "first_seen": "2026-10-10T16:41:45Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "worker-tight-sun-5332.versec.workers.dev",
+      "indicator": "verified-compra-es.cyou",
       "operator": "A",
-      "first_seen": "2026-10-10T16:41:45Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "www.payprotect.shop",
+      "indicator": "verify-compra.shop",
       "operator": "A",
-      "first_seen": "2026-10-10T16:41:45Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     },
     {
       "type": "domain",
-      "indicator": "olx.poland-payhub.qpon",
+      "indicator": "womenhao.com",
       "operator": "A",
-      "first_seen": "2026-10-11T17:07:40Z"
+      "first_seen": "2026-10-11T21:18:36Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 210,
+  "manual_review_candidates_pending": 215,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

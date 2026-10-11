@@ -330,3 +330,29 @@ origin,193.111.117.211,candidate,non-CF on olx.poland-payhub.qpon (manual review
 apex,poland-payhub.qpon,promoted,kit-fingerprint confirmed,2026-10-11T17:07:40Z
 hash,27c65ca70273ae61718e35e665508612d11467edfef8d0129909aaa3e6621472,candidate,co-occurs with 1 known kit domain(s) in 1 scans - needs manual review,2026-10-11T17:07:40Z
 hash,2d26ee119643cab6737735ee137564b98c0cb9f427aee7bec2336eab4d84873c,candidate,co-occurs with 1 known kit domain(s) in 1 scans - needs manual review,2026-10-11T17:07:40Z
+origin,180.230.23.101,candidate,non-CF on paycore-confirmation.shop (manual review only - auto-promotion removed 2026-09-25),2026-10-11T21:18:36Z
+origin,91.92.34.221,candidate,non-CF on avhenting0110.cc (manual review only - auto-promotion removed 2026-09-25),2026-10-11T21:18:36Z
+origin,94.26.0.245,candidate,non-CF on confirm-9580.shop (manual review only - auto-promotion removed 2026-09-25),2026-10-11T21:18:36Z
+apex,avhenting0110.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,avhenting0510.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,bekreftls.com,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,confirm-9580.shop,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,direkt-auszahlung.com,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,microsoft--cm-2ja.com,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,option0448.com,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,paycore-nitro-pl.bond,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,paycore-poland.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,payu-nitro1.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,payu-nitro2.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,payu-nitro5.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,payu-nitro6.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,payu-nitro7.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,poland-paycore.eu.cc,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,poland-paycore.shop,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,poland-payhub.bond,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,robinhoodrsrv.com,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,verification-page.pro,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,verified-compra-es.cyou,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+apex,verify-compra.shop,promoted,kit-fingerprint confirmed,2026-10-11T21:18:36Z
+hash,27c65ca70273ae61718e35e665508612d11467edfef8d0129909aaa3e6621472,candidate,co-occurs with 1 known kit domain(s) in 1 scans - needs manual review,2026-10-11T21:18:36Z
+hash,2d26ee119643cab6737735ee137564b98c0cb9f427aee7bec2336eab4d84873c,candidate,co-occurs with 1 known kit domain(s) in 1 scans - needs manual review,2026-10-11T21:18:36Z
