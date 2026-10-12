@@ -777,3 +777,11 @@ ip,2606:4700:3037::ac43:c9ef,dns (inpost.paycore-poland.eu.cc),Cloudflare-edge,2
 ip,2606:4700:3037::ac43:cc81,dns (option0448.com),Cloudflare-edge,2026-10-11T21:18:36Z,2,A,,
 ip,91.92.34.221,dns (avhenting0110.cc),NON-CF — host left Cloudflare (manual review),2026-10-11T21:18:36Z,2,A,,
 ip,94.26.0.245,dns (confirm-9580.shop),NON-CF — host left Cloudflare (manual review),2026-10-11T21:18:36Z,2,A,,
+cert,microsoft--cm-2ja.com,ct-log (apex subdomain),,2026-10-12T03:34:49Z,1,A,,
+cert,payu-nitro6.eu.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-12T03:34:49Z,2,A,,
+cert,robinhoodrsrv.com,ct-log (apex subdomain),,2026-10-12T03:34:49Z,1,A,,
+domain,confirmacion-venta.com,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-12T03:34:49Z,1,A,https://confirmacion-venta.com/,01a12cf3-44f9-71e2-b61e-43d17b1faab1
+ip,104.21.7.108,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,
+ip,172.67.130.32,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,
+ip,2606:4700:3032::ac43:8220,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,
+ip,2606:4700:3035::6815:76c,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,

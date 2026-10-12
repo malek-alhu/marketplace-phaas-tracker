@@ -2298,3 +2298,35 @@
 [2026-10-11T21:18:36Z] SCAN-BACKLOG 11 live host(s) queued for next run (cap 20/run)
 [2026-10-11T21:18:36Z] REVIVED-NONCF paycore-confirmation.shop -> 180.230.23.101 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
 [2026-10-11T21:18:36Z] 29 new tier-1 Operator-A indicator(s) this run
+[2026-10-12T03:34:49Z] NEW cert  microsoft--cm-2ja.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-12T03:34:49Z] candidate cert  payu-nitro6.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-12T03:34:49Z] NEW cert  robinhoodrsrv.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-12T03:34:49Z] NEW domain  confirmacion-venta.com  [urlscan @188.114.97.3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-12T03:34:49Z] candidate ip  104.21.7.108  [dns (confirmacion-venta.com)] tier=2 op=A
+[2026-10-12T03:34:49Z] candidate ip  172.67.130.32  [dns (confirmacion-venta.com)] tier=2 op=A
+[2026-10-12T03:34:49Z] candidate ip  2606:4700:3032::ac43:8220  [dns (confirmacion-venta.com)] tier=2 op=A
+[2026-10-12T03:34:49Z] candidate ip  2606:4700:3035::6815:76c  [dns (confirmacion-venta.com)] tier=2 op=A
+[2026-10-12T03:34:49Z] HEALTH certspotter=10/72 crtsh=3/6 urlscan=265/265 dns-google=314/314 dns-cf=314/314
+[2026-10-12T03:34:49Z] AUTO-PROMOTE apex confirmacion-venta.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-12T03:34:49Z] SCAN-SAVED bekreftls.com -> https://urlscan.io/result/01a12e38-90ac-7640-9ad5-cebb301d1740/
+[2026-10-12T03:34:49Z] SCAN-SAVED confirmacion-venta.com -> https://urlscan.io/result/01a12e38-9c65-762b-ba57-273f6ab07b45/
+[2026-10-12T03:34:49Z] SCAN-SAVED option0448.com -> https://urlscan.io/result/01a12e38-a89d-73c7-af0a-3664bbe482ef/
+[2026-10-12T03:34:49Z] SCAN-SAVED paycore-confirmation.shop -> https://urlscan.io/result/01a12e38-b3ed-715c-ae8d-dfc6b4d275e8/
+[2026-10-12T03:34:49Z] SCAN-SAVED paycore-nitro-pl.bond -> https://urlscan.io/result/01a12e38-bf65-76f8-949d-25146a47d144/
+[2026-10-12T03:34:49Z] SCAN-SAVED paycore-poland.eu.cc -> https://urlscan.io/result/01a12e38-ccef-7060-82a6-2ae8c3a45ac9/
+[2026-10-12T03:34:49Z] SCAN-SAVED payu-nitro1.eu.cc -> https://urlscan.io/result/01a12e38-d961-74ac-b7d7-ad9911d0d8b1/
+[2026-10-12T03:34:49Z] SCAN-SAVED payu-nitro2.eu.cc -> https://urlscan.io/result/01a12e38-e832-742a-a342-8c08d16127fd/
+[2026-10-12T03:34:49Z] SCAN-SAVED payu-nitro5.eu.cc -> https://urlscan.io/result/01a12e38-f64a-726b-8ef3-f870c679585b/
+[2026-10-12T03:34:49Z] SCAN-SAVED payu-nitro6.eu.cc -> https://urlscan.io/result/01a12e39-02a2-7318-bfcd-37896a27d7f1/
+[2026-10-12T03:34:49Z] SCAN-SAVED payu-nitro7.eu.cc -> https://urlscan.io/result/01a12e39-1097-729d-8596-1f9bfa32dc19/
+[2026-10-12T03:34:49Z] SCAN-SAVED poczta-polska.payu-nitro6.eu.cc -> https://urlscan.io/result/01a12e39-1bab-76fe-8831-8f9f514caa46/
+[2026-10-12T03:34:49Z] SCAN-SAVED poland-paycore.eu.cc -> https://urlscan.io/result/01a12e39-2882-756b-85b4-a781a0ffe29c/
+[2026-10-12T03:34:49Z] SCAN-SAVED poland-paycore.shop -> https://urlscan.io/result/01a12e39-344f-75a8-be4c-cb8aa94ec76d/
+[2026-10-12T03:34:49Z] SCAN-SAVED poland-payhub.bond -> https://urlscan.io/result/01a12e39-4001-72ff-b479-eaa208bcc2b2/
+[2026-10-12T03:34:49Z] SCAN-SAVED poland-payhub.qpon -> https://urlscan.io/result/01a12e39-4b94-75a8-bfa4-63d1651371c9/
+[2026-10-12T03:34:49Z] SCAN-SAVED robinhoodrsrv.com -> https://urlscan.io/result/01a12e39-5733-70c9-addc-54308511f43c/
+[2026-10-12T03:34:49Z] SCAN-SAVED verification-page.pro -> https://urlscan.io/result/01a12e39-62c1-757f-8f61-7d615dea3d5c/
+[2026-10-12T03:34:49Z] SCAN-SAVED verified-compra-es.cyou -> https://urlscan.io/result/01a12e39-6e7c-73a5-a43e-df7f6d2ae3ef/
+[2026-10-12T03:34:49Z] SCAN-SAVED verify-compra.shop -> https://urlscan.io/result/01a12e39-79b0-723e-9cdf-ec104191cffd/
+[2026-10-12T03:34:49Z] SCAN-BACKLOG 1 live host(s) queued for next run (cap 20/run)
+[2026-10-12T03:34:49Z] 3 new tier-1 Operator-A indicator(s) this run

@@ -15,6 +15,7 @@ blocket-system.cam	A
 c0mpra-verify.help	A
 checkn-auth.com	A
 confirm-9580.shop	A
+confirmacion-venta.com	A
 confirmation-order-gg.cfd	A
 confirmation-order-gg.sbs	A
 confirmation-order-payu.cfd	A
