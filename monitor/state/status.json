@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-12T03:48:03Z",
-  "last_run_at": "2026-10-12T03:34:49Z",
-  "last_run_summary": "[2026-10-12T03:34:49Z] 3 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-12T03:34:49Z] HEALTH certspotter=10/72 crtsh=3/6 urlscan=265/265 dns-google=314/314 dns-cf=314/314",
+  "generated_at": "2026-10-12T14:17:52Z",
+  "last_run_at": "2026-10-12T14:02:43Z",
+  "last_run_summary": "[2026-10-12T14:02:43Z] 13 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-12T14:02:43Z] HEALTH certspotter=10/69 crtsh=0/3 urlscan=266/266 dns-google=304/304 dns-cf=304/304",
   "tracked_hosts": {
-    "total": 348,
+    "total": 351,
     "by_status": {
-      "dead": 201,
-      "active": 147
+      "dead": 202,
+      "active": 149
     },
     "by_operator_tier": {
-      "A:tier1": 348
+      "A:tier1": 351
     }
   },
   "fingerprints": [
@@ -604,87 +604,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 462
+    "A": 475
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "klelnanzeigen-deutch.direkt-auszahlung.com",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "microsoft--cm-2ja.com",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.paycore-nitro-pl.bond",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.payu-nitro1.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.payu-nitro2.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.poland-paycore.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.poland-paycore.shop",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.poland-payhub.bond",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "option0448.com",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "payu-nitro1.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "payu-nitro2.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poczta-polska.payu-nitro6.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "robinhoodrsrv.com",
-      "operator": "A",
-      "first_seen": "2026-10-11T21:18:36Z"
-    },
     {
       "type": "domain",
       "indicator": "verification-page.pro",
@@ -726,9 +648,87 @@
       "indicator": "confirmacion-venta.com",
       "operator": "A",
       "first_seen": "2026-10-12T03:34:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "bekreftls.com",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.poland-payhub.buzz",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paycore-nitro-pl.bond",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paycore-poland.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payu-nitro5.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payu-nitro6.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payu-nitro7.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poczta-polska.poland-payhub.cyou",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-paycore.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-paycore.shop",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub.bond",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub.qpon",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub.sbs",
+      "operator": "A",
+      "first_seen": "2026-10-12T14:02:43Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 217,
+  "manual_review_candidates_pending": 219,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

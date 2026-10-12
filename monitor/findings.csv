@@ -785,3 +785,20 @@ ip,104.21.7.108,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49
 ip,172.67.130.32,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,
 ip,2606:4700:3032::ac43:8220,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,
 ip,2606:4700:3035::6815:76c,dns (confirmacion-venta.com),Cloudflare-edge,2026-10-12T03:34:49Z,2,A,,
+domain,bekreftls.com,urlscan @91.92.34.221 (apex-context:bekreftls.com),AS207043,2026-10-12T14:02:43Z,1,A,https://bekreftls.com/,01a12e38-90ac-7640-9ad5-cebb301d1740
+domain,olx.poland-payhub.buzz,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-12T14:02:43Z,1,A,https://olx.poland-payhub.buzz/,01a12f8e-5e83-728c-9f8a-bcc4787d6efb
+domain,paycore-nitro-pl.bond,urlscan @193.111.117.211 (apex-context:paycore-nitro-pl.bond),AS207043,2026-10-12T14:02:43Z,1,A,https://paycore-nitro-pl.bond/,01a12e38-bf65-76f8-949d-25146a47d144
+domain,paycore-poland.eu.cc,urlscan @2a06:98c1:3120::3 (apex-context:paycore-poland.eu.cc),AS13335,2026-10-12T14:02:43Z,1,A,https://paycore-poland.eu.cc/,01a12e38-ccef-7060-82a6-2ae8c3a45ac9
+domain,payu-nitro5.eu.cc,urlscan @193.111.117.211 (apex-context:payu-nitro5.eu.cc),AS207043,2026-10-12T14:02:43Z,1,A,https://payu-nitro5.eu.cc/,01a12e38-f64a-726b-8ef3-f870c679585b
+domain,payu-nitro6.eu.cc,urlscan @193.111.117.211 (apex-context:payu-nitro6.eu.cc),AS207043,2026-10-12T14:02:43Z,1,A,https://payu-nitro6.eu.cc/,01a12e39-02a2-7318-bfcd-37896a27d7f1
+domain,payu-nitro7.eu.cc,urlscan @193.111.117.211 (apex-context:payu-nitro7.eu.cc),AS207043,2026-10-12T14:02:43Z,1,A,https://payu-nitro7.eu.cc/,01a12e39-1097-729d-8596-1f9bfa32dc19
+domain,poczta-polska.poland-payhub.cyou,urlscan @172.67.152.70 (hash:chained),AS13335,2026-10-12T14:02:43Z,1,A,https://poczta-polska.poland-payhub.cyou/,01a12fe0-b0a1-7461-ac4c-1dbe5a58e546
+domain,poland-paycore.eu.cc,urlscan @193.111.117.211 (apex-context:poland-paycore.eu.cc),AS207043,2026-10-12T14:02:43Z,1,A,https://poland-paycore.eu.cc/,01a12e39-2882-756b-85b4-a781a0ffe29c
+domain,poland-paycore.shop,urlscan @193.111.117.211 (apex-context:poland-paycore.shop),AS207043,2026-10-12T14:02:43Z,1,A,https://poland-paycore.shop/,01a12e39-344f-75a8-be4c-cb8aa94ec76d
+domain,poland-payhub.bond,urlscan @193.111.117.211 (apex-context:poland-payhub.bond),AS207043,2026-10-12T14:02:43Z,1,A,https://poland-payhub.bond/,01a12e39-4001-72ff-b479-eaa208bcc2b2
+domain,poland-payhub.qpon,urlscan @193.111.117.211 (apex-context:poland-payhub.qpon),AS207043,2026-10-12T14:02:43Z,1,A,https://poland-payhub.qpon/,01a12e39-4b94-75a8-bfa4-63d1651371c9
+domain,poland-payhub.sbs,urlscan @188.114.96.3 (hash:chained),AS13335,2026-10-12T14:02:43Z,1,A,https://poland-payhub.sbs/,01a1304e-795a-755b-a654-c6c60bdc733c
+ip,104.21.41.107,dns (poland-payhub.sbs),Cloudflare-edge,2026-10-12T14:02:43Z,2,A,,
+ip,172.67.164.109,dns (poland-payhub.sbs),Cloudflare-edge,2026-10-12T14:02:43Z,2,A,,
+ip,2606:4700:3035::6815:296b,dns (poland-payhub.sbs),Cloudflare-edge,2026-10-12T14:02:43Z,2,A,,
+ip,2606:4700:3037::ac43:a46d,dns (poland-payhub.sbs),Cloudflare-edge,2026-10-12T14:02:43Z,2,A,,
