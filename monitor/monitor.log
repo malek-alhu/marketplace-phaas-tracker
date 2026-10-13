@@ -2380,3 +2380,22 @@
 [2026-10-12T23:59:40Z] SCAN-SAVED wallapop.verify-compra.shop -> https://urlscan.io/result/01a1329a-76ba-7183-8a32-55b9bcccade8/
 [2026-10-12T23:59:40Z] SCAN-SAVED www.verify-compra.shop -> https://urlscan.io/result/01a1329a-8275-768d-aa67-e7376c061afe/
 [2026-10-12T23:59:40Z] 5 new tier-1 Operator-A indicator(s) this run
+[2026-10-13T06:14:47Z] candidate cert  avhenting0510.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-13T06:14:47Z] candidate cert  direkt-auszahlung.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-13T06:14:47Z] NEW domain  poland-payhub.buzz  [urlscan @193.111.117.211 (apex-context:poland-payhub.buzz) / AS207043] tier=1 op=A
+[2026-10-13T06:14:47Z] NEW domain  poland-payhub.cyou  [urlscan @193.111.117.211 (apex-context:poland-payhub.cyou) / AS207043] tier=1 op=A
+[2026-10-13T06:14:47Z] NEW domain  www.verify-compra.shop  [urlscan @https://www.verify-compra.shop/ (apex-context:verify-compra.shop) / 01a1329a-8275-768d-aa67-e7376c061afe] tier=1 op=A
+[2026-10-13T06:14:47Z] candidate ip  104.21.92.135  [dns (prelo.psd18.com)] tier=2 op=A
+[2026-10-13T06:14:47Z] candidate ip  172.67.194.133  [dns (prelo.psd18.com)] tier=2 op=A
+[2026-10-13T06:14:47Z] candidate ip  2606:4700:3032::ac43:c285  [dns (prelo.psd18.com)] tier=2 op=A
+[2026-10-13T06:14:47Z] candidate ip  2606:4700:3037::6815:5c87  [dns (prelo.psd18.com)] tier=2 op=A
+[2026-10-13T06:14:47Z] HEALTH certspotter=10/159 crtsh=0/3 urlscan=270/270 dns-google=660/660 dns-cf=660/660
+[2026-10-13T06:14:47Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-13T06:14:47Z] SCAN-SAVED poland-payhub.cfd -> https://urlscan.io/result/01a133f5-ac6e-7358-b6ed-545a0455a1c0/
+[2026-10-13T06:14:47Z] SCAN-SAVED prelo.psd18.com -> https://urlscan.io/result/01a133f5-b783-7492-b245-ce2653031d7d/
+[2026-10-13T06:14:47Z] SCAN-SAVED psd18.com -> https://urlscan.io/result/01a133f5-c309-708d-8e52-270ff1737a7d/
+[2026-10-13T06:14:47Z] SCAN-SAVED vinted.psd18.com -> https://urlscan.io/result/01a133f5-ce4f-77cc-bff9-50fd2be63fb7/
+[2026-10-13T06:14:47Z] NEW revival  vinted.psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
+[2026-10-13T06:14:47Z] NEW revival  prelo.psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
+[2026-10-13T06:14:47Z] NEW revival  psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
+[2026-10-13T06:14:47Z] 6 new tier-1 Operator-A indicator(s) this run

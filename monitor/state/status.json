@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-13T00:12:31Z",
-  "last_run_at": "2026-10-12T23:59:40Z",
-  "last_run_summary": "[2026-10-12T23:59:40Z] 5 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-12T23:59:40Z] HEALTH certspotter=10/74 crtsh=1/4 urlscan=269/269 dns-google=346/346 dns-cf=346/346",
+  "generated_at": "2026-10-13T06:31:51Z",
+  "last_run_at": "2026-10-13T06:14:47Z",
+  "last_run_summary": "[2026-10-13T06:14:47Z] 6 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-13T06:14:47Z] HEALTH certspotter=10/159 crtsh=0/3 urlscan=270/270 dns-google=660/660 dns-cf=660/660",
   "tracked_hosts": {
-    "total": 358,
+    "total": 359,
     "by_status": {
-      "dead": 202,
-      "active": 156
+      "dead": 199,
+      "active": 160
     },
     "by_operator_tier": {
-      "A:tier1": 358
+      "A:tier1": 359
     }
   },
   "fingerprints": [
@@ -604,45 +604,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 480
+    "A": 486
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "robinhoodrsrv.com",
-      "operator": "A",
-      "first_seen": "2026-10-12T03:34:49Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "confirmacion-venta.com",
-      "operator": "A",
-      "first_seen": "2026-10-12T03:34:49Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "bekreftls.com",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.poland-payhub.buzz",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "paycore-nitro-pl.bond",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "paycore-poland.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
     {
       "type": "domain",
       "indicator": "payu-nitro5.eu.cc",
@@ -726,6 +690,42 @@
       "indicator": "wallapop.verify-compra.shop",
       "operator": "A",
       "first_seen": "2026-10-12T23:59:40Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub.buzz",
+      "operator": "A",
+      "first_seen": "2026-10-13T06:14:47Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub.cyou",
+      "operator": "A",
+      "first_seen": "2026-10-13T06:14:47Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.verify-compra.shop",
+      "operator": "A",
+      "first_seen": "2026-10-13T06:14:47Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "vinted.psd18.com",
+      "operator": "A",
+      "first_seen": "2026-10-13T06:14:47Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "prelo.psd18.com",
+      "operator": "A",
+      "first_seen": "2026-10-13T06:14:47Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "psd18.com",
+      "operator": "A",
+      "first_seen": "2026-10-13T06:14:47Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
