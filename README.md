@@ -181,6 +181,10 @@ A key finding is that **two distinct operators** target these brands — keep th
   **session replay and privacy masking switched off** (`maskAllInputs:false`), tunnelled through the kit's own origin
   (`/0/k/<hex>`): a second channel for typed victim data. Also new: a 3-provider geo-IP fallback and a 23-language
   "verify your account to release your payment" lure. See [§6c](docs/kit-code-analysis.md#6c-the-next2-rebuild-oct-2026--recovered-chunks-h).
+- **…and can push Android malware and hijack Google accounts** — the next2 payment module adds a per-victim **APK
+  download** behind a fake "Verified by Google Play" dialog (Android only; QR on desktop), a **Google number-matching
+  takeover** step (operator copy: *"Enter the number the victim must tap on their phone"*), and a 28-step dialog
+  playbook incl. MitID, BankID, PESEL and card PIN. See [§6d](docs/kit-code-analysis.md#6d-next2-payment-module-apk-delivery-and-the-operator-dialog-playbook-h).
 - **Caught live, mid-research** — the tracker tripped on a fresh domain (`olx.express-paycore24.cyou`) the day it was
   registered, confirming the cluster is **active and rotating today**.
 

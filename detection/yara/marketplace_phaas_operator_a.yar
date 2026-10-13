@@ -96,3 +96,27 @@ rule PhaaS_OperatorA_Next2_Kit_Build
     condition:
         filesize < 5MB and ($sentry_key or $ru_hd_err or $lure_en or all of ($geo*))
 }
+
+rule PhaaS_OperatorA_Next2_Payment_Operator_Playbook
+{
+    meta:
+        description = "Operator-A next2 payment module: per-victim Android APK delivery (fake 'Verified by Google Play'), Google number-matching takeover dialog, or operator dialog playbook"
+        author      = "marketplace-phaas-tracker contributors"
+        date        = "2026-10-13"
+        reference   = "https://github.com/malek-alhu/marketplace-phaas-tracker/blob/main/docs/kit-code-analysis.md#6d-next2-payment-module-apk-delivery-and-the-operator-dialog-playbook-h"
+        confidence  = "high"
+        tlp         = "CLEAR"
+
+    strings:
+        $apk_prep   = "stripe/provider/download/prepare" ascii
+        $apk_stream = "stripe/provider/download/stream" ascii
+        $apk_gate   = "shouldAllowProviderApkDownload" ascii
+        $apk_badge  = "dialog-apk.verified_badge" ascii
+        $resolve    = "stripe/provider/resolve/" ascii
+        $google_mm  = "Enter the number the victim must tap on their phone" ascii
+        $bqr        = "/bqr/[RANDOM_ID]/[TYPE]/[SERVICE_METHOD]/[ADTAG]" ascii
+        $ru_luhn    = "номер не проходит проверку Луна"
+
+    condition:
+        filesize < 5MB and any of them
+}

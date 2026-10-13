@@ -11,6 +11,13 @@ TLP:CLEAR — share freely.
 | [`yara/marketplace_phaas_operator_a.yar`](yara/marketplace_phaas_operator_a.yar) | Decompressed JS from web captures, sandbox/crawler output, urlscan Pro, VirusTotal Livehunt/Retrohunt | The kit's own client chunks (card-exfil WebSocket, `/viewer/` fake-bank template, dev WS fallback, Russian builder strings). |
 | [`../feeds/`](../feeds/) | DNS blocklists, TIPs, SIEM lookups | Every reviewed kit/redirector domain (`domains.txt`, `adblock.txt`), what still resolves (`domains-live.txt`), Operator-B origin IPs, and a STIX 2.1 bundle. Regenerated every 6 h by the tracker. |
 
+## Validation (2026-10-13 — `PhaaS_OperatorA_Next2_Payment_Operator_Playbook`)
+
+- Matches 13 of the 54 next2 payment/bank-page chunks (APK delivery, Google number-matching dialog, `/bqr/` bank
+  route, Russian Luhn message); all rules together cover 16 of 54. **0 false positives** on the same corpus.
+- Network hunt: `POST /0/k/<32 hex>/stripe/provider/download/prepare` then an `application/vnd.android.package-archive`
+  response from the same host.
+
 ## Validation (2026-10-13 — `PhaaS_OperatorA_Next2_Kit_Build`)
 
 - Matches 14 of the 79 recovered "next2" chunks, including all 7 main-bundle builds (2–13 Oct) via the operators'
