@@ -1,0 +1,40 @@
+{
+ "tool": "rea-agents@6.4.0 analyze-javascript-application (static, no execution)",
+ "run_utc": "2026-10-13",
+ "input": "79 next2 chunks recovered by monitor/heal-bodies.sh (kit-source/decompressed, copied as *.js)",
+ "evidence_id": "ev_a7a2b656ed133ddf97166d8819adbbaffce017d8639d0515a3054da2d14226a6",
+ "root_artifact_sha256": "b893522af24c38c7443157c301c0dafba9112646889d7eb6620764cb8bc3c76d",
+ "application_graph_id": "jag_22697c052656e435655f61c0cb1f6183370d3befc70bacd88d55ce657dcef271",
+ "semantic_graph_id": "jsrg_83f1b7683996f59073c125dd432bd8936d362d8b86a4c8e8a5f50d0973edf25e",
+ "statistics": {
+  "relevant_files": 79,
+  "nested_asar_containers": 0,
+  "text_bytes_read": 6903245,
+  "invalid_utf8_files": 0,
+  "parsed_javascript_files": 79,
+  "visited_ast_nodes": 1942729,
+  "findings": 174,
+  "modules": 0,
+  "parse_failures": 0
+ },
+ "coverage": {
+  "graph": "partial",
+  "semantic": "partial",
+  "semantic_truncated": true,
+  "note": "semantic graph hit REA limits on the ~560 KB framework bundles; §6c findings come from literal diffing + direct reading at cited offsets"
+ },
+ "semantic_node_counts": {
+  "expression": 38060,
+  "call-site": 4318,
+  "property-slot": 3317,
+  "binding": 3280,
+  "parameter": 1576,
+  "return-site": 1231,
+  "function": 1220,
+  "literal": 152,
+  "module": 79,
+  "boundary": 13,
+  "promise": 2,
+  "timer": 1
+ }
+}

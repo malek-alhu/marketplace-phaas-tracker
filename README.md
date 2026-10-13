@@ -177,6 +177,10 @@ A key finding is that **two distinct operators** target these brands — keep th
   (`ad:change-lk-qrcode`) and arbitrary redirects; 8 scam modes (`payout 2.0`, `purchase 1.0`, `rental`, `verify`,
   `refund`, `traffic`, `multiple_verify`, `dialog_push`) and new **LV/LT government-portal rails** (`csdd`, `epaslaugos`).
   See [§6b](docs/kit-code-analysis.md#6b-operator-control-plane--how-the-operator-drives-the-victims-page-h).
+- **The Oct 2026 rebuild records victims' screens** — every "next2" build ships the operators' own Sentry with
+  **session replay and privacy masking switched off** (`maskAllInputs:false`), tunnelled through the kit's own origin
+  (`/0/k/<hex>`): a second channel for typed victim data. Also new: a 3-provider geo-IP fallback and a 23-language
+  "verify your account to release your payment" lure. See [§6c](docs/kit-code-analysis.md#6c-the-next2-rebuild-oct-2026--recovered-chunks-h).
 - **Caught live, mid-research** — the tracker tripped on a fresh domain (`olx.express-paycore24.cyou`) the day it was
   registered, confirming the cluster is **active and rotating today**.
 

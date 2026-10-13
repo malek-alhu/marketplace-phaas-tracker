@@ -74,3 +74,25 @@ rule PhaaS_OperatorA_NextKit_Operator_Control_Plane
     condition:
         filesize < 5MB and any of them
 }
+
+rule PhaaS_OperatorA_Next2_Kit_Build
+{
+    meta:
+        description = "Operator-A 'next2' rebuild (Oct 2026): operator Sentry DSN (unmasked session replay via same-origin tunnel), Russian helpdesk error, multi-language verify-account lure, or the 3-provider geo-IP fallback"
+        author      = "marketplace-phaas-tracker contributors"
+        date        = "2026-10-13"
+        reference   = "https://github.com/malek-alhu/marketplace-phaas-tracker/blob/main/docs/kit-code-analysis.md#6c-the-next2-rebuild-oct-2026--recovered-chunks-h"
+        confidence  = "high"
+        tlp         = "CLEAR"
+
+    strings:
+        $sentry_key = "e7c4fb44333c60d80e8b92cd94112a5a@tunnel" ascii
+        $ru_hd_err  = "Ошибка helpdesk:"
+        $lure_en    = "verify your account to release your payment" ascii
+        $geo1       = "https://api.ipquery.io/" ascii
+        $geo2       = "https://get.geojs.io/v1/ip/geo.json" ascii
+        $geo3       = "https://reallyfreegeoip.org/json/" ascii
+
+    condition:
+        filesize < 5MB and ($sentry_key or $ru_hd_err or $lure_en or all of ($geo*))
+}

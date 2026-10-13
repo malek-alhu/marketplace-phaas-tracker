@@ -1,6 +1,6 @@
 # REA static-analysis evidence
 
-`evidence-summary.json` records the 2026-10-13 run of [REA](https://github.com/morluto/rea)'s static JavaScript analyzer
+`evidence-summary.json` (June/July build) and `evidence-summary-next2.json` (79 recovered Oct "next2" chunks) record the 2026-10-13 runs of [REA](https://github.com/morluto/rea)'s static JavaScript analyzer
 over the recovered kit (the agent skill is vendored at `.claude/skills/reverse-engineer-anything/`). It holds the
 Evidence/graph IDs, coverage, statistics and the 75 network/boundary/event/timer sinks (chunk sha256 + exact source
 range), which is how the operator control plane in [`docs/kit-code-analysis.md` §6b](../../docs/kit-code-analysis.md)

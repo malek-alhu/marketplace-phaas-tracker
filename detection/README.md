@@ -11,6 +11,11 @@ TLP:CLEAR — share freely.
 | [`yara/marketplace_phaas_operator_a.yar`](yara/marketplace_phaas_operator_a.yar) | Decompressed JS from web captures, sandbox/crawler output, urlscan Pro, VirusTotal Livehunt/Retrohunt | The kit's own client chunks (card-exfil WebSocket, `/viewer/` fake-bank template, dev WS fallback, Russian builder strings). |
 | [`../feeds/`](../feeds/) | DNS blocklists, TIPs, SIEM lookups | Every reviewed kit/redirector domain (`domains.txt`, `adblock.txt`), what still resolves (`domains-live.txt`), Operator-B origin IPs, and a STIX 2.1 bundle. Regenerated every 6 h by the tracker. |
 
+## Validation (2026-10-13 — `PhaaS_OperatorA_Next2_Kit_Build`)
+
+- Matches 14 of the 79 recovered "next2" chunks, including all 7 main-bundle builds (2–13 Oct) via the operators'
+  Sentry DSN key; the June rules alone match 7. **0 false positives** on the same 3,054-file corpus.
+
 ## Validation (2026-10-13 — `PhaaS_OperatorA_NextKit_Operator_Control_Plane`)
 
 - Added rule matches the 2 chunks carrying the operator control plane (`170e4bae…`, `18a24e77…`);
