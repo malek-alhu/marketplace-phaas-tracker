@@ -50,3 +50,27 @@ rule PhaaS_OperatorA_NextKit_Helpdesk_Cluster
     condition:
         filesize < 5MB and 2 of them
 }
+
+rule PhaaS_OperatorA_NextKit_Operator_Control_Plane
+{
+    meta:
+        description = "Operator-A kit JS chunk: server-push victim-steering protocol (ad:step / bank QR / permit_* switches) or scam-mode map"
+        author      = "marketplace-phaas-tracker contributors"
+        date        = "2026-10-13"
+        reference   = "https://github.com/malek-alhu/marketplace-phaas-tracker/blob/main/docs/kit-code-analysis.md#6b-operator-control-plane--how-the-operator-drives-the-victims-page-h"
+        confidence  = "high"
+        tlp         = "CLEAR"
+
+    strings:
+        $qr_event   = "ad:change-lk-qrcode" ascii
+        $ws_pay     = "[WS-PAY] failed to get ad" ascii
+        $dbg_permit = "ad.variables.permit_bank" ascii
+        $rl_verify  = "__verify_reload_" ascii
+        $rl_login   = "__login_reload_" ascii
+        $modes      = "mv:\"multiple_verify\",dp:\"dialog_push\"" ascii
+        $rails      = "csdd_verify:\"csdd\",epaslaugos:\"epaslaugos\"" ascii
+        $ru_store   = "useStore должен использоваться внутри StoreProvider"
+
+    condition:
+        filesize < 5MB and any of them
+}

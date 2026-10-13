@@ -11,6 +11,12 @@ TLP:CLEAR — share freely.
 | [`yara/marketplace_phaas_operator_a.yar`](yara/marketplace_phaas_operator_a.yar) | Decompressed JS from web captures, sandbox/crawler output, urlscan Pro, VirusTotal Livehunt/Retrohunt | The kit's own client chunks (card-exfil WebSocket, `/viewer/` fake-bank template, dev WS fallback, Russian builder strings). |
 | [`../feeds/`](../feeds/) | DNS blocklists, TIPs, SIEM lookups | Every reviewed kit/redirector domain (`domains.txt`, `adblock.txt`), what still resolves (`domains-live.txt`), Operator-B origin IPs, and a STIX 2.1 bundle. Regenerated every 6 h by the tracker. |
 
+## Validation (2026-10-13 — `PhaaS_OperatorA_NextKit_Operator_Control_Plane`)
+
+- Added rule matches the 2 chunks carrying the operator control plane (`170e4bae…`, `18a24e77…`);
+  existing rules unchanged. **0 false positives** on 3,054 unrelated JavaScript files (an npm cache incl. a
+  reverse-engineering toolkit). Validated with yara-python 4.5.1.
+
 ## Validation (2026-09-30)
 
 - **YARA** — matches the 6 kit-specific chunks of the 73-chunk recovered bundle (the rest are

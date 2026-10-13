@@ -1,0 +1,1 @@
+Vendored from https://github.com/morluto/rea (.agents/skills/reverse-engineer-anything) at commit 4aa51bf, 2026-10-13. MIT, see LICENSE. Instructions only; the REA CLI is fetched on demand as rea-agents@6.4.0.

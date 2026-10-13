@@ -198,9 +198,20 @@ us_result() {
 # §14 Methodology). Confirmed live: returns HTTP 403 keyless, so this requires
 # URLSCAN_KEY; silent no-op without one (fingerprints.txt still gets the hash
 # either way — only the archived source sample is skipped).
+# Download a stored response body STRAIGHT TO A FILE ($2). Never capture it with
+# $(...): bash command substitution drops 0x00 bytes, which silently corrupted
+# 67 archived gzip bodies before 2026-10-13 (see monitor/kit-body.js).
 us_response() {
-  [ -n "${URLSCAN_KEY:-}" ] || return 0
-  curl -fsS --max-time 30 -A "$UA" -H "API-Key: $URLSCAN_KEY" "https://urlscan.io/responses/$1/" 2>/dev/null
+  [ -n "${URLSCAN_KEY:-}" ] || return 1
+  curl -fsS --max-time 30 -A "$UA" -H "API-Key: $URLSCAN_KEY" -o "$2" "https://urlscan.io/responses/$1/" 2>/dev/null
+}
+# Fetch, verify (sha256 of decoded body == urlscan hash) and archive one kit body
+# into kit-source/raw_bodies + kit-source/decompressed. Returns non-zero if it
+# could not be fetched or does not verify (nothing is written then).
+archive_kit_body() {
+  local h="$1" f="$TMP/body.$1"
+  us_response "$h" "$f" || return 1
+  node "$MON/kit-body.js" archive "$h" "$f" "$ROOT/kit-source/raw_bodies" "$ROOT/kit-source/decompressed" 2>>"$LOG"
 }
 
 # --- denylist: never query/resolve/record anything on this list -------------
@@ -702,13 +713,11 @@ if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
         # a hash in fingerprints.txt is only as useful to a future analyst as
         # the code sample it represents; urlscan's own retention is not forever.
         RAWDIR="$ROOT/kit-source/raw_bodies"
-        if [ -n "${URLSCAN_KEY:-}" ] && [ -d "$RAWDIR" ] && [ ! -s "$RAWDIR/$h.js" ]; then
-          body="$(us_response "$h")"
-          if [ -n "$body" ]; then
-            printf '%s' "$body" > "$RAWDIR/$h.js"
-            sum="$(sha256sum "$RAWDIR/$h.js" | awk '{print $1}')"
-            printf '%s  %s.js\n' "$sum" "$h" >> "$RAWDIR/SHA256SUMS.txt"
-            echo "[$TS] HASH-CHAIN archived source body for $h -> kit-source/raw_bodies/$h.js" >> "$LOG"
+        if [ -d "$RAWDIR" ] && [ ! -s "$RAWDIR/$h.js" ]; then
+          if archive_kit_body "$h"; then
+            echo "[$TS] HASH-CHAIN archived + verified source body for $h -> kit-source/{raw_bodies,decompressed}/" >> "$LOG"
+          else
+            echo "[$TS] HASH-CHAIN could not archive a verified body for $h (will retry via self-heal)" >> "$LOG"
           fi
         fi
       elif [ "${cnt:-0}" -ge 1 ] && [ "${total:-0}" -lt 1000 ]; then
@@ -716,6 +725,22 @@ if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
       fi
       sleep 1
     done
+  done
+fi
+
+# ================= SELF-HEAL archived kit bodies (URLSCAN_KEY required) ======
+# Re-fetch any raw body that does not decode to its own sha256 (the pre-
+# 2026-10-13 NUL-stripping bug, or a truncated download). Bounded per run so a
+# backlog never eats the urlscan quota; urlscan retention is finite, so a body
+# that keeps failing is logged each run until someone looks at it.
+if [ -n "${URLSCAN_KEY:-}" ] && [ -d "$ROOT/kit-source/raw_bodies" ]; then
+  node "$MON/kit-body.js" audit "$ROOT/kit-source/raw_bodies" | head -n "${HEAL_MAX:-25}" | while IFS= read -r h; do
+    if archive_kit_body "$h"; then
+      echo "[$TS] SELF-HEAL re-fetched + verified kit body $h" >> "$LOG"
+    else
+      echo "[$TS] SELF-HEAL kit body $h still unverified (urlscan refetch failed)" >> "$LOG"
+    fi
+    sleep 1
   done
 fi
 

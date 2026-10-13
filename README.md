@@ -172,6 +172,11 @@ A key finding is that **two distinct operators** target these brands — keep th
   panel (`Панель настроек шаблона` = "Template settings panel") and operator fraud scripts
   (`Карта отклонена` = "card declined"). The scam is **versioned** — `Покупка 1.0` / `Выплата 2.0`; the per-victim token
   prefix `2/` = the **"Выплата (payout) 2.0"** scenario.
+- **The operator remote-controls the victim's screen** — the payment socket is two-way: the operator pushes `ad:step`
+  (switch to bank-login / OTP / "wrong code, retry" / spinner screens), `bank:list`, a live **bank QR code**
+  (`ad:change-lk-qrcode`) and arbitrary redirects; 8 scam modes (`payout 2.0`, `purchase 1.0`, `rental`, `verify`,
+  `refund`, `traffic`, `multiple_verify`, `dialog_push`) and new **LV/LT government-portal rails** (`csdd`, `epaslaugos`).
+  See [§6b](docs/kit-code-analysis.md#6b-operator-control-plane--how-the-operator-drives-the-victims-page-h).
 - **Caught live, mid-research** — the tracker tripped on a fresh domain (`olx.express-paycore24.cyou`) the day it was
   registered, confirming the cluster is **active and rotating today**.
 

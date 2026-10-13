@@ -147,5 +147,17 @@ check "no denylisted entry in any feed"                                  '[ -z "
 check "stix2-bundle.json parses and only holds 2.1 objects"              'node -e "const b=JSON.parse(require(\"fs\").readFileSync(process.argv[1],\"utf8\"));if(b.type!==\"bundle\"||b.objects.some(o=>o.type!==\"bundle\"&&o.spec_version!==\"2.1\"))process.exit(1)" "$FT/feeds/stix2-bundle.json"'
 rm -rf "$FT"
 
+echo "== kit-body.js: binary-safe body archiving (bug 2026-10-13: bash \$(...) stripped NUL bytes) =="
+KB="$(mktemp -d)"; mkdir -p "$KB/raw" "$KB/dec"
+printf '(globalThis.TURBOPACK||[]).push([1,e=>{"use strict"}]);\n' > "$KB/plain"
+H="$(sha256sum "$KB/plain" | cut -c1-64)"; gzip -nc "$KB/plain" > "$KB/body.gz"
+tr -d '\000' < "$KB/body.gz" > "$KB/body.stripped"
+check "check.sh never captures a response body via \$(us_response ...)"   '! grep -q "\$(us_response" "$CS"'
+check "a verified gzip body is archived (raw + decompressed + sums)"      'node "$MON/kit-body.js" archive "$H" "$KB/body.gz" "$KB/raw" "$KB/dec" && cmp -s "$KB/dec/$H.js.txt" "$KB/plain" && grep -q "  $H.js\$" "$KB/raw/SHA256SUMS.txt"'
+check "a NUL-stripped body is rejected and nothing is written"            '! node "$MON/kit-body.js" archive "$H" "$KB/body.stripped" "$KB/dec" "$KB/dec" 2>/dev/null && [ ! -e "$KB/dec/$H.js" ]'
+cp "$KB/body.stripped" "$KB/raw/$H.js"
+check "audit flags a corrupted archived body for self-heal"               '[ "$(node "$MON/kit-body.js" audit "$KB/raw")" = "$H" ]'
+rm -rf "$KB"
+
 echo "== $pass passed, $fail failed =="
 [ "$fail" -eq 0 ]

@@ -82,6 +82,43 @@ init({ provider:"websocket", url:`${getWsBaseUrl()}/api/ws/sync` })
 - Chat message frames: `type:"get_messages"`, `type:"helpdesk"`; rendered with markers `hd-message-client` / `hd-message-operator`; product display via `product-price-formatted` / `product-currency`.
 - **Card schemes recognised in code:** visa/mastercard + `discover`, `elo`, `hiper`, `hipercard` (the last three are **Brazilian** card brands → confirms BR targeting / `stripe/br`).
 
+## 6b. Operator control plane — how the operator *drives* the victim's page [H]
+*Added 2026-10-13. Located with REA's static JavaScript analyzer (`.claude/skills/reverse-engineer-anything`, `rea-agents@6.4.0`, run over the 69 intact JS chunks: 0 parse failures, Evidence `ev_5194e593…`, graph `jag_a6e75ef8…`); every item below is a literal from the cited chunk at the cited character offset. Static reading only — no socket was opened.*
+
+§6 covers what flows **victim → operator** (`ad:event`). The same payment socket also carries the reverse direction: **the operator remotely switches which screen the victim sees.** All in the `useSync` hook, chunk `170e4bae9438`.
+
+- **One URL template for the payment socket:** `${getWsBaseUrl()}/api/ws/${wsConnectorType}/sync` (`@16424`) with `{ad_id, service_method}`. Only `wsConnectorType:"stripe"` is set literally in the bundle (4 chunks); the code also branches on `"viewer"` and `"merchant"`, so `/api/ws/viewer/sync` and `/api/ws/merchant/sync` are **probable** sibling endpoints [M].
+- **Handshake:** on connect the client logs `ws connected` and sends `{type:"setup:refresh", data:["ad:info","bank:list","ad:step","ad:change-lk-qrcode"]}` (`@13994`) — subscribing to four server-push events. A server error `"[WS-PAY] failed to get ad for ad is banned"` forces a reload (operator-side ban of a victim link).
+- **Server → victim events:**
+
+| Event | What the operator pushes | Effect in the victim's browser |
+|---|---|---|
+| `ad:info` (`@13799`) | the fake listing + per-country method config | sets allowed / required payment methods (`traffic` mode: `card`,`bank`, **+`blik` if country = PL** `@14424`) |
+| `bank:list` (`@13809`) | list of banks | populates the fake "choose your bank" screen |
+| `ad:step` (`@13821`) | the **next screen**, as a step string | re-renders the page (grammar below) |
+| `ad:change-lk-qrcode` (`@13832`) | `bank_qr_codes` | swaps in a **bank QR code** live on the bank (`lk-*`) screen |
+
+- **Step grammar** (`parseStep`, `@9126`): prefixes `dialog-` (modal), `lk-` (bank / "личный кабинет" screen), `verify-` (OTP / 3-DS), `login-` (credential screen); suffixes `-waiting` (spinner — operator is working), `-invalid` (show "wrong code, try again"), `-qrcode` (QR variant). E.g. `lk-…-waiting` → `lk-…-invalid` is how the operator makes a victim **re-enter** a code that failed at the real bank.
+- **Notable dialogs:** `have_money` (`@14896`) — "do you have this much on the card?", with default amounts **SE 3500 / DK 2500 / otherwise 300** in local currency (`@15197`); `redirect_link` — operator sends the victim to **any URL**, `permanent` or `once` (de-duplicated via `localStorage["redirect_link_temporary"]`, `@15594`).
+- **Operator "permit" switches** on the listing (`ad.variables.*`): `permit_bank` (force a specific bank page or `"select"`), `permit_verify`, `permit_login` (jump to OTP / login screens), `pixels` (tracking pixels). A leftover `console.log("ad.variables.permit_bank", …)` (`@18057`) ships in production. Self-reload guards use `sessionStorage` keys `__verify_reload_<ad>_<x>` / `__login_reload_<ad>_<x>`.
+- **Presence telemetry, precisely:** `{type:"ad:activity", data:{date, fingerprint, ipinfo, user_agent}}` every **2 s**, but only while the tab is visible **and** the victim was active in the last **2 min** (`@16997`); plus `{type:"ping"}` every **3 s** (`@19476`). The fingerprint (`getOrCreateFingerprint`, `@7698`, stored in `localStorage["fingerprint"]`) = UUID + base64 of UA|language|platform|screen W×H×depth|timezone|random.
+- **Russian developer string:** `useStore должен использоваться внутри StoreProvider` ("useStore must be used inside StoreProvider", `@8439`) — adds to §12b: Russian appears in **developer error messages**, not just operator UI.
+
+**Scam-mode map and URL grammar** (chunk `18a24e775994`, `@6500–7950`). The token's first segment is a scam-mode code, extending §12b(c) beyond `2/`:
+
+| Code | Mode | | Code | Mode |
+|---|---|---|---|---|
+| `2` | `2_0` (Выплата / payout 2.0) | | `f` | `refund` |
+| `1` | `1_0` (Покупка / purchase 1.0 [M]) | | `t` | `traffic` |
+| `r` | `rental` | | `mv` | `multiple_verify` |
+| `v` | `verify` | | `dp` | `dialog_push` |
+
+Victim URLs, with `X = base64("<code>/<tag>")` (padding stripped): `/a/X` (lure; also the eBay/Etsy payment link) · `/m/X/<b64 service>` (payment) · `/login/X/<b64 service>` · `/verification/X/<b64 service>` · `/viewer/<b64 type>/<b64 service>/<adtag>` (bank page; **`?q=1` = bank-QR variant**, `GetBankQRCodeUrl`).
+
+**Payment-rail routing** (`checkPaymentSupport`): card/BLIK → `stripe`, or `ebay`/`etsy` for those templates; bank/"lk" step → **`twint` (CH)**, **`interac` (CA)**, otherwise `stripe`, overridden per template by **`western_union`**, **`csdd`** (template `csdd_verify` — Latvia's CSDD road-traffic/vehicle registry) and **`epaslaugos`** (Lithuanian e-services portal). The last two are **new targets** beyond the §10 brand list: a government vehicle-registry / e-gov lure for LV and LT [H literal; brand identity M].
+
+**Coverage gap (see §14):** 67 more chunks archived by the hash-chaining monitor (incl. six ≈173 KB rebuilds of this payment chunk) were corrupted at capture and are not covered above; they are queued for automatic re-fetch.
+
 ## 7. Card capture & the payment module
 - Route: **`/m/<token>/<service_method>`**, where `service_method` = **`stripe/<country>`**.
 - **34 country variants** present in code: `at au be bg br ca ch cz de dk ee es fi fr gb hk hr hu is it lt lv md nl no nz pl pt ro se sg sk us`. → the kit tailors the (fake) Stripe flow per victim country.
@@ -141,6 +178,10 @@ The bundle contains **253 distinct Cyrillic strings** — not just lure text but
 | `wss://<host>/ws/helpdesk` | websocket | operator↔victim chat/control |
 | `wss://<host>/api/ws/stripe/sync` | websocket | **card-data exfil** |
 | `wss://<host>/api/ws/sync` | websocket | state sync |
+| `wss://<host>/api/ws/{viewer,merchant}/sync` | websocket | probable sibling connectors of `stripe/sync` [M] (§6b) |
+| `/login/<b64 mode/tag>/<b64 service>` | page | operator-pushed credential screen (§6b) |
+| `/verification/<b64 mode/tag>/<b64 service>` | page | operator-pushed OTP / 3-DS screen (§6b) |
+| `/viewer/…?q=1` | page | bank-QR-code variant of the bank page (§6b) |
 | `api.ip.sb/geoip` | 3rd-party | cloak/geo check |
 | `lookup.binlist.net`, `data.handyapi.com/bin/` | 3rd-party | BIN→bank |
 | `v2.simpalsid.com/graphql` | 3rd-party | OLX/Simpals auth relay |
@@ -148,6 +189,7 @@ The bundle contains **253 distinct Cyrillic strings** — not just lure text but
 | `cdn.jsdelivr.net` currency-api | 3rd-party | price currency |
 
 ## 14. Evidence & integrity
-- Decompressed source: `kit-source/decompressed/` (+ `SHA256SUMS.txt`); raw bodies: `kit-source/raw_bodies/`.
+- Decompressed source: `kit-source/decompressed/` (+ `SHA256SUMS.txt`); raw bodies: `kit-source/raw_bodies/`. Each file is named by urlscan's content hash = **sha256 of the decoded body**, so every sample is self-verifying (`node monitor/kit-body.js audit kit-source/raw_bodies` lists any that fail).
+- **Integrity incident (found 2026-10-13):** 67 of 139 raw bodies archived by the monitor's hash-chaining were captured with `body="$(…)"`; bash command substitution drops every `0x00` byte, so those gzip bodies are irrecoverably damaged (header `1f8b0800 00000000 0003` → `1f8b0803`; only ≈2.7 % of their text decodes, and back-references after the first lost byte copy the wrong text — none of it is used as evidence). A guided NUL-reinsertion repair verified against the content hash was attempted and did not converge. Fix: bodies now stream to a file and are archived only if they verify (`monitor/kit-body.js`), and each keyed monitor run **re-fetches** failing bodies from urlscan (≤25/run), restoring them while urlscan still retains them.
 - Rendered captures/screenshots: `screenshots/019ec607-….png`, `019ecbd3-….png`.
 - Every endpoint/field/event above is a literal string from the bundle; nothing inferred is presented as code. The **operator console** is the authenticated peer of `/ws/helpdesk`; its admin/login URL is **not** present in the client code (separate, Cloudflare-hidden infra → obtainable via a Cloudflare abuse / legal-disclosure request).

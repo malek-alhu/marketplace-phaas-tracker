@@ -61,7 +61,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           # kit-source/raw_bodies: hash-chaining archives each newly-chained
           # fingerprint's JS body there — must be committed or it's lost with the runner.
-          git add monitor/monitor.log monitor/state monitor/findings.csv monitor/scans.csv monitor/discovered.csv monitor/fingerprints.txt kit-source/raw_bodies feeds || true
+          # kit-source/decompressed: the verified decoded copy written alongside it.
+          git add monitor/monitor.log monitor/state monitor/findings.csv monitor/scans.csv monitor/discovered.csv monitor/fingerprints.txt kit-source/raw_bodies kit-source/decompressed feeds || true
           git commit -m "monitor: $(date -u +%FT%TZ)" || echo "no changes to commit"
           git push || true
 
