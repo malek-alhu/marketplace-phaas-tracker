@@ -226,6 +226,7 @@ inpost.payu-nitro5.eu.cc
 inpost.payu-nitro7.eu.cc
 inpost.poland-paycore.eu.cc
 inpost.poland-payhub.bond
+inpost.poland-payhub.cfd
 inpost.przelew-paycore.biz.id
 inpost.przelew-paycore.cfd
 inpost.przelew-paycore.sbs
@@ -286,6 +287,7 @@ member.citizennewstube.com
 microsoft--cm-2ja.com
 milanuncios.compra-verif.cfd
 milanuncios.confirmado.cc
+milanuncios.verified-compra-es.cyou
 mondawe.ca
 mondawe.net
 moneybirds.top
@@ -517,6 +519,8 @@ vodafoneathomefantasticoffers.com
 waitnjoy.com
 wallapop.compra-verif.cfd
 wallapop.confirmado.cc
+wallapop.verified-compra-es.cyou
+wallapop.verify-compra.shop
 weather-croydon.versec.workers.dev
 weather-test-clicksend.versec.workers.dev
 web.compra-verif.cfd

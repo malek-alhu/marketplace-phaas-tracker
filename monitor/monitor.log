@@ -2357,3 +2357,26 @@
 [2026-10-12T14:02:43Z] SCAN-SAVED poland-payhub.sbs -> https://urlscan.io/result/01a1307a-0d2e-757a-87d7-a045b75981a4/
 [2026-10-12T14:02:43Z] SCAN-SAVED womenhao.com -> https://urlscan.io/result/01a1307a-18f2-7048-bf8d-4ac9683522ca/
 [2026-10-12T14:02:43Z] 13 new tier-1 Operator-A indicator(s) this run
+[2026-10-12T23:59:40Z] candidate cert  payu-nitro7.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-12T23:59:40Z] NEW cert  verification-page.pro  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-12T23:59:40Z] candidate cert  verify-compra.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-12T23:59:40Z] candidate cert  wallapop.verify-compra.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-12T23:59:40Z] candidate cert  www.verify-compra.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-12T23:59:40Z] NEW domain  inpost.poland-payhub.cfd  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-12T23:59:40Z] NEW domain  milanuncios.verified-compra-es.cyou  [urlscan @http://milanuncios.verified-compra-es.cyou/ (apex-context:verified-compra-es.cyou) / 01a1319f-a322-7091-b0ae-21da444839e5] tier=1 op=A
+[2026-10-12T23:59:40Z] NEW domain  wallapop.verified-compra-es.cyou  [urlscan @http://wallapop.verified-compra-es.cyou/ (apex-context:verified-compra-es.cyou) / 01a131b4-943b-7050-bbaf-16c78ad0258c] tier=1 op=A
+[2026-10-12T23:59:40Z] NEW domain  wallapop.verify-compra.shop  [urlscan @185.53.179.136 (apex-context:verify-compra.shop) / AS206834] tier=1 op=A
+[2026-10-12T23:59:40Z] candidate ip  104.21.76.105  [dns (confirm-9580.shop)] tier=2 op=A
+[2026-10-12T23:59:40Z] candidate ip  172.67.193.15  [dns (confirm-9580.shop)] tier=2 op=A
+[2026-10-12T23:59:40Z] candidate ip  2606:4700:3030::ac43:c10f  [dns (confirm-9580.shop)] tier=2 op=A
+[2026-10-12T23:59:40Z] candidate ip  2606:4700:3033::6815:4c69  [dns (confirm-9580.shop)] tier=2 op=A
+[2026-10-12T23:59:40Z] HEALTH certspotter=10/74 crtsh=1/4 urlscan=269/269 dns-google=346/346 dns-cf=346/346
+[2026-10-12T23:59:40Z] AUTO-PROMOTE apex poland-payhub.cfd (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-12T23:59:40Z] SCAN-SAVED inpost.poland-payhub.cfd -> https://urlscan.io/result/01a1329a-4098-769c-a2da-8ca5d275f74e/
+[2026-10-12T23:59:40Z] SCAN-SAVED milanuncios.verified-compra-es.cyou -> https://urlscan.io/result/01a1329a-4cc4-708b-b529-ece0cfa61f71/
+[2026-10-12T23:59:40Z] SCAN-SAVED poland-payhub.buzz -> https://urlscan.io/result/01a1329a-586f-70b8-88f7-0837777a4882/
+[2026-10-12T23:59:40Z] SCAN-SAVED poland-payhub.cyou -> https://urlscan.io/result/01a1329a-6273-761e-a10d-84f8f18dbc6b/
+[2026-10-12T23:59:40Z] SCAN-SAVED wallapop.verified-compra-es.cyou -> https://urlscan.io/result/01a1329a-6cc5-702e-ab7c-0f5d07b79176/
+[2026-10-12T23:59:40Z] SCAN-SAVED wallapop.verify-compra.shop -> https://urlscan.io/result/01a1329a-76ba-7183-8a32-55b9bcccade8/
+[2026-10-12T23:59:40Z] SCAN-SAVED www.verify-compra.shop -> https://urlscan.io/result/01a1329a-8275-768d-aa67-e7376c061afe/
+[2026-10-12T23:59:40Z] 5 new tier-1 Operator-A indicator(s) this run
