@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-13T06:31:51Z",
-  "last_run_at": "2026-10-13T06:14:47Z",
-  "last_run_summary": "[2026-10-13T06:14:47Z] 6 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-13T06:14:47Z] HEALTH certspotter=10/159 crtsh=0/3 urlscan=270/270 dns-google=660/660 dns-cf=660/660",
+  "generated_at": "2026-10-13T18:55:55Z",
+  "last_run_at": "2026-10-13T18:42:49Z",
+  "last_run_summary": "[2026-10-13T18:42:49Z] 13 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-13T18:42:49Z] HEALTH certspotter=10/78 crtsh=1/5 urlscan=270/270 dns-google=360/360 dns-cf=360/360",
   "tracked_hosts": {
-    "total": 359,
+    "total": 369,
     "by_status": {
       "dead": 199,
-      "active": 160
+      "active": 170
     },
     "by_operator_tier": {
-      "A:tier1": 359
+      "A:tier1": 369
     }
   },
   "fingerprints": [
@@ -601,90 +601,89 @@
       "added": "2026-10-11",
       "last_confirmed_hit": "2026-10-13",
       "status": "chained"
+    },
+    {
+      "hash": "c034145c6f2d014bf14b3f102871f662acab409e544498b662fd54d31274c248",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "e3417fc007cde5cea9c8fa5d748e23bd8aebd410ff8b7721efb22db4d8e36cd6",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "c034145c6f2d014bf14b3f102871f662acab409e544498b662fd54d31274c248",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "e3417fc007cde5cea9c8fa5d748e23bd8aebd410ff8b7721efb22db4d8e36cd6",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "15d0d48e4e37ced99563ac7dd5a123dbf723af2a4e842839bef477e1e3ed3472",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "336938e1958d80b807347b35b2a24982425c37b78fe52a4bc42dfd2bfa5a6a54",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "487dd049603c18dc8761f0cbe7455ab4c6139a4fe065f33d6deae52255843cce",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "c19eece010e7ec330af653f0c0508b6fe483fb1ab1ec518a429669ee2f7899be",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "cc942d0e3184346a95c694da696326b502b86539f63929217666d81b8ff71415",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "d85a2b02207082494405d1450fdb49fdc142be9c1a761af103f218b3b6321d2f",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
+    },
+    {
+      "hash": "f25858d2bcc99292ff4a26b17cb87b11e9b41eb6a447ed26e307a05afb8f9374",
+      "label": "chained",
+      "added": "2026-10-13",
+      "last_confirmed_hit": "2026-10-13",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 486
+    "A": 499
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "payu-nitro5.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "payu-nitro6.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "payu-nitro7.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poczta-polska.poland-payhub.cyou",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poland-paycore.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poland-paycore.shop",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poland-payhub.bond",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poland-payhub.qpon",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poland-payhub.sbs",
-      "operator": "A",
-      "first_seen": "2026-10-12T14:02:43Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "verification-page.pro",
-      "operator": "A",
-      "first_seen": "2026-10-12T23:59:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "inpost.poland-payhub.cfd",
-      "operator": "A",
-      "first_seen": "2026-10-12T23:59:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "milanuncios.verified-compra-es.cyou",
-      "operator": "A",
-      "first_seen": "2026-10-12T23:59:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wallapop.verified-compra-es.cyou",
-      "operator": "A",
-      "first_seen": "2026-10-12T23:59:40Z"
-    },
     {
       "type": "domain",
       "indicator": "wallapop.verify-compra.shop",
@@ -726,9 +725,87 @@
       "indicator": "psd18.com",
       "operator": "A",
       "first_seen": "2026-10-13T06:14:47Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "confirm-9580.shop",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "action-paycore-pl1.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "compra-verification.help",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "emiratesnbd.verify-compra.shop",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "inpost.poland-payhub2.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "inpost.poland-payhub3.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "inpost.poland-payhub4.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.poland-payhub3.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poczta-polska.poland-payhub2.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub.cfd",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub2.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poland-payhub3.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "psd18.com",
+      "operator": "A",
+      "first_seen": "2026-10-13T18:42:49Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 219,
+  "manual_review_candidates_pending": 220,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

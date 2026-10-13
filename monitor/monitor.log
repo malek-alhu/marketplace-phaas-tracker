@@ -2399,3 +2399,68 @@
 [2026-10-13T06:14:47Z] NEW revival  prelo.psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
 [2026-10-13T06:14:47Z] NEW revival  psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
 [2026-10-13T06:14:47Z] 6 new tier-1 Operator-A indicator(s) this run
+[2026-10-13T18:42:49Z] candidate cert  bekreftls.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-13T18:42:49Z] NEW cert  confirm-9580.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-13T18:42:49Z] candidate cert  poland-paycore.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-13T18:42:49Z] NEW domain  action-paycore-pl1.eu.cc  [urlscan @188.114.96.3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  compra-verification.help  [urlscan @104.21.75.70 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  emiratesnbd.verify-compra.shop  [urlscan @http://emiratesnbd.verify-compra.shop/ (apex-context:verify-compra.shop) / 01a1364b-4055-7104-835c-4e0c15fde104] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  inpost.poland-payhub2.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  inpost.poland-payhub3.eu.cc  [urlscan @2a06:98c1:3121::3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  inpost.poland-payhub4.eu.cc  [urlscan @188.114.97.3 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  olx.poland-payhub3.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  poczta-polska.poland-payhub2.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  poland-payhub.cfd  [urlscan @193.111.117.211 (apex-context:poland-payhub.cfd) / AS207043] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  poland-payhub2.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  poland-payhub3.eu.cc  [urlscan @193.111.117.211 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-13T18:42:49Z] NEW domain  psd18.com  [urlscan @104.21.92.135 (apex-context:psd18.com) / AS13335] tier=1 op=A
+[2026-10-13T18:42:49Z] candidate ip  104.21.75.70  [dns (compra-verification.help)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  104.21.84.243  [dns (action-paycore-pl1.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  104.21.93.180  [dns (inpost.poland-payhub4.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  172.67.199.105  [dns (action-paycore-pl1.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  172.67.213.178  [dns (inpost.poland-payhub4.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  172.67.216.150  [dns (compra-verification.help)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  184.156.219.154  [dns (monrelaisplusin.icu)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  2606:4700:3030::ac43:d5b2  [dns (inpost.poland-payhub4.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  2606:4700:3031::6815:5db4  [dns (inpost.poland-payhub4.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  2606:4700:3032::6815:54f3  [dns (action-paycore-pl1.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  2606:4700:3033::ac43:d896  [dns (compra-verification.help)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  2606:4700:3035::6815:4b46  [dns (compra-verification.help)] tier=2 op=A
+[2026-10-13T18:42:49Z] candidate ip  2606:4700:3035::ac43:c769  [dns (action-paycore-pl1.eu.cc)] tier=2 op=A
+[2026-10-13T18:42:49Z] HEALTH certspotter=10/78 crtsh=1/5 urlscan=270/270 dns-google=360/360 dns-cf=360/360
+[2026-10-13T18:42:49Z] AUTO-PROMOTE apex action-paycore-pl1.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-13T18:42:49Z] AUTO-PROMOTE apex compra-verification.help (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-13T18:42:49Z] AUTO-PROMOTE apex poland-payhub2.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-13T18:42:49Z] AUTO-PROMOTE apex poland-payhub3.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-13T18:42:49Z] AUTO-PROMOTE apex poland-payhub4.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint c034145c6f2d014bf14b3f102871f662acab409e544498b662fd54d31274c248 co-occurs with 5 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for c034145c6f2d014bf14b3f102871f662acab409e544498b662fd54d31274c248 -> kit-source/raw_bodies/c034145c6f2d014bf14b3f102871f662acab409e544498b662fd54d31274c248.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint e3417fc007cde5cea9c8fa5d748e23bd8aebd410ff8b7721efb22db4d8e36cd6 co-occurs with 5 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for e3417fc007cde5cea9c8fa5d748e23bd8aebd410ff8b7721efb22db4d8e36cd6 -> kit-source/raw_bodies/e3417fc007cde5cea9c8fa5d748e23bd8aebd410ff8b7721efb22db4d8e36cd6.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint c034145c6f2d014bf14b3f102871f662acab409e544498b662fd54d31274c248 co-occurs with 5 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint e3417fc007cde5cea9c8fa5d748e23bd8aebd410ff8b7721efb22db4d8e36cd6 co-occurs with 5 known kit domains (3 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint 15d0d48e4e37ced99563ac7dd5a123dbf723af2a4e842839bef477e1e3ed3472 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for 15d0d48e4e37ced99563ac7dd5a123dbf723af2a4e842839bef477e1e3ed3472 -> kit-source/raw_bodies/15d0d48e4e37ced99563ac7dd5a123dbf723af2a4e842839bef477e1e3ed3472.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint 336938e1958d80b807347b35b2a24982425c37b78fe52a4bc42dfd2bfa5a6a54 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for 336938e1958d80b807347b35b2a24982425c37b78fe52a4bc42dfd2bfa5a6a54 -> kit-source/raw_bodies/336938e1958d80b807347b35b2a24982425c37b78fe52a4bc42dfd2bfa5a6a54.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint 487dd049603c18dc8761f0cbe7455ab4c6139a4fe065f33d6deae52255843cce co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for 487dd049603c18dc8761f0cbe7455ab4c6139a4fe065f33d6deae52255843cce -> kit-source/raw_bodies/487dd049603c18dc8761f0cbe7455ab4c6139a4fe065f33d6deae52255843cce.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint c19eece010e7ec330af653f0c0508b6fe483fb1ab1ec518a429669ee2f7899be co-occurs with 22 known kit domains (23 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for c19eece010e7ec330af653f0c0508b6fe483fb1ab1ec518a429669ee2f7899be -> kit-source/raw_bodies/c19eece010e7ec330af653f0c0508b6fe483fb1ab1ec518a429669ee2f7899be.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint cc942d0e3184346a95c694da696326b502b86539f63929217666d81b8ff71415 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for cc942d0e3184346a95c694da696326b502b86539f63929217666d81b8ff71415 -> kit-source/raw_bodies/cc942d0e3184346a95c694da696326b502b86539f63929217666d81b8ff71415.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint d85a2b02207082494405d1450fdb49fdc142be9c1a761af103f218b3b6321d2f co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for d85a2b02207082494405d1450fdb49fdc142be9c1a761af103f218b3b6321d2f -> kit-source/raw_bodies/d85a2b02207082494405d1450fdb49fdc142be9c1a761af103f218b3b6321d2f.js
+[2026-10-13T18:42:49Z] HASH-CHAIN new fingerprint f25858d2bcc99292ff4a26b17cb87b11e9b41eb6a447ed26e307a05afb8f9374 co-occurs with 2 known kit domains (1 scans) -> added to fingerprints.txt
+[2026-10-13T18:42:49Z] HASH-CHAIN archived source body for f25858d2bcc99292ff4a26b17cb87b11e9b41eb6a447ed26e307a05afb8f9374 -> kit-source/raw_bodies/f25858d2bcc99292ff4a26b17cb87b11e9b41eb6a447ed26e307a05afb8f9374.js
+[2026-10-13T18:42:49Z] SCAN-SAVED action-paycore-pl1.eu.cc -> https://urlscan.io/result/01a1369e-951f-748b-9c7a-61a35ccedf07/
+[2026-10-13T18:42:49Z] SCAN-SAVED compra-verification.help -> https://urlscan.io/result/01a1369e-a03e-70b9-93b0-c78ae5cf6f36/
+[2026-10-13T18:42:49Z] SCAN-SAVED emiratesnbd.verify-compra.shop -> https://urlscan.io/result/01a1369e-a9d5-757e-bd6e-f38d6cabc494/
+[2026-10-13T18:42:49Z] SCAN-SAVED inpost.poland-payhub2.eu.cc -> https://urlscan.io/result/01a1369e-b6bf-708a-979e-2f02c7bf6eeb/
+[2026-10-13T18:42:49Z] SCAN-SAVED inpost.poland-payhub3.eu.cc -> https://urlscan.io/result/01a1369e-c3c1-7094-aa46-b633775616ed/
+[2026-10-13T18:42:49Z] SCAN-SAVED inpost.poland-payhub4.eu.cc -> https://urlscan.io/result/01a1369e-d306-7033-b654-58d02c5a804a/
+[2026-10-13T18:42:49Z] SCAN-SAVED olx.poland-payhub3.eu.cc -> https://urlscan.io/result/01a1369e-e073-73ee-a6b9-7d7249e24907/
+[2026-10-13T18:42:49Z] SCAN-SAVED poczta-polska.poland-payhub2.eu.cc -> https://urlscan.io/result/01a1369e-ec62-70c8-b98f-becce3277e41/
+[2026-10-13T18:42:49Z] SCAN-SAVED poland-payhub2.eu.cc -> https://urlscan.io/result/01a1369e-f74c-723d-976f-13dcf2567ad0/
+[2026-10-13T18:42:49Z] SCAN-SAVED poland-payhub3.eu.cc -> https://urlscan.io/result/01a1369f-04b8-7208-83f7-80e77d6ce2d8/
+[2026-10-13T18:42:49Z] 13 new tier-1 Operator-A indicator(s) this run

@@ -827,3 +827,31 @@ ip,2606:4700:3037::6815:5c87,dns (prelo.psd18.com),Cloudflare-edge,2026-10-13T06
 revival,vinted.psd18.com,dead/retired host reappeared ON CLOUDFLARE — possible operator reuse,104.21.92.135,2026-10-13T06:14:47Z,1,A,,
 revival,prelo.psd18.com,dead/retired host reappeared ON CLOUDFLARE — possible operator reuse,104.21.92.135,2026-10-13T06:14:47Z,1,A,,
 revival,psd18.com,dead/retired host reappeared ON CLOUDFLARE — possible operator reuse,104.21.92.135,2026-10-13T06:14:47Z,1,A,,
+cert,bekreftls.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-13T18:42:49Z,2,A,,
+cert,confirm-9580.shop,ct-log (apex subdomain),,2026-10-13T18:42:49Z,1,A,,
+cert,poland-paycore.eu.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-13T18:42:49Z,2,A,,
+domain,action-paycore-pl1.eu.cc,urlscan @188.114.96.3 (hash:chained),AS13335,2026-10-13T18:42:49Z,1,A,https://action-paycore-pl1.eu.cc/,01a135d5-1a9d-71f2-bbe1-de5ef640b051
+domain,compra-verification.help,urlscan @104.21.75.70 (hash:chained),AS13335,2026-10-13T18:42:49Z,1,A,https://compra-verification.help/,01a134b5-7d72-7339-8862-e190bbf40bdf
+domain,emiratesnbd.verify-compra.shop,urlscan @http://emiratesnbd.verify-compra.shop/ (apex-context:verify-compra.shop),01a1364b-4055-7104-835c-4e0c15fde104,2026-10-13T18:42:49Z,1,A,,
+domain,inpost.poland-payhub2.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-13T18:42:49Z,1,A,https://inpost.poland-payhub2.eu.cc/,01a13551-3774-727c-a759-de51d9bca8bb
+domain,inpost.poland-payhub3.eu.cc,urlscan @2a06:98c1:3121::3 (hash:chained),AS13335,2026-10-13T18:42:49Z,1,A,https://inpost.poland-payhub3.eu.cc/,01a1359e-82f1-73b3-baee-aa6fe17027c3
+domain,inpost.poland-payhub4.eu.cc,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-13T18:42:49Z,1,A,https://inpost.poland-payhub4.eu.cc/,01a1365f-42cc-7743-8487-f4b74bd6a566
+domain,olx.poland-payhub3.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-13T18:42:49Z,1,A,https://olx.poland-payhub3.eu.cc/,01a135f0-8508-707f-b170-0b072b82ad87
+domain,poczta-polska.poland-payhub2.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-13T18:42:49Z,1,A,https://poczta-polska.poland-payhub2.eu.cc/,01a13559-b1e7-7798-af33-288e94d1c14e
+domain,poland-payhub.cfd,urlscan @193.111.117.211 (apex-context:poland-payhub.cfd),AS207043,2026-10-13T18:42:49Z,1,A,https://poland-payhub.cfd/,01a133f5-ac6e-7358-b6ed-545a0455a1c0
+domain,poland-payhub2.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-13T18:42:49Z,1,A,https://poland-payhub2.eu.cc/,01a13559-c839-74f4-9352-581dbad3b43d
+domain,poland-payhub3.eu.cc,urlscan @193.111.117.211 (hash:chained),AS207043,2026-10-13T18:42:49Z,1,A,https://poland-payhub3.eu.cc/,01a135fe-42c6-71a2-a029-22f748153db4
+domain,psd18.com,urlscan @104.21.92.135 (apex-context:psd18.com),AS13335,2026-10-13T18:42:49Z,1,A,https://psd18.com/,01a133f5-c309-708d-8e52-270ff1737a7d
+ip,104.21.75.70,dns (compra-verification.help),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,104.21.84.243,dns (action-paycore-pl1.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,104.21.93.180,dns (inpost.poland-payhub4.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,172.67.199.105,dns (action-paycore-pl1.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,172.67.213.178,dns (inpost.poland-payhub4.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,172.67.216.150,dns (compra-verification.help),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,184.156.219.154,dns (monrelaisplusin.icu),NON-CF — host left Cloudflare (manual review),2026-10-13T18:42:49Z,2,A,,
+ip,2606:4700:3030::ac43:d5b2,dns (inpost.poland-payhub4.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,2606:4700:3031::6815:5db4,dns (inpost.poland-payhub4.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,2606:4700:3032::6815:54f3,dns (action-paycore-pl1.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,2606:4700:3033::ac43:d896,dns (compra-verification.help),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,2606:4700:3035::6815:4b46,dns (compra-verification.help),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+ip,2606:4700:3035::ac43:c769,dns (action-paycore-pl1.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
