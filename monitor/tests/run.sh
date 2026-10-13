@@ -159,5 +159,32 @@ cp "$KB/body.stripped" "$KB/raw/$H.js"
 check "audit flags a corrupted archived body for self-heal"               '[ "$(node "$MON/kit-body.js" audit "$KB/raw")" = "$H" ]'
 rm -rf "$KB"
 
+echo "== heal-bodies.sh: heal / missing / snapshot phases (offline, stubbed curl) =="
+HR="$(mktemp -d)"; mkdir -p "$HR/monitor" "$HR/kit-source/raw_bodies" "$HR/kit-source/decompressed" "$HR/srv" "$HR/bin"
+cp "$MON/heal-bodies.sh" "$MON/kit-body.js" "$MON/parse.js" "$HR/monitor/"
+mk() { printf '%s' "$1" > "$HR/p.$2"; local h; h="$(sha256sum "$HR/p.$2" | cut -c1-64)"; gzip -nc "$HR/p.$2" > "$HR/srv/$h"; echo "$h"; }
+H1="$(mk 'heal-me();' 1)"; H2="$(mk 'missing();' 2)"; H3="$(mk 'snapshot();' 3)"; H4="$(mk 'gone();' 4)"
+tr -d '\000' < "$HR/srv/$H1" > "$HR/kit-source/raw_bodies/$H1.js"          # corrupted archive
+rm "$HR/srv/$H4"                                                             # urlscan no longer retains it
+printf '%s\tchained\n%s\tchained\n' "$H2" "$H4" > "$HR/monitor/fingerprints.txt"
+printf 'type,indicator,source,asn,first_seen,tier,operator,matched_url,scan_uuid\ndomain,k.test,urlscan @1.2.3.4 (hash:chained),AS1,2026-10-13T00:00:00Z,1,A,https://k.test/,11111111-2222-3333-4444-555555555555\n' > "$HR/monitor/findings.csv"
+printf '{"data":{"requests":[{"request":{"request":{"url":"https://k.test/_next/static/chunks/x.js"}},"response":{"hash":"%s"}}]}}' "$H3" > "$HR/srv/result"
+cat > "$HR/bin/curl" <<STUB
+#!/usr/bin/env bash
+out=""; url=""; while [ \$# -gt 0 ]; do case "\$1" in -o) out="\$2"; shift;; https://*) url="\$1";; esac; shift; done
+case "\$url" in */api/v1/result/*) src="$HR/srv/result";; */responses/*) h="\${url%/}"; src="$HR/srv/\${h##*/}";; esac
+[ -f "\$src" ] || exit 22; cp "\$src" "\$out"
+STUB
+chmod +x "$HR/bin/curl"
+hout="$(PATH="$HR/bin:$PATH" URLSCAN_KEY=test HEAL_SNAPSHOT=1 HEAL_LOG="$HR/log" bash "$HR/monitor/heal-bodies.sh")"
+check "heal: corrupted body re-fetched and now verifies"                  '[ -z "$(node "$MON/kit-body.js" audit "$HR/kit-source/raw_bodies" | grep "$H1")" ] && cmp -s "$HR/kit-source/decompressed/$H1.js.txt" "$HR/p.1"'
+check "missing: fingerprinted chunk without a body is archived"           'cmp -s "$HR/kit-source/decompressed/$H2.js.txt" "$HR/p.2"'
+check "snapshot: chunks of the newest kit scan are archived"              'cmp -s "$HR/kit-source/decompressed/$H3.js.txt" "$HR/p.3"'
+check "unretained body is logged, nothing written"                        '[ ! -e "$HR/kit-source/raw_bodies/$H4.js" ] && grep -q "$H4 not recovered" "$HR/log"'
+check "summary counts (4 queued, 3 recovered, 1 failed)"                  'printf "%s" "$hout" | grep -q "queued=4 attempted=4 recovered=3 failed=1"'
+check "HEAL_MAX bounds the run"                                           'rm -f "$HR/kit-source/raw_bodies/$H2.js"; PATH="$HR/bin:$PATH" URLSCAN_KEY=test HEAL_MAX=0 HEAL_LOG="$HR/log" bash "$HR/monitor/heal-bodies.sh" | grep -q "attempted=0"'
+check "check.sh delegates self-heal to heal-bodies.sh"                    'grep -q "heal-bodies.sh" "$CS"'
+rm -rf "$HR"
+
 echo "== $pass passed, $fail failed =="
 [ "$fail" -eq 0 ]

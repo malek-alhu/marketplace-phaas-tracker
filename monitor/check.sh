@@ -729,19 +729,11 @@ if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
 fi
 
 # ================= SELF-HEAL archived kit bodies (URLSCAN_KEY required) ======
-# Re-fetch any raw body that does not decode to its own sha256 (the pre-
-# 2026-10-13 NUL-stripping bug, or a truncated download). Bounded per run so a
-# backlog never eats the urlscan quota; urlscan retention is finite, so a body
-# that keeps failing is logged each run until someone looks at it.
-if [ -n "${URLSCAN_KEY:-}" ] && [ -d "$ROOT/kit-source/raw_bodies" ]; then
-  node "$MON/kit-body.js" audit "$ROOT/kit-source/raw_bodies" | head -n "${HEAL_MAX:-25}" | while IFS= read -r h; do
-    if archive_kit_body "$h"; then
-      echo "[$TS] SELF-HEAL re-fetched + verified kit body $h" >> "$LOG"
-    else
-      echo "[$TS] SELF-HEAL kit body $h still unverified (urlscan refetch failed)" >> "$LOG"
-    fi
-    sleep 1
-  done
+# Re-fetch raw bodies that fail verification (the pre-2026-10-13 NUL-stripping
+# bug) and fingerprinted chunks that never got a body. Bounded per run (HEAL_MAX,
+# default 25) so a backlog never eats the urlscan quota. See monitor/heal-bodies.sh.
+if [ -n "${URLSCAN_KEY:-}" ]; then
+  HEAL_LOG="$LOG" HEAL_SNAPSHOT=0 bash "$MON/heal-bodies.sh" >/dev/null
 fi
 
 # ====================== SAVE: public urlscans of live scam pages =============
