@@ -12,6 +12,9 @@
 #   3. snapshot  — (HEAL_SNAPSHOT=N, default 0) archive every /_next/static/chunks
 #                  JS body of the N newest confirmed kit scans in findings.csv,
 #                  so a complete current build is available for version diffing.
+#                  HEAL_SNAPSHOT_URL=<ERE> restricts it to scans whose matched_url
+#                  matches (e.g. '/(m|viewer|login|verification)/' = payment/bank
+#                  pages, whose chunks a landing-page scan never loads).
 # Only urlscan.io is contacted (stored scan data); kit infrastructure is never
 # touched. HEAL_MAX caps fetches per run (default 25) to respect the API quota.
 # =============================================================================
@@ -40,7 +43,7 @@ grep -v '^#' "$MON/fingerprints.txt" | cut -f1 | grep -E '^[0-9a-f]{64}$' | whil
   [ -s "$RAW/$h.js" ] || printf '%s\tmissing\n' "$h"
 done >> "$Q"
 if [ "$SNAP" -gt 0 ] 2>/dev/null; then
-  awk -F, 'NR>1 && $3 ~ /hash:/ && $9 ~ /^[0-9a-f-]{36}$/ {print $5 "\t" $9}' "$MON/findings.csv" \
+  awk -F, -v re="${HEAL_SNAPSHOT_URL:-}" 'NR>1 && $9 ~ /^[0-9a-f-]{36}$/ && (re == "" ? $3 ~ /hash:/ : $8 ~ re) {print $5 "\t" $9}' "$MON/findings.csv" \
     | sort -r | cut -f2 | awk '!s[$0]++' | head -n "$SNAP" > "$TMP/uuids"
   while IFS= read -r uuid; do
     if us_get "https://urlscan.io/api/v1/result/$uuid/" "$TMP/result.json"; then

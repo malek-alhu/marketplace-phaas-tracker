@@ -183,6 +183,9 @@ check "snapshot: chunks of the newest kit scan are archived"              'cmp -
 check "unretained body is logged, nothing written"                        '[ ! -e "$HR/kit-source/raw_bodies/$H4.js" ] && grep -q "$H4 not recovered" "$HR/log"'
 check "summary counts (4 queued, 3 recovered, 1 failed)"                  'printf "%s" "$hout" | grep -q "queued=4 attempted=4 recovered=3 failed=1"'
 check "HEAL_MAX bounds the run"                                           'rm -f "$HR/kit-source/raw_bodies/$H2.js"; PATH="$HR/bin:$PATH" URLSCAN_KEY=test HEAL_MAX=0 HEAL_LOG="$HR/log" bash "$HR/monitor/heal-bodies.sh" | grep -q "attempted=0"'
+rm -f "$HR/kit-source/raw_bodies/$H3.js"
+check "HEAL_SNAPSHOT_URL skips scans whose URL does not match"            'PATH="$HR/bin:$PATH" URLSCAN_KEY=test HEAL_SNAPSHOT=1 HEAL_SNAPSHOT_URL="/(m|viewer)/" HEAL_LOG="$HR/log" bash "$HR/monitor/heal-bodies.sh" >/dev/null; [ ! -e "$HR/kit-source/raw_bodies/$H3.js" ]'
+check "HEAL_SNAPSHOT_URL selects scans whose URL matches"                 'PATH="$HR/bin:$PATH" URLSCAN_KEY=test HEAL_SNAPSHOT=1 HEAL_SNAPSHOT_URL="k\\.test/$" HEAL_LOG="$HR/log" bash "$HR/monitor/heal-bodies.sh" >/dev/null; [ -s "$HR/kit-source/raw_bodies/$H3.js" ]'
 check "check.sh delegates self-heal to heal-bodies.sh"                    'grep -q "heal-bodies.sh" "$CS"'
 rm -rf "$HR"
 

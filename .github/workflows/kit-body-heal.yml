@@ -18,7 +18,10 @@ on:
         default: '150'
       snapshot:
         description: 'Newest kit scans to snapshot'
-        default: '2'
+        default: '5'
+      snapshot_url:
+        description: 'Only snapshot scans whose URL matches this ERE (empty = newest hash-confirmed scans)'
+        default: '/(m|viewer|login|verification)/'
   push:
     branches: ['claude/**']
     paths:
@@ -49,7 +52,8 @@ jobs:
         env:
           URLSCAN_KEY: ${{ secrets.URLSCAN_KEY }}
           HEAL_MAX: ${{ github.event.inputs.max || '150' }}
-          HEAL_SNAPSHOT: ${{ github.event.inputs.snapshot || '2' }}
+          HEAL_SNAPSHOT: ${{ github.event.inputs.snapshot || '5' }}
+          HEAL_SNAPSHOT_URL: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.snapshot_url || '/(m|viewer|login|verification)/' }}
           HEAL_LOG: kit-source/heal.log
         run: |
           [ -n "$URLSCAN_KEY" ] || { echo "::error::URLSCAN_KEY secret is not set"; exit 1; }
