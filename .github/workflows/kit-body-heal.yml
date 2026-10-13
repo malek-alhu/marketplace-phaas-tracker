@@ -1,0 +1,69 @@
+name: kit-body-heal
+
+# One-shot / on-demand recovery of kit JS samples from urlscan's response store
+# (monitor/heal-bodies.sh): re-fetch NUL-stripped bodies, fetch fingerprinted
+# chunks that never got a body, and snapshot the newest confirmed kit build.
+# Uses URLSCAN_KEY only inside this job (never printed); commits only bodies
+# whose decoded sha256 matches their urlscan content hash. Does not run the
+# tracker, query kit infrastructure, or open Issues.
+#
+# Triggers: manual "Run workflow", or a push to a claude/** branch that changes
+# this file or the heal script (so a fix branch can recover samples before merge).
+
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Max bodies to fetch'
+        default: '150'
+      snapshot:
+        description: 'Newest kit scans to snapshot'
+        default: '5'
+      snapshot_url:
+        description: 'Only snapshot scans whose URL matches this ERE (empty = newest hash-confirmed scans)'
+        default: '/(m|viewer|login|verification)/'
+  push:
+    branches: ['claude/**']
+    paths:
+      - '.github/workflows/kit-body-heal.yml'
+      - 'monitor/heal-bodies.sh'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kit-body-heal-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  heal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Regression tests (offline)
+        run: bash monitor/tests/run.sh
+
+      - name: Recover + verify kit bodies
+        env:
+          URLSCAN_KEY: ${{ secrets.URLSCAN_KEY }}
+          HEAL_MAX: ${{ github.event.inputs.max || '150' }}
+          HEAL_SNAPSHOT: ${{ github.event.inputs.snapshot || '5' }}
+          HEAL_SNAPSHOT_URL: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.snapshot_url || '/(m|viewer|login|verification)/' }}
+          HEAL_LOG: kit-source/heal.log
+        run: |
+          [ -n "$URLSCAN_KEY" ] || { echo "::error::URLSCAN_KEY secret is not set"; exit 1; }
+          bash monitor/heal-bodies.sh | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "Still failing verification: $(node monitor/kit-body.js audit kit-source/raw_bodies | wc -l)" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit verified bodies
+        run: |
+          git config user.name  "kit-body-heal"
+          git config user.email "actions@users.noreply.github.com"
+          git add kit-source/raw_bodies kit-source/decompressed kit-source/heal.log
+          git commit -m "kit-body-heal: $(date -u +%FT%TZ)" || echo "nothing recovered"
+          git push || true
