@@ -57,9 +57,14 @@ DoH lookups, and `node monitor/parse.js` to apply the repo's own filters:
   - a per-victim URL `/a/<12-24 char token>` or `?us=gm|dlm|sml|ym`, served from
     **AS13335 (Cloudflare)**. `node monitor/parse.js urlscan-kit 30 url`
     applies exactly this filter to a saved search response.
-  - Operator A is always behind Cloudflare. A non-Cloudflare IP on an
-    Operator-A host means the domain was dropped or parked, not that a new
-    origin was found.
+  - Operator A is normally behind Cloudflare. Since 2026-10-14 it also serves
+    the kit directly from its curated dedicated origins (watchlist.txt
+    `origin 1 A`: Dedik Services AS207043 — 193.111.117.211, 91.92.34.221,
+    151.243.18.165); a host on one of those is LIVE kit. Any other
+    non-Cloudflare IP on an Operator-A host means the domain was dropped or
+    parked (e.g. 185.53.179.136, 8.8.8.8, 224.0.33.211), not that a new
+    origin was found — unless the page itself still serves the kit, in which
+    case suggest the IP as a new `origin 1 A` entry.
 - **Operator B.** The indicator is a new domain on a watched AS210558 origin.
   Check that it is Subito-branded (`*-subito.*`, "Login area riservata") and
   not an unrelated tenant.
@@ -70,7 +75,13 @@ DoH lookups, and `node monitor/parse.js` to apply the repo's own filters:
   correos = ES, ...) and the urlscan screenshot.
 - **Known noise.** Compare against the denylist and dossier section 13:
   typosquat parking (`78.41.207.x`), shared cloud pools, hacked WordPress
-  spam, and lookalikes of unrelated brands.
+  spam, and lookalikes of unrelated brands. Denylist entries starting with
+  `.` cover the domain and all its subdomains.
+- **Generic chained hash.** If an Issue is mostly unrelated legitimate sites
+  (SaaS dashboards, agencies, `*.vercel.app` previews) all marked
+  `hash:chained`, a generic framework chunk was chained (2026-10-14, #109:
+  `6930c2cc…`, a Turbopack runtime chunk). Name the hash, and suggest removing
+  it from fingerprints.txt and denylisting the sites with `.apex` entries.
 
 ## 4. Post ONE comment per Issue
 
@@ -150,4 +161,6 @@ Suggested action: add the hashes above as `seed` rows; add resolving zones to wa
 Never edit `fingerprints.txt` or any other file yourself: the maintainer applies
 the suggestions. The tracker's own hash-chaining (`check.sh`, with
 `URLSCAN_KEY`) does the same pivot automatically; your check is the safety net
-in case it fails silently, as it did before 2026-10-02.
+in case it fails silently, as it did before 2026-10-02. Since 2026-10-14 it
+only accepts a hash when at least half of the distinct apexes serving it are
+already-known (non-denylisted) kit domains; apply the same bar to candidates.

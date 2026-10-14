@@ -203,7 +203,7 @@ since the last run:
 |---|---|---|
 | **CT logs** | certspotter + crt.sh | New certificates / subdomains of watched apexes; candidate new cluster apexes (token matches) |
 | **urlscan** | urlscan.io search API | New live kit domains via **content-hash fingerprints** (primary) and a strict URL+ASN-filtered `us=` param match (secondary), plus the IP/ASN each was served from |
-| **DNS** | DoH via 1.1.1.1 + 8.8.8.8 | New A/AAAA records for **tracked hosts only** (not full history — see decay below), with **non-Cloudflare origins flagged for manual review** |
+| **DNS** | DoH via 1.1.1.1 + 8.8.8.8 | New A/AAAA records for **tracked hosts only** (not full history — see decay below), with **non-Cloudflare origins flagged for manual review** (except curated Operator-A origins, which count as live kit) |
 
 ### Scope: Operator A is the primary target, Operator B is secondary
 
@@ -218,14 +218,17 @@ logged to `findings.csv`/`discovered.csv` only and never alert.
 New indicators are appended to **[`monitor/findings.csv`](monitor/findings.csv)**
 (`type,indicator,source,asn,first_seen,tier,operator`) and **`monitor/monitor.log`**; dedup state lives in
 `monitor/state/`. Nothing on **[`monitor/denylist.txt`](monitor/denylist.txt)** is ever queried, resolved, or recorded,
-whatever a source returns. To keep signal high, DNS is resolved only for hosts in
+whatever a source returns (exact entries, `1.2.3.` IPv4 prefixes, and `.example.com` suffixes covering a domain and all
+its subdomains); a host denylisted after it was tracked is purged from `monitor/state/` on the next run. To keep signal high, DNS is resolved only for hosts in
 **`monitor/state/tracked_hosts.tsv`** (curated watchlist + CT subdomains + confirmed kit-fingerprint hits — not the
 full historical set), and a host **decays**: 8 consecutive empty resolutions marks it `dead` (expected churn — the
 kit's apexes rotate ~daily), and ~90 days of periodic rechecks with no response retires it. A dead/retired host that
-reappears on Cloudflare raises an alert (possible operator reuse); reappearing on a non-Cloudflare IP is logged quietly,
-never alerted. A new certificate for a watched apex alerts only if that name resolves on Cloudflare in the same run.
-Certificates for dead, parked or unresolvable names are logged as tier 2 and held in `monitor/state/ct_pending.tsv`
-for 14 days, and alert if they come up on Cloudflare in that time. Broad CT token matches (which collide with unrelated
+reappears on Cloudflare or on a curated Operator-A origin raises an alert (possible operator reuse); reappearing on any
+other non-Cloudflare IP is logged quietly, never alerted. A new certificate for a watched apex alerts only if that name
+resolves on Cloudflare or a curated Operator-A origin in the same run. Certificates for dead, parked or unresolvable
+names are logged as tier 2 and held in `monitor/state/ct_pending.tsv` for 14 days, and alert if they come up live in
+that time. "Curated Operator-A origins" are the `origin 1 A` lines of `monitor/watchlist.txt` — since 2026-10-14 the
+kit is also served directly from dedicated Dedik Services (AS207043) servers, not only through Cloudflare. Broad CT token matches (which collide with unrelated
 legitimate domains) are always tier-2 candidates — never auto-resolved, never alerted.
 
 > ⚠️ **2026-09-25 incident note.** An earlier version of this tracker auto-promoted any new non-Cloudflare IP to a
@@ -393,7 +396,7 @@ many candidates are waiting for review. Then drill into the files below as neede
 |---|---|---|
 | `watchlist.txt` | human | Curated inputs: `<entry> <kind> <tier> <operator>` — apexes, origins, CT tokens |
 | `denylist.txt` | human | Never query/resolve/record these (with the reason each was added) |
-| `fingerprints.txt` | human + hash-chaining | Kit JS content hashes (the primary Operator-A detector) + last-hit date |
+| `fingerprints.txt` | human + hash-chaining | Kit JS content hashes (the primary Operator-A detector) + last-hit date. Chaining adds a hash only if it co-occurs with ≥2 known kit domains, on <1000 scans, and ≥50% of the apexes serving it are known kit (2026-10-14: a generic Turbopack chunk passed the old gate and promoted 50+ legit sites) |
 | `findings.csv` | every run | Every new indicator: `type,indicator,source,asn,first_seen,tier,operator,matched_url,scan_uuid`. For urlscan-found domains, `matched_url`/`scan_uuid` point at the exact scan that proved it (`https://urlscan.io/result/<scan_uuid>/`) |
 | `discovered.csv` | every run | Candidates for **manual review** (non-CF origins, unconfirmed hashes) + auto-promoted apexes |
 | `scans.csv` | every run (key only) | Evidence captures submitted to urlscan (screenshot + DOM) per live host |
