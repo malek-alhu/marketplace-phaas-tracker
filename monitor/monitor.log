@@ -2477,3 +2477,59 @@
 [2026-10-14T03:09:54Z] HEAL (missing) kit body 278568539fc839007c23bc263d840c504a61d0978df3ab1fd80f969c48d0d51e not recovered (not retained by urlscan, or failed verification)
 [2026-10-14T02:56:37Z] SCAN-SAVED poland-payhub4.eu.cc -> https://urlscan.io/result/01a13863-5905-737a-b334-a03ebc2e1fab/
 [2026-10-14T02:56:37Z] 1 new tier-1 Operator-A indicator(s) this run
+[2026-10-14T10:56:33Z] candidate cert  action-paycore-pl1.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate cert  emiratesnbd.verify-compra.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate cert  milanuncios.verify-compra.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate cert  paycore-nitro-pl.bond  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T10:56:33Z] NEW cert  paycore-poland.eu.cc  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-14T10:56:33Z] candidate cert  payu-nitro1.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate cert  poland-payhub.buzz  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T10:56:33Z] NEW domain  finn.bekreftfdd.com  [urlscan @172.67.136.178 (urlscan-kit(us=)) / AS13335] tier=1 op=A
+[2026-10-14T10:56:33Z] NEW domain  milanuncios.verify-compra.shop  [urlscan @http://milanuncios.verify-compra.shop/ (apex-context:verify-compra.shop) / 01a1399c-e1d2-750a-917b-c4ff06618b07] tier=1 op=A
+[2026-10-14T10:56:33Z] NEW domain  poland-payhub4.eu.cc  [urlscan @188.114.96.3 (apex-context:poland-payhub4.eu.cc) / AS13335] tier=1 op=A
+[2026-10-14T10:56:33Z] candidate ip  104.21.56.208  [dns (finn.bekreftfdd.com)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate ip  172.67.136.178  [dns (finn.bekreftfdd.com)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate ip  2606:4700:3033::6815:38d0  [dns (finn.bekreftfdd.com)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate ip  2606:4700:3036::ac43:88b2  [dns (finn.bekreftfdd.com)] tier=2 op=A
+[2026-10-14T10:56:33Z] candidate ip  46.8.101.238  [dns (humancompostco.com)] tier=2 op=A
+[2026-10-14T10:56:33Z] HEALTH certspotter=12/81 crtsh=63/69 urlscan=288/288 dns-google=380/380 dns-cf=380/380
+[2026-10-14T10:56:33Z] AUTO-PROMOTE apex bekreftfdd.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 1c5687f4ae24e6d19592820a324f72f668faaecb061b064848f1ebf1bf9309ab co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 1c5687f4ae24e6d19592820a324f72f668faaecb061b064848f1ebf1bf9309ab -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 1f4fe5c0506b1035e1a6b4aceb4f53517b2d0d5fe42ce77194dd1db05ec9254a co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 1f4fe5c0506b1035e1a6b4aceb4f53517b2d0d5fe42ce77194dd1db05ec9254a -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 29de9fc7b84fbe15abeac5ac0f4a675df3fcf27f8cb363c575aac45e2378cc93 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 29de9fc7b84fbe15abeac5ac0f4a675df3fcf27f8cb363c575aac45e2378cc93 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 2d456158e4b868a147c84ffeaa6c10ac2dce61106a394a208331dfa0250c2b83 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 2d456158e4b868a147c84ffeaa6c10ac2dce61106a394a208331dfa0250c2b83 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 38042515d5e3fd8aa92a8654e055ca746b2b341c4f573481eb5c08dd125d1a23 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 38042515d5e3fd8aa92a8654e055ca746b2b341c4f573481eb5c08dd125d1a23 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 4578582be32b83f45b29034132514fcffbaccc7f532f60f6cb162ade6cb479e0 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 4578582be32b83f45b29034132514fcffbaccc7f532f60f6cb162ade6cb479e0 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 520b60977e1d4fddc894bd080a02dab1c77ebedd1d5034f6b2de4bccc143b1f4 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 520b60977e1d4fddc894bd080a02dab1c77ebedd1d5034f6b2de4bccc143b1f4 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 59aaa51d76c02261e37225ea6191b5529417e6361be7c802df586159321d24b8 co-occurs with 13 known kit domains (15 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 59aaa51d76c02261e37225ea6191b5529417e6361be7c802df586159321d24b8 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint 6930c2cc6ae51099b69e6d6dcaec2354099d3141567bc92e5d6fab4e73428ffa co-occurs with 19 known kit domains (78 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for 6930c2cc6ae51099b69e6d6dcaec2354099d3141567bc92e5d6fab4e73428ffa -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint aebdaf233be9a24893825cbd807580e64e80d52262ac4f11d57c052328dca6e2 co-occurs with 13 known kit domains (15 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for aebdaf233be9a24893825cbd807580e64e80d52262ac4f11d57c052328dca6e2 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint e39b7773c09af146ab7b39cc0ac44ba4de074cea94bf24f3555f6e4087e5b737 co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for e39b7773c09af146ab7b39cc0ac44ba4de074cea94bf24f3555f6e4087e5b737 -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T10:56:33Z] HASH-CHAIN new fingerprint f80b9462749e5540c311c849f61b4f72dd5be874fc20665b9a295e856249845a co-occurs with 19 known kit domains (22 scans) -> added to fingerprints.txt
+[2026-10-14T10:56:33Z] HASH-CHAIN archived + verified source body for f80b9462749e5540c311c849f61b4f72dd5be874fc20665b9a295e856249845a -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T11:24:20Z] HEAL (missing) kit body 278568539fc839007c23bc263d840c504a61d0978df3ab1fd80f969c48d0d51e not recovered (not retained by urlscan, or failed verification)
+[2026-10-14T10:56:33Z] SCAN-SAVED finn.bekreftfdd.com -> https://urlscan.io/result/01a13a28-00cc-71cc-b2eb-34b689156c13/
+[2026-10-14T10:56:33Z] SCAN-SAVED m.psd18.com -> https://urlscan.io/result/01a13a28-0bd8-72d9-90d3-739130789246/
+[2026-10-14T10:56:33Z] SCAN-SAVED milanuncios.verify-compra.shop -> https://urlscan.io/result/01a13a28-1749-7039-82f8-c1c05a2921dc/
+[2026-10-14T10:56:33Z] SCAN-SAVED www.psd18.com -> https://urlscan.io/result/01a13a28-222f-7718-8b12-6d06322adab5/
+[2026-10-14T10:56:33Z] REVIVED-NONCF humancompostco.com -> 46.8.101.238 (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)
+[2026-10-14T10:56:33Z] NEW revival  www.psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
+[2026-10-14T10:56:33Z] NEW revival  m.psd18.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.92.135] tier=1 op=A
+[2026-10-14T10:56:33Z] 6 new tier-1 Operator-A indicator(s) this run

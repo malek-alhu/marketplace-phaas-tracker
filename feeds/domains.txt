@@ -1,6 +1,6 @@
 # Marketplace PhaaS — all known kit/redirector domains
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 249 · newest first_seen: 2026-10-11 · TLP:CLEAR
+# Entries: 250 · newest first_seen: 2026-10-14 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0767s.com
@@ -57,6 +57,7 @@ express-paycore24.cfd
 express-paycore24.cyou
 express24-core.cfd
 express24-core.sbs
+finn.bekreftfdd.com
 fix-paycore.lol
 flowcore-expres.lat
 flowcore-expres.lol

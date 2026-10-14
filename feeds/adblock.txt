@@ -1,7 +1,7 @@
 ! Title: Marketplace PhaaS (Classiscam/Telekopye-class) kit domains
 ! Homepage: https://github.com/malek-alhu/marketplace-phaas-tracker
 ! Expires: 1 day
-! Entries: 249
+! Entries: 250
 ||0767s.com^
 ||0rd56t457543567567567.sbs^
 ||0rderkleinan.shop^
@@ -56,6 +56,7 @@
 ||express-paycore24.cyou^
 ||express24-core.cfd^
 ||express24-core.sbs^
+||finn.bekreftfdd.com^
 ||fix-paycore.lol^
 ||flowcore-expres.lat^
 ||flowcore-expres.lol^
