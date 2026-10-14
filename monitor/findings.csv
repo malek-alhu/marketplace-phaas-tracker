@@ -876,3 +876,176 @@ ip,2606:4700:3036::ac43:88b2,dns (finn.bekreftfdd.com),Cloudflare-edge,2026-10-1
 ip,46.8.101.238,dns (humancompostco.com),NON-CF — host left Cloudflare (manual review),2026-10-14T10:56:33Z,2,A,,
 revival,www.psd18.com,dead/retired host reappeared ON CLOUDFLARE — possible operator reuse,104.21.92.135,2026-10-14T10:56:33Z,1,A,,
 revival,m.psd18.com,dead/retired host reappeared ON CLOUDFLARE — possible operator reuse,104.21.92.135,2026-10-14T10:56:33Z,1,A,,
+cert,58stw.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,avhenting0110.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,avhenting2709.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,bekreftjs.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,confirmation-order-payu.sbs,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,huian189.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,paycore-bup-process.sbs,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,paycore-confirmation44232.casa,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,paycore-trust-process.sbs,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,payplcore.biz.id,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,payprzelew-core1.fun,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,payprzelew-core2.eu.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,przelew-paycore.biz.id,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,przelew-paycore.cfd,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,realdr-id.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+cert,www.huian189.com,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T16:15:37Z,2,A,,
+domain,admin.bridge-capital.ch,urlscan @216.150.16.129 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://admin.bridge-capital.ch/sign-in,01a135cf-20f4-7372-a482-1eb85dac30c8
+domain,aination.gr,urlscan @185.158.133.1 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://aination.gr/,01a1380f-051d-7545-8c18-3f8746eb34a3
+domain,app.astra-ai.co,urlscan @64.239.109.193 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://app.astra-ai.co/vi-VN?chatId=zYs4biPhFbs7KzzTzFX2R,01a1343f-0005-72ac-9846-491f0b7bc050
+domain,app.deferred.com,urlscan @65.8.131.12 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://app.deferred.com/referrers/join?brokerageName=Marcus+and+Millichap&owner=elizabeth,01a1361a-8a2c-74e9-9904-bd3d5b5760e3
+domain,app.storiedmoney.com,urlscan @76.76.21.21 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://app.storiedmoney.com/sign-in?redirect_url=https%3A%2F%2Fapp.storiedmoney.com%2Fhome,01a13915-072a-709d-95d9-e743a5e1a4db
+domain,artifacts.shunkakinoki.com,urlscan @104.21.76.230 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://artifacts.shunkakinoki.com/login?reauth=project,01a135a4-7dc3-711f-ac28-e47777f32c76
+domain,avhenting1210.ink,urlscan @104.21.92.47 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://avhenting1210.ink/a/1JJw5Ad6DMZqD7kp,01a139cd-e58a-731b-943c-20160f554b17
+domain,bekreftfdd.com,urlscan @104.21.56.208 (apex-context:bekreftfdd.com),AS13335,2026-10-14T16:15:37Z,1,A,https://bekreftfdd.com/a/xVw_4Ot9Mv2xoHny,01a135f1-c4c5-76ce-9deb-a71a5fdbfb5a
+domain,bekreftzn.com,urlscan @172.67.132.161 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://bekreftzn.com/a/w8fT7mYEykunM6-n,01a139cd-e5f6-718f-838e-fa8c480bbd06
+domain,click.boin.uk,urlscan @172.67.180.136 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://click.boin.uk/,01a11d1c-6c6d-70bb-8974-d603eb21a495
+domain,dealteam.virgil.ai,urlscan @76.76.21.21 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://dealteam.virgil.ai/sign-in?redirect_url=https%3A%2F%2Fdealteam.virgil.ai%2Fdashboard,01a129e3-e372-76b2-b348-7814b7805c13
+domain,dublivo.com,urlscan @216.150.1.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://dublivo.com/,01a12e95-ee88-747f-9eda-14f4edf9244c
+domain,emberbill.com,urlscan @2606:4700:3031::ac43:96a7 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://emberbill.com/sv,01a1314e-cdbb-752d-90cd-2cf2035a3fff
+domain,fingerprint.to,urlscan @104.26.9.213 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://fingerprint.to/demo,01a13b0f-03cc-716c-b983-b3723ef3edac
+domain,fuegenix.com,urlscan @142.93.232.250 (hash:chained),AS14061,2026-10-14T16:15:37Z,1,A,https://fuegenix.com/film/?utm_source=facebook&utm_medium=paid_social&utm_campaign={{campaign.name}}&utm_content={{ad.name}},01a136de-87cd-7669-b101-cb371f69083e
+domain,inglevalegroup.com,urlscan @100.55.234.55 (hash:chained),AS14618,2026-10-14T16:15:37Z,1,A,https://inglevalegroup.com/,01a11af1-639c-711c-8c78-a9f4d81abbd2
+domain,innovativenurseeducator.com,urlscan @198.49.23.145 (hash:chained),AS53831,2026-10-14T16:15:37Z,1,A,https://innovativenurseeducator.com/,01a13695-729c-7156-91ef-81d9b5301ec2
+domain,inpost.poland-payhub9.eu.cc,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://inpost.poland-payhub9.eu.cc/,01a13b40-108d-72fc-96ed-de6c3bde18ba
+domain,investclearly.com,urlscan @76.76.21.21 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://investclearly.com/,01a1242a-e353-71f8-861b-039cc1e8ff58
+domain,last-ai.entendre.finance,urlscan @66.33.60.35 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://last-ai.entendre.finance/login,01a124a7-876b-72ee-b1b6-1e259f262e37
+domain,leadmagic.io,urlscan @216.150.1.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://leadmagic.io/pricing,01a13046-88b7-715f-a8de-c348ef41a9f4
+domain,lidio.app,urlscan @63.176.8.218 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://lidio.app/,01a12ebb-8d36-73c6-b6de-fe3b644c29f4
+domain,m.psd18.com,urlscan @2606:4700:3032::ac43:c285 (apex-context:psd18.com),AS13335,2026-10-14T16:15:37Z,1,A,https://m.psd18.com/,01a13a28-0bd8-72d9-90d3-739130789246
+domain,mr-gas-gnv-glp.tallerpro.io,urlscan @66.33.60.67 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://mr-gas-gnv-glp.tallerpro.io/sign-in,01a12ed2-637d-7685-bae9-52bfc6f0306f
+domain,neptunedispatching.com,urlscan @162.159.140.166 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://neptunedispatching.com/,01a11fb7-2f51-707f-a57f-927f75f7d68c
+domain,ohdigital.agency,urlscan @104.21.36.6 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://ohdigital.agency/en,01a1398a-36b7-721b-adb1-2da6f6738603
+domain,olx.poland-payhub5.eu.cc,urlscan @188.114.96.3 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://olx.poland-payhub5.eu.cc/,01a13a9b-df27-741d-bf0c-ce76570145a2
+domain,omnyn.com.br,urlscan @188.114.96.3 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://omnyn.com.br/,01a12799-438d-73f4-b710-e5ca3275e153
+domain,parent.edumaniaedtech.online,urlscan @64.29.17.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://parent.edumaniaedtech.online/sign-in,01a12e41-0859-7128-bce6-ae02ea8a02b8
+domain,physicall.fitness,urlscan @216.198.79.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://physicall.fitness/,01a12ef0-91e1-73ff-a34a-7f380c690062
+domain,poland-payhub.shop,urlscan @104.21.83.37 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://poland-payhub.shop/,01a13923-aaff-7116-8cd4-6fcd26d2f1b9
+domain,prodhire.com,urlscan @216.150.1.193 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://prodhire.com/,01a11bf5-eb93-7164-ba20-0029729fcfe9
+domain,remotion-43yk3mua6-remotion.vercel.app,urlscan @64.29.17.3 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://remotion-43yk3mua6-remotion.vercel.app/,01a137ae-ef7c-7349-b919-247388036c32
+domain,remotion-678ya451o-remotion.vercel.app,urlscan @216.198.79.195 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://remotion-678ya451o-remotion.vercel.app/,01a1303d-e3ad-7555-be14-b5a2d8421357
+domain,remotion-9tkzp6nof-remotion.vercel.app,urlscan @216.198.79.131 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://remotion-9tkzp6nof-remotion.vercel.app/,01a135bb-18e4-76f8-96ad-2bbf0d407576
+domain,remotion-enwzmmo0y-remotion.vercel.app,urlscan @216.198.79.3 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://remotion-enwzmmo0y-remotion.vercel.app/,01a12f32-c288-776a-9b3c-2f104004b0d4
+domain,remotion-git-codex-docs-player-media-loading-remotion.vercel.app,urlscan @64.29.17.195 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://remotion-git-codex-docs-player-media-loading-remotion.vercel.app/,01a12907-03f2-762e-8d48-c1c04b9d523f
+domain,remotion-k7bzu6356-remotion.vercel.app,urlscan @64.29.17.67 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://remotion-k7bzu6356-remotion.vercel.app/,01a128d4-78a3-70a0-9055-7fcf39ff9c64
+domain,render.com,urlscan @216.24.57.1 (hash:chained),AS397273,2026-10-14T16:15:37Z,1,A,https://render.com/,01a12e01-da02-7000-940a-1f340663713b
+domain,replicas.dev,urlscan @216.150.1.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://replicas.dev/,01a11d47-e397-75fd-8af7-1dd9ea59886e
+domain,sabexlatam.com,urlscan @216.198.79.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://sabexlatam.com/,01a13714-5073-7539-93c4-e471567a88a9
+domain,social-radar.app,urlscan @188.114.97.3 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://social-radar.app/,01a12fc1-3f41-738b-8228-cd56334f8262
+domain,splitbag.com,urlscan @172.67.214.224 (hash:chained),AS13335,2026-10-14T16:15:37Z,1,A,https://splitbag.com/,01a130aa-0518-70aa-9e87-c9631faaeb6c
+domain,student.edumaniaedtech.online,urlscan @64.29.17.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://student.edumaniaedtech.online/sign-in,01a12e4f-7ca1-714d-922f-2519fc011f1f
+domain,studiohive.art,urlscan @216.150.1.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://studiohive.art/,01a13417-208e-730d-87c4-d588e8804ab3
+domain,tarekit.com,urlscan @216.198.79.65 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://tarekit.com/,01a12978-db53-74cb-99f8-1c6afab98816
+domain,teacher.edumaniaedtech.online,urlscan @216.198.79.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://teacher.edumaniaedtech.online/sign-in,01a12e25-67d5-7779-bff8-d5e6c32e3e27
+domain,tryprism.com,urlscan @64.239.109.65 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://tryprism.com/,01a13a20-7f12-70c8-9547-8229e83e50e7
+domain,ultima.yt,urlscan @216.150.16.129 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://ultima.yt/,01a135f0-4aa1-773f-81d7-47d055efa2ff
+domain,workbrew.com,urlscan @216.150.1.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://workbrew.com/,01a13a7c-2007-732c-9f87-8fdf0fc52e88
+domain,www.beanstalkconsulting.co,urlscan @216.150.1.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://www.beanstalkconsulting.co/,01a11c5d-562d-77d7-a2d3-acf11b57eade
+domain,www.datalogue.com,urlscan @217.110.199.132 (hash:chained),AS8220,2026-10-14T16:15:37Z,1,A,https://www.datalogue.com/de/,01a13004-e4f7-747b-b4e4-1ed33ed8a26f
+domain,www.doodlecomics.net,urlscan @216.150.1.129 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://www.doodlecomics.net/,01a1243f-2d76-75cb-ac4d-c486c9e9009a
+domain,www.elementmultiservices.com,urlscan @216.198.79.1 (hash:chained),AS16509,2026-10-14T16:15:37Z,1,A,https://www.elementmultiservices.com/en,01a12ce4-86de-7465-96e9-c36595568da0
+domain,www.one-water.at,urlscan @104.199.38.53 (hash:chained),AS396982,2026-10-14T16:15:37Z,1,A,https://www.one-water.at/,01a13af8-cd2f-71cf-93c9-81c26c6016a8
+domain,www.psd18.com,urlscan @172.67.194.133 (apex-context:psd18.com),AS13335,2026-10-14T16:15:37Z,1,A,https://www.psd18.com/,01a13a28-222f-7718-8b12-6d06322adab5
+ip,100.55.234.55,dns (inglevalegroup.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,104.199.38.53,dns (www.one-water.at),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,104.21.12.108,dns (omnyn.com.br),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.13.69,dns (bekreftzn.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.16.170,dns (splitbag.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.36.6,dns (ohdigital.agency),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.69.55,dns (social-radar.app),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.75.188,dns (click.boin.uk),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.82.12,dns (emberbill.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.83.37,dns (poland-payhub.shop),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.21.92.47,dns (avhenting1210.ink),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.26.8.213,dns (fingerprint.to),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,104.26.9.213,dns (fingerprint.to),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,108.156.91.54,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,108.156.91.73,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,108.156.91.83,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,108.156.91.96,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,142.93.232.250,dns (fuegenix.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,162.159.140.166,dns (neptunedispatching.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.132.161,dns (bekreftzn.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.132.26,dns (omnyn.com.br),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.150.167,dns (emberbill.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.180.136,dns (click.boin.uk),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.182.172,dns (ohdigital.agency),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.186.136,dns (avhenting1210.ink),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.204.233,dns (social-radar.app),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.211.38,dns (poland-payhub.shop),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.214.224,dns (splitbag.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,172.67.72.167,dns (fingerprint.to),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,18.208.88.157,dns (lidio.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,185.158.133.1,dns (aination.gr),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,198.185.159.144,dns (innovativenurseeducator.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,198.185.159.145,dns (innovativenurseeducator.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,198.49.23.144,dns (innovativenurseeducator.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,198.49.23.145,dns (innovativenurseeducator.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.1.1,dns (admin.bridge-capital.ch),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.1.129,dns (www.doodlecomics.net),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.1.193,dns (admin.bridge-capital.ch),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.1.65,dns (dublivo.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.16.1,dns (admin.bridge-capital.ch),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.16.129,dns (www.doodlecomics.net),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.150.16.193,dns (admin.bridge-capital.ch),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.198.79.1,dns (parent.edumaniaedtech.online),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.198.79.131,dns (remotion-43yk3mua6-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.198.79.195,dns (remotion-678ya451o-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.198.79.3,dns (remotion-43yk3mua6-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.198.79.65,dns (parent.edumaniaedtech.online),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.198.79.67,dns (remotion-git-codex-docs-player-media-loading-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,216.24.57.1,dns (render.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,217.110.199.132,dns (www.datalogue.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:1400:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:3200:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:4200:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:4a00:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:6200:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:6e00:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:7000:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:7a00:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:a000:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:a200:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:ae00:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:b800:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:bc00:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:c200:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:c600:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2600:9000:2351:e00:6:e4e5:e100:93a1,dns (app.deferred.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:20::681a:8d5,dns (fingerprint.to),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:20::681a:9d5,dns (fingerprint.to),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:20::ac43:48a7,dns (fingerprint.to),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3030::6815:5325,dns (poland-payhub.shop),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3031::6815:2406,dns (ohdigital.agency),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3031::6815:4bbc,dns (click.boin.uk),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3031::6815:520c,dns (emberbill.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3031::ac43:96a7,dns (emberbill.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3033::6815:10aa,dns (splitbag.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3033::6815:4537,dns (social-radar.app),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3033::ac43:ba88,dns (avhenting1210.ink),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3033::ac43:d326,dns (poland-payhub.shop),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3033::ac43:d6e0,dns (splitbag.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3034::ac43:841a,dns (omnyn.com.br),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3034::ac43:84a1,dns (bekreftzn.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3035::6815:d45,dns (bekreftzn.com),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3036::6815:c6c,dns (omnyn.com.br),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3036::ac43:b488,dns (click.boin.uk),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3036::ac43:cce9,dns (social-radar.app),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3037::6815:5c2f,dns (avhenting1210.ink),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,2606:4700:3037::ac43:b6ac,dns (ohdigital.agency),Cloudflare-edge,2026-10-14T16:15:37Z,2,A,,
+ip,64.29.17.1,dns (parent.edumaniaedtech.online),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,64.29.17.131,dns (remotion-43yk3mua6-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,64.29.17.195,dns (remotion-678ya451o-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,64.29.17.3,dns (remotion-43yk3mua6-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,64.29.17.65,dns (parent.edumaniaedtech.online),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,64.29.17.67,dns (remotion-git-codex-docs-player-media-loading-remotion.vercel.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,66.33.60.194,dns (last-ai.entendre.finance),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,66.33.60.35,dns (last-ai.entendre.finance),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,66.33.60.67,dns (mr-gas-gnv-glp.tallerpro.io),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,76.76.21.123,dns (last-ai.entendre.finance),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,76.76.21.21,dns (app.storiedmoney.com),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,76.76.21.93,dns (last-ai.entendre.finance),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,76.76.21.98,dns (mr-gas-gnv-glp.tallerpro.io),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,
+ip,98.84.224.111,dns (lidio.app),NON-CF — host left Cloudflare (manual review),2026-10-14T16:15:37Z,2,A,,

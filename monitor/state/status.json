@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-14T11:24:33Z",
-  "last_run_at": "2026-10-14T10:56:33Z",
-  "last_run_summary": "[2026-10-14T10:56:33Z] 6 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-14T10:56:33Z] HEALTH certspotter=12/81 crtsh=63/69 urlscan=288/288 dns-google=380/380 dns-cf=380/380",
+  "generated_at": "2026-10-14T17:10:45Z",
+  "last_run_at": "2026-10-14T16:15:37Z",
+  "last_run_summary": "[2026-10-14T16:15:37Z] 56 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-14T16:15:37Z] HEALTH certspotter=16/165 crtsh=179/185 urlscan=304/304 dns-google=802/802 dns-cf=802/802",
   "tracked_hosts": {
-    "total": 372,
+    "total": 427,
     "by_status": {
       "dead": 196,
-      "active": 176
+      "active": 231
     },
     "by_operator_tier": {
-      "A:tier1": 372
+      "A:tier1": 427
     }
   },
   "fingerprints": [
@@ -800,131 +800,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 506
+    "A": 562
   },
   "recent_tier1_findings": [
     {
-      "type": "cert",
-      "indicator": "confirm-9580.shop",
+      "type": "domain",
+      "indicator": "remotion-git-codex-docs-player-media-loading-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "action-paycore-pl1.eu.cc",
+      "indicator": "remotion-k7bzu6356-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "compra-verification.help",
+      "indicator": "render.com",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "emiratesnbd.verify-compra.shop",
+      "indicator": "replicas.dev",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "inpost.poland-payhub2.eu.cc",
+      "indicator": "sabexlatam.com",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "inpost.poland-payhub3.eu.cc",
+      "indicator": "social-radar.app",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "inpost.poland-payhub4.eu.cc",
+      "indicator": "splitbag.com",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "olx.poland-payhub3.eu.cc",
+      "indicator": "student.edumaniaedtech.online",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "poczta-polska.poland-payhub2.eu.cc",
+      "indicator": "studiohive.art",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "poland-payhub.cfd",
+      "indicator": "tarekit.com",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "poland-payhub2.eu.cc",
+      "indicator": "teacher.edumaniaedtech.online",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "poland-payhub3.eu.cc",
+      "indicator": "tryprism.com",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "psd18.com",
+      "indicator": "ultima.yt",
       "operator": "A",
-      "first_seen": "2026-10-13T18:42:49Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "confirmacion-venta.com",
-      "operator": "A",
-      "first_seen": "2026-10-14T02:56:37Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "paycore-poland.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-14T10:56:33Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "finn.bekreftfdd.com",
+      "indicator": "workbrew.com",
       "operator": "A",
-      "first_seen": "2026-10-14T10:56:33Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "milanuncios.verify-compra.shop",
+      "indicator": "www.beanstalkconsulting.co",
       "operator": "A",
-      "first_seen": "2026-10-14T10:56:33Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
       "type": "domain",
-      "indicator": "poland-payhub4.eu.cc",
+      "indicator": "www.datalogue.com",
       "operator": "A",
-      "first_seen": "2026-10-14T10:56:33Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     },
     {
-      "type": "revival",
+      "type": "domain",
+      "indicator": "www.doodlecomics.net",
+      "operator": "A",
+      "first_seen": "2026-10-14T16:15:37Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.elementmultiservices.com",
+      "operator": "A",
+      "first_seen": "2026-10-14T16:15:37Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.one-water.at",
+      "operator": "A",
+      "first_seen": "2026-10-14T16:15:37Z"
+    },
+    {
+      "type": "domain",
       "indicator": "www.psd18.com",
       "operator": "A",
-      "first_seen": "2026-10-14T10:56:33Z"
-    },
-    {
-      "type": "revival",
-      "indicator": "m.psd18.com",
-      "operator": "A",
-      "first_seen": "2026-10-14T10:56:33Z"
+      "first_seen": "2026-10-14T16:15:37Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 222,
+  "manual_review_candidates_pending": 280,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
