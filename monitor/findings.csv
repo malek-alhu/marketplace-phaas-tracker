@@ -855,3 +855,7 @@ ip,2606:4700:3032::6815:54f3,dns (action-paycore-pl1.eu.cc),Cloudflare-edge,2026
 ip,2606:4700:3033::ac43:d896,dns (compra-verification.help),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
 ip,2606:4700:3035::6815:4b46,dns (compra-verification.help),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
 ip,2606:4700:3035::ac43:c769,dns (action-paycore-pl1.eu.cc),Cloudflare-edge,2026-10-13T18:42:49Z,2,A,,
+cert,confirmacion-venta.com,ct-log (apex subdomain),,2026-10-14T02:56:37Z,1,A,,
+cert,payu-nitro2.eu.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T02:56:37Z,2,A,,
+cert,payu-nitro5.eu.cc,ct-log (apex subdomain — not live on Cloudflare),,2026-10-14T02:56:37Z,2,A,,
+ip,179.33.187.79,dns (compra-verif.cfd),NON-CF — host left Cloudflare (manual review),2026-10-14T02:56:37Z,2,A,,

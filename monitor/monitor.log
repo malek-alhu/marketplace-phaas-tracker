@@ -2464,3 +2464,16 @@
 [2026-10-13T18:42:49Z] SCAN-SAVED poland-payhub2.eu.cc -> https://urlscan.io/result/01a1369e-f74c-723d-976f-13dcf2567ad0/
 [2026-10-13T18:42:49Z] SCAN-SAVED poland-payhub3.eu.cc -> https://urlscan.io/result/01a1369f-04b8-7208-83f7-80e77d6ce2d8/
 [2026-10-13T18:42:49Z] 13 new tier-1 Operator-A indicator(s) this run
+[2026-10-14T02:56:37Z] NEW cert  confirmacion-venta.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-14T02:56:37Z] candidate cert  payu-nitro2.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T02:56:37Z] candidate cert  payu-nitro5.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-14T02:56:37Z] candidate ip  179.33.187.79  [dns (compra-verif.cfd)] tier=2 op=A
+[2026-10-14T02:56:37Z] HEALTH certspotter=10/79 crtsh=0/3 urlscan=286/286 dns-google=346/346 dns-cf=346/346
+[2026-10-14T02:56:37Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-14T02:56:37Z] HASH-CHAIN new fingerprint 39c73b61b03d0048487728870b8a43ebb3b8ad877c72cb0490b60f4416fe189f co-occurs with 6 known kit domains (5 scans) -> added to fingerprints.txt
+[2026-10-14T02:56:37Z] HASH-CHAIN archived + verified source body for 39c73b61b03d0048487728870b8a43ebb3b8ad877c72cb0490b60f4416fe189f -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T02:56:37Z] HASH-CHAIN new fingerprint b400e7a4bab416e5c23180613499a6964aaa4f2bbcaee009e71394e0db42ae8e co-occurs with 6 known kit domains (5 scans) -> added to fingerprints.txt
+[2026-10-14T02:56:37Z] HASH-CHAIN archived + verified source body for b400e7a4bab416e5c23180613499a6964aaa4f2bbcaee009e71394e0db42ae8e -> kit-source/{raw_bodies,decompressed}/
+[2026-10-14T03:09:54Z] HEAL (missing) kit body 278568539fc839007c23bc263d840c504a61d0978df3ab1fd80f969c48d0d51e not recovered (not retained by urlscan, or failed verification)
+[2026-10-14T02:56:37Z] SCAN-SAVED poland-payhub4.eu.cc -> https://urlscan.io/result/01a13863-5905-737a-b334-a03ebc2e1fab/
+[2026-10-14T02:56:37Z] 1 new tier-1 Operator-A indicator(s) this run
