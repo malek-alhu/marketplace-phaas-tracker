@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-14T17:10:45Z",
-  "last_run_at": "2026-10-14T16:15:37Z",
-  "last_run_summary": "[2026-10-14T16:15:37Z] 56 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-14T16:15:37Z] HEALTH certspotter=16/165 crtsh=179/185 urlscan=304/304 dns-google=802/802 dns-cf=802/802",
+  "generated_at": "2026-10-14T22:06:05Z",
+  "last_run_at": "2026-10-14T21:09:08Z",
+  "last_run_summary": "[2026-10-14T21:09:08Z] 140 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-14T21:09:08Z] HEALTH certspotter=14/135 crtsh=152/155 urlscan=205/355 dns-google=2600/2600 dns-cf=2600/2600",
   "tracked_hosts": {
-    "total": 427,
+    "total": 1486,
     "by_status": {
-      "dead": 196,
-      "active": 231
+      "dead": 199,
+      "active": 1287
     },
     "by_operator_tier": {
-      "A:tier1": 427
+      "A:tier1": 1486
     }
   },
   "fingerprints": [
@@ -800,131 +800,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 562
+    "A": 702
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "remotion-git-codex-docs-player-media-loading-remotion.vercel.app",
+      "indicator": "farnhamgroup.co",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-k7bzu6356-remotion.vercel.app",
+      "indicator": "firstlinegroupco.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "render.com",
+      "indicator": "growthcatalystnext.info",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "replicas.dev",
+      "indicator": "keystoneinvestorloans.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "sabexlatam.com",
+      "indicator": "lumail.io",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "social-radar.app",
+      "indicator": "olx.paczzkaa643185.sbs",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "splitbag.com",
+      "indicator": "olx.poland-payhub9.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "student.edumaniaedtech.online",
+      "indicator": "openercoco.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "studiohive.art",
+      "indicator": "paczzkaa742165.sbs",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "tarekit.com",
+      "indicator": "pinnacleflipfinance.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "teacher.edumaniaedtech.online",
+      "indicator": "relaypointgroupco.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "tryprism.com",
+      "indicator": "remotion-git-codex-add-outline-effect-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "ultima.yt",
+      "indicator": "remotion-i62r6uf7c-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "workbrew.com",
+      "indicator": "remotion-nal9ncvfg-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.beanstalkconsulting.co",
+      "indicator": "remotion-q9mhwvyzp-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.datalogue.com",
+      "indicator": "remotion-qhxgrlsh3-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.doodlecomics.net",
+      "indicator": "rentalrisefunding.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.elementmultiservices.com",
+      "indicator": "rhythmgroupco.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.one-water.at",
+      "indicator": "safebeanstalllkconsult.info",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.psd18.com",
+      "indicator": "urbanpeakfinance.com",
       "operator": "A",
-      "first_seen": "2026-10-14T16:15:37Z"
+      "first_seen": "2026-10-14T21:09:08Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 280,
+  "manual_review_candidates_pending": 560,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
