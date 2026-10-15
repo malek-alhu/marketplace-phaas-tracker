@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-15T03:06:21Z",
-  "last_run_at": "2026-10-15T02:36:00Z",
-  "last_run_summary": "[2026-10-15T02:36:00Z] 200 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-15T02:36:00Z] HEALTH certspotter=11/140 crtsh=4/10 urlscan=364/364 dns-google=2924/2924 dns-cf=2924/2924",
+  "generated_at": "2026-10-15T11:36:14Z",
+  "last_run_at": "2026-10-15T10:38:02Z",
+  "last_run_summary": "[2026-10-15T10:38:02Z] 115 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-15T10:38:02Z] HEALTH certspotter=14/148 crtsh=167/168 urlscan=372/372 dns-google=3560/3560 dns-cf=3560/3560",
   "tracked_hosts": {
-    "total": 1656,
+    "total": 1965,
     "by_status": {
-      "dead": 199,
-      "active": 1457
+      "dead": 205,
+      "active": 1760
     },
     "by_operator_tier": {
-      "A:tier1": 1656
+      "A:tier1": 1965
     }
   },
   "fingerprints": [
@@ -800,131 +800,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 902
+    "A": 1017
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "testcase.datalogue.ch",
+      "indicator": "dict-audio.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "testcase.datalogue.co.uk",
+      "indicator": "experimentation.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "testcase.datalogue.com",
+      "indicator": "feature-flagging.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "testcase.datalogue.de",
+      "indicator": "gtm.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "thecloudcodingagent.com",
+      "indicator": "ita-free.www.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "vdp-zeta-delta-m4-7119.entendre.finance",
+      "indicator": "login-wall.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "wltest.entendre.finance",
+      "indicator": "press.a24films.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bestcloudcodingagent.com",
+      "indicator": "s.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bridge-capital.ch",
+      "indicator": "securesold.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.datalogue.ch",
+      "indicator": "shop.a24films.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.datalogue.de",
+      "indicator": "sl.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.deepl.com",
+      "indicator": "studio.a24films.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.deferred.com",
+      "indicator": "support.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.edumaniaedtech.online",
+      "indicator": "user-settings.www.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.neptunedispatching.com",
+      "indicator": "vend-com.help",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.prodhire.com",
+      "indicator": "vinted.6897926.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.socialflow.vercel.app",
+      "indicator": "www.a24films.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.thecloudcodingagent.com",
+      "indicator": "www.freshstep.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tryprism.com",
+      "indicator": "www2.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     },
     {
       "type": "domain",
-      "indicator": "xbto.entendre.finance",
+      "indicator": "youcanseeeverything.movie",
       "operator": "A",
-      "first_seen": "2026-10-15T02:36:00Z"
+      "first_seen": "2026-10-15T10:38:02Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 730,
+  "manual_review_candidates_pending": 1233,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
