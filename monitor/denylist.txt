@@ -194,3 +194,7 @@ remotion-cbv514b51-remotion.vercel.app
 # --- Render's shared app platform: CT for the (false-positive) render.com apex
 # --- returned hundreds of unrelated customer apps. Kit has never run here.
 .onrender.com
+
+# --- 2026-10-15T11:36 run: two more legit sites carrying generic chunk 6930c2cc.
+.freshstep.com
+.coldacq.com

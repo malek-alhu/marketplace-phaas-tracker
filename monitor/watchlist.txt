@@ -130,6 +130,7 @@ periyartigers.com       dnsonly 1 A
 193.111.117.211  origin 1 A
 91.92.34.221     origin 1 A
 151.243.18.165   origin 1 A
+93.152.220.94    origin 1 A   # Dedik GB range; vinted.6897926.com served the kit here 2026-10-15
 
 # === Operator B — real bulletproof origins, 1337 Services GmbH / AS210558
 # === (Hamburg DE). Live-verified 2026-09-25: dominant or sole tenant is
