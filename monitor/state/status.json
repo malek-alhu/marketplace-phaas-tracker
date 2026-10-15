@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-15T11:36:14Z",
-  "last_run_at": "2026-10-15T10:38:02Z",
-  "last_run_summary": "[2026-10-15T10:38:02Z] 115 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-15T10:38:02Z] HEALTH certspotter=14/148 crtsh=167/168 urlscan=372/372 dns-google=3560/3560 dns-cf=3560/3560",
+  "generated_at": "2026-10-15T17:30:22Z",
+  "last_run_at": "2026-10-15T16:03:11Z",
+  "last_run_summary": "[2026-10-15T16:03:11Z] 37 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-15T16:03:11Z] HEALTH certspotter=18/237 crtsh=252/257 urlscan=364/377 dns-google=4020/4020 dns-cf=4020/4020",
   "tracked_hosts": {
-    "total": 1965,
+    "total": 2038,
     "by_status": {
-      "dead": 205,
-      "active": 1760
+      "dead": 203,
+      "active": 1835
     },
     "by_operator_tier": {
-      "A:tier1": 1965
+      "A:tier1": 2038
     }
   },
   "fingerprints": [
@@ -800,131 +800,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1017
+    "A": 1054
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "dict-audio.deepl.com",
+      "indicator": "accounts.riverbend.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "experimentation.deepl.com",
+      "indicator": "accounts.teahouse.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "feature-flagging.deepl.com",
+      "indicator": "accounts.towerbrook.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "gtm.deepl.com",
+      "indicator": "accounts.urbanpartners.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "ita-free.www.deepl.com",
+      "indicator": "app.hv-piechowski.com",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "login-wall.deepl.com",
+      "indicator": "beanstalkconsultidea.info",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "press.a24films.com",
+      "indicator": "blocket.apps-online-28circle.com",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "s.deepl.com",
+      "indicator": "coldacqpartners.co",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "securesold.com",
+      "indicator": "coldacqpipeline.info",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "shop.a24films.com",
+      "indicator": "gp-799-e2e-happy-paths.review.allshares.app",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "sl.deepl.com",
+      "indicator": "inpost.poland-payhub7.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "studio.a24films.com",
+      "indicator": "marktplaats.verification-page.pro",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "support.deepl.com",
+      "indicator": "paycoreaction-pl.shop",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "user-settings.www.deepl.com",
+      "indicator": "payu-nitro8.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vend-com.help",
+      "indicator": "poland-payhub1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.6897926.com",
+      "indicator": "poland-payhub5.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.a24films.com",
+      "indicator": "poland-payhub8.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.freshstep.com",
+      "indicator": "poland-payhub9.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www2.deepl.com",
+      "indicator": "relayo.info",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     },
     {
-      "type": "domain",
-      "indicator": "youcanseeeverything.movie",
+      "type": "revival",
+      "indicator": "payid.receive.sale",
       "operator": "A",
-      "first_seen": "2026-10-15T10:38:02Z"
+      "first_seen": "2026-10-15T16:03:11Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 1233,
+  "manual_review_candidates_pending": 1918,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
