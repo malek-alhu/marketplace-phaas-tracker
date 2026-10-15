@@ -174,3 +174,23 @@ remotion-qhxgrlsh3-remotion.vercel.app
 
 # --- Placeholder A records: dead/parked kit hosts get re-pointed here. Not origins.
 8.8.8.8
+
+# --- 2026-10-15 run: more legit sites carrying the same generic chunk 6930c2cc,
+# --- promoted before PR #111 could land (Issue #112).
+.a24films.com
+.deepl.com
+.hubblehq.com
+.rivalix.xyz
+.socialflow.vercel.app
+remotion-b67u3n6of-remotion.vercel.app
+remotion-c5uln984d-remotion.vercel.app
+remotion-cbv514b51-remotion.vercel.app
+
+# --- Cloudflare shared SNI certificates ("<hex>.sni.cloudflaressl.com"): one cert
+# --- covers many unrelated customers' hostnames, so CT on any one SAN pulls in all
+# --- of them (Issue #112: ~55 cold-email SaaS hostnames). Never operator hosts.
+.sni.cloudflaressl.com
+
+# --- Render's shared app platform: CT for the (false-positive) render.com apex
+# --- returned hundreds of unrelated customer apps. Kit has never run here.
+.onrender.com
