@@ -198,3 +198,8 @@ remotion-cbv514b51-remotion.vercel.app
 # --- 2026-10-15T11:36 run: two more legit sites carrying generic chunk 6930c2cc.
 .freshstep.com
 .coldacq.com
+
+# --- 2026-10-15T17:30 run: three more legit sites carrying generic chunk 6930c2cc.
+.7summits.com
+.allshares.app
+.hv-piechowski.com

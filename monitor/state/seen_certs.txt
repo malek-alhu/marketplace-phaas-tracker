@@ -7,12 +7,16 @@
 4fd5e4e8.sni.cloudflaressl.com
 58stw.com
 59c3c86e.sni.cloudflaressl.com
+6897926.com
 8908a875aaf56424af0d1307222aea73.deepl.com
 8x.immortal-x8.xyz
 9mwh.com
 a.ultima.yt
 a24films.com
+a24nexus.typeco.de
 aaa24.a24films.com
+aaa24.com
+aaa24.typeco.de
 abc.entendre.finance
 abcdefg.entendre.finance
 aboodabureziq.entendre.finance
@@ -49,8 +53,10 @@ admin-dev.hubblehq.com
 admin-staging.hubblehq.com
 admin-staging.leadmagic.io
 admin-stg.leadmagic.io
+admin.a24films.com
 admin.astra-ai.co
 admin.bridge-capital.ch
+admin.develop.a24films.com
 admin.hubblehq.com
 admin.leadmagic.io
 admin.localhost.render.com
@@ -131,6 +137,7 @@ api.admin.render.com
 api.app.a24films.com
 api.deepl.com
 api.entendre.finance
+api.freshstep.com
 api.hubblehq.com
 api.investclearly.com
 api.leadmagic.io
@@ -143,6 +150,7 @@ apidocs.preview.render.com
 apigw.leadmagic.io
 apis-test.leadmagic.io
 app-dev.deepl.com
+app-dev.freshstep.com
 app-test.deepl.com
 app-zzp7.app.render.com
 app-zzp7.onrender.com
@@ -303,6 +311,7 @@ booking-s.hubblehq.com
 booking.hubblehq.com
 bowrivercapital.virgil.ai
 brale.entendre.finance
+brand.freshstep.com
 brb.a24films.com
 breach-monitoring.versec.workers.dev
 breeze.entendre.finance
@@ -406,6 +415,7 @@ coder-ms-teams-8001.deepl.com
 coder-ms-teams-tcp.deepl.com
 coder-voice-ms-teams-tcp.deepl.com
 coinbound.entendre.finance
+coldacq.com
 community-auth.deepl.com
 community.leadmagic.io
 community.render.com
@@ -480,6 +490,7 @@ data.leadmagic.io
 dataenergy-om.entendre.finance
 datalogue.com
 db.render.com
+dccsigned.freshstep.com
 dcdda2ed.sni.cloudflaressl.com
 deedde.entendre.finance
 deel.entendre.finance
@@ -497,6 +508,7 @@ department-seats.innovativenurseeducator.com
 deploy.omnyn.com.br
 dev.a24films.com
 dev.deepl.com
+dev.freshstep.com
 dev.hubblehq.com
 dev.investclearly.com
 dev.lumail.io
@@ -506,6 +518,7 @@ dev3.hubblehq.com
 dev4.hubblehq.com
 dev5.hubblehq.com
 dev6.hubblehq.com
+develop.a24films.com
 developers.deepl.com
 dfclgzw.com
 dhanus-7lfc.app.render.com
@@ -556,7 +569,11 @@ elasti.entendre.finance
 elementmultiservices.com
 elies.deepl.com
 elmtrading.entendre.finance
+em.clorox.com
+em.freshstep.com
 em.leadmagic.io
+em.liquidplumr.com
+em.pinesol.com
 email-worker.hubblehq.com
 email.ci.leadmagic.io
 email.email.neptunedispatching.com
@@ -598,6 +615,9 @@ exponential.entendre.finance
 express-paycore24.cfd
 express-paycore24.cyou
 extension.beanstalkconsulting.co
+f-apple.freshstep.com
+f-iwin.freshstep.com
+facebook.freshstep.com
 facet-ai.app.render.com
 facet-ai.onrender.com
 factoria-automotriz-atd.tallerpro.io
@@ -641,10 +661,15 @@ frax.entendre.finance
 fred.entendre.finance
 freepo.entendre.finance
 freshdaily.tryprism.com
+freshstep.com
+freshstep.com.mx
+freshstep.com.pr
+fs-ms.freshstep.com
 fse.entendre.finance
 fsl.entendre.finance
 fuegenix-be.fuegenix.com
 fuegenix.com
+fuegenix.nl
 fuel3.entendre.finance
 fuel3sandbox-ashley.entendre.finance
 functions.bridge-capital.ch
@@ -691,6 +716,7 @@ handbooks.leadmagic.io
 hashsafe.entendre.finance
 haystax.entendre.finance
 hc-automotive-eirl.tallerpro.io
+healthmonitor.freshstep.com
 hedgey.entendre.finance
 hello-world-flat-sky-1b66.versec.workers.dev
 hello.render.com
@@ -783,6 +809,7 @@ landing.aaa24.a24films.com
 landing.app.render.com
 landing.leadmagic.io
 langfuse.shunkakinoki.com
+latam.freshstep.com
 lava.entendre.finance
 lb.leadmagic.io
 lbold.leadmagic.io
@@ -801,6 +828,7 @@ linea.entendre.finance
 link.leadmagic.io
 link.reigartkistlerdds.com
 links.bridge-capital.ch
+links.em.freshstep.com
 links.investclearly.com
 links.leadmagic.io
 links.lumail.io
@@ -830,6 +858,7 @@ loki.shunkakinoki.com
 longkun100.com
 loopcrypto.entendre.finance
 lp-generator.astra-ai.co
+lp.freshstep.com
 lp.fuegenix.com
 lp.leadmagic.io
 lucky-mud-a315.versec.workers.dev
@@ -838,6 +867,7 @@ lumail.io
 lygos.entendre.finance
 m.cnkstcd.com
 m.dfclgzw.com
+m.freshstep.com
 m.psd18.com
 m.reigartkistlerdds.com
 m.ultima.yt
@@ -911,6 +941,7 @@ msteams.hnd.deepl.com
 mta-sts.leadmagic.io
 multiservicios-max-5.tallerpro.io
 multritruc-diesel.tallerpro.io
+music.a24films.com
 mxcheck.leadmagic.io
 my-site.app.render.com
 my-static-site.app.render.com
@@ -926,6 +957,7 @@ negabarit.sbs
 nephos.entendre.finance
 neptunedispatching.com
 newsletter.leadmagic.io
+next.freshstep.com
 nexus.a24films.com
 ngrok-testing.virgil.ai
 nominatim.datalogue.com
@@ -1107,9 +1139,11 @@ postgres.staging.render.com
 posthog.render.com
 postman.leadmagic.io
 ppc.astra-ai.co
+ppr.freshstep.com
 premia-finance.entendre.finance
 premia.entendre.finance
 press.a24films.com
+preview.a24films.com
 preview.deferred.com
 preview.entendre.finance
 preview.investclearly.com
@@ -1143,6 +1177,11 @@ public.deferred.com
 publicaccess.a24films.com
 pv.leadmagic.io
 px.leadmagic.io
+qa-latam.freshstep.com
+qa-next.freshstep.com
+qa.freshstep.com
+qa.freshstep.com.mx
+qa.freshstep.com.pr
 qa.render.com
 qas9daj89fhj27252874.sbs
 qdscdq.com
@@ -1257,6 +1296,7 @@ saved-translations.www.test.deepl.com
 school.boin.uk
 scratchoffs.a24films.com
 scratchoffs.staging.a24films.com
+scratchoffs.staging.vod.typeco.de
 screeningroom.a24films.com
 screenings.a24films.com
 sean.deepl.com
@@ -1287,6 +1327,7 @@ showcase-neu.datalogue.com
 showcase.datalogue.com
 shrapnel.entendre.finance
 shunkakinoki.com
+sign.coldacq.com
 sign.leadmagic.io
 signup-sim-1844.tallerpro.io
 signup.leadmagic.io
@@ -1354,7 +1395,10 @@ staging-app.leadmagic.io
 staging-app.render.com
 staging-bulk.leadmagic.io
 staging.a24films.com
+staging.a24nexus.typeco.de
 staging.aaa24.a24films.com
+staging.aaa24.com
+staging.aaa24.typeco.de
 staging.account.a24films.com
 staging.astra-ai.co
 staging.deferred.com
@@ -1378,6 +1422,7 @@ status.shunkakinoki.com
 status.workbrew.com
 sto.leadmagic.io
 storybook.entendre.finance
+storybook.freshstep.com
 storybook.hubblehq.com
 storybook.shunkakinoki.com
 strapi-conf-demo.render.com
@@ -1414,6 +1459,7 @@ template.blog.shunkakinoki.com
 temporal.shunkakinoki.com
 test-api.app.render.com
 test-dup-subs.entendre.finance
+test-latam.freshstep.com
 test-missing-redirect-rule-nv2h.app.render.com
 test-missing-redirect-rule.app.render.com
 test-onboarding-1.entendre.finance
@@ -1422,6 +1468,9 @@ test-skip-everything.entendre.finance
 test-wallet-skip.entendre.finance
 test.a24films.com
 test.deepl.com
+test.freshstep.com
+test.freshstep.com.mx
+test.freshstep.com.pr
 test.uchooo.com
 test0907.entendre.finance
 test1.entendre.finance
@@ -1486,6 +1535,11 @@ trysparrow.onrender.com
 ttunguz.app.render.com
 turbo.shunkakinoki.com
 twinstake.entendre.finance
+tx.brita.com
+tx.clorox.com
+tx.freshstep.com
+tx.hiddenvalley.com
+tx.pawpointsrewards.com
 u.converto.com
 u.datalogue.ch
 u.datalogue.cloud
@@ -1591,6 +1645,7 @@ www.blog.hubblehq.com
 www.bridge-capital.ch
 www.building.hubblehq.com
 www.cnkstcd.com
+www.coldacq.com
 www.dacajncritter.com
 www.datalogue.com
 www.deepl.com
@@ -1603,8 +1658,12 @@ www.dwh-hh.intl.datalogue.com
 www.elementmultiservices.com
 www.emberbill.com
 www.entendre.finance
+www.freshstep.com
+www.freshstep.com.mx
+www.freshstep.com.pr
 www.fuegenix-be.fuegenix.com
 www.fuegenix.com
+www.healthmonitor.freshstep.com
 www.hubblehq.com
 www.huian189.com
 www.humancompostco.com
@@ -1612,8 +1671,10 @@ www.innovativenurseeducator.com
 www.investclearly.com
 www.jobs.deepl.com
 www.leadmagic.io
+www.links.em.freshstep.com
 www.logo.leadmagic.io
 www.longkun100.com
+www.lp.freshstep.com
 www.lumail.io
 www.mb.leadmagic.io
 www.metrics.leadmagic.io
