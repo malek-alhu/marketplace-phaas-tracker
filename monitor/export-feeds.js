@@ -4,7 +4,9 @@
 // Usage: node monitor/export-feeds.js <repo-root>   (writes <repo-root>/feeds/*)
 //
 // Sources, in order of trust:
-//   1. docs/indicators.csv — human-reviewed IOCs (domains, Operator-B origin IPs).
+//   1. docs/indicators.csv — human-reviewed IOCs (domains, real origin IPs: all of
+//      Operator B, and Operator A's non-Cloudflare dedicated origins since 2026-10-14;
+//      Operator A's Cloudflare edge IPs are shared CDN and never exported).
 //   2. monitor/findings.csv — only tier-1 domains confirmed by a kit fingerprint
 //      (source "urlscan-kit(...)"), so a fresh rotation reaches the feed before
 //      anyone curates it.
@@ -52,7 +54,12 @@ function parseCsv(file) {
 const listEntries = file => lines(file).map(l => l.replace(/#.*/, "").trim()).filter(Boolean);
 
 const deny = listEntries(p("monitor/denylist.txt")).map(e => e.toLowerCase());
-const isDenied = v => deny.some(d => (d.endsWith(".") ? v.startsWith(d) : v === d));
+// ".example.com" = suffix (the domain and every subdomain); "1.2.3." = IPv4 prefix.
+const isDenied = v => {
+  const x = String(v).toLowerCase();
+  return deny.some(d => (d.startsWith(".") ? x === d.slice(1) || x.endsWith(d)
+    : d.endsWith(".") ? x.startsWith(d) : x === d));
+};
 const legitVictims = listEntries(p("monitor/watchlist.txt"))
   .map(l => l.split(/\s+/)).filter(f => f[1] === "dnsonly").map(f => f[0].toLowerCase());
 const isVictimSite = d => legitVictims.some(a => d === a || d.endsWith("." + a));
@@ -78,8 +85,9 @@ for (const r of parseCsv(p("docs/indicators.csv"))) {
   if (r.type === "domain" && ["A", "B", "redirector"].includes(op)) {
     addDomain(r.indicator, { operator: op === "redirector" ? "A" : op, role: op === "redirector" ? "redirector" : "kit",
       brand: r.brand, first_seen: day(r.first_seen), source: "curated" });
-  } else if (r.type === "ip" && op === "B" && IPV4_RE.test(r.indicator) && !isDenied(r.indicator)) {
-    ips.set(r.indicator, { operator: "B", first_seen: day(r.first_seen), note: r.notes || "" });
+  } else if (r.type === "ip" && (op === "B" || (op === "A" && !/^AS13335/.test(r.asn || "")))
+             && IPV4_RE.test(r.indicator) && !isDenied(r.indicator)) {
+    ips.set(r.indicator, { operator: op, first_seen: day(r.first_seen), note: r.notes || "" });
   }
 }
 
@@ -113,7 +121,7 @@ fs.writeFileSync(path.join(OUT, "adblock.txt"),
   ["! Title: Marketplace PhaaS (Classiscam/Telekopye-class) kit domains",
    "! Homepage: https://github.com/malek-alhu/marketplace-phaas-tracker",
    "! Expires: 1 day", `! Entries: ${sorted.length}`, ""].join("\n") + sorted.map(d => `||${d}^`).join("\n") + "\n");
-fs.writeFileSync(path.join(OUT, "origin-ips.txt"), header("Marketplace PhaaS — Operator-B real origin IPs (bulletproof hosting)", ips.size) + [...ips.keys()].sort().join("\n") + "\n");
+fs.writeFileSync(path.join(OUT, "origin-ips.txt"), header("Marketplace PhaaS — real origin IPs (Operator-B bulletproof hosting + Operator-A dedicated kit origins)", ips.size) + [...ips.keys()].sort().join("\n") + "\n");
 
 // STIX 2.1 bundle (deterministic ids: UUIDv5 over a fixed namespace).
 const NS = Buffer.from("6f1c1b9e3d2a4c5b8e7f0a1b2c3d4e5f", "hex");
@@ -148,7 +156,7 @@ for (const d of sorted) {
     ["phishing", m.role, ...(m.brand ? [m.brand] : []), ...(active.has(d) ? ["resolving"] : [])]);
 }
 for (const ip of [...ips.keys()].sort()) {
-  indicator(`ip:${ip}`, `[ipv4-addr:value = '${ip}']`, ip, "B", ips.get(ip).first_seen, ["phishing", "origin"]);
+  indicator(`ip:${ip}`, `[ipv4-addr:value = '${ip}']`, ip, ips.get(ip).operator, ips.get(ip).first_seen, ["phishing", "origin"]);
 }
 indicator("url-pattern:entry", "[url:value MATCHES '/a/[A-Za-z0-9_-]{12,24}\\\\?us=(gm|dlm|sml|ym|cg)']",
   "Operator-A per-victim entry URL", "A", "2026-06-15", ["phishing", "url-pattern"]);

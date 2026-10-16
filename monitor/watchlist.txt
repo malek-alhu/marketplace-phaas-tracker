@@ -119,6 +119,20 @@ reigartkistlerdds.com   dnsonly 1 A
 donshriversvideodrain.com dnsonly 1 A
 periyartigers.com       dnsonly 1 A
 
+# === Operator A — dedicated origins, Dedik Services Limited / AS207043 (2026-10-14)
+# The Next.js kit, normally Cloudflare-fronted, was also served directly from
+# these servers in the 2026-10-14 wave (that day's detection Issues): 193.111.117.211 (PL
+# range, 13 kit apexes), 91.92.34.221 (DE, 3), 151.243.18.165 (US, 1). urlscan
+# page.ip pivots on them surface new apexes; in check.sh they also count as
+# "live" kit hosting (CT gate, revival, IP delta) instead of "left Cloudflare".
+# All are below the urlscan-ip shared-host breaker (15 apexes) — if a future
+# run warns one looks shared, review it here.
+193.111.117.211  origin 1 A
+91.92.34.221     origin 1 A
+151.243.18.165   origin 1 A
+93.152.220.94    origin 1 A   # Dedik GB range; vinted.6897926.com served the kit here 2026-10-15
+93.152.205.11    origin 1 A   # Dedik (AS207043); kit apex fraktorderinfo12364l.shop moved here 2026-10-16
+
 # === Operator B — real bulletproof origins, 1337 Services GmbH / AS210558
 # === (Hamburg DE). Live-verified 2026-09-25: dominant or sole tenant is
 # === *-subito.it phishing on every IP below (one as recently active as

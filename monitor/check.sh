@@ -215,28 +215,46 @@ archive_kit_body() {
 }
 
 # --- denylist: never query/resolve/record anything on this list -------------
-# Exact apex/domain/IP matches, plus dotted-IPv4 PREFIXES ending in "." (this
-# repo has no CIDR math; a prefix is the supported shorthand for "whole pool").
-DENY_EXACT="$TMP/deny_exact"; DENY_PREFIX="$TMP/deny_prefix"
-: > "$DENY_EXACT"; : > "$DENY_PREFIX"
+# Exact apex/domain/IP matches, dotted-IPv4 PREFIXES ending in "." (this repo
+# has no CIDR math; a prefix is the supported shorthand for "whole pool"), and
+# domain SUFFIXES starting with "." (".example.com" denies example.com itself
+# and every subdomain of it — for shared platforms like *.workers.dev tenants).
+DENY_EXACT="$TMP/deny_exact"; DENY_PREFIX="$TMP/deny_prefix"; DENY_SUFFIX="$TMP/deny_suffix"
+: > "$DENY_EXACT"; : > "$DENY_PREFIX"; : > "$DENY_SUFFIX"
 while IFS= read -r line; do
   line="${line%%#*}"; line="$(printf '%s' "$line" | tr -d '[:space:]')"
   [ -z "$line" ] && continue
   if [[ "$line" == *. ]] && [[ "$line" =~ ^[0-9.]+\.$ ]]; then echo "$line" >> "$DENY_PREFIX"
+  elif [[ "$line" == .?* ]]; then printf '%s\n' "$line" | tr '[:upper:]' '[:lower:]' >> "$DENY_SUFFIX"
   else printf '%s\n' "$line" | tr '[:upper:]' '[:lower:]' >> "$DENY_EXACT"; fi
 done < "$DENYF"
 sort -u "$DENY_EXACT" -o "$DENY_EXACT"
-is_denied() {   # exact-match check (apex/domain/token/IP) — case-insensitive
+is_denied() {   # exact/prefix/suffix check (apex/domain/token/IP) — case-insensitive
   local x; x="$(printf '%s' "$1" | tr '[:upper:]' '[:lower:]')"
   grep -qxF "$x" "$DENY_EXACT" 2>/dev/null && return 0
   while IFS= read -r pfx; do [ -n "$pfx" ] && [[ "$x" == "$pfx"* ]] && return 0; done < "$DENY_PREFIX"
+  while IFS= read -r sfx; do [ -n "$sfx" ] && { [ "$x" = "${sfx#.}" ] || [[ "$x" == *"$sfx" ]]; } && return 0; done < "$DENY_SUFFIX"
   return 1
 }
-# RFC1918 / loopback / link-local — never a real internet-facing operator origin.
+# Filter a stream of domains/IPs (one per line, already lower-cased) down to the
+# ones NOT on the denylist — bulk form of is_denied for whole state files.
+drop_denied() {
+  awk -v E="$DENY_EXACT" -v P="$DENY_PREFIX" -v S="$DENY_SUFFIX" '
+    BEGIN { while ((getline l < E) > 0) ex[l]=1
+            while ((getline l < P) > 0) if (l!="") pf[++np]=l
+            while ((getline l < S) > 0) if (l!="") sf[++ns]=l }
+    { x=tolower($1); if (x in ex) next
+      for (i=1;i<=np;i++) if (index(x,pf[i])==1) next
+      for (i=1;i<=ns;i++) { b=substr(sf[i],2); if (x==b || (length(x)>length(sf[i]) && substr(x,length(x)-length(sf[i])+1)==sf[i])) next }
+      print }'
+}
+# RFC1918 / loopback / link-local / multicast+reserved — never a real
+# internet-facing operator origin.
 is_bogon_ip() {
   case "$1" in
     127.*|10.*|192.168.*|169.254.*|0.*|::1|fc[0-9a-f][0-9a-f]:*|fe80:*) return 0 ;;
     172.1[6-9].*|172.2[0-9].*|172.3[0-1].*) return 0 ;;
+    22[4-9].*|23[0-9].*|24[0-9].*|25[0-5].*) return 0 ;;   # multicast/reserved (parking placeholders like 224.0.33.211)
     *) return 1 ;;
   esac
 }
@@ -267,6 +285,10 @@ while IFS=$'\t' read -r a op; do
   is_denied "$a" && continue
   APEXES+=("$a"); TIER["$a"]=1; OPER["$a"]="${op:-A}"
 done < "$AUTO_APEX"
+KIT_ORIGINS="$TMP/kit_origins"; : > "$KIT_ORIGINS"
+for ip in "${ORIGINS[@]:-}"; do
+  [ -n "$ip" ] && [ "${OPER[$ip]:-}" = "A" ] && [ "${TIER[$ip]:-}" = "1" ] && echo "$ip" >> "$KIT_ORIGINS"
+done
 
 # --- ~victim subdomain suppression ------------------------------------------
 # A dnsonly entry is a compromised LEGIT site: we DNS+scan the apex itself but
@@ -296,6 +318,16 @@ is_cf_ip() {
     2606:4700:*|2803:f800:*|2405:b500:*|2405:8100:*|2a06:98c1:*) return 0 ;;
     *) return 1 ;;
   esac
+}
+# Curated Operator-A origin IPs (watchlist.txt "<ip> origin 1 A"; list built in
+# $KIT_ORIGINS after the watchlist parse). Since 2026-10-14 the kit also runs
+# directly on dedicated non-Cloudflare servers (Dedik Services, AS207043), so a
+# host resolving to one of these is LIVE kit, not "dropped / left Cloudflare".
+is_kit_origin() {
+  [ -n "${1:-}" ] && grep -qxF "$1" "${KIT_ORIGINS:-/dev/null}" 2>/dev/null
+}
+is_kit_live_ip() { # Cloudflare edge or a curated Operator-A origin
+  is_cf_ip "$1" || is_kit_origin "$1"
 }
 
 # ====================== record helper + delta logic ==========================
@@ -526,7 +558,10 @@ awk -F'\t' -v ts="$TS" -v trackedfile="$TRACKED" '
     for (h in cand) if (!(h in seen)) print h"\t"ctier[h]"\t"coper[h]"\t"csrc[h]"\t"ts"\t\t0\tactive"
   }
 ' "$CANDF" > "$TMP/tracked_step1"
-mv "$TMP/tracked_step1" "$TRACKED"
+# Existing rows are kept as-is above, so a host denylisted AFTER it was tracked
+# would otherwise stay forever (and keep vouching for hashes as "known kit" in
+# the chaining gate below): purge every denylisted host on each run.
+drop_denied < "$TMP/tracked_step1" > "$TRACKED"
 
 # ============================ 4. DNS =========================================
 # Resolve only ACTIVE tracked hosts every run, plus DEAD hosts on a 1-in-4-runs
@@ -566,15 +601,16 @@ fi
 # A cert is "new" the first time we see it, which includes the whole CT history
 # of an apex the first time it is queried. On its own it shows nothing is
 # running. On 2026-10-04/05 about 80% of tier-1 rows (#78-#83) were certs for
-# NXDOMAIN, SERVFAIL or parked hosts. Operator A is always behind Cloudflare, so a
-# cert is tier 1 only if this run's DNS pass saw the name on a Cloudflare edge
-# IP. Otherwise it is logged tier 2 and parked in ct_pending.tsv. A parked name
-# that comes up on Cloudflare within CT_PENDING_DAYS alerts then ("went live").
+# NXDOMAIN, SERVFAIL or parked hosts. Operator A runs behind Cloudflare or (since
+# 2026-10-14) on its curated dedicated origins, so a cert is tier 1 only if this
+# run's DNS pass saw the name on a Cloudflare edge IP or a kit origin IP
+# (is_kit_live_ip). Otherwise it is logged tier 2 and parked in ct_pending.tsv.
+# A parked name that comes up live within CT_PENDING_DAYS alerts then ("went live").
 # After that, the dead-host revival check in section 4 covers it.
 CT_PENDING_DAYS=14
-live_on_cf() { # host -> 0 if this run's DNS pass resolved it to a Cloudflare edge IP
+live_on_cf() { # host -> 0 if this run's DNS pass resolved it to a Cloudflare edge IP or kit origin
   local ip
-  while IFS= read -r ip; do is_cf_ip "$ip" && return 0; done < <(awk -F'\t' -v h="$1" '$1==h{print $2}' "$DNSPAIRS")
+  while IFS= read -r ip; do is_kit_live_ip "$ip" && return 0; done < <(awk -F'\t' -v h="$1" '$1==h{print $2}' "$DNSPAIRS")
   return 1
 }
 ct_cutoff="$(date -u -d "@$(( $(date -u -d "$TS" +%s) - CT_PENDING_DAYS*86400 ))" +%FT%TZ)"
@@ -582,7 +618,7 @@ ct_cutoff="$(date -u -d "@$(( $(date -u -d "$TS" +%s) - CT_PENDING_DAYS*86400 ))
 while IFS=$'\t' read -r name since; do                       # names parked by earlier runs
   [ -z "${name:-}" ] && continue
   if live_on_cf "$name"; then
-    record "cert" "$name" "ct-log (apex subdomain — went live on Cloudflare)" "" 1 A
+    record "cert" "$name" "ct-log (apex subdomain — went live on Cloudflare/kit origin)" "" 1 A
     echo "$name" >> "$TMP/ct_live"
   elif [[ ! "${since:-}" < "$ct_cutoff" ]]; then
     printf '%s\t%s\n' "$name" "$since" >> "$TMP/ct_pending_new"
@@ -593,7 +629,7 @@ comm -13 "$SEEN_CERT" "$CERTS_APEX" | grep -v '^$' | while IFS= read -r name; do
     record "cert" "$name" "ct-log (apex subdomain)" "" 1 A
     echo "$name" >> "$TMP/ct_live"
   else
-    record_quiet "cert" "$name" "ct-log (apex subdomain — not live on Cloudflare)" "" 2 A
+    record_quiet "cert" "$name" "ct-log (apex subdomain — not live on Cloudflare/kit origin)" "" 2 A
     printf '%s\t%s\n' "$name" "$TS" >> "$TMP/ct_pending_new"
   fi
 done
@@ -621,6 +657,9 @@ done
 # recorded as tier-2 (findings.csv, no Issue); a non-CF IP additionally goes to
 # discovered.csv for human review. Real Operator-A alerts come from new CT
 # subdomains, new kit-fingerprint domains, and revival-on-Cloudflare instead.
+# Exception: a curated Operator-A origin (is_kit_origin, e.g. the Dedik
+# Services servers) is LIVE kit hosting, not "left Cloudflare" — recorded
+# tier 2 as such, never sent to discovered.csv.
 # Other operators keep their host's own tier.
 # (No commas in the source/asn text: findings.csv is unquoted CSV.)
 cut -f2 "$DNSPAIRS" | sort -u > "$TMP/ips_now"
@@ -631,6 +670,8 @@ comm -13 "$SEEN_DNS" "$TMP/ips_now" | grep -v '^$' | while IFS= read -r ip; do
   if is_cf_ip "$ip"; then
     rec=record; [ "$htier" = "2" ] && rec=record_quiet
     "$rec" "ip" "$ip" "dns (${host})" "Cloudflare-edge" "$htier" "$hop"
+  elif is_kit_origin "$ip"; then
+    record_quiet "ip" "$ip" "dns (${host})" "known Operator-A kit origin (watchlist)" 2 "$hop"
   else
     rec=record; [ "$htier" = "2" ] && rec=record_quiet
     "$rec" "ip" "$ip" "dns (${host})" "NON-CF — host left Cloudflare (manual review)" "$htier" "$hop"
@@ -682,7 +723,7 @@ sort -u "$KITAPEX" 2>/dev/null | grep -v '^$' | cut -f1 | sort -u | comm -23 - "
   printf 'apex,%s,promoted,kit-fingerprint confirmed,%s\n' "$a" "$TS" >> "$DISCO"
   echo "[$TS] AUTO-PROMOTE apex $a (kit-fingerprint, op=${op:-A}) -> now CT/DNS/scan-watched" >> "$LOG"
 done
-sort -u "$AUTO_APEX" -o "$AUTO_APEX"
+sort -u "$AUTO_APEX" | drop_denied > "$TMP/auto_apex.new"; mv "$TMP/auto_apex.new" "$AUTO_APEX"
 
 # ================= HASH CHAINING (URLSCAN_KEY required) ======================
 # Keeps fingerprints.txt current as the kit gets rebuilt: fetch this run's
@@ -691,11 +732,12 @@ sort -u "$AUTO_APEX" -o "$AUTO_APEX"
 # (otherwise log it as a review candidate — never trust a single co-occurrence).
 if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
   KNOWN_HASHES="$TMP/known_hashes"; cut -f1 "$FPRINTS" | grep -v '^#' | grep -v '^$' >> "$KNOWN_HASHES" 2>/dev/null || : > "$KNOWN_HASHES"
-  # Known kit infrastructure = reviewed indicators + watchlist apexes + tracked hosts.
+  # Known kit infrastructure = reviewed indicators + watchlist apexes + tracked hosts,
+  # minus anything denylisted (reviewed false positives must never vouch for a hash).
   KNOWN_DOMS="$TMP/known_doms"
   { awk -F, 'NR>1 && $1=="domain"{print $2}' "$ROOT/docs/indicators.csv" 2>/dev/null
     sed 's/#.*//' "$WATCH" | awk '$2=="apex"{print $1}'
-    cut -f1 "$TRACKED"; cut -f1 "$AUTO_APEX"; } | tr '[:upper:]' '[:lower:]' | grep -v '^$' | sort -u > "$KNOWN_DOMS"
+    cut -f1 "$TRACKED"; cut -f1 "$AUTO_APEX"; } | tr '[:upper:]' '[:lower:]' | grep -v '^$' | drop_denied | sort -u > "$KNOWN_DOMS"
   sort -t "$(printf '\t')" -k1,1n "$FRESH_HITS" | cut -f2 | awk '!seen[$0]++' | head -n 3 | while IFS= read -r uuid; do
     [ -z "$uuid" ] && continue
     hashes="$(us_result "$uuid" | node "$PARSE" urlscan-hashes | sort -u)"
@@ -704,9 +746,12 @@ if [ -n "${URLSCAN_KEY:-}" ] && [ -s "$FRESH_HITS" ]; then
       # Accept only chunks that co-occur with >=2 ALREADY-KNOWN kit domains and are
       # not ubiquitous (generic Next.js/Cloudflare chunks hit thousands of sites).
       # Validated 2026-10-02 on the rebuilt kit: 13/13 kit chunks accepted, 12/12
-      # generic ones rejected (docs/operation-dossier.md §15).
-      IFS=$'\t' read -r total cnt <<< "$(us_search "hash:\"$h\"" | node "$PARSE" urlscan-known "$KNOWN_DOMS")"
-      if [ "${cnt:-0}" -ge 2 ] && [ "${total:-0}" -lt 1000 ]; then
+      # generic ones rejected (docs/operation-dossier.md §15). Since 2026-10-14 at
+      # least half the apexes carrying the chunk must also be known kit apexes:
+      # a generic Turbopack runtime chunk (62 apexes, only 16 of them kit) passed
+      # the first two checks and flooded Issue #109 with ~50 legitimate sites.
+      IFS=$'\t' read -r total cnt napex nknown <<< "$(us_search "hash:\"$h\"" | node "$PARSE" urlscan-known "$KNOWN_DOMS")"
+      if [ "${cnt:-0}" -ge 2 ] && [ "${total:-0}" -lt 1000 ] && [ $(( ${nknown:-0} * 2 )) -ge "${napex:-1}" ]; then
         printf '%s\tchained\t%s\t%s\tchained\n' "$h" "${TS%%T*}" "${TS%%T*}" >> "$FPRINTS"
         echo "[$TS] HASH-CHAIN new fingerprint $h co-occurs with $cnt known kit domains ($total scans) -> added to fingerprints.txt" >> "$LOG"
         # Archive the actual source, same convention as kit-source/raw_bodies/ —
@@ -790,6 +835,8 @@ if [ -s "$TMP/revived" ]; then
     htier="${TIER[$h]:-1}"; hop="${OPER[$h]:-A}"
     if is_cf_ip "$ip"; then
       record "revival" "$h" "dead/retired host reappeared ON CLOUDFLARE — possible operator reuse" "$ip" "$htier" "$hop"
+    elif is_kit_origin "$ip"; then
+      record "revival" "$h" "dead/retired host reappeared ON A KNOWN OPERATOR-A ORIGIN — operator reuse" "$ip" "$htier" "$hop"
     else
       echo "[$TS] REVIVED-NONCF $h -> $ip (dead host re-pointed to a non-CF IP; logged only, not alerted — this exact pattern caused the 2026-09-10 incident)" >> "$LOG"
     fi

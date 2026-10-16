@@ -57,8 +57,15 @@ RES='{"data":{"requests":[{"request":{"request":{"url":"https://k.test/_next/sta
 check "urlscan-hashes reads requests[].response.hash (urlscan's real location)" '[ "$(printf "%s" "$RES" | $P urlscan-hashes)" = "aaaa0000000000000000000000000000000000000000000000000000000000aa" ]'
 KN="$(mktemp)"; printf 'known1.test\nknown2.test\n' > "$KN"
 SR='{"total":64,"results":[{"page":{"apexDomain":"known1.test","domain":"x.known1.test"}},{"page":{"apexDomain":"known2.test","domain":"known2.test"}},{"page":{"apexDomain":"random.test"}}]}'
-check "urlscan-known counts co-occurrence with KNOWN kit domains only" '[ "$(printf "%s" "$SR" | $P urlscan-known "$KN")" = "$(printf "64\t2")" ]'
+check "urlscan-known: total, known domains, distinct apexes, known apexes" '[ "$(printf "%s" "$SR" | $P urlscan-known "$KN")" = "$(printf "64\t2\t3\t2")" ]'
 check "chaining gate requires >=2 known domains and <1000 total scans" 'grep -q "\"\${cnt:-0}\" -ge 2 \] && \[ \"\${total:-0}\" -lt 1000" "$CS"'
+# 2026-10-14 (#109): a generic Turbopack chunk co-occurred with 2+ kit apexes but
+# mostly with unrelated sites, got chained, and promoted 50+ legit sites.
+gate_expr="$(grep -m1 '"\${cnt:-0}" -ge 2 \] &&' "$CS" | sed 's/^ *if //; s/; then.*$//')"
+gate() { local total="$1" cnt="$2" napex="$3" nknown="$4"; eval "$gate_expr"; }
+check "gate accepts a kit chunk seen mostly on known kit apexes (14/14)"  'gate 20 14 14 14'
+check "gate rejects a generic chunk: 2 known of 6 apexes (#109)"          '! gate 64 2 6 2'
+check "gate rejects a chunk on <1000 scans but only 1 known domain"       '! gate 10 1 1 1'
 rm -f "$KN"
 
 echo "== check.sh: fingerprint freshness never wipes the roster =="
@@ -79,17 +86,32 @@ order="$(printf '2\thashhit\n1\turlhit\n2\thashhit\n1\turlhit2\n' | sort -t "$(p
 check "chaining picks URL+ASN hits first, deduped (rebuilt kit visible first)" '[ "$order" = "urlhit,urlhit2,hashhit" ]'
 check "check.sh uses that exact priority pipeline"                        'grep -qF "sort -t \"\$(printf '"'"'\\t'"'"')\" -k1,1n \"\$FRESH_HITS\" | cut -f2 | awk '"'"'!seen[\$0]++'"'"' | head -n 3" "$CS"'
 
-echo "== check.sh: CT certs alert only when live on Cloudflare (#78-#83 noise) =="
+echo "== check.sh: denylist suffixes, bulk purge, bogons (2026-10-14 cleanup) =="
+DN="$(mktemp -d)"
+printf '# c\nexact.test\n.shared.test\n10.9.\n' > "$DN/deny"
+{ echo "TMP=$DN; DENYF=$DN/deny"; sed -n '/^DENY_EXACT=/,/^sort -u "\$DENY_EXACT"/p' "$CS"
+  sed -n '/^is_denied()/,/^}/p' "$CS"; sed -n '/^drop_denied()/,/^}/p' "$CS"; sed -n '/^is_bogon_ip()/,/^}/p' "$CS"; } > "$DN/f.sh"
+dres="$( . "$DN/f.sh"; for x in exact.test EXACT.test shared.test a.b.shared.test notshared.test x.exact.test 10.9.1.1 10.99.1.1; do is_denied "$x" && printf '%s ' "$x"; done )"
+check "is_denied: exact + case, .suffix covers apex and subdomains only, IPv4 prefix" '[ "$dres" = "exact.test EXACT.test shared.test a.b.shared.test 10.9.1.1 " ]'
+kept="$( . "$DN/f.sh"; printf 'keep.test\t1\tA\nexact.test\t1\tA\nw.shared.test\t1\tA\nnotshared.test\t1\tA\n10.9.0.1\n' | drop_denied | cut -f1 | paste -sd, )"
+check "drop_denied purges exact/suffix/prefix rows, keeps the rest whole" '[ "$kept" = "keep.test,notshared.test" ]'
+bres="$( . "$DN/f.sh"; for x in 224.0.33.211 239.1.1.1 8.8.8.8 193.111.117.211 223.5.5.5; do is_bogon_ip "$x" && printf '%s ' "$x"; done )"
+check "multicast placeholders (224.0.33.211) are bogons, real IPs are not" '[ "$bres" = "224.0.33.211 239.1.1.1 " ]'
+rm -rf "$DN"
+
+echo "== check.sh: CT certs alert only when live on Cloudflare/kit origin (#78-#83 noise) =="
 CT="$(mktemp -d)"
-{ sed -n '/^is_cf_ip()/,/^}/p' "$CS"; sed -n '/^record()/,/^}/p' "$CS"; sed -n '/^record_quiet()/,/^}/p' "$CS"
+{ sed -n '/^is_cf_ip()/,/^}/p' "$CS"; sed -n '/^is_kit_origin()/,/^}/p' "$CS"; sed -n '/^is_kit_live_ip()/,/^}/p' "$CS"
+  sed -n '/^record()/,/^}/p' "$CS"; sed -n '/^record_quiet()/,/^}/p' "$CS"
   sed -n '/^# ---- DELTAS: new certs/,/^comm -13 "\$SEEN_CERT" "\$CERTS_TOK"/p' "$CS" | sed '$d'; } > "$CT/block.sh"
-printf 'live.test\t104.21.1.1\nparked.test\t185.53.179.136\nback.test\t2606:4700::1\n' > "$CT/dns"
-printf 'dead.test\nlive.test\nparked.test\n' > "$CT/certs"
+printf 'live.test\t104.21.1.1\nparked.test\t185.53.179.136\nback.test\t2606:4700::1\ndedik.test\t193.111.117.211\n' > "$CT/dns"
+printf 'dead.test\ndedik.test\nlive.test\nparked.test\n' > "$CT/certs"
 printf 'back.test\t2099-01-09T00:00:00Z\nold.test\t2098-12-01T00:00:00Z\n' > "$CT/pending"
+printf '193.111.117.211\n' > "$CT/kito"
 ( TMP="$CT"; TS=2099-01-10T00:00:00Z; FIND="$CT/find"; LOG="$CT/log"; NEW1="$CT/new1"; PENDOPB="$CT/opb"
-  DNSPAIRS="$CT/dns"; CERTS_APEX="$CT/certs"; SEEN_CERT="$CT/seen"; CT_PENDING="$CT/pending"
+  DNSPAIRS="$CT/dns"; CERTS_APEX="$CT/certs"; SEEN_CERT="$CT/seen"; CT_PENDING="$CT/pending"; KIT_ORIGINS="$CT/kito"
   : > "$SEEN_CERT"; : > "$NEW1"; . "$CT/block.sh" ) >/dev/null 2>&1
-check "tier-1 cert alerts = live-on-CF new cert + parked cert that went live" '[ "$(awk "{print \$2}" "$CT/new1" | sort | paste -sd,)" = "back.test,live.test" ]'
+check "tier-1 cert alerts = live on CF or a kit origin + parked cert that went live" '[ "$(awk "{print \$2}" "$CT/new1" | sort | paste -sd,)" = "back.test,dedik.test,live.test" ]'
 check "certs for NXDOMAIN or off-Cloudflare names are logged tier 2"     '[ "$(awk -F, "\$6==2{print \$2}" "$CT/find" | sort | paste -sd,)" = "dead.test,parked.test" ]'
 check "ct_pending.tsv keeps not-yet-live certs, drops went-live + >14d"  '[ "$(cut -f1 "$CT/pending" | paste -sd,)" = "dead.test,parked.test" ]'
 rm -rf "$CT"
@@ -129,6 +151,12 @@ check "watchlist.txt: every entry is <entry> <kind> <tier> <operator>" \
 denied="$(sed 's/#.*//' "$D" | tr -d ' \t' | grep -v '^$' | grep -v '\.$')"
 check "no denylisted entry is in watchlist.txt or tracked_hosts.tsv" \
       '[ -z "$(printf "%s\n" "$denied" | grep -xFf - <( (sed "s/#.*//" "$W" | awk "{print \$1}"; cut -f1 "$TH" 2>/dev/null) | grep -v "^$") )" ]'
+sfx="$(printf "%s\n" "$denied" | grep "^\." | sed "s/^\.//")"
+check "no watchlist/tracked host falls under a denylisted .suffix" \
+      '[ -z "$( (sed "s/#.*//" "$W" | awk "{print \$1}"; cut -f1 "$TH" 2>/dev/null) | grep -v "^$" | awk -v L="$(printf "%s " $sfx)" "BEGIN{n=split(L,s,\" \")} {for(i=1;i<=n;i++) if (\$1==s[i] || substr(\$1,length(\$1)-length(s[i]))==\".\" s[i]) print}")" ]'
+check "kit chunk 6930c2cc (generic Turbopack runtime, #109) is not a fingerprint" '! grep -q "^6930c2cc" "$MON/fingerprints.txt"'
+check "every curated Operator-A origin is a plain IPv4 and not denylisted" \
+      '[ -z "$(sed "s/#.*//" "$W" | awk "\$2==\"origin\" && \$4==\"A\"{print \$1}" | grep -vE "^([0-9]{1,3}\.){3}[0-9]{1,3}\$")" ] && [ -z "$(sed "s/#.*//" "$W" | awk "\$2==\"origin\"{print \$1}" | grep -xFf <(printf "%s\n" "$denied"))" ]'
 check "snapshot.js emits valid JSON"                                     'node "$MON/snapshot.js" "$MON" | node -e "JSON.parse(require(\"fs\").readFileSync(0,\"utf8\"))"'
 
 echo "== export-feeds.js: public feeds never harm victims =="
