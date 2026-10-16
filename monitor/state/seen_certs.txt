@@ -428,6 +428,7 @@ clerk.zt5.leadmagic.io
 cli-proxy.shunkakinoki.com
 cli.leadmagic.io
 click.deferred.com
+clickfunnel-v1.lumail.io
 client.go4lead.com
 client.leadmagic.io
 clients.leadmagic.io
@@ -1720,6 +1721,7 @@ poland-payhub.buzz
 poland-payhub.qpon
 poland-payhub4.eu.cc
 poland-payhub8.eu.cc
+poland-payhub9.eu.cc
 polygon.entendre.finance
 polymerlabs.entendre.finance
 popcorn.a24films.com

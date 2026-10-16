@@ -203,3 +203,12 @@ remotion-cbv514b51-remotion.vercel.app
 .7summits.com
 .allshares.app
 .hv-piechowski.com
+
+# --- 2026-10-16T03:18 run: more legit sites carrying generic chunk 6930c2cc.
+.codely.com
+.syscore.app
+cybergtm-site-preview.pages.dev
+remotion-36qqufa1q-remotion.vercel.app
+remotion-fk4bo4fbt-remotion.vercel.app
+remotion-git-codex-fix-web-renderer-border-radius-remotion.vercel.app
+remotion-git-codex-revert-canvas-outline-migration-remotion.vercel.app
