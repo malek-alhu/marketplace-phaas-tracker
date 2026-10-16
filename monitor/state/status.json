@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T03:18:15Z",
-  "last_run_at": "2026-10-16T02:31:06Z",
-  "last_run_summary": "[2026-10-16T02:31:06Z] 49 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-16T02:31:06Z] HEALTH certspotter=13/166 crtsh=42/61 urlscan=403/403 dns-google=4940/4940 dns-cf=4940/4940",
+  "generated_at": "2026-10-16T11:40:54Z",
+  "last_run_at": "2026-10-16T10:24:52Z",
+  "last_run_summary": "[2026-10-16T10:24:52Z] 32 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-16T10:24:52Z] HEALTH certspotter=15/172 crtsh=189/192 urlscan=415/415 dns-google=5084/5084 dns-cf=5084/5084",
   "tracked_hosts": {
-    "total": 2668,
+    "total": 2732,
     "by_status": {
-      "dead": 203,
-      "active": 2465
+      "dead": 215,
+      "active": 2517
     },
     "by_operator_tier": {
-      "A:tier1": 2668
+      "A:tier1": 2732
     }
   },
   "fingerprints": [
@@ -933,131 +933,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1110
+    "A": 1142
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "anorsa.tallerpro.io",
+      "indicator": "api.render.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "apax.virgil.ai",
+      "indicator": "api.replicas.dev",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "api-docs.render.com",
+      "indicator": "api.shunkakinoki.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "api-staging.entendre.finance",
+      "indicator": "api.staging.a24films.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "api.a24films.com",
+      "indicator": "apidocs.preview.render.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "api.app.a24films.com",
+      "indicator": "app.beanstalkconsulting.co",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "beanstalllkconsultcore.info",
+      "indicator": "app.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "codely.com",
+      "indicator": "app.dev.deepl.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "cybergtm-site-preview.pages.dev",
+      "indicator": "apps-online-28circle.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "gp-459-bump-deps.review.allshares.app",
+      "indicator": "codely.es",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "gp-587-login-copy-free-account.review.allshares.app",
+      "indicator": "coldacqgroup.co",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "gp-649-demo-comp-client-api.review.allshares.app",
+      "indicator": "deliverycontrol.mx",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "hey.dreamdate.fr",
+      "indicator": "driftnet.io",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "inpost.poland-payhub8.eu.cc",
+      "indicator": "emm-t-showcase.datalogue.de",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-36qqufa1q-remotion.vercel.app",
+      "indicator": "fraktorderinfo12364l.shop",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-fk4bo4fbt-remotion.vercel.app",
+      "indicator": "getcoldacq.co",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-git-codex-fix-web-renderer-border-radius-remotion.vercel.app",
+      "indicator": "olx.pl-paymoney1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-git-codex-revert-canvas-outline-migration-remotion.vercel.app",
+      "indicator": "remotion-eyj02vvxs-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "sevensummits.biz",
+      "indicator": "www.aination.gr",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     },
     {
       "type": "domain",
-      "indicator": "syscore.app",
+      "indicator": "www.centumly.com",
       "operator": "A",
-      "first_seen": "2026-10-16T02:31:06Z"
+      "first_seen": "2026-10-16T10:24:52Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 2835,
+  "manual_review_candidates_pending": 3409,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

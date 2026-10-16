@@ -212,3 +212,10 @@ remotion-36qqufa1q-remotion.vercel.app
 remotion-fk4bo4fbt-remotion.vercel.app
 remotion-git-codex-fix-web-renderer-border-radius-remotion.vercel.app
 remotion-git-codex-revert-canvas-outline-migration-remotion.vercel.app
+
+# --- 2026-10-16T11:40 run: more legit sites carrying generic chunk 6930c2cc.
+.2sync.com
+.centumly.com
+.deliverycontrol.mx
+.driftnet.io
+remotion-eyj02vvxs-remotion.vercel.app
