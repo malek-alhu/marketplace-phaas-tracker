@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T16:43:03Z",
-  "last_run_at": "2026-10-16T15:51:29Z",
-  "last_run_summary": "[2026-10-16T15:51:29Z] 22 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-16T15:51:29Z] HEALTH certspotter=12/263 crtsh=22/30 urlscan=277/422 dns-google=5456/5456 dns-cf=5456/5456",
+  "generated_at": "2026-10-16T21:35:04Z",
+  "last_run_at": "2026-10-16T20:20:29Z",
+  "last_run_summary": "[2026-10-16T20:20:29Z] 31 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-16T20:20:29Z] HEALTH certspotter=16/178 crtsh=190/198 urlscan=200/423 dns-google=5288/5288 dns-cf=5288/5288",
   "tracked_hosts": {
-    "total": 2756,
+    "total": 2849,
     "by_status": {
-      "dead": 513,
-      "active": 2243
+      "dead": 519,
+      "active": 2330
     },
     "by_operator_tier": {
-      "A:tier1": 2756
+      "A:tier1": 2849
     }
   },
   "fingerprints": [
@@ -933,131 +933,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1164
+    "A": 1195
   },
   "recent_tier1_findings": [
     {
       "type": "cert",
-      "indicator": "72936e41.sni.cloudflaressl.com",
+      "indicator": "kodama.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "845c004f.sni.cloudflaressl.com",
+      "indicator": "llm.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "accounts.doodlecomics.net",
+      "indicator": "love.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "aur.driftnet.io",
+      "indicator": "media.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "cdn.doodlecomics.net",
+      "indicator": "onboarding-staging.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "clerk.doodlecomics.net",
+      "indicator": "onboarding.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "driftnet.io",
+      "indicator": "production02-dokploy.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "mta-sts.driftnet.io",
+      "indicator": "staging.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "cert",
-      "indicator": "stats.driftnet.io",
+      "indicator": "trigger.2sync.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "webhooks-staging.2sync.com",
+      "operator": "A",
+      "first_seen": "2026-10-16T20:20:29Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "webhooks.2sync.com",
+      "operator": "A",
+      "first_seen": "2026-10-16T20:20:29Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.edumaniaedtech.online",
+      "operator": "A",
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "app.deliverycontrol.mx",
+      "indicator": "appsl.beanstalkconsulting.co",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "app.leadmagic.io",
+      "indicator": "arp.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "app.replicas.dev",
+      "indicator": "congressinfo.net",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "app.staging.a24films.com",
+      "indicator": "inpost.pl-paymoney4.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "centumly.com",
+      "indicator": "remotion-git-codex-browser-studio-dependency-hmr-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "email-transactional.2sync.com",
+      "indicator": "transfer.bridge-capital.ch",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "links.bridge-capital.ch",
+      "indicator": "verification-page.icu",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "pl-paymoney3.eu.cc",
+      "indicator": "vinted.betamy.com",
       "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poczta-polska.pl-paymoney1.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "redirect-help.2sync.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.deliverycontrol.mx",
-      "operator": "A",
-      "first_seen": "2026-10-16T15:51:29Z"
+      "first_seen": "2026-10-16T20:20:29Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 3752,
+  "manual_review_candidates_pending": 4129,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
