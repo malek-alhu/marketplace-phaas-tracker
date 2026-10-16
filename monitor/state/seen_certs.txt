@@ -217,6 +217,7 @@ assets.leadmagic.io
 assets.ohdigital.agency
 assistant.versec.workers.dev
 astra-ai.co
+async.codely.com
 attivo.entendre.finance
 audius.entendre.finance
 aukilabs.entendre.finance
@@ -304,6 +305,7 @@ billing-oyoh.onrender.com
 billing.astra-ai.co
 blackfriday.leadmagic.io
 blazing.leadmagic.io
+blobstorage.syscore.app
 blocket-system.cam
 blocket.order-detaljer.shop
 blocksqozen.entendre.finance
@@ -432,6 +434,9 @@ clickfunnel-v1.lumail.io
 client.go4lead.com
 client.leadmagic.io
 clients.leadmagic.io
+clinic-admin-hub.syscore.app
+clinic-api.syscore.app
+clinic-dental.syscore.app
 cliproxy.api.shunkakinoki.com
 cliproxy.shunkakinoki.com
 clock.shunkakinoki.com
@@ -440,6 +445,7 @@ cloudchain.entendre.finance
 cms.leadmagic.io
 cn-en-c7app.com
 cnkstcd.com
+codely.com
 coder-ms-teams-8001.deepl.com
 coder-ms-teams-tcp.deepl.com
 coder-voice-ms-teams-tcp.deepl.com
@@ -473,6 +479,7 @@ courtyard.entendre.finance
 cpanel.periyartigers.com
 cpcalendars.periyartigers.com
 cpcontacts.periyartigers.com
+cqpxba.com
 cra-example.app.render.com
 cra-jp7c.app.render.com
 cra-lbxg.app.render.com
@@ -497,6 +504,7 @@ crv3ra.entendre.finance
 cryptacce.entendre.finance
 cryptolabsresearch.entendre.finance
 customer.leadmagic.io
+cybergtm-site-preview.pages.dev
 cylex-verifbankid.cfd
 dacajncritter.com
 dailyrss-website.versec.workers.dev
@@ -539,6 +547,7 @@ demo.virgil.ai
 demomail.beanstalkconsulting.co
 department-seats.innovativenurseeducator.com
 deploy.omnyn.com.br
+design-system.codely.com
 dev.a24films.com
 dev.deepl.com
 dev.freshstep.com
@@ -551,6 +560,9 @@ dev3.hubblehq.com
 dev4.hubblehq.com
 dev5.hubblehq.com
 dev6.hubblehq.com
+devdash-gh.codely.com
+devdash.codely.com
+devdash2.codely.com
 develop.a24films.com
 developers.deepl.com
 dfclgzw.com
@@ -581,6 +593,7 @@ download.deepl.com
 dpd-cz.live
 dr-gas-c.tallerpro.io
 drift-trade.entendre.finance
+drive.syscore.app
 dub.deepl.com
 dustlabs.entendre.finance
 dwh-hh.intl.datalogue.com
@@ -622,6 +635,7 @@ email.trueleads.com
 emails.justmentionit.com
 emberbill.com
 emiratesnbd.verify-compra.shop
+empresas.codely.com
 encaiss.top
 engage.propelr.studio
 enh-admin-show-roles.review.allshares.app
@@ -705,6 +719,7 @@ entendre.entendre.finance
 entendre.finance
 entendreai.entendre.finance
 entendrejjtest.entendre.finance
+enteratebf.codely.com
 ettete.entendre.finance
 event.a24films.com
 event.innovativenurseeducator.com
@@ -806,6 +821,10 @@ florida.a24films.com
 fly.shunkakinoki.com
 foodtrucksupload.tryprism.com
 foracities.entendre.finance
+forcefit-gateway.syscore.app
+forcefit-service.syscore.app
+forcefit-site-app.syscore.app
+forcefit-site.syscore.app
 form.workbrew.com
 forms.leadmagic.io
 fortress-accounting.entendre.finance
@@ -878,6 +897,7 @@ git.workbrew.com
 gitcoin.entendre.finance
 github-pages-8nci.app.render.com
 github-pages-8nci.onrender.com
+gmendoza.syscore.app
 gnus-ai.entendre.finance
 go-530-enable-live-captable.review.allshares.app
 go.leadmagic.io
@@ -1201,6 +1221,7 @@ gp-554-identity-contact-kind.review.allshares.app
 gp-555-fix-complete-sccs.review.allshares.app
 gp-556-fix-si-share-classes.review.allshares.app
 gp-556-lingui-macro.review.allshares.app
+gp-558-stock-option-copy.review.allshares.app
 gp-56-unselect-identities.review.allshares.app
 gp-560-vesting-defaults.review.allshares.app
 gp-562-fix-arrival-date.review.allshares.app
@@ -1219,6 +1240,7 @@ gp-576-upgrade-stripe.review.allshares.app
 gp-577-utm-tacking.review.allshares.app
 gp-580-new-terms-links.review.allshares.app
 gp-583-bump-deps.review.allshares.app
+gp-584-option-exercise-kind.review.allshares.app
 gp-586-custom-vesting-graph.review.allshares.app
 gp-587-login-copy-free-account.review.allshares.app
 gp-588-book-meeting-btn.review.allshares.app
@@ -1231,11 +1253,15 @@ gp-614-phone-format-identities.review.allshares.app
 gp-617-demo-comp-identity.review.allshares.app
 gp-618-bump-deps.review.allshares.app
 gp-62-show-sign.review.allshares.app
+gp-625-fix-file-download.review.allshares.app
 gp-626-dataloader-review.review.allshares.app
 gp-626-dataloader.review.allshares.app
 gp-628-bump-deps.review.allshares.app
+gp-629-mp-share-dataloader.review.allshares.app
 gp-63-enable-signing.review.allshares.app
 gp-631-fix-junk-summons.review.allshares.app
+gp-632-fix-pr-review-scripts.review.allshares.app
+gp-634-custom-vest-copy.review.allshares.app
 gp-644-hubspot-phone-num.review.allshares.app
 gp-646-bump-containers.review.allshares.app
 gp-646-bump-deps.review.allshares.app
@@ -1251,6 +1277,8 @@ gp-657-rust-2024.review.allshares.app
 gp-658-merge-queue.review.allshares.app
 gp-659-snr-upgrades.review.allshares.app
 gp-66-expired-session.review.allshares.app
+gp-660-enable-max-shares.review.allshares.app
+gp-661-fix-validator-err-msg.review.allshares.app
 gp-67-default-search-signing.review.allshares.app
 gp-68-fix-search.review.allshares.app
 gp-69-finnish-meetings2.review.allshares.app
@@ -1343,15 +1371,18 @@ huuble.hubblehq.com
 icio.entendre.finance
 icp.leadmagic.io
 igp.virgil.ai
+img.news.codely.com
 immrtl-hlpr.shop
 inbox.hubblehq.com
 inbox.theplaybook.agency
 info-auth.com
+inglevalegroup.com
 inngest.deferred.com
 innovativenurseeducator.com
 insights.investclearly.com
 inst.deferred.com
 intentx.entendre.finance
+intercom.codely.com
 internal.deepl.com
 international.a24films.com
 inv-dash-deploy.review.allshares.app
@@ -1367,6 +1398,7 @@ jefferies.virgil.ai
 jekyll.app.render.com
 jekyll.onrender.com
 jenkins.datalogue.com
+jenkins.syscore.app
 jentend.entendre.finance
 jh.entendre.finance
 jmtd.entendre.finance
@@ -1383,6 +1415,7 @@ katana.entendre.finance
 kb.leadmagic.io
 keepit.boin.uk
 kef.deepl.com
+keycloak.syscore.app
 kirstin.entendre.finance
 kkr.virgil.ai
 kl.a24films.com
@@ -1423,6 +1456,7 @@ link.leadmagic.io
 link.reigartkistlerdds.com
 links.bridge-capital.ch
 links.em.freshstep.com
+links.email.codely.com
 links.investclearly.com
 links.leadmagic.io
 links.lumail.io
@@ -1444,6 +1478,7 @@ lmsvisao.entendre.finance
 lnvoicel-47293.com
 local-rules-linter.review.allshares.app
 localhost.render.com
+lodeltest.codely.com
 login-wall.deepl.com
 login.leadblast.io
 login.leadmagic.io
@@ -1509,6 +1544,7 @@ microsoft--cm-2ja.com
 milanuncios.compra-verif.cfd
 milanuncios.verified-compra-es.cyou
 milanuncios.verify-compra.shop
+minio-console.syscore.app
 modjo.entendre.finance
 moelis.virgil.ai
 monomerlabs.entendre.finance
@@ -1556,6 +1592,8 @@ negabarit.sbs
 nephos.entendre.finance
 neptunedispatching.com
 newsletter.leadmagic.io
+next-empresas.codely.com
+next.codely.com
 next.freshstep.com
 nexus.a24films.com
 ngrok-testing.virgil.ai
@@ -1568,6 +1606,7 @@ notify.creators.astra-ai.co
 npclabs.entendre.finance
 o1thinker.versec.workers.dev
 o99.entendre.finance
+odoo.syscore.app
 og.shunkakinoki.com
 oha.virgil.ai
 ohdigital.agency
@@ -1622,6 +1661,7 @@ outbound.vethgroup.com
 outline.leadmagic.io
 outreach.leadmagic.io
 outreach.unstuckengine.com
+overlays.codely.com
 owa.reigartkistlerdds.com
 oxparc.entendre.finance
 p00ls.entendre.finance
@@ -1725,12 +1765,16 @@ poland-payhub9.eu.cc
 polygon.entendre.finance
 polymerlabs.entendre.finance
 popcorn.a24films.com
+portainer.syscore.app
 portal-api.leadmagic.io
 portal-pay.leadmagic.io
 portal.beanstalkconsulting.co
+portal.codely.com
 portal.leadmagic.io
 portal.scalemyagency.com
 portal.succes-online.com
+portfolio-gatsby-netlify.codely.com
+portfolio-nextjs-vercel.codely.com
 portico-fork.app.render.com
 portico-frontend-ihxm.app.render.com
 portico-frontend-ihxm.onrender.com
@@ -1753,6 +1797,7 @@ preview.entendre.finance
 preview.investclearly.com
 preview.leadmagic.io
 preview.reports.deferred.com
+pro.codely.com
 prod.hubblehq.com
 prodhire.com
 production.a24films.com
@@ -1807,6 +1852,7 @@ rainxyz.entendre.finance
 ransom-monitor.versec.workers.dev
 raw-dl.app.render.com
 reach.leadmagic.io
+react-carousel.codely.com
 real-compra-verif.world
 realdr-id.com
 receive.sale
@@ -1896,6 +1942,7 @@ sales.leadmagic.io
 sandbox-zainamro-com.onrender.com
 sandbox.shunkakinoki.com
 sandbox.virgil.ai
+sap.syscore.app
 saule.entendre.finance
 saved-translations.www.test.deepl.com
 school.boin.uk
@@ -1910,6 +1957,7 @@ search-service-s.hubblehq.com
 search-service.hubblehq.com
 search-staging.hubblehq.com
 search.hubblehq.com
+security-service.syscore.app
 semiotic.entendre.finance
 send.listkit.io
 sendeasy.yeezy-sand.xyz
@@ -1927,6 +1975,7 @@ shibuimotifs-public-site.app.render.com
 shibuimotifs-public-site.onrender.com
 shield.entendre.finance
 shop.a24films.com
+shop.codely.com
 short-conn.shop
 shorten-it.lat
 showcase-neu.datalogue.com
@@ -1964,6 +2013,7 @@ slab.app.render.com
 slack-api.leadmagic.io
 slack.entendre.finance
 slack.leadmagic.io
+smileos.syscore.app
 smsadmin.edumaniaedtech.online
 smss.versec.workers.dev
 smurfysstore.com
@@ -1976,6 +2026,8 @@ sokket-static.render.com
 solana.entendre.finance
 solar-otter.entendre.finance
 solsniper.entendre.finance
+sonarqube.syscore.app
+soporte.codely.com
 spaceandtime.entendre.finance
 spaceport.entendre.finance
 spacious-s.hubblehq.com
@@ -2049,6 +2101,7 @@ support.leadmagic.io
 supportdev.deepl.com
 sweat.entendre.finance
 syntetika.entendre.finance
+syscore.app
 szrcgj.com
 t.shunkakinoki.com
 taleinvest.entendre.finance
@@ -2171,6 +2224,7 @@ ut.deepl.com
 v.shunkakinoki.com
 valinorresearch.entendre.finance
 vault.render.com
+vault.syscore.app
 venrock-test.virgil.ai
 venrock.virgil.ai
 vercel.boin.uk
@@ -2257,7 +2311,9 @@ www.blog.hubblehq.com
 www.bridge-capital.ch
 www.building.hubblehq.com
 www.cnkstcd.com
+www.codely.com
 www.coldacq.com
+www.cqpxba.com
 www.dacajncritter.com
 www.datalogue.com
 www.deepl.com
@@ -2308,9 +2364,11 @@ www.reigartkistlerdds.com
 www.render.com
 www.replicas.dev
 www.server.7summits.com
+www.shop.codely.com
 www.shunkakinoki.com
 www.splitbag.com
 www.static.deepl.com
+www.syscore.app
 www.tallerpro.io
 www.test.deepl.com
 www.tryprism.com
