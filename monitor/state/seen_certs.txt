@@ -5,12 +5,16 @@
 25m.virgil.ai
 2fa-atdd.review.allshares.app
 403-forbidden.versec.workers.dev
+45b70d0a.sni.cloudflaressl.com
+4b31add3.sni.cloudflaressl.com
 4d80883f.sni.cloudflaressl.com
 4fd5e4e8.sni.cloudflaressl.com
 58stw.com
 59c3c86e.sni.cloudflaressl.com
 6897926.com
+72936e41.sni.cloudflaressl.com
 7summits.com
+845c004f.sni.cloudflaressl.com
 8908a875aaf56424af0d1307222aea73.deepl.com
 8x.immortal-x8.xyz
 9mwh.com
@@ -30,6 +34,7 @@ accounts.bowrivercapital.virgil.ai
 accounts.brooklyn.virgil.ai
 accounts.clearstreet.virgil.ai
 accounts.cvccpartners.virgil.ai
+accounts.doodlecomics.net
 accounts.edumaniaedtech.online
 accounts.greathillpartners.virgil.ai
 accounts.igp.virgil.ai
@@ -221,6 +226,7 @@ async.codely.com
 attivo.entendre.finance
 audius.entendre.finance
 aukilabs.entendre.finance
+aur.driftnet.io
 auth-dev.hubblehq.com
 auth-lnfo.com
 auth-release.hubblehq.com
@@ -228,6 +234,7 @@ auth-resolver.leadmagic.io
 auth-sso.leadmagic.io
 auth-staging.hubblehq.com
 auth.deferred.com
+auth.driftnet.io
 auth.hubblehq.com
 auth.leadmagic.io
 auth.lumail.io
@@ -371,12 +378,14 @@ cbiz.entendre.finance
 cca.entendre.finance
 cdn-staging.workbrew.com
 cdn.astra-ai.co
+cdn.doodlecomics.net
 cdn.fingerprint.to
 cdn.leadmagic.io
 cdn.shunkakinoki.com
 cdn.workbrew.com
 cdn2.leadmagic.io
 celestia.entendre.finance
+centumly.com
 cerebratech.entendre.finance
 cgfu.deepl.com
 ch-cn-ng28app.com
@@ -388,6 +397,7 @@ chatbot.leadmagic.io
 checkn-auth.com
 checkout.leadmagic.io
 checkout.www.test.deepl.com
+chiefseotools.centumly.com
 chieftain-poc.review.allshares.app
 chilina.tallerpro.io
 chilina1.tallerpro.io
@@ -405,6 +415,7 @@ clerk.apax.virgil.ai
 clerk.app.leadmagic.io
 clerk.beta.leadmagic.io
 clerk.cvccpartners.virgil.ai
+clerk.doodlecomics.net
 clerk.edumaniaedtech.online
 clerk.franciscopartners.virgil.ai
 clerk.hamiltonlane.virgil.ai
@@ -593,6 +604,7 @@ download.deepl.com
 dpd-cz.live
 dr-gas-c.tallerpro.io
 drift-trade.entendre.finance
+driftnet.io
 drive.syscore.app
 dub.deepl.com
 dustlabs.entendre.finance
@@ -1449,6 +1461,7 @@ leads.winnr.app
 leakcheckerweb.versec.workers.dev
 ledgerxsolutions.entendre.finance
 lgd-corporation.tallerpro.io
+lifekit.centumly.com
 limacharlie.versec.workers.dev
 lime.reigartkistlerdds.com
 linea.entendre.finance
@@ -1527,6 +1540,7 @@ managed-challenge.versec.workers.dev
 managed-challengez.versec.workers.dev
 mandalachain.entendre.finance
 manhattan.virgil.ai
+marketing.driftnet.io
 masterget.fed-send.xyz
 maximo-becker-gutierrez-ortiz.tallerpro.io
 mb.leadmagic.io
@@ -1570,6 +1584,7 @@ msteams-media.dub.deepl.com
 msteams-media.hnd.deepl.com
 msteams.dub.deepl.com
 msteams.hnd.deepl.com
+mta-sts.driftnet.io
 mta-sts.leadmagic.io
 multiservicios-max-5.tallerpro.io
 multritruc-diesel.tallerpro.io
@@ -2075,6 +2090,7 @@ stagng.a24films.com
 static.deepl.com
 static.deferred.com
 staticcdn.deepl.com
+stats.driftnet.io
 status.leadmagic.io
 status.openfactor.ai
 status.render.com
@@ -2310,6 +2326,8 @@ www.beanstalkconsulting.co
 www.blog.hubblehq.com
 www.bridge-capital.ch
 www.building.hubblehq.com
+www.centumly.com
+www.chiefseotools.centumly.com
 www.cnkstcd.com
 www.codely.com
 www.coldacq.com
@@ -2339,6 +2357,7 @@ www.innovativenurseeducator.com
 www.investclearly.com
 www.jobs.deepl.com
 www.leadmagic.io
+www.lifekit.centumly.com
 www.links.em.freshstep.com
 www.logo.leadmagic.io
 www.longkun100.com
