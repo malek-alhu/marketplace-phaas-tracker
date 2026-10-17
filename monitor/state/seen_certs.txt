@@ -255,6 +255,7 @@ auth.deferred.com
 auth.driftnet.io
 auth.hubblehq.com
 auth.leadmagic.io
+auth.lidio.app
 auth.lumail.io
 auth.replicas.dev
 auth.shunkakinoki.com
@@ -310,6 +311,7 @@ baseapi.leadmagic.io
 basemedia.leadmagic.io
 baserow.leadmagic.io
 bbg.entendre.finance
+bda.congressinfo.net
 beanstalkconsulting.co
 bekreftjs.com
 bekreftls.com
@@ -325,6 +327,7 @@ beta.lumail.io
 beta.popcorn.a24films.com
 beta.virgil.ai
 beta.workbrew.com
+betamy.com
 bf.leadmagic.io
 billing-3wk8.app.render.com
 billing-api.leadmagic.io
@@ -397,6 +400,7 @@ catalog.a24films.com
 catjamllc.entendre.finance
 cbiz.entendre.finance
 cca.entendre.finance
+cddf.congressinfo.net
 cdn-staging.workbrew.com
 cdn.astra-ai.co
 cdn.doodlecomics.net
@@ -497,6 +501,7 @@ confirmado.cc
 confirmation-order-payu.cfd
 confirmation-order-payu.sbs
 confirmation-order.sbs
+congressinfo.net
 consent.a24films.com
 console-staging.workbrew.com
 console.workbrew.com
@@ -773,12 +778,14 @@ ernest-drupals-trust.entendre.finance
 ettete.entendre.finance
 event.a24films.com
 event.innovativenurseeducator.com
+events.congressinfo.net
 evercore.virgil.ai
 evil-com.entendre.finance
 example.app.render.com
 example.onrender.com
 examplecustomer.deepl.com
 exhibition.a24films.com
+exhibition.congressinfo.net
 exoplanets.app.render.com
 experimentation-grpc.deepl.com
 experimentation.deepl.com
@@ -949,6 +956,7 @@ git.workbrew.com
 gitcoin.entendre.finance
 github-pages-8nci.app.render.com
 github-pages-8nci.onrender.com
+glovi.congressinfo.net
 gmendoza.syscore.app
 gnus-ai.entendre.finance
 go-530-enable-live-captable.review.allshares.app
@@ -988,6 +996,7 @@ gp-135-new-si-serial-number.review.allshares.app
 gp-136-show-sc-scc-table.review.allshares.app
 gp-137-foreigner-identity.review.allshares.app
 gp-137-manual-identitynumber.review.allshares.app
+gp-138-foreign-dir-kind.review.allshares.app
 gp-139-company-industry.review.allshares.app
 gp-14-backoffice-table.review.allshares.app
 gp-140-edit-aos-spelling.review.allshares.app
@@ -1349,6 +1358,7 @@ gp-758-bump-yarn.review.allshares.app
 gp-76-fix-company-select.review.allshares.app
 gp-760-graphql-next-eslint.review.allshares.app
 gp-767-snr-dotenv.review.allshares.app
+gp-768-price-method-fix.review.allshares.app
 gp-771-signicat-bankid.review.allshares.app
 gp-78-vesting-company-option.review.allshares.app
 gp-79-grow-stripe.review.allshares.app
@@ -1466,6 +1476,7 @@ invoice-center.info
 ipn.www.test.deepl.com
 irmgard-muskulus.entendre.finance
 it-pays.vps-pay-it.xyz
+iwww.congressinfo.net
 iyk.leadmagic.io
 j.deepl.com
 ja.blog.shunkakinoki.com
@@ -1527,6 +1538,7 @@ leads.winnr.app
 leakcheckerweb.versec.workers.dev
 ledgerxsolutions.entendre.finance
 lgd-corporation.tallerpro.io
+lidio.app
 lifekit.centumly.com
 limacharlie.versec.workers.dev
 lime.reigartkistlerdds.com
@@ -1586,7 +1598,9 @@ m.ultima.yt
 m.wfmcsy.com
 mail-admin.omnyn.com.br
 mail.7summits.com
+mail.congressinfo.net
 mail.enavra.io
+mail.exhibition.congressinfo.net
 mail.fuegenix.com
 mail.instantlead.io
 mail.kizenmedia.com
@@ -1617,6 +1631,7 @@ mcp.leadmagic.io
 mcp.shunkakinoki.com
 media-social.ohdigital.agency
 media.2sync.com
+media.congressinfo.net
 messaging-s.hubblehq.com
 messaging.hubblehq.com
 messenger.shunkakinoki.com
@@ -1693,6 +1708,8 @@ npclabs.entendre.finance
 o1thinker.versec.workers.dev
 o99.entendre.finance
 odoo.syscore.app
+oegbt.congressinfo.net
+oegbt.congressinfo.net.exhibition.congressinfo.net
 og.shunkakinoki.com
 oha.virgil.ai
 ohdigital.agency
@@ -1730,6 +1747,7 @@ order-info62351.com
 order21.shop
 order3274.cfd
 order4851.com
+orders-info3182.com
 orders-info93657.com
 orders.leadmagic.io
 oregon-postgres.localhost.render.com
@@ -1848,6 +1866,7 @@ poland-paycore.eu.cc
 poland-paycore.shop
 poland-payhub.buzz
 poland-payhub.qpon
+poland-payhub.shop
 poland-payhub4.eu.cc
 poland-payhub8.eu.cc
 poland-payhub9.eu.cc
@@ -1946,6 +1965,7 @@ ransom-monitor.versec.workers.dev
 raw-dl.app.render.com
 reach.leadmagic.io
 react-carousel.codely.com
+reacttest.congressinfo.net
 real-compra-verif.world
 realdr-id.com
 receive.sale
@@ -2133,6 +2153,7 @@ splitbag.com
 sponsor.innovativenurseeducator.com
 sporkdao.entendre.finance
 squadtalent.entendre.finance
+ssn.congressinfo.net
 sso.deepl.com
 sso.dev.deepl.com
 sso.test.deepl.com
@@ -2339,6 +2360,7 @@ verif-compras.online
 verifa.cc
 veriffy.sbs
 verification-help.com
+verification-page.icu
 verification-page.pro
 verification-page6748.com
 verification-payment.com
@@ -2385,6 +2407,7 @@ webhooks.entendre.finance
 webhooks.hubblehq.com
 webhooks.leadmagic.io
 webmail.7summits.com
+webmail.exhibition.congressinfo.net
 webmail.fuegenix.com
 webmail.omnyn.com.br
 webmail.periyartigers.com
@@ -2420,15 +2443,19 @@ www.a24films.com
 www.aination.gr
 www.api.deepl.com
 www.astra-ai.co
+www.bda.congressinfo.net
 www.beanstalkconsulting.co
+www.betamy.com
 www.blog.hubblehq.com
 www.bridge-capital.ch
 www.building.hubblehq.com
+www.cddf.congressinfo.net
 www.centumly.com
 www.chiefseotools.centumly.com
 www.cnkstcd.com
 www.codely.com
 www.coldacq.com
+www.congressinfo.net
 www.cqpxba.com
 www.dacajncritter.com
 www.datalogue.com
@@ -2444,17 +2471,21 @@ www.edumaniaedtech.online
 www.elementmultiservices.com
 www.emberbill.com
 www.entendre.finance
+www.events.congressinfo.net
+www.exhibition.congressinfo.net
 www.freshstep.com
 www.freshstep.com.mx
 www.freshstep.com.pr
 www.fuegenix-be.fuegenix.com
 www.fuegenix.com
+www.glovi.congressinfo.net
 www.healthmonitor.freshstep.com
 www.hubblehq.com
 www.huian189.com
 www.humancompostco.com
 www.innovativenurseeducator.com
 www.investclearly.com
+www.iwww.congressinfo.net
 www.jobs.deepl.com
 www.leadmagic.io
 www.lifekit.centumly.com
@@ -2469,6 +2500,7 @@ www.nd7-films.7summits.com
 www.nd7.7summits.com
 www.nd7films.7summits.com
 www.neptunedispatching.com
+www.oegbt.congressinfo.net.exhibition.congressinfo.net
 www.omnyn.com.br
 www.onrender.com
 www.order-detaljer.shop
@@ -2479,6 +2511,7 @@ www.periyartigers.com
 www.physicall.fitness
 www.prodhire.com
 www.psd18.com
+www.reacttest.congressinfo.net
 www.reigartkistlerdds.com
 www.render.com
 www.replicas.dev
@@ -2486,6 +2519,7 @@ www.server.7summits.com
 www.shop.codely.com
 www.shunkakinoki.com
 www.splitbag.com
+www.ssn.congressinfo.net
 www.static.deepl.com
 www.syscore.app
 www.tallerpro.io
