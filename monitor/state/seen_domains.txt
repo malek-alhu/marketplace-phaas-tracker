@@ -142,6 +142,7 @@ api.app.a24films.com
 api.coipang.com
 api.deepl.com
 api.entendre.finance
+api.gitkraken.dev
 api.hubblehq.com
 api.investclearly.com
 api.leadmagic.io
@@ -213,6 +214,10 @@ astra-ai.pl
 astra-ai.pt
 astra-ai.sk
 astra-ai.vn
+athsolutions.shop
+attivo.entendre.finance
+audius.entendre.finance
+aukilabs.entendre.finance
 auth-lnfo.com
 auth.best-web-365.com
 auth.checkcoverageapple.com
@@ -249,6 +254,7 @@ beautiful-entremet-3d44e6.netlify.app
 bekreftfdd.com
 bekreftls.com
 bekreftnorwq.com
+bekreftsjs.com
 bekreftzn.com
 belgrade-beer-fest.booking-hotels.biz
 beseif.compra-verif.cfd
@@ -292,6 +298,7 @@ clerk.investclearly.com
 clevelandclinic.medbrigego.com
 click.boin.uk
 click.cuisly.fr
+closingassociate.co
 cloudmodellab.com
 cmaufking.top
 cmctelecom.vercal.app
@@ -350,10 +357,12 @@ dba.lnvoicel-47293.com
 de.schleichs.com
 dealteam.virgil.ai
 deepl.com
+deepl.zhangpeng123.workers.dev
 defanger.versec.workers.dev
 deferred.com
 deliverycontrol.mx
 deliverycraftco.com
+demo-james-76a6.tipboxhq.com
 demo.castrostreeservice.com
 demo.villadelsoldoro.com
 depop.cqpxba.com
@@ -361,9 +370,12 @@ depop.dfclgzw.com
 depop.huian189.com
 depop.qdscdq.com
 depop.verification-help.com
+dev-api.gitkraken.dev
+dev-developer.gitkraken.dev
 dev.autonocion.com
 dev.lumail.io
 dev.reigartkistlerdds.com
+developer.gitkraken.dev
 dfclgzw.com
 di2nss.pun.bz
 diana-wyckoff.entendre.finance
@@ -618,6 +630,7 @@ needtrytopsto.icu
 negabarit.sbs
 neptunedispatching.com
 new.bancobanesto.ws
+newpublicservice.com
 nexitally.org
 nfw.cz
 njuskalo.payprotect.shop
@@ -689,6 +702,7 @@ paczzkaa763238.click
 padfuse.com
 parent.edumaniaedtech.online
 parents.astra-ai.co
+partners.goldbridgebanking.com
 patrickryan.entendre.finance
 pay-flow.cfd
 paycore-bup-process.sbs
@@ -733,6 +747,7 @@ phebank.com
 physicall.fitness
 pinnacleflipfinance.com
 pkoval.com
+pl-paymoney1.eu.cc
 pl-paymoney3.eu.cc
 plex-list-rss.versec.workers.dev
 poczta-polska.payu-nitro6.eu.cc
@@ -754,6 +769,7 @@ poland-payhub2.eu.cc
 poland-payhub3.eu.cc
 poland-payhub4.eu.cc
 poland-payhub5.eu.cc
+poland-payhub7.eu.cc
 poland-payhub8.eu.cc
 poland-payhub9.eu.cc
 portal.supportccbill.com
@@ -789,6 +805,7 @@ redirect-help.2sync.workers.dev
 reigartkistlerdds.com
 relayo.info
 relaypointgroupco.com
+release.gitkraken.dev
 remotion-36qqufa1q-remotion.vercel.app
 remotion-43yk3mua6-remotion.vercel.app
 remotion-678ya451o-remotion.vercel.app
@@ -854,6 +871,9 @@ soybia.cn
 splitbag.com
 sporkdao.entendre.finance
 ssylka.net
+staging-developer.gitkraken.dev
+staging-docs.gitkraken.dev
+staging.begraphic.dev
 staging.castrostreeservice.com
 static.bisrv.com
 stephanie.gumtree-payment.shop
@@ -868,6 +888,7 @@ subito.verifieer.cc
 successinvestclearly.com
 summit.breakoutrn.com
 suncoastrecoveryservices.online
+supplyvan.com
 support.deepl.com
 support1.lgtool.net
 susd-edu.sitelop.com
@@ -933,6 +954,7 @@ vinted.58stw.com
 vinted.6897926.com
 vinted.9mwh.com
 vinted.betamy.com
+vinted.notice3425346783456.com
 vinted.order-info84719.com
 vinted.order3274.cfd
 vinted.psd18.com
@@ -1000,6 +1022,7 @@ www.a24films.com
 www.aanshuman.com
 www.aination.gr
 www.airbnb-businessinquiries-web2web.ph
+www.allegro.offer8259012.shop
 www.amoreliie.com
 www.asianexploration.ph
 www.autonocion.com

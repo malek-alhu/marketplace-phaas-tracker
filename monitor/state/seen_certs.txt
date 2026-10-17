@@ -238,6 +238,7 @@ asp.render.com
 assets-staging.leadmagic.io
 assets.leadmagic.io
 assets.ohdigital.agency
+assets.splitbag.com
 assistant.versec.workers.dev
 astra-ai.co
 async.codely.com
@@ -317,6 +318,7 @@ bekreftjs.com
 bekreftls.com
 bekreftnorwq.com
 bekreftoo.com
+bekreftzn.com
 beseif.compra-verif.cfd
 beta-api.2sync.com
 beta-api.leadmagic.io
@@ -656,6 +658,7 @@ e2e-test-server.app.render.com
 ebay--klelnanzeigen--deliveryexpress.online
 ebay-klelnanzeigen--deliveryexpress.online
 ecarcip-motors.tallerpro.io
+ed27e507.sni.cloudflaressl.com
 edit-share-issue.review.allshares.app
 edumaniaedtech.online
 egal.app.render.com
@@ -1710,6 +1713,7 @@ o99.entendre.finance
 odoo.syscore.app
 oegbt.congressinfo.net
 oegbt.congressinfo.net.exhibition.congressinfo.net
+offer8259012.shop
 og.shunkakinoki.com
 oha.virgil.ai
 ohdigital.agency

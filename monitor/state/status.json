@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-17T03:40:20Z",
-  "last_run_at": "2026-10-17T02:23:52Z",
-  "last_run_summary": "[2026-10-17T02:23:52Z] 35 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-17T02:23:52Z] HEALTH certspotter=16/180 crtsh=196/200 urlscan=428/428 dns-google=4762/4762 dns-cf=4762/4762",
+  "generated_at": "2026-10-17T10:38:25Z",
+  "last_run_at": "2026-10-17T09:57:03Z",
+  "last_run_summary": "[2026-10-17T09:57:03Z] 26 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-17T09:57:03Z] HEALTH certspotter=11/185 crtsh=2/6 urlscan=438/438 dns-google=4810/4810 dns-cf=4810/4810",
   "tracked_hosts": {
-    "total": 2889,
+    "total": 2911,
     "by_status": {
-      "dead": 635,
-      "active": 2254
+      "dead": 771,
+      "active": 2140
     },
     "by_operator_tier": {
-      "A:tier1": 2889
+      "A:tier1": 2911
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1230
+    "A": 1256
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "app.shunkakinoki.com",
+      "indicator": "audius.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "app.test.deepl.com",
+      "indicator": "aukilabs.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "app.ultima.yt",
+      "indicator": "bekreftsjs.com",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "aqpgas-vehicular.tallerpro.io",
+      "indicator": "closingassociate.co",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "arabica.workbrew.com",
+      "indicator": "deepl.zhangpeng123.workers.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "argo.shunkakinoki.com",
+      "indicator": "demo-james-76a6.tipboxhq.com",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "aro-cutz.vercel.app",
+      "indicator": "dev-api.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "art2testorg.entendre.finance",
+      "indicator": "dev-developer.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "arun-is-cssy.app.render.com",
+      "indicator": "developer.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "assets-staging.leadmagic.io",
+      "indicator": "newpublicservice.com",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "assets.leadmagic.io",
+      "indicator": "partners.goldbridgebanking.com",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "assets.ohdigital.agency",
+      "indicator": "pl-paymoney1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "congressinfo.eu",
+      "indicator": "poland-payhub7.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "dashboard-universal-staging.2sync.com",
+      "indicator": "release.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "eternumsystems.tech",
+      "indicator": "staging-developer.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "gitkraken.dev",
+      "indicator": "staging-docs.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-79jct3znk-remotion.vercel.app",
+      "indicator": "staging.begraphic.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-e14dfq1pf-remotion.vercel.app",
+      "indicator": "supplyvan.com",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "www.congressinfo.eu",
+      "indicator": "vinted.notice3425346783456.com",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     },
     {
       "type": "domain",
-      "indicator": "www.supplyvan.com",
+      "indicator": "www.allegro.offer8259012.shop",
       "operator": "A",
-      "first_seen": "2026-10-17T02:23:52Z"
+      "first_seen": "2026-10-17T09:57:03Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 4680,
+  "manual_review_candidates_pending": 5002,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
