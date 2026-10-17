@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-17T10:38:25Z",
-  "last_run_at": "2026-10-17T09:57:03Z",
-  "last_run_summary": "[2026-10-17T09:57:03Z] 26 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-17T09:57:03Z] HEALTH certspotter=11/185 crtsh=2/6 urlscan=438/438 dns-google=4810/4810 dns-cf=4810/4810",
+  "generated_at": "2026-10-17T15:57:13Z",
+  "last_run_at": "2026-10-17T14:44:39Z",
+  "last_run_summary": "[2026-10-17T14:44:39Z] 28 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-17T14:44:39Z] HEALTH certspotter=16/279 crtsh=127/144 urlscan=232/445 dns-google=5096/5096 dns-cf=5096/5096",
   "tracked_hosts": {
-    "total": 2911,
+    "total": 2996,
     "by_status": {
-      "dead": 771,
-      "active": 2140
+      "dead": 773,
+      "active": 2223
     },
     "by_operator_tier": {
-      "A:tier1": 2911
+      "A:tier1": 2996
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1256
+    "A": 1284
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "audius.entendre.finance",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "aukilabs.entendre.finance",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "bekreftsjs.com",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "closingassociate.co",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "deepl.zhangpeng123.workers.dev",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "demo-james-76a6.tipboxhq.com",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "dev-api.gitkraken.dev",
-      "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
-    },
-    {
-      "type": "domain",
+      "type": "cert",
       "indicator": "dev-developer.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
+      "indicator": "dev-docs.gitkraken.dev",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "dev.gitkraken.dev",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "cert",
       "indicator": "developer.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "newpublicservice.com",
+      "type": "cert",
+      "indicator": "emerson-api.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "partners.goldbridgebanking.com",
+      "type": "cert",
+      "indicator": "emerson.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "pl-paymoney1.eu.cc",
+      "type": "cert",
+      "indicator": "english.zhangpeng123.workers.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "poland-payhub7.eu.cc",
+      "type": "cert",
+      "indicator": "gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "release.gitkraken.dev",
+      "type": "cert",
+      "indicator": "notice3425346783456.com",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
       "indicator": "staging-developer.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
       "indicator": "staging-docs.gitkraken.dev",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.gitkraken.dev",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "tiles.newpublicservice.com",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
       "type": "domain",
-      "indicator": "staging.begraphic.dev",
+      "indicator": "autokar.tallerpro.io",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
       "type": "domain",
-      "indicator": "supplyvan.com",
+      "indicator": "automotriz-nunez.tallerpro.io",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
       "type": "domain",
-      "indicator": "vinted.notice3425346783456.com",
+      "indicator": "autonomous-projects.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.allegro.offer8259012.shop",
+      "indicator": "autoplanet.tallerpro.io",
       "operator": "A",
-      "first_seen": "2026-10-17T09:57:03Z"
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "avalanche.entendre.finance",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "avira.tallerpro.io",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "virtualestheticians.com",
+      "operator": "A",
+      "first_seen": "2026-10-17T14:44:39Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 5002,
+  "manual_review_candidates_pending": 5360,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
