@@ -109,6 +109,7 @@ api.app.a24films.com	2026-10-15T10:38:02Z
 api.deepl.com	2026-10-15T10:38:02Z
 api.entendre.finance	2026-10-14T21:09:08Z
 api.freshstep.com	2026-10-15T16:03:11Z
+api.omnyn.com.br	2026-10-17T19:55:02Z
 api.render.com	2026-10-14T21:09:08Z
 api.replicas.dev	2026-10-14T21:09:08Z
 api.staging.a24films.com	2026-10-15T10:38:02Z
@@ -152,9 +153,11 @@ arun-is-cssy.onrender.com	2026-10-14T21:09:08Z
 arun-is.app.render.com	2026-10-14T21:09:08Z
 arun-is.onrender.com	2026-10-14T21:09:08Z
 asp.render.com	2026-10-14T21:09:08Z
+assets.render.com	2026-10-17T19:55:02Z
 astra-ai.co	2026-10-14T21:09:08Z
 async.codely.com	2026-10-16T10:24:52Z
 athsolutions.shop	2026-10-17T14:44:39Z
+atlantis.render.com	2026-10-17T19:55:02Z
 attivo.entendre.finance	2026-10-14T21:09:08Z
 audius.entendre.finance	2026-10-14T21:09:08Z
 aukilabs.entendre.finance	2026-10-14T21:09:08Z
@@ -188,6 +191,13 @@ aws-eu-central-1-1-postgres.staging.render.com	2026-10-14T21:09:08Z
 aws-eu-central-1-1-redis.localhost.render.com	2026-10-14T21:09:08Z
 aws-eu-central-1-1-redis.render.com	2026-10-14T21:09:08Z
 aws-eu-central-1-1-redis.staging.render.com	2026-10-14T21:09:08Z
+aws-eu-central-1-2-postgres.render.com	2026-10-17T19:55:02Z
+aws-eu-central-1-2-redis.render.com	2026-10-17T19:55:02Z
+aws-eu-central-1-3-ilb.image-registry-v2.gcp.aws-us-west-2-1.internal.render.com	2026-10-17T19:55:02Z
+aws-eu-central-1-3-ilb.image-registry.gcp.aws-us-west-2-1.internal.render.com	2026-10-17T19:55:02Z
+aws-eu-central-1-3-postgres.render.com	2026-10-17T19:55:02Z
+aws-eu-central-1-3-redis.render.com	2026-10-17T19:55:02Z
+aws-us-east-1-1-redis.render.com	2026-10-17T19:55:02Z
 aws-us-east-2-1-postgres.localhost.render.com	2026-10-14T21:09:08Z
 aws-us-east-2-1-postgres.render.com	2026-10-14T21:09:08Z
 aws-us-east-2-1-postgres.staging.render.com	2026-10-14T21:09:08Z
@@ -199,6 +209,11 @@ aws-us-west-2-1-postgres.render.com	2026-10-14T21:09:08Z
 aws-us-west-2-1-postgres.staging.render.com	2026-10-14T21:09:08Z
 aws-us-west-2-1-redis.render.com	2026-10-14T21:09:08Z
 aws-us-west-2-1-redis.staging.render.com	2026-10-14T21:09:08Z
+aws-us-west-2-2-redis.render.com	2026-10-17T19:55:02Z
+aws-us-west-2-3-postgres.render.com	2026-10-17T19:55:02Z
+aws-us-west-2-3-redis.render.com	2026-10-17T19:55:02Z
+aws-us-west-2-4-postgres.render.com	2026-10-17T19:55:02Z
+aws-us-west-2-4-redis.render.com	2026-10-17T19:55:02Z
 axelruns.entendre.finance	2026-10-14T21:09:08Z
 azertix.vercel.boin.uk	2026-10-15T10:38:02Z
 azure-openai-api.allshares.app	2026-10-15T20:47:24Z
@@ -315,6 +330,7 @@ chilina.tallerpro.io	2026-10-14T21:09:08Z
 chilina1.tallerpro.io	2026-10-14T21:09:08Z
 christina-bell.entendre.finance	2026-10-16T20:20:29Z
 chroma.tryprism.com	2026-10-14T21:09:08Z
+ci-internal.render.com	2026-10-17T19:55:02Z
 ci-testing.render.com	2026-10-14T21:09:08Z
 ci.render.com	2026-10-14T21:09:08Z
 ci3f2c2m93w70di03yn4tm0rlsopw1f.ai-adoption.gitkraken.dev	2026-10-17T14:44:39Z
@@ -339,6 +355,7 @@ clinic-api.syscore.app	2026-10-16T10:24:52Z
 clinic-dental.syscore.app	2026-10-16T10:24:52Z
 cliproxy.api.shunkakinoki.com	2026-10-14T21:09:08Z
 clock.shunkakinoki.com	2026-10-14T21:09:08Z
+cloud.omnyn.com.br	2026-10-17T19:55:02Z
 cloudchain.entendre.finance	2026-10-14T21:09:08Z
 cms.leadmagic.io	2026-10-14T21:09:08Z
 codely.com	2026-10-16T10:24:52Z
@@ -474,6 +491,7 @@ drafts.docs.gitkraken.dev	2026-10-17T14:44:39Z
 drift-trade.entendre.finance	2026-10-14T21:09:08Z
 drive.syscore.app	2026-10-16T10:24:52Z
 dub.deepl.com	2026-10-15T10:38:02Z
+dublivo.com	2026-10-17T19:55:02Z
 dustlabs.entendre.finance	2026-10-14T21:09:08Z
 dwh-hh.intl.datalogue.com	2026-10-14T21:09:08Z
 dwsresearch.entendre.finance	2026-10-14T21:09:08Z
@@ -700,6 +718,7 @@ fortress-accounting.entendre.finance	2026-10-14T21:09:08Z
 fortress-staging.entendre.finance	2026-10-14T21:09:08Z
 forvismazars.entendre.finance	2026-10-14T21:09:08Z
 franciscopartners.virgil.ai	2026-10-15T10:38:02Z
+frankfurt-keyvalue.render.com	2026-10-17T19:55:02Z
 frankfurt-postgres.localhost.render.com	2026-10-14T21:09:08Z
 frankfurt-postgres.render.com	2026-10-14T21:09:08Z
 frankfurt-postgres.staging.render.com	2026-10-14T21:09:08Z
@@ -1230,6 +1249,10 @@ huuble.hubblehq.com	2026-10-15T10:38:02Z
 icio.entendre.finance	2026-10-14T21:09:08Z
 icp.leadmagic.io	2026-10-14T21:09:08Z
 igp.virgil.ai	2026-10-15T10:38:02Z
+image-registry-v2.aws-eu-central-1-3.internal.render.com	2026-10-17T19:55:02Z
+image-registry-v2.internal.dev.render.com	2026-10-17T19:55:02Z
+image-registry.aws-eu-central-1-3.internal.render.com	2026-10-17T19:55:02Z
+image-registry.internal.dev.render.com	2026-10-17T19:55:02Z
 img.news.codely.com	2026-10-16T10:24:52Z
 infra-api-staging.2sync.com	2026-10-16T20:20:29Z
 infra-api-universal-staging.2sync.com	2026-10-16T20:20:29Z
@@ -1329,6 +1352,7 @@ links.em.freshstep.com	2026-10-15T16:03:11Z
 links.email.codely.com	2026-10-16T10:24:52Z
 links.investclearly.com	2026-10-14T21:09:08Z
 links.leadmagic.io	2026-10-14T21:09:08Z
+links.mail.dublivo.com	2026-10-17T19:55:02Z
 links.news.astra-ai.co	2026-10-15T02:36:00Z
 links.omnyn.com.br	2026-10-14T21:09:08Z
 listings-s.hubblehq.com	2026-10-15T10:38:02Z
@@ -1414,6 +1438,7 @@ msteams-media.hnd.deepl.com	2026-10-15T10:38:02Z
 msteams.dub.deepl.com	2026-10-15T10:38:02Z
 msteams.hnd.deepl.com	2026-10-15T10:38:02Z
 mta-sts.leadmagic.io	2026-10-14T21:09:08Z
+mta-sts.render.com	2026-10-17T19:55:02Z
 multiservicios-max-5.tallerpro.io	2026-10-14T21:09:08Z
 multritruc-diesel.tallerpro.io	2026-10-14T21:09:08Z
 music.a24films.com	2026-10-15T16:03:11Z
@@ -1422,8 +1447,12 @@ my-site.app.render.com	2026-10-14T21:09:08Z
 my-static-site.app.render.com	2026-10-14T21:09:08Z
 my-static-site.onrender.com	2026-10-14T21:09:08Z
 my.leadmagic.io	2026-10-14T21:09:08Z
+n1.apps.omnyn.com.br	2026-10-17T19:55:02Z
+n2.apps.omnyn.com.br	2026-10-17T19:55:02Z
 n3.apps.omnyn.com.br	2026-10-14T21:09:08Z
+n4.apps.omnyn.com.br	2026-10-17T19:55:02Z
 n5.apps.omnyn.com.br	2026-10-14T21:09:08Z
+n8.apps.omnyn.com.br	2026-10-17T19:55:02Z
 n8n-webhook.beanstalkconsulting.co	2026-10-14T21:09:08Z
 n8n.beanstalkconsulting.co	2026-10-14T21:09:08Z
 nd7-films.7summits.com	2026-10-15T20:47:24Z
@@ -1438,6 +1467,10 @@ next.codely.com	2026-10-16T10:24:52Z
 next.freshstep.com	2026-10-15T16:03:11Z
 nexus.a24films.com	2026-10-15T10:38:02Z
 ngrok-testing.virgil.ai	2026-10-15T10:38:02Z
+nodeops.render.com	2026-10-17T19:55:02Z
+nodeops.staging.render.com	2026-10-17T19:55:02Z
+nodeui.render.com	2026-10-17T19:55:02Z
+nodeui.staging.render.com	2026-10-17T19:55:02Z
 nominatim.datalogue.com	2026-10-14T21:09:08Z
 northwall.virgil.ai	2026-10-15T10:38:02Z
 notebook.shunkakinoki.com	2026-10-14T21:09:08Z
@@ -1445,12 +1478,14 @@ notes.leadmagic.io	2026-10-14T21:09:08Z
 notify.aination.gr	2026-10-14T21:09:08Z
 notify.creators.astra-ai.co	2026-10-15T02:36:00Z
 npclabs.entendre.finance	2026-10-14T21:09:08Z
+nui.render.com	2026-10-17T19:55:02Z
 o99.entendre.finance	2026-10-14T21:09:08Z
 odoo.syscore.app	2026-10-16T10:24:52Z
 oegbt.congressinfo.net	2026-10-17T02:23:52Z
 oegbt.congressinfo.net.exhibition.congressinfo.net	2026-10-17T02:23:52Z
 og.shunkakinoki.com	2026-10-14T21:09:08Z
 oha.virgil.ai	2026-10-15T10:38:02Z
+ohio-keyvalue.render.com	2026-10-17T19:55:02Z
 ohio-postgres.localhost.render.com	2026-10-14T21:09:08Z
 ohio-postgres.render.com	2026-10-14T21:09:08Z
 ohio-postgres.staging.render.com	2026-10-14T21:09:08Z
@@ -1472,7 +1507,10 @@ oneshot-pro.www.test.deepl.com	2026-10-15T10:38:02Z
 onlinegamesllc.entendre.finance	2026-10-14T21:09:08Z
 onrender.com	2026-10-14T21:09:08Z
 orders.leadmagic.io	2026-10-14T21:09:08Z
+oregon-keyvalue.localhost.render.com	2026-10-17T19:55:02Z
+oregon-keyvalue.render.com	2026-10-17T19:55:02Z
 oregon-postgres.localhost.render.com	2026-10-14T21:09:08Z
+oregon-postgres.postgres.localhost.render.com	2026-10-17T19:55:02Z
 oregon-postgres.render.com	2026-10-14T21:09:08Z
 oregon-postgres.staging.render.com	2026-10-14T21:09:08Z
 oregon-redis.localhost.render.com	2026-10-14T21:09:08Z
@@ -1551,6 +1589,7 @@ poland-payhub.buzz	2026-10-14T10:56:33Z
 poland-payhub.qpon	2026-10-11T21:18:36Z
 poland-payhub1.eu.cc	2026-10-17T14:44:39Z
 poland-payhub4.eu.cc	2026-10-14T21:09:08Z
+poland-payhub5.eu.cc	2026-10-17T19:55:02Z
 poland-payhub8.eu.cc	2026-10-15T20:47:24Z
 poland-payhub9.eu.cc	2026-10-16T02:31:06Z
 polygon.entendre.finance	2026-10-14T21:09:08Z
@@ -1569,6 +1608,7 @@ portico-frontend-ihxm.onrender.com	2026-10-14T21:09:08Z
 portico-frontend.app.render.com	2026-10-14T21:09:08Z
 postgres-oregon.localhost.render.com	2026-10-14T21:09:08Z
 postgres.localhost.render.com	2026-10-14T21:09:08Z
+postgres.postgres.localhost.render.com	2026-10-17T19:55:02Z
 postgres.render.com	2026-10-14T21:09:08Z
 postgres.staging.render.com	2026-10-14T21:09:08Z
 posthog.render.com	2026-10-14T21:09:08Z
@@ -1669,10 +1709,14 @@ replica-cyan.aws-ap-southeast-1-1-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.aws-ap-southeast-1-1-postgres.staging.render.com	2026-10-14T21:09:08Z
 replica-cyan.aws-eu-central-1-1-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.aws-eu-central-1-1-postgres.staging.render.com	2026-10-14T21:09:08Z
+replica-cyan.aws-eu-central-1-2-postgres.render.com	2026-10-17T19:55:02Z
+replica-cyan.aws-eu-central-1-3-postgres.render.com	2026-10-17T19:55:02Z
 replica-cyan.aws-us-east-2-1-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.aws-us-east-2-1-postgres.staging.render.com	2026-10-14T21:09:08Z
 replica-cyan.aws-us-west-2-1-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.aws-us-west-2-1-postgres.staging.render.com	2026-10-14T21:09:08Z
+replica-cyan.aws-us-west-2-3-postgres.render.com	2026-10-17T19:55:02Z
+replica-cyan.aws-us-west-2-4-postgres.render.com	2026-10-17T19:55:02Z
 replica-cyan.frankfurt-postgres.localhost.render.com	2026-10-14T21:09:08Z
 replica-cyan.frankfurt-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.frankfurt-postgres.staging.render.com	2026-10-14T21:09:08Z
@@ -1680,6 +1724,7 @@ replica-cyan.ohio-postgres.localhost.render.com	2026-10-14T21:09:08Z
 replica-cyan.ohio-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.ohio-postgres.staging.render.com	2026-10-14T21:09:08Z
 replica-cyan.oregon-postgres.localhost.render.com	2026-10-14T21:09:08Z
+replica-cyan.oregon-postgres.postgres.localhost.render.com	2026-10-17T19:55:02Z
 replica-cyan.oregon-postgres.render.com	2026-10-14T21:09:08Z
 replica-cyan.oregon-postgres.staging.render.com	2026-10-14T21:09:08Z
 replica-cyan.singapore-postgres.localhost.render.com	2026-10-14T21:09:08Z
@@ -1693,6 +1738,7 @@ reports.leadmagic.io	2026-10-14T21:09:08Z
 request-info-s.hubblehq.com	2026-10-15T10:38:02Z
 request-info.hubblehq.com	2026-10-15T10:38:02Z
 research.leadmagic.io	2026-10-14T21:09:08Z
+research.render.com	2026-10-17T19:55:02Z
 reset-script.review.allshares.app	2026-10-15T20:47:24Z
 resources.leadmagic.io	2026-10-14T21:09:08Z
 retool.admin.render.com	2026-10-14T21:09:08Z
@@ -1714,12 +1760,14 @@ s9y.entendre.finance	2026-10-14T21:09:08Z
 sabexlatam.com	2026-10-14T21:09:08Z
 sadmin.astra-ai.co	2026-10-15T02:36:00Z
 sales.leadmagic.io	2026-10-14T21:09:08Z
+salesloft.render.com	2026-10-17T19:55:02Z
 sandbox-zainamro-com.onrender.com	2026-10-14T21:09:08Z
 sandbox.virgil.ai	2026-10-15T10:38:02Z
 sap.syscore.app	2026-10-16T10:24:52Z
 saule.entendre.finance	2026-10-14T21:09:08Z
 saved-translations.www.test.deepl.com	2026-10-15T10:38:02Z
 school.boin.uk	2026-10-14T21:09:08Z
+scim.render.com	2026-10-17T19:55:02Z
 scratchoffs.a24films.com	2026-10-15T10:38:02Z
 scratchoffs.staging.a24films.com	2026-10-15T10:38:02Z
 scratchoffs.staging.vod.typeco.de	2026-10-15T16:03:11Z
@@ -1729,6 +1777,7 @@ sean.deepl.com	2026-10-15T10:38:02Z
 search-indexing.hubblehq.com	2026-10-15T10:38:02Z
 search-service-s.hubblehq.com	2026-10-15T10:38:02Z
 search-service.hubblehq.com	2026-10-15T10:38:02Z
+secops.render.com	2026-10-17T19:55:02Z
 security-service.syscore.app	2026-10-16T10:24:52Z
 semiotic.entendre.finance	2026-10-14T21:09:08Z
 sentient-foundation.entendre.finance	2026-10-14T21:09:08Z
@@ -1762,6 +1811,7 @@ simple-tem3.app.render.com	2026-10-14T21:09:08Z
 simple-yjqk.app.render.com	2026-10-14T21:09:08Z
 simple.app.render.com	2026-10-14T21:09:08Z
 sinatra-www.app.render.com	2026-10-14T21:09:08Z
+singapore-keyvalue.render.com	2026-10-17T19:55:02Z
 singapore-postgres.localhost.render.com	2026-10-14T21:09:08Z
 singapore-postgres.render.com	2026-10-14T21:09:08Z
 singapore-postgres.staging.render.com	2026-10-14T21:09:08Z
@@ -1802,6 +1852,8 @@ spice.entendre.finance	2026-10-14T21:09:08Z
 sponsor.innovativenurseeducator.com	2026-10-14T21:09:08Z
 sporkdao.entendre.finance	2026-10-14T21:09:08Z
 squadtalent.entendre.finance	2026-10-14T21:09:08Z
+ssl-teste.omnyn.com.br	2026-10-17T19:55:02Z
+ssl-wp.omnyn.com.br	2026-10-17T19:55:02Z
 ssn.congressinfo.net	2026-10-17T02:23:52Z
 sso.deepl.com	2026-10-15T10:38:02Z
 sso.dev.deepl.com	2026-10-15T10:38:02Z
@@ -1953,6 +2005,7 @@ top-gashd.tallerpro.io	2026-10-14T21:09:08Z
 tpw1.entendre.finance	2026-10-14T21:09:08Z
 track.leadmagic.io	2026-10-14T21:09:08Z
 trackr.leadmagic.io	2026-10-14T21:09:08Z
+trading.replicas.dev	2026-10-17T19:55:02Z
 tranoi.entendre.finance	2026-10-14T21:09:08Z
 transfer.bridge-capital.ch	2026-10-15T10:38:02Z
 treasury.entendre.finance	2026-10-14T21:09:08Z
@@ -1960,6 +2013,7 @@ tributelabs.entendre.finance	2026-10-14T21:09:08Z
 trigger.leadmagic.io	2026-10-14T21:09:08Z
 trilogy.entendre.finance	2026-10-14T21:09:08Z
 trkr.leadmagic.io	2026-10-14T21:09:08Z
+trust.render.com	2026-10-17T19:55:02Z
 try.astra-ai.co	2026-10-15T02:36:00Z
 try.leadmagic.io	2026-10-14T21:09:08Z
 tryprism.com	2026-10-14T21:09:08Z
@@ -2009,6 +2063,8 @@ vibes.leadmagic.io	2026-10-14T21:09:08Z
 viewings.hubblehq.com	2026-10-15T10:38:02Z
 viralcheck.astra-ai.co	2026-10-15T02:36:00Z
 virgil.ai	2026-10-15T10:38:02Z
+virginia-keyvalue.render.com	2026-10-17T19:55:02Z
+virginia-redis.render.com	2026-10-17T19:55:02Z
 visa-order.help	2026-10-08T12:33:38Z
 vistria.virgil.ai	2026-10-15T10:38:02Z
 vote.shunkakinoki.com	2026-10-14T21:09:08Z
@@ -2050,6 +2106,7 @@ wowdb-web.app.render.com	2026-10-14T21:09:08Z
 wowdb-web.onrender.com	2026-10-14T21:09:08Z
 wp-blog.hubblehq.com	2026-10-15T10:38:02Z
 wp-new.2sync.com	2026-10-16T20:20:29Z
+wp-teste.omnyn.com.br	2026-10-17T19:55:02Z
 wp-translator.2sync.com	2026-10-16T20:20:29Z
 wp.2sync.com	2026-10-16T20:20:29Z
 wrapped.leadmagic.io	2026-10-14T21:09:08Z
@@ -2080,6 +2137,7 @@ www.deliverycontrol.mx	2026-10-16T20:20:29Z
 www.dev.deepl.com	2026-10-15T10:38:02Z
 www.doodlecomics.net	2026-10-14T21:09:08Z
 www.download.deepl.com	2026-10-15T10:38:02Z
+www.dublivo.com	2026-10-17T19:55:02Z
 www.dwh-hh.intl.datalogue.com	2026-10-14T21:09:08Z
 www.elementmultiservices.com	2026-10-14T21:09:08Z
 www.entendre.finance	2026-10-14T21:09:08Z

@@ -170,6 +170,7 @@ api.freshstep.com
 api.hubblehq.com
 api.investclearly.com
 api.leadmagic.io
+api.omnyn.com.br
 api.render.com
 api.replicas.dev
 api.shunkakinoki.com
@@ -247,11 +248,13 @@ asp.render.com
 assets-staging.leadmagic.io
 assets.leadmagic.io
 assets.ohdigital.agency
+assets.render.com
 assets.splitbag.com
 assistant.versec.workers.dev
 astra-ai.co
 async.codely.com
 athsolutions.shop
+atlantis.render.com
 attivo.entendre.finance
 audius.entendre.finance
 aukilabs.entendre.finance
@@ -297,6 +300,13 @@ aws-eu-central-1-1-postgres.staging.render.com
 aws-eu-central-1-1-redis.localhost.render.com
 aws-eu-central-1-1-redis.render.com
 aws-eu-central-1-1-redis.staging.render.com
+aws-eu-central-1-2-postgres.render.com
+aws-eu-central-1-2-redis.render.com
+aws-eu-central-1-3-ilb.image-registry-v2.gcp.aws-us-west-2-1.internal.render.com
+aws-eu-central-1-3-ilb.image-registry.gcp.aws-us-west-2-1.internal.render.com
+aws-eu-central-1-3-postgres.render.com
+aws-eu-central-1-3-redis.render.com
+aws-us-east-1-1-redis.render.com
 aws-us-east-2-1-postgres.localhost.render.com
 aws-us-east-2-1-postgres.render.com
 aws-us-east-2-1-postgres.staging.render.com
@@ -308,6 +318,11 @@ aws-us-west-2-1-postgres.render.com
 aws-us-west-2-1-postgres.staging.render.com
 aws-us-west-2-1-redis.render.com
 aws-us-west-2-1-redis.staging.render.com
+aws-us-west-2-2-redis.render.com
+aws-us-west-2-3-postgres.render.com
+aws-us-west-2-3-redis.render.com
+aws-us-west-2-4-postgres.render.com
+aws-us-west-2-4-redis.render.com
 axelruns.entendre.finance
 azertix.vercel.boin.uk
 azure-openai-api.allshares.app
@@ -445,6 +460,7 @@ chilina.tallerpro.io
 chilina1.tallerpro.io
 christina-bell.entendre.finance
 chroma.tryprism.com
+ci-internal.render.com
 ci-testing.render.com
 ci.render.com
 ci3f2c2m93w70di03yn4tm0rlsopw1f.ai-adoption.gitkraken.dev
@@ -499,6 +515,7 @@ cliproxy.api.shunkakinoki.com
 cliproxy.shunkakinoki.com
 clock.shunkakinoki.com
 cloud.ohdigital.agency
+cloud.omnyn.com.br
 cloudchain.entendre.finance
 cms.leadmagic.io
 cn-en-c7app.com
@@ -683,6 +700,7 @@ drift-trade.entendre.finance
 driftnet.io
 drive.syscore.app
 dub.deepl.com
+dublivo.com
 dustlabs.entendre.finance
 dwh-hh.intl.datalogue.com
 dwsresearch.entendre.finance
@@ -937,6 +955,7 @@ forvismazars.entendre.finance
 frakt-orderhubid94699.eu.cc
 fraktleverans.help
 franciscopartners.virgil.ai
+frankfurt-keyvalue.render.com
 frankfurt-postgres.localhost.render.com
 frankfurt-postgres.render.com
 frankfurt-postgres.staging.render.com
@@ -1481,6 +1500,10 @@ huuble.hubblehq.com
 icio.entendre.finance
 icp.leadmagic.io
 igp.virgil.ai
+image-registry-v2.aws-eu-central-1-3.internal.render.com
+image-registry-v2.internal.dev.render.com
+image-registry.aws-eu-central-1-3.internal.render.com
+image-registry.internal.dev.render.com
 img.news.codely.com
 immrtl-hlpr.shop
 inbox.hubblehq.com
@@ -1598,6 +1621,7 @@ links.email.codely.com
 links.investclearly.com
 links.leadmagic.io
 links.lumail.io
+links.mail.dublivo.com
 links.news.astra-ai.co
 links.omnyn.com.br
 listings-s.hubblehq.com
@@ -1725,6 +1749,7 @@ msteams.dub.deepl.com
 msteams.hnd.deepl.com
 mta-sts.driftnet.io
 mta-sts.leadmagic.io
+mta-sts.render.com
 multiservicios-max-5.tallerpro.io
 multritruc-diesel.tallerpro.io
 music.a24films.com
@@ -1733,8 +1758,12 @@ my-site.app.render.com
 my-static-site.app.render.com
 my-static-site.onrender.com
 my.leadmagic.io
+n1.apps.omnyn.com.br
+n2.apps.omnyn.com.br
 n3.apps.omnyn.com.br
+n4.apps.omnyn.com.br
 n5.apps.omnyn.com.br
+n8.apps.omnyn.com.br
 n8n-webhook.beanstalkconsulting.co
 n8n.beanstalkconsulting.co
 nas.boin.uk
@@ -1753,6 +1782,10 @@ next.codely.com
 next.freshstep.com
 nexus.a24films.com
 ngrok-testing.virgil.ai
+nodeops.render.com
+nodeops.staging.render.com
+nodeui.render.com
+nodeui.staging.render.com
 nominatim.datalogue.com
 northwall.virgil.ai
 notebook.shunkakinoki.com
@@ -1761,6 +1794,7 @@ notice3425346783456.com
 notify.aination.gr
 notify.creators.astra-ai.co
 npclabs.entendre.finance
+nui.render.com
 o1thinker.versec.workers.dev
 o99.entendre.finance
 odoo.syscore.app
@@ -1770,6 +1804,7 @@ offer8259012.shop
 og.shunkakinoki.com
 oha.virgil.ai
 ohdigital.agency
+ohio-keyvalue.render.com
 ohio-postgres.localhost.render.com
 ohio-postgres.render.com
 ohio-postgres.staging.render.com
@@ -1808,7 +1843,10 @@ order4851.com
 orders-info3182.com
 orders-info93657.com
 orders.leadmagic.io
+oregon-keyvalue.localhost.render.com
+oregon-keyvalue.render.com
 oregon-postgres.localhost.render.com
+oregon-postgres.postgres.localhost.render.com
 oregon-postgres.render.com
 oregon-postgres.staging.render.com
 oregon-redis.localhost.render.com
@@ -1931,6 +1969,7 @@ poland-payhub.qpon
 poland-payhub.shop
 poland-payhub1.eu.cc
 poland-payhub4.eu.cc
+poland-payhub5.eu.cc
 poland-payhub8.eu.cc
 poland-payhub9.eu.cc
 polygon.entendre.finance
@@ -1952,6 +1991,7 @@ portico-frontend-ihxm.onrender.com
 portico-frontend.app.render.com
 postgres-oregon.localhost.render.com
 postgres.localhost.render.com
+postgres.postgres.localhost.render.com
 postgres.render.com
 postgres.staging.render.com
 posthog.render.com
@@ -2070,10 +2110,14 @@ replica-cyan.aws-ap-southeast-1-1-postgres.render.com
 replica-cyan.aws-ap-southeast-1-1-postgres.staging.render.com
 replica-cyan.aws-eu-central-1-1-postgres.render.com
 replica-cyan.aws-eu-central-1-1-postgres.staging.render.com
+replica-cyan.aws-eu-central-1-2-postgres.render.com
+replica-cyan.aws-eu-central-1-3-postgres.render.com
 replica-cyan.aws-us-east-2-1-postgres.render.com
 replica-cyan.aws-us-east-2-1-postgres.staging.render.com
 replica-cyan.aws-us-west-2-1-postgres.render.com
 replica-cyan.aws-us-west-2-1-postgres.staging.render.com
+replica-cyan.aws-us-west-2-3-postgres.render.com
+replica-cyan.aws-us-west-2-4-postgres.render.com
 replica-cyan.frankfurt-postgres.localhost.render.com
 replica-cyan.frankfurt-postgres.render.com
 replica-cyan.frankfurt-postgres.staging.render.com
@@ -2081,6 +2125,7 @@ replica-cyan.ohio-postgres.localhost.render.com
 replica-cyan.ohio-postgres.render.com
 replica-cyan.ohio-postgres.staging.render.com
 replica-cyan.oregon-postgres.localhost.render.com
+replica-cyan.oregon-postgres.postgres.localhost.render.com
 replica-cyan.oregon-postgres.render.com
 replica-cyan.oregon-postgres.staging.render.com
 replica-cyan.singapore-postgres.localhost.render.com
@@ -2094,6 +2139,7 @@ reports.leadmagic.io
 request-info-s.hubblehq.com
 request-info.hubblehq.com
 research.leadmagic.io
+research.render.com
 reset-script.review.allshares.app
 resources.leadmagic.io
 retool.admin.render.com
@@ -2120,6 +2166,7 @@ s9y.entendre.finance
 sabexlatam.com
 sadmin.astra-ai.co
 sales.leadmagic.io
+salesloft.render.com
 sandbox-zainamro-com.onrender.com
 sandbox.shunkakinoki.com
 sandbox.virgil.ai
@@ -2127,6 +2174,7 @@ sap.syscore.app
 saule.entendre.finance
 saved-translations.www.test.deepl.com
 school.boin.uk
+scim.render.com
 scratchoffs.a24films.com
 scratchoffs.staging.a24films.com
 scratchoffs.staging.vod.typeco.de
@@ -2138,6 +2186,7 @@ search-service-s.hubblehq.com
 search-service.hubblehq.com
 search-staging.hubblehq.com
 search.hubblehq.com
+secops.render.com
 security-service.syscore.app
 semiotic.entendre.finance
 send.listkit.io
@@ -2176,6 +2225,7 @@ simple-tem3.app.render.com
 simple-yjqk.app.render.com
 simple.app.render.com
 sinatra-www.app.render.com
+singapore-keyvalue.render.com
 singapore-postgres.localhost.render.com
 singapore-postgres.render.com
 singapore-postgres.staging.render.com
@@ -2222,6 +2272,8 @@ splitbag.com
 sponsor.innovativenurseeducator.com
 sporkdao.entendre.finance
 squadtalent.entendre.finance
+ssl-teste.omnyn.com.br
+ssl-wp.omnyn.com.br
 ssn.congressinfo.net
 sso.deepl.com
 sso.dev.deepl.com
@@ -2393,6 +2445,7 @@ top-gashd.tallerpro.io
 tpw1.entendre.finance
 track.leadmagic.io
 trackr.leadmagic.io
+trading.replicas.dev
 tranoi.entendre.finance
 transfer.bridge-capital.ch
 treasury.entendre.finance
@@ -2402,6 +2455,8 @@ trigger.leadmagic.io
 trilogy.entendre.finance
 trk.send.a24films.com
 trkr.leadmagic.io
+trust.render.com
+trust.replicas.dev
 trust.workbrew.com
 try.astra-ai.co
 try.leadmagic.io
@@ -2470,6 +2525,8 @@ vintedverify.my.id
 vintedverify.web.id
 viralcheck.astra-ai.co
 virgil.ai
+virginia-keyvalue.render.com
+virginia-redis.render.com
 visa-order.help
 vistria.virgil.ai
 vote.shunkakinoki.com
@@ -2527,6 +2584,7 @@ wowdb-web.app.render.com
 wowdb-web.onrender.com
 wp-blog.hubblehq.com
 wp-new.2sync.com
+wp-teste.omnyn.com.br
 wp-translator.2sync.com
 wp.2sync.com
 wrapped.leadmagic.io
@@ -2563,6 +2621,7 @@ www.dev.deepl.com
 www.dfclgzw.com
 www.doodlecomics.net
 www.download.deepl.com
+www.dublivo.com
 www.dwh-hh.intl.datalogue.com
 www.edumaniaedtech.online
 www.elementmultiservices.com
