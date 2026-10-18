@@ -66,6 +66,7 @@ elementmultiservices.com	A
 emberbill.com	A
 entendre.finance	A
 eternumsystems.tech	A
+feedhub-agent.vercel.app	A
 fingerprint.to	A
 fraktleverans.help	A
 fraktorderinfo12364l.shop	A
@@ -74,6 +75,7 @@ fuegenix.com	A
 g-starsoftwareapi.sbs	A
 gitkraken.dev	A
 goldbridgebanking.com	A
+gumtreepay-verify.help	A
 hubblehq.com	A
 huian189.com	A
 hv-piechowski.com	A
@@ -81,6 +83,8 @@ info-auth.com	A
 inglevalegroup.com	A
 innovativenurseeducator.com	A
 investclearly.com	A
+jestr.gg	A
+joinformz.com	A
 leadmagic.io	A
 lidio.app	A
 lnvoicel-47293.com
@@ -190,8 +194,10 @@ remotion-git-codex-browser-studio-dependency-hmr-remotion.vercel.app	A
 remotion-git-codex-docs-player-media-loading-remotion.vercel.app	A
 remotion-git-codex-fix-web-renderer-border-radius-remotion.vercel.app	A
 remotion-git-codex-revert-canvas-outline-migration-remotion.vercel.app	A
+remotion-git-docs-clarify-automators-free-license-1426-remotion.vercel.app	A
 remotion-i62r6uf7c-remotion.vercel.app	A
 remotion-k7bzu6356-remotion.vercel.app	A
+remotion-n9btt4ypb-remotion.vercel.app	A
 remotion-nal9ncvfg-remotion.vercel.app	A
 remotion-q9mhwvyzp-remotion.vercel.app	A
 remotion-qhxgrlsh3-remotion.vercel.app	A
