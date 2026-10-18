@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-18T10:55:13Z",
-  "last_run_at": "2026-10-18T10:09:40Z",
-  "last_run_summary": "[2026-10-18T10:09:40Z] 20 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-18T10:09:40Z] HEALTH certspotter=12/199 crtsh=16/31 urlscan=453/453 dns-google=4880/4880 dns-cf=4880/4880",
+  "generated_at": "2026-10-18T16:01:21Z",
+  "last_run_at": "2026-10-18T15:10:13Z",
+  "last_run_summary": "[2026-10-18T15:10:13Z] 4 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-18T15:10:13Z] HEALTH certspotter=13/290 crtsh=17/29 urlscan=200/460 dns-google=5200/5200 dns-cf=5200/5200",
   "tracked_hosts": {
-    "total": 3084,
+    "total": 3089,
     "by_status": {
-      "dead": 819,
-      "active": 2265
+      "dead": 871,
+      "active": 2218
     },
     "by_operator_tier": {
-      "A:tier1": 3084
+      "A:tier1": 3089
     }
   },
   "fingerprints": [
@@ -947,33 +947,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1372
+    "A": 1376
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "7summits.ws",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "begraphic.dev",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "beta.lumail.io",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "beta.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
     {
       "type": "domain",
       "indicator": "betamy.com",
@@ -1069,9 +1045,33 @@
       "indicator": "uzchi.com",
       "operator": "A",
       "first_seen": "2026-10-18T10:09:40Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "bowrivercapital.virgil.ai",
+      "operator": "A",
+      "first_seen": "2026-10-18T15:10:13Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "metrito.com",
+      "operator": "A",
+      "first_seen": "2026-10-18T15:10:13Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "online-order.top",
+      "operator": "A",
+      "first_seen": "2026-10-18T15:10:13Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "verify-notises104846.click",
+      "operator": "A",
+      "first_seen": "2026-10-18T15:10:13Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 6399,
+  "manual_review_candidates_pending": 6788,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
