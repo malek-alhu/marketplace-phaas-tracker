@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-18T03:02:09Z",
-  "last_run_at": "2026-10-18T02:24:07Z",
-  "last_run_summary": "[2026-10-18T02:24:07Z] 66 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-18T02:24:07Z] HEALTH certspotter=11/194 crtsh=0/3 urlscan=447/447 dns-google=4614/4614 dns-cf=4614/4614",
+  "generated_at": "2026-10-18T10:55:13Z",
+  "last_run_at": "2026-10-18T10:09:40Z",
+  "last_run_summary": "[2026-10-18T10:09:40Z] 20 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-18T10:09:40Z] HEALTH certspotter=12/199 crtsh=16/31 urlscan=453/453 dns-google=4880/4880 dns-cf=4880/4880",
   "tracked_hosts": {
-    "total": 3069,
+    "total": 3084,
     "by_status": {
-      "dead": 812,
-      "active": 2257
+      "dead": 819,
+      "active": 2265
     },
     "by_operator_tier": {
-      "A:tier1": 3069
+      "A:tier1": 3084
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1352
+    "A": 1372
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "eclipsevolleyballkc.athsolutions.shop",
+      "indicator": "7summits.ws",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "emm-t-testcase.datalogue.de",
+      "indicator": "begraphic.dev",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "feedhub-agent.vercel.app",
+      "indicator": "beta.lumail.io",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "firstteeeasternmichigan.athsolutions.shop",
+      "indicator": "beta.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "firstteegreaterhouston.athsolutions.shop",
+      "indicator": "betamy.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "firstteesanantonio.athsolutions.shop",
+      "indicator": "billing.astra-ai.co",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "firstteetreasurecoast.athsolutions.shop",
+      "indicator": "blocksqozen.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "gumtreepay-verify.help",
+      "indicator": "blog.hubblehq.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "jcchs.athsolutions.shop",
+      "indicator": "bob-smith.development.tipboxhq.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "members.newpublicservice.com",
+      "indicator": "bobspace.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "members.staging.newpublicservice.com",
+      "indicator": "boin.uk",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "pledge.newpublicservice.com",
+      "indicator": "bol-1381.review.allshares.app",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "pureenergy.athsolutions.shop",
+      "indicator": "email.lb.jestr.gg",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-git-docs-clarify-automators-free-license-1426-remotion.vercel.app",
+      "indicator": "lab.goldenplanet.shop",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-n9btt4ypb-remotion.vercel.app",
+      "indicator": "mobile-shop.muneeb-khan.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "staging.newpublicservice.com",
+      "indicator": "nycboardflow.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "status.newpublicservice.com",
+      "indicator": "procy.site",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "stopfundraisingspam.com",
+      "indicator": "sh0rt-advenfice941.top",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "www.jestr.gg",
+      "indicator": "topclassactions.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     },
     {
       "type": "domain",
-      "indicator": "www.newpublicservice.com",
+      "indicator": "uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-18T02:24:07Z"
+      "first_seen": "2026-10-18T10:09:40Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 6033,
+  "manual_review_candidates_pending": 6399,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
