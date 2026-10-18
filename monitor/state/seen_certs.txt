@@ -578,6 +578,7 @@ crestle-ai.app.render.com
 crestle-ai.onrender.com
 crestle.app.render.com
 crestle.onrender.com
+crm.jestr.gg
 crm.reigartkistlerdds.com
 crosslake.review.allshares.app
 crv3ra.entendre.finance
@@ -681,6 +682,7 @@ dmt.datalogue.com
 do.2sync.com
 docker.2sync.com
 docs.drafts.gitkraken.dev
+docs.jestr.gg
 docs.leadmagic.io
 docs.leadmagic.sh.leadmagic.io
 docs.replicas.dev
@@ -739,6 +741,7 @@ email.email.neptunedispatching.com
 email.entendre.finance
 email.ghost.insights.investclearly.com
 email.growvisory.co
+email.lb.jestr.gg
 email.messages.2sync.com
 email.mydigitalhero.co.uk
 email.nimblean.de
@@ -1029,6 +1032,7 @@ glovi.congressinfo.net
 gmendoza.syscore.app
 gnus-ai.entendre.finance
 go-530-enable-live-captable.review.allshares.app
+go.jestr.gg
 go.leadmagic.io
 go.ultima.yt
 gojo.entendre.finance
@@ -1489,6 +1493,7 @@ host-dev.hubblehq.com
 host-staging.hubblehq.com
 host.hackday.hubblehq.com
 host.hubblehq.com
+hostmaster.procy.site
 hpc.virgil.ai
 hs.deepl.com
 hubblehq.com
@@ -1561,6 +1566,7 @@ jekyll.onrender.com
 jenkins.datalogue.com
 jenkins.syscore.app
 jentend.entendre.finance
+jestr.gg
 jh.entendre.finance
 jmtd.entendre.finance
 jobs.deepl.com
@@ -1779,6 +1785,7 @@ negabarit.sbs
 nephos.entendre.finance
 neptunedispatching.com
 newpublicservice.com
+newsletter.jestr.gg
 newsletter.leadmagic.io
 newsletter.supplyvan.com
 next-empresas.codely.com
@@ -2017,6 +2024,7 @@ preview.investclearly.com
 preview.leadmagic.io
 preview.reports.deferred.com
 pro.codely.com
+procy.site
 prod.hubblehq.com
 prod.supplyvan.com
 prodhire.com
@@ -2153,6 +2161,7 @@ retool.deferred.com
 retool.render.com
 revenue3.entendre.finance
 rick-rock.immortal-4u.shop
+rivalix.xyz
 roadmap.leadmagic.io
 robinhoodrsrv.com
 rocco.entendre.finance
@@ -2205,6 +2214,7 @@ service.leadmagic.io
 services.boin.uk
 servicio-elcetrico-saul.tallerpro.io
 servimotors-24h.tallerpro.io
+sh0rt-advenfice941.top
 share.leadmagic.io
 sharpnel.entendre.finance
 shibuimotifs-public-site.app.render.com
@@ -2596,6 +2606,14 @@ wp-teste.omnyn.com.br
 wp-translator.2sync.com
 wp.2sync.com
 wrapped.leadmagic.io
+ww25.hostmaster.hostmaster.hostmaster.procy.site
+ww25.hostmaster.hostmaster.procy.site
+ww25.hostmaster.procy.site
+ww25.pop.procy.site
+ww25.procy.site
+ww25.smtp.procy.site
+ww38.pop.procy.site
+ww38.procy.site
 ww7.virgil.ai
 www-neu.datalogue.com
 www.7summits.com
@@ -2651,6 +2669,7 @@ www.hv-piechowski.com
 www.innovativenurseeducator.com
 www.investclearly.com
 www.iwww.congressinfo.net
+www.jestr.gg
 www.jobs.deepl.com
 www.leadmagic.io
 www.lifekit.centumly.com
@@ -2676,6 +2695,7 @@ www.pay.elementmultiservices.com
 www.payprotect.shop
 www.periyartigers.com
 www.physicall.fitness
+www.procy.site
 www.prodhire.com
 www.psd18.com
 www.reacttest.congressinfo.net

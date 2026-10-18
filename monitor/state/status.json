@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-18T16:01:21Z",
-  "last_run_at": "2026-10-18T15:10:13Z",
-  "last_run_summary": "[2026-10-18T15:10:13Z] 4 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-18T15:10:13Z] HEALTH certspotter=13/290 crtsh=17/29 urlscan=200/460 dns-google=5200/5200 dns-cf=5200/5200",
+  "generated_at": "2026-10-18T20:34:05Z",
+  "last_run_at": "2026-10-18T19:55:19Z",
+  "last_run_summary": "[2026-10-18T19:55:19Z] 8 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-18T19:55:19Z] HEALTH certspotter=11/206 crtsh=8/16 urlscan=100/463 dns-google=5194/5194 dns-cf=5194/5194",
   "tracked_hosts": {
-    "total": 3089,
+    "total": 3106,
     "by_status": {
-      "dead": 871,
-      "active": 2218
+      "dead": 892,
+      "active": 2214
     },
     "by_operator_tier": {
-      "A:tier1": 3089
+      "A:tier1": 3106
     }
   },
   "fingerprints": [
@@ -947,57 +947,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1376
+    "A": 1384
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "betamy.com",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "billing.astra-ai.co",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "blocksqozen.entendre.finance",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "blog.hubblehq.com",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "bob-smith.development.tipboxhq.com",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "bobspace.entendre.finance",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "boin.uk",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "bol-1381.review.allshares.app",
-      "operator": "A",
-      "first_seen": "2026-10-18T10:09:40Z"
-    },
     {
       "type": "domain",
       "indicator": "email.lb.jestr.gg",
@@ -1069,9 +1021,57 @@
       "indicator": "verify-notises104846.click",
       "operator": "A",
       "first_seen": "2026-10-18T15:10:13Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "crm.jestr.gg",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "docs.jestr.gg",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "go.jestr.gg",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "newsletter.jestr.gg",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "sh0rt-advenfice941.top",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted.gz-zongheng.com",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted.uzchi.com",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "xfqh.net",
+      "operator": "A",
+      "first_seen": "2026-10-18T19:55:19Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 6788,
+  "manual_review_candidates_pending": 7362,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
