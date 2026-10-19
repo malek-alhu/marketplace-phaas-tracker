@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T12:32:52Z",
-  "last_run_at": "2026-10-19T11:42:40Z",
-  "last_run_summary": "[2026-10-19T11:42:40Z] 35 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-19T11:42:40Z] HEALTH certspotter=11/214 crtsh=0/3 urlscan=470/470 dns-google=4882/4882 dns-cf=4882/4882",
+  "generated_at": "2026-10-19T19:02:01Z",
+  "last_run_at": "2026-10-19T18:03:51Z",
+  "last_run_summary": "[2026-10-19T18:03:51Z] 13 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-19T18:03:51Z] HEALTH certspotter=12/306 crtsh=0/3 urlscan=165/477 dns-google=5242/5242 dns-cf=5242/5242",
   "tracked_hosts": {
-    "total": 3165,
+    "total": 3182,
     "by_status": {
-      "dead": 940,
-      "active": 2225
+      "dead": 964,
+      "active": 2218
     },
     "by_operator_tier": {
-      "A:tier1": 3165
+      "A:tier1": 3182
     }
   },
   "fingerprints": [
@@ -947,87 +947,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1480
+    "A": 1493
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "clerk.cvccpartners.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.doodlecomics.net",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.hamiltonlane.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.hendersonpark.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.jefferies.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.kkr.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.leadmagic.io",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "clerk.levelequity.virgil.ai",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "climb-kilimanjaro.com",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "discovercars.com",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "mta-sts.howdy.com",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poland-payhub6.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "portal.torontocondorentalsonline.co",
-      "operator": "A",
-      "first_seen": "2026-10-19T11:42:40Z"
-    },
     {
       "type": "domain",
       "indicator": "rentacarscanner.com",
@@ -1069,9 +991,87 @@
       "indicator": "order4851.com",
       "operator": "A",
       "first_seen": "2026-10-19T11:42:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "accounts.skills.leadmagic.io",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ae11a279.sni.cloudflaressl.com",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.skills.leadmagic.io",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "dmarc.leadmagic.io",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "rewards.gg",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "codiedev.com",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "fullport.gg",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "fuxam-web-git-krupin-log-3792-stability-group-fuxam.vercel.app",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "launchpad.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payflow-poland.qpon",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "taleswetell.store",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "trezor.io",
+      "operator": "A",
+      "first_seen": "2026-10-19T18:03:51Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 7997,
+  "manual_review_candidates_pending": 8215,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

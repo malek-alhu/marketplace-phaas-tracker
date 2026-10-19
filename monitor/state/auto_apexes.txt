@@ -39,6 +39,7 @@ c0mpra-verify.help	A
 centumly.com	A
 checkn-auth.com	A
 codely.com	A
+codiedev.com	A
 coldacq.com	A
 compra-verification.help	A
 compra-verifying.online	A
@@ -76,10 +77,13 @@ fraktleverans.help	A
 fraktorderinfo12364l.shop	A
 freshstep.com	A
 fuegenix.com	A
+fullport.gg	A
+fuxam-web-git-krupin-log-3792-stability-group-fuxam.vercel.app	A
 g-starsoftwareapi.sbs	A
 gitkraken.dev	A
 goldbridgebanking.com	A
 goldenplanet.shop	A
+grvt.io	A
 gumtreepay-verify.help	A
 gz-zongheng.com	A
 howdy.com	A
@@ -98,6 +102,7 @@ lnvoicel-47293.com
 lumail.io	A
 metrito.com	A
 microsoft--cm-2ja.com	A
+mlabs.ng	A
 muneeb-khan.com	A
 negabarit.sbs	A
 neptunedispatching.com	A
@@ -138,6 +143,7 @@ paycore-pl-action.eu.cc	A
 paycore-poland.eu.cc	A
 paycore-trust-process.sbs	A
 paycoreaction-pl.shop	A
+payflow-poland.qpon	A
 payplcore.biz.id	A
 payprzelew-core1.fun	A
 payprzelew-core1.site	A
@@ -231,11 +237,13 @@ storiedmoney.com	A
 studiohive.art	A
 supplyvan.com	A
 syscore.app	A
+taleswetell.store	A
 tallerpro.io	A
 tarekit.com	A
 timeflies.live	A
 tipboxhq.com	A
 topclassactions.com	A
+trezor.io	A
 tryprism.com	A
 tschief.shop	A
 uchooo.com	A
