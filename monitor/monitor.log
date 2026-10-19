@@ -14326,3 +14326,367 @@
 [2026-10-19T02:38:09Z] SCAN-SAVED clerk.levelequity.virgil.ai -> https://urlscan.io/result/01a1522a-a70f-735c-b360-11e9ec9abbf7/
 [2026-10-19T02:38:09Z] SCAN-BACKLOG 1664 live host(s) queued for next run (cap 20/run)
 [2026-10-19T02:38:09Z] 61 new tier-1 Operator-A indicator(s) this run
+[2026-10-19T11:42:40Z] NEW cert  app.virtualestheticians.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-19T11:42:40Z] candidate cert  email.mail.virtualestheticians.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate cert  email.mg.virtualestheticians.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-19T11:42:40Z] NEW cert  link.virtualestheticians.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW cert  protocol.virtualestheticians.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW cert  virtualestheticians.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW cert  www.virtualestheticians.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  abandonedgrove.com  [urlscan @216.150.1.1 (hash:chained) / AS16509] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  azertixly.vercel.boin.uk  [urlscan @51.178.53.11 (apex-context:boin.uk) / AS16276] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  brussels-airport.discovercars.com  [urlscan @https://www.discovercars.com/ (apex-context:discovercars.com) / 019ff800-e21b-76ae-b188-d4c3b600b91e] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  carhirenz.com.au  [urlscan @https://www.discovercars.com/?a_aid=affiliatemarketingonline (apex-context:discovercars.com) / 01a117fb-760d-7189-bc93-11d436b6e275] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  chroma.tryprism.com  [urlscan @64.239.109.129 (apex-context:tryprism.com) / AS16509] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  ciotrk.leadmagic.io  [urlscan @34.98.83.137 (apex-context:leadmagic.io) / AS396982] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  cjumo.tallerpro.io  [urlscan @66.33.60.66 (apex-context:tallerpro.io) / AS16509] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  ckbecofund.entendre.finance  [urlscan @76.76.21.98 (apex-context:entendre.finance) / AS16509] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clearance.deepl.com  [urlscan @172.64.146.169 (apex-context:deepl.com) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.apax.virgil.ai  [urlscan @104.18.34.146 (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.cvccpartners.virgil.ai  [urlscan @2a06:98c1:3100::6812:2292 (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.doodlecomics.net  [urlscan @2a06:98c1:3100::6812:2292 (apex-context:doodlecomics.net) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.hamiltonlane.virgil.ai  [urlscan @104.18.34.146 (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.hendersonpark.virgil.ai  [urlscan @172.64.153.110 (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.jefferies.virgil.ai  [urlscan @172.64.153.110 (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.kkr.virgil.ai  [urlscan @104.18.34.146 (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.leadmagic.io  [urlscan @2a06:98c1:3100::6812:2292 (apex-context:leadmagic.io) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  clerk.levelequity.virgil.ai  [urlscan @2606:4700:4408::ac40:996e (apex-context:virgil.ai) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  climb-kilimanjaro.com  [urlscan @https://7summits.com/ (apex-context:7summits.com) / 01a1538d-87d4-7191-b814-b3de749ee6c8] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  discovercars.com  [urlscan @https://www.discovercars.com/ (apex-context:discovercars.com) / 019faa78-a13f-72b9-b6a2-48060aa3d58f] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  mta-sts.howdy.com  [urlscan @172.66.146.221 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  poland-payhub6.eu.cc  [urlscan @172.67.213.236 (hash:chained) / AS13335] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  portal.torontocondorentalsonline.co  [urlscan @https://www.discovercars.com/?a_aid=affiliatemarketingonline (apex-context:discovercars.com) / 01a10566-d375-778a-9aac-bf218b39e818] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  rentacarscanner.com  [urlscan @https://www.discovercars.com/?a_aid=inoleggio (apex-context:discovercars.com) / 019f9cc5-3d18-7010-97f8-89508a272673] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  tschief.shop  [urlscan @64.239.109.1 (hash:chained) / AS16509] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  wuguijia.com  [urlscan @93.152.220.112 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  www.digid.nl  [urlscan @2001:4c10:1015:5001::15 (hash:chained) / AS24586] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW domain  www.yarnquill.com  [urlscan @64.29.17.1 (hash:chained) / AS16509] tier=1 op=A
+[2026-10-19T11:42:40Z] candidate ip  103.224.182.214  [dns (portal.torontocondorentalsonline.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  103.224.212.109  [dns (carhirenz.com.au)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  104.18.37.19  [dns (app.virtualestheticians.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  104.20.46.185  [dns (mta-sts.howdy.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  104.21.37.224  [dns (poland-payhub6.eu.cc)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  104.21.9.8  [dns (rentacarscanner.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  108.156.224.33  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  108.156.224.52  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  108.156.224.56  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  108.156.224.68  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  172.64.150.237  [dns (app.virtualestheticians.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  172.66.146.221  [dns (mta-sts.howdy.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  172.67.140.208  [dns (rentacarscanner.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  172.67.213.236  [dns (poland-payhub6.eu.cc)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  18.154.253.107  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  18.154.253.22  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  18.154.253.61  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  18.154.253.80  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  192.179.22.121  [dns (booking.hubblehq.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2001:4c10:1015:5001::15  [dns (www.digid.nl)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  212.102.40.113  [dns (a.ultima.yt)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:1800:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:4e00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:6600:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:7a00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:8000:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:8a00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:8c00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:ac00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:be00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:c600:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:dc00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:e400:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2020:fe00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:3c00:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:5c00:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:7000:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:8a00:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:ce00:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:f200:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2027:fe00:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:2c00:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:3200:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:4e00:14:dac3:8b80:93a1  [dns (staging.aaa24.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:5a00:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:5e00:14:dac3:8b80:93a1  [dns (staging.aaa24.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:7800:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:7a00:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:a400:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:b200:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2064:d600:14:dac3:8b80:93a1  [dns (staging.account.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:1000:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:1600:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:2000:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:200:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:3200:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:3400:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:3600:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:400:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:4200:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:6c00:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:7200:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:9600:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:9600:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:a400:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:a600:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:b200:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:ba00:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:be00:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:c600:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:d800:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:e000:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:e200:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:e400:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:e400:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20a4:ea00:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:1400:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:1a00:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:1a00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:3000:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:3600:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:4000:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:5600:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:6800:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:6e00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:8600:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:8800:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:8800:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:9600:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:a800:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:ac00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:b400:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:ba00:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:be00:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:ca00:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:cc00:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:d800:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:f200:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:20d1:fa00:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:3000:1d:ed1d:ab80:93a1  [dns (a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:3a00:1d:ed1d:ab80:93a1  [dns (aaa24.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:5e00:1d:ed1d:ab80:93a1  [dns (aaa24.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:6400:1d:ed1d:ab80:93a1  [dns (a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:7a00:1d:ed1d:ab80:93a1  [dns (aaa24.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:9400:1d:ed1d:ab80:93a1  [dns (account.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:bc00:1d:ed1d:ab80:93a1  [dns (a24nexus.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:21da:e200:1d:ed1d:ab80:93a1  [dns (aaa24.typeco.de)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:0:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:1400:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:1a00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:1c00:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:1e00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:2000:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:2200:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:2800:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:2e00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:3200:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:3600:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:3600:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:3800:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:4200:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:4400:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:4e00:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:5400:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:5600:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:5a00:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:6000:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:6400:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:6600:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:6600:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:6800:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:6c00:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:7000:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:7200:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:7c00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:7e00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:8c00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:9e00:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:b000:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:b200:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:c000:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:ca00:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:d800:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:e00:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:e200:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:e400:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:e800:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:ea00:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:ec00:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:f400:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:233e:f600:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:2800:1e:fadc:3500:93a1  [dns (links.bridge-capital.ch)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:3e00:1e:fadc:3500:93a1  [dns (links.bridge-capital.ch)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:6200:1e:fadc:3500:93a1  [dns (links.bridge-capital.ch)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:8000:1e:fadc:3500:93a1  [dns (links.bridge-capital.ch)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:a000:1e:fadc:3500:93a1  [dns (links.investclearly.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:d800:1e:fadc:3500:93a1  [dns (links.bridge-capital.ch)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2464:e600:1e:fadc:3500:93a1  [dns (links.investclearly.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:1000:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:1000:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:1200:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:200:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:2800:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:2e00:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:3200:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:4400:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:4800:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:5000:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:5400:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:5800:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:5a00:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:6a00:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:8400:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:8e00:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:ca00:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:d000:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2465:e400:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2466:3000:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2466:8200:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2466:8400:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2466:e200:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2466:e800:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:2466:f400:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:200:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:2600:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:2a00:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:3200:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:3600:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:3a00:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:4600:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:4a00:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:4c00:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:5000:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:5600:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:5800:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:5e00:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:6600:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:7600:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:7800:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:7a00:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:8800:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:9600:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:9800:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:9c00:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:9e00:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:b200:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:ba00:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:c200:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:d800:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:dc00:3:5c6:4b00:93a1  [dns (click.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:ec00:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:f000:3:5c6:4b00:93a1  [dns (url3037.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250e:fe00:3:5c6:4b00:93a1  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:0:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:1200:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:3600:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:3800:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:3a00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:400:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:4400:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:4800:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:5000:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:5800:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:5e00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:6200:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:6600:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:6c00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:7a00:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:7e00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:8000:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:8600:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:9800:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:9c00:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:a600:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:b000:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:bc00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:be00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:c800:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:d000:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:d400:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:e000:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:e400:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:e800:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:250f:fc00:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:6e00:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:7200:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:800:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:8200:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:9200:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:9400:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:9800:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:b200:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:cc00:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26bd:da00:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:5400:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:6000:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:600:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:6200:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:6a00:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:7200:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:e000:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:26fe:f600:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:1600:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:4400:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:4a00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:6000:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:6a00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:800:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:9000:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:a200:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:d200:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:f200:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2600:9000:27f8:f800:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2606:4700:10::6814:2eb9  [dns (mta-sts.howdy.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2606:4700:10::ac42:92dd  [dns (mta-sts.howdy.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2606:4700:3031::6815:25e0  [dns (poland-payhub6.eu.cc)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2606:4700:3031::ac43:8cd0  [dns (rentacarscanner.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2606:4700:3031::ac43:d5ec  [dns (poland-payhub6.eu.cc)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2606:4700:3034::6815:908  [dns (rentacarscanner.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2607:f8b0:4023:1017::79  [dns (search-indexing.hubblehq.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2a06:98c1:3102::6812:2513  [dns (app.virtualestheticians.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  2a06:98c1:310c::ac40:96ed  [dns (app.virtualestheticians.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.130.181.151  [dns (api.replicas.dev)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.134.17.137  [dns (api.replicas.dev)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.143.188.216  [dns (api.replicas.dev)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.5.101.15  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.5.104.223  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.5.130.15  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.5.130.59  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.5.131.33  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  3.5.93.111  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  46.22.190.53  [dns (www.digid.nl)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  52.219.105.244  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  52.219.176.136  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] candidate ip  52.219.176.240  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-19T11:42:40Z] HEALTH certspotter=11/214 crtsh=0/3 urlscan=470/470 dns-google=4882/4882 dns-cf=4882/4882
+[2026-10-19T11:42:40Z] HEALTH-NOTE crtsh degraded (0/3) — CT token/new-apex discovery skipped this run
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex abandonedgrove.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex digid.nl (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex howdy.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex poland-payhub6.eu.cc (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex tschief.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex wuguijia.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T11:42:40Z] AUTO-PROMOTE apex yarnquill.com (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-19T12:31:40Z] HEAL (missing) kit body 278568539fc839007c23bc263d840c504a61d0978df3ab1fd80f969c48d0d51e not recovered (not retained by urlscan, or failed verification)
+[2026-10-19T11:42:40Z] SCAN-SAVED abandonedgrove.com -> https://urlscan.io/result/01a15425-7fdc-7090-a636-876fd6bed717/
+[2026-10-19T11:42:40Z] SCAN-SAVED app.virtualestheticians.com -> https://urlscan.io/result/01a15425-9a6e-7588-b3ca-4d116499630b/
+[2026-10-19T11:42:40Z] SCAN-SAVED brussels-airport.discovercars.com -> https://urlscan.io/result/01a15425-a4eb-731b-a742-ca3c2f0d79f2/
+[2026-10-19T11:42:40Z] SCAN-SAVED carhirenz.com.au -> https://urlscan.io/result/01a15425-b289-7288-a934-2a70f62928db/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.llcpartners.virgil.ai -> https://urlscan.io/result/01a15425-ce50-71e9-9b0a-42ac27b9f4b6/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.manhattan.virgil.ai -> https://urlscan.io/result/01a15425-d9cb-756c-9e30-a61aeb5fedf2/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.newpublicservice.com -> https://urlscan.io/result/01a15425-e524-75d1-9a34-ef653ee56174/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.northwall.virgil.ai -> https://urlscan.io/result/01a15425-f12d-760a-a224-f83ed441fbcc/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.partners.leadmagic.io -> https://urlscan.io/result/01a15425-fcd5-75ba-b185-e2756edbfe86/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.pennantpark.virgil.ai -> https://urlscan.io/result/01a15426-0802-7486-aca8-141698a32962/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.staging.newpublicservice.com -> https://urlscan.io/result/01a15426-1381-705f-baf1-d161d9edbabe/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.storiedmoney.com -> https://urlscan.io/result/01a15426-1efe-76aa-af8b-284c6ca0db63/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.tci.virgil.ai -> https://urlscan.io/result/01a15426-2a93-77bd-8b2c-225e292f2826/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.teahouse.virgil.ai -> https://urlscan.io/result/01a15426-360f-7109-9f9f-a8444b24069a/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.venrock-test.virgil.ai -> https://urlscan.io/result/01a15426-40e3-75fe-a1f6-a1cd3aac03c4/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.venrock.virgil.ai -> https://urlscan.io/result/01a15426-4aef-741f-9b71-62bc9917b9d3/
+[2026-10-19T11:42:40Z] SCAN-SAVED clerk.virgil.ai -> https://urlscan.io/result/01a15426-5964-702c-ac0f-2a02f7da342a/
+[2026-10-19T11:42:40Z] SCAN-SAVED click.cuisly.fr -> https://urlscan.io/result/01a15426-6380-714d-b80e-df2c02e8c8da/
+[2026-10-19T11:42:40Z] SCAN-SAVED click.deferred.com -> https://urlscan.io/result/01a15426-6e97-70cd-b346-8d7df61ebdb0/
+[2026-10-19T11:42:40Z] SCAN-SAVED clickfunnel-v1.lumail.io -> https://urlscan.io/result/01a15426-7a21-74c6-bbcd-9e5470c15d59/
+[2026-10-19T11:42:40Z] SCAN-BACKLOG 1664 live host(s) queued for next run (cap 20/run)
+[2026-10-19T11:42:40Z] NEW revival  gumtree.order4851.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.75.190] tier=1 op=A
+[2026-10-19T11:42:40Z] NEW revival  order4851.com  [dead/retired host reappeared ON CLOUDFLARE — possible operator reuse / 104.21.75.190] tier=1 op=A
+[2026-10-19T11:42:40Z] 35 new tier-1 Operator-A indicator(s) this run

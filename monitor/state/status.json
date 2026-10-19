@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T03:18:11Z",
-  "last_run_at": "2026-10-19T02:38:09Z",
-  "last_run_summary": "[2026-10-19T02:38:09Z] 61 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-19T02:38:09Z] HEALTH certspotter=11/206 crtsh=0/3 urlscan=465/465 dns-google=4570/4570 dns-cf=4570/4570",
+  "generated_at": "2026-10-19T12:32:52Z",
+  "last_run_at": "2026-10-19T11:42:40Z",
+  "last_run_summary": "[2026-10-19T11:42:40Z] 35 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-19T11:42:40Z] HEALTH certspotter=11/214 crtsh=0/3 urlscan=470/470 dns-google=4882/4882 dns-cf=4882/4882",
   "tracked_hosts": {
-    "total": 3145,
+    "total": 3165,
     "by_status": {
-      "dead": 893,
-      "active": 2252
+      "dead": 940,
+      "active": 2225
     },
     "by_operator_tier": {
-      "A:tier1": 3145
+      "A:tier1": 3165
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1445
+    "A": 1480
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "cdn.workbrew.com",
+      "indicator": "clerk.cvccpartners.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "celestia.entendre.finance",
+      "indicator": "clerk.doodlecomics.net",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "cerebratech.entendre.finance",
+      "indicator": "clerk.hamiltonlane.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "chainsafe.entendre.finance",
+      "indicator": "clerk.hendersonpark.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "checkout.athsolutions.shop",
+      "indicator": "clerk.jefferies.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "checkout.leadmagic.io",
+      "indicator": "clerk.kkr.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "checkout.www.test.deepl.com",
+      "indicator": "clerk.leadmagic.io",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "chieftain-poc.review.allshares.app",
+      "indicator": "clerk.levelequity.virgil.ai",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "chilina.tallerpro.io",
+      "indicator": "climb-kilimanjaro.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "chilina1.tallerpro.io",
+      "indicator": "discovercars.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "christina-bell.entendre.finance",
+      "indicator": "mta-sts.howdy.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "climb-aconcagua.com",
+      "indicator": "poland-payhub6.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "data.metrito.com",
+      "indicator": "portal.torontocondorentalsonline.co",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "raised.nz",
+      "indicator": "rentacarscanner.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "rewards.gg",
+      "indicator": "tschief.shop",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "sevensummits.news",
+      "indicator": "wuguijia.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "tr.ee",
+      "indicator": "www.digid.nl",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
       "type": "domain",
-      "indicator": "www.discovercars.com",
+      "indicator": "www.yarnquill.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.nycboardflow.com",
+      "type": "revival",
+      "indicator": "gumtree.order4851.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     },
     {
-      "type": "domain",
-      "indicator": "x.gd",
+      "type": "revival",
+      "indicator": "order4851.com",
       "operator": "A",
-      "first_seen": "2026-10-19T02:38:09Z"
+      "first_seen": "2026-10-19T11:42:40Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 7718,
+  "manual_review_candidates_pending": 7997,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
