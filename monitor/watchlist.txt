@@ -132,6 +132,8 @@ periyartigers.com       dnsonly 1 A
 151.243.18.165   origin 1 A
 93.152.220.94    origin 1 A   # Dedik GB range; vinted.6897926.com served the kit here 2026-10-15
 93.152.205.11    origin 1 A   # Dedik (AS207043); kit apex fraktorderinfo12364l.shop moved here 2026-10-16
+93.152.220.112   origin 1 A   # Dedik (AS207043); betamy.com, xfqh.net, wuguijia.com, www.psd18.com, vinted.gz-zongheng.com serve the kit here 2026-10-17..19
+94.26.83.75      origin 1 A   # Dedik (AS207043); www.allegro.offer8259012.shop served the kit here 2026-10-18
 
 # === Operator B — real bulletproof origins, 1337 Services GmbH / AS210558
 # === (Hamburg DE). Live-verified 2026-09-25: dominant or sole tenant is

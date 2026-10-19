@@ -377,3 +377,24 @@ domain,pl-paymoney1.eu.cc,A,OLX / Poczta Polska (PL),AS207043(Dedik Services),20
 domain,fraktorderinfo12364l.shop,A,frakt lure (NO/SE),AS207043(Dedik Services),2026-10-16,high,tracker kit-fingerprint/hash match (monitor/findings.csv); reviewed 2026-10-16; first scan on Cloudflare; resolving to 93.152.205.11 (Dedik Services; off Cloudflare) 2026-10-16
 ip,93.152.205.11,A,frakt lure (NO/SE),AS207043(Dedik Services),2026-10-16,medium,Dedik Services Limited (AS207043) server; kit apex fraktorderinfo12364l.shop resolves here (DNS only so far); watchlist origin
 domain,pl-paymoney3.eu.cc,A,marketplace-PhaaS (PL),AS207043(Dedik Services),2026-10-16,high,tracker kit-fingerprint/hash match (monitor/findings.csv); pl-paymoney<N> series; reviewed 2026-10-16; resolving to 193.111.117.211 (Dedik Services; off Cloudflare) 2026-10-16
+domain,offer8259012.shop,A,Allegro (PL),AS207043(Dedik Services),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #120 #121; allegro./www.allegro. subdomains; moved off Cloudflare to 94.26.83.75 (Dedik) 2026-10-18
+domain,bekreftsjs.com,A,FINN / Posten (NO),AS207043(Dedik Services),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #121; bekreft* series; resolving to 91.92.34.221 (Dedik) 2026-10-19
+domain,betamy.com,A,Vinted,AS207043(Dedik Services),2026-10-16,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #119; vinted. subdomain; moved off Cloudflare to 93.152.220.112 (Dedik) 2026-10-18
+domain,verification-page.icu,A,Vinted / Marktplaats,AS13335(Cloudflare),2026-10-16,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #119 #120; verification-page naming series; resolving on Cloudflare 2026-10-19
+domain,pl-paymoney4.eu.cc,A,InPost (PL),AS207043(Dedik Services),2026-10-16,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #119; pl-paymoney<N> series; resolving to 193.111.117.211 (Dedik) 2026-10-19
+domain,notice3425346783456.com,A,Vinted,AS13335(Cloudflare),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #121; vinted. subdomain; resolving on Cloudflare 2026-10-19
+domain,poland-payhub6.eu.cc,A,InPost / OLX (PL),AS13335(Cloudflare),2026-10-19,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); poland-payhub<N> series
+domain,paczzkaa643185.sbs,A,OLX (PL),AS207043(Dedik Services),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); paczzkaa<digits> series; olx. subdomain on 193.111.117.211 (Dedik)
+domain,paczzkaa742165.sbs,A,Poczta / InPost (PL),AS207043(Dedik Services),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); paczzkaa<digits> series; 193.111.117.211 (Dedik)
+domain,payflow-poland.qpon,A,OLX (PL),AS207043(Dedik Services),2026-10-19,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); olx. subdomain on 193.111.117.211 (Dedik)
+domain,gumtreepay-verify.help,A,Gumtree,AS13335(Cloudflare),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes)
+domain,compra-verifying.online,A,marketplace-PhaaS (various),AS13335(Cloudflare),2026-10-17,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes)
+domain,online-order.top,A,marketplace-PhaaS (various),AS13335(Cloudflare),2026-10-18,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes)
+domain,sh0rt-advenfice941.top,A,marketplace-PhaaS (various),AS13335(Cloudflare),2026-10-18,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes)
+domain,verify-notises104846.click,A,marketplace-PhaaS (various),AS13335(Cloudflare),2026-10-18,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes)
+domain,uzchi.com,A,Vinted,AS13335(Cloudflare),2026-10-18,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); vinted. subdomain
+domain,gz-zongheng.com,A,Vinted,AS207043(Dedik Services),2026-10-18,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); vinted. subdomain on 93.152.220.112 (Dedik); older Chinese-named domain repurposed
+domain,xfqh.net,A,marketplace-PhaaS (various),AS207043(Dedik Services),2026-10-18,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); 93.152.220.112 (Dedik); older Chinese-named domain repurposed
+domain,wuguijia.com,A,marketplace-PhaaS (various),AS207043(Dedik Services),2026-10-19,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); 93.152.220.112 (Dedik); older Chinese-named domain repurposed
+ip,93.152.220.112,A,Vinted / various,AS207043(Dedik Services),2026-10-17,high,dedicated Operator-A kit origin (Dedik Services Limited); betamy.com + xfqh.net + wuguijia.com + www.psd18.com + vinted.gz-zongheng.com; watchlist origin
+ip,94.26.83.75,A,Allegro (PL),AS207043(Dedik Services),2026-10-18,high,Dedik Services Limited (AS207043); www.allegro.offer8259012.shop serves the kit here; watchlist origin
