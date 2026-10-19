@@ -49,6 +49,7 @@ accounts.partners.leadmagic.io
 accounts.pennantpark.virgil.ai
 accounts.playground.leadmagic.io
 accounts.riverbend.virgil.ai
+accounts.skills.leadmagic.io
 accounts.staging.newpublicservice.com
 accounts.storiedmoney.com
 accounts.teahouse.virgil.ai
@@ -91,6 +92,7 @@ adsrvr.shorten-it.lat
 adult-questionnaire.versec.workers.dev
 advisor-staging.hubblehq.com
 advisor.hubblehq.com
+ae11a279.sni.cloudflaressl.com
 affiliate.edumaniaedtech.online
 affiliates.leadmagic.io
 ag-h48.app.render.com
@@ -497,6 +499,7 @@ clerk.northwall.virgil.ai
 clerk.partners.leadmagic.io
 clerk.pennantpark.virgil.ai
 clerk.playground.leadmagic.io
+clerk.skills.leadmagic.io
 clerk.staging.newpublicservice.com
 clerk.storiedmoney.com
 clerk.tci.virgil.ai
@@ -680,6 +683,7 @@ diana-wyckoff.entendre.finance
 dict-audio.deepl.com
 direkt-auszahlung.com
 distributeai.entendre.finance
+dmarc.leadmagic.io
 dmdn-stage.datalogue.com
 dmdn.datalogue.com
 dmt-stage.datalogue.com
@@ -1721,6 +1725,7 @@ mathieuibanez.com
 maximo-becker-gutierrez-ortiz.tallerpro.io
 mb.leadmagic.io
 mcp.leadmagic.io
+mcp.render.com
 mcp.shunkakinoki.com
 media-social.ohdigital.agency
 media.2sync.com
@@ -2193,6 +2198,7 @@ retool.admin.render.com
 retool.deferred.com
 retool.render.com
 revenue3.entendre.finance
+rewards.gg
 rick-rock.immortal-4u.shop
 rivalix.xyz
 roadmap.leadmagic.io
@@ -2286,6 +2292,7 @@ site-a0bm.onrender.com
 sitemap.reigartkistlerdds.com
 sitemaps.reigartkistlerdds.com
 skillcap.entendre.finance
+skills.leadmagic.io
 sl-optimize.leadmagic.io
 sl.deepl.com
 sl1719.deepl.com
