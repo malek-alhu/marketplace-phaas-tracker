@@ -35,6 +35,7 @@ accounts.blueowl.virgil.ai
 accounts.bowrivercapital.virgil.ai
 accounts.brooklyn.virgil.ai
 accounts.clearstreet.virgil.ai
+accounts.contact.founder.mlabs.ng
 accounts.cvccpartners.virgil.ai
 accounts.doodlecomics.net
 accounts.edumaniaedtech.online
@@ -44,6 +45,9 @@ accounts.investclearly.com
 accounts.leadmagic.io
 accounts.llcpartners.virgil.ai
 accounts.manhattan.virgil.ai
+accounts.mlabs.ng
+accounts.moonlit.mlabs.ng
+accounts.naijaclassic.games.mlabs.ng
 accounts.newpublicservice.com
 accounts.northwall.virgil.ai
 accounts.partners.leadmagic.io
@@ -59,6 +63,7 @@ accounts.urbanpartners.virgil.ai
 accounts.venrock-test.virgil.ai
 accounts.venrock.virgil.ai
 accounts.virgil.ai
+accounts.youngmayor.mlabs.ng
 acctual.entendre.finance
 action-paycore-pl.shop
 action-paycore-pl1.eu.cc
@@ -483,6 +488,7 @@ clearance.deepl.com
 clerk.apax.virgil.ai
 clerk.app.leadmagic.io
 clerk.beta.leadmagic.io
+clerk.contact.founder.mlabs.ng
 clerk.cvccpartners.virgil.ai
 clerk.doodlecomics.net
 clerk.edumaniaedtech.online
@@ -496,6 +502,9 @@ clerk.leadmagic.io
 clerk.levelequity.virgil.ai
 clerk.llcpartners.virgil.ai
 clerk.manhattan.virgil.ai
+clerk.mlabs.ng
+clerk.moonlit.mlabs.ng
+clerk.naijaclassic.games.mlabs.ng
 clerk.newpublicservice.com
 clerk.northwall.virgil.ai
 clerk.partners.leadmagic.io
@@ -509,6 +518,7 @@ clerk.teahouse.virgil.ai
 clerk.venrock-test.virgil.ai
 clerk.venrock.virgil.ai
 clerk.virgil.ai
+clerk.youngmayor.mlabs.ng
 clerk.zt1.leadmagic.io
 clerk.zt5.leadmagic.io
 cli-proxy.shunkakinoki.com
@@ -554,6 +564,7 @@ congressinfo.net
 consent.a24films.com
 console-staging.workbrew.com
 console.workbrew.com
+contact.founder.mlabs.ng
 content.trezor.io
 contracting.shunkakinoki.com
 copytrdng.entendre.finance
@@ -972,6 +983,7 @@ forms.leadmagic.io
 fortress-accounting.entendre.finance
 fortress-staging.entendre.finance
 forvismazars.entendre.finance
+founder.mlabs.ng
 frakt-orderhubid94699.eu.cc
 fraktleverans.help
 franciscopartners.virgil.ai
@@ -1477,6 +1489,7 @@ gtm.leadmagic.io
 gumtree-payment.shop
 gumtreepay-verify.help
 gvx.deepl.com
+gz-zongheng.com
 h48-fork.app.render.com
 h48.app.render.com
 h48.onrender.com
@@ -1622,6 +1635,8 @@ landing.leadmagic.io
 langfuse.shunkakinoki.com
 last-ai.entendre.finance
 latam.freshstep.com
+launchpad.mayrlabs.com.ng
+launchpad.mlabs.ng
 lava.entendre.finance
 lb.leadmagic.io
 lbold.leadmagic.io
@@ -1750,11 +1765,14 @@ milanuncios.verified-compra-es.cyou
 milanuncios.verify-compra.shop
 minio-console.syscore.app
 mj.2sync.com
+mlabs.ng
 modjo.entendre.finance
 moelis.virgil.ai
 monomerlabs.entendre.finance
 monrelaisplusin.icu
 moongate.entendre.finance
+moonlit.mayrlabs.com.ng
+moonlit.mlabs.ng
 moonpay.entendre.finance
 mostly.immortal-h.xyz
 moto-card.entendre.finance
@@ -1794,6 +1812,7 @@ n5.apps.omnyn.com.br
 n8.apps.omnyn.com.br
 n8n-webhook.beanstalkconsulting.co
 n8n.beanstalkconsulting.co
+naijaclassic.games.mlabs.ng
 nas.boin.uk
 nd7-films.7summits.com
 nd7.7summits.com
@@ -1846,6 +1865,7 @@ old.ultima.yt
 oldsv.supplyvan.com
 olx-entrega.it.com
 olx.paczzkaa643185.sbs
+olx.paczzkaa742165.sbs
 omar-1.entendre.finance
 omar-test1.entendre.finance
 omar4.entendre.finance
@@ -1903,6 +1923,7 @@ paczzka4342362.buzz
 paczzka4342362.sbs
 paczzka434236212.shop
 paczzkaa643185.sbs
+paczzkaa742165.sbs
 paczzkaa763238.click
 pagamento.cc
 pages.leadmagic.io
@@ -2201,6 +2222,7 @@ request-info-s.hubblehq.com
 request-info.hubblehq.com
 research.leadmagic.io
 research.render.com
+resend-links.mlabs.ng
 reset-script.review.allshares.app
 resources.leadmagic.io
 retool.admin.render.com
@@ -2375,6 +2397,8 @@ staging.entendre.finance
 staging.gitkraken.dev
 staging.hubblehq.com
 staging.leadmagic.io
+staging.moonlit.mayrlabs.com.ng
+staging.moonlit.mlabs.ng
 staging.newpublicservice.com
 staging.render.com
 staging.student.a24films.com
@@ -2434,6 +2458,7 @@ szrcgj.com
 t.shunkakinoki.com
 takumi-suspensions.tallerpro.io
 taleinvest.entendre.finance
+taleswetell.store
 taller-macbook.tallerpro.io
 taller-mecanicopierexx.tallerpro.io
 taller-pruebajo.tallerpro.io
@@ -2734,8 +2759,10 @@ www.logo.leadmagic.io
 www.longkun100.com
 www.lp.freshstep.com
 www.lumail.io
+www.mayrlabs.com.ng
 www.mb.leadmagic.io
 www.metrics.leadmagic.io
+www.mlabs.ng
 www.nd7-films.7summits.com
 www.nd7.7summits.com
 www.nd7films.7summits.com
@@ -2747,6 +2774,7 @@ www.omnyn.com.br
 www.one-water.at
 www.onrender.com
 www.order-detaljer.shop
+www.paczzkaa742165.sbs
 www.pagamento.cc
 www.pay.elementmultiservices.com
 www.payprotect.shop
@@ -2768,6 +2796,7 @@ www.static.deepl.com
 www.storiedmoney.com
 www.supplyvan.com
 www.syscore.app
+www.taleswetell.store
 www.tallerpro.io
 www.test.deepl.com
 www.tipboxhq.com
@@ -2799,6 +2828,7 @@ year-review.leadmagic.io
 yeet.entendre.finance
 yield-curve-demonstration.app.render.com
 yo-protocol.entendre.finance
+youngmayor.mlabs.ng
 yusuketanaka.birthday.2021.shunkakinoki.com
 z.astra-ai.co
 zaveri-static.app.render.com
