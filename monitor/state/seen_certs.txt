@@ -28,6 +28,7 @@ aaa24.typeco.de
 abc.entendre.finance
 abcdefg.entendre.finance
 aboodabureziq.entendre.finance
+academy.trezor.io
 account.a24films.com
 accounts.apax.virgil.ai
 accounts.blueowl.virgil.ai
@@ -382,6 +383,7 @@ blog.hubblehq.com
 blog.leadmagic.io
 blog.render.com
 blog.shunkakinoki.com
+blog.trezor.io
 bob-smith.development.tipboxhq.com
 bobspace.entendre.finance
 boin.uk
@@ -552,6 +554,7 @@ congressinfo.net
 consent.a24films.com
 console-staging.workbrew.com
 console.workbrew.com
+content.trezor.io
 contracting.shunkakinoki.com
 copytrdng.entendre.finance
 corepay.app
@@ -1472,6 +1475,7 @@ grafana.staging.render.com
 grass.entendre.finance
 gtm.leadmagic.io
 gumtree-payment.shop
+gumtreepay-verify.help
 gvx.deepl.com
 h48-fork.app.render.com
 h48.app.render.com
@@ -1524,6 +1528,7 @@ image-registry-v2.aws-eu-central-1-3.internal.render.com
 image-registry-v2.internal.dev.render.com
 image-registry.aws-eu-central-1-3.internal.render.com
 image-registry.internal.dev.render.com
+img.mailing.trezor.io
 img.news.codely.com
 immrtl-hlpr.shop
 inbox.hubblehq.com
@@ -2116,6 +2121,7 @@ quill-master-fork.app.render.com
 quill.app.render.com
 quill.onrender.com
 qusecure.leadmagic.io
+r.mailing.trezor.io
 r3gen.entendre.finance
 r3genfinance-test.entendre.finance
 radiant-lion-test.entendre.finance
@@ -2380,6 +2386,7 @@ stagingredirect.gitkraken.dev
 stagng.a24films.com
 static.deepl.com
 static.deferred.com
+static.trezor.io
 staticcdn.deepl.com
 stats.driftnet.io
 status.2sync.com
@@ -2389,6 +2396,7 @@ status.openfactor.ai
 status.render.com
 status.replicas.dev
 status.shunkakinoki.com
+status.trezor.io
 status.workbrew.com
 sto.leadmagic.io
 storiedmoney.com
@@ -2509,6 +2517,7 @@ trading.replicas.dev
 tranoi.entendre.finance
 transfer.bridge-capital.ch
 treasury.entendre.finance
+trezor.io
 tributelabs.entendre.finance
 trigger.2sync.com
 trigger.leadmagic.io
@@ -2652,6 +2661,7 @@ wp-teste.omnyn.com.br
 wp-translator.2sync.com
 wp.2sync.com
 wrapped.leadmagic.io
+wuguijia.com
 ww25.hostmaster.hostmaster.hostmaster.procy.site
 ww25.hostmaster.hostmaster.procy.site
 ww25.hostmaster.procy.site

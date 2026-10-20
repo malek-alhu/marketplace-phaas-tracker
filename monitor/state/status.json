@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-20T03:36:25Z",
-  "last_run_at": "2026-10-20T02:50:23Z",
-  "last_run_summary": "[2026-10-20T02:50:23Z] 69 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-20T02:50:23Z] HEALTH certspotter=11/227 crtsh=0/3 urlscan=485/485 dns-google=5294/5294 dns-cf=5294/5294",
+  "generated_at": "2026-10-20T11:24:35Z",
+  "last_run_at": "2026-10-20T10:44:23Z",
+  "last_run_summary": "[2026-10-20T10:44:23Z] 33 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-20T10:44:23Z] HEALTH certspotter=11/232 crtsh=0/3 urlscan=492/492 dns-google=4640/4640 dns-cf=4640/4640",
   "tracked_hosts": {
-    "total": 3225,
+    "total": 3251,
     "by_status": {
-      "dead": 963,
-      "active": 2262
+      "dead": 964,
+      "active": 2287
     },
     "by_operator_tier": {
-      "A:tier1": 3225
+      "A:tier1": 3251
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1562
+    "A": 1595
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "sso-trezor.io",
+      "indicator": "contracting.shunkakinoki.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "stallmark.studio",
+      "indicator": "copytrdng.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "status.trezor.io",
+      "indicator": "dayletter.ai",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "suite.trezor.io",
+      "indicator": "dba.orders-info3182.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezor-en.at",
+      "indicator": "depop.gz-zongheng.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezor-uk.at",
+      "indicator": "foxwrenlabs.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezor-update.io",
+      "indicator": "ge-nie.ai",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezor.com.au",
+      "indicator": "getkonduro.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezor.dk",
+      "indicator": "grubby.ai",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezorsuite.cc",
+      "indicator": "inkonchain.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "trezorsuite.ltd",
+      "indicator": "jif.ai",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "v-trezorsuite.org",
+      "indicator": "monumentsapp.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "v2-trezor.net",
+      "indicator": "remotion-git-codex-fix-lambda-proxy-h1-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "www.backmiles.com",
+      "indicator": "tbbababy.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "www.eu-trezor.com",
+      "indicator": "usekonduro.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "www.jif.ai",
+      "indicator": "wekonduro.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tbbababy.com",
+      "indicator": "www.harveynichols.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "www.topfives.co",
+      "indicator": "www.mpulseliving.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "www.trezor.dk",
+      "indicator": "www.ropicrbx.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     },
     {
       "type": "domain",
-      "indicator": "yarnquill.com",
+      "indicator": "www.sportsdirect.com",
       "operator": "A",
-      "first_seen": "2026-10-20T02:50:23Z"
+      "first_seen": "2026-10-20T10:44:23Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 8585,
+  "manual_review_candidates_pending": 8962,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
