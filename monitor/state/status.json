@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-20T11:24:35Z",
-  "last_run_at": "2026-10-20T10:44:23Z",
-  "last_run_summary": "[2026-10-20T10:44:23Z] 33 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-20T10:44:23Z] HEALTH certspotter=11/232 crtsh=0/3 urlscan=492/492 dns-google=4640/4640 dns-cf=4640/4640",
+  "generated_at": "2026-10-20T16:53:11Z",
+  "last_run_at": "2026-10-20T16:06:40Z",
+  "last_run_summary": "[2026-10-20T16:06:40Z] 22 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-20T16:06:40Z] HEALTH certspotter=11/248 crtsh=0/3 urlscan=127/505 dns-google=4982/4982 dns-cf=4982/4982",
   "tracked_hosts": {
-    "total": 3251,
+    "total": 3287,
     "by_status": {
       "dead": 964,
-      "active": 2287
+      "active": 2323
     },
     "by_operator_tier": {
-      "A:tier1": 3251
+      "A:tier1": 3287
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1595
+    "A": 1617
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "contracting.shunkakinoki.com",
+      "type": "cert",
+      "indicator": "accounts.moonlit.mlabs.ng",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "accounts.naijaclassic.games.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "accounts.youngmayor.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.contact.founder.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.moonlit.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.naijaclassic.games.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.youngmayor.mlabs.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "launchpad.mayrlabs.com.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.mayrlabs.com.ng",
+      "operator": "A",
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "copytrdng.entendre.finance",
+      "indicator": "allegro.offer8692056.shop",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "dayletter.ai",
+      "indicator": "courtyard.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "dba.orders-info3182.com",
+      "indicator": "creditcoop.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "depop.gz-zongheng.com",
+      "indicator": "crv3ra.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "foxwrenlabs.com",
+      "indicator": "cryptacce.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "ge-nie.ai",
+      "indicator": "inpost.offer8692056.shop",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "getkonduro.com",
+      "indicator": "olx.payflow-poland5.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "grubby.ai",
+      "indicator": "remotion-gh3jr5cqx-remotion.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "inkonchain.com",
+      "indicator": "www.juliekovacs.com",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     },
     {
       "type": "domain",
-      "indicator": "jif.ai",
+      "indicator": "zondascore.com.ar",
       "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "monumentsapp.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "remotion-git-codex-fix-lambda-proxy-h1-remotion.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "tbbababy.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "usekonduro.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wekonduro.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.harveynichols.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.mpulseliving.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.ropicrbx.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.sportsdirect.com",
-      "operator": "A",
-      "first_seen": "2026-10-20T10:44:23Z"
+      "first_seen": "2026-10-20T16:06:40Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 8962,
+  "manual_review_candidates_pending": 9294,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
