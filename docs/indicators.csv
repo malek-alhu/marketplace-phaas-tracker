@@ -398,3 +398,4 @@ domain,xfqh.net,A,marketplace-PhaaS (various),AS207043(Dedik Services),2026-10-1
 domain,wuguijia.com,A,marketplace-PhaaS (various),AS207043(Dedik Services),2026-10-19,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); 93.152.220.112 (Dedik); older Chinese-named domain repurposed
 ip,93.152.220.112,A,Vinted / various,AS207043(Dedik Services),2026-10-17,high,dedicated Operator-A kit origin (Dedik Services Limited); betamy.com + xfqh.net + wuguijia.com + www.psd18.com + vinted.gz-zongheng.com; watchlist origin
 ip,94.26.83.75,A,Allegro (PL),AS207043(Dedik Services),2026-10-18,high,Dedik Services Limited (AS207043); www.allegro.offer8259012.shop serves the kit here; watchlist origin
+domain,cixnjxh.com,A,marketplace-PhaaS (various),AS13335(Cloudflare),2026-10-19,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); reviewed in #131; resolving on Cloudflare 2026-10-20

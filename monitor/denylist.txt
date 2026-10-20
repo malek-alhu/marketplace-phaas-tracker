@@ -269,3 +269,10 @@ fuxam-web-git-krupin-log-3792-stability-group-fuxam.vercel.app
 # public URL shorteners seen in kit lure scans (#128) — shared services, never kit infrastructure
 .x.gd
 .tr.ee
+# 2026-10-20 03:36 run: generic-chunk-only apexes, no kit hash (#131)
+.bravodm.com
+.jif.ai
+.konduro.com
+.stallmark.studio
+.tbbababy.com
+.topfives.co
