@@ -560,6 +560,7 @@ depop.gz-zongheng.com
 depop.huian189.com
 depop.qdscdq.com
 depop.verification-help.com
+depop.zmwxt.com
 dev-api.gitkraken.dev
 dev-developer.gitkraken.dev
 dev.autonocion.com
@@ -891,6 +892,7 @@ olx.paycore-send.xyz
 olx.paycore24-express.cfd
 olx.paycore24-express.sbs
 olx.payflow-poland.qpon
+olx.payflow-poland1.shop
 olx.payflow-poland5.eu.cc
 olx.payprzelew-core1.fun
 olx.paysend-paczka.shop
@@ -962,6 +964,10 @@ paycore24-express.cfd
 paycore24-express.sbs
 paycoreaction-pl.shop
 payid.receive.sale
+paypay-pl.eu.cc
+paypay-pl1.eu.cc
+paypay-pl2.eu.cc
+paypay-pl3.eu.cc
 payplcore.biz.id
 payprotect.shop
 payprzelew-core1.site
@@ -1223,12 +1229,14 @@ vinted-confirmation-au.pages.dev
 vinted-user538813-au.pages.dev
 vinted-verif6331-au.pages.dev
 vinted-verification97221-au.pages.dev
+vinted-verify-page.click
 vinted-verify.online
 vinted.0rd56t457543567567567.sbs
 vinted.58stw.com
 vinted.6897926.com
 vinted.9mwh.com
 vinted.betamy.com
+vinted.cixnjxh.com
 vinted.gz-zongheng.com
 vinted.notice3425346783456.com
 vinted.order-info84719.com

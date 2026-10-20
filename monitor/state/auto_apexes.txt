@@ -160,7 +160,12 @@ paycore-poland.eu.cc	A
 paycore-trust-process.sbs	A
 paycoreaction-pl.shop	A
 payflow-poland.qpon	A
+payflow-poland1.shop	A
 payflow-poland5.eu.cc	A
+paypay-pl.eu.cc	A
+paypay-pl1.eu.cc	A
+paypay-pl2.eu.cc	A
+paypay-pl3.eu.cc	A
 payplcore.biz.id	A
 payprzelew-core1.fun	A
 payprzelew-core1.site	A
@@ -284,6 +289,7 @@ verified-compra-es.cyou	A
 verify-compra.shop	A
 verify-notises104846.click	A
 versec.workers.dev	A
+vinted-verify-page.click	A
 virgil.ai	A
 virtualestheticians.com	A
 visa-order.help	A
@@ -293,4 +299,5 @@ wuguijia.com	A
 xfqh.net	A
 yarnquill.com	A
 zhangpeng123.workers.dev	A
+zmwxt.com	A
 zondascore.com.ar	A
