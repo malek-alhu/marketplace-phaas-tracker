@@ -266,3 +266,6 @@ remotion-n9btt4ypb-remotion.vercel.app
 .taleswetell.store
 .trezor.io
 fuxam-web-git-krupin-log-3792-stability-group-fuxam.vercel.app
+# public URL shorteners seen in kit lure scans (#128) — shared services, never kit infrastructure
+.x.gd
+.tr.ee
