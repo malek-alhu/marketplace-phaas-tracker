@@ -172,6 +172,7 @@ paycore-trust-process.sbs	A
 paycoreaction-pl.shop	A
 payflow-poland.eu.cc	A
 payflow-poland.qpon	A
+payflow-poland.shop	A
 payflow-poland1.shop	A
 payflow-poland1.web.id	A
 payflow-poland5.eu.cc	A
