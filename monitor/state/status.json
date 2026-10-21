@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-20T16:53:11Z",
-  "last_run_at": "2026-10-20T16:06:40Z",
-  "last_run_summary": "[2026-10-20T16:06:40Z] 22 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-20T16:06:40Z] HEALTH certspotter=11/248 crtsh=0/3 urlscan=127/505 dns-google=4982/4982 dns-cf=4982/4982",
+  "generated_at": "2026-10-20T21:47:47Z",
+  "last_run_at": "2026-10-20T21:04:12Z",
+  "last_run_summary": "[2026-10-20T21:04:12Z] 8 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-20T21:04:12Z] HEALTH certspotter=11/339 crtsh=0/3 urlscan=100/510 dns-google=5456/5456 dns-cf=5456/5456",
   "tracked_hosts": {
-    "total": 3287,
+    "total": 3313,
     "by_status": {
-      "dead": 964,
-      "active": 2323
+      "dead": 977,
+      "active": 2336
     },
     "by_operator_tier": {
-      "A:tier1": 3287
+      "A:tier1": 3313
     }
   },
   "fingerprints": [
@@ -947,57 +947,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1617
+    "A": 1625
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "accounts.moonlit.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "accounts.naijaclassic.games.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "accounts.youngmayor.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "clerk.contact.founder.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "clerk.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "clerk.moonlit.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "clerk.naijaclassic.games.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "clerk.youngmayor.mlabs.ng",
-      "operator": "A",
-      "first_seen": "2026-10-20T16:06:40Z"
-    },
     {
       "type": "cert",
       "indicator": "launchpad.mayrlabs.com.ng",
@@ -1069,9 +1021,57 @@
       "indicator": "zondascore.com.ar",
       "operator": "A",
       "first_seen": "2026-10-20T16:06:40Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "depop.zmwxt.com",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payflow-poland1.shop",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paypay-pl.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paypay-pl1.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paypay-pl2.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "paypay-pl3.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted-verify-page.click",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted.cixnjxh.com",
+      "operator": "A",
+      "first_seen": "2026-10-20T21:04:12Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 9294,
+  "manual_review_candidates_pending": 9719,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
