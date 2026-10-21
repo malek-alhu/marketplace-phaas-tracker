@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-21T03:24:31Z",
-  "last_run_at": "2026-10-21T02:44:38Z",
-  "last_run_summary": "[2026-10-21T02:44:38Z] 71 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-21T02:44:38Z] HEALTH certspotter=11/259 crtsh=0/3 urlscan=517/517 dns-google=5542/5542 dns-cf=5542/5542",
+  "generated_at": "2026-10-21T11:37:28Z",
+  "last_run_at": "2026-10-21T10:55:29Z",
+  "last_run_summary": "[2026-10-21T10:55:29Z] 127 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-21T10:55:29Z] HEALTH certspotter=11/263 crtsh=0/3 urlscan=525/525 dns-google=5076/5076 dns-cf=5076/5076",
   "tracked_hosts": {
-    "total": 3350,
+    "total": 3483,
     "by_status": {
-      "dead": 978,
-      "active": 2372
+      "dead": 980,
+      "active": 2503
     },
     "by_operator_tier": {
-      "A:tier1": 3350
+      "A:tier1": 3483
     }
   },
   "fingerprints": [
@@ -947,131 +947,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1696
+    "A": 1823
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "remotion-1wi53lox8-remotion.vercel.app",
+      "indicator": "superfimdeano.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-2vl1gx0r5-remotion.vercel.app",
+      "indicator": "url9158.employmenthero.com",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-5xyfea8q3-remotion.vercel.app",
+      "indicator": "verif1085323.shop",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-6btc34vq9-remotion.vercel.app",
+      "indicator": "vertex-studio.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-9zabzk57v-remotion.vercel.app",
+      "indicator": "vinted.zmwxt.com",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-git-codex-browser-studio-no-render-requests-remotion.vercel.app",
+      "indicator": "vtest314-zlafzflvi2jg1w24smno.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-git-codex-studio-outline-hover-performance-remotion.vercel.app",
+      "indicator": "washingtontrustsecure.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-gu0pfgzm7-remotion.vercel.app",
+      "indicator": "webfllow.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-prgqeuxb0-remotion.vercel.app",
+      "indicator": "website-nextjs-5h99qyp75-guesty-8afbb98b.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "remotion-ql0gzleoy-remotion.vercel.app",
+      "indicator": "websupportupgrade-fb995.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "ropicrbx.com",
+      "indicator": "wrrkservicelimitedsead.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "sportsdirect-malaysia-cs.zendesk.com",
+      "indicator": "wupwh-h19h.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "sportsdirect.com",
+      "indicator": "www.bank-sco.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "the7summits.com",
+      "indicator": "www.bauhaus.ch",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "trezor-v2.ink",
+      "indicator": "www.moonpay-commerce-git-fix-com2-2691-dialog-phanto-f001a8-heliofi.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.allegro.offer8692056.shop",
+      "indicator": "www.nuestro-legado-ia.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.arrayvane.com",
+      "indicator": "www.pqqgenerator.com",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.awen.ai",
+      "indicator": "www.qovlira-tek193847265.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.cosmic-clock.info",
+      "indicator": "www.wrenandcue.com",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.sports-direct.de",
+      "indicator": "xcv-sand.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-21T02:44:38Z"
+      "first_seen": "2026-10-21T10:55:29Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 10069,
+  "manual_review_candidates_pending": 10429,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
