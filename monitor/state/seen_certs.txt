@@ -596,6 +596,7 @@ corepay.app
 coreysery-io.app.render.com
 coreysery-io.onrender.com
 correos.compra-verif.cfd
+cosmic-clock.info
 countdown.2sync.com
 courseproof.leadmagic.io
 courses.leadmagic.io
@@ -2013,6 +2014,8 @@ paycore24-express.sbs
 paycoreaction-pl.shop
 payflow-poland.qpon
 payment.leadmagic.io
+paypay-pl.eu.cc
+paypay-pl2.eu.cc
 payplcore.biz.id
 payprotect.shop
 payprzelew-core1.fun
@@ -2465,6 +2468,7 @@ static.deepl.com
 static.deferred.com
 static.trezor.io
 staticcdn.deepl.com
+stats.cosmic-clock.info
 stats.driftnet.io
 status.2sync.com
 status.leadmagic.io
@@ -2522,6 +2526,7 @@ tallerpro.io
 tanx-fi.entendre.finance
 taxalex.entendre.finance
 teacher.edumaniaedtech.online
+tech.cosmic-clock.info
 techaccountingpro.entendre.finance
 telcoin.entendre.finance
 temp.entendre.finance
@@ -2783,6 +2788,7 @@ www.cnkstcd.com
 www.codely.com
 www.coldacq.com
 www.congressinfo.net
+www.cosmic-clock.info
 www.cqpxba.com
 www.dacajncritter.com
 www.datalogue.com

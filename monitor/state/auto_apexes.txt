@@ -20,6 +20,7 @@ avhenting0110.cc	A
 avhenting0510.cc	A
 avhenting1210.ink	A
 avhenting1410.com	A
+avhenting2110.com	A
 avhenting2409.cc	A
 avhenting2709.cc	A
 avhenting2909.cc	A
@@ -169,8 +170,10 @@ paycore-pl-action.eu.cc	A
 paycore-poland.eu.cc	A
 paycore-trust-process.sbs	A
 paycoreaction-pl.shop	A
+payflow-poland.eu.cc	A
 payflow-poland.qpon	A
 payflow-poland1.shop	A
+payflow-poland1.web.id	A
 payflow-poland5.eu.cc	A
 paypay-pl.eu.cc	A
 paypay-pl1.eu.cc	A

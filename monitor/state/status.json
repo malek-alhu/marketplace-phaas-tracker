@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-21T11:37:28Z",
-  "last_run_at": "2026-10-21T10:55:29Z",
-  "last_run_summary": "[2026-10-21T10:55:29Z] 127 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-21T10:55:29Z] HEALTH certspotter=11/263 crtsh=0/3 urlscan=525/525 dns-google=5076/5076 dns-cf=5076/5076",
+  "generated_at": "2026-10-21T17:12:13Z",
+  "last_run_at": "2026-10-21T16:22:52Z",
+  "last_run_summary": "[2026-10-21T16:22:52Z] 9 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-21T16:22:52Z] HEALTH certspotter=11/275 crtsh=0/3 urlscan=100/534 dns-google=5372/5372 dns-cf=5372/5372",
   "tracked_hosts": {
-    "total": 3483,
+    "total": 3496,
     "by_status": {
-      "dead": 980,
-      "active": 2503
+      "dead": 982,
+      "active": 2514
     },
     "by_operator_tier": {
-      "A:tier1": 3483
+      "A:tier1": 3496
     }
   },
   "fingerprints": [
@@ -947,63 +947,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1823
+    "A": 1832
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "superfimdeano.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "url9158.employmenthero.com",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "verif1085323.shop",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vertex-studio.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vinted.zmwxt.com",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "vtest314-zlafzflvi2jg1w24smno.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "washingtontrustsecure.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "webfllow.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "website-nextjs-5h99qyp75-guesty-8afbb98b.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
     {
       "type": "domain",
       "indicator": "websupportupgrade-fb995.vercel.app",
@@ -1069,9 +1015,63 @@
       "indicator": "xcv-sand.vercel.app",
       "operator": "A",
       "first_seen": "2026-10-21T10:55:29Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paypay-pl.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "paypay-pl2.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "avhenting2110.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "inpost.payflow-poland1.web.id",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payflow-poland.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payflow-poland1.web.id",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "payflow-poland.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "poczta-polska.paypay-pl1.eu.cc",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted.online-order.top",
+      "operator": "A",
+      "first_seen": "2026-10-21T16:22:52Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 10429,
+  "manual_review_candidates_pending": 10962,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
