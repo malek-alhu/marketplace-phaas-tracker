@@ -33,6 +33,7 @@ account.a24films.com
 accounts.apax.virgil.ai
 accounts.blueowl.virgil.ai
 accounts.bowrivercapital.virgil.ai
+accounts.bravodm.com
 accounts.brooklyn.virgil.ai
 accounts.clearstreet.virgil.ai
 accounts.contact.founder.mlabs.ng
@@ -421,6 +422,7 @@ booking.hubblehq.com
 bowrivercapital.virgil.ai
 brale.entendre.finance
 brand.freshstep.com
+bravodm.com
 brb.a24films.com
 breach-monitoring.versec.workers.dev
 breeze.entendre.finance
@@ -494,6 +496,7 @@ clearance.deepl.com
 clerk.apax.virgil.ai
 clerk.app.leadmagic.io
 clerk.beta.leadmagic.io
+clerk.bravodm.com
 clerk.contact.founder.mlabs.ng
 clerk.cvccpartners.virgil.ai
 clerk.doodlecomics.net
@@ -1981,6 +1984,7 @@ paycore.wildixin.com
 paycore24-express.cfd
 paycore24-express.sbs
 paycoreaction-pl.shop
+payflow-poland.qpon
 payment.leadmagic.io
 payplcore.biz.id
 payprotect.shop
@@ -2018,6 +2022,7 @@ pilot-web.onrender.com
 pioneer.shunkakinoki.com
 pitch.shunkakinoki.com
 pixel.leadmagic.io
+pl-paymoney.eu.cc
 pl-paymoney1.eu.cc
 pl-paymoney4.eu.cc
 platform.shunkakinoki.com
@@ -2726,6 +2731,7 @@ www.beanstalkconsulting.co
 www.belastbaar.com
 www.betamy.com
 www.blog.hubblehq.com
+www.bravodm.com
 www.bridge-capital.ch
 www.building.hubblehq.com
 www.cddf.congressinfo.net
