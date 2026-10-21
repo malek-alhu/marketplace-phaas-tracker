@@ -408,3 +408,5 @@ domain,paypay-pl2.eu.cc,A,marketplace (PL),AS13335(Cloudflare),2026-10-20,high,t
 domain,paypay-pl3.eu.cc,A,marketplace (PL),AS13335(Cloudflare),2026-10-20,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); paypay-pl<N> series; resolving on Cloudflare 2026-10-21
 domain,vinted-verify-page.click,A,Vinted,AS13335(Cloudflare),2026-10-20,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); scanned on 93.152.220.94 (Dedik) 2026-10-20; resolving on Cloudflare 2026-10-21
 domain,zmwxt.com,A,Depop,AS13335(Cloudflare),2026-10-20,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); depop. subdomain; resolving on Cloudflare 2026-10-21
+domain,poland-payhub.my.id,A,InPost / OLX (PL),AS207043(Dedik Services),2026-10-21,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); poland-payhub naming series on a new TLD (my.id); resolving to 193.111.117.211 (Dedik) 2026-10-21
+domain,verif1085323.shop,A,marketplace-PhaaS (various),AS13335(Cloudflare),2026-10-21,high,tracker kit-fingerprint/hash match (urlscan kit chunk hashes); verif<digits>.shop naming; resolving on Cloudflare 2026-10-21

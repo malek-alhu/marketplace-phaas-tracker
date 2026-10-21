@@ -308,3 +308,11 @@ firsttx-preview.netlify.app
 # deployments matched the generic chunk 6930c2cc. Operator A has never used
 # vercel.app (always Cloudflare-fronted), so the whole shared pool is denied.
 .vercel.app
+# 2026-10-21 11:37 run: generic-chunk-only apexes, no kit hash
+.bauhaus.ch
+.bloxcart.com
+.flintzenithpost.com
+.fundingpips.com
+.pqqgenerator.com
+.raileon.com
+.wrenandcue.com
