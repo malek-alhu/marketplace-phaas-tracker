@@ -274,6 +274,7 @@ avhenting0110.cc
 avhenting0510.cc
 avhenting1210.ink
 avhenting1410.com
+avhenting2110.com
 avhenting2409.cc
 avhenting2709.cc
 avhenting2909.cc
@@ -803,6 +804,7 @@ inpost.paycore-confirmation.shop
 inpost.paycore-confirmation44232.casa
 inpost.paycore-poland.eu.cc
 inpost.paycore24-express.cfd
+inpost.payflow-poland1.web.id
 inpost.payplcore.biz.id
 inpost.payprzelew-core2.eu.cc
 inpost.payu-nitro1.eu.cc
@@ -996,8 +998,10 @@ olx.paycore-send.shop
 olx.paycore-send.xyz
 olx.paycore24-express.cfd
 olx.paycore24-express.sbs
+olx.payflow-poland.eu.cc
 olx.payflow-poland.qpon
 olx.payflow-poland1.shop
+olx.payflow-poland1.web.id
 olx.payflow-poland5.eu.cc
 olx.payprzelew-core1.fun
 olx.paysend-paczka.shop
@@ -1075,6 +1079,7 @@ paycore-trust-process.sbs
 paycore24-express.cfd
 paycore24-express.sbs
 paycoreaction-pl.shop
+payflow-poland.eu.cc
 payid.receive.sale
 paypay-pl.eu.cc
 paypay-pl1.eu.cc
@@ -1108,6 +1113,7 @@ pledge.newpublicservice.com
 plex-list-rss.versec.workers.dev
 plexpay-lqgfr8obd-keyvangovergentcos-projects.vercel.app
 pltimelesblus.vercel.app
+poczta-polska.paypay-pl1.eu.cc
 poczta-polska.payu-nitro6.eu.cc
 poczta-polska.pl-paymoney1.eu.cc
 poczta-polska.poland-payhub.cyou
@@ -1390,6 +1396,7 @@ vinted.betamy.com
 vinted.cixnjxh.com
 vinted.gz-zongheng.com
 vinted.notice3425346783456.com
+vinted.online-order.top
 vinted.order-info84719.com
 vinted.order3274.cfd
 vinted.psd18.com
