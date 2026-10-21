@@ -1,11 +1,12 @@
 # Marketplace PhaaS — all known kit/redirector domains
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 250 · newest first_seen: 2026-10-14 · TLP:CLEAR
+# Entries: 251 · newest first_seen: 2026-10-21 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0767s.com
 0rd56t457543567567567.sbs
 0rderkleinan.shop
+2gbpz6ock88lptu.icu
 58stw.com
 91tangeche.com
 9853192.biz

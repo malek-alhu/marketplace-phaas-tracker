@@ -295,3 +295,16 @@ remotion-git-codex-fix-lambda-proxy-h1-remotion.vercel.app
 .zondascore.com.ar
 .mayrlabs.com.ng
 remotion-gh3jr5cqx-remotion.vercel.app
+# 2026-10-21 03:24 run (#135): generic-chunk-only apexes, no kit hash
+.arrayvane.com
+.awen.ai
+.cosmic-clock.info
+.employmenthero.com
+firsttx-preview.netlify.app
+.pubcash.app
+# Chinese TRON "energy rental" crypto lure that matched the /a/<token> pattern by accident (#135)
+.2gbpz6ock88lptu.icu
+# vercel.app was auto-promoted as an apex (#135) after 30+ Remotion preview
+# deployments matched the generic chunk 6930c2cc. Operator A has never used
+# vercel.app (always Cloudflare-fronted), so the whole shared pool is denied.
+.vercel.app
