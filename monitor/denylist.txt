@@ -316,3 +316,6 @@ firsttx-preview.netlify.app
 .pqqgenerator.com
 .raileon.com
 .wrenandcue.com
+# Frasers Group retail sites pulled in via shared CT certs with sportsdirect.com (#138)
+.cruisefashion.com
+.frogbikes.com
