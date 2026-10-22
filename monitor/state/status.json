@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T03:49:46Z",
-  "last_run_at": "2026-10-22T02:42:40Z",
-  "last_run_summary": "[2026-10-22T02:42:40Z] 186 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-22T02:42:40Z] HEALTH certspotter=15/278 crtsh=68/78 urlscan=538/538 dns-google=6814/6814 dns-cf=6814/6814",
+  "generated_at": "2026-10-22T12:33:05Z",
+  "last_run_at": "2026-10-22T10:55:32Z",
+  "last_run_summary": "[2026-10-22T10:55:32Z] 343 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-22T10:55:32Z] HEALTH certspotter=17/289 crtsh=143/158 urlscan=553/553 dns-google=8216/8216 dns-cf=8216/8216",
   "tracked_hosts": {
-    "total": 3991,
+    "total": 5057,
     "by_status": {
-      "dead": 985,
-      "active": 3006
+      "dead": 991,
+      "active": 4066
     },
     "by_operator_tier": {
-      "A:tier1": 3991
+      "A:tier1": 5057
     }
   },
   "fingerprints": [
@@ -944,134 +944,190 @@
       "added": "2026-10-17",
       "last_confirmed_hit": "2026-10-22",
       "status": "chained"
+    },
+    {
+      "hash": "15fd1d1e0632563a4a720ee50ede4854bdae883eb60581fe151a297b023dd055",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "38a464e1b825dfb78cabcd2feb16f0cf476dcc22607c02ab34c981cfe8125846",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "5a42f6d7aa863f7b85f8edf0fafd50ea569e9728ecbbbc007b0aeae736a6d12f",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "5b5e4c022cd38dfbf4ad8d69fbb5badca73de43b18b174f1ba0a211281bf7641",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "6bc9de401061f13b7383beb3406e92f9b6c68c857cfaf19d55dead9c8d1239db",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "72c79d93ad5f47de075381c273402a274cc1911e7c9cf7925b7d37175ecfd808",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "a47174b39794cb2ba5006f48c9e91e80cbcba7388e287e08785b36025e0ad30c",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
+    },
+    {
+      "hash": "bb99b80baff87bbdb7e8b2fda0b3de04572a30b2604f509f4d104eb5a0d3e358",
+      "label": "chained",
+      "added": "2026-10-22",
+      "last_confirmed_hit": "2026-10-22",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2031
+    "A": 2374
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.contact-362367437.vercel.app",
+      "indicator": "whatsapptox.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.cruisefashion.com",
+      "indicator": "withmatilda.com",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.easy-bank-pi.vercel.app",
+      "indicator": "wnsi0913.cc",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.facebook-clone-kappa-ten.vercel.app",
+      "indicator": "www.airbnb-dev.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.flannels.com",
+      "indicator": "www.binance-red-packet.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.fretebras.com.br",
+      "indicator": "www.clickworkslb.com",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.houseoffraser.co.uk",
+      "indicator": "www.fb-meta-verified-14259.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.huntington.org",
+      "indicator": "www.holded.com",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.netflix-clone-amber-three-99.vercel.app",
+      "indicator": "www.netflix-clone-rust-gamma.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.networksolutionsemail.vercel.app",
+      "indicator": "www.nixtla.io",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.scotiaonlinebank.vercel.app",
+      "indicator": "www.pdrcore.com",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.signin-adobe-x4or12j0f7c-8ai1df0w9ygwqx748489-4a60f031a-b62a.vercel.app",
+      "indicator": "www.project2-amazone-clone.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.somos-ecuador.vercel.app",
+      "indicator": "www.thatch.com",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.usc.co.uk",
+      "indicator": "www.verillumai.com",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.zicjin.vercel.app",
+      "indicator": "www.wiz.io",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.zip-bolt.com",
+      "indicator": "xze-i-n-eaexe02opm-t-afd-01-hyekcbaqb4djdzde.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.zondascore.com.ar",
+      "indicator": "zeu-lnr-cdn-s2-sul-dev-h7g8cvegg3g3d0gf.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "wzq04.vercel.app",
+      "indicator": "zhan3-fyg6hye7gbbwhjb8.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "zipbolt-main-page.vercel.app",
+      "indicator": "zhou-bdg4exckatf5gedk.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     },
     {
       "type": "domain",
-      "indicator": "zncu20ruhsd02hn-sn-cnoe3903ijnfew.vercel.app",
+      "indicator": "zi1-a0hecjd5hjafb0gt.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-22T02:42:40Z"
+      "first_seen": "2026-10-22T10:55:32Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 12289,
+  "manual_review_candidates_pending": 13661,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
