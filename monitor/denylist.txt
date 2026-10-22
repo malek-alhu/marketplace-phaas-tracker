@@ -338,3 +338,15 @@ knowyouremoji-com.netlify.app
 .tinu.be
 # sister site of fuegenix.com (#139)
 .fuegenix.nl
+# 2026-10-22 12:33 run: generic-chunk-only apexes, no kit hash
+.clickworkslb.com
+.cube-manager.com
+.holded.com
+.mightyhq.app
+.nixtla.io
+.pdrcore.com
+.revo.com.au
+.solkeep.app
+.verillumai.com
+.withmatilda.com
+.wiz.io
