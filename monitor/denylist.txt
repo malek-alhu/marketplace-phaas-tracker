@@ -17,6 +17,9 @@
 #   - a dotted IPv4 PREFIX ending in "." (e.g. "23.82.16." denies the whole
 #     23.82.16.0/24 — this repo has no CIDR math, so prefixes are the
 #     supported shorthand for "this whole shared pool")
+#   - a domain SUFFIX starting with "." (e.g. ".example.com" denies example.com
+#     itself AND every subdomain of it — for shared platforms and for
+#     false-positive sites whose subdomains were already tracked)
 # Comments start with '#'. Add entries manually after review; nothing in
 # check.sh writes to this file automatically for domains/apexes — only the
 # urlscan-ip circuit breaker can newly denylist an AUTO-DISCOVERED IP that
@@ -103,3 +106,252 @@ res.autonocion.com
 # --- tenants (the 2026-09 flood pattern). Kit zones under it are curated by hand in
 # --- watchlist.txt (e.g. frakt-orderhubid94699.eu.cc) instead.
 eu.cc
+
+# --- 2026-10-14 generic-hash incident (Issue #109): hash chaining auto-added
+# --- 6930c2cc6ae5... — a generic Turbopack runtime chunk (Sentry debugId wrapper)
+# --- shipped by many unrelated Next.js sites — because a few kit apexes co-occur
+# --- with it. Every site below was then promoted as "kit-fingerprint confirmed".
+# --- Reviewed: all legitimate businesses / dev previews, none kit infrastructure.
+# --- Suffix form (".apex") also drops their subdomains already in tracked_hosts.
+.aination.gr
+.astra-ai.co
+.beanstalkconsulting.co
+.boin.uk
+.bridge-capital.ch
+.datalogue.com
+.deferred.com
+.doodlecomics.net
+.dublivo.com
+.edumaniaedtech.online
+.elementmultiservices.com
+.emberbill.com
+.entendre.finance
+.fingerprint.to
+.fuegenix.com
+.inglevalegroup.com
+.innovativenurseeducator.com
+.investclearly.com
+.leadmagic.io
+.lidio.app
+.lumail.io
+.neptunedispatching.com
+.ohdigital.agency
+.omnyn.com.br
+.one-water.at
+.physicall.fitness
+.prodhire.com
+.render.com
+.replicas.dev
+.sabexlatam.com
+.shunkakinoki.com
+.social-radar.app
+.splitbag.com
+.storiedmoney.com
+.studiohive.art
+.tallerpro.io
+.tarekit.com
+.tryprism.com
+.ultima.yt
+.virgil.ai
+.workbrew.com
+remotion-43yk3mua6-remotion.vercel.app
+remotion-678ya451o-remotion.vercel.app
+remotion-9tkzp6nof-remotion.vercel.app
+remotion-enwzmmo0y-remotion.vercel.app
+remotion-git-codex-add-outline-effect-remotion.vercel.app
+remotion-git-codex-docs-player-media-loading-remotion.vercel.app
+remotion-i62r6uf7c-remotion.vercel.app
+remotion-k7bzu6356-remotion.vercel.app
+remotion-nal9ncvfg-remotion.vercel.app
+remotion-q9mhwvyzp-remotion.vercel.app
+remotion-qhxgrlsh3-remotion.vercel.app
+
+# --- Security-tooling Workers account (dailyrss-website, leakcheckerweb, defanger,
+# --- ransom-monitor, limacharlie, ...): its pages merely quote kit URLs (us=...),
+# --- matched the URL fingerprint 2026-10-09 and got promoted with all its CT
+# --- siblings. A researcher/aggregator, not the operator. Suffix form: whole account.
+.versec.workers.dev
+
+# --- Placeholder A records: dead/parked kit hosts get re-pointed here. Not origins.
+8.8.8.8
+
+# --- 2026-10-15 run: more legit sites carrying the same generic chunk 6930c2cc,
+# --- promoted before PR #111 could land (Issue #112).
+.a24films.com
+.deepl.com
+.hubblehq.com
+.rivalix.xyz
+.socialflow.vercel.app
+remotion-b67u3n6of-remotion.vercel.app
+remotion-c5uln984d-remotion.vercel.app
+remotion-cbv514b51-remotion.vercel.app
+
+# --- Cloudflare shared SNI certificates ("<hex>.sni.cloudflaressl.com"): one cert
+# --- covers many unrelated customers' hostnames, so CT on any one SAN pulls in all
+# --- of them (Issue #112: ~55 cold-email SaaS hostnames). Never operator hosts.
+.sni.cloudflaressl.com
+
+# --- Render's shared app platform: CT for the (false-positive) render.com apex
+# --- returned hundreds of unrelated customer apps. Kit has never run here.
+.onrender.com
+
+# --- 2026-10-15T11:36 run: two more legit sites carrying generic chunk 6930c2cc.
+.freshstep.com
+.coldacq.com
+
+# --- 2026-10-15T17:30 run: three more legit sites carrying generic chunk 6930c2cc.
+.7summits.com
+.allshares.app
+.hv-piechowski.com
+
+# --- 2026-10-16T03:18 run: more legit sites carrying generic chunk 6930c2cc.
+.codely.com
+.syscore.app
+cybergtm-site-preview.pages.dev
+remotion-36qqufa1q-remotion.vercel.app
+remotion-fk4bo4fbt-remotion.vercel.app
+remotion-git-codex-fix-web-renderer-border-radius-remotion.vercel.app
+remotion-git-codex-revert-canvas-outline-migration-remotion.vercel.app
+
+# --- 2026-10-16T11:40 run: more legit sites carrying generic chunk 6930c2cc.
+.2sync.com
+.centumly.com
+.deliverycontrol.mx
+.driftnet.io
+remotion-eyj02vvxs-remotion.vercel.app
+# 2026-10-19: apexes promoted only through the generic chunk 6930c2cc (#119-#121); none match a kit hash
+.abandonedgrove.com
+.athsolutions.shop
+.backmiles.com
+.begraphic.dev
+.congressinfo.net
+.digid.nl
+.discovercars.com
+.eternumsystems.tech
+.gitkraken.dev
+.goldbridgebanking.com
+.goldenplanet.shop
+.howdy.com
+.jestr.gg
+.joinformz.com
+.metrito.com
+.muneeb-khan.com
+.newpublicservice.com
+.nycboardflow.com
+.procy.site
+.raised.nz
+.rewards.gg
+.supplyvan.com
+.timeflies.live
+.tipboxhq.com
+.topclassactions.com
+.tschief.shop
+.virtualestheticians.com
+.yarnquill.com
+aro-cutz.vercel.app
+feedhub-agent.vercel.app
+remotion-79jct3znk-remotion.vercel.app
+remotion-e14dfq1pf-remotion.vercel.app
+remotion-git-codex-browser-studio-dependency-hmr-remotion.vercel.app
+remotion-git-docs-clarify-automators-free-license-1426-remotion.vercel.app
+remotion-n9btt4ypb-remotion.vercel.app
+.zhangpeng123.workers.dev
+.congressinfo.eu
+.closingassociate.co
+# 2026-10-19 19:02 run: generic-chunk-only apexes, no kit hash
+.codiedev.com
+.fullport.gg
+.grvt.io
+.mlabs.ng
+.taleswetell.store
+.trezor.io
+fuxam-web-git-krupin-log-3792-stability-group-fuxam.vercel.app
+# public URL shorteners seen in kit lure scans (#128) — shared services, never kit infrastructure
+.x.gd
+.tr.ee
+# 2026-10-20 03:36 run: generic-chunk-only apexes, no kit hash (#131)
+.bravodm.com
+.jif.ai
+.konduro.com
+.stallmark.studio
+.tbbababy.com
+.topfives.co
+# 2026-10-20 11:24 run: generic-chunk-only apexes, no kit hash
+.belastbaar.com
+.dayletter.ai
+.foxwrenlabs.com
+.ge-nie.ai
+.grubby.ai
+.guestpedia.com
+.harveynichols.com
+.inkonchain.com
+.monumentsapp.com
+.mpulseliving.com
+.ropicrbx.com
+.sportsdirect.com
+remotion-git-codex-fix-lambda-proxy-h1-remotion.vercel.app
+# 2026-10-20 16:53 run: generic-chunk-only apexes, no kit hash (#133)
+.juliekovacs.com
+.zondascore.com.ar
+.mayrlabs.com.ng
+remotion-gh3jr5cqx-remotion.vercel.app
+# 2026-10-21 03:24 run (#135): generic-chunk-only apexes, no kit hash
+.arrayvane.com
+.awen.ai
+.cosmic-clock.info
+.employmenthero.com
+firsttx-preview.netlify.app
+.pubcash.app
+# Chinese TRON "energy rental" crypto lure that matched the /a/<token> pattern by accident (#135)
+.2gbpz6ock88lptu.icu
+# vercel.app was auto-promoted as an apex (#135) after 30+ Remotion preview
+# deployments matched the generic chunk 6930c2cc. Operator A has never used
+# vercel.app (always Cloudflare-fronted), so the whole shared pool is denied.
+.vercel.app
+# 2026-10-21 11:37 run: generic-chunk-only apexes, no kit hash
+.bauhaus.ch
+.bloxcart.com
+.flintzenithpost.com
+.fundingpips.com
+.pqqgenerator.com
+.raileon.com
+.wrenandcue.com
+# Frasers Group retail sites pulled in via shared CT certs with sportsdirect.com (#138)
+.cruisefashion.com
+.frogbikes.com
+# 2026-10-22 03:49 run: generic-chunk-only apexes, no kit hash (Frasers Group sites, Azure Front Door pool, SaaS)
+.a03.azurefd.net
+.clearretentionjet.co
+.flannels.com
+.fretebras.com.br
+.getgrout.com
+.houseoffraser.co.uk
+.huntington.org
+.manabigurashi.com
+.mayaconcierge.bz
+.moi-agent.ru
+.progressivepipeline.org
+.thatch.com
+.usc.co.uk
+knowyouremoji-com.netlify.app
+# public URL shortener used for lure delivery (#139) — shared service
+.tinu.be
+# sister site of fuegenix.com (#139)
+.fuegenix.nl
+# 2026-10-22 12:33 run: generic-chunk-only apexes, no kit hash
+.clickworkslb.com
+.cube-manager.com
+.holded.com
+.mightyhq.app
+.nixtla.io
+.pdrcore.com
+.revo.com.au
+.solkeep.app
+.verillumai.com
+.withmatilda.com
+.wiz.io
+# #140: CT-subdomain false positives (Squarespace site; Frasers Group AU store)
+.chaffeecountyice.org
+.sportsdirect.com.au
+# #141: transport-management SaaS, CT-subdomain false positive
+.oz-tms.com

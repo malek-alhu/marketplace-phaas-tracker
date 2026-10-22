@@ -165,21 +165,31 @@ process.stdin.on("data", d => (s += d)).on("end", () => {
       if (/^[a-f0-9]{64}$/i.test(hash) && /\/_next\/static\/chunks\/.*\.js(?:[?#]|$)/i.test(url)) console.log(hash.toLowerCase());
     });
   } else if (mode === "urlscan-known") {
-    // Hash-chaining precision gate. Search JSON for hash:<sha256> → "<total>\t<known>",
-    // where <known> = distinct apexes/domains in the results that are already known kit
-    // infrastructure (argv[3] = file, one domain per line). Kit chunks co-occur with
-    // known kit domains; generic Next.js/Cloudflare chunks don't.
+    // Hash-chaining precision gate. Search JSON for hash:<sha256> →
+    // "<total>\t<known>\t<apexes>\t<known_apexes>", where <known> = distinct
+    // apexes/domains in the results that are already known kit infrastructure
+    // (argv[3] = file, one domain per line), <apexes> = distinct page.apexDomain
+    // values in the results, and <known_apexes> = how many of those apexes are
+    // known (by apex or by any of their scanned domains). Kit chunks co-occur with
+    // known kit domains; generic Next.js/Cloudflare chunks don't. Co-occurrence
+    // alone is not enough: on 2026-10-14 a generic Turbopack runtime chunk, shipped
+    // by the kit AND by dozens of unrelated Next.js sites, passed it (Issue #109).
     let known = new Set();
     try { known = new Set(require("fs").readFileSync(process.argv[3], "utf8").split(/\s+/).filter(Boolean).map(x => x.toLowerCase())); } catch {}
     const seen = new Set();
+    const apexes = new Map(); // apex -> known?
     ((j && j.results) || []).forEach(r => {
       const p = r.page || {};
+      let hit = false;
       for (const d of [p.apexDomain, p.domain]) {
         const x = String(d || "").trim().toLowerCase();
-        if (x && known.has(x)) seen.add(x);
+        if (x && known.has(x)) { seen.add(x); hit = true; }
       }
+      const a = String(p.apexDomain || p.domain || "").trim().toLowerCase();
+      if (a) apexes.set(a, apexes.get(a) || hit);
     });
-    console.log([Number((j && j.total) || 0), seen.size].join("\t"));
+    const knownApexes = [...apexes.values()].filter(Boolean).length;
+    console.log([Number((j && j.total) || 0), seen.size, apexes.size, knownApexes].join("\t"));
   } else if (mode === "doh") {
     ((j && j.Answer) || []).forEach(a => {
       if (a && (a.type === 1 || a.type === 28)) console.log(String(a.data).trim());
