@@ -334,3 +334,7 @@ firsttx-preview.netlify.app
 .thatch.com
 .usc.co.uk
 knowyouremoji-com.netlify.app
+# public URL shortener used for lure delivery (#139) — shared service
+.tinu.be
+# sister site of fuegenix.com (#139)
+.fuegenix.nl
