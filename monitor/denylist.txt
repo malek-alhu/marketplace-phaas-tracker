@@ -319,3 +319,18 @@ firsttx-preview.netlify.app
 # Frasers Group retail sites pulled in via shared CT certs with sportsdirect.com (#138)
 .cruisefashion.com
 .frogbikes.com
+# 2026-10-22 03:49 run: generic-chunk-only apexes, no kit hash (Frasers Group sites, Azure Front Door pool, SaaS)
+.a03.azurefd.net
+.clearretentionjet.co
+.flannels.com
+.fretebras.com.br
+.getgrout.com
+.houseoffraser.co.uk
+.huntington.org
+.manabigurashi.com
+.mayaconcierge.bz
+.moi-agent.ru
+.progressivepipeline.org
+.thatch.com
+.usc.co.uk
+knowyouremoji-com.netlify.app
