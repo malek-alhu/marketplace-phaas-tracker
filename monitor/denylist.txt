@@ -350,3 +350,6 @@ knowyouremoji-com.netlify.app
 .verillumai.com
 .withmatilda.com
 .wiz.io
+# #140: CT-subdomain false positives (Squarespace site; Frasers Group AU store)
+.chaffeecountyice.org
+.sportsdirect.com.au
