@@ -760,6 +760,7 @@ download.ircfast2.com
 downloading-delta.vercel.app
 dpd-cz.live
 dpd.paycore-pl-action.eu.cc
+dpd.paypay-pl2.eu.cc
 dpd.poland-corepay1.eu.cc
 driftnet.io
 dszevip.com
@@ -989,6 +990,7 @@ inpost.pl-paymoney4.eu.cc
 inpost.poland-paycore.eu.cc
 inpost.poland-payhub.bond
 inpost.poland-payhub.cfd
+inpost.poland-payhub.eu.cc
 inpost.poland-payhub2.eu.cc
 inpost.poland-payhub3.eu.cc
 inpost.poland-payhub4.eu.cc
@@ -1235,6 +1237,8 @@ olx.payflow-poland.shop
 olx.payflow-poland1.shop
 olx.payflow-poland1.web.id
 olx.payflow-poland5.eu.cc
+olx.paypay-pl1.eu.cc
+olx.paypay-pl3.eu.cc
 olx.payprzelew-core1.fun
 olx.paysend-paczka.shop
 olx.paysend-paczka.xyz

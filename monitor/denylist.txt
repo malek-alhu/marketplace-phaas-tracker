@@ -353,3 +353,5 @@ knowyouremoji-com.netlify.app
 # #140: CT-subdomain false positives (Squarespace site; Frasers Group AU store)
 .chaffeecountyice.org
 .sportsdirect.com.au
+# #141: transport-management SaaS, CT-subdomain false positive
+.oz-tms.com
