@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T12:33:05Z",
-  "last_run_at": "2026-10-22T10:55:32Z",
-  "last_run_summary": "[2026-10-22T10:55:32Z] 343 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-22T10:55:32Z] HEALTH certspotter=17/289 crtsh=143/158 urlscan=553/553 dns-google=8216/8216 dns-cf=8216/8216",
+  "generated_at": "2026-10-22T17:41:00Z",
+  "last_run_at": "2026-10-22T16:23:20Z",
+  "last_run_summary": "[2026-10-22T16:23:20Z] 40 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-22T16:23:20Z] HEALTH certspotter=12/304 crtsh=22/28 urlscan=100/574 dns-google=11080/11080 dns-cf=11080/11080",
   "tracked_hosts": {
-    "total": 5057,
+    "total": 6355,
     "by_status": {
       "dead": 991,
-      "active": 4066
+      "active": 5364
     },
     "by_operator_tier": {
-      "A:tier1": 5057
+      "A:tier1": 6355
     }
   },
   "fingerprints": [
@@ -1003,131 +1003,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2374
+    "A": 2414
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "whatsapptox.vercel.app",
+      "type": "cert",
+      "indicator": "market-canary.grvt.io",
       "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "market-data-canary.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "market.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "mdg.testnet.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "media.holded.com",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "novo-app.oz-tms.com",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "productnews.holded.com",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "rpc-test.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "test-headers.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "test-headers.testnet.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "tracking.wiz.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "trades-canary.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "training.holded.com",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "trust.wiz.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "zkrpc.testnet.grvt.io",
+      "operator": "A",
+      "first_seen": "2026-10-22T16:23:20Z"
     },
     {
       "type": "domain",
-      "indicator": "withmatilda.com",
+      "indicator": "dpd.paypay-pl2.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
+      "first_seen": "2026-10-22T16:23:20Z"
     },
     {
       "type": "domain",
-      "indicator": "wnsi0913.cc",
+      "indicator": "inpost.poland-payhub.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
+      "first_seen": "2026-10-22T16:23:20Z"
     },
     {
       "type": "domain",
-      "indicator": "www.airbnb-dev.vercel.app",
+      "indicator": "olx.paypay-pl1.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
+      "first_seen": "2026-10-22T16:23:20Z"
     },
     {
       "type": "domain",
-      "indicator": "www.binance-red-packet.vercel.app",
+      "indicator": "olx.paypay-pl3.eu.cc",
       "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.clickworkslb.com",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.fb-meta-verified-14259.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.holded.com",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.netflix-clone-rust-gamma.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.nixtla.io",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.pdrcore.com",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.project2-amazone-clone.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.thatch.com",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.verillumai.com",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.wiz.io",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xze-i-n-eaexe02opm-t-afd-01-hyekcbaqb4djdzde.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zeu-lnr-cdn-s2-sul-dev-h7g8cvegg3g3d0gf.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zhan3-fyg6hye7gbbwhjb8.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zhou-bdg4exckatf5gedk.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zi1-a0hecjd5hjafb0gt.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-10-22T10:55:32Z"
+      "first_seen": "2026-10-22T16:23:20Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 13661,
+  "manual_review_candidates_pending": 16426,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
