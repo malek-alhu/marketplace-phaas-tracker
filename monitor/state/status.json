@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-21T17:12:13Z",
-  "last_run_at": "2026-10-21T16:22:52Z",
-  "last_run_summary": "[2026-10-21T16:22:52Z] 9 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-21T16:22:52Z] HEALTH certspotter=11/275 crtsh=0/3 urlscan=100/534 dns-google=5372/5372 dns-cf=5372/5372",
+  "generated_at": "2026-10-21T22:00:34Z",
+  "last_run_at": "2026-10-21T21:04:37Z",
+  "last_run_summary": "[2026-10-21T21:04:37Z] 13 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-21T21:04:37Z] HEALTH certspotter=12/363 crtsh=0/3 urlscan=100/537 dns-google=6218/6218 dns-cf=6218/6218",
   "tracked_hosts": {
-    "total": 3496,
+    "total": 3710,
     "by_status": {
-      "dead": 982,
-      "active": 2514
+      "dead": 983,
+      "active": 2727
     },
     "by_operator_tier": {
-      "A:tier1": 3496
+      "A:tier1": 3710
     }
   },
   "fingerprints": [
@@ -947,87 +947,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 1832
+    "A": 1845
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "websupportupgrade-fb995.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wrrkservicelimitedsead.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wupwh-h19h.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.bank-sco.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.bauhaus.ch",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.moonpay-commerce-git-fix-com2-2691-dialog-phanto-f001a8-heliofi.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.nuestro-legado-ia.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.pqqgenerator.com",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.qovlira-tek193847265.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.wrenandcue.com",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xcv-sand.vercel.app",
-      "operator": "A",
-      "first_seen": "2026-10-21T10:55:29Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "paypay-pl.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-21T16:22:52Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "paypay-pl2.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-21T16:22:52Z"
-    },
     {
       "type": "domain",
       "indicator": "avhenting2110.com",
@@ -1069,9 +991,87 @@
       "indicator": "vinted.online-order.top",
       "operator": "A",
       "first_seen": "2026-10-21T16:22:52Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "fuegenix.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.fuegenix.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "auth.cruisefashion.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "cloudflare.harveynichols.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "content.frogbikes.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "cruisefashion.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "images.cruisefashion.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "marketplace.harveynichols.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "oxogifts.harveynichols.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.cruisefashion.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "offer8692056.shop",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "olx.payflow-poland.shop",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zmwxt.com",
+      "operator": "A",
+      "first_seen": "2026-10-21T21:04:37Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 10962,
+  "manual_review_candidates_pending": 11689,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
