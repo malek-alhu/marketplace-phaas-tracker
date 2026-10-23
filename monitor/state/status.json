@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-23T19:20:43Z",
-  "last_run_at": "2026-10-23T16:12:28Z",
-  "last_run_summary": "[2026-10-23T16:12:28Z] 22 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-23T16:12:28Z] HEALTH certspotter=19/332 crtsh=219/228 urlscan=100/604 dns-google=30672/30672 dns-cf=30672/30672",
+  "generated_at": "2026-10-23T23:10:02Z",
+  "last_run_at": "2026-10-23T20:50:34Z",
+  "last_run_summary": "[2026-10-23T20:50:34Z] 3 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-23T20:50:34Z] HEALTH certspotter=13/415 crtsh=28/35 urlscan=100/605 dns-google=31088/31088 dns-cf=31088/31088",
   "tracked_hosts": {
-    "total": 16160,
+    "total": 16163,
     "by_status": {
-      "dead": 1015,
-      "active": 15145
+      "dead": 1079,
+      "active": 15084
     },
     "by_operator_tier": {
-      "A:tier1": 16160
+      "A:tier1": 16163
     }
   },
   "fingerprints": [
@@ -1003,27 +1003,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2824
+    "A": 2827
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "bauhaus.es",
-      "operator": "A",
-      "first_seen": "2026-10-23T16:12:28Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "clerk.goldenhourhq.com",
-      "operator": "A",
-      "first_seen": "2026-10-23T16:12:28Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "crm.clickgrowth.com.br",
-      "operator": "A",
-      "first_seen": "2026-10-23T16:12:28Z"
-    },
     {
       "type": "cert",
       "indicator": "deliveryplanner.com",
@@ -1125,9 +1107,27 @@
       "indicator": "api-uchu.uchooo.com",
       "operator": "A",
       "first_seen": "2026-10-23T16:12:28Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "inpost.offer7693012.shop",
+      "operator": "A",
+      "first_seen": "2026-10-23T20:50:34Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "vinted.uchooo.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T20:50:34Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "uchooo.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T20:50:34Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 21562,
+  "manual_review_candidates_pending": 22146,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

@@ -4089,6 +4089,7 @@ edge.fundingpips.com
 edge.grvt.io
 edge.testnet.grvt.io
 edge01.prd.discovercars.com
+edge02.prd.discovercars.com
 edge03.prd.discovercars.com
 edge04.prd.discovercars.com
 edilson.vercel.app
@@ -4904,6 +4905,7 @@ flask.app.render.com
 flavioalves.vercel.app
 flight-delay.vercel.app
 flinders-administration-trust.lms.employmenthero.com
+flintzenithpost.com
 flo-aircampus.vercel.app
 flo1.vercel.app
 floelhoeffelcontentful.vercel.app
@@ -10071,6 +10073,7 @@ panagiotisjones.vercel.app
 panda-mo.vercel.app
 pandamo.vercel.app
 panditya25.vercel.app
+panel.zondascore.com.ar
 pangguoqing1984.vercel.app
 panglobal.revo.com.au
 pangula-mannamurna-aboriginal-corporation.lms.employmenthero.com
@@ -14605,6 +14608,7 @@ www.filemaker.huntington.org
 www.firewall.revo.com.au
 www.flannels.com
 www.flannels.ie
+www.flintzenithpost.com
 www.freshstep.com
 www.freshstep.com.mx
 www.freshstep.com.pr
@@ -14922,6 +14926,7 @@ www.ydsras.revo.com.au
 www.zeugnis.bauhaus.ch
 www.zhkjcx.org
 www.zimbra.revo.com.au
+www.zondascore.com.ar
 www1.revo.com.au
 www1.vercel.app
 www2.fretebras.com.br
@@ -15214,6 +15219,7 @@ zoesteier1.vercel.app
 zofejes.vercel.app
 zoio.vercel.app
 zolani92.vercel.app
+zondascore.com.ar
 zoo46201.vercel.app
 zoomelectrico.vercel.app
 zoovenir.vercel.app
