@@ -383,6 +383,7 @@ admin.leadmagic.io
 admin.localhost.render.com
 admin.metrito.com
 admin.myrro.tw
+admin.pdrcore.com
 admin.physicall.fitness
 admin.progressivepipeline.org
 admin.render.com
@@ -1120,6 +1121,7 @@ api.omnyn.com.br
 api.order.bloxcart.com
 api.order.peter.bloxcart.com
 api.pay.howdy.com
+api.pdrcore.com
 api.raileon.com
 api.render.com
 api.replicas.dev
@@ -1261,6 +1263,7 @@ app.localhost.render.com
 app.manifyagency.com
 app.metrito.com
 app.nucreator.com
+app.pdrcore.com
 app.preview.awen.ai
 app.prodigygroup.io
 app.proven-concept.com
@@ -9569,6 +9572,7 @@ orangexc.vercel.app
 orbit-dapp1.vercel.app
 order-detaljer.shop
 order-id8219.shop
+order-info4297.com
 order-info62351.com
 order-info84719.com
 order-up-group-pty-ltd.lms.employmenthero.com
@@ -9730,6 +9734,7 @@ pages.deepl.dev
 pages.e.harveynichols.com
 pages.fretebras.com.br
 pages.leadmagic.io
+pages.pdrcore.com
 pagina.fretebras.com.br
 paidfocusgroups.vercel.app
 paigesaez.vercel.app
@@ -10145,6 +10150,7 @@ portal.codely.com
 portal.harveynichols.com
 portal.holisticasolucoes.com.br
 portal.leadmagic.io
+portal.pdrcore.com
 portal.progressivepipeline.org
 portal.revo.com.au
 portal.scalemyagency.com
@@ -12036,6 +12042,7 @@ status.metrito.com
 status.newpublicservice.com
 status.nixtla.io
 status.openfactor.ai
+status.pdrcore.com
 status.render.com
 status.replicas.dev
 status.shunkakinoki.com
@@ -13357,6 +13364,7 @@ vercel.shunkakinoki.com
 verde-amarelha.tallerpro.io
 verif-compr-es.cfd
 verif-compras.online
+verif1085323.shop
 verifa.cc
 veriffy.sbs
 verification-help.com
@@ -14387,6 +14395,7 @@ www.wordpress.revo.com.au
 www.workbrew.com
 www.wp-blog.hubblehq.com
 www.wpp.metrito.com
+www.wrenandcue.com
 www.wuguijia.com
 www.wvmpbexch2016.revo.com.au
 www.www.guestpedia.com
