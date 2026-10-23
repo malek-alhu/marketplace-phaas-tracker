@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-23T05:05:17Z",
-  "last_run_at": "2026-10-23T02:46:36Z",
-  "last_run_summary": "[2026-10-23T02:46:36Z] 182 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-23T02:46:36Z] HEALTH certspotter=15/304 crtsh=91/102 urlscan=576/576 dns-google=30108/30108 dns-cf=30108/30108",
+  "generated_at": "2026-10-23T13:37:47Z",
+  "last_run_at": "2026-10-23T10:47:32Z",
+  "last_run_summary": "[2026-10-23T10:47:32Z] 99 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-23T10:47:32Z] HEALTH certspotter=21/313 crtsh=325/333 urlscan=524/587 dns-google=30246/30246 dns-cf=30246/30246",
   "tracked_hosts": {
-    "total": 15647,
+    "total": 16078,
     "by_status": {
-      "dead": 1000,
-      "active": 14647
+      "dead": 1005,
+      "active": 15073
     },
     "by_operator_tier": {
-      "A:tier1": 15647
+      "A:tier1": 16078
     }
   },
   "fingerprints": [
@@ -1003,131 +1003,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2703
+    "A": 2802
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "web-fun-checkout-prototype-uniswap.vercel.app",
+      "indicator": "email.support.clickgrowth.com.br",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "webhooks.us1.gov.wiz.io",
+      "indicator": "fleetempire.tech",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "webhooks.us113.app.wiz.io",
+      "indicator": "humankindswim.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "whatsappo-ten.vercel.app",
+      "indicator": "links.clickgrowth.com.br",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "wiz-gov.zendesk.com",
+      "indicator": "llmiyu.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "wiz.io",
+      "indicator": "meshki.co.uk",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "workspace-extracted.vercel.app",
+      "indicator": "meshki.us",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.allegro.offer7693012.shop",
+      "indicator": "otcoshawa.digitalsolutionresearch.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.cloudsecurity.jobs",
+      "indicator": "portal.inafonline.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.humankindclothing.com",
+      "indicator": "primariatm.ro",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.instagram-chi-ten.vercel.app",
+      "indicator": "resumeguru.ai",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.instagram-mu-rosy.vercel.app",
+      "indicator": "shop-lueur.winslor-demo.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.meshki.us",
+      "indicator": "tcgslayer.io",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.primariatm.ro",
+      "indicator": "track.spoke.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.resumeguru.ai",
+      "indicator": "usedidata.com.br",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.snapchat-login-clone.vercel.app",
+      "indicator": "www.bauhaus.es",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.testosupporttips.com",
+      "indicator": "www.conciergerieriviera.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.verillumai.app",
+      "indicator": "www.crianza365.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "www.willyoubehere.com",
+      "indicator": "www.myfinanceconsultants.com.au",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     },
     {
       "type": "domain",
-      "indicator": "xbu55.vercel.app",
+      "indicator": "www.sriamrutheshwaratemple.com",
       "operator": "A",
-      "first_seen": "2026-10-23T02:46:36Z"
+      "first_seen": "2026-10-23T10:47:32Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 19013,
+  "manual_review_candidates_pending": 20794,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

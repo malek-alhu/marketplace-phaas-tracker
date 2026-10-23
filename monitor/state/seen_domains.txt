@@ -50,6 +50,7 @@ a5.digid.nl
 a6.digid.nl
 aaa24.a24films.com
 aaa24.com
+aavestake-protocol.com
 abandonedgrove.com
 abbank.herouapp.com
 abc.entendre.finance
@@ -128,6 +129,7 @@ accounts.virgil.ai
 accounts.youngmayor.mlabs.ng
 acctual.entendre.finance
 acdelcogmtrade-co-nz-awbcfhebbze6gzgn.a03.azurefd.net
+acelro.com
 action-paycore-pl.shop
 action-paycore-pl1.eu.cc
 adam.entendre.finance
@@ -254,6 +256,7 @@ api.replicas.dev
 api.shunkakinoki.com
 api.staging.a24films.com
 api.us39.app.wiz.io
+api.willornn.fabric.ornn.com
 api.www.howellscampingarea.com
 apidocs.preview.render.com
 app-staging.2sync.com
@@ -266,6 +269,7 @@ app.astra-ai.co
 app.awen.ai
 app.beanstalkconsulting.co
 app.beta.getgrout.com
+app.clickgrowth.com.br
 app.company-b.beta.getgrout.com
 app.deepl.com
 app.deferred.com
@@ -729,6 +733,7 @@ cryptochecker-aml.vercel.app
 cryptolabsresearch.entendre.finance
 csd5j3pepd.8666989a1.top
 cssmesh.com
+ctspraytans.goldenhourhq.com
 cube-manager.com
 cuddly-disco-alpha.vercel.app
 cuisly-api.boin.uk
@@ -737,6 +742,7 @@ currents-app-git-feat-cg-1073-clu-2ed01a-currents-golf-projects.vercel.app
 customer-care-number.online
 cybergtm-site-preview.pages.dev
 cylex-verifbankid.cfd
+d.spoke.com
 d21w.cn
 dacajncritter.com
 dailyrss-website.versec.workers.dev
@@ -783,6 +789,7 @@ delabs.entendre.finance
 delete-gql-in-reset-script.review.allshares.app
 deliverycontrol.mx
 deliverycraftco.com
+deliveryplanner.com
 dem-1038-et.test.deepl.com
 demo-james-76a6.tipboxhq.com
 demo-john-0dda.tipboxhq.com
@@ -835,6 +842,7 @@ dovecourtpartners.co
 download.ircfast2.com
 downloading-delta.vercel.app
 dpd-cz.live
+dpd.metodaw.com
 dpd.paycore-pl-action.eu.cc
 dpd.paypay-pl2.eu.cc
 dpd.poland-corepay1.eu.cc
@@ -858,11 +866,15 @@ eigyo-mail-webhook.vercel.app
 eijesjhstj.8666989a1.top
 elementmultiservice.com
 elevate-preview-steel.vercel.app
+elisa-bardey.edn-app.fr
 email-transactional.2sync.com
+email.contact.clickgrowth.com.br
 email.employmenthero.com
 email.lb.jestr.gg
 email.mail.holded.com
+email.push.clickgrowth.com.br
 email.send.holded.com
+email.support.clickgrowth.com.br
 emberbill.com
 emeline-saire-spa-wellness-consultante.vercel.app
 emiratesnbd.verify-compra.shop
@@ -935,6 +947,7 @@ firstteesanantonio.athsolutions.shop
 firstteetreasurecoast.athsolutions.shop
 firsttx-preview.netlify.app
 flannels.com
+fleetempire.tech
 flintzenithpost.com
 flipwisefunding.com
 fn9nrwerf6.282038dhxl.top
@@ -1040,6 +1053,7 @@ huffigntonpost.com
 hugemoney553.pages.dev
 hugemoney631.pages.dev
 humancompostco.com
+humankindswim.com
 huntington.org
 huppyer.vercel.app
 hwsecures.vercel.app
@@ -1180,10 +1194,12 @@ link.email.sportsdirect.com
 link.huntington.org
 link.reigartkistlerdds.com
 links.bridge-capital.ch
+links.clickgrowth.com.br
 links.notification.intuit.com
 lite-core-1.vercel.app
 livaction-mintgft13.vercel.app
 livetv373.me
+llmiyu.com
 lms.edumaniaedtech.online
 lmsadmin.edumaniaedtech.online
 lmsvisao.entendre.finance
@@ -1249,6 +1265,8 @@ member.citizennewstube.com
 members.newpublicservice.com
 members.staging.newpublicservice.com
 mesa-reservada-site.vercel.app
+meshki.co.uk
+meshki.us
 metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app
 metrito.com
 microsoft--cm-2ja.com
@@ -1411,6 +1429,7 @@ orders-info92841.com
 orders-info93657.com
 osrofoptp.com
 ostium.entendre.finance
+otcoshawa.digitalsolutionresearch.com
 outlook-ashy.vercel.app
 outlook-silk-nine.vercel.app
 outook.offce.com
@@ -1518,6 +1537,7 @@ poland-payhub6.eu.cc
 poland-payhub7.eu.cc
 poland-payhub8.eu.cc
 poland-payhub9.eu.cc
+portal.inafonline.com
 portal.supportccbill.com
 portal.torontocondorentalsonline.co
 portfolio.findxplorer.com
@@ -1531,6 +1551,7 @@ prelo.psd18.com
 press.a24films.com
 preview.houseoffraser.co.uk
 pricelinecom.com
+primariatm.ro
 probe-org-02ujrct5.entendre.finance
 procy.site
 prod-ap8-sensor-si.app.wiz.io
@@ -1629,6 +1650,7 @@ rentalrisefunding.com
 replicas.dev
 researchguides.huntington.org
 reset-nervoso.vercel.app
+resumeguru.ai
 rewards.gg
 reweb-dev-hdbveqezf2cbbac5.a03.azurefd.net
 rhythmgroupco.com
@@ -1678,6 +1700,7 @@ sh0rt-advenfice941.top
 shardocmn.vercel.app
 shell-node-7uxe.vercel.app
 shipapp-git-easyship-swap-dudesoups-projects.vercel.app
+shop-lueur.winslor-demo.com
 shop.a24films.com
 shop.coipang.com
 showcase.datalogue.ch
@@ -1766,6 +1789,7 @@ talleres-lg.tallerpro.io
 tallerpro.io
 tarekit.com
 tbbababy.com
+tcgslayer.io
 tci.virgil.ai
 tcs-planet.vercel.app
 tdaiktwwz4.8666989a1.top
@@ -1794,6 +1818,7 @@ topclassactions.com
 toyota-fork-truck-cad-data.evobyte.cfd
 tpddata.com
 tr.ee
+track.spoke.com
 tracking.wiz.io
 transfer.bridge-capital.ch
 transistor-explanation3d.vercel.app
@@ -1834,6 +1859,7 @@ us46907biywpcq.09up7pqs1us.co
 usasteaming.live
 usc-cs.zendesk.com
 usc.co.uk
+usedidata.com.br
 usekonduro.com
 user-settings.www.deepl.com
 user8396926.me
@@ -2004,6 +2030,7 @@ www.awen.ai
 www.backmiles.com
 www.bank-sco.vercel.app
 www.bauhaus.ch
+www.bauhaus.es
 www.beanstalkconsulting.co
 www.bestcloudcodingagent.com
 www.binance-red-packet.vercel.app
@@ -2013,11 +2040,13 @@ www.centumly.com
 www.clickworkslb.com
 www.cloudsecurity.jobs
 www.cocoacola.com
+www.conciergerieriviera.com
 www.congressinfo.eu
 www.contact-362367437.vercel.app
 www.cosmic-clock.info
 www.cpanel.loktaklake.com
 www.creditclosermiami.com
+www.crianza365.com
 www.cruisefashion.com
 www.dacajncritter.com
 www.dan.postercollage.com
@@ -2070,6 +2099,7 @@ www.matcherenting.org.ph
 www.meshki.us
 www.moonpay-commerce-git-fix-com2-2691-dialog-phanto-f001a8-heliofi.vercel.app
 www.mpulseliving.com
+www.myfinanceconsultants.com.au
 www.neptunedispatching.com
 www.netflix-clone-amber-three-99.vercel.app
 www.netflix-clone-rust-gamma.vercel.app
@@ -2109,6 +2139,7 @@ www.spiderhoodieonline.us
 www.splitmerge.us
 www.sports-direct.de
 www.sportsdirect.com
+www.sriamrutheshwaratemple.com
 www.supplyvan.com
 www.tbbababy.com
 www.testosupporttips.com
