@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-23T13:37:47Z",
-  "last_run_at": "2026-10-23T10:47:32Z",
-  "last_run_summary": "[2026-10-23T10:47:32Z] 99 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-23T10:47:32Z] HEALTH certspotter=21/313 crtsh=325/333 urlscan=524/587 dns-google=30246/30246 dns-cf=30246/30246",
+  "generated_at": "2026-10-23T19:20:43Z",
+  "last_run_at": "2026-10-23T16:12:28Z",
+  "last_run_summary": "[2026-10-23T16:12:28Z] 22 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-23T16:12:28Z] HEALTH certspotter=19/332 crtsh=219/228 urlscan=100/604 dns-google=30672/30672 dns-cf=30672/30672",
   "tracked_hosts": {
-    "total": 16078,
+    "total": 16160,
     "by_status": {
-      "dead": 1005,
-      "active": 15073
+      "dead": 1015,
+      "active": 15145
     },
     "by_operator_tier": {
-      "A:tier1": 16078
+      "A:tier1": 16160
     }
   },
   "fingerprints": [
@@ -1003,131 +1003,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2802
+    "A": 2824
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "email.support.clickgrowth.com.br",
+      "type": "cert",
+      "indicator": "bauhaus.es",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "fleetempire.tech",
+      "type": "cert",
+      "indicator": "clerk.goldenhourhq.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "humankindswim.com",
+      "type": "cert",
+      "indicator": "crm.clickgrowth.com.br",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "links.clickgrowth.com.br",
+      "type": "cert",
+      "indicator": "deliveryplanner.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "llmiyu.com",
+      "type": "cert",
+      "indicator": "e.acelro.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "meshki.co.uk",
+      "type": "cert",
+      "indicator": "hardwarestore.raileon.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "meshki.us",
+      "type": "cert",
+      "indicator": "inafonline.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "otcoshawa.digitalsolutionresearch.com",
+      "type": "cert",
+      "indicator": "library.goldenhourhq.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
       "indicator": "portal.inafonline.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "primariatm.ro",
+      "type": "cert",
+      "indicator": "pwa.bauhaus.es",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "resumeguru.ai",
-      "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "shop-lueur.winslor-demo.com",
-      "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "tcgslayer.io",
-      "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "track.spoke.com",
-      "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "usedidata.com.br",
-      "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
-    },
-    {
-      "type": "domain",
+      "type": "cert",
       "indicator": "www.bauhaus.es",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
       "indicator": "www.conciergerieriviera.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.deliveryplanner.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T16:12:28Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.inafonline.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
       "type": "domain",
-      "indicator": "www.crianza365.com",
+      "indicator": "stepcheck.shop",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.myfinanceconsultants.com.au",
+      "type": "revival",
+      "indicator": "api-new-uchu.uchooo.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.sriamrutheshwaratemple.com",
+      "type": "revival",
+      "indicator": "www.uchooo.com",
       "operator": "A",
-      "first_seen": "2026-10-23T10:47:32Z"
+      "first_seen": "2026-10-23T16:12:28Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "test.uchooo.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T16:12:28Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "operation.uchooo.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T16:12:28Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "api-uchu.uchooo.com",
+      "operator": "A",
+      "first_seen": "2026-10-23T16:12:28Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 20794,
+  "manual_review_candidates_pending": 21562,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
