@@ -1236,6 +1236,7 @@ olx.payflow-poland.qpon
 olx.payflow-poland.shop
 olx.payflow-poland1.shop
 olx.payflow-poland1.web.id
+olx.payflow-poland2.shop
 olx.payflow-poland5.eu.cc
 olx.paypay-pl1.eu.cc
 olx.paypay-pl3.eu.cc
@@ -1364,6 +1365,7 @@ pledge.newpublicservice.com
 plex-list-rss.versec.workers.dev
 plexpay-lqgfr8obd-keyvangovergentcos-projects.vercel.app
 pltimelesblus.vercel.app
+poczta-polska.payflow-poland2.shop
 poczta-polska.paypay-pl1.eu.cc
 poczta-polska.payu-nitro6.eu.cc
 poczta-polska.pl-paymoney1.eu.cc

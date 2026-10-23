@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T17:41:00Z",
-  "last_run_at": "2026-10-22T16:23:20Z",
-  "last_run_summary": "[2026-10-22T16:23:20Z] 40 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-22T16:23:20Z] HEALTH certspotter=12/304 crtsh=22/28 urlscan=100/574 dns-google=11080/11080 dns-cf=11080/11080",
+  "generated_at": "2026-10-23T00:09:37Z",
+  "last_run_at": "2026-10-22T21:02:34Z",
+  "last_run_summary": "[2026-10-22T21:02:34Z] 107 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-22T21:02:34Z] HEALTH certspotter=24/389 crtsh=399/409 urlscan=100/575 dns-google=29804/29804 dns-cf=29804/29804",
   "tracked_hosts": {
-    "total": 6355,
+    "total": 15512,
     "by_status": {
       "dead": 991,
-      "active": 5364
+      "active": 14521
     },
     "by_operator_tier": {
-      "A:tier1": 6355
+      "A:tier1": 15512
     }
   },
   "fingerprints": [
@@ -1003,131 +1003,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2414
+    "A": 2521
   },
   "recent_tier1_findings": [
     {
       "type": "cert",
-      "indicator": "market-canary.grvt.io",
+      "indicator": "trade-dashboard.trezor.io",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "market-data-canary.grvt.io",
+      "indicator": "trust.employmenthero.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "market.grvt.io",
+      "indicator": "try.employmenthero.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "mdg.testnet.grvt.io",
+      "indicator": "upload-music.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "media.holded.com",
+      "indicator": "v.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "novo-app.oz-tms.com",
+      "indicator": "video-cdn.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "productnews.holded.com",
+      "indicator": "video.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "rpc-test.grvt.io",
+      "indicator": "vlog.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "test-headers.grvt.io",
+      "indicator": "w.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "test-headers.testnet.grvt.io",
+      "indicator": "wiki.trezor.io",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "tracking.wiz.io",
+      "indicator": "ws-qnd-sepolia.inkonchain.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "trades-canary.grvt.io",
+      "indicator": "ws-qnd.inkonchain.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "training.holded.com",
+      "indicator": "www.bauhaus.ch",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "trust.wiz.io",
+      "indicator": "www.topclassactions.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "www.grvt.io",
+      "indicator": "www.trezor.io",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "cert",
-      "indicator": "zkrpc.testnet.grvt.io",
+      "indicator": "www.uzchi.com",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "wx.uzchi.com",
+      "operator": "A",
+      "first_seen": "2026-10-22T21:02:34Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "zmwxt.com",
+      "operator": "A",
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "domain",
-      "indicator": "dpd.paypay-pl2.eu.cc",
+      "indicator": "olx.payflow-poland2.shop",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     },
     {
       "type": "domain",
-      "indicator": "inpost.poland-payhub.eu.cc",
+      "indicator": "poczta-polska.payflow-poland2.shop",
       "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.paypay-pl1.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "olx.paypay-pl3.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-22T16:23:20Z"
+      "first_seen": "2026-10-22T21:02:34Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 16426,
+  "manual_review_candidates_pending": 18060,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

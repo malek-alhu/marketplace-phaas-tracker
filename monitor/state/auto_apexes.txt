@@ -194,6 +194,7 @@ payflow-poland.qpon	A
 payflow-poland.shop	A
 payflow-poland1.shop	A
 payflow-poland1.web.id	A
+payflow-poland2.shop	A
 payflow-poland5.eu.cc	A
 paypay-pl.eu.cc	A
 paypay-pl1.eu.cc	A
