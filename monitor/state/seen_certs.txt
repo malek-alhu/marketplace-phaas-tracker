@@ -146,6 +146,7 @@
 970522851.vercel.app
 982857141.vercel.app
 9a5d0a8b-4ee9-495e-a613-12a261f7e7e8.revo.com.au
+9dc40c85.sni.cloudflaressl.com
 9i3si4jsojgs0.vercel.app
 9mwh.com
 a-bowers.vercel.app
@@ -237,7 +238,11 @@ abook.adfinis.com
 aboutaaron.vercel.app
 abrahamyg.vercel.app
 absolapp.vercel.app
+abt.bauhaus.at
 abt.bauhaus.es
+abt.bauhaus.hr
+abt.bauhaus.info
+abt.nl.bauhaus
 abusosvarios.vercel.app
 abylaihuan.vercel.app
 ac3-pty-limited.lms.employmenthero.com
@@ -266,6 +271,7 @@ acc7.machtigen.digid.nl
 acc8.machtigen.digid.nl
 acceptatie.machtigen.digid.nl
 access.revo.com.au
+access.siredsociety.net
 accleaninginc.com
 acco.vercel.app
 account.a24films.com
@@ -295,6 +301,7 @@ accounts.hendersonpark.virgil.ai
 accounts.igp.virgil.ai
 accounts.ijr.com
 accounts.investclearly.com
+accounts.irt.wtf
 accounts.jif.ai
 accounts.kitchensink.virgil.ai
 accounts.leadedge.virgil.ai
@@ -326,6 +333,7 @@ accounts.storiedmoney.com
 accounts.teahouse.virgil.ai
 accounts.tenzing.virgil.ai
 accounts.towerbrook.virgil.ai
+accounts.trackwired.com
 accounts.urbanpartners.virgil.ai
 accounts.venrock-test.virgil.ai
 accounts.venrock.virgil.ai
@@ -431,6 +439,7 @@ admin.supplyvan.com
 admin.tallerpro.io
 admin.testnet.grvt.io
 admin.thatch.com
+admin.timeflies.live
 admin.tomo.ai
 admin.virgil.ai
 admin1.vercel.app
@@ -1425,6 +1434,7 @@ app.tallerpro.io
 app.test.deepl.com
 app.thatch.com
 app.tipboxhq.com
+app.trackwired.com
 app.tymedia.co.uk
 app.ultima.yt
 app.urbis.primariatm.ro
@@ -1753,6 +1763,7 @@ auth.shunkakinoki.com
 auth.spoke.com
 auth.sportsdirect.com
 auth.tcgslayer.io
+auth.trackwired.com
 auth.urbis.primariatm.ro
 auth.urlinks.com.br
 auth.us1.integration.wiz.io
@@ -1986,6 +1997,7 @@ battenfield.vercel.app
 batto.vercel.app
 batutut.vercel.app
 bauervision.vercel.app
+bauhaus-es.simonrack.com
 bauhaus.ch
 bauhaus.es
 baxters-foods-australia-pty-ltd.lms.employmenthero.com
@@ -2936,6 +2948,7 @@ clerk.harvestpartners.virgil.ai
 clerk.hendersonpark.virgil.ai
 clerk.ijr.com
 clerk.investclearly.com
+clerk.irt.wtf
 clerk.jefferies.virgil.ai
 clerk.jif.ai
 clerk.kitchensink.virgil.ai
@@ -2971,6 +2984,7 @@ clerk.tci.virgil.ai
 clerk.teahouse.virgil.ai
 clerk.tenzing.virgil.ai
 clerk.towerbrook.virgil.ai
+clerk.trackwired.com
 clerk.venrock-test.virgil.ai
 clerk.venrock.virgil.ai
 clerk.virgil.ai
@@ -3163,6 +3177,7 @@ confirm-9580.shop
 confirmacion-venta.com
 confirmado.cc
 confirmation-order-gg.cfd
+confirmation-order-gg.sbs
 confirmation-order-payu.cfd
 confirmation-order-payu.sbs
 confirmation-order.sbs
@@ -3193,6 +3208,7 @@ construction-control-australia-pty-ltd.lms.employmenthero.com
 consultations.flannels.com
 cont.primariatm.ro
 contact.founder.mlabs.ng
+contact.pareassurances.com
 contact.primariatm.ro
 contact1.vercel.app
 contact3.vercel.app
@@ -3311,9 +3327,22 @@ cristianronzio.vercel.app
 criticalmaas.vercel.app
 crm-altas.tarjetaredmas.com
 crm-mcp.moi-agent.ru
+crm.actif.software
+crm.americangaragedoorsolution.com
+crm.anvila.tech
+crm.arkanum.net
+crm.cangopal.com
 crm.clickgrowth.com.br
+crm.crossfirelogistics.com
+crm.ekaras.com
+crm.envirolabnetwork.com
 crm.jestr.gg
+crm.nexusct.com
+crm.only2bali.com
+crm.optegousa.com
+crm.prepare4vc.com
 crm.reigartkistlerdds.com
+crm.risertechnologies.net
 crm.topclassactions.com
 crocodile001.vercel.app
 cronwel.vercel.app
@@ -3675,6 +3704,7 @@ deliveryplanner.com
 dem-1038-et.test.deepl.com
 demikamuaku.vercel.app
 demisto.test.wiz.io
+demo-co.tallerpro.io
 demo-company-au.lms.employmenthero.com
 demo-company.lms.employmenthero.com
 demo-eu1-custom-file-detection.demo.wiz.io
@@ -3980,6 +4010,7 @@ discoverreceiver.sportsdirect.com
 dispatch.spoke.com
 distributeai.entendre.finance
 distributedsystem.vercel.app
+distributors.tpacpackaging.com
 district.lms.employmenthero.com
 divincev.vercel.app
 divjak335team1.vercel.app
@@ -7031,6 +7062,7 @@ iradchenko.vercel.app
 irdalinb.vercel.app
 irigor.vercel.app
 irmgard-muskulus.entendre.finance
+irt.wtf
 irwantokristian.vercel.app
 is.sportsdirect.com
 isaacpopoola.vercel.app
@@ -8348,6 +8380,7 @@ link.pdx.pro.deepl.com
 link.reigartkistlerdds.com
 link.service.employmenthero.com
 link.throdle-app.staging.q-tests.com
+link.trackwired.com
 link.virtualestheticians.com
 link.work.employmenthero.com
 links.bridge-capital.ch
@@ -10905,6 +10938,7 @@ portal-pay.leadmagic.io
 portal.beanstalkconsulting.co
 portal.codely.com
 portal.discovercars.com
+portal.financialserenity.co
 portal.harveynichols.com
 portal.holisticasolucoes.com.br
 portal.inafonline.com
@@ -11299,8 +11333,13 @@ pwa-prod.bauhaus.ch
 pwa-qa-intern.bauhaus.ch
 pwa-qa-intern.bauhaus.es
 pwa-qa.bauhaus.ch
+pwa-qa.bauhaus.es
+pwa.bauhaus.at
 pwa.bauhaus.ch
 pwa.bauhaus.es
+pwa.bauhaus.hu
+pwa.bauhaus.info
+pwa.bauhaus.lu
 pwatrainit.vercel.app
 pwd.gitkraken.dev
 pwp75646.vercel.app
@@ -12038,7 +12077,9 @@ sakunoleks.vercel.app
 salahhsheikh.vercel.app
 saleh.vercel.app
 salem-ghoweri.vercel.app
+sales.aspenwellness.health
 sales.leadmagic.io
+sales.nationalfiredoor.com
 salesloft.render.com
 salesman1.vercel.app
 salesops.howdy.com
@@ -12385,6 +12426,7 @@ shanth.vercel.app
 shaoyong.vercel.app
 share.adfinis.com
 share.bauhaus.ch
+share.irt.wtf
 share.leadmagic.io
 sharewithamar.vercel.app
 sharonfaangraham.vercel.app
@@ -12430,6 +12472,7 @@ shop.moi-agent.ru
 shop.revo.com.au
 shop.runslab.hk
 shop.samharris.org
+shop.trackwired.com
 shop.trezor.io
 shop.www.spoke.com
 shorakablair.vercel.app
@@ -13845,6 +13888,7 @@ tracker.nixtla.io
 tracking.geldfit.nl
 tracking.wiz.io
 trackr.leadmagic.io
+trackwired.com
 trade-dashboard.trezor.io
 trades-canary.grvt.io
 trades-dmm.grvt.io
@@ -15105,8 +15149,12 @@ www.b1s1-2b-syd.employmenthero.com
 www.backpack.exchange
 www.baqjdsecureaccess.revo.com.au
 www.basechildrenswear.com
+www.bauhaus.at
 www.bauhaus.ch
 www.bauhaus.es
+www.bauhaus.hu
+www.bauhaus.info
+www.bauhaus.lu
 www.bda.congressinfo.net
 www.beanstalkconsulting.co
 www.begraphic.dev
@@ -15496,6 +15544,7 @@ www.timeflies.live
 www.tipboxhq.com
 www.tomo.ai
 www.topclassactions.com
+www.trackwired.com
 www.transfer.bauhaus.ch
 www.trezor.io
 www.tryprism.com

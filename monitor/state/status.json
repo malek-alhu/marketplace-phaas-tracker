@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-24T17:54:49Z",
-  "last_run_at": "2026-10-24T15:08:59Z",
-  "last_run_summary": "[2026-10-24T15:08:59Z] 116 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-24T15:08:59Z] HEALTH certspotter=20/361 crtsh=194/218 urlscan=100/636 dns-google=31280/31280 dns-cf=31280/31280",
+  "generated_at": "2026-10-24T21:57:11Z",
+  "last_run_at": "2026-10-24T20:01:23Z",
+  "last_run_summary": "[2026-10-24T20:01:23Z] 17 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-24T20:01:23Z] HEALTH certspotter=13/442 crtsh=4/10 urlscan=100/643 dns-google=30856/30856 dns-cf=30856/30856",
   "tracked_hosts": {
-    "total": 16897,
+    "total": 16941,
     "by_status": {
-      "dead": 2441,
-      "active": 14456
+      "dead": 2444,
+      "active": 14497
     },
     "by_operator_tier": {
-      "A:tier1": 16897
+      "A:tier1": 16941
     }
   },
   "fingerprints": [
@@ -1035,114 +1035,103 @@
       "added": "2026-10-24",
       "last_confirmed_hit": "2026-10-24",
       "status": "chained"
+    },
+    {
+      "hash": "137f3c12bd02b9d15e09714b8f898e1d3a3938aa8dd7dd0631d3be61d72ecb0e",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "14497f7c04c3b329c115ffb2779b7637eb663730ab04dab1f1e260ec57e1e6ef",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "46136e5c65354bbd2288f0c9bdd48758ff3acba45f6c1dbde55d161e373b9ba4",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "6dc76f55b37023257ef9a159beba20eaad477541a2bcc28ff0d694f914fb0018",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "756c82ff3e405b5a202d838791de61df27a8435e3f34a414b1af152c0d9f7f7a",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "814d43893209a657b053ac02587dc251650b26b4b30313b9b4aec4b5c9284d76",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "8466371c5b60a8f756f76a5bc083b18c92de76eed6dea41d0be25868856f2514",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "a53fa534fc01974a79d9de690e4288568f3ae01a5d11714b940ee99d00257f48",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "aa3e82d5a579270a10da18e80cbb714a6ddfb8a2cf91c2e751ea1e6fd5326be3",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "b6d4876bc2d090fc7863441988f14c064730024c966db2837d10cb43b974402b",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "c4498ee9b7579d73b1da7db9c8424227720eb3308c360473fe5e2406265da800",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "cf7104986182d6d21c00dcc35416ff4fd4ac3ba8830b39be20453d73c6a7d7b7",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "d4c018247ce4120a7f0f7c9b6c19ebdc2aad10cc68c6349e0bb3538fc50a68d5",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 3095
+    "A": 3112
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "rmq.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "scan-to-pay.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "socialmap.geldfit.nl",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "static.opinion.ijr.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "storybook.maps-v2.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "studio.geldfit.nl",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "support.backpack.exchange",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "support.geldfit.nl",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "tracking.geldfit.nl",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "trk.pangobooks.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ws.mapsd.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ws.mapsp.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ws.mapst.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ws.mawgifservices.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.adfinis.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.corpora.ai",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.geldfit.nl",
-      "operator": "A",
-      "first_seen": "2026-10-24T15:08:59Z"
-    },
     {
       "type": "cert",
       "indicator": "www.ijr.com",
@@ -1160,9 +1149,111 @@
       "indicator": "track-inform.cyou",
       "operator": "A",
       "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "9dc40c85.sni.cloudflaressl.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "accounts.irt.wtf",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "accounts.trackwired.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "auth.trackwired.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.irt.wtf",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.trackwired.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "crm.prepare4vc.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "portal.financialserenity.co",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "pwa-qa.bauhaus.es",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "pwa.bauhaus.at",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "pwa.bauhaus.hu",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "pwa.bauhaus.info",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "pwa.bauhaus.lu",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.bauhaus.at",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.bauhaus.hu",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.bauhaus.info",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.bauhaus.lu",
+      "operator": "A",
+      "first_seen": "2026-10-24T20:01:23Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 25327,
+  "manual_review_candidates_pending": 27281,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
