@@ -17,6 +17,7 @@
 1035355110.vercel.app
 1051891279.vercel.app
 1057606596.vercel.app
+10e71d24.sni.cloudflaressl.com
 1102639724.vercel.app
 1127461.vercel.app
 1134654196.vercel.app
@@ -93,6 +94,7 @@
 48384956.vercel.app
 491722262.vercel.app
 496230607.vercel.app
+49716f84.sni.cloudflaressl.com
 498762294.vercel.app
 4b31add3.sni.cloudflaressl.com
 4d80883f.sni.cloudflaressl.com
@@ -152,6 +154,7 @@ a.cdn01-bc.redlink.com.ar
 a.ultima.yt
 a03.azurefd.net
 a0ab.foodle.su
+a1.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 a1.digid.nl
 a1a-carwash.lms.employmenthero.com
 a1mahaja.vercel.app
@@ -196,6 +199,7 @@ aarshaw.vercel.app
 aarychagov.vercel.app
 aashiz.vercel.app
 aavestake-protocol.com
+aavestake-protocol.org
 aayur.vercel.app
 ab1.vercel.app
 abachar.vercel.app
@@ -220,9 +224,16 @@ abhirathore2006.vercel.app
 abhisekp.vercel.app
 abiralshrestha100.vercel.app
 abishnoi.vercel.app
+ablink.alerts.samharris.org
+ablink.mail.samharris.org
+ablink.news.samharris.org
+abmail.alerts.samharris.org
+abmail.mail.samharris.org
+abmail.news.samharris.org
 abmirayo.vercel.app
 abnt713.vercel.app
 aboodabureziq.entendre.finance
+abook.adfinis.com
 aboutaaron.vercel.app
 abrahamyg.vercel.app
 absolapp.vercel.app
@@ -258,6 +269,7 @@ access.revo.com.au
 accleaninginc.com
 acco.vercel.app
 account.a24films.com
+account.adfinis.com
 account.huntington.org
 account.meshki.us
 account.vercel.app
@@ -281,6 +293,7 @@ accounts.greathillpartners.virgil.ai
 accounts.harvestpartners.virgil.ai
 accounts.hendersonpark.virgil.ai
 accounts.igp.virgil.ai
+accounts.ijr.com
 accounts.investclearly.com
 accounts.jif.ai
 accounts.kitchensink.virgil.ai
@@ -292,6 +305,7 @@ accounts.manhattan.virgil.ai
 accounts.mlabs.ng
 accounts.moonlit.mlabs.ng
 accounts.naijaclassic.games.mlabs.ng
+accounts.new.ijr.com
 accounts.newpublicservice.com
 accounts.nixtla.io
 accounts.northwall.virgil.ai
@@ -305,6 +319,7 @@ accounts.provequity.virgil.ai
 accounts.raileon.com
 accounts.riverbend.virgil.ai
 accounts.rothschild.virgil.ai
+accounts.sidebarhealth.com
 accounts.skills.leadmagic.io
 accounts.staging.newpublicservice.com
 accounts.storiedmoney.com
@@ -353,12 +368,17 @@ adaptovate-pty-ltd.lms.employmenthero.com
 adarsh.vercel.app
 adcac.vercel.app
 add-pre-commit-hook.review.allshares.app
+address-watcher.backpack.exchange
 addsum-accountants-pty-ltd-1.lms.employmenthero.com
 addsum-accountants-pty-ltd.lms.employmenthero.com
 adebisi-fa.vercel.app
 adeel.vercel.app
 adejodavid.vercel.app
 adelelain.vercel.app
+adfch-monitoring-master-proxy-prod-01.adfinis.com
+adfch-monitoring-master-proxy-prod-02.adfinis.com
+adfinis-app.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+adfinis.com
 adhitiadarmawan.vercel.app
 adhitiahidayat.vercel.app
 adi.alltrippers.com
@@ -390,11 +410,13 @@ admin.fundingpips.com
 admin.grvt.io
 admin.howdy.com
 admin.hubblehq.com
+admin.internal.backpack.exchange
 admin.leadmagic.io
 admin.localhost.render.com
 admin.metrito.com
 admin.moi-agent.ru
 admin.myrro.tw
+admin.pangobooks.com
 admin.pdrcore.com
 admin.physicall.fitness
 admin.primariatm.ro
@@ -409,6 +431,7 @@ admin.supplyvan.com
 admin.tallerpro.io
 admin.testnet.grvt.io
 admin.thatch.com
+admin.tomo.ai
 admin.virgil.ai
 admin1.vercel.app
 admin2.vercel.app
@@ -570,6 +593,7 @@ agent.us8.app.wiz.io
 agent.us9.app.wiz.io
 agentmcbride.vercel.app
 agents.shunkakinoki.com
+agents.tomo.ai
 agentsync.entendre.finance
 aghr.lms.employmenthero.com
 agibrat.vercel.app
@@ -632,10 +656,12 @@ aidesign1.goldenplanet.shop
 aination.gr
 ainoya.vercel.app
 aio.vercel.app
+aipaitoozo.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
 airandopal.vercel.app
 airbeam1.vercel.app
 airbyte.metrito.com
 airflow-test.app.render.com
+airflow.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 airgenji.vercel.app
 airsoft1.vercel.app
 aisummit.astra-ai.co
@@ -707,6 +733,13 @@ aleksey-shmatov.vercel.app
 aleksxor.vercel.app
 aleloewe.vercel.app
 alemmartin.vercel.app
+alertmanager.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+alertmanager.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+alertmanager.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+alertmanager.argus.corpora.ai
+alertmanager.internal.backpack.exchange
+alertmanager.ops.corpora.ai
+alerts.samharris.org
 alessandro-sarnaglia.vercel.app
 alessandroursino.vercel.app
 alessbell.vercel.app
@@ -818,6 +851,7 @@ alxs1596.vercel.app
 alyssa-personal-website-hsy0.app.render.com
 alyssa-personal-website-hsy0.onrender.com
 alyssa-personal-website.app.render.com
+am-i-cooked-for.tomo.ai
 amaidah.vercel.app
 amalinovskii93.vercel.app
 amaljaya2010.vercel.app
@@ -982,6 +1016,7 @@ anshulgoel151999.vercel.app
 anshulrajeshgoyal.vercel.app
 antdimot.vercel.app
 antham22.vercel.app
+anthony.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 anthonyjclark.vercel.app
 anthonytang.vercel.app
 anthonyurbanowicz.vercel.app
@@ -1079,18 +1114,31 @@ api.acc6.machtigen.digid.nl
 api.acc7.machtigen.digid.nl
 api.acc8.machtigen.digid.nl
 api.acelro.com
+api.admin.internal.backpack.exchange
 api.admin.render.com
 api.anamika1608.fabric.ornn.com
 api.ap1.app.wiz.io
 api.app.a24films.com
+api.argus.corpora.ai
 api.ayush-that.fabric.ornn.com
+api.backpack.exchange
 api.bloxcart.com
+api.bolt.backpack.exchange
+api.bolt.internal.backpack.exchange
 api.ca1.app.wiz.io
+api.cdn1.backpack.exchange
+api.cdn2.backpack.exchange
+api.cdn3.backpack.exchange
+api.cdn4.backpack.exchange
+api.cdn5.backpack.exchange
+api.cf.backpack.exchange
 api.compute.ornn.com
 api.copy.fundingpips.com
 api.copytrading.fundingpips.com
+api.corpora.ai
 api.cube-manager.com
 api.deepl.com
+api.deposit.internal.backpack.exchange
 api.digid.nl
 api.digitaltrust.demo.wiz.io
 api.digitaltrust.e2e.wiz.io
@@ -1102,6 +1150,7 @@ api.digitaltrust.wiz.io
 api.drewkessler.fabric.ornn.com
 api.employmenthero.com
 api.entendre.finance
+api.eu.backpack.exchange
 api.eu1.app.wiz.io
 api.eu1.demo.wiz.io
 api.eu1.e2e.wiz.io
@@ -1142,33 +1191,51 @@ api.grubby.ai
 api.guestpedia.com
 api.henryornn.fabric.ornn.com
 api.hubblehq.com
+api.ijr.com
 api.injest.fundingpips.com
+api.internal.backpack.exchange
 api.internal.howdy.com
+api.internal.rewards.backpack.exchange
+api.internal.trading.backpack.exchange
 api.investclearly.com
 api.jzhouu.fabric.ornn.com
 api.keshav-orn.fabric.ornn.com
 api.keshav-ornn.fabric.ornn.com
 api.leadmagic.io
+api.maps-v2.mawgifservices.com
+api.mapsd.mawgifservices.com
+api.mapsp.mawgifservices.com
+api.mapst.mawgifservices.com
+api.mawgifservices.com
 api.metrito.com
+api.minio.maps-v2.mawgifservices.com
+api.mobile.backpack.exchange
 api.namansh70747.fabric.ornn.com
 api.nixtla.io
 api.omnyn.com.br
+api.ops.corpora.ai
 api.order.bloxcart.com
 api.order.peter.bloxcart.com
 api.ornn.com
+api.pangobooks.com
 api.pay.howdy.com
 api.pdrcore.com
 api.raileon.com
 api.render.com
 api.replicas.dev
 api.revo.com.au
+api.rewards.backpack.exchange
 api.sahil-gulihar.fabric.ornn.com
+api.scan-to-pay.mawgifservices.com
 api.shunkakinoki.com
 api.spoke.com
 api.staging.a24films.com
 api.staging.employmenthero.com
 api.staging.fabric.ornn.com
+api.tomo.ai
+api.tr.backpack.exchange
 api.tyephoenix.fabric.ornn.com
+api.ubiquitary.corpora.ai
 api.urbis.primariatm.ro
 api.us1.app.wiz.io
 api.us1.fedramp.wiz.io
@@ -1230,10 +1297,19 @@ api.us7.app.wiz.io
 api.us8.app.wiz.io
 api.us9.app.wiz.io
 api.uzchi.com
+api.vasp.internal.backpack.exchange
+api.wiki-test.adfinis.com
+api.wiki.adfinis.com
 api.willornn.fabric.ornn.com
 api.wingman.howdy.com
 api1.vercel.app
+api2.backpack.exchange
+api2.cdn1.backpack.exchange
+api2.cdn2.backpack.exchange
+api2.eu.backpack.exchange
+api2.internal.backpack.exchange
 api2.leadmagic.io
+api9.tomo.ai
 apidocs.preview.render.com
 apigw.leadmagic.io
 apis-test.leadmagic.io
@@ -1250,14 +1326,19 @@ app-a5.digid.nl
 app-a6.digid.nl
 app-b2b-gateway.fretebras.com.br
 app-b2c-gateway.fretebras.com.br
+app-builder.tomo.ai
 app-dev.deepl.com
 app-dev.freshstep.com
 app-dev.pattern.health
 app-do.2sync.com
+app-engine.tomo.ai
+app-kit-demo.internal.tomo.ai
+app-kit.internal.tomo.ai
 app-o1.digid.nl
 app-o2.digid.nl
 app-preprod1.digid.nl
 app-preprod2.digid.nl
+app-runtime.tomo.ai
 app-staging-do.2sync.com
 app-staging.2sync.com
 app-staging.guestpedia.com
@@ -1265,6 +1346,18 @@ app-staging.urbis.primariatm.ro
 app-t1.digid.nl
 app-t2.digid.nl
 app-t3.digid.nl
+app-template-base.internal.tomo.ai
+app-template-calories.internal.tomo.ai
+app-template-finance.internal.tomo.ai
+app-template-habits.internal.tomo.ai
+app-template-lifting.internal.tomo.ai
+app-template-savings.internal.tomo.ai
+app-template-shopping.internal.tomo.ai
+app-template-todos.internal.tomo.ai
+app-template-water.internal.tomo.ai
+app-template-weight.internal.tomo.ai
+app-template-workout.internal.tomo.ai
+app-template-workouts.internal.tomo.ai
 app-test.deepl.com
 app-zzp7.app.render.com
 app-zzp7.onrender.com
@@ -1272,11 +1365,13 @@ app.2sync.com
 app.a24films.com
 app.acuired.com
 app.airsales.io
+app.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 app.astra-ai.co
 app.atqleads.com
 app.awen.ai
 app.beanstalkconsulting.co
 app.beta.getgrout.com
+app.bytorhealth.com
 app.clickgrowth.com.br
 app.company-a.beta.getgrout.com
 app.company-b.beta.getgrout.com
@@ -1291,6 +1386,7 @@ app.dev.deepl.com
 app.digid.nl
 app.digitalcreativs.com
 app.edimfg.com
+app.email.obos.se
 app.emailcampaigns.co.zw
 app.fundingpips.com
 app.goldenhourhq.com
@@ -1309,6 +1405,7 @@ app.localhost.render.com
 app.manifyagency.com
 app.metrito.com
 app.nucreator.com
+app.pangobooks.com
 app.pdrcore.com
 app.preview.awen.ai
 app.prodigygroup.io
@@ -1334,6 +1431,7 @@ app.urbis.primariatm.ro
 app.virtualestheticians.com
 app.wiz.io
 app01.fretebras.com.br
+appclip.tomo.ai
 appcraft.vercel.app
 appen.leadmagic.io
 appk1.vercel.app
@@ -1348,12 +1446,22 @@ apply.howdy.com
 apply.progressivepipeline.org
 appmax-proxy.metrito.com
 apps-online-28circle.com
+apps-template-base.internal.tomo.ai
+apps-template-calories.internal.tomo.ai
+apps-template-calories.internal.tomo.ai.tomo.ai
+apps-template-workout.internal.tomo.ai
+apps-template-workout.tomo.ai
+apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 apps.reigartkistlerdds.com
 apps.revo.com.au
+apps.tomo.ai
 apps2.omnyn.com.br
 appsattic.vercel.app
 appsl.beanstalkconsulting.co
 apqr7n.vercel.app
+aptly-prod.adfinis.com
+aptly-test.adfinis.com
+aptly.adfinis.com
 aptsharp.vercel.app
 apucacao.vercel.app
 aqpgas-vehicular.tallerpro.io
@@ -1368,6 +1476,7 @@ archerwindy.vercel.app
 archh.in
 archipelagfizyki.vercel.app
 architecture-access-aust-pty-ltd.lms.employmenthero.com
+archive.samharris.org
 arden-homes.lms.employmenthero.com
 area3-pty-ltd.lms.employmenthero.com
 area51-pty-ltd.lms.employmenthero.com
@@ -1375,10 +1484,15 @@ areyes1.vercel.app
 areynawneo.vercel.app
 argentumonline.vercel.app
 argo-workflows.eu1.integration.wiz.io
+argo.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 argo.demo.wiz.io
 argo.shunkakinoki.com
 argo.vercel.app
 argocd-it01.2sync.com
+argocd.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+argocd.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+argocd.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+argocd.apps.aks-adsy-k8s-int-prod-01.cloud.adfinis.com
 argocd.eu1.app.wiz.io
 argocd.eu1.demo.wiz.io
 argocd.eu1.e2e.wiz.io
@@ -1413,7 +1527,9 @@ argocd.us13.app.wiz.io
 argocd.us14.app.wiz.io
 argocd.us15.app.wiz.io
 argocd.us2.gov.wiz.io
+argowf-ui.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 arguiot.vercel.app
+argus.corpora.ai
 arhiva-oss.primariatm.ro
 arhiva.primariatm.ro
 arianbortoli.vercel.app
@@ -1521,11 +1637,18 @@ aske.vercel.app
 asp.render.com
 aspace.huntington.org
 assecoge1.vercel.app
+assess.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+assessment-vault.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+assessment.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+assessment2.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 asset-preview.awen.ai
 asset.awen.ai
 asseton-group-pty-ltd.lms.employmenthero.com
+assets-preview.ijr.com
 assets-staging.leadmagic.io
 assets.fundingpips.com
+assets.geldfit.nl
+assets.ijr.com
 assets.leadmagic.io
 assets.ohdigital.agency
 assets.primariatm.ro
@@ -1533,6 +1656,7 @@ assets.render.com
 assets.splitbag.com
 assets.sportsdirect.com
 assets.thatch.com
+assets.tomo.ai
 assets.wiz.io
 assistant.versec.workers.dev
 assistants.elitescholars.co.za
@@ -1565,6 +1689,7 @@ ats.harveynichols.com
 atsu1220.vercel.app
 atsunorik.vercel.app
 attachments.spoke.com
+attachments.tomo.ai
 attendi.ro
 attivo.entendre.finance
 atulmeshramakm.vercel.app
@@ -1601,6 +1726,7 @@ auth.acelro.com
 auth.amara.com
 auth.awen.ai
 auth.coggles.com
+auth.corpora.ai
 auth.cruisefashion.com
 auth.deferred.com
 auth.dev.wiz.io
@@ -1768,6 +1894,7 @@ b2b.discovercars.com
 b2b.leadmagic.io
 b2b.supplyvan.com
 b4b.discovercars.com
+b911c143.sni.cloudflaressl.com
 babadee08.vercel.app
 babelalzate.vercel.app
 babs-comoglio1.vercel.app
@@ -1789,7 +1916,11 @@ backoffice.integration.wiz.io
 backoffice.prod.wiz.io
 backoffice.stage.wiz.io
 backoffice.test.wiz.io
+backpack.exchange
 backtracks.vercel.app
+backupcontrol.adfinis.com
+backupcontrol.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+backupcontrol.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 badcryptodevprxz3.vercel.app
 badmon.vercel.app
 badrnasser.vercel.app
@@ -1825,6 +1956,7 @@ bangarang.vercel.app
 bango.vercel.app
 bankai254.vercel.app
 bankless.entendre.finance
+bao.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 baptistedarcq.vercel.app
 baqjdsecureaccess.revo.com.au
 baqjdwww.secureaccess.revo.com.au
@@ -1947,6 +2079,7 @@ bernardogfilho.vercel.app
 bertuz.vercel.app
 beseif.compra-verif.cfd
 best-practice-software-pty-ltd.lms.employmenthero.com
+bestellen.geldfit.nl
 besushii.vercel.app
 beta-api.2sync.com
 beta-api.leadmagic.io
@@ -1992,6 +2125,7 @@ biaoqier.vercel.app
 bibinsga25.vercel.app
 bibixx.vercel.app
 bibolebobbit.vercel.app
+bicku-sso.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 bicycly-api.vercel.app
 biedrzyckikamil.vercel.app
 bierfriedl.vercel.app
@@ -2011,6 +2145,7 @@ billing-api.leadmagic.io
 billing-oyoh.app.render.com
 billing-oyoh.onrender.com
 billing.astra-ai.co
+billing.samharris.org
 billsmithdev.vercel.app
 billybobspam1.vercel.app
 billylittlefield.vercel.app
@@ -2022,6 +2157,7 @@ bioudi.vercel.app
 biowaffeln.vercel.app
 bircantuner.vercel.app
 bishwenduk029.vercel.app
+bitcoin.backpack.exchange
 bitkidd.vercel.app
 bitsarat.vercel.app
 bitwre.vercel.app
@@ -2052,6 +2188,7 @@ blazing.leadmagic.io
 bleepbloop.vercel.app
 blenderskool.vercel.app
 blevel.supplyvan.com
+blinktest.tomo.ai
 blitariandigital.vercel.app
 blitskikker.vercel.app
 blm1.vercel.app
@@ -2063,6 +2200,7 @@ blocksqozen.entendre.finance
 blockstack11.vercel.app
 blog.bauhaus.es
 blog.beanstalkconsulting.co
+blog.corpora.ai
 blog.cruisefashion.com
 blog.employmenthero.com
 blog.entendre.finance
@@ -2136,6 +2274,7 @@ bol-1598.review.allshares.app
 bolajiayodeji.vercel.app
 bolismauro.vercel.app
 bollatialfredo.vercel.app
+bolt.backpack.exchange
 bolzmcfluff.vercel.app
 bonaccord.virgil.ai
 bonesso.vercel.app
@@ -2293,6 +2432,8 @@ buckaroo467.vercel.app
 buegeleisen.vercel.app
 buget.primariatm.ro
 build-clean-adelaide.lms.employmenthero.com
+build.corpora.ai
+build.curve.corpora.ai
 building.hubblehq.com
 bukazoltan.vercel.app
 bukharih.vercel.app
@@ -2343,6 +2484,7 @@ bveccs.lms.employmenthero.com
 bxtn.vercel.app
 bycire.vercel.app
 byronmwong.vercel.app
+bytorhealth.com
 byyzfault.entendre.finance
 byzasy.vercel.app
 bzelip.vercel.app
@@ -2361,6 +2503,12 @@ ca-payroute.staging.employmenthero.com
 ca.topclassactions.com
 ca1.backoffice.app.wiz.io
 ca18481.vercel.app
+caasperli.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+caasperli.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+caasperli.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+caasperli.apps.aks-adsy-k8s-int-prod-01.cloud.adfinis.com
+caasperli.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
+caasperlilukas.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 cabdinawwal.vercel.app
 cabinet.moi-agent.ru
 cabinets-online.lms.employmenthero.com
@@ -2375,6 +2523,7 @@ calculator.employmenthero.com
 calculators.leadmagic.io
 calebbuxton.vercel.app
 calendar.bauhaus.ch
+calendar.tomo.ai
 calibre-furniture-pty-ltd.lms.employmenthero.com
 calibre-real-estate-pty-ltd.lms.employmenthero.com
 callana.vercel.app
@@ -2385,6 +2534,8 @@ calls.moi-agent.ru
 callumlocke.vercel.app
 calpaliu.vercel.app
 calsrose.vercel.app
+caluma.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+caluma.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 calummoore.vercel.app
 calvchum.vercel.app
 calvin-evans.vercel.app
@@ -2401,6 +2552,7 @@ camilotd1999.vercel.app
 camm-agricultural-group.lms.employmenthero.com
 cammaratanick.vercel.app
 camolin3.vercel.app
+campaigns.ijr.com
 campaigns.profitlabs.ai
 canary.spoke.com
 canberra-boilers.lms.employmenthero.com
@@ -2454,6 +2606,10 @@ carolynsdaniel.vercel.app
 carpedemus.vercel.app
 carteman-pty-ltd.lms.employmenthero.com
 carvhr.in
+cascade.build.corpora.ai
+cascade.corpora.ai
+cascade.staging.corpora.ai
+cascade.test.corpora.ai
 casco1.entendre.finance
 casco2.entendre.finance
 caseploeg.vercel.app
@@ -2465,6 +2621,10 @@ cassis.vercel.app
 catalin-iordache.vercel.app
 catalog.a24films.com
 catalog.huntington.org
+catalyst.build.corpora.ai
+catalyst.corpora.ai
+catalyst.staging.corpora.ai
+catalyst.test.corpora.ai
 cataniajamie.vercel.app
 catfoodcz.vercel.app
 cathyshargrove.vercel.app
@@ -2496,6 +2656,7 @@ cdn.astra-ai.co
 cdn.discovercars.com
 cdn.doodlecomics.net
 cdn.fingerprint.to
+cdn.geldfit.nl
 cdn.holded.com
 cdn.leadmagic.io
 cdn.primariatm.ro
@@ -2505,6 +2666,7 @@ cdn.supplyvan.com
 cdn.uzchi.com
 cdn.workbrew.com
 cdn1.bloxcart.com
+cdn2.backpack.exchange
 cdn2.discovercars.com
 cdn2.leadmagic.io
 cdn3-1.dev.wiz.io
@@ -2546,6 +2708,8 @@ chaffardjoris.vercel.app
 chainsafe.entendre.finance
 chaitra.vercel.app
 chal1.vercel.app
+challenge.adfinis.com
+challenge.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 chament.vercel.app
 chananet.vercel.app
 chancy1.vercel.app
@@ -2566,7 +2730,11 @@ charlieprynn.vercel.app
 charlietcrouse.vercel.app
 charlotteirlen.de
 charter-partners-eh.lms.employmenthero.com
+charts.adfinis.com
+charts.backpack.exchange
 charts.wiz.io
+chat-test.adfinis.com
+chat.adfinis.com
 chat.employmenthero.com
 chat.leadmagic.io
 chat.metrito.com
@@ -2586,6 +2754,7 @@ checkout.bloxcart.com
 checkout.discovercars.com
 checkout.fretebras.com.br
 checkout.leadmagic.io
+checkout.samharris.org
 checkout.www.test.deepl.com
 chedamix.vercel.app
 cheetah.vercel.app
@@ -2765,6 +2934,7 @@ clerk.goldenhourhq.com
 clerk.hamiltonlane.virgil.ai
 clerk.harvestpartners.virgil.ai
 clerk.hendersonpark.virgil.ai
+clerk.ijr.com
 clerk.investclearly.com
 clerk.jefferies.virgil.ai
 clerk.jif.ai
@@ -2779,6 +2949,7 @@ clerk.manhattan.virgil.ai
 clerk.mlabs.ng
 clerk.moonlit.mlabs.ng
 clerk.naijaclassic.games.mlabs.ng
+clerk.new.ijr.com
 clerk.newpublicservice.com
 clerk.nixtla.io
 clerk.northwall.virgil.ai
@@ -2792,6 +2963,7 @@ clerk.provequity.virgil.ai
 clerk.raileon.com
 clerk.riverbend.virgil.ai
 clerk.rothschild.virgil.ai
+clerk.sidebarhealth.com
 clerk.skills.leadmagic.io
 clerk.staging.newpublicservice.com
 clerk.storiedmoney.com
@@ -2836,6 +3008,8 @@ cliproxy.shunkakinoki.com
 clk10061.vercel.app
 clock.shunkakinoki.com
 cloover1981.vercel.app
+cloud-old.adfinis.com
+cloud.adfinis.com
 cloud.e.harveynichols.com
 cloud.fretebras.com.br
 cloud.ohdigital.agency
@@ -2866,10 +3040,13 @@ cmonteiro128.vercel.app
 cmp-consulting-group-pty-ltd.lms.employmenthero.com
 cms-poc1.vercel.app
 cms.a1.digid.nl
+cms.dev.samharris.org
 cms.digid.nl
 cms.huntington.org
 cms.leadmagic.io
 cms.revo.com.au
+cms.samharris.org
+cms.staging.samharris.org
 cms.wiz.io
 cmsalvado.vercel.app
 cmyndizh.revo.com.au
@@ -2880,6 +3057,7 @@ cnh8210.vercel.app
 cnkstcd.com
 cnunez.vercel.app
 coaching.progressivepipeline.org
+cobalt.sidebarhealth.com
 cobild-pty-ltd-1.lms.employmenthero.com
 cobild-pty-ltd.lms.employmenthero.com
 cobyge.vercel.app
@@ -2916,6 +3094,8 @@ codespike-io.vercel.app
 codewhale.vercel.app
 codiedev.com
 codilityru.vercel.app
+codimd.adfinis.com
+codimd.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 codingkeks.vercel.app
 codixero.vercel.app
 codpoe.vercel.app
@@ -2946,6 +3126,7 @@ community.employmenthero.com
 community.holded.com
 community.leadmagic.io
 community.render.com
+community.samharris.org
 company-api.leadmagic.io
 compass-education.lms.employmenthero.com
 compasscorp.lms.employmenthero.com
@@ -2985,12 +3166,17 @@ confirmation-order-gg.cfd
 confirmation-order-payu.cfd
 confirmation-order-payu.sbs
 confirmation-order.sbs
+congressinfo.eu
 congressinfo.net
+congressinfo.site
+congressinfo.space
+connect.geldfit.nl
 connect.revo.com.au
 connect.spoke.com
 connect3.vercel.app
 connections-1.lms.employmenthero.com
 connections-group-of-companies.lms.employmenthero.com
+connectors.tomo.ai
 connectvpn.revo.com.au
 connor.vercel.app
 conorhastings.vercel.app
@@ -2998,6 +3184,7 @@ conradfuhrman1.vercel.app
 consciouscoder.vercel.app
 consent.a24films.com
 console-staging.workbrew.com
+console.internal.trading.backpack.exchange
 console.lms.employmenthero.com
 console.workbrew.com
 constance-test-hr-platform.lms.employmenthero.com
@@ -3040,6 +3227,7 @@ coreysery-io.app.render.com
 coreysery-io.onrender.com
 coreyvincent.vercel.app
 corncandy.vercel.app
+corpora.ai
 corporate.fundingpips.com
 correo.revo.com.au
 correos.compra-verif.cfd
@@ -3099,6 +3287,7 @@ creager.vercel.app
 creaidai.vercel.app
 creative-empire1.vercel.app
 creativehub.howdy.com
+creator.tomo.ai
 creators.astra-ai.co
 creditcoop.entendre.finance
 credito.fretebras.com.br
@@ -3148,6 +3337,7 @@ cryptomarx131.vercel.app
 cryptomonger.vercel.app
 cryptostopuk.vercel.app
 crystalaya.vercel.app
+cs.backpack.exchange
 cs.sportsdirect.com
 csamu.vercel.app
 cschar.vercel.app
@@ -3187,6 +3377,13 @@ cupitrh.vercel.app
 cupitt.lms.employmenthero.com
 curiosity10.vercel.app
 curlyjun.vercel.app
+curve.build.corpora.ai
+curve.corpora.ai
+curve.marketing.corpora.ai
+curve.staging.corpora.ai
+curve.test.corpora.ai
+custody-gateway.internal.backpack.exchange
+custody.internal.backpack.exchange
 custom-domain-ingestion.test.wiz.io
 customer-support-tool-api.fundingpips.com
 customer.leadmagic.io
@@ -3257,6 +3454,8 @@ dangarfieldukgarcon-bartender.vercel.app
 dangzo.vercel.app
 danhje.vercel.app
 dani-s-test-business-eh.lms.employmenthero.com
+daniel-assesment.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+daniel-vault.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 daniel1.vercel.app
 daniela104.vercel.app
 danielalexzaremba.vercel.app
@@ -3346,6 +3545,7 @@ dashboard-staging.2sync.com
 dashboard-universal-staging.2sync.com
 dashboard-universal.2sync.com
 dashboard.2sync.com
+dashboard.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 dashboard.emailparamedic.com
 dashboard.humanapis.io
 dashboard.innovativenurseeducator.com
@@ -3493,6 +3693,7 @@ demo.deferred.com
 demo.digitalsolutionresearch.com
 demo.gitkraken.dev
 demo.inkonchain.com
+demo.sidebarhealth.com
 demo.tallerpro.io
 demo.virgil.ai
 demo.wiz.io
@@ -3543,9 +3744,11 @@ dev-api.finance.howdy.com
 dev-api.metrito.com
 dev-assets.gitkraken.dev
 dev-auth-pt.spoke.com
+dev-curve.corpora.ai
 dev-developer.gitkraken.dev
 dev-docs.gitkraken.dev
 dev-jornada.secretaria.gohealth.tech
+dev-lucasb.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 dev-maps.flannels.com
 dev-maps.sportsdirect.com
 dev-redirect.gitkraken.dev
@@ -3555,6 +3758,7 @@ dev-theguide.sportsdirect.com
 dev-us1.dataforensics.dev.wiz.io
 dev-us1.forensics-package.dev.wiz.io
 dev.a24films.com
+dev.adfinis.com
 dev.admin-panel.spoke.com
 dev.api.nixtla.io
 dev.api.wingman.howdy.com
@@ -3570,9 +3774,11 @@ dev.finance.howdy.com
 dev.freshstep.com
 dev.fretebras.com.br
 dev.frogbikes.com
+dev.geldfit.nl
 dev.gitkraken.dev
 dev.grubby.ai
 dev.hubblehq.com
+dev.ijr.com
 dev.inkonchain.com
 dev.internal.howdy.com
 dev.investclearly.com
@@ -3580,10 +3786,12 @@ dev.jif.ai
 dev.lumail.io
 dev.machtigen.digid.nl
 dev.metrito.com
+dev.pangobooks.com
 dev.pay.howdy.com
 dev.progress.spoke.com
 dev.reigartkistlerdds.com
 dev.revo.com.au
+dev.samharris.org
 dev.sso.spoke.com
 dev.support-dash.fundingpips.com
 dev.track.spoke.com
@@ -3622,6 +3830,7 @@ developer.wiz.io
 developer1.vercel.app
 developer2.vercel.app
 developerayo.vercel.app
+developers.backpack.exchange
 developers.deepl.com
 developers.holded.com
 developers1.vercel.app
@@ -3744,6 +3953,11 @@ dimazver61.vercel.app
 dimitrovasilev.vercel.app
 dimkouv.vercel.app
 dimo.vercel.app
+dinacon-awards.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+dinacon-awards.apps.aks-adsy-k8s-int-prod-01.cloud.adfinis.com
+dinacon-awards.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
+dinaconaward.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
+dinakeycloak.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
 ding1.vercel.app
 dinglu18.vercel.app
 dinko.vercel.app
@@ -3774,6 +3988,7 @@ djerro123.vercel.app
 djjean.vercel.app
 djmecko.vercel.app
 djomnitrix.vercel.app
+djuarezg.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 djuretic64.vercel.app
 djurovicjelena.vercel.app
 dkellyhome.vercel.app
@@ -3812,9 +4027,12 @@ do-wa.vercel.app
 do.2sync.com
 dobrud2.vercel.app
 docker.2sync.com
+docs.adfinis.com
+docs.backpack.exchange
 docs.drafts.gitkraken.dev
 docs.grvt.io
 docs.inkonchain.com
+docs.internal.trading.backpack.exchange
 docs.jestr.gg
 docs.leadmagic.io
 docs.leadmagic.sh.leadmagic.io
@@ -3827,6 +4045,7 @@ docs.spoke.com
 docs.thatch.com
 docs.tryprism.com
 docs.wiz.io
+docstest.adfinis.com
 doctorblinch.vercel.app
 dodas.vercel.app
 dodgeos.entendre.finance
@@ -3834,6 +4053,7 @@ dodgyomar.vercel.app
 dodo-le-dodo.vercel.app
 dodoe.entendre.finance
 doga.vercel.app
+doge.backpack.exchange
 dogeos.entendre.finance
 dogfood.virgil.ai
 doggedg.vercel.app
@@ -3849,6 +4069,7 @@ dolormaxime.vercel.app
 dolovitseasy.vercel.app
 domanhdat.vercel.app
 domhorvath.vercel.app
+domingo.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 domingoaguilera.vercel.app
 dominguezj93.vercel.app
 dominicresaba.vercel.app
@@ -3860,6 +4081,8 @@ don1.vercel.app
 don2.vercel.app
 donatasp.vercel.app
 donatoaccogli.vercel.app
+doneer.geldfit.nl
+doneren.geldfit.nl
 dongwook627.vercel.app
 donkeybanana.vercel.app
 donorate.vercel.app
@@ -3887,6 +4110,7 @@ dounan1.vercel.app
 download-preview.awen.ai
 download.assistine.com
 download.awen.ai
+download.backpack.exchange
 download.deepl.com
 downloadpizza.vercel.app
 downloads.wiz.io
@@ -3949,6 +4173,7 @@ dtanphat9388.vercel.app
 dtb.vercel.app
 dternyak.vercel.app
 dtothefp.vercel.app
+dtrack.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 dub.deepl.com
 dubido11.vercel.app
 dublivo.com
@@ -4017,6 +4242,8 @@ dyharpharpdy.vercel.app
 dylan1.vercel.app
 dylanfrankland.vercel.app
 dylanpinn.vercel.app
+dynaconaward.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
+dynakeycloak.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
 dynamic-dns-checker.tools.wiz.io
 dyordex.entendre.finance
 dyxxxyd.vercel.app
@@ -4068,6 +4295,8 @@ eastus-testcustomdomain-data.wiz.io
 eastwest.staging.alpinemedia.com
 easynowbaby.vercel.app
 eatbox.vercel.app
+ebau-portal.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+ebau.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 ebay--klelnanzeigen--deliveryexpress.online
 ebay-klelnanzeigen--deliveryexpress.online
 ebnder.vercel.app
@@ -4078,6 +4307,7 @@ ebuall.vercel.app
 ecagathen.vercel.app
 ecarcip-motors.tallerpro.io
 ecco.lms.employmenthero.com
+echoserver.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 ecjzax.fretebras.com.br
 ecolon115.vercel.app
 ecurring.vercel.app
@@ -4320,6 +4550,7 @@ emiratesnbd.verify-compra.shop
 emlyap99.vercel.app
 emmackuo.vercel.app
 emmanuelt88.vercel.app
+employee.backpack.exchange
 employment-hero-premium.lms.employmenthero.com
 employment-hero-pty-ltd.lms.employmenthero.com
 employment-hero.lms.employmenthero.com
@@ -4359,6 +4590,7 @@ engage.propelr.studio
 engine-stage.office.fretebras.com.br
 engine.office-stage.fretebras.com.br
 engine.office.fretebras.com.br
+engineeringmanagement.academy
 english.howdy.com
 english.zhangpeng123.workers.dev
 enh-admin-show-roles.review.allshares.app
@@ -4530,7 +4762,9 @@ eth.testnet.grvt.io
 ethangliechtenstein.vercel.app
 etl.topclassactions.com
 ettete.entendre.finance
+eu.backpack.exchange
 eu.employmenthero.com
+eu.support.backpack.exchange
 eu1.backoffice.app.wiz.io
 eu1.backoffice.demo.wiz.io
 eu1.backoffice.e2e.wiz.io
@@ -4608,6 +4842,7 @@ ex2010.huntington.org
 ex2016.huntington.org
 ex2019.huntington.org
 example.app.render.com
+example.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 example.onrender.com
 examplecustomer.deepl.com
 excell-serv-solutions-pty-ltd.lms.employmenthero.com
@@ -4615,6 +4850,7 @@ exch2016.revo.com.au
 exchange.revo.com.au
 exchangecorp.revo.com.au
 exchmail.revo.com.au
+exec.adfinis.com
 exer1.vercel.app
 exeto.vercel.app
 exhibition.a24films.com
@@ -4702,6 +4938,7 @@ fal-test.pro.deepl.com
 fal.deepl.com
 fal.free.deepl.com
 fal.pro.deepl.com
+falcosidekick.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 falzone1.vercel.app
 famelog.tryprism.com
 familiambc1o.vercel.app
@@ -4767,6 +5004,7 @@ fedtest-us1-reports.fedtest.wiz.io
 fedtest.wiz.io
 feedback.holded.com
 feedback.leadmagic.io
+feedback.pangobooks.com
 feedback.render.com
 feedframe1.vercel.app
 feeds.goldenplanet.shop
@@ -4812,9 +5050,11 @@ fighterclan76.vercel.app
 fikrbankinha.vercel.app
 file-migration.awen.ai
 filemaker.huntington.org
+files.adfinis.com
 files.awen.ai
 files.eu6.integration.wiz.io
 files.leadmagic.io
+filesearch.adfinis.com
 filips.vercel.app
 filipstrkn.vercel.app
 fima.vercel.app
@@ -4837,6 +5077,7 @@ fiquecool1.vercel.app
 firecomet185.vercel.app
 firewall.revo.com.au
 firmanjabar.vercel.app
+firstpod.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 fitzpatricks-real-estate.lms.employmenthero.com
 fiuk.vercel.app
 fix-admin-access.review.allshares.app
@@ -4946,6 +5187,7 @@ followscotland1.vercel.app
 follyants.vercel.app
 fontanezj1.vercel.app
 fontzter.vercel.app
+foo-ingress.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 foodtrucksupload.tryprism.com
 foohx.vercel.app
 footers-structural-timber-footers-pty-ltd.lms.employmenthero.com
@@ -4955,6 +5197,7 @@ forcefit-gateway.syscore.app
 forcefit-service.syscore.app
 forcefit-site-app.syscore.app
 forcefit-site.syscore.app
+foreman.adfinis.com
 foretoo.vercel.app
 foria.vercel.app
 form.workbrew.com
@@ -4970,11 +5213,13 @@ fortmt.vercel.app
 fortress-accounting.entendre.finance
 fortress-staging.entendre.finance
 forum.revo.com.au
+forum.samharris.org
 forvismazars.entendre.finance
 forxvt.vercel.app
 founder.mlabs.ng
 founders.vercel.app
 fourthwall.vercel.app
+foxwrenlabs.com
 foysalit.vercel.app
 fp.vercel.app
 fpapado1.vercel.app
@@ -5195,6 +5440,7 @@ geeku.vercel.app
 geekwolf111.vercel.app
 gegunt.vercel.app
 gek1.vercel.app
+geldfit.nl
 gemis.vercel.app
 general-test-account.lms.employmenthero.com
 genie-solutions-pty-ltd.lms.employmenthero.com
@@ -5267,6 +5513,7 @@ gipperzanoid.vercel.app
 giro.vercel.app
 gislawill.vercel.app
 git-staging.workbrew.com
+git.adfinis.com
 git.workbrew.com
 gitcoin.entendre.finance
 github-pages-8nci.app.render.com
@@ -5307,6 +5554,7 @@ globenoble.in
 glorimar182.vercel.app
 glovi.congressinfo.net
 glowild-beauty.goldenhourhq.com
+glwiki.adfinis.com
 gm-mobile.vercel.app
 gm.inkonchain.com
 gm3dmo.vercel.app
@@ -5333,6 +5581,8 @@ go.leadmagic.io
 go.thatch.com
 go.ultima.yt
 go.wiz.io
+goalert.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+goalert.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 goddyzhao.vercel.app
 goginim.vercel.app
 gogoleff.vercel.app
@@ -5352,6 +5602,8 @@ gongyuan94.vercel.app
 gonzalezgustavo060.vercel.app
 good-feet-australia.lms.employmenthero.com
 goodchax.vercel.app
+goodiepool-test.adfinis.com
+goodiepool.adfinis.com
 goodna-veterinary-surgery.lms.employmenthero.com
 goodnotes1.vercel.app
 googmake5.vercel.app
@@ -5798,8 +6050,13 @@ gqlgen.onrender.com
 gr.sportsdirect.com
 gradian-consultants-pty-ltd.lms.employmenthero.com
 grafana.2sync.com
+grafana.adfinis.com
+grafana.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+grafana.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+grafana.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 grafana.fedtest.wiz.io
 grafana.integration.wiz.io
+grafana.internal.backpack.exchange
 grafana.render.com
 grafana.shunkakinoki.com
 grafana.staging.render.com
@@ -5816,6 +6073,8 @@ grass.entendre.finance
 gravdal.vercel.app
 gravyytron.vercel.app
 graycoreio1.vercel.app
+graylog.adfinis.com
+graylog.maps-v2.mawgifservices.com
 graysonline-1.lms.employmenthero.com
 graysonline.lms.employmenthero.com
 greasat.vercel.app
@@ -5847,6 +6106,8 @@ grokon.vercel.app
 grooshbene.vercel.app
 grounwater2221.vercel.app
 growla.vercel.app
+growth.tomo.ai
+growthbook.geldfit.nl
 grozdanovgg.vercel.app
 grubby.ai
 grue.vercel.app
@@ -5868,6 +6129,7 @@ guestodo.com
 guestpedia.com
 guiberaldo.vercel.app
 guicy.vercel.app
+guide.backpack.exchange
 guidestar-life-pty-ltd.lms.employmenthero.com
 guidobellomo.vercel.app
 guieiras.vercel.app
@@ -6025,12 +6287,14 @@ heberdnobre.vercel.app
 hectorlorenzo.vercel.app
 hectorlorenzo1.vercel.app
 hedayatih.vercel.app
+hedgedoc.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 hedgey.entendre.finance
 heft-studio1.vercel.app
 heikitormi.vercel.app
 heilhijazi.vercel.app
 heinergromann.vercel.app
 heinrichtremblay.vercel.app
+hej.obos.se
 helacer3.vercel.app
 heldertraci.vercel.app
 heldinz.vercel.app
@@ -6060,6 +6324,7 @@ help.18montrose.com
 help.ace.co.uk
 help.amara.com
 help.au.sportsdirect.com
+help.backpack.exchange
 help.bg.sportsdirect.com
 help.campri.com
 help.chainreactioncycles.com
@@ -6095,6 +6360,8 @@ help.lonsdale.com
 help.metrito.com
 help.muddyfox.com
 help.my.sportsdirect.com
+help.pangobooks.com
+help.samharris.org
 help.sg.sportsdirect.com
 help.sofa.com
 help.soulcal.co.uk
@@ -6226,7 +6493,10 @@ hohogl.vercel.app
 holaabiz.vercel.app
 holded.com
 holmes-family-dental.lms.employmenthero.com
+holzoepfel.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+holzopfel.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 homam.vercel.app
+home.curve.build.corpora.ai
 home.deepl.com
 homebase.entendre.finance
 homeroom1.vercel.app
@@ -6274,6 +6544,7 @@ howdy.com
 howler.vercel.app
 hpc.virgil.ai
 hpdiferent.vercel.app
+hplus-ng.adfinis.com
 hr-sandbox.employmenthero.com
 hr.employmenthero.com
 hr.sportsdirect.com
@@ -6353,7 +6624,9 @@ hyatt03.vercel.app
 hyecorp-property-group.lms.employmenthero.com
 hyoda.vercel.app
 hype1.vercel.app
+hyper.backpack.exchange
 hyperbitcorp1.vercel.app
+hypercore.backpack.exchange
 hyronical.vercel.app
 i28011.vercel.app
 i3poac.vercel.app
@@ -6382,6 +6655,7 @@ ibukitdu1224.vercel.app
 icdsite.org
 icepuma.vercel.app
 iceradar.vercel.app
+icinga2.adfinis.com
 icio.entendre.finance
 icons.integration.wiz.io
 icons.wiz.io
@@ -6424,6 +6698,7 @@ iida-hayato.vercel.app
 iilxkeee.vercel.app
 iiome.vercel.app
 iivanyi.vercel.app
+ijr.com
 ikoros.vercel.app
 il-kow.vercel.app
 il17557.vercel.app
@@ -6492,13 +6767,16 @@ image.wines.thewineshop.com
 images.amara.com
 images.conceptbycruise.com
 images.cruisefashion.com
+images.email.obos.se
 images.flannels.com
 images.houseoffraser.co.uk
+images.pangobooks.com
 images.scottsmenswear.com
 images.sportsdirect.com
 images.tessuti.co.uk
 images.usc.co.uk
 images.vanmildert.com
+imagesr2.pangobooks.com
 imagine10255.vercel.app
 imaitland.vercel.app
 imam.vercel.app
@@ -6551,6 +6829,7 @@ infeststudio1.vercel.app
 infigen-energy-services-pty-ltd.lms.employmenthero.com
 infinity-pharmacy-group.lms.employmenthero.com
 influencers.metrito.com
+influxdbk6.dev.samharris.org
 info-auth.com
 info.fretebras.com.br
 info.howdy.com
@@ -6595,6 +6874,8 @@ infra01-staging.2sync.com
 infra01-webhooks-staging.2sync.com
 infra01-webhooks.2sync.com
 infra01.2sync.com
+ing1.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+ing2.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 inglevalegroup.com
 ingloriouscoderz.vercel.app
 ingvirafn.vercel.app
@@ -6717,9 +6998,12 @@ integration-us3.forensics-package.integration.wiz.io
 integration.employmenthero.com
 integration.wiz.io
 integrations-uat.harveynichols.com
+intents.backpack.exchange
 intentx.entendre.finance
 intercom.codely.com
 intercomai.fundingpips.com
+intern.obos.se
+internal.backpack.exchange
 internal.deepl.com
 internal.howdy.com
 internal.keshav-ornn.fabric.ornn.com
@@ -6732,6 +7016,7 @@ interseller1.vercel.app
 intranet.bauhaus.es
 inv-dash-deploy.review.allshares.app
 inventoriz.wiz.io
+inventory.adfinis.com
 investclearly.com
 invoice-center.info
 ioiooi.vercel.app
@@ -6824,6 +7109,7 @@ jacobstern.vercel.app
 jacscin.vercel.app
 jadeanthonymiller1.vercel.app
 jae-jae.vercel.app
+jaeger.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 jaeltactaquinnew.vercel.app
 jagdish.vercel.app
 jagt-jakt-se.goldenplanet.shop
@@ -7192,6 +7478,7 @@ jorensjongers.vercel.app
 jorge1.vercel.app
 jorgen1.vercel.app
 jorgenbs.vercel.app
+jose.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 jose1.vercel.app
 jose18novelo.vercel.app
 jose2.vercel.app
@@ -7235,6 +7522,7 @@ jovisaib.vercel.app
 joy8963259.vercel.app
 joyeecai.vercel.app
 jp.deepl.com
+jp.support.backpack.exchange
 jpache07.vercel.app
 jpgstore.entendre.finance
 jph00.vercel.app
@@ -7398,6 +7686,7 @@ kamaleshsivaraj.vercel.app
 kamil1.vercel.app
 kamronbek20011.vercel.app
 kanat.vercel.app
+kandoor.geldfit.nl
 kanenathan213.vercel.app
 kang85.vercel.app
 kanitelk.vercel.app
@@ -7427,6 +7716,9 @@ karthiram165.vercel.app
 kasahara1019.vercel.app
 kashihalma.vercel.app
 kasper666.vercel.app
+kasperleyn.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+kasperleyn.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+kasperleyn.apps.aks-adsy-k8s-int-prod-01.cloud.adfinis.com
 kasstorr.vercel.app
 katana.entendre.finance
 katcafe.vercel.app
@@ -7645,6 +7937,7 @@ kolson.vercel.app
 komisienko.vercel.app
 kommuni1.vercel.app
 konduro.com
+kongressinfo.net
 konica-minolta-australia.lms.employmenthero.com
 konservator007.vercel.app
 konslet99.vercel.app
@@ -7813,6 +8106,7 @@ lanremharco.vercel.app
 lansscar.vercel.app
 lanterm.vercel.app
 lapier.vercel.app
+lara.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 larrysalibra.vercel.app
 lars.vercel.app
 larsfloeer.vercel.app
@@ -7861,7 +8155,9 @@ leaf.vercel.app
 leakcheckerweb.versec.workers.dev
 leandro1.vercel.app
 leandropennella.vercel.app
+leantime.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 leap-consulting.lms.employmenthero.com
+learn.backpack.exchange
 learn.holded.com
 learn.howdy.com
 learnerdraw1.vercel.app
@@ -7883,6 +8179,7 @@ leelaloop.vercel.app
 leelium.vercel.app
 leendersthomas.vercel.app
 leepaulwebdev24.vercel.app
+legacy.samharris.org
 legacy.wiz.io
 legal.ornn.com
 legal.wiz.io
@@ -8068,6 +8365,7 @@ links.news.astra-ai.co
 links.omnyn.com.br
 links.topclassactions.com
 links.updates.awen.ai
+linq.tomo.ai
 linq2js.vercel.app
 linux-warrior.vercel.app
 lioklio.vercel.app
@@ -8144,6 +8442,9 @@ login.a3.digid.nl
 login.a4.digid.nl
 login.a5.digid.nl
 login.a6.digid.nl
+login.adfinis.com
+login.build.corpora.ai
+login.corpora.ai
 login.digid.nl
 login.employmenthero.com
 login.huntington.org
@@ -8157,6 +8458,7 @@ login.pp2.digid.nl
 login.progressivepipeline.org
 login.reigartkistlerdds.com
 login.revo.com.au
+login.staging.corpora.ai
 login.t1.digid.nl
 login.t2.digid.nl
 login.t3.digid.nl
@@ -8164,6 +8466,8 @@ logo.fretebras.com.br
 logo.leadmagic.io
 logs-ingestion.integration.wiz.io
 loicverrall.vercel.app
+loki.argus.corpora.ai
+loki.ops.corpora.ai
 loki.shunkakinoki.com
 loki.us1.monitor-test.wiz.io
 lol-russo.vercel.app
@@ -8274,6 +8578,7 @@ luizlago91.vercel.app
 luka-chassaing.vercel.app
 lukas1569.vercel.app
 lukaschneider.vercel.app
+lukasgr-atlantis.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 lukasmeiliunas2.vercel.app
 lukaszkonraf.vercel.app
 luke1.vercel.app
@@ -8359,6 +8664,7 @@ madeleineauvinen.vercel.app
 madhumithabbs.vercel.app
 madleo.vercel.app
 madmallards.vercel.app
+madobu.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 madwed.vercel.app
 maekl.vercel.app
 maffertanthony.vercel.app
@@ -8379,10 +8685,12 @@ maidbot.vercel.app
 mail-admin.omnyn.com.br
 mail.7summits.com
 mail.7summits.us
+mail.adfinis.com
 mail.bauhaus.ch
 mail.bauhaus.es
 mail.congressinfo.net
 mail.enavra.io
+mail.engineeringmanagement.academy
 mail.exhibition.congressinfo.net
 mail.fuegenix.com
 mail.guestpedia.com
@@ -8402,12 +8710,15 @@ mail.primariatm.ro
 mail.reigartkistlerdds.com
 mail.revo.com.au
 mail.risewize.com
+mail.samharris.org
 mail.sites.beta.getgrout.com
 mail.splitbag.com
 mail.supafunnel.cc
 mail.timeflies.live
 mail.ultima.yt
 mail.wally.xyz
+mail.webbutik.obos.se
+mail.webbutik.obos.se.hemsida.eu
 mail.willyoubehere.com
 mail.xfqh.net
 mail1.houseoffraser.co.uk
@@ -8491,8 +8802,15 @@ maooson.vercel.app
 maorodribu1.vercel.app
 mapi.fundingpips.com
 maple-event-group.lms.employmenthero.com
+mappd.mawgifservices.com
+maps-v2.mawgifservices.com
+maps-v3.mawgifservices.com
 maps.flannels.com
+maps.mawgifservices.com
 maps.sportsdirect.com
+mapsd.mawgifservices.com
+mapsp.mawgifservices.com
+mapst.mawgifservices.com
 maraismr.vercel.app
 marc1.vercel.app
 marc3842h.vercel.app
@@ -8520,6 +8838,7 @@ marieepinard.vercel.app
 mariela989gon.vercel.app
 marineleborgne11.vercel.app
 marinosj11.vercel.app
+mario.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 marioklassen.vercel.app
 mariomrtsnz.vercel.app
 mariomuratori.vercel.app
@@ -8561,6 +8880,7 @@ marlonfauser1.vercel.app
 marloumays31.vercel.app
 marmt-group.vercel.app
 marooon88.vercel.app
+marquee.tomo.ai
 marquezmk6.vercel.app
 mars.vercel.app
 marsh-maher-richmond-bennison.lms.employmenthero.com
@@ -8616,6 +8936,7 @@ matiascarranza.vercel.app
 matiasncarranza.vercel.app
 matiasos.vercel.app
 matiastucci.vercel.app
+matomo.adfinis.com
 matrayu.vercel.app
 matsumotokazuya7.vercel.app
 matt1.vercel.app
@@ -8627,6 +8948,11 @@ mattcomins.vercel.app
 mattcownie.vercel.app
 matteodipaolantonio.vercel.app
 matterhorndev.vercel.app
+mattermad.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+mattermad.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+mattermad.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+mattermost.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+mattermost.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 matthelonianxl.vercel.app
 matthersh.vercel.app
 matthew-hunter.vercel.app
@@ -8655,6 +8981,7 @@ maurokra.vercel.app
 maury91.vercel.app
 maverick.vercel.app
 mavrikdevelopment.vercel.app
+mawgifservices.com
 mawlong.vercel.app
 max1.vercel.app
 max18071995.vercel.app
@@ -8697,6 +9024,8 @@ mbias.vercel.app
 mbonanno.vercel.app
 mbosch.vercel.app
 mbp.vercel.app
+mc-adfinis-2020.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+mc-adfinis-2020.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 mcamenzuliaccreda.vercel.app
 mcburden.vercel.app
 mccullochk.vercel.app
@@ -8743,6 +9072,7 @@ me5.vercel.app
 me69.vercel.app
 me8.vercel.app
 meakaakka.vercel.app
+measure.geldfit.nl
 mebtte.vercel.app
 mec.vercel.app
 mechesstudio.goldenhourhq.com
@@ -8768,6 +9098,7 @@ medienwerk.vercel.app
 medjitov10.vercel.app
 medolino6146.vercel.app
 meerasunder.vercel.app
+meet.adfinis.com
 megaeagle360.vercel.app
 megan1.vercel.app
 megangoeschbird.vercel.app
@@ -8793,6 +9124,7 @@ menotoa.vercel.app
 mentoria.clickgrowth.com.br
 menyalin.vercel.app
 meotimdihia.vercel.app
+merch.pangobooks.com
 mercshade.vercel.app
 mercury-private-operating-company-p-l.lms.employmenthero.com
 mercury.huntington.org
@@ -8803,12 +9135,16 @@ mersenne.vercel.app
 mert.vercel.app
 merylltiangco.vercel.app
 meshki.us
+messages.pangobooks.com
 messaging-s.hubblehq.com
 messaging.hubblehq.com
+messaging.tomo.ai
 messenger.shunkakinoki.com
 meta.app.goldmogul.com
+metabase.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 metabase.render.com
 metabase.thatch.com
+metadata.backpack.exchange
 metakermit.vercel.app
 metalim.vercel.app
 metatrontu.vercel.app
@@ -8827,10 +9163,12 @@ mfrachet1.vercel.app
 mfrna.vercel.app
 mg-mg.entendre.finance
 mg-org-del.entendre.finance
+mgaedke.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 mghohoo.vercel.app
 mglagola.vercel.app
 mgoigfer.vercel.app
 mgp140.vercel.app
+mgt.samharris.org
 mharikarthic.vercel.app
 mhdtjk.vercel.app
 mhemrg1.vercel.app
@@ -8870,6 +9208,7 @@ michaelstover.vercel.app
 michaelvaca.vercel.app
 michalk2001.vercel.app
 michalvavra.vercel.app
+michavault.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 michcodes.vercel.app
 michgonch.vercel.app
 micjparker.vercel.app
@@ -8906,6 +9245,7 @@ mijn.a6.digid.nl
 mijn.acc1.digid.nl
 mijn.acc3.digid.nl
 mijn.digid.nl
+mijn.geldfit.nl
 mijn.o1.digid.nl
 mijn.o2.digid.nl
 mijn.preprod1.digid.nl
@@ -8913,6 +9253,8 @@ mijn.preprod2.digid.nl
 mijn.t1.digid.nl
 mijn.t2.digid.nl
 mijn.t3.digid.nl
+mijngeldfit.nl
+mijnnsr.nl
 mika1.vercel.app
 mika2.vercel.app
 mikael.vercel.app
@@ -8959,6 +9301,7 @@ minglin.vercel.app
 minima2.vercel.app
 minio-console.syscore.app
 minio.bauhaus.ch
+minio.maps-v2.mawgifservices.com
 minn.vercel.app
 mino-web.vercel.app
 minterellison-gold-coast.lms.employmenthero.com
@@ -9035,6 +9378,7 @@ mnxidbws.revo.com.au
 moahmedsalamat.vercel.app
 mobcon.vercel.app
 mobikarl.vercel.app
+mobile-api.tomo.ai
 mobile.fretebras.com.br
 mobile.revo.com.au
 mobinowservices.vercel.app
@@ -9098,6 +9442,7 @@ moonlit.mlabs.ng
 moonpay.entendre.finance
 moorad.vercel.app
 mootrichard.vercel.app
+mopsos.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 moqshosting.vercel.app
 moranje.vercel.app
 moranm6.vercel.app
@@ -9137,6 +9482,10 @@ mpt.staging.fundingpips.com
 mpulseliving.com
 mqdev1.vercel.app
 mql.vercel.app
+mqtt.mapsd.mawgifservices.com
+mqtt.mapsp.mawgifservices.com
+mqtt.mapst.mawgifservices.com
+mqtt.mawgifservices.com
 mqzvtrkenh.coder-voice-ms-teams-http.deepl.com
 mr-gas-gnv-glp.tallerpro.io
 mr-robinson.vercel.app
@@ -9220,6 +9569,7 @@ msteams.hnd.deepl.com
 mstruebing.vercel.app
 mstx.vercel.app
 mt.sportsdirect.com
+mta-sts.adfinis.com
 mta-sts.driftnet.io
 mta-sts.howdy.com
 mta-sts.leadmagic.io
@@ -9228,6 +9578,7 @@ mta-sts.nixtla.io
 mta-sts.owa.revo.com.au
 mta-sts.render.com
 mta-sts.revo.com.au
+mta-sts.sidebarhealth.com
 mta-sts.withmatilda.com
 mtalma.vercel.app
 mtalo.vercel.app
@@ -9254,6 +9605,7 @@ multimedia.newsletter.fundingpips.com
 multiservicios-max-5.tallerpro.io
 multivac-ivan-demo.lms.employmenthero.com
 multritruc-diesel.tallerpro.io
+mumble.adfinis.com
 muneeb-khan.com
 munzerdw20.vercel.app
 murajun1978.vercel.app
@@ -9276,6 +9628,7 @@ mvaello.vercel.app
 mvanlonden.vercel.app
 mviezo.vercel.app
 mvoxo5t1u3sk.vercel.app
+mvp.ijr.com
 mw-pirates.vercel.app
 mwarger.vercel.app
 mxcheck.leadmagic.io
@@ -9286,6 +9639,7 @@ my-acc.sportsdirect.com
 my-api-acc.sportsdirect.com
 my-api-tst.sportsdirect.com
 my-api.sportsdirect.com
+my-awesome.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 my-prd-vercel.sportsdirect.com
 my-site.app.render.com
 my-static-site.app.render.com
@@ -9293,6 +9647,7 @@ my-static-site.onrender.com
 my-tst-vercel.sportsdirect.com
 my-tst.sportsdirect.com
 my-vercel.sportsdirect.com.my
+my.adfinis.com
 my.huntington.org
 my.leadmagic.io
 my.sportsdirect.com
@@ -9300,6 +9655,7 @@ myabacus-test.bauhaus.ch
 myabacus.bauhaus.ch
 myalbum1.vercel.app
 myapos.vercel.app
+myapp.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 myapps.harveynichols.com
 mybackend1.vercel.app
 mybag.com
@@ -9312,6 +9668,7 @@ mykots.vercel.app
 mykytasamokish.vercel.app
 mymail.revo.com.au
 mynameisthalles.vercel.app
+mysagw.adfinis.com
 mysber.vercel.app
 myshanre.vercel.app
 mysql.revo.com.au
@@ -9320,7 +9677,9 @@ mystery-faucet.inkonchain.com
 mysteryboy1579.vercel.app
 myteamurl1.vercel.app
 mytechde.vercel.app
+myvault.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 mywebmail.revo.com.au
+myy.adfinis.com
 mzielinski.vercel.app
 mzilinec.vercel.app
 n0trace.vercel.app
@@ -9448,6 +9807,9 @@ nerijusgood.vercel.app
 nescio.vercel.app
 nesrekjnasluchajnost.vercel.app
 net641.vercel.app
+netbird.adfinis.com
+netbox.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+netbox.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 netbox.ops.discovercars.com
 netcontrolro.vercel.app
 netlemur.vercel.app
@@ -9458,6 +9820,7 @@ neulandherzer.vercel.app
 neungyule.vercel.app
 neuromantic-js.vercel.app
 neurozen.ai
+neuvector.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 neuviemepage.vercel.app
 nevensky.vercel.app
 nevon.vercel.app
@@ -9466,12 +9829,16 @@ new-tools.grubby.ai
 new-vision-group.lms.employmenthero.com
 new.employmenthero.com
 new.goldenplanet.shop
+new.grafana.adfinis.com
+new.icinga2.adfinis.com
+new.ijr.com
 new.inkonchain.com
 newernowuser1.vercel.app
 newmail2013.revo.com.au
 newpublicservice.com
 newpublicvoid.vercel.app
 news.moi-agent.ru
+news.samharris.org
 newsletter.fundingpips.com
 newsletter.jestr.gg
 newsletter.leadmagic.io
@@ -9482,7 +9849,9 @@ newton.vercel.app
 nex-light.vercel.app
 next-empresas.codely.com
 next.codely.com
+next.dev.samharris.org
 next.freshstep.com
+next.samharris.org
 nextafter.vercel.app
 nextcloud.revo.com.au
 nexti9.com
@@ -9522,6 +9891,7 @@ nicholszak1993.vercel.app
 nick-martinez-pty-ltd.lms.employmenthero.com
 nick1.vercel.app
 nick32.vercel.app
+nickdann.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 nickjjackson.vercel.app
 nickm717.vercel.app
 nickmatenaar.vercel.app
@@ -9627,6 +9997,7 @@ nomatterhowyoutry.vercel.app
 nominatim.datalogue.com
 nomsyy.vercel.app
 noobbaster.vercel.app
+noodfondscheck.geldfit.nl
 noopurvaishnav.vercel.app
 noornashriq.vercel.app
 nopparat.vercel.app
@@ -9729,6 +10100,7 @@ oadbd.vercel.app
 oangy.vercel.app
 oauth.employmenthero.com
 oauth.staging.employmenthero.com
+oauth.tomo.ai
 oauth2.link-dev.deepl.com
 oauth2.link-dev.fal.pro.deepl.com
 oauth2.link-dev.hnd.pro.deepl.com
@@ -9752,6 +10124,7 @@ ob.ontwikkel.machtigen.digid.nl
 ob.otcp.machtigen.digid.nl
 ob.pp1.machtigen.digid.nl
 ob.pp2.machtigen.digid.nl
+obos.se
 obqhwtmc.revo.com.au
 obui.machtigen.digid.nl
 obvio.vercel.app
@@ -9765,6 +10138,8 @@ octavioxx.vercel.app
 octokit-fixturesnowsh.vercel.app
 odeis.vercel.app
 odincode.vercel.app
+odoo-test.adfinis.com
+odoo.adfinis.com
 odoo.syscore.app
 oegbt.congressinfo.net
 oegbt.congressinfo.net.exhibition.congressinfo.net
@@ -9807,8 +10182,10 @@ olcassar.vercel.app
 old.employmenthero.com
 old.reigartkistlerdds.com
 old.ultima.yt
+oldpkg.adfinis.com
 oldschoolsouthern.vercel.app
 oldsv.supplyvan.com
+oleg.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 olegakbarov1.vercel.app
 olegivaniv.vercel.app
 olegonmain.vercel.app
@@ -9858,6 +10235,8 @@ onboarding-staging.2sync.com
 onboarding.2sync.com
 onboarding.entendre.finance
 onboarding2.entendre.finance
+oncallctl-slash.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+oncallctl-slash.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 one-another.lms.employmenthero.com
 one-organisation-created-for-testing.lms.employmenthero.com
 one-water.at
@@ -9873,6 +10252,7 @@ onrender.com
 ontwikkel.machtigen.digid.nl
 onuralpb.vercel.app
 onurorhan04.vercel.app
+ooghahphoh.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
 ooni1.vercel.app
 oooooo1.vercel.app
 ootaharuki99.vercel.app
@@ -9880,10 +10260,16 @@ open-money-services.lms.employmenthero.com
 open-sc-1.lms.employmenthero.com
 open-sc.lms.employmenthero.com
 openapi.staging.employmenthero.com
+openbao-hsm-primus.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+openbao.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 openclaw.shunkakinoki.com
 openpgpkey.revo.com.au
 openview.grvt.io
+operation.mawgifservices.com
 operation.uchooo.com
+operationd.mawgifservices.com
+operationt.mawgifservices.com
+ops.corpora.ai
 ops.hv-piechowski.com
 opsy-staging.guestpedia.com
 opsy.guestpedia.com
@@ -9903,6 +10289,7 @@ order-info4297.com
 order-info62351.com
 order-info84719.com
 order-up-group-pty-ltd.lms.employmenthero.com
+order.adfinis.com
 order.bloxcart.com
 order.huntington.org
 order.peter.bloxcart.com
@@ -9991,9 +10378,14 @@ oscarbc.vercel.app
 oscarcpozas.vercel.app
 oscarhong2015.vercel.app
 osebosebo.vercel.app
+oses.mapsd.mawgifservices.com
+oses.mapsp.mawgifservices.com
+oses.mapst.mawgifservices.com
+oses.mawgifservices.com
 oshi.entendre.finance
 osrofoptp.com
 oss.primariatm.ro
+osschallenge.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 ost.digid.nl
 ost.machtigen.digid.nl
 ostanek.vercel.app
@@ -10013,6 +10405,8 @@ outage-data-qa-e4edcadsfnc5gbb8.a03.azurefd.net
 outback-futures.lms.employmenthero.com
 outbound.leadmagic.io
 outbound.vethgroup.com
+outdated.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+outdated.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 outfit-builder-test.sportsdirect.com
 outfit-builder.sportsdirect.com
 outline.leadmagic.io
@@ -10021,7 +10415,9 @@ outreach.leadmagic.io
 outreach.unstuckengine.com
 outthislife.vercel.app
 overlays.codely.com
+overleaf.adfinis.com
 overture1.vercel.app
+overwoo.adfinis.com
 ow1.vercel.app
 owa.huntington.org
 owa.reigartkistlerdds.com
@@ -10031,6 +10427,7 @@ owen1.vercel.app
 owezone1.vercel.app
 owlfurty.vercel.app
 owtrial.vercel.app
+owu.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 oxigen.primariatm.ro
 oxogifts.harveynichols.com
 oxparc.entendre.finance
@@ -10063,6 +10460,7 @@ paczzkaa742165.sbs
 paczzkaa763238.click
 padenj.vercel.app
 pagamento.cc
+pages.adfinis.com
 pages.deepl.dev
 pages.discovercars.com
 pages.e.harveynichols.com
@@ -10091,6 +10489,7 @@ panditya25.vercel.app
 panel.zondascore.com.ar
 pangguoqing1984.vercel.app
 panglobal.revo.com.au
+pangobooks.com
 pangula-mannamurna-aboriginal-corporation.lms.employmenthero.com
 panhaseng12.vercel.app
 panicbit.vercel.app
@@ -10149,6 +10548,7 @@ patdx.vercel.app
 patharanordev.vercel.app
 patriciajumper.vercel.app
 patrick.vercel.app
+patrickh.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 patrickryan.entendre.finance
 patrickshaw.vercel.app
 patricksung.vercel.app
@@ -10189,6 +10589,7 @@ pawzubr.vercel.app
 paxigfdq.revo.com.au
 pay-flow.cfd
 pay-service-customer.eu.cc
+pay-violation.mawgifservices.com
 pay.codiedev.com
 pay.elementmultiservices.com
 pay.grubby.ai
@@ -10222,10 +10623,12 @@ paycore24-express.cfd
 paycore24-express.sbs
 paycoreaction-pl.shop
 payflow-poland.qpon
+payflow-poland.shop
 payflow-poland5.eu.cc
 payment.leadmagic.io
 paypay-pl.eu.cc
 paypay-pl2.eu.cc
+paypay-pl3.eu.cc
 payplcore.biz.id
 payprotect.shop
 payprzelew-core1.fun
@@ -10301,8 +10704,10 @@ pepsfranco.vercel.app
 perawallet-mainnet.tryprism.com
 pereirafilype.vercel.app
 periyartigers.com
+perpetuals.internal.backpack.exchange
 perrupa.vercel.app
 perryagencyservices.vercel.app
+perses.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 personal.entendre.finance
 personalshopping.flannels.com
 petblend.entendre.finance
@@ -10365,6 +10770,7 @@ photonlee.vercel.app
 phsiao2000.vercel.app
 phumberdroz.vercel.app
 phunghoah9.vercel.app
+phuz.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 phvietan.vercel.app
 phxgolf.development.tipboxhq.com
 physicall.fitness
@@ -10389,6 +10795,7 @@ pim22.goldenplanet.shop
 pim23.goldenplanet.shop
 pimpagoqr1.vercel.app
 pingortle.vercel.app
+pings.tomo.ai
 pinke.vercel.app
 pinkp7996.vercel.app
 pinnacle-health-group.lms.employmenthero.com
@@ -10410,6 +10817,8 @@ pjhenning.vercel.app
 pjivers.vercel.app
 pjrashidi.vercel.app
 pkarauda.vercel.app
+pkg.adfinis.com
+pkgtest.adfinis.com
 pkp.vercel.app
 pkpowell.vercel.app
 pl-paymoney.eu.cc
@@ -10446,8 +10855,10 @@ plugin.leadmagic.io
 plugins.jif.ai
 plume-cat.vercel.app
 plutov.vercel.app
+pma-codimd.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 pmc1.vercel.app
 pmcfernandes.vercel.app
+pnds.mawgifservices.com
 po3rin.vercel.app
 poczta.revo.com.au
 podcast.leadmagic.io
@@ -10487,6 +10898,7 @@ popeyelau.vercel.app
 popka.vercel.app
 popo63301.vercel.app
 poraciyan.vercel.app
+portaal.geldfit.nl
 portainer.syscore.app
 portal-api.leadmagic.io
 portal-pay.leadmagic.io
@@ -10523,7 +10935,13 @@ postmaad.vercel.app
 postman.leadmagic.io
 postsnap.vercel.app
 posva.vercel.app
+potjescheck.geldfit.nl
+potjescheck2.geldfit.nl
 pottersresort.vercel.app
+potz-holzoepfel-luca.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+potz-holzoepfel.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+potz.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+potz.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 pouka.vercel.app
 poutine.vercel.app
 power-team-team1.vercel.app
@@ -10792,6 +11210,8 @@ progahmedhatem.vercel.app
 progress.spoke.com
 progressivepipeline.org
 proiseve.vercel.app
+project.adfinis.com
+project.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 projectbagel.hubblehq.com
 projectg7.vercel.app
 projectronin1.vercel.app
@@ -10799,6 +11219,13 @@ prokopd.vercel.app
 prom-staging.2sync.com
 prom.2sync.com
 prom.shunkakinoki.com
+prometheus.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+prometheus.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+prometheus.apps.aks-adsy-k8s-int-prod-01.cloud.adfinis.com
+prometheus.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
+prometheus.argus.corpora.ai
+prometheus.internal.backpack.exchange
+prometheus.ops.corpora.ai
 promiseofcake.vercel.app
 promo.leadmagic.io
 prompt-guide.leadmagic.io
@@ -10866,6 +11293,8 @@ putnocky.vercel.app
 puush.vercel.app
 pv.leadmagic.io
 pv.vercel.app
+pw-test.adfinis.com
+pw.adfinis.com
 pwa-prod.bauhaus.ch
 pwa-qa-intern.bauhaus.ch
 pwa-qa-intern.bauhaus.es
@@ -10924,6 +11353,7 @@ qubist-pty-ltd.lms.employmenthero.com
 queanbeyan-sports-community-club-ltd.lms.employmenthero.com
 queenaurora.piticommerce.com
 quentindecoudier.vercel.app
+query.tomo.ai
 query2018.vercel.app
 queue.harveynichols.com
 queue.houseoffraser.co.uk
@@ -10958,6 +11388,7 @@ r3genfinance-test.entendre.finance
 r88776654.vercel.app
 rabadonsanvil.vercel.app
 rabahmsamy.vercel.app
+rabbithole.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 rachelg298.vercel.app
 radarberg.vercel.app
 radiant-lion-test.entendre.finance
@@ -11060,6 +11491,7 @@ rccamacho.vercel.app
 rcchapman85.vercel.app
 rcf1.vercel.app
 rclone.urbis.primariatm.ro
+rcms.ijr.com
 rcoedo.vercel.app
 rcvt.vercel.app
 rd.revo.com.au
@@ -11116,9 +11548,14 @@ redis.render.com
 redis.staging.render.com
 redis.urbis.primariatm.ro
 redisss.vercel.app
+redmine-db.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+redmine-db.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+redmine.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+redmine.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 redrshuhart.vercel.app
 redventures1.vercel.app
 reese.vercel.app
+refer.backpack.exchange
 reg.vercel.app
 regaddi.vercel.app
 regatta.vercel.app
@@ -11217,6 +11654,7 @@ request-info-s.hubblehq.com
 request-info.hubblehq.com
 requirunt.vercel.app
 resav.vercel.app
+research.corpora.ai
 research.leadmagic.io
 research.render.com
 researchguides.huntington.org
@@ -11276,6 +11714,7 @@ rib-services-pty-ltd.lms.employmenthero.com
 ricardojoao85.vercel.app
 ricclionheart.vercel.app
 rich-oconnor.vercel.app
+richard.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 richardashby.vercel.app
 richardbigzhou.vercel.app
 richardbultitude.vercel.app
@@ -11330,8 +11769,14 @@ rmahony.vercel.app
 rmatei.vercel.app
 rmccallum.vercel.app
 rmccue.vercel.app
+rmd.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 rmenpara.vercel.app
 rmmr1002.vercel.app
+rmq.maps-v2.mawgifservices.com
+rmq.mapsd.mawgifservices.com
+rmq.mapsp.mawgifservices.com
+rmq.mapst.mawgifservices.com
+rmq.mawgifservices.com
 rmx1.vercel.app
 rn-pepsi.vercel.app
 ro.sportsdirect.com
@@ -11461,6 +11906,7 @@ rpdev.vercel.app
 rpino.vercel.app
 rpm.wiz.io
 rqm.vercel.app
+rs-stripe.ijr.com
 rs.sportsdirect.com
 rsantos.vercel.app
 rschugh.vercel.app
@@ -11468,6 +11914,9 @@ rsolovye.vercel.app
 rsoorajs.vercel.app
 rspadinger.vercel.app
 rsplane.a24films.com
+rss.making-sense.dev.samharris.org
+rss.making-sense.samharris.org
+rss.making-sense.staging.samharris.org
 rstepanov.vercel.app
 rsurjano.vercel.app
 rsvp.huntington.org
@@ -11547,6 +11996,7 @@ s-w-fine-dining-playground.lms.employmenthero.com
 s.astra-ai.co
 s0n9y3.vercel.app
 s1.vercel.app
+s3proxy.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 s4.vercel.app
 s4yz.vercel.app
 s9.vercel.app
@@ -11607,6 +12057,8 @@ samara.revo.com.au
 samcarlton.vercel.app
 samcm.vercel.app
 samdanielp.vercel.app
+samharris-api.samharris.org
+samharris.org
 samibouafif.vercel.app
 samiezkay.vercel.app
 samirahmaison.vercel.app
@@ -11682,6 +12134,7 @@ sanity-media-preview.awen.ai
 sanity-media.awen.ai
 sanjaymehtain.vercel.app
 sanketakulkarni.vercel.app
+sanktroskeln.obos.se
 sanokil-1.lms.employmenthero.com
 sanokil.lms.employmenthero.com
 sanou.vercel.app
@@ -11742,6 +12195,7 @@ sc-es.bauhaus.es
 sc.bauhaus.ch
 sca.frogbikes.com
 scampersand.vercel.app
+scan-to-pay.mawgifservices.com
 scaryguy.vercel.app
 scech.vercel.app
 schade.vercel.app
@@ -11848,6 +12302,9 @@ sensational-kids-ormond.lms.employmenthero.com
 sentient-foundation.entendre.finance
 sentient.entendre.finance
 sentrian.lms.employmenthero.com
+sentry.adfinis.com
+sentry.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+sentry.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
 seo.leadmagic.io
 seonu0823.vercel.app
 sephoradevfactory.vercel.app
@@ -11884,7 +12341,9 @@ sethyee.vercel.app
 seyedahmadpourihosseini.vercel.app
 sezyara.vercel.app
 sfkhanalm.vercel.app
+sfmdm.mawgifservices.com
 sforce-center.spoke.com
+sfrc.mawgifservices.com
 sg-dirango1.vercel.app
 sg.sportsdirect.com
 sg1.vercel.app
@@ -11924,6 +12383,7 @@ shankkie.vercel.app
 shannonsands.vercel.app
 shanth.vercel.app
 shaoyong.vercel.app
+share.adfinis.com
 share.bauhaus.ch
 share.leadmagic.io
 sharewithamar.vercel.app
@@ -11955,6 +12415,7 @@ shihab993.vercel.app
 shimakyohsuke1.vercel.app
 shineve.vercel.app
 shiotyan317.vercel.app
+shipping.pangobooks.com
 shivangidas.vercel.app
 shket0928.vercel.app
 shlomitc.vercel.app
@@ -11962,11 +12423,13 @@ shoaibbhimani1392.vercel.app
 shooting-unicorns1.vercel.app
 shop.a24films.com
 shop.abandonedgrove.com
+shop.backpack.exchange
 shop.codely.com
 shop.harveynichols.com
 shop.moi-agent.ru
 shop.revo.com.au
 shop.runslab.hk
+shop.samharris.org
 shop.trezor.io
 shop.www.spoke.com
 shorakablair.vercel.app
@@ -12000,6 +12463,7 @@ sichellechiffert.vercel.app
 siddhantvinchurkar.vercel.app
 siddharth1912.vercel.app
 siddusiddardh.vercel.app
+sidebarhealth.com
 sideroad.vercel.app
 sidneyramos.vercel.app
 sidou010.vercel.app
@@ -12064,6 +12528,7 @@ singapore-redis.staging.render.com
 singhkev.vercel.app
 sinito.vercel.app
 sioked.vercel.app
+sip.obos.se
 siph-afd-web-prd-test-h2cfbag9e0gaaqbw.a03.azurefd.net
 sirartemios.vercel.app
 sirmattcaron.vercel.app
@@ -12131,6 +12596,7 @@ slavik93mj.vercel.app
 sle-group.lms.employmenthero.com
 sleep-ez.vercel.app
 slexx1234.vercel.app
+sli.ijr.com
 sli.topclassactions.com
 slingshot.vercel.app
 slit.vercel.app
@@ -12180,6 +12646,9 @@ snavruzov.vercel.app
 snehaldangroshiya.vercel.app
 snehesh.vercel.app
 snexzin.vercel.app
+snipeit.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+snipeit.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+snipeittestrdr.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
 snood1205.vercel.app
 snoopgtg.vercel.app
 snoward.vercel.app
@@ -12208,6 +12677,9 @@ sobhakharpoudel.vercel.app
 social.myfinanceconsultants.com.au
 socialflow.vercel.app
 socialize.vercel.app
+socialmap-api.geldfit.nl
+socialmap-website-api.geldfit.nl
+socialmap.geldfit.nl
 socket-example.fundingpips.com
 soconnor.vercel.app
 sodaitachi.vercel.app
@@ -12236,6 +12708,8 @@ sonaamhitang.vercel.app
 sonar.fretebras.com.br
 sonar.ost.digid.nl
 sonarqube.syscore.app
+sonarsource.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+sonarsource.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 sondreerstad.vercel.app
 songcraft1.vercel.app
 songelwayz.vercel.app
@@ -12337,6 +12811,9 @@ ssl.revo.com.au
 sslvpn.revo.com.au
 ssn.congressinfo.net
 sso-external.fretebras.com.br
+sso-ng.adfinis.com
+sso-ng2.adfinis.com
+sso.adfinis.com
 sso.deepl.com
 sso.dev.deepl.com
 sso.spoke.com
@@ -12347,10 +12824,13 @@ sso.www.test.deepl.com
 ssp.lms.employmenthero.com
 sssteventsao.vercel.app
 sst.metrito.com
+sst.portaal.geldfit.nl
 st-skip.leadmagic.io
 st09d23.vercel.app
 stacey-enyeart.entendre.finance
 stackgres.urbis.primariatm.ro
+stackrox.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+stackrox.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 stackworx.vercel.app
 stacula.vercel.app
 staffanhogstrom.vercel.app
@@ -12400,10 +12880,12 @@ staging.api.ornn.com
 staging.astra-ai.co
 staging.careers.ornn.com
 staging.compute.ornn.com
+staging.corpora.ai
 staging.deferred.com
 staging.employmenthero.com
 staging.entendre.finance
 staging.fabric.ornn.com
+staging.geldfit.nl
 staging.gitkraken.dev
 staging.harveynichols.com
 staging.howdy.com
@@ -12421,6 +12903,7 @@ staging.nixtla.io
 staging.orchestrator.ornn.com
 staging.render.com
 staging.revo.com.au
+staging.samharris.org
 staging.student.a24films.com
 staging.supplyvan.com
 staging.thatch.com
@@ -12454,6 +12937,7 @@ stashcloud.nxapps.com
 statements.goldbridgebanking.com
 static.deepl.com
 static.deferred.com
+static.opinion.ijr.com
 static.trezor.io
 static.www.bauhaus.ch
 static.www.bauhaus.es
@@ -12461,12 +12945,14 @@ staticcdn.deepl.com
 stationch1.vercel.app
 statistiek.digid.nl
 statistiek.machtigen.digid.nl
+stats.adfinis.com
 stats.cosmic-clock.info
 stats.driftnet.io
 stats.revo.com.au
 status-board1.vercel.app
 status.2sync.com
 status.acelro.com
+status.backpack.exchange
 status.employmenthero.com
 status.fundingpips.com
 status.howdy.com
@@ -12481,6 +12967,7 @@ status.pdrcore.com
 status.render.com
 status.replicas.dev
 status.shunkakinoki.com
+status.sidebarhealth.com
 status.spoke.com
 status.thatch.com
 status.trezor.io
@@ -12520,6 +13007,7 @@ stg-k9x7v3.tarekit.com
 stg-website.employmenthero.com
 stg.inkonchain.com
 stg.niiiiia.re2fe.com
+stg.obos.se
 sthatipamala.vercel.app
 stian1.vercel.app
 stiankri.vercel.app
@@ -12528,6 +13016,7 @@ stids.primariatm.ro
 still1414.vercel.app
 stingelin.vercel.app
 stitchroom.vercel.app
+stm.obos.se
 stndulagwa.vercel.app
 sto.leadmagic.io
 stockade-group-services-unit-trust.lms.employmenthero.com
@@ -12551,6 +13040,7 @@ stormlifter.vercel.app
 storybook.entendre.finance
 storybook.freshstep.com
 storybook.hubblehq.com
+storybook.maps-v2.mawgifservices.com
 storybook.shunkakinoki.com
 storybook.spoke.com
 storyteller.oot.blue
@@ -12568,6 +13058,7 @@ stretchgz.vercel.app
 strickland84.vercel.app
 strom.vercel.app
 strux.vercel.app
+sts-potz.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 stshirley1317.vercel.app
 stuart-alexander-co-pty-ltd.lms.employmenthero.com
 stub-acceptatie.digid.nl
@@ -12594,6 +13085,7 @@ studentsvpn.revo.com.au
 studilm.vercel.app
 studio-poc.a24films.com
 studio.a24films.com
+studio.geldfit.nl
 studio.staging.fundingpips.com
 studiohive.art
 studyspy1.vercel.app
@@ -12657,8 +13149,11 @@ support-dash-dev.fundingpips.com
 support-dev.deepl.com
 support-test.deepl.com
 support-test.fundingpips.com
+support.adfinis.com
+support.backpack.exchange
 support.deepl.com
 support.fundingpips.com
+support.geldfit.nl
 support.goldenplanet.shop
 support.leadmagic.io
 support.meshki.us
@@ -12666,6 +13161,7 @@ support.ornn.com
 support.revo.com.au
 support.spoke.com
 support.thatch.com
+support.tr.backpack.exchange
 support.trezor.io
 support.wiz.io
 support01.employmenthero.com
@@ -12679,6 +13175,7 @@ supunishara.vercel.app
 surajpratap.vercel.app
 sureshdsk91.vercel.app
 surmon.vercel.app
+survey.adfinis.com
 susemeee.vercel.app
 sushi21.vercel.app
 sushidub.vercel.app
@@ -12705,6 +13202,7 @@ swd-group.lms.employmenthero.com
 sweat.entendre.finance
 sweece.vercel.app
 sweetie1391991.vercel.app
+sweetpotato.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 swillyer.vercel.app
 swimmin2.vercel.app
 swotboard1.vercel.app
@@ -12736,6 +13234,7 @@ szhou1.vercel.app
 szitto.vercel.app
 szrcgj.com
 szymon1.vercel.app
+t-icinga2.adfinis.com
 t.shunkakinoki.com
 t0il3ts0ap.vercel.app
 t0pth4t.vercel.app
@@ -12752,6 +13251,7 @@ tactilenews1.vercel.app
 taha-azzabi.vercel.app
 tahseenm.vercel.app
 taifen.vercel.app
+taiga.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 taind.vercel.app
 taishiyade.vercel.app
 tajershap.vercel.app
@@ -12873,7 +13373,10 @@ temp.entendre.finance
 temp.fretebras.com.br
 tempestlabs.vercel.app
 template.blog.shunkakinoki.com
+templates-test.adfinis.com
+templates.adfinis.com
 temporal.2sync.com
+temporal.internal.backpack.exchange
 temporal.shunkakinoki.com
 temporal.thatch.com
 ten13media1.vercel.app
@@ -12942,6 +13445,8 @@ test-us1.forensics-package.test.wiz.io
 test-wallet-skip.entendre.finance
 test-workflow.awen.ai
 test.a24films.com
+test.abook.adfinis.com
+test.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 test.bauhaus.ch
 test.deepl.com
 test.deepl.dev
@@ -12953,12 +13458,24 @@ test.freshstep.com.pr
 test.frogbikes.com
 test.fundingpips.com
 test.gov.wiz.io
+test.grafana.adfinis.com
 test.huntington.org
+test.icinga2.adfinis.com
+test.isms.adfinis.com
+test.meet.adfinis.com
 test.metrito.com
+test.my.adfinis.com
+test.order.adfinis.com
+test.overwoo.adfinis.com
+test.project.adfinis.com
+test.radar.adfinis.com
 test.revo.com.au
+test.support.adfinis.com
+test.timed.adfinis.com
 test.uchooo.com
 test.wiz.io
 test0907.entendre.finance
+test1.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 test1.entendre.finance
 test1234.entendre.finance
 test123456.entendre.finance
@@ -12986,6 +13503,8 @@ testing-123.vercel.app
 testing-14563534.vercel.app
 testing-worker-non-production.versec.workers.dev
 testing-zaveri.app.render.com
+testing.apps.aks-adsy-k8s-int-prod-01.cloud.adfinis.com
+testing.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
 testing.astra-ai.co
 testing.entendre.finance
 testing.leadmagic.io
@@ -13086,6 +13605,7 @@ theishshah.vercel.app
 theisland1.vercel.app
 thekekistanidialer.vercel.app
 theleafsgeekspodcast.vercel.app
+thema.geldfit.nl
 themaxiiim.vercel.app
 theme-build.app.render.com
 themediapot.vercel.app
@@ -13169,6 +13689,15 @@ tim3.vercel.app
 timclarke.vercel.app
 timdoes.vercel.app
 timdufour1.vercel.app
+timed-db.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+timed-nl-db.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+timed-nl.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+timed-test-db.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+timed.adfinis.com
+timed.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+timed.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+timed.apps.aks-adsy-k8s-int-test-01.cloud.adfinis.com
+timed.nl.adfinis.com
 timeflies.live
 timhacker.vercel.app
 timhettler.vercel.app
@@ -13253,15 +13782,18 @@ tommyb.vercel.app
 tommyfai.vercel.app
 tommyisobar.vercel.app
 tommyostgaard.vercel.app
+tomo.ai
 tomtombusiness.vercel.app
 tomtunguz-1up8.app.render.com
 tomysmile.vercel.app
 tondoru.vercel.app
 tonejoseph.vercel.app
 tonetlds.vercel.app
+toni.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
 tonick1.vercel.app
 tonietto.vercel.app
 tonio.vercel.app
+tonit.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
 tonny-car.tallerpro.io
 tonyhuang1996.vercel.app
 tonymossfield.vercel.app
@@ -13298,15 +13830,19 @@ tpsteamwheedle.vercel.app
 tpv1.vercel.app
 tpw1.entendre.finance
 tqwkitty.vercel.app
+tr.backpack.exchange
 trabur.vercel.app
 track-me.vercel.app
 track.awen.ai
 track.leadmagic.io
+track.marketing.community.samharris.org
 track.meshki.us
 track.nixtla.io
+track.notifications.community.samharris.org
 track.spoke.com
 trackeamento.clickgrowth.com.br
 tracker.nixtla.io
+tracking.geldfit.nl
 tracking.wiz.io
 trackr.leadmagic.io
 trade-dashboard.trezor.io
@@ -13360,6 +13896,7 @@ trdmitry.vercel.app
 treadwell-group-pty-ltd.lms.employmenthero.com
 treasurehunt.howdy.com
 treasury.entendre.finance
+treasury.internal.backpack.exchange
 tremarkley.vercel.app
 trepockasimonas.vercel.app
 trevoranthonylane.vercel.app
@@ -13371,6 +13908,7 @@ tribe-breweries-eh.lms.employmenthero.com
 tribou1.vercel.app
 tributelabs.entendre.finance
 trigger.2sync.com
+trigger.aptly.adfinis.com
 trigger.leadmagic.io
 trilogy.entendre.finance
 trinitas.vercel.app
@@ -13382,6 +13920,7 @@ tripphamm.vercel.app
 trisnalenovo.vercel.app
 tristaneason.vercel.app
 triyadilukman.vercel.app
+trk.pangobooks.com
 trk.send.a24films.com
 trkr.leadmagic.io
 troelsjohnsen.vercel.app
@@ -13394,6 +13933,7 @@ troycwa.vercel.app
 troymurray.vercel.app
 trucnt.vercel.app
 trudyan141.vercel.app
+trullalla.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 trust.employmenthero.com
 trust.nixtla.io
 trust.ornn.com
@@ -13607,12 +14147,17 @@ uat-venue-app.wrenandcue.com
 uat.consultations.flannels.com
 uat.harveynichols.com
 uatconsumer.atoa.me
+ubiquitary.corpora.ai
+ubiquity.corpora.ai
 ucheem.vercel.app
 uchooo.com
 ufs.vercel.app
 ugc.astra-ai.co
+ugc.tomo.ai
 ugonnaofoegbu.vercel.app
 ui.admin.render.com
+ui.backpack.exchange
+ui.internal.backpack.exchange
 uichpftg.revo.com.au
 uicreation.vercel.app
 uladduppaw-1995.vercel.app
@@ -13785,6 +14330,7 @@ vaasu.vercel.app
 vacuumlabs1.vercel.app
 vadiminshakov.vercel.app
 vagabun.vercel.app
+vagrant.adfinis.com
 vahidabbasi.vercel.app
 vahidsheikhalizadeh.vercel.app
 vahidsheykhalizadeh.vercel.app
@@ -13810,9 +14356,18 @@ vanvictorlim.vercel.app
 varit05.vercel.app
 varunkakkar.vercel.app
 vasanirushabh24.vercel.app
+vasp-enclave.internal.backpack.exchange
+vasp.backpack.exchange
+vasp.internal.backpack.exchange
 vatev1.vercel.app
+vault-azure-playground.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+vault.adfinis.com
+vault.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+vault.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 vault.render.com
 vault.syscore.app
+vaultwarden.adfinis.com
+vaultwarden.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 vaviloff.vercel.app
 vazbuz.vercel.app
 vb-searchtalent.vercel.app
@@ -13831,6 +14386,7 @@ veerakitg.vercel.app
 vegard.vercel.app
 vegetableandbutcher1.vercel.app
 veiculo.fretebras.com.br
+velaux.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 veligura.vercel.app
 velummc.vercel.app
 velux-australia.lms.employmenthero.com
@@ -13960,6 +14516,7 @@ vit.vercel.app
 vitaly1.vercel.app
 vitalyb.vercel.app
 vitgo1.vercel.app
+vitol.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
 vitrine-jl1.vercel.app
 viva-solutions-pty-ltd.lms.employmenthero.com
 vivekscl.vercel.app
@@ -13977,6 +14534,7 @@ vlastiq.vercel.app
 vlog.uzchi.com
 vlsbhawnjgwebmail2013.revo.com.au
 vlukin.vercel.app
+vm-manager.adfinis.com
 vmoroz.vercel.app
 vmp44913.vercel.app
 vnda1.vercel.app
@@ -14002,6 +14560,7 @@ vozroru.vercel.app
 vpn-perimetral.revo.com.au
 vpn-portal.revo.com.au
 vpn.a24films.com
+vpn.obos.se
 vpn.ohdigital.agency
 vpn.render.com
 vpn.revo.com.au
@@ -14010,6 +14569,7 @@ vpp-clinics.lms.employmenthero.com
 vqctowww.globalprotect.revo.com.au
 vr-horizon.vercel.app
 vrunoa.vercel.app
+vs14763.vimp.eu
 vsilva.vercel.app
 vsp4.vercel.app
 vu-test-org-20-eh-eh.lms.employmenthero.com
@@ -14044,6 +14604,7 @@ walkington.vercel.app
 wallapop.compra-verif.cfd
 wallapop.verified-compra-es.cyou
 wallapop.verify-compra.shop
+wallet.backpack.exchange
 wallet.howdy.com
 wallyjue.vercel.app
 waltersonic.vercel.app
@@ -14089,6 +14650,7 @@ wave-international.lms.employmenthero.com
 waybarrios.vercel.app
 waynegeorge.vercel.app
 wayside-chapel.lms.employmenthero.com
+wazuh.adfinis.com
 wb.moi-agent.ru
 wbrickner.vercel.app
 wcd-risktech-surefact.lms.employmenthero.com
@@ -14109,7 +14671,10 @@ web.render.com
 web.revo.com.au
 web1.vercel.app
 webafra.vercel.app
+webbutik.obos.se
+webbutik.obos.se.hemsida.eu
 webcitizen.vercel.app
+webconf01.obos.se
 webconnect.revo.com.au
 webdesk.huntington.org
 webdeveloperhacker.vercel.app
@@ -14218,6 +14783,7 @@ webikon.vercel.app
 webinar-demo-company-name.lms.employmenthero.com
 webism.vercel.app
 webmail.7summits.com
+webmail.adfinis.com
 webmail.bauhaus.ch
 webmail.exhibition.congressinfo.net
 webmail.fuegenix.com
@@ -14230,6 +14796,7 @@ webmail.periyartigers.com
 webmail.primariatm.ro
 webmail.revo.com.au
 webmail.timeflies.live
+webmail.webbutik.obos.se
 webmail.xfqh.net
 webmail05.revo.com.au
 webmail2013.revo.com.au
@@ -14239,6 +14806,7 @@ webservice.fretebras.com.br
 website-89lt.app.render.com
 website-89lt.onrender.com
 website-build.app.render.com
+website.geldfit.nl
 website.staging.employmenthero.com
 website2019.fretebras.com.br
 websiteadmin.rgrccomp.com
@@ -14254,6 +14822,8 @@ weirrmta-sts.owa.revo.com.au
 welcome.hubblehq.com
 wellcode.it
 werad1.vercel.app
+werkenbij.geldfit.nl
+werkenbijgeldfit.nl
 werytert.vercel.app
 wesley1.vercel.app
 wesleymoy.vercel.app
@@ -14279,6 +14849,7 @@ white-fox-boutique.lms.employmenthero.com
 whiteboard1.vercel.app
 whiteharbor.entendre.finance
 whitelabel.discovercars.com
+whiterabbit.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 whoami-it01.2sync.com
 whoami-production01.2sync.com
 whoami-staging01.2sync.com
@@ -14295,6 +14866,8 @@ wiesson.vercel.app
 wif.nixtla.io
 wigstankhainan.vercel.app
 wih0202.vercel.app
+wiki-test.adfinis.com
+wiki.adfinis.com
 wiki.bauhaus.ch
 wiki.shunkakinoki.com
 wiki.trezor.io
@@ -14437,7 +15010,15 @@ ws-qnd-sepolia.inkonchain.com
 ws-qnd.inkonchain.com
 ws-ten-sepolia.inkonchain.com
 ws-ten.inkonchain.com
+ws.backpack.exchange
+ws.internal.backpack.exchange
+ws.mapsd.mawgifservices.com
+ws.mapsp.mawgifservices.com
+ws.mapst.mawgifservices.com
+ws.mawgifservices.com
 ws.order.peter.bloxcart.com
+ws2.backpack.exchange
+ws2.internal.backpack.exchange
 wsandcsn.vercel.app
 wsfreejcw.vercel.app
 wss1.vercel.app
@@ -14492,6 +15073,7 @@ www.acc6.machtigen.digid.nl
 www.acc7.machtigen.digid.nl
 www.acceptatie.machtigen.digid.nl
 www.access.revo.com.au
+www.adfinis.com
 www.admin.howdy.com
 www.admin.revo.com.au
 www.aeon.huntington.org
@@ -14520,6 +15102,7 @@ www.autodiscover.revo.com.au
 www.awen.ai
 www.awhmqgp-eu.revo.com.au
 www.b1s1-2b-syd.employmenthero.com
+www.backpack.exchange
 www.baqjdsecureaccess.revo.com.au
 www.basechildrenswear.com
 www.bauhaus.ch
@@ -14542,6 +15125,7 @@ www.bravodm.com
 www.brianspizza.net
 www.bridge-capital.ch
 www.building.hubblehq.com
+www.bytorhealth.com
 www.calculator.employmenthero.com
 www.careers.harveynichols.com
 www.careers.houseoffraser.co.uk
@@ -14572,12 +15156,15 @@ www.coggles.com
 www.coldacq.com
 www.conceptbycruise.com
 www.conciergerieriviera.com
+www.congressinfo.eu
 www.congressinfo.net
+www.congressinfo.site
 www.connect.revo.com.au
 www.connectvpn.revo.com.au
 www.contentimage.fretebras.com.br
 www.contractorbooking.sportsdirect.com
 www.contractorbookingadmin.sportsdirect.com
+www.corpora.ai
 www.correo.revo.com.au
 www.correu.revo.com.au
 www.cosmic-clock.info
@@ -14595,6 +15182,7 @@ www.deliveryplanner.com
 www.desktop.revo.com.au
 www.dev.deepl.com
 www.dev.employmenthero.com
+www.dev.geldfit.nl
 www.dev.revo.com.au
 www.development.employmenthero.com
 www.dfclgzw.com
@@ -14614,6 +15202,7 @@ www.elementmultiservices.com
 www.emberbill.com
 www.employmenthero.com
 www.emuseum.huntington.org
+www.engineeringmanagement.academy
 www.entendre.finance
 www.eposta.revo.com.au
 www.esiha.tn
@@ -14646,6 +15235,7 @@ www.fw.revo.com.au
 www.g3675.juliekovacs.com
 www.gate.revo.com.au
 www.gateway.revo.com.au
+www.geldfit.nl
 www.globalprotect.revo.com.au
 www.glovi.congressinfo.net
 www.go.bauhaus.ch
@@ -14679,6 +15269,7 @@ www.huntington.org
 www.hv-piechowski.com
 www.hvac.huntington.org
 www.ifckr.ru
+www.ijr.com
 www.imap.revo.com.au
 www.inafonline.com
 www.inkonchain.com
@@ -14728,6 +15319,8 @@ www.meshki.us
 www.metrics.leadmagic.io
 www.metrito.com
 www.mightyhq.app
+www.mijngeldfit.nl
+www.mijnnsr.nl
 www.mizeebimedia.com
 www.mlabs.ng
 www.mnqkpodg.revo.com.au
@@ -14758,6 +15351,7 @@ www.ntok.org
 www.nycboardflow.com
 www.o1.digid.nl
 www.oa.spoke.com
+www.obos.se
 www.oegbt.congressinfo.net.exhibition.congressinfo.net
 www.office.revo.com.au
 www.ogrencieposta.revo.com.au
@@ -14776,6 +15370,7 @@ www.paczzkaa742165.sbs
 www.pagamento.cc
 www.palovpn.revo.com.au
 www.panglobal.revo.com.au
+www.pangobooks.com
 www.panvpn.revo.com.au
 www.partner.employmenthero.com
 www.partnerportal.employmenthero.com
@@ -14794,6 +15389,7 @@ www.politraq.com
 www.pop.revo.com.au
 www.pop3.revo.com.au
 www.portal.revo.com.au
+www.potjescheck2.geldfit.nl
 www.pp1.machtigen.digid.nl
 www.pp2.machtigen.digid.nl
 www.press.houseoffraser.co.uk
@@ -14833,7 +15429,9 @@ www.rews.huntington.org
 www.robinhoodrsrv.com
 www.rooftoplabs.io
 www.ropicrbx.com
+www.rs-stripe.ijr.com
 www.samara.revo.com.au
+www.samharris.org
 www.scottsmenswear.com
 www.sdfamily.sportsdirect.com
 www.secure.revo.com.au
@@ -14842,6 +15440,7 @@ www.server.7summits.com
 www.server.revo.com.au
 www.shop.codely.com
 www.shunkakinoki.com
+www.sidebarhealth.com
 www.sitemap.revo.com.au
 www.sitemaps.revo.com.au
 www.sites.beta.getgrout.com
@@ -14895,6 +15494,7 @@ www.thatch.com
 www.third.employmenthero.com
 www.timeflies.live
 www.tipboxhq.com
+www.tomo.ai
 www.topclassactions.com
 www.transfer.bauhaus.ch
 www.trezor.io
@@ -14921,9 +15521,12 @@ www.vpn.render.com
 www.vpn.revo.com.au
 www.vpn1.revo.com.au
 www.web.revo.com.au
+www.webbutik.obos.se
+www.webbutik.obos.se.hemsida.eu
 www.webmail.revo.com.au
 www.webmail05.revo.com.au
 www.welcome.hubblehq.com
+www.werkenbijgeldfit.nl
 www.wfmcsy.com
 www.wiki.bauhaus.ch
 www.win.bauhaus.ch
@@ -15162,6 +15765,7 @@ zackshorts.vercel.app
 zadkiel.vercel.app
 zakhn.vercel.app
 zakk.vercel.app
+zammad.adfinis.com
 zan1.vercel.app
 zander.vercel.app
 zane1.vercel.app
@@ -15175,6 +15779,7 @@ zavsnar.vercel.app
 zaydenfu.vercel.app
 zbx1218.vercel.app
 zc33dc.vercel.app
+zcash.backpack.exchange
 zceme.vercel.app
 zchrykng.vercel.app
 zdenekloula.vercel.app
@@ -15215,6 +15820,8 @@ zeus-test.leadmagic.io
 zeus-test2.leadmagic.io
 zeus.leadmagic.io
 zexiangliu.vercel.app
+zf.apps.aks-adfch-k8s-int-prod-02.cloud.adfinis.com
+zf.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 zfedor.vercel.app
 zgavin1.vercel.app
 zgq354.vercel.app

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-24T11:55:24Z",
-  "last_run_at": "2026-10-24T10:03:11Z",
-  "last_run_summary": "[2026-10-24T10:03:11Z] 46 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-24T10:03:11Z] HEALTH certspotter=12/344 crtsh=5/9 urlscan=495/619 dns-google=30566/30566 dns-cf=30566/30566",
+  "generated_at": "2026-10-24T17:54:49Z",
+  "last_run_at": "2026-10-24T15:08:59Z",
+  "last_run_summary": "[2026-10-24T15:08:59Z] 116 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-24T15:08:59Z] HEALTH certspotter=20/361 crtsh=194/218 urlscan=100/636 dns-google=31280/31280 dns-cf=31280/31280",
   "tracked_hosts": {
-    "total": 16317,
+    "total": 16897,
     "by_status": {
-      "dead": 1907,
-      "active": 14410
+      "dead": 2441,
+      "active": 14456
     },
     "by_operator_tier": {
-      "A:tier1": 16317
+      "A:tier1": 16897
     }
   },
   "fingerprints": [
@@ -1000,134 +1000,169 @@
       "added": "2026-10-22",
       "last_confirmed_hit": "2026-10-24",
       "status": "chained"
+    },
+    {
+      "hash": "54cf95846cb789040d52da44789dca1a9f0deba13c8a3519ebdda476fc50bcbb",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "cc420afaa391816d98f95ba1ad9967b749999a2b39ba3cc7965a02ed535a7f62",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "245a0357c570b2681de8b4b96cc2a06b500e611e971f56460d4e820c713b6bb1",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "bdaeee5f3bbe0725ef0f8d2d8200c77e0abe10b757ef36201c2cf9fa71d08579",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
+    },
+    {
+      "hash": "dbd1e0595134a3c0a119c5766bc59841b8dc2b85b700a0ae0ba1584fa19c3663",
+      "label": "chained",
+      "added": "2026-10-24",
+      "last_confirmed_hit": "2026-10-24",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2979
+    "A": 3095
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "irt.wtf",
+      "type": "cert",
+      "indicator": "rmq.mawgifservices.com",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "measure.geldfit.nl",
+      "type": "cert",
+      "indicator": "scan-to-pay.mawgifservices.com",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "new.ijr.com",
+      "type": "cert",
+      "indicator": "socialmap.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "noodfondscheck.geldfit.nl",
+      "type": "cert",
+      "indicator": "static.opinion.ijr.com",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "oodelivery.com.br",
+      "type": "cert",
+      "indicator": "storybook.maps-v2.mawgifservices.com",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "pangobooks.com",
+      "type": "cert",
+      "indicator": "studio.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "portaal.geldfit.nl",
+      "type": "cert",
+      "indicator": "support.backpack.exchange",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "rs-stripe.ijr.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "sidebarhealth.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "sst.portaal.geldfit.nl",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
+      "type": "cert",
       "indicator": "support.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "vinted.zmwq.shop",
+      "type": "cert",
+      "indicator": "tracking.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
-      "indicator": "wilkersonsholding.entendre.finance",
+      "type": "cert",
+      "indicator": "trk.pangobooks.com",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
+      "indicator": "ws.mapsd.mawgifservices.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ws.mapsp.mawgifservices.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ws.mapst.mawgifservices.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ws.mawgifservices.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
       "indicator": "www.adfinis.com",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.corpora.ai",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.geldfit.nl",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.ijr.com",
+      "operator": "A",
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
       "type": "domain",
-      "indicator": "www.callisign.com",
+      "indicator": "paypay-plcore.shop",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     },
     {
       "type": "domain",
-      "indicator": "www.engineeringmanagement.academy",
+      "indicator": "track-inform.cyou",
       "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.nycappwiz.com",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.prazus.tech",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.samharris.org",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.tomo.ai",
-      "operator": "A",
-      "first_seen": "2026-10-24T10:03:11Z"
+      "first_seen": "2026-10-24T15:08:59Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 23517,
+  "manual_review_candidates_pending": 25327,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
