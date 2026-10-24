@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-24T04:53:33Z",
-  "last_run_at": "2026-10-24T02:44:02Z",
-  "last_run_summary": "[2026-10-24T02:44:02Z] 106 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-24T02:44:02Z] HEALTH certspotter=12/330 crtsh=16/21 urlscan=605/605 dns-google=31266/31266 dns-cf=31266/31266",
+  "generated_at": "2026-10-24T11:55:24Z",
+  "last_run_at": "2026-10-24T10:03:11Z",
+  "last_run_summary": "[2026-10-24T10:03:11Z] 46 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-24T10:03:11Z] HEALTH certspotter=12/344 crtsh=5/9 urlscan=495/619 dns-google=30566/30566 dns-cf=30566/30566",
   "tracked_hosts": {
-    "total": 16248,
+    "total": 16317,
     "by_status": {
-      "dead": 1433,
-      "active": 14815
+      "dead": 1907,
+      "active": 14410
     },
     "by_operator_tier": {
-      "A:tier1": 16248
+      "A:tier1": 16317
     }
   },
   "fingerprints": [
@@ -1003,131 +1003,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 2933
+    "A": 2979
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "venezuela-port-services-24-7-5.vercel.app",
+      "indicator": "irt.wtf",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-app-automation-git-chore-messenger-staging-vitl-app.vercel.app",
+      "indicator": "measure.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-app-automation-git-feat-stall-check-vitl-app.vercel.app",
+      "indicator": "new.ijr.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-auth-git-chore-messenger-staging-vitl-app.vercel.app",
+      "indicator": "noodfondscheck.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-auth-git-feat-stall-check-vitl-app.vercel.app",
+      "indicator": "oodelivery.com.br",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-portal-clinic-git-chore-messenger-staging-vitl-app.vercel.app",
+      "indicator": "pangobooks.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-portal-clinic-git-feat-stall-check-vitl-app.vercel.app",
+      "indicator": "portaal.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-portal-internal-git-chore-messenger-staging-vitl-app.vercel.app",
+      "indicator": "rs-stripe.ijr.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-portal-internal-git-feat-stall-check-vitl-app.vercel.app",
+      "indicator": "sidebarhealth.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-portal-patient-git-chore-messenger-staging-vitl-app.vercel.app",
+      "indicator": "sst.portaal.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-portal-patient-git-feat-stall-check-vitl-app.vercel.app",
+      "indicator": "support.geldfit.nl",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "vitl-shell-git-feat-stall-check-vitl-app.vercel.app",
+      "indicator": "vinted.zmwq.shop",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "whatsappx.vercel.app",
+      "indicator": "wilkersonsholding.entendre.finance",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "willyoubehere.com",
+      "indicator": "www.adfinis.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.deliveryplanner.com",
+      "indicator": "www.callisign.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.future-vote.de",
+      "indicator": "www.engineeringmanagement.academy",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.pembatalan-dana-id-paylater.vercel.app",
+      "indicator": "www.nycappwiz.com",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.spoke.com",
+      "indicator": "www.prazus.tech",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.trackwired.com",
+      "indicator": "www.samharris.org",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     },
     {
       "type": "domain",
-      "indicator": "www.usedidata.com.br",
+      "indicator": "www.tomo.ai",
       "operator": "A",
-      "first_seen": "2026-10-24T02:44:02Z"
+      "first_seen": "2026-10-24T10:03:11Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 22699,
+  "manual_review_candidates_pending": 23517,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
