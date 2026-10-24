@@ -1321,6 +1321,7 @@ app.smartlead-outbound3.com
 app.staging.a24films.com
 app.staging.render.com
 app.storiedmoney.com
+app.studiohive.art
 app.tallerpro.io
 app.test.deepl.com
 app.thatch.com
@@ -9758,6 +9759,7 @@ oegbt.congressinfo.net
 oegbt.congressinfo.net.exhibition.congressinfo.net
 ofdk.vercel.app
 ofery.vercel.app
+offer7693012.shop
 offer8259012.shop
 offer8692056.shop
 office-line-group-pty-ltd.lms.employmenthero.com
@@ -10399,6 +10401,7 @@ pkp.vercel.app
 pkpowell.vercel.app
 pl-paymoney.eu.cc
 pl-paymoney1.eu.cc
+pl-paymoney3.eu.cc
 pl-paymoney4.eu.cc
 pl.sportsdirect.com
 planb.vercel.app
@@ -12577,6 +12580,7 @@ studilm.vercel.app
 studio-poc.a24films.com
 studio.a24films.com
 studio.staging.fundingpips.com
+studiohive.art
 studyspy1.vercel.app
 studyteam.vercel.app
 stuffbyspencer.vercel.app
@@ -14844,6 +14848,7 @@ www.store.revo.com.au
 www.stores.revo.com.au
 www.storiedmoney.com
 www.studentsvpn.revo.com.au
+www.studiohive.art
 www.stylenews.flannels.com
 www.sub.employmenthero.com
 www.success.employmenthero.com
