@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-25T04:58:09Z",
-  "last_run_at": "2026-10-25T02:34:09Z",
-  "last_run_summary": "[2026-10-25T02:34:09Z] 133 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-25T02:34:09Z] HEALTH certspotter=18/357 crtsh=136/162 urlscan=656/656 dns-google=30386/30386 dns-cf=30386/30386",
+  "generated_at": "2026-10-25T12:33:23Z",
+  "last_run_at": "2026-10-25T10:28:38Z",
+  "last_run_summary": "[2026-10-25T10:28:38Z] 153 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-25T10:28:38Z] HEALTH certspotter=12/369 crtsh=0/3 urlscan=544/665 dns-google=30552/30552 dns-cf=30552/30552",
   "tracked_hosts": {
-    "total": 17170,
+    "total": 17321,
     "by_status": {
-      "dead": 2617,
-      "active": 14553
+      "dead": 2629,
+      "active": 14692
     },
     "by_operator_tier": {
-      "A:tier1": 17170
+      "A:tier1": 17321
     }
   },
   "fingerprints": [
@@ -1129,131 +1129,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 3245
+    "A": 3398
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "true-cost-to-phone-git-design-text-face-rising-company.vercel.app",
+      "indicator": "va.opencongress.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "truecoremechanical.ca",
+      "indicator": "verifiedbadgehub.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "truthyy.vercel.app",
+      "indicator": "vt.opencongress.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "tux42.ch",
+      "indicator": "web-git-arc-chain-support-uniswap.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "v0-10minutosjuntos.vercel.app",
+      "indicator": "web-git-featwebearntdpdeposit-uniswap.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "verification-blueticks-fb36.vercel.app",
+      "indicator": "wittymath.com",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "winbank.vercel.app",
+      "indicator": "www.airbnb-clone-pavelpyanov.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bluecheckservices-gold.vercel.app",
+      "indicator": "www.amazon-clone-plum-gamma.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bluecheckservices.vercel.app",
+      "indicator": "www.amazon-clone-silk-six.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.byjolab.com",
+      "indicator": "www.amazon-home-page-brown.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bytorhealth.com",
+      "indicator": "www.bluenote.ai",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bytorhealth.org",
+      "indicator": "www.bluenotehealth.com",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.iceairroblox.uk",
+      "indicator": "www.infoswisspost.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.momsdontforget.com",
+      "indicator": "www.lucky-giftbox11.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.pangobooks.com",
+      "indicator": "www.pancake-frontend-delta.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.trackyourcut.com",
+      "indicator": "www.raiffeisen-gilt.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.truecoremechanical.ca",
+      "indicator": "www.spike-detection-trigger.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www.verification-blueticks-fb36.vercel.app",
+      "indicator": "www.xtfi231.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "www8-meldas-fazenda-gov.pages.dev",
+      "indicator": "xtfi231.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     },
     {
       "type": "domain",
-      "indicator": "zinhacosmeticos.vercel.app",
+      "indicator": "zyntra26.vercel.app",
       "operator": "A",
-      "first_seen": "2026-10-25T02:34:09Z"
+      "first_seen": "2026-10-25T10:28:38Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 28023,
+  "manual_review_candidates_pending": 29926,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
