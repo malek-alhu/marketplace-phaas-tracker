@@ -53494,3 +53494,1278 @@
 [2026-10-25T15:20:45Z] SCAN-SAVED adammurphy.vercel.app -> https://urlscan.io/result/01a1741f-4ae2-7133-bc65-f453d6d95ccc/
 [2026-10-25T15:20:45Z] SCAN-BACKLOG 13383 live host(s) queued for next run (cap 20/run)
 [2026-10-25T15:20:45Z] no new tier-1 Operator-A indicators
+[2026-10-25T20:12:44Z] candidate cert  112.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  113.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  114.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  115.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  116.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  118.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  119.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  120.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  121.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  122.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  123-test-app.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  123.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  124.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  125.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  126.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  129.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  130.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  131.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  134.marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  18montrose.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  2a57j77tquppxkxpp0ow3wj78ekl878.beta.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  2a57j78ex0uyy8at6kclz7z5721735c.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  acme.omnyn.com.br  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  acmetest.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  acmetest2.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  acmetest3.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  acmetest4.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  actu.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  admin-global.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  admin-preview.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  admin.beta.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  admin.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  admin.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  admin.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ai-datascience.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ai.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ak.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  al.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  altway-internal.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  analysis.trackwired.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  analytics.api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  analytics.api.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  analytics.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  analytics.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  api-docs.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  api-staging.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  api.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  api.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  api.copy.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  api.prod.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  api.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  api.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  apidodistribob-cloud.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  apiv4.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app-jonas.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app-voor-nick.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.copy.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.isawitfirst.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  app.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  app.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  appdev.trackwired.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  appv2.trackwired.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ar.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  assets.prod.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  assets.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  attesa.servizirl.it  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  auth-b2b.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.18montrose.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.isawitfirst.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.jackwills.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  auth.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.sneakerboy.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.thearcticarmy.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  auth.watchshop.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  az.bonsplans.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  az.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  back.le-roulement.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  backend-api.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  backend-api.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  be.qa.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  beta.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  beta.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  blackfriday.shopflix.gr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  blog.evanscycles.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bo.prod.data.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bo.prod.media.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bo.staging.data.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bo.staging.media.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bonsplans.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  bonsplansauto.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ca.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  cdn.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW cert  cdn.callisign.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  check-app-test.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  checkout.callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  cicd.dev.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  click.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  cloud.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  co.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  configuration-bonsplansauto.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  coolify.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  copy-trade-gw.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  crm-backend.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  crm.callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ct.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  data.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  data.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  data.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dc.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  de.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  debug.unvault.co  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  decouvrir.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  demo.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  desk.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  desk.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  dev-auth-b2b.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW cert  dev-auth.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev-icul.cloud.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev-moncompte-static.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev-moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev-v2-backend.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  dev1-bffroolepremium.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  directgolf.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  docs.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  docs.omnyn.com.br  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  drop.palmnftstudio.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ecs1.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  edge-test.unvault.co  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  eks.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  emailing.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  espacepro.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  evanscycles.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  event.balenciaga.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  events-staging.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW cert  events.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  exact-webhook.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  exact.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fe.qa.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  fidelisation.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  filavirtual.eticket.co  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  file.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  findy-tools.io  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  firstish.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fl.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fmtc.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fr.api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fr.api.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fr.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fr.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  france.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  frasers.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  function-crashlyticstodynatrace.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  future-vote.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  g.opencongress.app  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  ga.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  github-review.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  githubhook.dev.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  go.active.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  go.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  go.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-635-zero-price-warrant.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-660-review.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-663-remove-free-templates.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-715-stepper-ds-migration.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-716-review-ci-dedupe.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-719-date-pickers-ds.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-720-ds-accordion.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-722-po-in-repo.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-730-progress-ds.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-734-link-ds.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-735-switch-ds.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-738-tooltip-ds.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-740-grid-ds.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-764-docgen-relation-check.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-773-pin-setup-node.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-779-identity-numbers.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gp-780-bump-deps.review.allshares.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  groom.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  gtm.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  hackathon.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  hi.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  houseoffraser.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  houseoffraser.ie  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  hubspot.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  hypowerup-queueingroom.hyleegardens.com.hk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ia.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  id.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ijkmaat.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  il.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  images.18montrose.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  images.frasers.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  images.houseoffraser.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  images.houseoffraser.ie  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  images.isawitfirst.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  images.jackwills.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  img.send.cloudpliant.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  in.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  inafonline.com.inedonline.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  info-pannemecanique.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  info-serenite.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  info.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  ingest.platform.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  ippstools.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  isawitfirst.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  jackwills.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  jeu.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  juni4-testapp.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  jupyter.dev.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  k81.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ks.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  ksndn8wo-kshdiej288.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  ky.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  l.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  la.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  landing-avant.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  landing-avis.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  landing-meca.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  landing-serenite.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  le-creneau.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  le-roulement.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  learn.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  load.nebula.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  logistic-force.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  lp.unvault.co  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  m-p.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  m.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  m.evanscycles.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ma.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mail.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  main.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  maintenance.cloud.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  maintenance.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  marketing.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  marketplacelounge.ticketek.com.au  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mcp.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mcp.data.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  md.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  me.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  media.dev.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  media.neeed.directory  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  media.prod.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  media.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  media.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  melanie.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  membre.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mi.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mn.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mo.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  moments-warteraum.telekom.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ms.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mt.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  mta-sts.pidgeon.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  n10.apps.omnyn.com.br  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  n11.apps.omnyn.com.br  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  n9.apps.omnyn.com.br  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nc.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nd.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ne.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nebula.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  neeed.directory  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  neta.market  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  news.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  newsletter.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nh.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nj.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nm.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  notebooks.prod.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  notify.demo.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  notify.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nv.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ny.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nyc.api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nyc.api.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nyc.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  nyc.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  oh.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ok.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ops.dashboard.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  or.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  orders.callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  os.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  p.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  pa.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pacdev-moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pacdev2-moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  pages.callisign.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  park.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pidgeon.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pinnacle-bikes.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pinnaclebikes.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  plan-qs-dev.tokyodisneyresort.jp  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  plan-qs.tokyodisneyresort.jp  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  platform.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  playlist.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  poland-corepay1.eu.cc  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  poland-payhub.my.id  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  portalen.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pr-1.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pr-2.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pr-3.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pr.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pr.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pre-auth-b2b.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pre-membre.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  pre-moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  preprod-auth-b2b.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW cert  preprod-auth.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  preprod-webapiauthentification.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  preview.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  prod.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  project-aura.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  px.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  q.axs.com.au  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  qa-backend.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  qa.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue-sfcc-qa.disneyoutlet.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue-sfcc-qa.shop-disney.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue-www.milanocortina2026.org  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.bonustrasporti.lavoro.gov.it  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.disneyoutlet.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.filmstaden.se  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.forgeworld.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.games-workshop.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.loket.mijnverbouwpremie.be  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.madnesslive.es  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.metaltix.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.more.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.mycar.com.au  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.ocbc.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.odeonkino.no  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.pns.hk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.prodirectsport.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.prodirectsport.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.prodirectsport.es  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.prodirectsport.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.prodirectsport.it  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.salomon.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.shopdisney.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.shopdisney.eu  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.sistic.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  queue.sistic.com.sg  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.solsoft.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.tmtickets.cz  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.warhammer.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.westminstercollection.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue.zalando.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queue2.euronics.hu  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  queueit-wr.jwerry.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  r.send.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  rdv-data.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  rdv-media.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  rent.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  reports.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  reports.internal.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  resto.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ri.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ride-to-work.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ride-to-work.evanscycles.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ride2work.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  s.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  salaespera.naviluz.es  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  sanbox-admin.unvault.co  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  sandbox-admin.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  sandbox-preview.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  sapp.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  sbox.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  sc.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  sd.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  serenite-avp.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  serenite-tem.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-aube.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-estampe.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-garrigue.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-lueur.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-ocre.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-ondee.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-preau.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop-rebond.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop.callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  shop.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  shopify.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW cert  short.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  smtp-relay.omnyn.com.br  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  sneakerboy.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  sondage.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  souscription-pack.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  sslcertificate6.queue-it.net  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  stag-api.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  staging-api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  staging.callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  staging.scw.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  standalone.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  states.api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  stats.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  status.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  status.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  statut.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.at  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.be  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.ch  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.es  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.ie  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.it  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  store-queue.nintendo.pt  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  subscribe-admin.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  subscribe-api.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  subscribe.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  sweatshop.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tableau.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  tablesrondes.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  tekton.dev.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  template.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-app-0406.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-app-2105.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-app.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  test-auth-b2b.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW cert  test-auth.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-backend.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-klant-18-mei.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-klant-19-mei.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test-webapipartenaires.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test.vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  test2-app-19-mei.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-10juni-2.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-10juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-12juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-25juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-26juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-26juni2.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp-8juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp10-26juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp15-26juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp2-25juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp3-26juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testapp5-26juni.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  testportal.goldenplanet.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  thearcticarmy.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tktwaitingroom.expo2025.or.jp  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tn.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tnt.unvault.co  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tradin-api.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  trading-platform-api-dev.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  trading-platform-api-prod.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  trading-platform-api-staging.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tradingplatform-api-dev.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tradingplatform-api-prod.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tradingplatform-api-staging.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tradingplatform-api.fundingpips.dev  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  trust.bluenote.ai  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  turn.one  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  tx.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ultra.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ulys.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  uploader.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  uploads.platform.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  us.api.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  us.api.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  us.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  us.staging.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  usa.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ut.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  va.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  vanta.behorighetsprov.nu  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  varosor.euronics.hu  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  video.turn.one  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  vpc.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  vpc.preview.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  vt.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wa.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wachtrij.budgethuren.vlaanderen.be  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wachtrij.formulieren-wonen.vlaanderen.be  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wachtrij.ikwilsociaalhuren.vlaanderen.be  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wachtrij.kazou.be  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wachtrij.vattenfall.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  waiting-room.mistore.jp  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  waitingroom.cimbclicks.com.sg  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  waitingroom.dbs.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  waitingroom.disneylandparis.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  waitingroom.isawitfirst.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  waitingroom.singaporeair.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  warteraum.serviceportal.schleswig-holstein.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  warteseite.f95.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  warteseite.union-zeughaus.de  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  watchshop.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  web-preview.byjolab.com  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  webapichallengeedenred.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  website-242795c0.bsw.dfk.temporary.site  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  website-462a1083.bsw.dfk.temporary.site  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wi.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wines-theme.goldenplanet.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  woolves-test.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  woolves.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wv.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  ww3.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.18montrose.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.api.prod.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.api.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.byjolab.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.callisign.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.cloudpliant.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.dev.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.dev.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.directgolf.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.espacepro.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.evanscycles.co.uk  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.frasers.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.houseoffraser.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.houseoffraser.ie  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.inafonline.com.inedonline.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.isawitfirst.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.jackwills.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.meallions.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.media.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.membre.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.moncompte.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  www.neeed.directory  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.neta.market  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.pidgeon.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.prod.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.schema-si.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.sneakerboy.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  www.souscription-pack.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.staging.roole.fr  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.sweatshop.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  www.tablesrondes.roole.fr  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.thearcticarmy.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.turn.one  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.ultra.bluenote.ai  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  www.unvault.co  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.watchshop.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.website-242795c0.bsw.dfk.temporary.site  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.website-462a1083.bsw.dfk.temporary.site  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.wines-theme.goldenplanet.shop  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.winslor-demo.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www.workflowheroes.nl  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  www5.apahotel.com  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate cert  wy.opencongress.app  [ct-log (apex subdomain — not live on Cloudflare)] tier=2 op=A
+[2026-10-25T20:12:44Z] NEW cert  zmwq.shop  [ct-log (apex subdomain)] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW domain  olx.central-pay.qpon  [urlscan @96.62.224.42 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-25T20:12:44Z] NEW domain  olx.central-pay.shop  [urlscan @96.62.224.42 (hash:chained) / AS207043] tier=1 op=A
+[2026-10-25T20:12:44Z] candidate ip  100.21.83.40  [dns (backend-api.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  100.22.172.132  [dns (backend-api.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  100.25.215.165  [dns (chat.order.peter.bloxcart.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  100.60.24.1  [dns (api.us25.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  100.62.204.99  [dns (backend-api.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.17.121.18  [dns (actu.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.17.122.18  [dns (actu.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.18.24.109  [dns (queue.sistic.com.sg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.18.25.109  [dns (queue.sistic.com.sg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.19.240.93  [dns (fidelisation.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.19.241.93  [dns (fidelisation.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.20.25.247  [dns (l.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.20.25.86  [dns (load.nebula.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.21.36.132  [dns (beta.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.21.65.111  [dns (m.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  104.21.65.62  [dns (cdn.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.132.49.86  [dns (queue.tmtickets.cz)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.133.214.238  [dns (attesa.servizirl.it)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.107.56  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.107.60  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.107.97  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.107.99  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.172.128  [dns (prod-us16.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.172.27  [dns (prod-us16.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.172.40  [dns (prod-us16.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.172.72  [dns (prod-us16.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.27  [dns (reports.internal.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.45  [dns (findy-tools.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.58  [dns (reports.internal.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.71  [dns (findy-tools.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.72  [dns (findy-tools.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.74  [dns (findy-tools.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.156.91.77  [dns (reports.internal.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.119  [dns (wallet.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.13  [dns (wallet.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.49  [dns (prod-us15.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.51  [dns (wallet.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.62  [dns (prod-us15.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.70  [dns (wallet.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.72  [dns (prod-us15.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.142.84  [dns (prod-us15.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.150.101  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.150.123  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.150.65  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  108.157.150.76  [dns (url5077.news.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.135.187.50  [dns (ai-datascience.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.225.47.15  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.225.47.23  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.225.47.81  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.226.53.21  [dns (backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.226.53.77  [dns (backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.227.87.44  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.227.87.74  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.227.87.84  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.32.205.30  [dns (api.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.32.205.69  [dns (api.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.32.205.91  [dns (api.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.42.170.40  [dns (ai-datascience.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.48.239.229  [dns (agent.eu2.e2e.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  13.51.76.88  [dns (agent.eu1.stage.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  138.201.124.222  [dns (wines-theme.goldenplanet.shop)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  142.251.185.121  [dns (tyephoenix.api.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  143.204.204.107  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  143.204.204.112  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  143.244.60.196  [dns (a.ultima.yt)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  147.79.72.197  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  15.156.107.174  [dns (api.ca1.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  15.197.253.240  [dns (bo.prod.data.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  15.205.151.48  [dns (api.digitaltrust.gov.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  15.205.199.153  [dns (tunnel.us1.fedtest.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  15.222.157.41  [dns (api.ca1.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  151.101.130.184  [dns (checkout.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  151.101.194.184  [dns (checkout.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  151.101.2.184  [dns (checkout.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  151.101.66.184  [dns (checkout.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  16.170.132.223  [dns (languageserver.test.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  16.170.74.54  [dns (api.eu5.integration.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  16.60.190.169  [dns (ai-datascience.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  162.159.143.12  [dns (souscription-pack.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  172.66.145.239  [dns (l.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  172.66.155.112  [dns (load.nebula.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  172.66.3.8  [dns (souscription-pack.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  172.67.158.200  [dns (cdn.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  172.67.162.246  [dns (m.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  172.67.194.110  [dns (beta.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.133.14.192  [dns (ops.dashboard.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.133.36.162  [dns (sunco.staging.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.134.170.77  [dns (qa-backend.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.135.11.124  [dns (agent.eu8.integration.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.154.110.105  [dns (rcms.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.154.110.35  [dns (rcms.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.154.110.5  [dns (rcms.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.160.200.114  [dns (rss.making-sense.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.160.200.118  [dns (rss.making-sense.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.160.200.28  [dns (rss.making-sense.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.160.200.86  [dns (rss.making-sense.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.170.163.185  [dns (ops.dashboard.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.170.5.38  [dns (agent.eu2.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.193.16.117  [dns (api.eu7.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.199.134.111  [dns (api.eu8.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.203.118.61  [dns (marketplacelounge.ticketek.com.au)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.203.9.121  [dns (queue.metaltix.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.224.161.188  [dns (api.us48.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.238.25.104  [dns (webhooks.us39.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.238.25.108  [dns (webhooks.us39.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.238.25.120  [dns (webhooks.us39.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  18.238.25.75  [dns (webhooks.us39.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.192.12.162  [dns (api.us25.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.196.35.218  [dns (api.us39.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.25.119.189  [dns (app-b2c-gateway.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.25.123.7  [dns (auth.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.25.59.151  [dns (image.e.krispykreme.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.25.59.154  [dns (image.e.krispykreme.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.30.42.155  [dns (maps.flannels.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.30.42.163  [dns (vanmildert.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.30.42.186  [dns (vanmildert.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.33.124.228  [dns (eks.vpc.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  184.33.241.212  [dns (backend-api.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  187.77.131.143  [dns (mail.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2.57.91.181  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  20.216.132.147  [dns (espacepro.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  20.221.43.145  [dns (maintenance.cloud.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  20.221.45.47  [dns (maintenance.cloud.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2001:4b98:e01::38  [dns (api.prod.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2001:bc8:1210:9af::  [dns (nebula.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  207.207.209.209  [dns (lp.unvault.co)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  217.70.184.56  [dns (api.prod.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  217.74.111.3  [dns (park.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.198.6.192  [dns (store.flannels.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.209.92.74  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.209.92.76  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.210.172.41  [dns (houseoffraser.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.211.176.40  [dns (api-v2.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.211.176.51  [dns (api-v2.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.211.255.69  [dns (app-b2b-gateway.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.213.53.60  [dns (sportsdirect.com.my)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.215.224.198  [dns (isawitfirst.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.220.103.164  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.33.29.147  [dns (ro.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.45.46.12  [dns (www.sportsdirect.com.my)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.54.76.38  [dns (fretego.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.54.76.53  [dns (fretego.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  23.66.127.156  [dns (auth.brandmax.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:138e::1417  [dns (auth.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:1393::1417  [dns (auth.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:148f::32e1  [dns (m.basechildrenswear.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:14::b819:77a9  [dns (api-v2.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:14::b819:77bd  [dns (api-v2.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:1b2d::17dc:90c5  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:1b2d::17dc:90d5  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:1b2e::1701:fed2  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:1b2e::1701:fee1  [dns (rkt.houseoffraser.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:26::1721:1dc5  [dns (auth.amara.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:26::1721:1dcf  [dns (auth.amara.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:26::1721:1dd4  [dns (au.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:26::1721:1dd7  [dns (au.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:27::1721:1d90  [dns (kidscavern.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:27::1721:1d97  [dns (kidscavern.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:884::1417  [dns (houseoffraser.ie)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:892::1417  [dns (houseoffraser.ie)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:a::1740:700e  [dns (sportsdirect.com.my)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:a::1740:700f  [dns (media.chainreactioncycles.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:a::1740:7010  [dns (media.chainreactioncycles.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:a::1740:7016  [dns (sportsdirect.com.my)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:b::17d5:358d  [dns (fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:b::17d5:359a  [dns (fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:cc::172d:2ecc  [dns (sv.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:cc::172d:2ecd  [dns (m.choicestore.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:cc::172d:2ed1  [dns (auth.brandmax.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:e89::1417  [dns (app.isawitfirst.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:3c00:e9d::1417  [dns (app.isawitfirst.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:7400:28f::1417  [dns (auth.18montrose.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:7400:290::1417  [dns (auth.18montrose.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:7400:7::1730:252f  [dns (au.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:7400:7::1730:2533  [dns (auth.amara.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:7400:7::1730:2538  [dns (au.sportsdirect.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:7400:7::1730:2539  [dns (auth.amara.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:19::b81e:2a9b  [dns (maps.flannels.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:19::b81e:2aa2  [dns (auth.usc.co.uk)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:19::b81e:2aa3  [dns (vanmildert.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:19::b81e:2aba  [dns (vanmildert.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:37::172e:1ed0  [dns (escola.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:9::17c6:6ab  [dns (store.flannels.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:1407:e800:9::17c6:6bb  [dns (store.flannels.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:1200:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:2000:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:4c00:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:5200:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:5600:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:7400:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:8800:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:9600:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:c200:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:c600:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:da00:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:dc00:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:e00:5:6677:c440:93a1  [dns (mp.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:e200:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:e400:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2015:e600:13:63dd:1340:93a1  [dns (assets.fundingpips.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:800:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:8c00:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:9a00:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:b000:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:b800:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:bc00:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:c800:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:204d:d400:14:e7cc:ae00:93a1  [dns (solkeep.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:0:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:1600:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:1800:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:2a00:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:2e00:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:4200:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:4400:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:6e00:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:7a00:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:8200:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:9600:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:9600:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:a200:4:8cee:6ec0:93a1  [dns (app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:a400:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:a800:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:aa00:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:b800:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:be00:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:c000:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:c800:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:d000:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:d600:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:dc00:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:e000:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:e600:19:977:5280:93a1  [dns (assets.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:e800:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:ea00:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:ee00:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2058:f400:2:e91f:b340:93a1  [dns (metadata.backpack.exchange)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:1e00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:3a00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:4e00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:5400:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:6000:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:7e00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:9000:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:9400:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:9800:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:9a00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:a000:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:a600:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:bc00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:c000:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:207c:e00:5:300a:1e80:93a1  [dns (sli.ijr.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:212f:4200:14:dac3:8b80:93a1  [dns (staging.a24nexus.typeco.de)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:212f:9200:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:212f:9e00:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:212f:a600:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:212f:f200:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:212f:fe00:14:c98:100:93a1  [dns (api.app.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:1400:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:1a00:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:1c00:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:2600:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:3200:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:4000:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:4400:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:5600:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:7600:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:7a00:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:7e00:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:8600:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:8800:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:9400:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:9600:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:9800:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:9c00:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:a400:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:a600:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:a600:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:a800:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:ae00:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:b600:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:ba00:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:bc00:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:d200:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:d600:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:d800:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:e000:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:e200:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:e400:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:f600:e:709a:fa80:93a1  [dns (rsvp.huntington.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:f800:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:f800:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:fa00:19:9ff1:9f00:93a1  [dns (links.notification.intuit.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2137:fe00:12:25f5:a800:93a1  [dns (sgmt-api.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:1200:2:c38c:8a00:93a1  [dns (url5204.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:1600:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:1a00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:200:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:2400:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:2a00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:3000:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:3200:2:c38c:8a00:93a1  [dns (url5204.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:3a00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:3a00:2:c38c:8a00:93a1  [dns (url3308.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:400:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:4600:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:4800:2:c38c:8a00:93a1  [dns (url9158.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:4c00:2:c38c:8a00:93a1  [dns (url5204.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:4e00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:5200:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:5800:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:5a00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:600:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:6c00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:7200:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:7e00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:8000:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:8000:2:c38c:8a00:93a1  [dns (url5204.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:8200:2:c38c:8a00:93a1  [dns (url3308.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:8400:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:9200:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:9a00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:9c00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:9e00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:a600:2:c38c:8a00:93a1  [dns (url3308.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:a800:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:ae00:16:3875:b740:93a1  [dns (api.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:b400:2:c38c:8a00:93a1  [dns (url5204.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:ba00:2:c38c:8a00:93a1  [dns (url3308.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:bc00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:c000:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:c400:13:9be0:ca40:93a1  [dns (links.news.astra-ai.co)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:cc00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:d200:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:d800:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:da00:2:c38c:8a00:93a1  [dns (url3308.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:de00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:e00:0:df68:2100:93a1  [dns (public.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:e200:2:c38c:8a00:93a1  [dns (url5204.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:e800:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:ee00:14:86d8:2500:93a1  [dns (event.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:ee00:3:ea20:1c40:93a1  [dns (acelro.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:f000:13:9be0:ca40:93a1  [dns (links.mail.dublivo.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21d4:f400:2:c38c:8a00:93a1  [dns (url3308.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:2c00:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:3200:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:3a00:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:4600:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:6e00:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:a400:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:be00:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:21f2:d400:1e:cb6d:1d00:93a1  [dns (url3216.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:2c00:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:2c00:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:3000:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:3400:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:3600:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:4800:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:5000:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:5200:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:5600:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:5800:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:6c00:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:6e00:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:7800:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:8c00:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:9c00:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:9e00:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:a200:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:ac00:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:b000:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:b400:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:ba00:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:ce00:1e:31eb:9f80:93a1  [dns (sgmt-cdn.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:da00:1d:c9a1:f900:93a1  [dns (image.email.aloyoga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:e600:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:233d:ec00:0:311b:7e00:93a1  [dns (staging.aaa24.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:1a00:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:2800:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:4400:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:5a00:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:6600:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:6800:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:7400:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:7600:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:7a00:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:a400:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2340:de00:9:e28b:3980:93a1  [dns (ph.thatch.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:1000:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:1400:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:1800:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:1c00:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:3600:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:4800:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:4a00:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:4e00:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:5200:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:6200:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:7200:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:7600:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:8200:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:8600:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:9000:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:9400:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:9400:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:ba00:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:c000:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:d000:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:d200:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:e00:10:fd82:2280:93a1  [dns (consent.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2350:fa00:5:35c8:7840:93a1  [dns (attachments.tomo.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2351:9000:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2351:e400:6:e4e5:e100:93a1  [dns (app.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:1200:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:1600:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:1e00:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:2000:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:4c00:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:9000:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:9c00:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:ac00:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:c200:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:d200:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24bd:fe00:1:5d0f:f1c0:93a1  [dns (sli.topclassactions.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:2a00:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:4200:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:5200:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:600:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:7000:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:7800:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:7a00:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:7c00:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:8000:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:8a00:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:9400:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:a600:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:ac00:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:c000:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:ca00:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:cc00:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:e400:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:ee00:a:4573:2b40:93a1  [dns (brb.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d2:f800:18:f741:ac00:93a1  [dns (support.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:3400:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:4800:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:8200:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:9a00:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:9c00:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:be00:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:c400:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:c800:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:d000:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:d200:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:24d4:e400:5:716b:1400:93a1  [dns (chat.employmenthero.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:0:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:1400:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:2400:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:2600:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:2c00:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:5a00:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:6400:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:6600:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:6a00:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:7600:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:800:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:8400:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:8800:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:8800:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:8a00:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:9000:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:9e00:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:9e00:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:a000:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:a200:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:b000:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:b200:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:ba00:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:c000:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:c400:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:c600:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:c800:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:cc00:1f:9acc:b740:93a1  [dns (feature-flagging.deepl.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:d400:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:d600:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:d800:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:d800:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:da00:9:38b6:5940:93a1  [dns (static.deferred.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:ea00:12:527c:6180:93a1  [dns (assets.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2506:f200:c:b4d2:c880:93a1  [dns (reviews.meshki.us)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2616:3a00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2616:7a00:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2616:9800:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2616:a400:13:eec1:a600:93a1  [dns (admin.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:1400:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:2800:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:3e00:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:4200:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:4600:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:5000:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:5c00:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:8200:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:9e00:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:a000:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:ca00:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:d600:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:de00:15:8187:1d00:93a1  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d4:e200:1c:c20d:cf40:93a1  [dns (legal.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:1000:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:1800:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:5c00:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:8600:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:9400:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:e400:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:ea00:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:ec00:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27d7:fa00:14:df11:aa00:93a1  [dns (checkout.fretebras.com.br)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:3400:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:3800:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:4600:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:6600:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:7400:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:7c00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:8400:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:8c00:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:9000:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:a00:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:a400:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:a600:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:aa00:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:b000:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:b800:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:ba00:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:c000:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:c600:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:e00:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:e200:16:730e:5f80:93a1  [dns (jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:e600:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:ee00:16:730e:5f80:93a1  [dns (www.jestr.gg)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fb:fe00:17:3d96:fd00:93a1  [dns (arhiva-oss.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:0:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:1e00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:200:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:2a00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:2c00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:2e00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:3c00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:6400:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:6e00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:8000:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:d000:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:27fe:dc00:11:2358:cd00:93a1  [dns (arhiva.primariatm.ro)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:1200:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:2c00:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:7000:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:8200:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:8800:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:9600:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:b800:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:be00:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:ce00:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:ec00:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:2852:fa00:13:234e:45c0:93a1  [dns (data.trezor.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:289d:6600:0:3bd2:2c00:93a1  [dns (students.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:289d:a400:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:289d:a800:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2600:9000:289d:bc00:0:3bd2:2c00:93a1  [dns (student.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:10::6814:1956  [dns (load.nebula.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:10::6814:19f7  [dns (l.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:10::ac42:91ef  [dns (l.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:10::ac42:9b70  [dns (load.nebula.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:3030::ac43:9ec8  [dns (cdn.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:3031::6815:2484  [dns (beta.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:3031::6815:413e  [dns (cdn.callisign.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:3032::ac43:c26e  [dns (beta.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:3033::6815:416f  [dns (m.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700:3037::ac43:a2f6  [dns (m.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700::6811:7912  [dns (actu.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2606:4700::6811:7a12  [dns (actu.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2607:f8b0:4023:140f::79  [dns (anamika1608-api.fabric.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2607:f8b0:4023:1425::79  [dns (api.compute.ornn.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:2638:d::50  [dns (dolfww.bauhaus.ch)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:26f0:3b:2aa::1417  [dns (houseoffraser.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:26f0:3b:2be::1417  [dns (houseoffraser.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:4780:4c:91d9:cc8c:efd6:cff8:9367  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:4780:4d:4692:fc63:2a38:c8ad:4244  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:4780:84:76f6:b0c5:b0b6:4aa1:25e5  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a02:4780:84:cb73:c885:67b7:f732:10f5  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a05:d018:183f:1f01:9d28:75e7:7ab:f387  [dns (marketplacelounge.ticketek.com.au)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a05:d018:183f:1f02:f2c3:2230:8880:f16c  [dns (marketplacelounge.ticketek.com.au)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a05:d018:183f:1f03:438:22d1:773b:667  [dns (marketplacelounge.ticketek.com.au)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a05:d018:444:f401:7e79:9e28:9dc0:1d3  [dns (prod-eu31-sensor-pubsub.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  2a05:d018:444:f401:c6d:3133:8465:41e1  [dns (prod-eu31-sensor-pubsub.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.10.177.219  [dns (qa-backend.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.10.243.130  [dns (qa-backend.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.126.141.53  [dns (agent.eu3.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.162.163.100  [dns (prod-us1.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.162.163.20  [dns (prod-us1.forensics-package.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.103.27  [dns (status.gocity.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.103.36  [dns (status.gocity.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.103.78  [dns (status.gocity.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.185.30  [dns (evs.cdp.gocity.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.185.52  [dns (evs.cdp.gocity.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.185.84  [dns (evs.cdp.gocity.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.51.108  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.51.126  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.51.66  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.170.51.85  [dns (rsplane.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.33.249.164  [dns (bo.prod.data.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.5.66.39  [dns (www.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.5.67.107  [dns (www.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.5.67.195  [dns (www.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.5.70.237  [dns (m.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.5.89.125  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.5.98.230  [dns (m.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.77.6.168  [dns (tf.e2e.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  3.97.5.206  [dns (api.ca1.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  32.186.38.226  [dns (app.vpc.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  32.188.36.184  [dns (api.us18.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  32.194.246.226  [dns (chat.order.peter.bloxcart.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  34.203.75.97  [dns (backend-api.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  34.240.20.57  [dns (queue.tmtickets.cz)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  34.248.175.246  [dns (queue.metaltix.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  35.178.55.22  [dns (api.copy.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  35.80.205.6  [dns (backend-api.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  35.85.142.70  [dns (auth.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  4.211.176.194  [dns (dev-moncompte.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  4.233.107.45  [dns (bonsplans.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  40.38.231.125  [dns (workflows.us1.fedtest.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  44.194.213.162  [dns (backend-api.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  44.208.186.153  [dns (registry-stage.tests.e2e.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  44.216.69.18  [dns (backend-api.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  44.226.75.172  [dns (api.us41.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  44.239.216.83  [dns (app.vpc.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  44.252.138.46  [dns (eks.vpc.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  45.60.152.139  [dns (event.balenciaga.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  46.51.198.110  [dns (prod-eu31-sensor-pubsub.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  50.112.119.224  [dns (api.us10.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  51.159.84.34  [dns (nebula.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  51.24.209.42  [dns (ops.dashboard.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.219.178.128  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.219.179.96  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.219.229.120  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.219.232.192  [dns (studio-poc.a24films.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.223.53.203  [dns (bo.prod.data.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.30.192.226  [dns (attesa.servizirl.it)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.48.6.115  [dns (queue.metaltix.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.92.2.132  [dns (m.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.92.20.4  [dns (www.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  52.92.33.180  [dns (m.cricket-fashion.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.151.41.146  [dns (api.us8.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.165.230.121  [dns (api.us25.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.212.26.224  [dns (auth.preview.bluenote.ai)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.229.68.127  [dns (queue.tmtickets.cz)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.236.127.26  [dns (chat.order.peter.bloxcart.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.247.183.78  [dns (marketplacelounge.ticketek.com.au)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.68.46.6  [dns (api.us10.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.71.92.63  [dns (api.us10.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.73.182.83  [dns (languageserver.integration.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  54.93.190.190  [dns (crm-backend.fundingpips.dev)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  56.136.52.159  [dns (agent.us1.gov.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  56.228.95.177  [dns (api.eu3.test.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  63.32.253.34  [dns (prod-eu31-sensor-pubsub.app.wiz.io)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  63.33.103.75  [dns (marketplacelounge.ticketek.com.au)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  63.33.24.12  [dns (attesa.servizirl.it)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.111  [dns (fr.api.staging.opencongress.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.113  [dns (admin.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.121  [dns (analytics.api.opencongress.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.125  [dns (api.opencongress.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.27  [dns (api.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.53  [dns (analytics.api.staging.opencongress.app)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  69.46.46.81  [dns (subscribe-api.byjolab.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  85.203.7.75  [dns (click.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  88.222.222.236  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  88.223.87.234  [dns (dineroenlamesa.com)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  99.83.185.157  [dns (bo.prod.data.roole.fr)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  99.86.77.13  [dns (ablink.alerts.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  99.86.77.18  [dns (ablink.alerts.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  99.86.77.46  [dns (ablink.alerts.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] candidate ip  99.86.77.93  [dns (ablink.alerts.samharris.org)] tier=2 op=A
+[2026-10-25T20:12:44Z] HEALTH certspotter=29/452 crtsh=422/472 urlscan=100/677 dns-google=32276/32276 dns-cf=32276/32276
+[2026-10-25T20:12:44Z] AUTO-PROMOTE apex central-pay.qpon (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-25T20:12:44Z] AUTO-PROMOTE apex central-pay.shop (kit-fingerprint, op=A) -> now CT/DNS/scan-watched
+[2026-10-26T00:00:30Z] HEAL (missing) kit body 278568539fc839007c23bc263d840c504a61d0978df3ab1fd80f969c48d0d51e not recovered (not retained by urlscan, or failed verification)
+[2026-10-25T20:12:44Z] SCAN-SAVED 112.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-40cd-7554-9d8b-9ee2d858cab5/
+[2026-10-25T20:12:44Z] SCAN-SAVED 113.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-4c60-7311-bf61-fd314c8d07ab/
+[2026-10-25T20:12:44Z] SCAN-SAVED 114.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-56b7-76ba-847d-ad34af0b52a5/
+[2026-10-25T20:12:44Z] SCAN-SAVED 115.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-6242-711a-9fcd-985a51e2bc25/
+[2026-10-25T20:12:44Z] SCAN-SAVED 116.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-6bce-7251-95b3-fb458e7b7531/
+[2026-10-25T20:12:44Z] SCAN-SAVED 118.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-76c0-712b-82af-6408f7672d5a/
+[2026-10-25T20:12:44Z] SCAN-SAVED 119.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-823f-745d-812f-4ac1d04432cb/
+[2026-10-25T20:12:44Z] SCAN-SAVED 120.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-8dae-7699-9faf-081385a82afd/
+[2026-10-25T20:12:44Z] SCAN-SAVED 121.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-994f-715e-9149-2f8ba0521c6e/
+[2026-10-25T20:12:44Z] SCAN-SAVED 122.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-a500-7779-aac4-898603e2f429/
+[2026-10-25T20:12:44Z] SCAN-SAVED 123-test-app.workflowheroes.nl -> https://urlscan.io/result/01a17582-b072-7557-8c4c-73cc10c0c8c1/
+[2026-10-25T20:12:44Z] SCAN-SAVED 123.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-badc-759a-8812-8653667e2f56/
+[2026-10-25T20:12:44Z] SCAN-SAVED 124.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-c65b-761b-a9cc-53b428ba2eaf/
+[2026-10-25T20:12:44Z] SCAN-SAVED 125.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-d0da-768f-aba1-b43eebf71736/
+[2026-10-25T20:12:44Z] SCAN-SAVED 126.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-dc35-726c-837b-012b9a6854aa/
+[2026-10-25T20:12:44Z] SCAN-SAVED 129.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-e72b-77cb-9f51-4d600cebf055/
+[2026-10-25T20:12:44Z] SCAN-SAVED 130.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-f1ed-71d9-a5e3-19f171fb7813/
+[2026-10-25T20:12:44Z] SCAN-SAVED 131.marketing.fundingpips.dev -> https://urlscan.io/result/01a17582-fbb9-748e-b5a3-8a614e5e43e0/
+[2026-10-25T20:12:44Z] SCAN-SAVED 134.marketing.fundingpips.dev -> https://urlscan.io/result/01a17583-06c4-7425-9b76-6b777805f7b6/
+[2026-10-25T20:12:44Z] SCAN-SAVED 18montrose.com -> https://urlscan.io/result/01a17583-108e-73d5-8cdb-f460e33640cc/
+[2026-10-25T20:12:44Z] SCAN-BACKLOG 13764 live host(s) queued for next run (cap 20/run)
+[2026-10-25T20:12:44Z] 56 new tier-1 Operator-A indicator(s) this run
