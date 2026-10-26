@@ -185,8 +185,10 @@ acelro.com
 acessapp.vercel.app
 acil-allen-consulting-1.lms.employmenthero.com
 acil-allen-consulting.lms.employmenthero.com
+acme.omnyn.com.br
 action-paycore-pl.shop
 action-paycore-pl1.eu.cc
+activateoptise.com
 activitysure.claimsorted.com
 activitysure.dev.claimsorted.com
 acura-group-1.lms.employmenthero.com
@@ -243,6 +245,8 @@ agentsync.entendre.finance
 agoracorp.tryprism.com
 ai-adoption.gitkraken.dev
 ai-board.aination.gr
+ai-clinic.customer.crm2.internetclinic-app.com
+ai-clinic.customer.dev2.crm2.internetclinic-app.com
 ai-community.workflowheroes.nl
 ai-security-con.findy-tools.io
 ai.entendre.finance
@@ -467,6 +471,7 @@ auth.flannels.com
 auth.houseoffraser.co.uk
 auth.lidio.app
 auth.mtaccountaccess.com
+auth.novoindustries.co
 auth.renassantbank.com
 auth.replicas.dev
 auth.scottsmenswear.com
@@ -489,6 +494,7 @@ avhenting1210.ink
 avhenting1410.com
 avhenting2110.com
 avhenting2409.cc
+avhenting2510.com
 avhenting2709.cc
 avhenting2909.cc
 aviosinsurance.claimsorted.com
@@ -645,6 +651,10 @@ bonzah.dev.claimsorted.com
 booking-staging.guestpedia.com
 booking.guestpedia.com
 booking.hubblehq.com
+bookingnewnextstopevents.com
+bookingnewnextstopshows.com
+bookingnextstopshows.com
+bookingnextstopvenues.com
 bowrivercapital.virgil.ai
 boy-londontw.com
 bplusinictrak.vercel.app
@@ -1077,6 +1087,7 @@ dszevip.com
 dub.sh
 dublivo.app
 dublivo.com
+dummy-brand.customer.dev.crm2.internetclinic-app.com
 dxwagou.cn
 earlysignalco.com
 easy-bank-pi.vercel.app
@@ -1222,6 +1233,7 @@ form-survey-gvr9.vercel.app
 forms.claimsorted.com
 forms.qa.claimsorted.com
 foxwrenlabs.com
+fr.api.opencongress.app
 frakt-orderhubid94699.eu.cc
 frakt-orderin12389l.shop
 fraktorderinfo12364l.shop
@@ -1327,6 +1339,7 @@ gumtreepay-verify.help
 gyazfdcpro-bsf0d8a2eparfngs.a03.azurefd.net
 gym-kagb.waypost.co.uk
 hairlity.customer.dev.crm2.internetclinic-app.com
+hairlity.customer.dev3.crm2.internetclinic-app.com
 harborkeyfunding.com
 harbour-physio.waypost.co.uk
 harveynichols.com
@@ -1496,6 +1509,7 @@ jpwa10s-h17s.vercel.app
 jt4njwbpfg.488223dhxl.top
 junova-foley-mvp.vercel.app
 juntinhos-certidao.vercel.app
+junyiacademy.org
 kazou-bo-prod-b3becdafa2a7gzej.a03.azurefd.net
 kbcqw-h21w.vercel.app
 kehauyeuxilli-3537.vercel.app
@@ -1548,6 +1562,7 @@ link.reigartkistlerdds.com
 link.trackwired.com
 links.bridge-capital.ch
 links.clickgrowth.com.br
+links.heyfriday.co.uk
 links.notification.intuit.com
 lite-core-1.vercel.app
 literaturefriend.com
@@ -1644,6 +1659,7 @@ metamask-docs-fbv47wj26-consensys-ddffed67.vercel.app
 metamask-docs-git-cursor-fix-banner-c-960a25-consensys-ddffed67.vercel.app
 metamask-docs-ldkp21iks-consensys-ddffed67.vercel.app
 metrito.com
+michaelvieira.tech
 microsoft--cm-2ja.com
 microsoft-landing-page-wine.vercel.app
 mig-cdn-a5dpgebqbvgtccfd.a03.azurefd.net
@@ -2253,6 +2269,9 @@ sji-fd-staging-cmevaqhfatcea7ar.a03.azurefd.net
 skyzsports24.live
 sl.deepl.com
 smart-arches-phones.vercel.app
+smart-clinic-review.customer.crm2.internetclinic-app.com
+smart-clinic.customer.crm2.internetclinic-app.com
+smart-clinic.customer.dev.crm2.internetclinic-app.com
 smart-import-kappa.vercel.app
 smetrics.houseoffraser.co.uk
 smss.versec.workers.dev
@@ -2318,8 +2337,11 @@ subito.verifieer.cc
 successinvestclearly.com
 suit-banking-git-feature-versaoproducao-suit-members.vercel.app
 suite.trezor.io
+sumakuri-ed.customer.crm2.internetclinic-app.com
 sumakuri-ed.customer.dev.crm2.internetclinic-app.com
+sumakuri-ed.customer.dev2.crm2.internetclinic-app.com
 sumakuri.customer.dev.crm2.internetclinic-app.com
+sumakuri.customer.dev2.crm2.internetclinic-app.com
 summit.breakoutrn.com
 suncoastrecoveryservices.online
 sunnydorm.com
@@ -2533,6 +2555,7 @@ vinted.9mwh.com
 vinted.betamy.com
 vinted.cixnjxh.com
 vinted.gz-zongheng.com
+vinted.honorsee.com
 vinted.notice3425346783456.com
 vinted.online-order.top
 vinted.order-info84719.com
@@ -2769,6 +2792,7 @@ www.jerzz.exclusiverewards.7064.ws
 www.jestr.gg
 www.jif.ai
 www.juliekovacs.com
+www.junyiacademy.org
 www.leddeliverybox.ph
 www.logme.co
 www.lucky-giftbox11.vercel.app

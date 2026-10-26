@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-26T14:14:27Z",
-  "last_run_at": "2026-10-26T11:59:19Z",
-  "last_run_summary": "[2026-10-26T11:59:19Z] 135 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-26T11:59:19Z] HEALTH certspotter=12/398 crtsh=0/3 urlscan=421/704 dns-google=32024/32024 dns-cf=32024/32024",
+  "generated_at": "2026-10-26T20:49:05Z",
+  "last_run_at": "2026-10-26T18:26:41Z",
+  "last_run_summary": "[2026-10-26T18:26:41Z] 26 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-26T18:26:41Z] HEALTH certspotter=13/413 crtsh=9/16 urlscan=200/724 dns-google=32272/32272 dns-cf=32272/32272",
   "tracked_hosts": {
-    "total": 18139,
+    "total": 18177,
     "by_status": {
-      "dead": 2889,
-      "active": 15250
+      "dead": 2887,
+      "active": 15290
     },
     "by_operator_tier": {
-      "A:tier1": 18139
+      "A:tier1": 18177
     }
   },
   "fingerprints": [
@@ -1171,131 +1171,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 3760
+    "A": 3786
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "trademcp.app",
+      "indicator": "bookingnewnextstopevents.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "trawick.qa.claimsorted.com",
+      "indicator": "bookingnewnextstopshows.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "trust.claimsorted.com",
+      "indicator": "bookingnextstopshows.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "trust.exclaimer.com",
+      "indicator": "bookingnextstopvenues.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "verify.feather-insurance.com",
+      "indicator": "dummy-brand.customer.dev.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "vicoverage.claimsorted.com",
+      "indicator": "fr.api.opencongress.app",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "vicoverage.dev.claimsorted.com",
+      "indicator": "hairlity.customer.dev3.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "vicoverage.qa.claimsorted.com",
+      "indicator": "junyiacademy.org",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "vquip.claimsorted.com",
+      "indicator": "links.heyfriday.co.uk",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "vquip.dev.claimsorted.com",
+      "indicator": "michaelvieira.tech",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "wanda.claimsorted.com",
+      "indicator": "smart-clinic-review.customer.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "wanda.dev.claimsorted.com",
+      "indicator": "smart-clinic.customer.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "wanda.qa.claimsorted.com",
+      "indicator": "smart-clinic.customer.dev.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "wandr.claimsorted.com",
+      "indicator": "sumakuri-ed.customer.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "whip.dev.claimsorted.com",
+      "indicator": "sumakuri-ed.customer.dev2.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "www.aloportal.com",
+      "indicator": "sumakuri.customer.dev2.crm2.internetclinic-app.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "www.heyfriday.co.uk",
+      "indicator": "vinted.honorsee.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
       "type": "domain",
-      "indicator": "yesche.claimsorted.com",
+      "indicator": "www.junyiacademy.org",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
-      "type": "domain",
-      "indicator": "yesche.dev.claimsorted.com",
+      "type": "revival",
+      "indicator": "wap.dfclgzw.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     },
     {
-      "type": "domain",
-      "indicator": "yesche.qa.claimsorted.com",
+      "type": "revival",
+      "indicator": "www.dfclgzw.com",
       "operator": "A",
-      "first_seen": "2026-10-26T11:59:19Z"
+      "first_seen": "2026-10-26T18:26:41Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 32869,
+  "manual_review_candidates_pending": 33463,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

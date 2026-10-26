@@ -1261,6 +1261,7 @@ api.henryornn.fabric.ornn.com
 api.hubblehq.com
 api.ijr.com
 api.injest.fundingpips.com
+api.injest.fundingticks.com
 api.internal.backpack.exchange
 api.internal.howdy.com
 api.internal.rewards.backpack.exchange
@@ -5082,6 +5083,7 @@ evoxneo.vercel.app
 evpers.primariatm.ro
 evs.cdp.gocity.com
 evs.injest.fundingpips.com
+evs.injest.fundingticks.com
 evzen.vercel.app
 ewertonpfontes.vercel.app
 ewhicher.vercel.app
@@ -6340,6 +6342,7 @@ gp246-fix-remove-identity.review.allshares.app
 gp3-fix-dashboard-market-cap-display.review.allshares.app
 gpbaculio1.vercel.app
 gperales.vercel.app
+gpt-write.future-vote.de
 gptzero-harness.grubby.ai
 gpvpn.revo.com.au
 gpzim98.vercel.app
@@ -6645,6 +6648,7 @@ help.firetrap.com
 help.flannels.com
 help.flannels.ie
 help.fundingpips.com
+help.fundingticks.com
 help.game.co.uk
 help.gelert.com
 help.gievesandhawkes.com
@@ -6665,6 +6669,7 @@ help.lonsdale.com
 help.metrito.com
 help.muddyfox.com
 help.my.sportsdirect.com
+help.ortix.com
 help.pangobooks.com
 help.samharris.org
 help.sg.sportsdirect.com
@@ -6697,6 +6702,7 @@ help.sportsworld.nl
 help.store.slazenger.com
 help.studio.co.uk
 help.thearcticarmy.com
+help.tradin.com
 help.ukstore.everlast.com
 help.usapro.co.uk
 help.usc.co.uk
@@ -12312,6 +12318,7 @@ riset24.vercel.app
 rishabh-1004.vercel.app
 risk-platform-staging.fundingpips.com
 risk-platform.staging.fundingpips.com
+risk.staging.fundingpips.com
 rita1.vercel.app
 ritchievincent.vercel.app
 ritco-physiotherapy-allied-health.lms.employmenthero.com
@@ -16012,6 +16019,7 @@ www.fuegenix.com
 www.fullport.gg
 www.fundacionmembrana.org
 www.fundingpips.com
+www.future-vote.de
 www.fw.revo.com.au
 www.g3675.juliekovacs.com
 www.gate.revo.com.au
