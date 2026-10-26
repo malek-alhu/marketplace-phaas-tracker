@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-26T05:33:47Z",
-  "last_run_at": "2026-10-26T02:33:07Z",
-  "last_run_summary": "[2026-10-26T02:33:07Z] 171 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-26T02:33:07Z] HEALTH certspotter=21/370 crtsh=210/246 urlscan=679/679 dns-google=31546/31546 dns-cf=31546/31546",
+  "generated_at": "2026-10-26T14:14:27Z",
+  "last_run_at": "2026-10-26T11:59:19Z",
+  "last_run_summary": "[2026-10-26T11:59:19Z] 135 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-26T11:59:19Z] HEALTH certspotter=12/398 crtsh=0/3 urlscan=421/704 dns-google=32024/32024 dns-cf=32024/32024",
   "tracked_hosts": {
-    "total": 17990,
+    "total": 18139,
     "by_status": {
-      "dead": 2703,
-      "active": 15287
+      "dead": 2889,
+      "active": 15250
     },
     "by_operator_tier": {
-      "A:tier1": 17990
+      "A:tier1": 18139
     }
   },
   "fingerprints": [
@@ -1171,131 +1171,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 3625
+    "A": 3760
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "upgrade-012.vercel.app",
+      "indicator": "trademcp.app",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "ut.opencongress.app",
+      "indicator": "trawick.qa.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "vakifbank-kredibasvurm.vercel.app",
+      "indicator": "trust.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "vtest314-ovkmntcaslgkvpxreosk.now.sh",
+      "indicator": "trust.exclaimer.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "vtest314-ovkmntcaslgkvpxreosk.vercel.app",
+      "indicator": "verify.feather-insurance.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "wallet-ladger-livelogin.vercel.app",
+      "indicator": "vicoverage.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "wallet-trezor-login-trust-making.vercel.app",
+      "indicator": "vicoverage.dev.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "wearfaraday.com",
+      "indicator": "vicoverage.qa.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "wearspartan.com",
+      "indicator": "vquip.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.amazon-clone-frontend-ten.vercel.app",
+      "indicator": "vquip.dev.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.cntct.space",
+      "indicator": "wanda.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.coasttocoastwatersafety.co.uk",
+      "indicator": "wanda.dev.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.facebook-clone-beta-gules.vercel.app",
+      "indicator": "wanda.qa.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.mintopenseapronow7.vercel.app",
+      "indicator": "wandr.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.monprofmaison.com",
+      "indicator": "whip.dev.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.neta.market",
+      "indicator": "www.aloportal.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.nextstopcomedy.com",
+      "indicator": "www.heyfriday.co.uk",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.santander-inicio.vercel.app",
+      "indicator": "yesche.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.seen42.com",
+      "indicator": "yesche.dev.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     },
     {
       "type": "domain",
-      "indicator": "zeus.sawithokilogin.com",
+      "indicator": "yesche.qa.claimsorted.com",
       "operator": "A",
-      "first_seen": "2026-10-26T02:33:07Z"
+      "first_seen": "2026-10-26T11:59:19Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 32157,
+  "manual_review_candidates_pending": 32869,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
