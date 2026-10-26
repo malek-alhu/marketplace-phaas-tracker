@@ -1,4 +1,5 @@
 00fubarbundy.vercel.app
+06836d13.sni.cloudflaressl.com
 0933322888.vercel.app
 0f5c202a.sni.cloudflaressl.com
 0pakdhe0.vercel.app
@@ -1254,6 +1255,7 @@ api.gocity.com
 api.goldbridgebanking.com
 api.grubby.ai
 api.guestpedia.com
+api.havnwear.com
 api.henryornn.fabric.ornn.com
 api.hubblehq.com
 api.ijr.com
@@ -1874,6 +1876,7 @@ authx.dev.wiz.io
 auto-termbase.www.test.deepl.com
 autokar.tallerpro.io
 automation.beanstalkconsulting.co
+automations.turn.one
 automotriz-nunez.tallerpro.io
 autonomous-projects.entendre.finance
 autoplanet.tallerpro.io
@@ -2280,6 +2283,7 @@ bitkidd.vercel.app
 bitsarat.vercel.app
 bitwre.vercel.app
 biz.moi-agent.ru
+bizcheckout.com
 biznickman.vercel.app
 bjunya.vercel.app
 bjw5392.vercel.app
@@ -2325,6 +2329,7 @@ blog.employmenthero.com
 blog.entendre.finance
 blog.evanscycles.com
 blog.fretebras.com.br
+blog.havnwear.com
 blog.holded.com
 blog.houseoffraser.co.uk
 blog.hubblehq.com
@@ -2898,6 +2903,7 @@ checkout.callisign.com
 checkout.discovercars.com
 checkout.fretebras.com.br
 checkout.gocity.com
+checkout.havnwear.com
 checkout.leadmagic.io
 checkout.samharris.org
 checkout.www.test.deepl.com
@@ -3077,6 +3083,7 @@ clerk.edumaniaedtech.online
 clerk.franciscopartners.virgil.ai
 clerk.games.mlabs.ng
 clerk.goldenhourhq.com
+clerk.greathillpartners.virgil.ai
 clerk.hamiltonlane.virgil.ai
 clerk.harvestpartners.virgil.ai
 clerk.hendersonpark.virgil.ai
@@ -4468,6 +4475,7 @@ e.de.sportsdirect.com
 e.es.sportsdirect.com
 e.flannels.com
 e.fr.sportsdirect.com
+e.havnwear.com
 e.ie.sportsdirect.com
 e.nz.sportsdirect.com
 e.pt.sportsdirect.com
@@ -6547,6 +6555,7 @@ hassdarkshadow23.vercel.app
 hassellof.vercel.app
 havenchyk.vercel.app
 havit.vercel.app
+havnwear.com
 hawaiianbbq.vercel.app
 hawkeoni.vercel.app
 hawkinswritescode.vercel.app
@@ -6923,6 +6932,7 @@ hyperbitcorp1.vercel.app
 hypercore.backpack.exchange
 hypowerup-queueingroom.hyleegardens.com.hk
 hyronical.vercel.app
+i.havnwear.com
 i28011.vercel.app
 i3poac.vercel.app
 i4looshgames.vercel.app
@@ -7008,6 +7018,7 @@ ilhampraset30.vercel.app
 ilias.vercel.app
 iliassoultis.vercel.app
 ilichivan.vercel.app
+illinois.bizcheckout.com
 illinois1.vercel.app
 ilockedcodes.vercel.app
 ilomon10.vercel.app
@@ -7330,6 +7341,7 @@ inv-dash-deploy.review.allshares.app
 inventoriz.wiz.io
 inventory.adfinis.com
 investclearly.com
+invitation.bizcheckout.com
 invoice-center.info
 ioiooi.vercel.app
 ipanasenko.vercel.app
@@ -9949,6 +9961,7 @@ mt.opencongress.app
 mt.sportsdirect.com
 mta-sts.adfinis.com
 mta-sts.driftnet.io
+mta-sts.havnwear.com
 mta-sts.howdy.com
 mta-sts.leadmagic.io
 mta-sts.mailgw.revo.com.au
@@ -10075,6 +10088,7 @@ n3srcca.vercel.app
 n4.apps.omnyn.com.br
 n5.apps.omnyn.com.br
 n8.apps.omnyn.com.br
+n8n-development.turn.one
 n8n-webhook.beanstalkconsulting.co
 n8n.beanstalkconsulting.co
 n8n.metrito.com
@@ -10228,6 +10242,7 @@ newernowuser1.vercel.app
 newmail2013.revo.com.au
 newpublicservice.com
 newpublicvoid.vercel.app
+news.havnwear.com
 news.moi-agent.ru
 news.roole.fr
 news.samharris.org
@@ -11182,6 +11197,7 @@ pfdclover.vercel.app
 pg-copy.app.render.com
 pgc.vercel.app
 pgrest.admin.render.com
+ph-staffel.havnwear.com
 ph.thatch.com
 phadzhitsanev.vercel.app
 phamtu35.vercel.app
@@ -13370,6 +13386,7 @@ squadtalent.entendre.finance
 squid.vercel.app
 sre.fretebras.com.br
 srgrn.vercel.app
+sriamrutheshwaratemple.com
 srichter.vercel.app
 srishcmu.vercel.app
 srmatanza.vercel.app
@@ -14619,6 +14636,7 @@ trustcircle1.vercel.app
 trustees.huntington.org
 try.astra-ai.co
 try.employmenthero.com
+try.havnwear.com
 try.leadmagic.io
 try.nixtla.io
 trygt-hjem.amsmart.no
@@ -14914,6 +14932,7 @@ urban-spa-michelle-1.lms.employmenthero.com
 urban-spa-michelle.lms.employmenthero.com
 urban-spa-pty-ltd.lms.employmenthero.com
 urbancvek.vercel.app
+urbanpartners.virgil.ai
 urcades.vercel.app
 uriokr.bauhaus.es
 url3037.deferred.com
@@ -15040,6 +15059,7 @@ valissalim.vercel.app
 valpunk.vercel.app
 valrn.vercel.app
 valstu.vercel.app
+valuation.bizcheckout.com
 valukard.vercel.app
 vanessayhyuen.vercel.app
 vanesyan.vercel.app
@@ -15516,6 +15536,7 @@ webmail.periyartigers.com
 webmail.primariatm.ro
 webmail.revo.com.au
 webmail.timeflies.live
+webmail.turn.one
 webmail.webbutik.obos.se
 webmail.xfqh.net
 webmail05.revo.com.au
@@ -15792,6 +15813,7 @@ www.a2.digid.nl
 www.a24films.com
 www.a3.digid.nl
 www.a4.digid.nl
+www.aavestake-protocol.org
 www.abandonedgrove.com
 www.acc.machtigen.digid.nl
 www.acc1.machtigen.digid.nl
@@ -15849,6 +15871,7 @@ www.begraphic.dev
 www.belastbaar.com
 www.beta.machtigen.digid.nl
 www.betamy.com
+www.bizcheckout.com
 www.blog.cruisefashion.com
 www.blog.employmenthero.com
 www.blog.houseoffraser.co.uk
@@ -16003,6 +16026,7 @@ www.guysi.azure.dev.wiz.io
 www.guysiapp.azure.dev.wiz.io
 www.hanwell.huntington.org
 www.harveynichols.com
+www.havnwear.com
 www.hdl.huntington.org
 www.healthmonitor.freshstep.com
 www.help.gocity.com
@@ -16228,6 +16252,7 @@ www.sportsdirect.com
 www.sportsdirect.com.au
 www.sportsdirect.com.my
 www.sprinzo.com
+www.sriamrutheshwaratemple.com
 www.ssl.revo.com.au
 www.ssn.congressinfo.net
 www.staging.employmenthero.com
@@ -16312,6 +16337,7 @@ www.welcome.hubblehq.com
 www.werkenbijgeldfit.nl
 www.wfmcsy.com
 www.wiki.bauhaus.ch
+www.willyoubehere.com
 www.win.bauhaus.ch
 www.wines-theme.goldenplanet.shop
 www.winslor-demo.com
