@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-27T05:31:04Z",
-  "last_run_at": "2026-10-27T03:07:47Z",
-  "last_run_summary": "[2026-10-27T03:07:47Z] 293 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-27T03:07:47Z] HEALTH certspotter=13/494 crtsh=2/5 urlscan=726/726 dns-google=33076/33076 dns-cf=33076/33076",
+  "generated_at": "2026-10-27T13:37:51Z",
+  "last_run_at": "2026-10-27T11:20:29Z",
+  "last_run_summary": "[2026-10-27T11:20:29Z] 115 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-27T11:20:29Z] HEALTH certspotter=13/436 crtsh=23/27 urlscan=474/747 dns-google=32470/32470 dns-cf=32470/32470",
   "tracked_hosts": {
-    "total": 18442,
+    "total": 18638,
     "by_status": {
-      "dead": 2976,
-      "active": 15466
+      "dead": 2988,
+      "active": 15650
     },
     "by_operator_tier": {
-      "A:tier1": 18442
+      "A:tier1": 18638
     }
   },
   "fingerprints": [
@@ -1171,131 +1171,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 4079
+    "A": 4194
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "wstaging.tuktukvpn.com",
+      "indicator": "store.madlads.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.axelarigato.com.tw",
+      "indicator": "tidynames.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bloomsybox.com",
+      "indicator": "update-reset-script.review.allshares.app",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.gacha-tracker.ru",
+      "indicator": "vpivyf.meshki.com.au",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.logo.dev",
+      "indicator": "w-n-s.de",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.meshki.com.au",
+      "indicator": "website-prod-g5amd5hpgzdsa4ab.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.plasma.ai",
+      "indicator": "winkpg-cresora-prd-chatg2gtcef8bqgp.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.printfriendly.com",
+      "indicator": "www.acelro.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.roole.fr",
+      "indicator": "www.ardennes-etape.be",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tuktukvpn.com",
+      "indicator": "www.axelarigato.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tumbleliving.com",
+      "indicator": "www.biocad.me",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.urbantechmap.com",
+      "indicator": "www.dive.day",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "www.waypost.co.uk",
+      "indicator": "www.layiq.co",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "yu3-byaegedzarddb3b5.a03.azurefd.net",
+      "indicator": "www.naturorder.fr",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "yuma.ai",
+      "indicator": "www.perfectlysafe.co",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "yz-ogretmen-panel.vercel.app",
+      "indicator": "www.roovook.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "zhang3-fnhmd8hsb8f7a8cx.a03.azurefd.net",
+      "indicator": "www.rouje.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
       "type": "domain",
-      "indicator": "zoomingroominwlw.vercel.app",
+      "indicator": "www.setur.com.tr",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
-      "type": "revival",
-      "indicator": "depop.dfclgzw.com",
+      "type": "domain",
+      "indicator": "www.swissarmyman.com",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     },
     {
-      "type": "revival",
-      "indicator": "dfclgzw.com",
+      "type": "domain",
+      "indicator": "www.thomasrealestate.de",
       "operator": "A",
-      "first_seen": "2026-10-27T03:07:47Z"
+      "first_seen": "2026-10-27T11:20:29Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 34139,
+  "manual_review_candidates_pending": 34981,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
