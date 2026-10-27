@@ -143,6 +143,7 @@
 64e94d4e-776e-4ec2-be34-85167563af1e.revo.com.au
 6897926.com
 691633847.vercel.app
+6c8ae1fa.sni.cloudflaressl.com
 704700551.vercel.app
 709886167.vercel.app
 72936e41.sni.cloudflaressl.com
@@ -1271,6 +1272,7 @@ api.jzhouu.fabric.ornn.com
 api.keshav-orn.fabric.ornn.com
 api.keshav-ornn.fabric.ornn.com
 api.leadmagic.io
+api.mainfactor.dev
 api.maps-v2.mawgifservices.com
 api.mapsd.mawgifservices.com
 api.mapsp.mawgifservices.com
@@ -6945,6 +6947,7 @@ hyperbitcorp1.vercel.app
 hypercore.backpack.exchange
 hypowerup-queueingroom.hyleegardens.com.hk
 hyronical.vercel.app
+hz.care
 i.havnwear.com
 i28011.vercel.app
 i3poac.vercel.app
@@ -7212,6 +7215,8 @@ infra01-webhooks.2sync.com
 infra01.2sync.com
 ing1.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 ing2.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+ingest-staging.mainfactor.dev
+ingest.mainfactor.dev
 ingest.platform.meallions.com
 inglevalegroup.com
 ingloriouscoderz.vercel.app
@@ -9120,6 +9125,7 @@ mailshamidyousefi.vercel.app
 mailshot.usc.co.uk
 main.vpc.preview.bluenote.ai
 mainapp.vercel.app
+mainfactor.dev
 mainnet.grvt.io
 maintenance.cloud.roole.fr
 maintenance.gocity.com
@@ -11099,6 +11105,7 @@ paypay-pl.eu.cc
 paypay-pl1.eu.cc
 paypay-pl2.eu.cc
 paypay-pl3.eu.cc
+paypl-pay1.eu.cc
 payplcore.biz.id
 payprotect.shop
 payprzelew-core1.fun
@@ -11786,6 +11793,7 @@ pub-api.leadmagic.io
 pubcash.app
 public-registry.wiz.io
 public.deferred.com
+public.mainfactor.dev
 publicaccess.a24films.com
 pubnic.vercel.app
 puches.vercel.app
@@ -16063,6 +16071,7 @@ www.humankindclothing.com
 www.huntington.org
 www.hv-piechowski.com
 www.hvac.huntington.org
+www.hz.care
 www.ifckr.ru
 www.ijr.com
 www.imap.revo.com.au
@@ -16106,6 +16115,7 @@ www.mail.revo.com.au
 www.mail1.revo.com.au
 www.mail2.revo.com.au
 www.mailhost.revo.com.au
+www.mainfactor.dev
 www.manabigurashi.com
 www.marketplace.harveynichols.com
 www.matchesfashion.com
