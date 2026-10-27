@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-27T13:37:51Z",
-  "last_run_at": "2026-10-27T11:20:29Z",
-  "last_run_summary": "[2026-10-27T11:20:29Z] 115 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-27T11:20:29Z] HEALTH certspotter=13/436 crtsh=23/27 urlscan=474/747 dns-google=32470/32470 dns-cf=32470/32470",
+  "generated_at": "2026-10-27T21:19:30Z",
+  "last_run_at": "2026-10-27T17:08:05Z",
+  "last_run_summary": "[2026-10-27T17:08:05Z] 47 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-27T17:08:05Z] HEALTH certspotter=16/462 crtsh=97/106 urlscan=194/767 dns-google=33964/33964 dns-cf=33964/33964",
   "tracked_hosts": {
-    "total": 18638,
+    "total": 19382,
     "by_status": {
-      "dead": 2988,
-      "active": 15650
+      "dead": 2993,
+      "active": 16389
     },
     "by_operator_tier": {
-      "A:tier1": 18638
+      "A:tier1": 19382
     }
   },
   "fingerprints": [
@@ -1168,134 +1168,162 @@
       "added": "2026-10-25",
       "last_confirmed_hit": "2026-10-26",
       "status": "chained"
+    },
+    {
+      "hash": "213e7712e6ca4669a7a53ba8322217508c249ca37f187d5f9d55cc7e8cedfb42",
+      "label": "chained",
+      "added": "2026-10-27",
+      "last_confirmed_hit": "2026-10-27",
+      "status": "chained"
+    },
+    {
+      "hash": "5d2958db1fb14ff60f244283ade011f0fbdbbd1e03308da193e4b965999666f9",
+      "label": "chained",
+      "added": "2026-10-27",
+      "last_confirmed_hit": "2026-10-27",
+      "status": "chained"
+    },
+    {
+      "hash": "8d739542396f9cf443f01e7001678d687a305951f86b0d444612b94d9d6f71bd",
+      "label": "chained",
+      "added": "2026-10-27",
+      "last_confirmed_hit": "2026-10-27",
+      "status": "chained"
+    },
+    {
+      "hash": "da03672b8f0cb401042dc4e4580528475bbdd35c18248ff814b3c8386516c6e1",
+      "label": "chained",
+      "added": "2026-10-27",
+      "last_confirmed_hit": "2026-10-27",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 4194
+    "A": 4241
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "store.madlads.com",
+      "type": "cert",
+      "indicator": "repo.tuktukvpn.com",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "setup.logo.dev",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "social-radar.app",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.mainfactor.dev",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.planpost.co.uk",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "t.tester.army",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "tuktukvpn.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ular.purnatoto.site",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "web.purnatoto.site",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.planpost.co.uk",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.tuktukvpn.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "tidynames.com",
+      "indicator": "cloud.solutions.com.sa",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "update-reset-script.review.allshares.app",
+      "indicator": "coh3stats.com",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "vpivyf.meshki.com.au",
+      "indicator": "platform.claude.com",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "w-n-s.de",
+      "indicator": "shelltime.xyz",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "website-prod-g5amd5hpgzdsa4ab.a03.azurefd.net",
+      "indicator": "status.brightchase.io",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "winkpg-cresora-prd-chatg2gtcef8bqgp.a03.azurefd.net",
+      "indicator": "wamaya.pl",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.acelro.com",
+      "indicator": "www.averyberkel.com",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.ardennes-etape.be",
+      "indicator": "www.cabaia.fr",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.axelarigato.com",
+      "indicator": "www.zuuvi.com",
       "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.biocad.me",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.dive.day",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.layiq.co",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.naturorder.fr",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.perfectlysafe.co",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.roovook.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.rouje.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.setur.com.tr",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.swissarmyman.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.thomasrealestate.de",
-      "operator": "A",
-      "first_seen": "2026-10-27T11:20:29Z"
+      "first_seen": "2026-10-27T17:08:05Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 34981,
+  "manual_review_candidates_pending": 36091,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
