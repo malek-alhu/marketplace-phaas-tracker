@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-28T08:10:30Z",
-  "last_run_at": "2026-10-28T03:20:59Z",
-  "last_run_summary": "[2026-10-28T03:20:59Z] 1324 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-28T03:20:59Z] HEALTH certspotter=28/551 crtsh=358/392 urlscan=792/793 dns-google=42958/42958 dns-cf=42958/42958",
+  "generated_at": "2026-10-28T14:48:03Z",
+  "last_run_at": "2026-10-28T11:54:21Z",
+  "last_run_summary": "[2026-10-28T11:54:21Z] 33 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-28T11:54:21Z] HEALTH certspotter=14/487 crtsh=39/46 urlscan=317/807 dns-google=42298/42298 dns-cf=42298/42298",
   "tracked_hosts": {
-    "total": 23490,
+    "total": 23676,
     "by_status": {
-      "dead": 3103,
-      "active": 20387
+      "dead": 3120,
+      "active": 20556
     },
     "by_operator_tier": {
-      "A:tier1": 23490
+      "A:tier1": 23676
     }
   },
   "fingerprints": [
@@ -1199,131 +1199,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 5581
+    "A": 5614
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.virgil.ai",
+      "indicator": "forestleads.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "www.wamaya.pl",
+      "indicator": "garr.link",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "www.ww7.gotit-delivered.com",
+      "indicator": "kaito.ai",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.spotifypalette.com",
+      "indicator": "lawyerinsight.in",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.admin.dohamassage-24.com",
+      "indicator": "milanuncios.verify-compra.click",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "xaljtxhw.top",
+      "indicator": "modibodi.co.il",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "xmgw-pubp-fde-bplp-01-b9h5gmbvhdanbxg5.a03.azurefd.net",
+      "indicator": "okbca.xyz",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "xo18p2fg.up.railway.app",
+      "indicator": "oregonairbnbforsale.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "xwry2zaa.up.railway.app",
+      "indicator": "post.pidgeon.email",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "y6cg3m35.up.railway.app",
+      "indicator": "predict.fun",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "yasa-anesa.vercel.app",
+      "indicator": "predixcore.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "yieldvineffow.com",
+      "indicator": "purefoodstas.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "ymarket.moi-agent.ru",
+      "indicator": "spaceswap.to",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "yoo8gsc0.up.railway.app",
+      "indicator": "usdx.ar",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "yucp.club",
+      "indicator": "verify-compra.click",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "yumaaicx.com",
+      "indicator": "wallapop.verify-compra.click",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "z.great-insight.com",
+      "indicator": "www.alnforge.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "zawleeya-wedding-invitation.vercel.app",
+      "indicator": "www.megadice.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
       "type": "domain",
-      "indicator": "zeeandco.co.uk",
+      "indicator": "www.zeeandme.co.za",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     },
     {
-      "type": "revival",
-      "indicator": "depop.huian189.com",
+      "type": "domain",
+      "indicator": "yogalicious.com",
       "operator": "A",
-      "first_seen": "2026-10-28T03:20:59Z"
+      "first_seen": "2026-10-28T11:54:21Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 38594,
+  "manual_review_candidates_pending": 39736,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
