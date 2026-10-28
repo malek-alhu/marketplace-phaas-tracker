@@ -1,6 +1,6 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 45 · newest first_seen: 2026-10-21 · TLP:CLEAR
+# Entries: 47 · newest first_seen: 2026-10-21 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
@@ -16,6 +16,7 @@ dailyrss-website.versec.workers.dev
 dfclgzw.com
 dpd-cz.live
 gumtree-payment.shop
+huian189.com
 invoice-center.info
 monrelaisplusin.icu
 negabarit.sbs
@@ -30,6 +31,7 @@ pay-flow.cfd
 paycore-confirmation.lol
 paycore-confirmation.sbs
 paycore-confirmation.shop
+paycore-confirmation44232.lol
 paycore-trust-process.cfd
 payprotect.shop
 przelew-paycore.cyou
