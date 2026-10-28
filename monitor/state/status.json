@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-27T21:19:30Z",
-  "last_run_at": "2026-10-27T17:08:05Z",
-  "last_run_summary": "[2026-10-27T17:08:05Z] 47 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-27T17:08:05Z] HEALTH certspotter=16/462 crtsh=97/106 urlscan=194/767 dns-google=33964/33964 dns-cf=33964/33964",
+  "generated_at": "2026-10-28T00:02:06Z",
+  "last_run_at": "2026-10-27T21:38:53Z",
+  "last_run_summary": "[2026-10-27T21:38:53Z] 16 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-27T21:38:53Z] HEALTH certspotter=12/462 crtsh=3/6 urlscan=184/780 dns-google=34678/34678 dns-cf=34678/34678",
   "tracked_hosts": {
-    "total": 19382,
+    "total": 19481,
     "by_status": {
-      "dead": 2993,
-      "active": 16389
+      "dead": 3104,
+      "active": 16377
     },
     "by_operator_tier": {
-      "A:tier1": 19382
+      "A:tier1": 19481
     }
   },
   "fingerprints": [
@@ -1199,105 +1199,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 4241
+    "A": 4257
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "repo.tuktukvpn.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "setup.logo.dev",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "social-radar.app",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "staging.mainfactor.dev",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "staging.planpost.co.uk",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "t.tester.army",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "tuktukvpn.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "ular.purnatoto.site",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "web.purnatoto.site",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.planpost.co.uk",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.tuktukvpn.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "cloud.solutions.com.sa",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "coh3stats.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "platform.claude.com",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "shelltime.xyz",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "status.brightchase.io",
-      "operator": "A",
-      "first_seen": "2026-10-27T17:08:05Z"
-    },
     {
       "type": "domain",
       "indicator": "wamaya.pl",
@@ -1321,9 +1225,105 @@
       "indicator": "www.zuuvi.com",
       "operator": "A",
       "first_seen": "2026-10-27T17:08:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "c80b21b6.sni.cloudflaressl.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "support-pp.ardennes-etape.be",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "academiaestudiosglobo.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "adarch-estimate-production.up.railway.app",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "allegro.offer986902.shop",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "discalendar.app",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "iptransparency.oxylabs.io",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "pageshelp.shop",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "plan.kpluscreditfix.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "rustyfiles.xyz",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "social.nextgentrainingacademy.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "status.coreview.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.bzp-radar.pl",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.scoopfinancewa.com.au",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "x.ai",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "m.dfclgzw.com",
+      "operator": "A",
+      "first_seen": "2026-10-27T21:38:53Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 36091,
+  "manual_review_candidates_pending": 36936,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
