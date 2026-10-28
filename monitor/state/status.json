@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-28T14:48:03Z",
-  "last_run_at": "2026-10-28T11:54:21Z",
-  "last_run_summary": "[2026-10-28T11:54:21Z] 33 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-28T11:54:21Z] HEALTH certspotter=14/487 crtsh=39/46 urlscan=317/807 dns-google=42298/42298 dns-cf=42298/42298",
+  "generated_at": "2026-10-28T21:16:36Z",
+  "last_run_at": "2026-10-28T17:43:32Z",
+  "last_run_summary": "[2026-10-28T17:43:32Z] 5 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-28T17:43:32Z] HEALTH certspotter=14/523 crtsh=24/35 urlscan=101/833 dns-google=42376/42376 dns-cf=42375/42376",
   "tracked_hosts": {
-    "total": 23676,
+    "total": 23703,
     "by_status": {
-      "dead": 3120,
-      "active": 20556
+      "dead": 3132,
+      "active": 20571
     },
     "by_operator_tier": {
-      "A:tier1": 23676
+      "A:tier1": 23703
     }
   },
   "fingerprints": [
@@ -1199,39 +1199,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 5614
+    "A": 5619
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "forestleads.com",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "garr.link",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "kaito.ai",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "lawyerinsight.in",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "milanuncios.verify-compra.click",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
     {
       "type": "domain",
       "indicator": "modibodi.co.il",
@@ -1321,9 +1291,39 @@
       "indicator": "yogalicious.com",
       "operator": "A",
       "first_seen": "2026-10-28T11:54:21Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "academiaestudiosglobo.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T17:43:32Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "mockup-v2.academiaestudiosglobo.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T17:43:32Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "v2.academiaestudiosglobo.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T17:43:32Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.academiaestudiosglobo.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T17:43:32Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.zeeandme.co.za",
+      "operator": "A",
+      "first_seen": "2026-10-28T17:43:32Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 39736,
+  "manual_review_candidates_pending": 40841,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

@@ -454,6 +454,7 @@ abt.nl.bauhaus
 abusosvarios.vercel.app
 abylaihuan.vercel.app
 ac3-pty-limited.lms.employmenthero.com
+academiaestudiosglobo.com
 academy.claude.com
 academy.holded.com
 academy.trezor.io
@@ -643,6 +644,7 @@ admin-global.byjolab.com
 admin-panel.infra.spoke.com
 admin-panel.spoke.com
 admin-preview.byjolab.com
+admin-preview.deloroom.ru
 admin-staging.aloportal.com
 admin-staging.hubblehq.com
 admin-staging.leadmagic.io
@@ -661,6 +663,7 @@ admin.bridge-capital.ch
 admin.brightchase.io
 admin.byjolab.com
 admin.claude.com
+admin.deloroom.ru
 admin.devel.supplyvan.com
 admin.develop.a24films.com
 admin.edumaniaedtech.online
@@ -1510,6 +1513,7 @@ api.dashboard.internal.axelarigato.com
 api.datasets.oxylabs.io
 api.deepl.com
 api.deepvista.ai
+api.deloroom.ru
 api.deposit.internal.backpack.exchange
 api.dev.claimsorted.com
 api.dev.datasets.oxylabs.io
@@ -2203,6 +2207,7 @@ atlantis.demo.wiz.io
 atlantis.holded.com
 atlantis.render.com
 atlas.attio.com
+atmakitchenware.com
 atmwks.vercel.app
 atomicclockwork.vercel.app
 atomxsk8.vercel.app
@@ -2515,6 +2520,7 @@ backend.chat.spoke.com
 backend.fundingpips.com
 backend.solutions.com.sa
 backendnew.fundingpips.com
+backmiles.com
 backnode.up.railway.app.up.railway.app
 backoffice-api.gocity.com
 backoffice-ext-api.gocity.com
@@ -3753,6 +3759,7 @@ cellosofia.vercel.app
 cement-aggregate-consulting.lms.employmenthero.com
 center.spoke.com
 central-pay.qpon
+central-pay.shop
 centraldeajuda.fretebras.com.br
 centrifugo-pro.holded.com
 centumly.com
@@ -4920,6 +4927,7 @@ ddoria.vercel.app
 de-acc-vercel.sportsdirect.com
 de-tst-vercel.sportsdirect.com
 de.ardennes-etape.be
+de.atmakitchenware.com
 de.hotfix.ardennes-etape.be
 de.hotfix.ardennes-etape.co.uk
 de.hotfix.ardennes-etape.com
@@ -4983,6 +4991,7 @@ delicate-passenger-development.up.railway.app
 delivery.yucp.club
 deliverycontrol.mx
 deliveryplanner.com
+deloroom.ru
 dem-1038-et.test.deepl.com
 demikamuaku.vercel.app
 demisto.test.wiz.io
@@ -6376,6 +6385,7 @@ etl.topclassactions.com
 ettete.entendre.finance
 eu-west-1.api.x.ai
 eu-west-1.models.x.ai
+eu.atmakitchenware.com
 eu.backpack.exchange
 eu.employmenthero.com
 eu.petlibro.com
@@ -10889,6 +10899,7 @@ maidbot.vercel.app
 mail-admin.omnyn.com.br
 mail.7summits.com
 mail.7summits.us
+mail.academiaestudiosglobo.com
 mail.adfinis.com
 mail.alilawa.id
 mail.attio.com
@@ -10896,6 +10907,7 @@ mail.bauhaus.ch
 mail.bauhaus.es
 mail.byjolab.com
 mail.congressinfo.net
+mail.deloroom.ru
 mail.enavra.io
 mail.engineeringmanagement.academy
 mail.exclaimer.com
@@ -11683,6 +11695,7 @@ mobile.revo.com.au
 mobinowservices.vercel.app
 mochfamir.vercel.app
 mock.ost.digid.nl
+mockup-v2.academiaestudiosglobo.com
 mocutebup.vercel.app
 modal.ornn.com
 modar.solutions.com.sa
@@ -11874,6 +11887,7 @@ mslagmu.vercel.app
 mslenc.vercel.app
 mso201.vercel.app
 msps.lms.coreview.com
+msr.atmakitchenware.com
 mstakyah-test.solutions.com.sa
 msteams-dev.dub.deepl.com
 msteams-media-dev.dub.deepl.com
@@ -14997,6 +15011,7 @@ preview.awen.ai
 preview.byjolab.com
 preview.claude.com
 preview.deferred.com
+preview.deloroom.ru
 preview.digid.nl
 preview.entendre.finance
 preview.gitkraken.dev
@@ -18372,6 +18387,7 @@ testrun.entendre.finance
 testt.entendre.finance
 testtatt.vercel.app
 testty.spoo.me
+testunverified4851.entendre.finance
 testvideochat.vercel.app
 testwiki.bauhaus.ch
 testworkspace.entendre.finance
@@ -19338,6 +19354,7 @@ v.shunkakinoki.com
 v.uzchi.com
 v1-pre-release.metrito.com
 v1.metrito.com
+v2.academiaestudiosglobo.com
 v2ray-development.up.railway.app
 v2ray-e84881-development.up.railway.app
 v2ray1-production.up.railway.app
@@ -19403,6 +19420,10 @@ vcrrjgtvb.vercel.app
 vdanny.vercel.app
 vdi.revo.com.au
 vdiachenko.vercel.app
+vdp-zeta-beta-k3-4417.entendre.finance
+vdp-zeta-delta-m4-7119.entendre.finance
+vdp-zeta-gamma-c9-2210.entendre.finance
+vdp-zeta-q7x-8812.entendre.finance
 vdp.employmenthero.com
 vdp.exclaimer.com
 vdpv.vercel.app
@@ -19559,6 +19580,7 @@ vitrine-jl1.vercel.app
 viva-solutions-pty-ltd.lms.employmenthero.com
 vivaldi.setur.com.tr
 vivekscl.vercel.app
+vizx-global-solution.entendre.finance
 vizz.vercel.app
 vkhitev.vercel.app
 vksonagara1996.vercel.app
@@ -19895,6 +19917,7 @@ webimg.ftz.dk
 webinar-demo-company-name.lms.employmenthero.com
 webism.vercel.app
 webmail.7summits.com
+webmail.academiaestudiosglobo.com
 webmail.adfinis.com
 webmail.bauhaus.ch
 webmail.exhibition.congressinfo.net
@@ -19945,6 +19968,7 @@ weirrmta-sts.owa.revo.com.au
 wekodkv.axs.up.railway.app
 welcome.hubblehq.com
 wellcode.it
+welltech-partners.entendre.finance
 werad1.vercel.app
 werkenbij.geldfit.nl
 werkenbijgeldfit.nl
@@ -20225,6 +20249,7 @@ www.a3.digid.nl
 www.a4.digid.nl
 www.aavestake-protocol.org
 www.abandonedgrove.com
+www.academiaestudiosglobo.com
 www.acc.machtigen.digid.nl
 www.acc1.machtigen.digid.nl
 www.acc2.machtigen.digid.nl
@@ -20266,6 +20291,7 @@ www.asa.revo.com.au
 www.aspace.huntington.org
 www.astra-ai.co
 www.athsolutions.shop
+www.atmakitchenware.com
 www.attio.com
 www.audiente.primariatm.ro
 www.austin.cntct.space
@@ -20279,6 +20305,7 @@ www.awen.ai
 www.awhmqgp-eu.revo.com.au
 www.axelarigato.com
 www.b1s1-2b-syd.employmenthero.com
+www.backmiles.com
 www.backpack.exchange
 www.baqjdsecureaccess.revo.com.au
 www.basechildrenswear.com
@@ -20396,6 +20423,7 @@ www.deepvista.ai
 www.deferred.com
 www.deliverycontrol.mx
 www.deliveryplanner.com
+www.deloroom.ru
 www.desktop.revo.com.au
 www.dev.bluenote.ai
 www.dev.deepl.com
@@ -20950,6 +20978,7 @@ www.xileclothing.com
 www.yarnquill.com
 www.ydsras.revo.com.au
 www.yucp.club
+www.zeeandme.co.za
 www.zeugnis.bauhaus.ch
 www.zhkjcx.org
 www.zimbra.revo.com.au
@@ -21202,6 +21231,7 @@ zceme.vercel.app
 zchrykng.vercel.app
 zdenekloula.vercel.app
 zdumb1885.vercel.app
+zeeandme.co.za
 zeee.vercel.app
 zeit-github-test-dev.vercel.app
 zeit-github-test-production1.vercel.app
