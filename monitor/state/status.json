@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-29T07:08:49Z",
-  "last_run_at": "2026-10-29T03:44:35Z",
-  "last_run_summary": "[2026-10-29T03:44:35Z] 400 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-29T03:44:35Z] HEALTH certspotter=13/582 crtsh=0/3 urlscan=833/833 dns-google=44172/44172 dns-cf=44172/44172",
+  "generated_at": "2026-10-29T15:32:24Z",
+  "last_run_at": "2026-10-29T12:01:46Z",
+  "last_run_summary": "[2026-10-29T12:01:46Z] 60 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-29T12:01:46Z] HEALTH certspotter=15/524 crtsh=58/67 urlscan=372/852 dns-google=43412/43412 dns-cf=43412/43412",
   "tracked_hosts": {
-    "total": 24129,
+    "total": 24276,
     "by_status": {
-      "dead": 3190,
-      "active": 20939
+      "dead": 3803,
+      "active": 20473
     },
     "by_operator_tier": {
-      "A:tier1": 24129
+      "A:tier1": 24276
     }
   },
   "fingerprints": [
@@ -1199,131 +1199,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 6030
+    "A": 6090
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.meridianvolleyball.com",
+      "indicator": "shop.nendazveysonnaz.ch",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.modibodi.co.il",
+      "indicator": "standardintelligence.app",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.mool.fr",
+      "indicator": "status.boldcommerce.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.multillm.link",
+      "indicator": "stories-gvdwaahkbda2crak.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.oregonairbnbforsale.com",
+      "indicator": "supercart.live",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.qmb.ai",
+      "indicator": "terranovametals.au",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.resplit.app",
+      "indicator": "twciapimgtfrontdoor-hpgfgdadfsajdpgq.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.standardintelligence.com",
+      "indicator": "work.mavie.care",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.supercart.live",
+      "indicator": "www.cabaia.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.systemtupdate.vercel.app",
+      "indicator": "www.emae.systems",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "ximob.nexorabrasiloficial.com",
+      "indicator": "www.getpropty.ai",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "xir1j1z6.up.railway.app",
+      "indicator": "www.heartsandmindsinvestments.com.au",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "xiymn05g.up.railway.app",
+      "indicator": "www.kalgoldmining.com.au",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "yaps.kaito.ai",
+      "indicator": "www.northbookhq.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "yld8nigk.up.railway.app",
+      "indicator": "www.nporadio1.nl",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "yom0wzqp.up.railway.app",
+      "indicator": "www.quantacore.shop",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "zajelapi.istiuqeahmed.vercel.app",
+      "indicator": "www.raceface.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "zeeandme.co.za",
+      "indicator": "www.relutv.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "zrenderer-production.up.railway.app",
+      "indicator": "www.solidroad.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     },
     {
       "type": "domain",
-      "indicator": "zx8sfzcc.up.railway.app",
+      "indicator": "www.tomorro.com",
       "operator": "A",
-      "first_seen": "2026-10-29T03:44:35Z"
+      "first_seen": "2026-10-29T12:01:46Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 42672,
+  "manual_review_candidates_pending": 43702,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

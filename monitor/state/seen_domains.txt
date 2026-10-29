@@ -541,8 +541,10 @@ advertisinganddevelopmentcenter.vercel.app
 advisor.hubblehq.com
 aeon.huntington.org
 afd-bmsmap-prod-frhsctb0azgnh2es.a03.azurefd.net
+afd-crp-prod-d4hfdscvejd3dbc6.a03.azurefd.net
 afd-ep-itvl-prod-filessocmutsoc-fjd5fkbkh7c0cbgv.a03.azurefd.net
 afd-iai-prod-northcentralus-innov-ajf3cfe3ake5gecb.a03.azurefd.net
+afd-mata-prod-kqfwa2umbd6bo-asedabdjcfbecwdv.a03.azurefd.net
 afd-voice-onstryker-com-h0afd9fzgzgvaxh0.a03.azurefd.net
 afde-scus-soar-webportal-dev-bufebyc2e3apbshs.a03.azurefd.net
 aff.bloxcart.com
@@ -623,6 +625,7 @@ algolia.com
 algolia.github.io
 algolianet.com
 algorand-developer-portal.tryprism.com
+algothesis.ai
 alicesec.entendre.finance
 alicespace.entendre.finance
 alicews18.entendre.finance
@@ -887,6 +890,7 @@ audius.entendre.finance
 aukilabs.entendre.finance
 aura-blond-five-53.vercel.app
 auth-ar24espc-web.vercel.app
+auth-dutycollection-f7dgfmaceuh6gnc4.a03.azurefd.net
 auth-lnfo.com
 auth-resolver.leadmagic.io
 auth-uat.averyberkel.com
@@ -1146,6 +1150,7 @@ bol-1440.review.allshares.app
 bol-1443.review.allshares.app
 bol-1598.review.allshares.app
 bola.sawithokilogin.com
+bombayhairpro.com
 bonzah.dev.claimsorted.com
 booking-staging.guestpedia.com
 booking.guestpedia.com
@@ -1258,6 +1263,7 @@ carhirenz.com.au
 caring-benevolence-production-e639.up.railway.app
 carly-beauty-booking-production.up.railway.app
 carsxvbtcdhyr.holded.com
+carused.jp
 casasbhlotes06.vercel.app
 cascade.corpora.ai
 cascade.staging.corpora.ai
@@ -1270,6 +1276,7 @@ catjamllc.entendre.finance
 cbiz.entendre.finance
 cbq-payloads.us2.gov.wiz.io
 cbq-payloads.us57.app.wiz.io
+cc.growedin.co
 cca.entendre.finance
 cdn-02-cxgjgufrb2ebfhhr.a03.azurefd.net
 cdn-staging.workbrew.com
@@ -1420,6 +1427,7 @@ cloudmodellab.com
 cloudpliant.ch
 cloudpliant.com
 cloudsecurity.jobs
+clro-prd-fd-gehvhwagh8cgfnc9.a03.azurefd.net
 cm.bpo.solutions.com.sa
 cma.aa-na.space
 cmaufking.top
@@ -1521,6 +1529,7 @@ copytrdng.entendre.finance
 core-mh.vercel.app
 core.dev.printfriendly.com
 core.printfriendly.com
+core.taxassist.co.uk
 coreoptise.com
 coreview.com
 cornerpointgrp.com
@@ -1786,6 +1795,7 @@ dpd.metodaw.com
 dpd.paycore-pl-action.eu.cc
 dpd.paypay-pl2.eu.cc
 dpd.poland-corepay1.eu.cc
+dqf-api-tst-h9fddxadbfaxhfah.a03.azurefd.net
 dream-deals-canada-inc.autodealer.io
 dredging-document-tracking.vercel.app
 driftnet.io
@@ -1797,7 +1807,9 @@ dszevip.com
 dub.sh
 dublivo.app
 dublivo.com
+dummy-brand-review.customer.crm2.internetclinic-app.com
 dummy-brand.customer.dev.crm2.internetclinic-app.com
+dutycollection-hbbxdpfah6cnd9e7.a03.azurefd.net
 dxwagou.cn
 dynamicfinanceconsulting.com.au
 dynvmcoi.up.railway.app
@@ -1811,6 +1823,7 @@ easyoptise.com
 eatgoodprotein.com
 ebaysupermarket.com
 ebsdmz.solutions.com.sa
+echoesof.dev
 eclipsevolleyballkc.athsolutions.shop
 ecomm-rl-prod-fye5gqbxdtbghqer.a03.azurefd.net
 ecount-smoky.vercel.app
@@ -2400,6 +2413,7 @@ icicic.com
 id.opencongress.app
 identity.techweek-staging.com
 idp-fde-fpx-prod-d4egf4fha8aueed9.a03.azurefd.net
+igration-bidstats-cjb5bsavdhdme6ef.a03.azurefd.net
 iivdfifz-cg14.vercel.app
 ijkmaat.workflowheroes.nl
 ijr.com
@@ -3109,6 +3123,7 @@ olx.poland-payhub9.eu.cc
 olx.przelew-paycore.cyou
 olx.przelew-paycore.sbs
 omnyn.com.br
+on-bidstats-cjb5bsavdhdme6ef.a03.azurefd.net
 one-drive-onboarding.vercel.app
 one-water.at
 onecloud.solutions.com.sa
@@ -3164,6 +3179,7 @@ osteodetect-ai-production.up.railway.app
 ostium.entendre.finance
 otcoshawa.digitalsolutionresearch.com
 oticas.michaelvieira.tech
+ourpr.app
 outlook-ashy.vercel.app
 outlook-serv-coral.vercel.app
 outlook-silk-nine.vercel.app
@@ -3212,6 +3228,7 @@ paulweiss.virgil.ai
 paws-go-mobile-grooming.waypost.co.uk
 pay-flow.cfd
 pay-violation.mawgifservices.com
+pay.comilio.app
 paycore-bup-process.sbs
 paycore-confirmation.biz.id
 paycore-confirmation.lol
@@ -3311,6 +3328,7 @@ pltimelesblus.vercel.app
 plusblocks.co
 pm-ai-thumb-production.up.railway.app
 pm-bounces.optise.com
+pms.workx.com.vn
 poczta-polska.payflow-poland2.shop
 poczta-polska.paypay-pl1.eu.cc
 poczta-polska.payu-nitro6.eu.cc
@@ -3341,12 +3359,14 @@ portaal.geldfit.nl
 portainer.syscore.app
 portais-digitais-web-on-es.vercel.app
 portal-git-feat-calc-core-fair-price1.vercel.app
+portal.chattersnow.org
 portal.claimsorted.com
 portal.exclaimer.com
 portal.inafonline.com
 portal.irtlive.com
 portal.petlibro.com
 portal.supportccbill.com
+portal.tcu.gov.br
 portal.torontocondorentalsonline.co
 portfolio-yassine-alahy.vercel.app
 portfolio.findxplorer.com
@@ -3508,6 +3528,7 @@ real-compra-verif.world
 realdr-id.com
 realtime.oxylabs.io
 rebrand.ly
+recoboost.app
 redbrick-plumbing-heating.waypost.co.uk
 redirect-109be65e.vercel.app
 redirect-help.2sync.workers.dev
@@ -3692,6 +3713,7 @@ setur.com.tr
 seturredirecterweb.azurewebsites.net
 seuserveis.vercel.app
 sevensummits.biz
+sevensummits.live
 sevensummits.news
 sf-tst-ex40-spmugi-frontdoor-ep-vmss-bfbrg6dyb0buebdt.a03.azurefd.net
 sh0rt-advenfice941.top
@@ -3711,6 +3733,7 @@ shop-lueur.winslor-demo.com
 shop.a24films.com
 shop.backpack.exchange
 shop.coipang.com
+shop.nendazveysonnaz.ch
 shop.trackwired.com
 shopthrice.zmwxt.com
 showbookingnextstopcomedy.com
@@ -3799,11 +3822,13 @@ staging.newpublicservice.com
 staging.resplit.app
 staging.revo.com.au
 stallmark.studio
+standardintelligence.app
 star.sawithokilogin.com
 startoptise.com
 statements.goldbridgebanking.com
 static.bisrv.com
 statistiek.digid.nl
+status.boldcommerce.com
 status.brightchase.io
 status.coreview.com
 status.newpublicservice.com
@@ -3821,6 +3846,7 @@ storage-australiasoutheast-snowsoftware-io-cnb7bfa7ctftfhhg.a03.azurefd.net
 store.madlads.com
 storewalk-qa-ep-cnb4f7ajfceufhdt.a03.azurefd.net
 storiedmoney.com
+stories-gvdwaahkbda2crak.a03.azurefd.net
 story-gen-app-production.up.railway.app
 storybook-eilo5uwx3-unisuper.vercel.app
 stratium-admin-nonprod-cencorapr-com-dngghra8cxcsa2dq.a03.azurefd.net
@@ -3850,6 +3876,7 @@ sunset-verification-production.up.railway.app
 super-duper-octo-guide.vercel.app
 super-preview-git-feat-cg-1056-mc-52e4ca-currents-golf-projects.vercel.app
 super-preview-git-fix-cg-1056-sis-a14453-currents-golf-projects.vercel.app
+supercart.live
 superfimdeano.vercel.app
 superhits.optise.com
 supersaveclubinsurance.claimsorted.com
@@ -3912,6 +3939,7 @@ telepaws.qa.claimsorted.com
 ten7bpn5.up.railway.app
 tendering.solutions.com.sa
 terminal-style-cv.vercel.app
+terranovametals.au
 terranovametals.com
 tesa-integrationhub-ep-assetsih-prod-d5h6ccdhedfyabd5.a03.azurefd.net
 tesseract-xii.vercel.app
@@ -4071,6 +4099,7 @@ turn.one
 tutoring-manager-coral.vercel.app
 tux42.ch
 tv3911wr.up.railway.app
+twciapimgtfrontdoor-hpgfgdadfsajdpgq.a03.azurefd.net
 twin-test-czddhmfmaeh8c5at.a03.azurefd.net
 twitter-destek.vercel.app
 twitter-giris.vercel.app
@@ -4348,6 +4377,7 @@ wnsi0913.cc
 womenhao.com
 woodtrack.click
 wordpress.footoise.asso.ws
+work.mavie.care
 workbrew.com
 worker-calm-disk-b393.versec.workers.dev
 worker-proud-rice-41eb.versec.workers.dev
@@ -4443,6 +4473,7 @@ www.byjolab.com
 www.bytorhealth.com
 www.bytorhealth.org
 www.bzp-radar.pl
+www.cabaia.com
 www.cabaia.fr
 www.callisign.com
 www.centumly.com
@@ -4480,6 +4511,7 @@ www.easy-bank-pi.vercel.app
 www.edumaniaedtech.online
 www.elementmultiservices.com
 www.eliteccwonline.com
+www.emae.systems
 www.engineeringmanagement.academy
 www.eu-trezor.com
 www.facebook-clone-beta-gules.vercel.app
@@ -4499,9 +4531,11 @@ www.geldersevallei.nl
 www.geldfit.nl
 www.geldfitregiozwolle.nl
 www.geldfitzakelijk.nl
+www.getpropty.ai
 www.gmai.com
 www.gripopjegeld.nl
 www.harveynichols.com
+www.heartsandmindsinvestments.com.au
 www.heyfriday.co.uk
 www.holded.com
 www.hotfix.ardennes-etape.de
@@ -4525,6 +4559,7 @@ www.jestr.gg
 www.jif.ai
 www.juliekovacs.com
 www.junyiacademy.org
+www.kalgoldmining.com.au
 www.laspostascarwash.com
 www.layiq.co
 www.leddeliverybox.ph
@@ -4563,7 +4598,9 @@ www.newsroom.cleavlandclinic.org
 www.nextstopcomedy.com
 www.nixtla.io
 www.nkedin.com
+www.northbookhq.com
 www.noszz.exclusiverewards.7064.ws
+www.nporadio1.nl
 www.nuestro-legado-ia.vercel.app
 www.nycappwiz.com
 www.nycboardflow.com
@@ -4593,10 +4630,13 @@ www.project2-amazone-clone.vercel.app
 www.psd18.com
 www.qmb.ai
 www.qovlira-tek193847265.vercel.app
+www.quantacore.shop
+www.raceface.com
 www.raiffeisen-gilt.vercel.app
 www.raileon.com
 www.refinanciamentoveiculo.520creditos.com.br
 www.reigartkistlerdds.com
+www.relutv.com
 www.rencontres-arles.com
 www.resplit.app
 www.resumeguru.ai
@@ -4620,6 +4660,7 @@ www.shunkakinoki.com
 www.signin-adobe-x4or12j0f7c-8ai1df0w9ygwqx748489-4a60f031a-b62a.vercel.app
 www.snapchat-login-clone.vercel.app
 www.socialflow.vercel.app
+www.solidroad.com
 www.somos-ecuador.vercel.app
 www.spiderhoodieonline.us
 www.spike-detection-trigger.vercel.app
@@ -4639,6 +4680,7 @@ www.thatch.com
 www.thecloudcodingagent.com
 www.thomasrealestate.de
 www.tomo.ai
+www.tomorro.com
 www.topfives.co
 www.topfranceturf.com
 www.trackmyperi.com
