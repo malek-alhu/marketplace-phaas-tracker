@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-28T21:16:36Z",
-  "last_run_at": "2026-10-28T17:43:32Z",
-  "last_run_summary": "[2026-10-28T17:43:32Z] 5 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-28T17:43:32Z] HEALTH certspotter=14/523 crtsh=24/35 urlscan=101/833 dns-google=42376/42376 dns-cf=42375/42376",
+  "generated_at": "2026-10-29T01:22:26Z",
+  "last_run_at": "2026-10-28T22:03:08Z",
+  "last_run_summary": "[2026-10-28T22:03:08Z] 11 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-28T22:03:08Z] HEALTH certspotter=17/512 crtsh=89/112 urlscan=200/833 dns-google=42946/42946 dns-cf=42946/42946",
   "tracked_hosts": {
-    "total": 23703,
+    "total": 23741,
     "by_status": {
-      "dead": 3132,
-      "active": 20571
+      "dead": 3148,
+      "active": 20593
     },
     "by_operator_tier": {
-      "A:tier1": 23703
+      "A:tier1": 23741
     }
   },
   "fingerprints": [
@@ -1199,75 +1199,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 5619
+    "A": 5630
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "modibodi.co.il",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "okbca.xyz",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "oregonairbnbforsale.com",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "post.pidgeon.email",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "predict.fun",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "predixcore.com",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "purefoodstas.com",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "spaceswap.to",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "usdx.ar",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "verify-compra.click",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wallapop.verify-compra.click",
-      "operator": "A",
-      "first_seen": "2026-10-28T11:54:21Z"
-    },
     {
       "type": "domain",
       "indicator": "www.alnforge.com",
@@ -1321,9 +1255,75 @@
       "indicator": "www.zeeandme.co.za",
       "operator": "A",
       "first_seen": "2026-10-28T17:43:32Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "accounts.seen42.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "clerk.seen42.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "funnel.blocks.cloud",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "fx.resplit.app",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "resplit.app",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.resplit.app",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.resplit.app",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "codecov.io",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "codecove.io",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "forestleadsmail.info",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "theaikerrynewsletter.com",
+      "operator": "A",
+      "first_seen": "2026-10-28T22:03:08Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 40841,
+  "manual_review_candidates_pending": 41795,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
