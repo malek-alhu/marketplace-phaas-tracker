@@ -3410,7 +3410,8 @@
    "labels": [
     "phishing",
     "kit",
-    "OLX"
+    "OLX",
+    "resolving"
    ]
   },
   {
@@ -5466,7 +5467,8 @@
    "labels": [
     "phishing",
     "kit",
-    "marketplace-PhaaS (various)"
+    "marketplace-PhaaS (various)",
+    "resolving"
    ]
   },
   {

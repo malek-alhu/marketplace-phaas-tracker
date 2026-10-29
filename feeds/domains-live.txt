@@ -1,6 +1,6 @@
 # Marketplace PhaaS — domains still resolving at the last tracker run
 # Source: https://github.com/malek-alhu/marketplace-phaas-tracker (docs/indicators.csv + confirmed tracker hits)
-# Entries: 46 · newest first_seen: 2026-10-21 · TLP:CLEAR
+# Entries: 48 · newest first_seen: 2026-10-21 · TLP:CLEAR
 # Most kit domains rotate within days; historical entries are kept for retro-hunting.
 # Hacked legitimate sites used as redirectors are intentionally excluded.
 0rd56t457543567567567.sbs
@@ -20,6 +20,7 @@ invoice-center.info
 monrelaisplusin.icu
 negabarit.sbs
 olx-entrega.it.com
+olx.paycore-send.shop
 order-detaljer.shop
 order21.shop
 order3274.cfd
@@ -31,6 +32,7 @@ paycore-confirmation.lol
 paycore-confirmation.sbs
 paycore-confirmation.shop
 paycore-confirmation44232.lol
+paycore-send.shop
 paycore-trust-process.cfd
 payprotect.shop
 przelew-paycore.cyou
