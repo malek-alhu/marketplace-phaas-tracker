@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-30T15:14:08Z",
-  "last_run_at": "2026-10-30T11:55:46Z",
-  "last_run_summary": "[2026-10-30T11:55:46Z] 28 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-30T11:55:46Z] HEALTH certspotter=16/641 crtsh=56/62 urlscan=195/903 dns-google=46510/46510 dns-cf=46510/46510",
+  "generated_at": "2026-10-30T20:22:47Z",
+  "last_run_at": "2026-10-30T17:35:06Z",
+  "last_run_summary": "[2026-10-30T17:35:06Z] 12 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-30T17:35:06Z] HEALTH certspotter=13/578 crtsh=10/15 urlscan=145/920 dns-google=44764/44764 dns-cf=44764/44764",
   "tracked_hosts": {
-    "total": 25955,
+    "total": 26008,
     "by_status": {
-      "dead": 4366,
-      "active": 21589
+      "dead": 4369,
+      "active": 21639
     },
     "by_operator_tier": {
-      "A:tier1": 25955
+      "A:tier1": 26008
     }
   },
   "fingerprints": [
@@ -1252,84 +1252,75 @@
       "added": "2026-10-30",
       "last_confirmed_hit": "2026-10-30",
       "status": "chained"
+    },
+    {
+      "hash": "34de26466ff5cb4766b2388a5a2144646e3d2a1069549d3232f7212b97557ecc",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "5360ad2033070f23451bdced0e9999a557a336b5ace85398c6683c47dd5dedfd",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "565d51d08373e76354578ebe74d52c669b3a7cd2dc02f9067d72c3ab9b4e6f9e",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "5c06467401a778a35ddc87dbad16d84109a6b6fce48e1d13c1d2fc663d2d196b",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "b232d2f2c177d658a64ae03043f45889e3413e69665118399f3f2d9b143a69c6",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "bbf818387832d0e1eec372d97af5be6961db6415969557e262bcb50430b5cea5",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "d776bdb0a4eea55147a6cbffdde9528256791c089cf3290985b5374c5b0e1be7",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "da32c9bf60d49d30ed09d45a0c0942b5bd0c0b27a313bbc34fceb2369417aaf1",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "f9750d2304d3abb1a6a604da7185cfcee8ed4caaac3ffaec36ff61199da2f488",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 7008
+    "A": 7020
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "vibecoding.onneta.com",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.onneta.com",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "app.brandbasket.in",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "auth.preview.webscraping.app",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "d3p2xqr03kyeva.cloudfront.net",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "intuitivelab.ai",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "katalon-2465122.hs-sites.com",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "keltora.com",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "listenlabs.ai",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "recruitee.com",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "sportslife.athsolutions.shop",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "sub.beta.proprt.app",
-      "operator": "A",
-      "first_seen": "2026-10-30T11:55:46Z"
-    },
     {
       "type": "domain",
       "indicator": "www.jonak-paris.com",
@@ -1377,9 +1368,81 @@
       "indicator": "website.depop.qdscdq.com",
       "operator": "A",
       "first_seen": "2026-10-30T11:55:46Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "offsite.attio.com",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "app.novolife.app",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "app.upfirst.ai",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "bir1-creative-2.kurumsalwebsite.co",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "bmail.baselyapp.com",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "digital-office-eta.vercel.app",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "discordservers.com",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "gambagrid.com",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "layo.co",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "mydose.ai",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "shop.eventjet.at",
+      "operator": "A",
+      "first_seen": "2026-10-30T17:35:06Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 46934,
+  "manual_review_candidates_pending": 47827,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
