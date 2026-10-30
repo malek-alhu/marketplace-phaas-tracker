@@ -897,6 +897,7 @@ app.attio.com
 app.awen.ai
 app.beanstalkconsulting.co
 app.beta.getgrout.com
+app.brandbasket.in
 app.bytorhealth.com
 app.clickgrowth.com.br
 app.codecov.io
@@ -1042,6 +1043,7 @@ auth.houseoffraser.co.uk
 auth.lidio.app
 auth.mtaccountaccess.com
 auth.novoindustries.co
+auth.preview.webscraping.app
 auth.renassantbank.com
 auth.replicas.dev
 auth.roole.fr
@@ -1784,6 +1786,7 @@ d.spoke.com
 d0uqyo42.up.railway.app
 d12fboof.up.railway.app
 d21w.cn
+d3p2xqr03kyeva.cloudfront.net
 da8-fehebsbahhfcd4cc.a03.azurefd.net
 dacajncritter.com
 daffams-portfolio.vercel.app
@@ -2748,6 +2751,7 @@ interac-online.vercel.app
 internal-voice-onstryker-com-brc3baepdqb2ewgw.a03.azurefd.net
 intrec.vercel.app
 intuit-prev.vercel.app
+intuitivelab.ai
 invest.energyx.com
 investclearly.com
 investorhavencapital.com
@@ -2812,11 +2816,13 @@ kagenoubot-production.up.railway.app
 kaito.ai
 kalgoorlieexploration.com.au
 karvaan-studios.vercel.app
+katalon-2465122.hs-sites.com
 kazou-bo-prod-b3becdafa2a7gzej.a03.azurefd.net
 kbcqw-h21w.vercel.app
 kc21hn9w.up.railway.app
 kc5gzvsa.up.railway.app
 kehauyeuxilli-3537.vercel.app
+keltora.com
 kelvn-support.wattstack.io
 kennis-123.waypost.co.uk
 kennis-pt.waypost.co.uk
@@ -2927,6 +2933,7 @@ links.bridge-capital.ch
 links.clickgrowth.com.br
 links.heyfriday.co.uk
 links.notification.intuit.com
+listenlabs.ai
 lite-core-1.vercel.app
 literaturefriend.com
 livaction-mintgft13.vercel.app
@@ -3863,6 +3870,7 @@ realtime.oxylabs.io
 rebrand.ly
 recipe-generator-omkardile.vercel.app
 recoboost.app
+recruitee.com
 redbrick-plumbing-heating.waypost.co.uk
 redirect-109be65e.vercel.app
 redirect-help.2sync.workers.dev
@@ -4198,6 +4206,7 @@ spoo.me
 sporkdao.entendre.finance
 sportsdirect-malaysia-cs.zendesk.com
 sportsdirect.com
+sportslife.athsolutions.shop
 spotify-canva.vercel.app
 sriamrutheshwaratemple.com
 ssl-vpn.evip.solutions.com.sa
@@ -4262,6 +4271,7 @@ studio.standardintelligence.com
 studio.zuuvi.com
 studiohive.art
 studiomatos.vercel.app
+sub.beta.proprt.app
 subito.cam
 subito.pagamento.cc
 subito.verifieer.cc
@@ -5015,11 +5025,13 @@ www.j2zfz.1-win26.xyz
 www.jerzz.exclusiverewards.7064.ws
 www.jestr.gg
 www.jif.ai
+www.jonak-paris.com
 www.juliekovacs.com
 www.junyiacademy.org
 www.kalgoldmining.com.au
 www.kalgoorlieexploration.com
 www.kalgoorliegoldexploration.com
+www.kansasdems.org
 www.kaszuby24.pl
 www.korea-one-alpha.vercel.app
 www.landing3-web-lcgz.vercel.app
@@ -5045,6 +5057,7 @@ www.meshki.com.au
 www.meshki.us
 www.meta.ai
 www.mintopenseapronow7.vercel.app
+www.minttree.org
 www.modibodi.co.il
 www.momsdontforget.com
 www.monprofmaison.com
@@ -5101,10 +5114,12 @@ www.psd18.com
 www.qmb.ai
 www.qovlira-tek193847265.vercel.app
 www.quantacore.shop
+www.raceface.ca
 www.raceface.com
 www.raiffeisen-gilt.vercel.app
 www.raileon.com
 www.randalls.nextjs-4-27-phi.vercel.app
+www.rece.to
 www.refinanciamentoveiculo.520creditos.com.br
 www.reigartkistlerdds.com
 www.relutv.com
@@ -5271,6 +5286,7 @@ zawleeya-wedding-invitation.vercel.app
 zeeandco.co.uk
 zeeandme.co.za
 zen2-dwanbrg7hdg8d3b7.a03.azurefd.net
+zerotell.com
 zeu-lnr-cdn-s2-sul-dev-h7g8cvegg3g3d0gf.a03.azurefd.net
 zeus.sawithokilogin.com
 zhan3-fyg6hye7gbbwhjb8.a03.azurefd.net

@@ -141,6 +141,7 @@
 2a57j77tquppxkxpp0ow3wj78ekl878.beta.byjolab.com
 2a57j780olh9y9xqbb05rfdkozihhcw.data.topclassactions.com
 2a57j78ex0uyy8at6kclz7z5721735c.byjolab.com
+2a57j78hsrstljvqlux8inqlkmoufug.onneta.com
 2fa-atdd.review.allshares.app
 2gbpz6ock88lptu.icu
 2sync.com
@@ -597,6 +598,7 @@ acmetest2.workflowheroes.nl
 acmetest3.workflowheroes.nl
 acmetest4.workflowheroes.nl
 acmeval.exclaimer.com
+acr.run
 action-paycore-pl.shop
 action-paycore-pl1.eu.cc
 activegateway.solutions.com.sa
@@ -1192,6 +1194,7 @@ alpacasilove.vercel.app
 alpcan.vercel.app
 alpha-2922.comilio.app
 alpha-auto-brokers.autodealer.io
+alpha.developer.tomorro.com
 alpha.gblbs.exclaimer.com
 alphaemails.exclaimer.com
 alphaemails.gblbs.exclaimer.com
@@ -1873,6 +1876,7 @@ apidev.bidikeducation.up.railway.app
 apidocs.preview.render.com
 apidodistribob-cloud.roole.fr
 apigw.leadmagic.io
+apiproduct.tomorro.com
 apis-test.leadmagic.io
 apis.gocity.com
 apiv2.plasma.ai
@@ -1999,6 +2003,7 @@ app.neta.market
 app.nextlayersports.com
 app.nporadio1.nl
 app.nucreator.com
+app.onneta.com
 app.optise.com
 app.pangobooks.com
 app.pdrcore.com
@@ -2019,6 +2024,7 @@ app.smartlead-outbound3.com
 app.staging.a24films.com
 app.staging.nextlayersports.com
 app.staging.render.com
+app.staging.tomorro.com
 app.storiedmoney.com
 app.studiohive.art
 app.tallerpro.io
@@ -2079,6 +2085,8 @@ apqr7n.vercel.app
 apryse.dev.printfriendly.com
 aptly-prod.adfinis.com
 aptly-test.adfinis.com
+aptly.ad-sy.ch
+aptly.adfinis-sygroup.ch
 aptly.adfinis.com
 aptsharp.vercel.app
 apucacao.vercel.app
@@ -2274,6 +2282,7 @@ ask.holded.com
 ask.spoke.com
 askasckr.vercel.app
 aske.vercel.app
+asktutti.com
 asl.solutions.com.sa
 asp.render.com
 aspace.huntington.org
@@ -2385,6 +2394,9 @@ augustolazaro.vercel.app
 augustskare.vercel.app
 aukilabs.entendre.finance
 aur.driftnet.io
+aura.demo.tomorro.com
+aura.staging.tomorro.com
+aura.tomorro.com
 auramarfop.vercel.app
 aurora-sglang.us-east-1.models.x.ai
 aurora-upsampler-sglang.us-east-1.models.x.ai
@@ -2752,6 +2764,7 @@ bank.purnatoto.site
 bankai254.vercel.app
 bankless.entendre.finance
 banks.solutions.com.sa
+bao.adfinis.com
 bao.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 baptistedarcq.vercel.app
 baqjdsecureaccess.revo.com.au
@@ -2943,6 +2956,7 @@ beta2.portal.axelarigato.com
 betamy.com
 bethnalgreen.taxassist.co.uk
 betomga2013.vercel.app
+better.tomorro.com
 beverley.taxassist.co.uk
 bevry.vercel.app
 bewley755.vercel.app
@@ -3646,6 +3660,7 @@ bshafii.vercel.app
 bsi-learning.lms.employmenthero.com
 bsiddiqui.vercel.app
 bsmith.vercel.app
+bspce.tomorro.com
 btaleisnik.vercel.app
 btc1.vercel.app
 btemme.vercel.app
@@ -3663,6 +3678,7 @@ build-cdn.algolia.com
 build-clean-adelaide.lms.employmenthero.com
 build.corpora.ai
 build.curve.corpora.ai
+build.tomorro.com
 builder.algolia.com
 builder.zuuvi.com
 building.hubblehq.com
@@ -3803,6 +3819,7 @@ calendar.io.up.railway.app
 calendar.muso.ai
 calendar.sunya.up.railway.app
 calendar.tomo.ai
+calendar.tomorro.com
 calendso-production.up.railway.app
 calibre-furniture-pty-ltd.lms.employmenthero.com
 calibre-real-estate-pty-ltd.lms.employmenthero.com
@@ -3889,6 +3906,7 @@ careers.harveynichols.com
 careers.houseoffraser.co.uk
 careers.ornn.com
 careers.solutions.com.sa
+careers.tomorro.com
 carefreer.vercel.app
 careof.vercel.app
 carers-act.lms.employmenthero.com
@@ -4076,6 +4094,7 @@ chananet.vercel.app
 chancy1.vercel.app
 chandu.vercel.app
 changelog.algolia.com
+changelog.tomorro.com
 channel.uzchi.com
 chanonpingpong.vercel.app
 chanwhab.vercel.app
@@ -4106,6 +4125,8 @@ chat.kaito.ai
 chat.leadmagic.io
 chat.metrito.com
 chat.omnyn.com.br
+chat.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+chat.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 chat.order.bloxcart.com
 chat.order.peter.bloxcart.com
 chat.shunkakinoki.com
@@ -4589,6 +4610,7 @@ comilio.app
 commerce-staging.ornn.com
 commerce.ornn.com
 commitnpush.vercel.app
+communaute-on.tomorro.com
 communication.coreview.com
 community-accessability-inc.lms.employmenthero.com
 community-auth.deepl.com
@@ -4639,6 +4661,7 @@ config-o2.digid.nl
 config-t1.digid.nl
 config-t2.digid.nl
 config-t3.digid.nl
+configmgr.adfinis.com
 configuration-bonsplansauto.roole.fr
 confirm-9580.shop
 confirm.tfps.dev.blocks.cloud
@@ -4740,6 +4763,7 @@ corbucristi22.vercel.app
 core.dev.printfriendly.com
 core.metrito.com
 core.printfriendly.com
+core.registry.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 corelearning.coreview.com
 corepay.app
 coreview.com
@@ -4853,6 +4877,7 @@ crestle-ai.onrender.com
 crestle.app.render.com
 crestle.onrender.com
 crewsense.vercel.app
+crianza365.com
 cricket-fashion.com
 crisdapps.revo.com.au
 crispinmueller.vercel.app
@@ -5204,6 +5229,7 @@ data.oxylabs.io
 data.primariatm.ro
 data.roole.fr
 data.staging.roole.fr
+data.tomorro.com
 data.topclassactions.com
 data.us.algolia.com
 data.x.ai
@@ -5215,6 +5241,7 @@ dataproc-staging.googleusercontent.com
 dataproc-test.googleusercontent.com
 dataproc.googleusercontent.com
 dataroom.nixtla.io
+dataroom.onneta.com
 dataroom.optise.com
 datasets.oxylabs.io
 datasets.theirstack.com
@@ -5224,6 +5251,8 @@ datawebservice.exclaimer.com
 datawebservice.gblbs.exclaimer.com
 date-transformer.review.allshares.app
 dausrpl12.vercel.app
+dav.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+dav.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 davbre.vercel.app
 dave4506.vercel.app
 davegrs.vercel.app
@@ -5394,6 +5423,7 @@ demo.deferred.com
 demo.digitalsolutionresearch.com
 demo.exclaimer.com
 demo.gitkraken.dev
+demo.gotomorro.com
 demo.inkonchain.com
 demo.lms.coreview.com
 demo.meallions.com
@@ -5403,6 +5433,7 @@ demo.sidebarhealth.com
 demo.tallerpro.io
 demo.taxassist.co.uk
 demo.test.up.railway.app
+demo.tomorro.com
 demo.virgil.ai
 demo.wiz.io
 demo3.vercel.app
@@ -5430,6 +5461,7 @@ denysk.vercel.app
 denzel-test-business.lms.employmenthero.com
 depapp.vercel.app
 department-seats.innovativenurseeducator.com
+dependency-track.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 deploy-code-server-15fdb0-development.up.railway.app
 deploy-code-server-5ff95f-development.up.railway.app
 deploy-code-server-6b7489-development.up.railway.app
@@ -5609,6 +5641,7 @@ dev.snpon.com
 dev.sso.spoke.com
 dev.stemhatch.up.railway.app
 dev.support-dash.fundingpips.com
+dev.tomorro.com
 dev.track.spoke.com
 dev.vpm.yucp.club
 dev.vurilo.up.railway.app
@@ -6899,6 +6932,7 @@ esign.staging.fundingpips.com
 eskuadropop.shop
 eslam.vercel.app
 esmerivero.vercel.app
+esop.tomorro.com
 esoup.vercel.app
 espacepro.roole.fr
 espanyoh.vercel.app
@@ -7309,12 +7343,15 @@ file.roole.fr
 filemaker.huntington.org
 files-cdn-staging.x.ai
 files-cdn.x.ai
+files.adfinis-sygroup.ch
 files.adfinis.com
 files.ak.muso.ai
 files.awen.ai
 files.eu6.integration.wiz.io
 files.leadmagic.io
 files.muso.ai
+files.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+files.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 filesearch.adfinis.com
 filestreambot-pro.tk.up.railway.app
 filips.vercel.app
@@ -7768,6 +7805,7 @@ garyanikin.vercel.app
 gasparddd.vercel.app
 gate.revo.com.au
 gateway.ak.muso.ai
+gateway.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 gateway.datasets.oxylabs.io
 gateway.metrito.com
 gateway.muso.ai
@@ -8029,6 +8067,7 @@ gosugdr.vercel.app
 gotfantasy.vercel.app
 gothbarbie84.vercel.app
 goto.algolia.com
+gotomorro.com
 gotoo.bauhaus.ch
 gov-us1-sensor.gov.wiz.io
 gov-us1.forensics-package.gov.wiz.io
@@ -9285,8 +9324,12 @@ icio.entendre.finance
 icons.integration.wiz.io
 icons.wiz.io
 icp.leadmagic.io
+ics.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+ics.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 icyshadow20.vercel.app
 id.opencongress.app
+id.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+id.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 id.ornn.com
 id.primariatm.ro
 idahjermitslev.vercel.app
@@ -10926,6 +10969,7 @@ landing.aaa24.a24films.com
 landing.app.render.com
 landing.fretebras.com.br
 landing.leadmagic.io
+landing.tomorro.com
 landmark1.vercel.app
 landn172.vercel.app
 landolfialan.vercel.app
@@ -11057,6 +11101,7 @@ legal.ornn.com
 legal.wiz.io
 legalgate.solutions.com.sa
 legalgateuat.solutions.com.sa
+legaljobs.tomorro.com
 legend-trail.development.tipboxhq.com
 legendarylol.vercel.app
 legolas.vercel.app
@@ -11601,6 +11646,7 @@ m.revo.com.au
 m.scottsmenswear.com
 m.sportsdirect.com
 m.tessuti.co.uk
+m.tomorro.com
 m.ultima.yt
 m.usc.co.uk
 m.wfmcsy.com
@@ -11633,6 +11679,7 @@ mackintoshsecurity.com
 macknsons-1.lms.employmenthero.com
 macknsons-2.lms.employmenthero.com
 macknsons.lms.employmenthero.com
+mad-hatter.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 madecomfy-1.lms.employmenthero.com
 madeleineauvinen.vercel.app
 madhumithabbs.vercel.app
@@ -11712,6 +11759,7 @@ mail.splitbag.com
 mail.supafunnel.cc
 mail.timeflies.live
 mail.tumbleliving.com
+mail.tux42.ch
 mail.ultima.yt
 mail.wally.xyz
 mail.webbutik.obos.se
@@ -11930,6 +11978,8 @@ martinvenus.vercel.app
 maruljica.vercel.app
 marvinholleman.vercel.app
 marwarekik.vercel.app
+maryanab-devex-plattform-for-bpa-grafana.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+maryanab-devex-plattform-for-bpa-mimir.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 maryenorthrup.vercel.app
 masamori.vercel.app
 masarutsurumi.vercel.app
@@ -11973,6 +12023,18 @@ matiasos.vercel.app
 matiastucci.vercel.app
 matomo.adfinis.com
 matrayu.vercel.app
+matrix-federation.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-federation.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neoboard-widget.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neoboard-widget.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neochoice-widget.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neochoice-widget.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neodatefix-bot.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neodatefix-bot.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neodatefix-widget.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix-neodatefix-widget.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+matrix.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 matsumotokazuya7.vercel.app
 matt1.vercel.app
 matt2.vercel.app
@@ -12165,6 +12227,8 @@ meerasunder.vercel.app
 meet-satoshis.games.up.railway.app
 meet.adfinis.com
 meet.exclaimer.com
+meet.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+meet.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 megaeagle360.vercel.app
 megan1.vercel.app
 megangoeschbird.vercel.app
@@ -12529,6 +12593,7 @@ molodostroy.vercel.app
 moments-warteraum.telekom.de
 momo1.vercel.app
 momoumar.vercel.app
+monclm.tomorro.com
 moncompte.roole.fr
 mongo-01.fretebras.com.br
 mongo-02.fretebras.com.br
@@ -13299,6 +13364,7 @@ notify.aination.gr
 notify.creators.astra-ai.co
 notify.demo.meallions.com
 notify.meallions.com
+notify.tomorro.com
 notnotdarkhole.vercel.app
 notreal002.vercel.app
 noudvankruysbergen.vercel.app
@@ -13309,8 +13375,10 @@ novastro.launchpad.kaito.ai
 novidades.fretebras.com.br
 novo-app.oz-tms.com
 novonorth.com
+now-2026.tomorro.com
 now-app-dr.solutions.com.sa
 now-cors1.vercel.app
+now-germany-2026.tomorro.com
 now-hiring-pty-ltd.lms.employmenthero.com
 now-sh.vercel.app
 now-talk1.vercel.app
@@ -13421,6 +13489,10 @@ ob.ontwikkel.machtigen.digid.nl
 ob.otcp.machtigen.digid.nl
 ob.pp1.machtigen.digid.nl
 ob.pp2.machtigen.digid.nl
+objectstorage-ui.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+objectstorage-ui.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+objectstorage.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+objectstorage.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 obos.se
 obqhwtmc.revo.com.au
 observervoir.rencontres-arles.com
@@ -13442,6 +13514,7 @@ od.anmiao.up.railway.app
 odeis.vercel.app
 odeme.setur.com.tr
 odincode.vercel.app
+odoo-nl.adfinis.com
 odoo-prod.rouje.com
 odoo-test.adfinis.com
 odoo.adfinis.com
@@ -13453,9 +13526,12 @@ ofery.vercel.app
 offer7693012.shop
 offer8259012.shop
 offer8692056.shop
+offers.tomorro.com
 office-line-group-pty-ltd.lms.employmenthero.com
 office-stage.fretebras.com.br
 office.fretebras.com.br
+office.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+office.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 office.revo.com.au
 office.urbis.primariatm.ro
 officeconsult.vercel.app
@@ -13506,6 +13582,7 @@ old.employmenthero.com
 old.nextgentrainingacademy.com
 old.nextstopcomedy.com
 old.nporadio1.nl
+old.onneta.com
 old.reigartkistlerdds.com
 old.ultima.yt
 old.zuuvi.com
@@ -13582,6 +13659,7 @@ onfido-people1.vercel.app
 onh1.vercel.app
 online-order.top
 onlinegamesllc.entendre.finance
+onneta.com
 onplanner.vercel.app
 onrender.com
 onsite.algolia.com
@@ -13605,6 +13683,8 @@ openbao-hsm-primus.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 openbao.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 openclaw.shunkakinoki.com
 opencongress.app
+opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 openmind.launchpad.kaito.ai
 openpgpkey.revo.com.au
 openview.grvt.io
@@ -13727,6 +13807,8 @@ orla.uk
 orlin.vercel.app
 ormand.entendre.finance
 ornn.com
+oro.admin.tomorro.com
+oro.tomorro.com
 orpington.taxassist.co.uk
 orr.vercel.app
 orthros.vercel.app
@@ -13861,6 +13943,9 @@ paczzka434236212.shop
 paczzkaa643185.sbs
 paczzkaa742165.sbs
 paczzkaa763238.click
+pad.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+pad.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+padel-club.tomorro.com
 padenj.vercel.app
 pagamento.cc
 pages.adfinis.com
@@ -14317,6 +14402,8 @@ pjhenning.vercel.app
 pjivers.vercel.app
 pjrashidi.vercel.app
 pkarauda.vercel.app
+pkg.adfinis-on-exoscale.ch
+pkg.adfinis-sygroup.ch
 pkg.adfinis.com
 pkgtest.adfinis.com
 pkp.vercel.app
@@ -14458,6 +14545,8 @@ portal.inafonline.com
 portal.kaito.ai
 portal.leadmagic.io
 portal.michaelvieira.tech
+portal.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+portal.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 portal.pdrcore.com
 portal.petlibro.com
 portal.progressivepipeline.org
@@ -15944,6 +16033,7 @@ preview.heyfriday.co.uk
 preview.hv-piechowski.com
 preview.investclearly.com
 preview.leadmagic.io
+preview.onneta.com
 preview.reports.deferred.com
 preview.sgtm.trezor.io
 preview.slappcard.com
@@ -16167,6 +16257,8 @@ project.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 projectbagel.hubblehq.com
 projectg7.vercel.app
 projectronin1.vercel.app
+projects.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+projects.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 prokopd.vercel.app
 prom-staging.2sync.com
 prom.2sync.com
@@ -16415,6 +16507,7 @@ quizium.vercel.app
 quizzygame.stg.up.railway.app
 quomoow.vercel.app
 quorum-systems-pty-ltd.lms.employmenthero.com
+quotes.tomorro.com
 qusecure.leadmagic.io
 quvofj-serving.operand.up.railway.app
 quvofj.serving.operand.up.railway.app
@@ -16691,6 +16784,7 @@ release.hubblehq.com
 releases.claude.com
 releases.exclaimer.com
 releases.leadmagic.io
+relutv.com
 rem.vercel.app
 rema424.vercel.app
 rememberjack.vercel.app
@@ -16723,6 +16817,7 @@ renditions.yucp.club
 renefreak.vercel.app
 renewell-pty-ltd.lms.employmenthero.com
 renge-infra-manager.vercel.app
+renovate.adfinis.com
 rent.roole.fr
 rento.vercel.app
 renzo1473.vercel.app
@@ -16999,6 +17094,7 @@ rohitbommisetti19.vercel.app
 rohitmishra.vercel.app
 rohn.vercel.app
 roi-calculator.coreview.com
+roi.tomorro.com
 roilplu.vercel.app
 roja.vercel.app
 rojasmi1.vercel.app
@@ -17343,6 +17439,7 @@ sandbox.googleusercontent.com
 sandbox.kaito.ai
 sandbox.lms.coreview.com
 sandbox.oiko.life
+sandbox.onneta.com
 sandbox.shunkakinoki.com
 sandbox.virgil.ai
 sandbox1.vercel.app
@@ -17555,6 +17652,7 @@ selen.vercel.app
 selfpub1.vercel.app
 selfservice.solutions.com.sa
 selichwork.vercel.app
+semaphore.adfinis.com
 semion44.vercel.app
 semiotic.entendre.finance
 semmivp1.vercel.app
@@ -18329,6 +18427,7 @@ stage.fretebras.com.br
 stage.int.oxylabs.io
 stage.oxylabs.io
 stage.spiderweb.ar
+stage.tomorro.com
 stage.wiz.io
 stage2-dashboard-api.oxylabs.io
 stage2-dashboard.oxylabs.io
@@ -18405,6 +18504,7 @@ staging.gei.up.railway.app
 staging.geldfit.nl
 staging.gitkraken.dev
 staging.gocity.com
+staging.gotomorro.com
 staging.harveynichols.com
 staging.howdy.com
 staging.hubblehq.com
@@ -18438,6 +18538,7 @@ staging.slappcard.com
 staging.student.a24films.com
 staging.supplyvan.com
 staging.thatch.com
+staging.tomorro.com
 staging.ugc.astra-ai.co
 staging.virgil.ai
 staging.wamaya.pl
@@ -18484,6 +18585,8 @@ static.deepl.com
 static.deferred.com
 static.gocity.com
 static.muso.ai
+static.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+static.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 static.opinion.ijr.com
 static.rustyfiles.xyz
 static.setur.com.tr
@@ -18809,6 +18912,7 @@ sumitk.vercel.app
 sumitk1.vercel.app
 sumitsonaskar.vercel.app
 summarum.vercel.app
+summer-cocktail-2026.tomorro.com
 summeroffsite2026.deferred.com
 summershaw.vercel.app
 summit.vercel.app
@@ -19873,6 +19977,7 @@ tommyfai.vercel.app
 tommyisobar.vercel.app
 tommyostgaard.vercel.app
 tomo.ai
+tomorro.com
 tomtombusiness.vercel.app
 tomtunguz-1up8.app.render.com
 tomysmile.vercel.app
@@ -19935,6 +20040,7 @@ trabur.vercel.app
 track-inform.cyou
 track-me.vercel.app
 track.awen.ai
+track.ceh.tomorro.com
 track.ctx.mail.attio.com
 track.exclaimer.com
 track.leadmagic.io
@@ -20039,6 +20145,8 @@ tribe-breweries-eh.lms.employmenthero.com
 tribou1.vercel.app
 tributelabs.entendre.finance
 trigger.2sync.com
+trigger.aptly.ad-sy.ch
+trigger.aptly.adfinis-sygroup.ch
 trigger.aptly.adfinis.com
 trigger.leadmagic.io
 trilogy.entendre.finance
@@ -20088,6 +20196,7 @@ trust.render.com
 trust.replicas.dev
 trust.spoke.com
 trust.thatch.com
+trust.tomorro.com
 trust.wiz.io
 trust.workbrew.com
 trust.x.ai
@@ -20422,6 +20531,7 @@ upnid.vercel.app
 upp61529.vercel.app
 uppertank.vercel.app
 upptaget.vercel.app
+upterm.adfinis.com
 uptime.oxylabs.io
 uptime.zuuvi.com
 upxlabs.vercel.app
@@ -20728,6 +20838,7 @@ vfrancohdez1.vercel.app
 vgtestinfo.vercel.app
 vgvenkat.vercel.app
 vhfogwww.mail.revo.com.au
+vibecoding.onneta.com
 viberbot1.vercel.app
 vibes.leadmagic.io
 vibhavaligandhi.vercel.app
@@ -20831,7 +20942,12 @@ vlastiq.vercel.app
 vlog.uzchi.com
 vlsbhawnjgwebmail2013.revo.com.au
 vlukin.vercel.app
+vm-adfch-bao-prod-westeurope-01.tux42.ch
+vm-adfch-bao-prod-westeurope-02.tux42.ch
+vm-adfch-bao-prod-westeurope-03.tux42.ch
+vm-adfinis-openvox-master-01.tux42.ch
 vm-manager.adfinis.com
+vmadfchucs03.tux42.ch
 vmoroz.vercel.app
 vmp44913.vercel.app
 vnda1.vercel.app
@@ -21177,6 +21293,8 @@ webmail.metabase.cloud.junyiacademy.org
 webmail.metrito.com
 webmail.novonorth.com
 webmail.omnyn.com.br
+webmail.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+webmail.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 webmail.periyartigers.com
 webmail.predict.fun
 webmail.primariatm.ro
@@ -21254,6 +21372,8 @@ whispli-1.lms.employmenthero.com
 whitburn.taxassist.co.uk
 white-fox-boutique-1.lms.employmenthero.com
 white-fox-boutique.lms.employmenthero.com
+whiteboard.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+whiteboard.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 whiteboard1.vercel.app
 whiteharbor.entendre.finance
 whitehaven.taxassist.co.uk
@@ -21281,6 +21401,8 @@ wiki-test.adfinis.com
 wiki.adfinis.com
 wiki.bauhaus.ch
 wiki.kaito.ai
+wiki.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+wiki.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 wiki.shunkakinoki.com
 wiki.trezor.io
 wikitest.bauhaus.ch
@@ -21323,6 +21445,7 @@ wilstuckey.vercel.app
 wimbledon.taxassist.co.uk
 wimroukema.vercel.app
 win.bauhaus.ch
+win.tomorro.com
 win.wiz.io
 win11react.docs.up.railway.app
 winchester.taxassist.co.uk
@@ -21563,6 +21686,7 @@ www.app.thatch.com
 www.apps.revo.com.au
 www.ardennes-etape.be
 www.asa.revo.com.au
+www.asktutti.com
 www.aspace.huntington.org
 www.astra-ai.co
 www.athsolutions.shop
@@ -21698,6 +21822,7 @@ www.coupleos.com
 www.cpcalendars.revo.com.au
 www.cpcontacts.revo.com.au
 www.cqpxba.com
+www.crianza365.com
 www.cricket-fashion.com
 www.crmservices.exclaimer.com
 www.cruisefashion.com
@@ -21913,6 +22038,7 @@ www.lrmsxtve.revo.com.au
 www.lumail.io
 www.lyncaccess.exclaimer.com
 www.m.revo.com.au
+www.m.tomorro.com
 www.m365securityquiz.coreview.com
 www.machtigen.digid.nl
 www.magento-qa4.cloud.junyiacademy.org
@@ -22003,6 +22129,7 @@ www.ogrencieposta.revo.com.au
 www.old-version-official.junyiacademy.org
 www.omnyn.com.br
 www.one-water.at
+www.onneta.com
 www.onrender.com
 www.ontwikkel.machtigen.digid.nl
 www.oodelivery.com.br
@@ -22098,6 +22225,7 @@ www.recommendation-test-v1.cloud.junyiacademy.org
 www.recommendation-test-v2.cloud.junyiacademy.org
 www.reigartkistlerdds.com
 www.relay.revo.com.au
+www.relutv.com
 www.remote.exclaimer.com
 www.remote.revo.com.au
 www.remoteaccess.revo.com.au
@@ -22226,6 +22354,7 @@ www.tidynames.com
 www.timeflies.live
 www.tipboxhq.com
 www.tomo.ai
+www.tomorro.com
 www.topclassactions.com
 www.trackwired.com
 www.transfer.bauhaus.ch
@@ -22655,6 +22784,7 @@ zoo46201.vercel.app
 zoomelectrico.vercel.app
 zoovenir.vercel.app
 zorafm-development.up.railway.app
+zorro.tomorro.com
 zostera1.vercel.app
 zotterdas.vercel.app
 zpybdsms.revo.com.au

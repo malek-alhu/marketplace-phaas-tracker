@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-30T07:47:28Z",
-  "last_run_at": "2026-10-30T03:47:17Z",
-  "last_run_summary": "[2026-10-30T03:47:17Z] 832 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-30T03:47:17Z] HEALTH certspotter=23/558 crtsh=271/297 urlscan=889/889 dns-google=45748/45748 dns-cf=45748/45748",
+  "generated_at": "2026-10-30T15:14:08Z",
+  "last_run_at": "2026-10-30T11:55:46Z",
+  "last_run_summary": "[2026-10-30T11:55:46Z] 28 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-30T11:55:46Z] HEALTH certspotter=16/641 crtsh=56/62 urlscan=195/903 dns-google=46510/46510 dns-cf=46510/46510",
   "tracked_hosts": {
-    "total": 25813,
+    "total": 25955,
     "by_status": {
-      "dead": 4250,
-      "active": 21563
+      "dead": 4366,
+      "active": 21589
     },
     "by_operator_tier": {
-      "A:tier1": 25813
+      "A:tier1": 25955
     }
   },
   "fingerprints": [
@@ -1238,134 +1238,148 @@
       "added": "2026-10-29",
       "last_confirmed_hit": "2026-10-30",
       "status": "chained"
+    },
+    {
+      "hash": "34b709ed34f87b3bc4b80bc1dd74438815d10e8d4c04aa630e8a7683d53cab5f",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
+    },
+    {
+      "hash": "76348b336af44f08ca00647cbc6309217ee5bb88c8e11f68674474b26702d5e2",
+      "label": "chained",
+      "added": "2026-10-30",
+      "last_confirmed_hit": "2026-10-30",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 6980
+    "A": 7008
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www.ledg-1785870833918739958.vercel.app",
+      "type": "cert",
+      "indicator": "vibecoding.onneta.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.onneta.com",
+      "operator": "A",
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.lookhot-rust.vercel.app",
+      "indicator": "app.brandbasket.in",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.mavie.care",
+      "indicator": "auth.preview.webscraping.app",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.nowsolidroadtraining.com",
+      "indicator": "d3p2xqr03kyeva.cloudfront.net",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.paycore-send.shop",
+      "indicator": "intuitivelab.ai",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.randalls.nextjs-4-27-phi.vercel.app",
+      "indicator": "katalon-2465122.hs-sites.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.request-form-9972.vercel.app",
+      "indicator": "keltora.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.sarbajit-netflix-clone.vercel.app",
+      "indicator": "listenlabs.ai",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.scotiaa-jamaica-sd7v.vercel.app",
+      "indicator": "recruitee.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.taxassist.co.uk",
+      "indicator": "sportslife.athsolutions.shop",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tipboxhq.com",
+      "indicator": "sub.beta.proprt.app",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tumbleliving.ca",
+      "indicator": "www.jonak-paris.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.verificationdesviolationsdecomptegl.vercel.app",
+      "indicator": "www.kansasdems.org",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "www.webmail-sign-in.vercel.app",
+      "indicator": "www.minttree.org",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "wwwhardyakkacomau-ejh9h6fbdncscsca.a03.azurefd.net",
+      "indicator": "www.raceface.ca",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "xday3996.up.railway.app",
+      "indicator": "www.rece.to",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
       "type": "domain",
-      "indicator": "xrzxhmem.up.railway.app",
+      "indicator": "zerotell.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
-      "type": "domain",
-      "indicator": "xwz8k44e.up.railway.app",
+      "type": "revival",
+      "indicator": "vinted.qdscdq.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     },
     {
-      "type": "domain",
-      "indicator": "zen2-dwanbrg7hdg8d3b7.a03.azurefd.net",
+      "type": "revival",
+      "indicator": "website.depop.qdscdq.com",
       "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zi03noi7.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-10-30T03:47:17Z"
+      "first_seen": "2026-10-30T11:55:46Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 45916,
+  "manual_review_candidates_pending": 46934,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
