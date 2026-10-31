@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-31T15:11:24Z",
-  "last_run_at": "2026-10-31T11:29:09Z",
-  "last_run_summary": "[2026-10-31T11:29:09Z] 20 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-31T11:29:09Z] HEALTH certspotter=14/681 crtsh=9/12 urlscan=206/955 dns-google=49816/49816 dns-cf=49816/49816",
+  "generated_at": "2026-10-31T19:59:49Z",
+  "last_run_at": "2026-10-31T16:37:12Z",
+  "last_run_summary": "[2026-10-31T16:37:12Z] 24 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-31T16:37:12Z] HEALTH certspotter=18/618 crtsh=101/112 urlscan=100/969 dns-google=48478/48478 dns-cf=48478/48478",
   "tracked_hosts": {
-    "total": 27739,
+    "total": 27879,
     "by_status": {
-      "dead": 4394,
-      "active": 23345
+      "dead": 4441,
+      "active": 23438
     },
     "by_operator_tier": {
-      "A:tier1": 27739
+      "A:tier1": 27879
     }
   },
   "fingerprints": [
@@ -1315,134 +1315,190 @@
       "added": "2026-10-30",
       "last_confirmed_hit": "2026-10-31",
       "status": "chained"
+    },
+    {
+      "hash": "09656d710c782af2a15d9f2781c4d980fc7ae72554cf3a4efbaeaece5acad9d5",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "0ea0958f8d6a6d999dfd1fc2643a10ae31979490c72b695b4a34472329cee00f",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "890c736b4eb76c0069a856b8469ef020c758b980a89d085b348a63b1fd9d8628",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "e97962fb6a424c2319254a65b7d86460d54679caddb2dd2b6e7924f5dfa36c20",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "0ea0958f8d6a6d999dfd1fc2643a10ae31979490c72b695b4a34472329cee00f",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "890c736b4eb76c0069a856b8469ef020c758b980a89d085b348a63b1fd9d8628",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "d44ca22084b01fb6a54208150bf09457208706d8a65791dd33d5b7425ad4d165",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
+    },
+    {
+      "hash": "fc71781fa66ef316ffe2227e01704124079f560b532192f523e3f6f533552420",
+      "label": "chained",
+      "added": "2026-10-31",
+      "last_confirmed_hit": "2026-10-31",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 8015
+    "A": 8039
   },
   "recent_tier1_findings": [
     {
       "type": "cert",
-      "indicator": "petanisecond.com",
+      "indicator": "clerk.solidroad.com",
       "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
+      "first_seen": "2026-10-31T16:37:12Z"
     },
     {
       "type": "cert",
-      "indicator": "url6718.supplyvan.com",
+      "indicator": "community.solidroad.com",
       "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "e.solidroad.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "get.codecov.io",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "guide.yeopkerphone.co.kr",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "link.codecov.io",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "marketing.codecov.io",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "musabaqa.nishal.dev",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "nishal.dev",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "rytu.nishal.dev",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "security.solidroad.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "send.nishal.dev",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "setup.solidroad.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "signin.solidroad.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "vendor-transport.shunkakinoki.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "videos.solidroad.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "weather.nishal.dev",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "whitepaper.megadice.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.nishal.dev",
+      "operator": "A",
+      "first_seen": "2026-10-31T16:37:12Z"
     },
     {
       "type": "domain",
-      "indicator": "f1gpabudhabi.com",
+      "indicator": "inpost.offer0958892.shop",
       "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "fern-frame-test.waypost.co.uk",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "gp-833-snr-node-pool.review.bolago.app",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "mta-sts.quizvfr.it",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "pagar.phcareerhub.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "pentest-partners.uk.offsecops.app",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "pic-pro.app",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "poczta-polska.paupay-pl.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "posts.allerlei-medien.de",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "swipress.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "web-preview-1820.apps.dev.icewear.is",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "web-preview-1840.apps.dev.icewear.is",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "web-preview-1846.apps.dev.icewear.is",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.choirbuy.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.easecapital.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.quilia.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zops-alb-prod-789501316.us-east-1.elb.amazonaws.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
-    },
-    {
-      "type": "revival",
-      "indicator": "depop.qdscdq.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T11:29:09Z"
+      "first_seen": "2026-10-31T16:37:12Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 52116,
+  "manual_review_candidates_pending": 53280,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
