@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-31T19:59:49Z",
-  "last_run_at": "2026-10-31T16:37:12Z",
-  "last_run_summary": "[2026-10-31T16:37:12Z] 24 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-10-31T16:37:12Z] HEALTH certspotter=18/618 crtsh=101/112 urlscan=100/969 dns-google=48478/48478 dns-cf=48478/48478",
+  "generated_at": "2026-11-01T00:51:05Z",
+  "last_run_at": "2026-10-31T20:50:19Z",
+  "last_run_summary": "[2026-10-31T20:50:19Z] 14 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-10-31T20:50:19Z] HEALTH certspotter=14/632 crtsh=4/7 urlscan=100/978 dns-google=50062/50062 dns-cf=50062/50062",
   "tracked_hosts": {
-    "total": 27879,
+    "total": 28205,
     "by_status": {
-      "dead": 4441,
-      "active": 23438
+      "dead": 4747,
+      "active": 23458
     },
     "by_operator_tier": {
-      "A:tier1": 27879
+      "A:tier1": 28205
     }
   },
   "fingerprints": [
@@ -1374,93 +1374,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 8039
+    "A": 8053
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "clerk.solidroad.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "community.solidroad.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "e.solidroad.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "get.codecov.io",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "guide.yeopkerphone.co.kr",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "link.codecov.io",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "marketing.codecov.io",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "musabaqa.nishal.dev",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "nishal.dev",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "rytu.nishal.dev",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "security.solidroad.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "send.nishal.dev",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "setup.solidroad.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "signin.solidroad.com",
-      "operator": "A",
-      "first_seen": "2026-10-31T16:37:12Z"
-    },
     {
       "type": "cert",
       "indicator": "vendor-transport.shunkakinoki.com",
@@ -1496,9 +1412,93 @@
       "indicator": "inpost.offer0958892.shop",
       "operator": "A",
       "first_seen": "2026-10-31T16:37:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "auth.staging.vinwise.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "bdd0b6bf.sni.cloudflaressl.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "bolago.app",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "help.upfirst.ai",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "jobland.ai",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "partners.zerotell.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "r2.zerotell.com",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.bolago.app",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.jobland.ai",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "upfirst.ai",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.jobland.ai",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.upfirst.ai",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "secureflow.click",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "vinted.secureflow.click",
+      "operator": "A",
+      "first_seen": "2026-10-31T20:50:19Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 53280,
+  "manual_review_candidates_pending": 54224,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
