@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-01T07:23:18Z",
-  "last_run_at": "2026-11-01T03:36:55Z",
-  "last_run_summary": "[2026-11-01T03:36:55Z] 524 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-01T03:36:55Z] HEALTH certspotter=14/618 crtsh=6/11 urlscan=979/979 dns-google=50830/50830 dns-cf=50830/50830",
+  "generated_at": "2026-11-01T16:56:16Z",
+  "last_run_at": "2026-11-01T12:26:12Z",
+  "last_run_summary": "[2026-11-01T12:26:12Z] 395 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-01T12:26:12Z] HEALTH certspotter=18/713 crtsh=84/96 urlscan=114/1011 dns-google=56426/56426 dns-cf=56426/56426",
   "tracked_hosts": {
-    "total": 28984,
+    "total": 31412,
     "by_status": {
-      "dead": 4770,
-      "active": 24214
+      "dead": 4773,
+      "active": 26639
     },
     "by_operator_tier": {
-      "A:tier1": 28984
+      "A:tier1": 31412
     }
   },
   "fingerprints": [
@@ -1423,131 +1423,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 8577
+    "A": 8972
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www.limitlessexchange.co",
+      "type": "cert",
+      "indicator": "xocrm.retool.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "xopulse.retool.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T12:26:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "yahoofinance.retool.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T12:26:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ymcanyc.retool.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T12:26:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "zeusinc.retool.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T12:26:12Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "zurudata.retool.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.mvl.edu.209.126.81.211.sslip.io",
+      "indicator": "akses2.jalawin.ink",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.national-concessions.co.uk",
+      "indicator": "altura1500.lat",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.national-merchandise.co.uk",
+      "indicator": "amplinutri.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.nationalmerchandise.co.uk",
+      "indicator": "auth.sna-380-381-signed-out-redirects.preview.snapbook.ing",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.netflix-clone-zeta-one.vercel.app",
+      "indicator": "pl-payu-confirmation.eu.cc",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.openopenbox305.vercel.app",
+      "indicator": "preprod.adaconsulting.pro",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.standardnutrition.shop",
+      "indicator": "staging.unepetiteferme.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.supportforpolicycompliance.vercel.app",
+      "indicator": "web-preview-1850.apps.dev.icewear.is",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.ton-wallet-connect.vercel.app",
+      "indicator": "www.chapterbrief.net",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.mvl.7whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io.sslip.io",
+      "indicator": "www.crowdclick.app",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.www.ftp.f0dbmvl.9880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io",
+      "indicator": "www.diversdirect.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "x668aqoo.up.railway.app",
+      "indicator": "www.megadice33.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
       "type": "domain",
-      "indicator": "x8g4w51k.up.railway.app",
+      "indicator": "www.subsplash.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     },
     {
-      "type": "domain",
-      "indicator": "xwww.srqpormlsrmlkjihgfhbktjwhm.907550310zlogsxp.nettment.654admin.35-225-32-205.sslip.io",
+      "type": "revival",
+      "indicator": "qdscdq.com",
       "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xzxrrbrz.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "y7071i8f.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yaqeeninstitute-4713562.hs-sites.com",
-      "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yuatz2vy.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zdsaq-dpohv3e5js8m.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-01T03:36:55Z"
+      "first_seen": "2026-11-01T12:26:12Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 55668,
+  "manual_review_candidates_pending": 56598,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
