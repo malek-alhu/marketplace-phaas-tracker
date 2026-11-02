@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-01T16:56:16Z",
-  "last_run_at": "2026-11-01T12:26:12Z",
-  "last_run_summary": "[2026-11-01T12:26:12Z] 395 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-01T12:26:12Z] HEALTH certspotter=18/713 crtsh=84/96 urlscan=114/1011 dns-google=56426/56426 dns-cf=56426/56426",
+  "generated_at": "2026-11-02T03:04:20Z",
+  "last_run_at": "2026-11-01T21:32:25Z",
+  "last_run_summary": "[2026-11-01T21:32:25Z] 53 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-01T21:32:25Z] HEALTH certspotter=16/652 crtsh=62/68 urlscan=100/1022 dns-google=59426/59426 dns-cf=59426/59426",
   "tracked_hosts": {
-    "total": 31412,
+    "total": 33728,
     "by_status": {
-      "dead": 4773,
-      "active": 26639
+      "dead": 5051,
+      "active": 28677
     },
     "by_operator_tier": {
-      "A:tier1": 31412
+      "A:tier1": 33728
     }
   },
   "fingerprints": [
@@ -1420,134 +1420,176 @@
       "added": "2026-11-01",
       "last_confirmed_hit": "2026-11-01",
       "status": "chained"
+    },
+    {
+      "hash": "0eb0f24229404591b474268c63f49dbfcfcbef5c3d5aa6c4942e780cad13c1ce",
+      "label": "chained",
+      "added": "2026-11-01",
+      "last_confirmed_hit": "2026-11-01",
+      "status": "chained"
+    },
+    {
+      "hash": "1ac4ea3b08f16c48a031a4a8e0010984d628d7e962daf74e105f48740ecfff61",
+      "label": "chained",
+      "added": "2026-11-01",
+      "last_confirmed_hit": "2026-11-01",
+      "status": "chained"
+    },
+    {
+      "hash": "4b8b9b2526af0a89b08735764f01f89081cfc44a0020b383216f92fd86225b6b",
+      "label": "chained",
+      "added": "2026-11-01",
+      "last_confirmed_hit": "2026-11-01",
+      "status": "chained"
+    },
+    {
+      "hash": "74d7b1945a77ef142f27fbc2f3bd3031695c6dd1ef5276dd89aa395a70dacafd",
+      "label": "chained",
+      "added": "2026-11-01",
+      "last_confirmed_hit": "2026-11-01",
+      "status": "chained"
+    },
+    {
+      "hash": "f3f01054b075332f38c337c83ddfa267030b7cdef9f30fc54cef77ca58847a5c",
+      "label": "chained",
+      "added": "2026-11-01",
+      "last_confirmed_hit": "2026-11-01",
+      "status": "chained"
+    },
+    {
+      "hash": "f69e36a4f3c540daaf697c787d0ec78639ece69e9500924f620a37e6a6062207",
+      "label": "chained",
+      "added": "2026-11-01",
+      "last_confirmed_hit": "2026-11-01",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 8972
+    "A": 9025
   },
   "recent_tier1_findings": [
     {
       "type": "cert",
-      "indicator": "xocrm.retool.com",
+      "indicator": "proposal.blackfodder.co",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "cert",
-      "indicator": "xopulse.retool.com",
+      "indicator": "seasessions.nationalmerchandise.co.uk",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "cert",
-      "indicator": "yahoofinance.retool.com",
+      "indicator": "signature.blackfodder.co",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "cert",
-      "indicator": "ymcanyc.retool.com",
+      "indicator": "splendour.nationalmerchandise.co.uk",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "cert",
-      "indicator": "zeusinc.retool.com",
+      "indicator": "store-test.nationalmerchandise.co.uk",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "cert",
-      "indicator": "zurudata.retool.com",
+      "indicator": "summersessions.nationalmerchandise.co.uk",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "transmt.nationalmerchandise.co.uk",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "truxparking.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "wireless.nationalmerchandise.co.uk",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "wjsysc2020.nationalmerchandise.co.uk",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.aponect.mavie.care",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.checkup.mavie.care",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.gesundheitswoche.mavie.care",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.go.secureflow.click",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.secureflow.click",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.truxparking.com",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "zhl-pilot.lsq.app",
+      "operator": "A",
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "domain",
-      "indicator": "akses2.jalawin.ink",
+      "indicator": "inpost.offer90872801.shop",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "domain",
-      "indicator": "altura1500.lat",
+      "indicator": "verified-compra-online.shop",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     },
     {
       "type": "domain",
-      "indicator": "amplinutri.com",
+      "indicator": "wallapop.compra-verlflcation.top",
       "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "auth.sna-380-381-signed-out-redirects.preview.snapbook.ing",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "pl-payu-confirmation.eu.cc",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "preprod.adaconsulting.pro",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "staging.unepetiteferme.com",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "web-preview-1850.apps.dev.icewear.is",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.chapterbrief.net",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.crowdclick.app",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.diversdirect.com",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.megadice33.com",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.subsplash.com",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
-    },
-    {
-      "type": "revival",
-      "indicator": "qdscdq.com",
-      "operator": "A",
-      "first_seen": "2026-11-01T12:26:12Z"
+      "first_seen": "2026-11-01T21:32:25Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 56598,
+  "manual_review_candidates_pending": 57902,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

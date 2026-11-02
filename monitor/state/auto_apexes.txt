@@ -134,6 +134,7 @@ comilio.app	A
 commutation.app	A
 compra-verification.help	A
 compra-verifying.online	A
+compra-verlflcation.top	A
 conciergerieriviera.com	A
 confirm-9580.shop	A
 confirmacion-venta.com	A
@@ -385,6 +386,7 @@ offer0958892.shop	A
 offer7693012.shop	A
 offer8259012.shop	A
 offer8692056.shop	A
+offer90872801.shop	A
 offer9825914.shop	A
 offer986902.shop	A
 offsecops.app	A
@@ -697,6 +699,7 @@ verification-help.com	A
 verification-page.icu	A
 verification-page.pro	A
 verified-compra-es.cyou	A
+verified-compra-online.shop	A
 verify-compra.click	A
 verify-compra.shop	A
 verify-notises104846.click	A
