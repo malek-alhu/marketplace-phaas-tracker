@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-02T08:29:47Z",
-  "last_run_at": "2026-11-02T03:42:45Z",
-  "last_run_summary": "[2026-11-02T03:42:45Z] 701 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-02T03:42:45Z] HEALTH certspotter=15/671 crtsh=24/30 urlscan=1030/1031 dns-google=61828/61828 dns-cf=61828/61828",
+  "generated_at": "2026-11-02T19:55:46Z",
+  "last_run_at": "2026-11-02T14:22:26Z",
+  "last_run_summary": "[2026-11-02T14:22:26Z] 143 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-02T14:22:26Z] HEALTH certspotter=22/672 crtsh=189/209 urlscan=200/1048 dns-google=64652/64652 dns-cf=64652/64652",
   "tracked_hosts": {
-    "total": 34420,
+    "total": 36199,
     "by_status": {
-      "dead": 5079,
-      "active": 29341
+      "dead": 5086,
+      "active": 31113
     },
     "by_operator_tier": {
-      "A:tier1": 34420
+      "A:tier1": 36199
     }
   },
   "fingerprints": [
@@ -1465,131 +1465,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 9726
+    "A": 9869
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www.wellness-spainacademy.com",
+      "type": "cert",
+      "indicator": "stellar-queue.stellar.org",
       "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "stellar.org",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "stg-api-status.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "stg-app.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "stg-walkthrough-ws.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "testanchor.stellar.org",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "tiger.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "tigerson.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "trust.listenlabs.ai",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "upload.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "usc.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "walkthrough-ws.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "wellness-shop.impdigital.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "wharton.livekindred.com",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.standardnutrition.shop",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.stellar.org",
+      "operator": "A",
+      "first_seen": "2026-11-02T14:22:26Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.data.34-71-227-236.sslip.io",
+      "indicator": "inpost.offer980982.shop",
       "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
+      "first_seen": "2026-11-02T14:22:26Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.old.r0pnwhm.mvl.f0dbwhm.9880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io",
+      "indicator": "ohdigitaltech.com",
       "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
+      "first_seen": "2026-11-02T14:22:26Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.whm.880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io.sslip.io",
+      "indicator": "superset.sh",
       "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
+      "first_seen": "2026-11-02T14:22:26Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.1test.beta.35-204-139-184.sslip.io",
+      "indicator": "vinted.order-3242343.shop",
       "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "x6oudku7.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "x70cd2rr.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xbjvgjll.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xci3ljfz.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xwww.svqenjraifrgcvqchnaupdate.98update.6update.65432187backend.en.35-205-140-87.sslip.io",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "xwwww.rqwww.tonmlkjihgfhbktjwhm.907550310zlogsxp.nettment.654admin.35-225-32-205.sslip.io",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yahoofinance.retool.com",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "ydeggxcd.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yearling-blush-phna1h8z-dpbaiat1i7ue.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yire-medica-hp-s-a.shopify.moovin.me",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "young-copper-wb21sipk-dppnvcd3f60q.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yrt1y048.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zenmbesk3.squarespace.com",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zwhm.v0trr0pnn0ljmvl.f0dbmvl.www.9880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io.sslip.io",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zygotic-blue-w3umkhfz-dpfpj4tp91in.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-02T03:42:45Z"
+      "first_seen": "2026-11-02T14:22:26Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 59792,
+  "manual_review_candidates_pending": 61669,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
