@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-04T09:23:33Z",
-  "last_run_at": "2026-11-04T04:12:19Z",
-  "last_run_summary": "[2026-11-04T04:12:19Z] 48 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-04T04:12:19Z] HEALTH certspotter=16/712 crtsh=43/53 urlscan=249/1093 dns-google=68786/68786 dns-cf=68786/68786",
+  "generated_at": "2026-11-04T19:29:08Z",
+  "last_run_at": "2026-11-04T13:33:26Z",
+  "last_run_summary": "[2026-11-04T13:33:26Z] 55 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-04T13:33:26Z] HEALTH certspotter=15/744 crtsh=22/25 urlscan=100/1109 dns-google=70646/70646 dns-cf=70646/70646",
   "tracked_hosts": {
-    "total": 38721,
+    "total": 38878,
     "by_status": {
-      "dead": 5106,
-      "active": 33615
+      "dead": 5116,
+      "active": 33762
     },
     "by_operator_tier": {
-      "A:tier1": 38721
+      "A:tier1": 38878
     }
   },
   "fingerprints": [
@@ -1465,131 +1465,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 10709
+    "A": 10764
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "dema.vc",
+      "type": "cert",
+      "indicator": "media.dashflow.se",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "docs.arcade.software",
+      "type": "cert",
+      "indicator": "oldwww.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "dodochat.com.br",
+      "type": "cert",
+      "indicator": "payments-admin.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "futurefoods.codefishstudio.com",
+      "type": "cert",
+      "indicator": "payments.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "ig.2ebh.com",
+      "type": "cert",
+      "indicator": "reactor.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "orders-info8417.shop",
+      "type": "cert",
+      "indicator": "rnf-logs.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "pl-payx-confirmation.eu.cc",
+      "type": "cert",
+      "indicator": "rnf.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "postiz.leonidas-securite.ch",
+      "type": "cert",
+      "indicator": "sda.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "sendy.ai",
+      "type": "cert",
+      "indicator": "search-development.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "spandanloop.com",
+      "type": "cert",
+      "indicator": "search-es.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "syrs.jp",
+      "type": "cert",
+      "indicator": "search.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "u50319439.ct.sendgrid.net",
+      "type": "cert",
+      "indicator": "slashcmd.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "url4589.arcade.software",
+      "type": "cert",
+      "indicator": "staging-api.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.arcade.software",
+      "type": "cert",
+      "indicator": "staging-www.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.blockchain.com",
+      "type": "cert",
+      "indicator": "t.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.luckyblock.com",
+      "type": "cert",
+      "indicator": "tickets.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.porradanutra.com",
+      "type": "cert",
+      "indicator": "tracking.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.scentregroup.com",
+      "type": "cert",
+      "indicator": "webhook.discordservers.com",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     },
     {
-      "type": "domain",
+      "type": "cert",
+      "indicator": "www.discordservers.com",
+      "operator": "A",
+      "first_seen": "2026-11-04T13:33:26Z"
+    },
+    {
+      "type": "cert",
       "indicator": "zed.dev",
       "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zeste.cooking",
-      "operator": "A",
-      "first_seen": "2026-11-04T04:12:19Z"
+      "first_seen": "2026-11-04T13:33:26Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 65149,
+  "manual_review_candidates_pending": 66407,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
