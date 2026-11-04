@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-04T04:04:08Z",
-  "last_run_at": "2026-11-03T22:44:21Z",
-  "last_run_summary": "[2026-11-03T22:44:21Z] 792 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-03T22:44:21Z] HEALTH certspotter=22/744 crtsh=176/188 urlscan=1043/1050 dns-google=70024/70024 dns-cf=70024/70024",
+  "generated_at": "2026-11-04T09:23:33Z",
+  "last_run_at": "2026-11-04T04:12:19Z",
+  "last_run_summary": "[2026-11-04T04:12:19Z] 48 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-04T04:12:19Z] HEALTH certspotter=16/712 crtsh=43/53 urlscan=249/1093 dns-google=68786/68786 dns-cf=68786/68786",
   "tracked_hosts": {
-    "total": 38521,
+    "total": 38721,
     "by_status": {
-      "dead": 5101,
-      "active": 33420
+      "dead": 5106,
+      "active": 33615
     },
     "by_operator_tier": {
-      "A:tier1": 38521
+      "A:tier1": 38721
     }
   },
   "fingerprints": [
@@ -473,14 +473,14 @@
       "hash": "814880e527670f5f84c9468901185d91cecc9590125c4cecec6bf5be411e4f2a",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-02",
+      "last_confirmed_hit": "2026-11-04",
       "status": "chained"
     },
     {
       "hash": "82d3c2329be3a4fcac1d402b93ba26ea077019458a7be2e48d2c5151e48a7838",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-02",
+      "last_confirmed_hit": "2026-11-04",
       "status": "chained"
     },
     {
@@ -697,14 +697,14 @@
       "hash": "04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-02",
+      "last_confirmed_hit": "2026-11-04",
       "status": "chained"
     },
     {
       "hash": "06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-02",
+      "last_confirmed_hit": "2026-11-04",
       "status": "chained"
     },
     {
@@ -1465,131 +1465,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 10661
+    "A": 10709
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.www.65432107654update.dev.admin.beta.35-196-87-124.sslip.io",
+      "indicator": "dema.vc",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.65432587654update.dev.admin.beta.35-196-87-124.sslip.io",
+      "indicator": "docs.arcade.software",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.69436507214update.dev.admin.beta.35-196-87-124.sslip.io",
+      "indicator": "dodochat.com.br",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.beta.6whm.097660421whm.lykwbneo-is-old.593a3cb8.sslip.io",
+      "indicator": "futurefoods.codefishstudio.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.beta.87659075e.2update.update.321wwwdev.34-71-227-236.sslip.io",
+      "indicator": "ig.2ebh.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.dev.test.www.beta.35-204-139-184.sslip.io",
+      "indicator": "orders-info8417.shop",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.docs.83210en.neo-is-old.593a3cb8.sslip.io.sslip.io",
+      "indicator": "pl-payx-confirmation.eu.cc",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.w0uss0qonwhm.ihgfwhm.whm.kostenlos-tarifcheck24-gruenstrom.admin.162-244-93-78.sslip.io",
+      "indicator": "postiz.leonidas-securite.ch",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.654update.dev.admin.beta.35-196-87-124.sslip.io",
+      "indicator": "sendy.ai",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.beta.whm.097660421whm.lykwbneo-is-old.593a3cb8.sslip.io",
+      "indicator": "spandanloop.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.www.www.ftp.i-0abcfb26a7c5156neo-593a3cb8.sslip.io",
+      "indicator": "syrs.jp",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "wwwmanagedomain.squarespace.com",
+      "indicator": "u50319439.ct.sendgrid.net",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "yellow-reindeer-5hmb.squarespace.com",
+      "indicator": "url4589.arcade.software",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "ymhbyi0t.up.railway.app",
+      "indicator": "www.arcade.software",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "z3z5rsph.up.railway.app",
+      "indicator": "www.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "zarminali-47128192.hs-sites.com",
+      "indicator": "www.luckyblock.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "zc81ob52.up.railway.app",
+      "indicator": "www.porradanutra.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "zerotohundred.dev",
+      "indicator": "www.scentregroup.com",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "zingapp-production.up.railway.app",
+      "indicator": "zed.dev",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     },
     {
       "type": "domain",
-      "indicator": "zv9ajgpb.up.railway.app",
+      "indicator": "zeste.cooking",
       "operator": "A",
-      "first_seen": "2026-11-03T22:44:21Z"
+      "first_seen": "2026-11-04T04:12:19Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 63616,
+  "manual_review_candidates_pending": 65149,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
