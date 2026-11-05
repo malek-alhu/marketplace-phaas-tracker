@@ -2749,6 +2749,7 @@ app.h.muso.ai
 app.hatchearly.com
 app.highlander.digital
 app.howdy.com
+app.humanforward.io
 app.hupla.fr
 app.hv-piechowski.com
 app.indusnex-labs.tech
@@ -2866,6 +2867,7 @@ apply.howdy.com
 apply.livekindred.com
 apply.onlylinks.com
 apply.progressivepipeline.org
+apply.virtualestheticians.com
 appmail.subsplash.com
 appmax-proxy.metrito.com
 appo.retool.com
@@ -5782,6 +5784,7 @@ click.c.email.api.x.ai
 click.deferred.com
 click.e.harveynichols.com
 click.email.api.x.ai
+click.mail.humanforward.io
 click.roole.fr
 clickfunnel-v1.lumail.io
 clickgrowth.com.br
@@ -6043,6 +6046,7 @@ community.codecov.io
 community.coreview.com
 community.employmenthero.com
 community.holded.com
+community.humanforward.io
 community.ispringsolutions.com
 community.leadmagic.io
 community.nationalmerchandise.co.uk
@@ -7004,6 +7008,7 @@ console-staging.preview.webscraping.app
 console-staging.workbrew.com
 console.anthropic.com
 console.claude.com
+console.humanforward.io
 console.internal.trading.backpack.exchange
 console.lms.employmenthero.com
 console.s3.muso.ai
@@ -14152,6 +14157,7 @@ hulva.vercel.app
 human.sowl.app
 human.x.ai
 humancompostco.com
+humanforward.io
 humanify.yucp.club
 humanizer-v2.grubby.ai
 humanizer-v3.grubby.ai
@@ -20127,6 +20133,7 @@ paolara0510.vercel.app
 papatya.kurumsalwebsite.co
 paper.leadmagic.io
 paperclip.shunkakinoki.com
+paradev.com
 paradigm-roofing.lms.employmenthero.com
 paradise-valley.impdigital.com
 paranyak.vercel.app
@@ -20307,6 +20314,7 @@ paycore.wildixin.com
 paycore24-express.cfd
 paycore24-express.sbs
 paycoreaction-pl.shop
+payflow-fast-poland.my.id
 payflow-poland.eu.cc
 payflow-poland.qpon
 payflow-poland.shop
@@ -20734,6 +20742,7 @@ polygon.entendre.finance
 polymerlabs.entendre.finance
 polyverse1.vercel.app
 pombo-correio.fretebras.com.br
+pomiar.bzp-radar.pl
 pomoc.kaszuby24.pl
 ponchoalv.vercel.app
 ponczus.vercel.app
@@ -25696,6 +25705,7 @@ shop.energyx.com
 shop.eventjet.at
 shop.ftz.dk
 shop.harveynichols.com
+shop.humanforward.io
 shop.livekindred.com
 shop.moi-agent.ru
 shop.nendazveysonnaz.ch
@@ -28615,6 +28625,7 @@ trust.exclaimer.com
 trust.listenlabs.ai
 trust.nixtla.io
 trust.ornn.com
+trust.paradev.com
 trust.qmb.ai
 trust.railway.app
 trust.render.com
@@ -29688,6 +29699,7 @@ waitingroom.isawitfirst.com
 waitingroom.singaporeair.com
 waitlist.kaito.ai
 waitlist.keltora.com
+waitlist.virtualestheticians.com
 waldgeist8.vercel.app
 wale.vercel.app
 walidbenyahia2016.vercel.app
@@ -31736,6 +31748,7 @@ www.buushop2.103.86.51.71.sslip.io
 www.byeshe.com
 www.byjolab.com
 www.bytorhealth.com
+www.bzp-radar.pl
 www.cabaia.com
 www.cabaia.fr
 www.cakemembers.com
@@ -32081,6 +32094,7 @@ www.hubblehq.com
 www.hubspot.exclaimer.com
 www.huian189.com
 www.humancompostco.com
+www.humanforward.io
 www.humankindclothing.com
 www.huntington.org
 www.hv-piechowski.com
