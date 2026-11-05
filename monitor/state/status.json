@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-04T19:29:08Z",
-  "last_run_at": "2026-11-04T13:33:26Z",
-  "last_run_summary": "[2026-11-04T13:33:26Z] 55 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-04T13:33:26Z] HEALTH certspotter=15/744 crtsh=22/25 urlscan=100/1109 dns-google=70646/70646 dns-cf=70646/70646",
+  "generated_at": "2026-11-05T03:56:52Z",
+  "last_run_at": "2026-11-04T23:02:05Z",
+  "last_run_summary": "[2026-11-04T23:02:05Z] 10 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-04T23:02:05Z] HEALTH certspotter=14/728 crtsh=3/8 urlscan=121/1109 dns-google=70096/70096 dns-cf=70096/70096",
   "tracked_hosts": {
-    "total": 38878,
+    "total": 38948,
     "by_status": {
-      "dead": 5116,
-      "active": 33762
+      "dead": 5218,
+      "active": 33730
     },
     "by_operator_tier": {
-      "A:tier1": 38878
+      "A:tier1": 38948
     }
   },
   "fingerprints": [
@@ -1465,69 +1465,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 10764
+    "A": 10774
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "media.dashflow.se",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "oldwww.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "payments-admin.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "payments.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "reactor.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "rnf-logs.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "rnf.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "sda.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "search-development.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "search-es.discordservers.com",
-      "operator": "A",
-      "first_seen": "2026-11-04T13:33:26Z"
-    },
     {
       "type": "cert",
       "indicator": "search.discordservers.com",
@@ -1587,9 +1527,69 @@
       "indicator": "zed.dev",
       "operator": "A",
       "first_seen": "2026-11-04T13:33:26Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "docs.predict.fun",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.withmatilda.com",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "e2e-probe-external-cloudflare.dev.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "e2e-probe-external-cloudflare.dev.sre-flux.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "e2e-probe-external-cloudflare.staging.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "embedded-partner-service.dev.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "embedded-partner-service.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "embedded-partner-service.staging.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "eng.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "scim.dev.pleo.io",
+      "operator": "A",
+      "first_seen": "2026-11-04T23:02:05Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 66407,
+  "manual_review_candidates_pending": 67555,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

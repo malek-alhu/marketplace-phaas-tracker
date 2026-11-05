@@ -2348,6 +2348,8 @@ api.humanify.yucp.club
 api.ijr.com
 api.injest.fundingpips.com
 api.injest.fundingticks.com
+api.insights.pleo.io
+api.insights.staging.pleo.io
 api.internal.backpack.exchange
 api.internal.comilio.app
 api.internal.howdy.com
@@ -2723,6 +2725,7 @@ app.demandmagic.ai
 app.der.fish
 app.dev.ak.muso.ai
 app.dev.deepl.com
+app.dev.pleo.io
 app.digid.nl
 app.digitalcreativs.com
 app.easecapital.com
@@ -2779,6 +2782,7 @@ app.optise.com
 app.pangobooks.com
 app.pdrcore.com
 app.plasma.ai
+app.pleo.io
 app.preview.awen.ai
 app.preview.bluenote.ai
 app.preview.standardintelligence.com
@@ -2805,6 +2809,7 @@ app.squadpod.com
 app.stag.mavie.care
 app.staging.a24films.com
 app.staging.nextlayersports.com
+app.staging.pleo.io
 app.staging.render.com
 app.staging.tomorro.com
 app.standardintelligence.com
@@ -3714,6 +3719,9 @@ backendnew.fundingpips.com
 backmiles.com
 backnode.up.railway.app.up.railway.app
 backoffice-api.gocity.com
+backoffice-bff-v2-bff.dev.pleo.io
+backoffice-bff-v2-bff.pleo.io
+backoffice-bff-v2-bff.staging.pleo.io
 backoffice-ext-api.gocity.com
 backoffice-ext.gocity.com
 backoffice-staging-api.gocity.com
@@ -3721,6 +3729,7 @@ backoffice-staging.gocity.com
 backoffice-uat-api.gocity.com
 backoffice.app.wiz.io
 backoffice.demo.wiz.io
+backoffice.dev.pleo.io
 backoffice.e2e.wiz.io
 backoffice.fedramp.wiz.io
 backoffice.fedstage.wiz.io
@@ -3729,8 +3738,10 @@ backoffice.fedtest.wiz.io
 backoffice.gocity.com
 backoffice.gov.wiz.io
 backoffice.integration.wiz.io
+backoffice.pleo.io
 backoffice.prod.wiz.io
 backoffice.stage.wiz.io
+backoffice.staging.pleo.io
 backoffice.test.wiz.io
 backofficely.retool.com
 backofficeqa.solidroad.com
@@ -4027,6 +4038,7 @@ beverley.taxassist.co.uk
 bevry.vercel.app
 bevy-storybook.boldcommerce.com
 bewley755.vercel.app
+beyond.pleo.io
 bezhnarartem2017.vercel.app
 bf.leadmagic.io
 bff.ftz.dk
@@ -5260,6 +5272,7 @@ cdn.callisign.com
 cdn.coh3stats.com
 cdn.coreview.com
 cdn.deloroom.ru
+cdn.dev.pleo.io
 cdn.dev.printfriendly.com
 cdn.discovercars.com
 cdn.doodlecomics.net
@@ -5270,6 +5283,8 @@ cdn.fingerprint.to
 cdn.geldfit.nl
 cdn.googleusercontent.com
 cdn.holded.com
+cdn.insights.pleo.io
+cdn.insights.staging.pleo.io
 cdn.kaito.ai
 cdn.keltora.com
 cdn.lassie.ai
@@ -5277,6 +5292,7 @@ cdn.leadmagic.io
 cdn.limitless.exchange
 cdn.muso.ai
 cdn.onlylinks.com
+cdn.pleo.io
 cdn.primariatm.ro
 cdn.printfriendly.com
 cdn.prod.blocks.cloud
@@ -5287,6 +5303,7 @@ cdn.setur.com.tr
 cdn.shunkakinoki.com
 cdn.stag2.amplitude.com
 cdn.staging.inference.ai.algolia.com
+cdn.staging.pleo.io
 cdn.subsplash.com
 cdn.supplyvan.com
 cdn.tuktukvpn.com
@@ -5575,6 +5592,7 @@ ci.render.com
 ci.subsplash.com
 ci3f2c2m93w70di03yn4tm0rlsopw1f.ai-adoption.gitkraken.dev
 cicd.dev.bluenote.ai
+cicd.pleo.io
 cicerogabriel12.vercel.app
 ciclica-costa-rica.shopify.moovin.me
 cigar.vercel.app
@@ -6009,6 +6027,7 @@ commerce.ornn.com
 commercetools-demo.boldcommerce.com
 commercetools-demo.staging.boldcommerce.com
 commercetools-partner.staging.boldcommerce.com
+commercial-helios.staging.pleo.io
 commitnpush.vercel.app
 communaute-on.tomorro.com
 communication.coreview.com
@@ -7621,6 +7640,7 @@ data-api.dev.amplitude.com
 data-api.eu.amplitude.com
 data-api.staging.amplitude.com
 data-dictionary.cabaia.fr
+data-integration.pleo.io
 data-pipeline.us.algolia.com
 data-registry-dev.muso.ai
 data-test.coh3stats.com
@@ -8105,6 +8125,7 @@ dev.coh3stats.com
 dev.connect.spoke.com
 dev.cryptopet1-51-38-126-80.sslip.io
 dev.cubeprotimer.up.railway.app
+dev.data-integration.pleo.io
 dev.deepl.com
 dev.deepl.dev
 dev.deepvista.ai
@@ -8155,12 +8176,14 @@ dev.myfpl.co
 dev.napshot-live-v1.cloud.junyiacademy.org
 dev.naxxal.up.railway.app
 dev.nporadio1.nl
+dev.observability.pleo.io
 dev.onlylinks.com
 dev.ops.kaito.ai
 dev.pangobooks.com
 dev.pay.howdy.com
 dev.pay.laters.com
 dev.plaque.muso.ai
+dev.pleo.io
 dev.predict.fun
 dev.printfriendly.com
 dev.programmingplus.up.railway.app
@@ -8175,9 +8198,11 @@ dev.reigartkistlerdds.com
 dev.revo.com.au
 dev.rouje.com
 dev.samharris.org
+dev.security.pleo.io
 dev.shop.a.cloud.junyiacademy.org
 dev.shop.cloud.junyiacademy.org
 dev.snpon.com
+dev.sre-flux.pleo.io
 dev.sso.spoke.com
 dev.standardintelligence.com
 dev.starly.io
@@ -8186,6 +8211,7 @@ dev.stemhatch.up.railway.app
 dev.subsplash.com
 dev.support-dash.fundingpips.com
 dev.tomorro.com
+dev.tooling.pleo.io
 dev.track.spoke.com
 dev.traction.app
 dev.truxparking.com
@@ -8822,6 +8848,9 @@ dulceskarlamexico.com
 dulguun.vercel.app
 dulogy-team1.vercel.app
 dumbbillyhardy.vercel.app
+dummy-app-bff.dev.pleo.io
+dummy-app-bff.pleo.io
+dummy-app-bff.staging.pleo.io
 dummy.goldenplanet.shop
 dumnezeus37.vercel.app
 dumnezeus40.vercel.app
@@ -9014,6 +9043,9 @@ e2e-eu2b-netscanner-results.e2e.wiz.io
 e2e-eu2b-reports.e2e.wiz.io
 e2e-eu2b-sensor.e2e.wiz.io
 e2e-eu2b.forensics-package.e2e.wiz.io
+e2e-probe-external-cloudflare.dev.pleo.io
+e2e-probe-external-cloudflare.dev.sre-flux.pleo.io
+e2e-probe-external-cloudflare.staging.pleo.io
 e2e-seed-user.preview.arcade.software
 e2e-test-server-36lf.app.render.com
 e2e-test-server-l9xc.app.render.com
@@ -9927,6 +9959,9 @@ emanuelrosa.vercel.app
 emart.web.up.railway.app
 embed.limitless.exchange
 embed.listenlabs.ai
+embedded-partner-service.dev.pleo.io
+embedded-partner-service.pleo.io
+embedded-partner-service.staging.pleo.io
 embedding-10m-0806-enterprise.us-east-1.models.x.ai
 emberbill.com
 embriot.net
@@ -10012,6 +10047,7 @@ enews.usc.co.uk
 eng-hassannemir1520.vercel.app
 eng.employmenthero.com
 eng.fretebras.com.br
+eng.pleo.io
 eng.yuma.ai
 engage-esm1.vercel.app
 engage.propelr.studio
@@ -10686,6 +10722,7 @@ events.eventjet.at
 events.howdy.com
 events.lassie.ai
 events.muso.ai
+events.pleo.io
 events.retool.com
 events.subsplash.com
 events.unvault.co
@@ -13685,6 +13722,7 @@ heldertraci.vercel.app
 heldinz.vercel.app
 helendiashd.vercel.app
 helicopter-film-services-pty-ltd.lms.employmenthero.com
+helios.staging.pleo.io
 helios7157.vercel.app
 hellish-wound-production.up.railway.app
 hello-auntie-eh.lms.employmenthero.com
@@ -14002,6 +14040,7 @@ horizon-api.www.mybag.com
 horizon-therapy-services.lms.employmenthero.com
 horizon.howdy.com
 horizon.vercel.app
+horse.staging.pleo.io
 horsforth.taxassist.co.uk
 horsham.taxassist.co.uk
 hosaky.vercel.app
@@ -16402,6 +16441,7 @@ liminal.flowers
 limitless.exchange
 limitless.launchpad.kaito.ai
 limitless.vercel.app
+linc.staging.pleo.io
 lincoln.taxassist.co.uk
 lindalai615.vercel.app
 lindawoo.retool.com
@@ -17632,6 +17672,7 @@ marketing.easecapital.com
 marketing.employmenthero.com
 marketing.frankfred.com
 marketing.fundingpips.dev
+marketing.pleo.io
 marketing.yeopkerphone.co.kr
 marketplace-uat.harveynichols.com
 marketplace.harveynichols.com
@@ -18074,6 +18115,7 @@ metatrontu.vercel.app
 meter.retool.com
 methodos.vercel.app
 metl.dev.up.railway.app
+metodaw.com
 metrics.heyfriday.co.uk
 metrics.intralinks.com
 metrics.leadmagic.io
@@ -18362,6 +18404,9 @@ moahmedsalamat.vercel.app
 mobcon.vercel.app
 mobikarl.vercel.app
 mobile-api.tomo.ai
+mobile-bff.dev.pleo.io
+mobile-bff.pleo.io
+mobile-bff.staging.pleo.io
 mobile-shop.muneeb-khan.com
 mobile.fretebras.com.br
 mobile.fretebras.dev.br
@@ -19272,6 +19317,7 @@ norbertguasch.vercel.app
 norhythm.vercel.app
 noris.vercel.app
 norris-plant-hire-geelong-pty-ltd.lms.employmenthero.com
+north-star.dev.pleo.io
 northampton.taxassist.co.uk
 northdevonhomes.retool.com
 norther666.vercel.app
@@ -19461,6 +19507,7 @@ objectstorage.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 objectstorage.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 obos.se
 obqhwtmc.revo.com.au
+observability.pleo.io
 observervoir.rencontres-arles.com
 obsidian.kurumsalwebsite.co
 obui.machtigen.digid.nl
@@ -19630,6 +19677,8 @@ omnyn.com.br
 on.staging.snapbook.ing
 onaundry.in
 onblackheath.nationalmerchandise.co.uk
+onboard.api.pleo.io
+onboard.pleo.io
 onboarding-cc365-cd.cloudcontracts365.com
 onboarding-cc365-dev.cloudcontracts365.com
 onboarding-cc365-test.cloudcontracts365.com
@@ -20618,6 +20667,7 @@ pldespaigne.vercel.app
 please1.vercel.app
 pledge.newpublicservice.com
 plentyvelly.revo.com.au
+pleo.io
 plesk1.vercel.app
 plex-list-rss.versec.workers.dev
 plugin-auth.leadmagic.io
@@ -23327,6 +23377,7 @@ preview2-de01.intralinks.com
 preview2.inkonchain.com
 preview2.intralinks.com
 previewemail.coreview.com
+previews.staging.pleo.io
 preya.vercel.app
 price-rules-exploration.staging.boldcommerce.com
 priceza.50.116.84.14.sslip.io
@@ -23558,6 +23609,9 @@ prodromouf.vercel.app
 product-api.lassie.ai
 product-insights.employmenthero.com
 product-led-growth.arcade.software
+product-web-v2-bff.dev.pleo.io
+product-web-v2-bff.pleo.io
+product-web-v2-bff.staging.pleo.io
 product.howdy.com
 productdemo.amplitude.com
 producthunt-search.up.railway.app.up.railway.app
@@ -24446,6 +24500,7 @@ revenda.clickgrowth.com.br
 revengepopcorn.vercel.app
 revenue3.entendre.finance
 review.cloudcontracts365.com
+review.pleo.io
 reviews.chainreactioncycles.com
 reviews.meshki.com.au
 reviews.meshki.us
@@ -25239,6 +25294,7 @@ schoolapply1.vercel.app
 schowalterdavid.vercel.app
 schubidu.vercel.app
 scim.attio.com
+scim.dev.pleo.io
 scim.render.com
 scim.us-west-2.prod.it.amplitude.com
 scola.vercel.app
@@ -25358,6 +25414,7 @@ secureflow.click
 security-service.syscore.app
 security.50.116.93.228.sslip.io
 security.employmenthero.com
+security.pleo.io
 security.solidroad.com
 sed.vercel.app
 sedhuraja.vercel.app
@@ -26469,6 +26526,7 @@ staging.opencongress.app
 staging.optise.com
 staging.orchestrator.ornn.com
 staging.planpost.co.uk
+staging.pleo.io
 staging.preview.arcade.software
 staging.quilia.com
 staging.render.com
@@ -26555,6 +26613,7 @@ static.careers.s.recruitee.com
 static.dashboard.algolia.com
 static.deepl.com
 static.deferred.com
+static.dev.pleo.io
 static.eu.amplitude.com
 static.fedmich.com
 static.gocity.com
@@ -26563,8 +26622,10 @@ static.muso.ai
 static.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 static.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 static.opinion.ijr.com
+static.pleo.io
 static.rustyfiles.xyz
 static.setur.com.tr
+static.staging.pleo.io
 static.subsplash.com
 static.trezor.io
 static.understood.org
@@ -26892,6 +26953,7 @@ stores.revo.com.au
 storiedmoney.com
 stories.algolia.com
 stories.cabaia.fr
+stories.dev.pleo.io
 stormbreaker-mirrorbot.up.railway.app
 stormi.vercel.app
 stormlifter.vercel.app
@@ -27620,6 +27682,7 @@ techhf8.solutions.com.sa
 techhf9.solutions.com.sa
 techmynd.vercel.app
 technology-people-melbourne-pty-ltd.lms.employmenthero.com
+techops.pleo.io
 techrebels.retool.com
 techrep-services.lms.employmenthero.com
 techtest.gocity.com
@@ -27655,6 +27718,8 @@ telemetry.gocity.com
 telemetry.retool.com
 telepaws.claimsorted.com
 telepaws.qa.claimsorted.com
+telescope.dev.pleo.io
+telescope.pleo.io
 telford.taxassist.co.uk
 teller.attio.com
 telligent.qa.understood.org
@@ -28294,6 +28359,7 @@ tool-staging.guestpedia.com
 tool.guestpedia.com
 tool.xd-coder.com
 toolbox.datasets.oxylabs.io
+tooling.pleo.io
 toolkit26.innovativenurseeducator.com
 tools-backend-private.algolia.com
 tools-backend.algolia.com
@@ -28573,11 +28639,13 @@ try.amplitude.com
 try.arcade.software
 try.astra-ai.co
 try.attio.com
+try.dev.pleo.io
 try.employmenthero.com
 try.havnwear.com
 try.leadmagic.io
 try.limitless.exchange
 try.nixtla.io
+try.pleo.io
 try.retool.com
 trygbilpleje.ftz.dk
 trygt-hjem.amsmart.no
@@ -28732,6 +28800,8 @@ tunnel.us9.app.wiz.io
 turbiani.vercel.app
 turbo.mavie.care
 turbo.shunkakinoki.com
+turbocharger.pleo.io
+turbocharger.staging.pleo.io
 turltlewolfe.vercel.app
 turn.one
 turnbull-hill-lawyers.lms.employmenthero.com
@@ -28941,6 +29011,7 @@ update.goldenplanet.shop
 updates.198.57.149.180.sslip.io
 updates.50.116.93.211.sslip.io
 updates.attio.com
+updates.pleo.io
 updates.recruitee.com
 updates.retool.com
 upets.revo.com.au
@@ -29690,6 +29761,7 @@ waseemdaher-com.onrender.com
 wasinmekkit.vercel.app
 wasseliexpress-dz.com
 wassi-cars.tallerpro.io
+wat.staging.pleo.io
 watch.muso.ai
 watcharawaleeshop.198.57.149.180.sslip.io
 watcharawaleeshop.50.116.93.211.sslip.io
