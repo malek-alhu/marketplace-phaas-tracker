@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T04:24:06Z",
-  "last_run_at": "2026-11-05T23:06:02Z",
-  "last_run_summary": "[2026-11-05T23:06:02Z] 368 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-05T23:06:02Z] HEALTH certspotter=14/756 crtsh=5/9 urlscan=397/1149 dns-google=72966/72966 dns-cf=72966/72966",
+  "generated_at": "2026-11-06T09:44:11Z",
+  "last_run_at": "2026-11-06T04:29:56Z",
+  "last_run_summary": "[2026-11-06T04:29:56Z] 345 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-06T04:29:56Z] HEALTH certspotter=14/739 crtsh=1/4 urlscan=804/1149 dns-google=72904/72904 dns-cf=72904/72904",
   "tracked_hosts": {
-    "total": 40243,
+    "total": 40584,
     "by_status": {
-      "dead": 5570,
-      "active": 34673
+      "dead": 5793,
+      "active": 34791
     },
     "by_operator_tier": {
-      "A:tier1": 40243
+      "A:tier1": 40584
     }
   },
   "fingerprints": [
@@ -403,203 +403,203 @@
       "hash": "100913131f3142394de2e095297b72a8cb2aaeeca25c86f3182a6eb83c547b15",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "16074ed660b73eb47c7137ec7dc7bdbdf96bc38552328721676a8e79175ce88c",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "28a5d5867795c87a95a0ec3ca4196da0043e31e87572f1c0c98a3a25058df816",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "2de772b3b8f53a2eb2662ec6e25e5f2724fe587a0920745213ad5a6bd5878a4a",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "4303c0535bdf0608118039af8852c05f5cc5f22d8071dffbee0c474a6f1a5445",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "55e8d4a648ff1372cdc37820d6abc86900b2c34c904f748b2c61057da2fa5435",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "59158f07bee0162550c9943415e8af9f55fcf22702b963627c83b29bed474736",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "76d5f066de1e04992e681a0659687614fd3ac0d7fe5a63133ea4a3c3feb32c92",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "7f61ef401b74f959274636d7dbc67f9eb22bff24a54eefa6e4fda65539649408",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "812570bb54f8ccff93dfa908bdd768bcc9d4db370b3f241e6b5f2cb0b183800e",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "814880e527670f5f84c9468901185d91cecc9590125c4cecec6bf5be411e4f2a",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "82d3c2329be3a4fcac1d402b93ba26ea077019458a7be2e48d2c5151e48a7838",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "850dd10e6a42d5d4b67629e7baea0ea5c3eb10c6ff460b9a34bf982aafb83b77",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "8789e846bfc136e7852383a5c6d816999f9ba434fb830d0595c763b801f63ba7",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "958bd2a796a0864240f5575d73a864d7f8bd236494065bff46bf0169291af565",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "a2155667029d068df38aeeb31447d4daac91404d366a57d538d807886fa15182",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "ab036a7503e22e4d28f4ebe281d5282364bc9a972d2b3aaa885a376ac95836a4",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "b56c262f084d496b5c71c12ba4faa5ef19a6ae0635097ff71c1a94729bf4fb8e",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "b6a6a92baa9d980718a0fd2821b91d445eedff1a335fd36b05b53a55f52f1c69",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "c29c12ec1e41b8ffa1c7c548cb1f9cd845d1a91d1e1a4476eaebbedacd5fe73f",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "c3cad3c1972281dc17879c474559e98cddba0800b2bd0797738ab4b0632dbfd9",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "cadcc37071f9596fdd1be6e087e448c5073030551684fa9c89c8ce5b5b4a18e4",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "cd5f29364d365748f72e06eb4130ac12555694244c44ea4093eda5c60c9d0af9",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "cf724aa81674d1a7394cb11382e50ad7d3e7cfe9870c8d143f98567097025623",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "d0273711d7d373d2995374d2252fadb0e0e3b0200a273debc7fb6f9bce02f7a7",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "dc9d3e1c79ddf50cf96fc84297a71e6335d800c15fe73efd06feed3b78bdcbad",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "f6eee7d08c3772392741212bab1994194d68f141436563f030960f1b047f2819",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
@@ -697,105 +697,105 @@
       "hash": "04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "1c5687f4ae24e6d19592820a324f72f668faaecb061b064848f1ebf1bf9309ab",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "1f4fe5c0506b1035e1a6b4aceb4f53517b2d0d5fe42ce77194dd1db05ec9254a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "29de9fc7b84fbe15abeac5ac0f4a675df3fcf27f8cb363c575aac45e2378cc93",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "2d456158e4b868a147c84ffeaa6c10ac2dce61106a394a208331dfa0250c2b83",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "38042515d5e3fd8aa92a8654e055ca746b2b341c4f573481eb5c08dd125d1a23",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "4578582be32b83f45b29034132514fcffbaccc7f532f60f6cb162ade6cb479e0",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "520b60977e1d4fddc894bd080a02dab1c77ebedd1d5034f6b2de4bccc143b1f4",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "59aaa51d76c02261e37225ea6191b5529417e6361be7c802df586159321d24b8",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "6930c2cc6ae51099b69e6d6dcaec2354099d3141567bc92e5d6fab4e73428ffa",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "aebdaf233be9a24893825cbd807580e64e80d52262ac4f11d57c052328dca6e2",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "e39b7773c09af146ab7b39cc0ac44ba4de074cea94bf24f3555f6e4087e5b737",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "f80b9462749e5540c311c849f61b4f72dd5be874fc20665b9a295e856249845a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
@@ -872,7 +872,7 @@
       "hash": "c36806c67d9200d49f228c75f3b1d406b01e277826f0f15128fc59f5dd9561d6",
       "label": "chained",
       "added": "2026-10-15",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
@@ -1040,7 +1040,7 @@
       "hash": "137f3c12bd02b9d15e09714b8f898e1d3a3938aa8dd7dd0631d3be61d72ecb0e",
       "label": "chained",
       "added": "2026-10-24",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
@@ -1180,7 +1180,7 @@
       "hash": "5d2958db1fb14ff60f244283ade011f0fbdbbd1e03308da193e4b965999666f9",
       "label": "chained",
       "added": "2026-10-27",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
@@ -1432,21 +1432,21 @@
       "hash": "1ac4ea3b08f16c48a031a4a8e0010984d628d7e962daf74e105f48740ecfff61",
       "label": "chained",
       "added": "2026-11-01",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "4b8b9b2526af0a89b08735764f01f89081cfc44a0020b383216f92fd86225b6b",
       "label": "chained",
       "added": "2026-11-01",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "74d7b1945a77ef142f27fbc2f3bd3031695c6dd1ef5276dd89aa395a70dacafd",
       "label": "chained",
       "added": "2026-11-01",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
@@ -1460,255 +1460,283 @@
       "hash": "f69e36a4f3c540daaf697c787d0ec78639ece69e9500924f620a37e6a6062207",
       "label": "chained",
       "added": "2026-11-01",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "bf5c71f73fad1daf0c583a43e48823cc513409a6545b45cacd4ee414e70290af",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "cd8f78dcb6c929d6eb73924dd00623b03542dc5da8dd0ec7ad7cfffbc50255bb",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "bf5c71f73fad1daf0c583a43e48823cc513409a6545b45cacd4ee414e70290af",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "cd8f78dcb6c929d6eb73924dd00623b03542dc5da8dd0ec7ad7cfffbc50255bb",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "143a0089231b16bb72af9a2da0b82017487f7417d828c2a6237a819e50ac6ce5",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "4db94e8f1c3f57670cd0a6ea97ccab006da4403cca87e882014ff452567888ff",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "7d7d14e5c615de65b440ae4d40ed4728fe44537b0c0566d96599a8dc48830106",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "8ca2a724add9088e419cdfe28820b65c04b7c11d293649f554c8c4b949f04d6e",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "a4d9d54e6b99a8ac9d2a266b4833c7c6d9d5df4be58a7826fb185801cacad9ca",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "eecb8f1a4c99b50a035acabecac8f6c62d3ba767726788dce68db0991b3a759a",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "0e4e04e0a42d79e3fcd606e331bc5624ffe56414fce786a7f8a4dcd108e4a65d",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "15f50aace19864fa16fa8ed31c32ddbb37198c18487c7c2988694f30ed646ee9",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "1deabe0c8fcd43e0bd372db16397320d5568829502bd625bf91a89446dcfe314",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "60d33fc78f9054978d975247609b99ea87187304c569b0d426a0fb740e19ec2b",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "c2317d73d6a18d311bafe06f8aa2b6db61f3756bfe7af34cf4a1c336c53fc500",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "d289befc013c7ba19d515172fc7d65080bf30161776bb7812b0b50116ec772c2",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     },
     {
       "hash": "dc1538f8ecae77131c2d245a73fea6ed55ed139ff207106e16429995cb7889ba",
       "label": "chained",
       "added": "2026-11-05",
-      "last_confirmed_hit": "2026-11-05",
+      "last_confirmed_hit": "2026-11-06",
+      "status": "chained"
+    },
+    {
+      "hash": "0ce0a189539fe93c51f1ec3e96a83314f84d6918a528c60035640984b7e46a4b",
+      "label": "chained",
+      "added": "2026-11-06",
+      "last_confirmed_hit": "2026-11-06",
+      "status": "chained"
+    },
+    {
+      "hash": "9ff1947a4ec1aabfffd91792db93c8768a8d0bd6cfab1c30421203a22975a5bf",
+      "label": "chained",
+      "added": "2026-11-06",
+      "last_confirmed_hit": "2026-11-06",
+      "status": "chained"
+    },
+    {
+      "hash": "0ce0a189539fe93c51f1ec3e96a83314f84d6918a528c60035640984b7e46a4b",
+      "label": "chained",
+      "added": "2026-11-06",
+      "last_confirmed_hit": "2026-11-06",
+      "status": "chained"
+    },
+    {
+      "hash": "9ff1947a4ec1aabfffd91792db93c8768a8d0bd6cfab1c30421203a22975a5bf",
+      "label": "chained",
+      "added": "2026-11-06",
+      "last_confirmed_hit": "2026-11-06",
       "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 12040
+    "A": 12385
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.update.0update.update.admin.beta.35-204-139-184.sslip.io",
+      "indicator": "warntees.store",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.update.4www.api.admin.beta.wwwcomdev.35-204-139-184.sslip.io",
+      "indicator": "web-api-live-route-c6c7dydqcae2f8fp.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.update.dupdate.876987650pdate.update.87backend.en.35-205-140-87.sslip.io",
+      "indicator": "wildrosend.currentsoftware.app",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.vivariendesign.squarespace.com",
+      "indicator": "wooden-amber-x0nvhzd5-dp3uhdnydy4j.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.wordpress.z1jgmxyfaf06zcvu.edu.209.126.81.211.sslip.io",
+      "indicator": "www-resmed-com-au.sandbox.hs-sites.com",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.www.www.garden-delta-river-yellow.199-91-220-41.sslip.io",
+      "indicator": "www.airbridge.team",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.yxsrqxwrqljdralfehgbedupdate.8765876103210cvie5vujb80s9e4tapig.91.107.193.189.sslip.io",
+      "indicator": "www.allegro.offer09255915.shop",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "www.xclusive-p721status.35-225-32-205.git-mms-rm-tool-webhook.3-127-231-133.129-159-26-102.mail.69-5-20-114.sslip.io",
+      "indicator": "www.asuresoftware.com",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "x7hzksiswp4qztiv.dev.34-133-14-7.sslip.io",
+      "indicator": "www.beau-domaine.com",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "xn--digitaltlft-ogb.eve-4p.vercel.app",
+      "indicator": "www.cadaimmo.com",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "youtube-mcp-production-444c.up.railway.app",
+      "indicator": "www.currentsoftware.app",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "ywhm.auto-s1034464mza7-pbi-kv-dummyonecertv2publiccaujb80s9e4tapig.91.107.193.189.sslip.io",
+      "indicator": "www.jotform.com",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "z1xohuoo.up.railway.app",
+      "indicator": "www.milaclinic.app",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zaudhaus-em.squarespace.com",
+      "indicator": "www.recombee.com",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zentein-ai-chatbot-production.up.railway.app",
+      "indicator": "www.theearthprize.org",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zerotohundred.games",
+      "indicator": "wwwhardyakkaconz-d7cud6b9h9dqfadd.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zimbra-portal-ilcs.vercel.app",
+      "indicator": "yelping-azure-muzxfxlu-dptcc461eiq8.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zjkudxexzqehqwicqmlxz.squarespace.com",
+      "indicator": "zello.airbridge.io",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zv30p1qs.up.railway.app",
+      "indicator": "zhi-yun-dpdfz92e2drm.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     },
     {
       "type": "domain",
-      "indicator": "zx76l3h4.up.railway.app",
+      "indicator": "zoophagous-plum-i5bazz2s-dp65lp98rdqz.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-05T23:06:02Z"
+      "first_seen": "2026-11-06T04:29:56Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 71736,
+  "manual_review_candidates_pending": 73438,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
