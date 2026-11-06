@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-05T18:33:42Z",
-  "last_run_at": "2026-11-05T13:47:20Z",
-  "last_run_summary": "[2026-11-05T13:47:20Z] 9 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-05T13:47:20Z] HEALTH certspotter=14/744 crtsh=0/3 urlscan=100/1136 dns-google=70778/70778 dns-cf=70778/70778",
+  "generated_at": "2026-11-06T04:24:06Z",
+  "last_run_at": "2026-11-05T23:06:02Z",
+  "last_run_summary": "[2026-11-05T23:06:02Z] 368 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-05T23:06:02Z] HEALTH certspotter=14/756 crtsh=5/9 urlscan=397/1149 dns-google=72966/72966 dns-cf=72966/72966",
   "tracked_hosts": {
-    "total": 39835,
+    "total": 40243,
     "by_status": {
-      "dead": 5347,
-      "active": 34488
+      "dead": 5570,
+      "active": 34673
     },
     "by_operator_tier": {
-      "A:tier1": 39835
+      "A:tier1": 40243
     }
   },
   "fingerprints": [
@@ -1584,131 +1584,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 11672
+    "A": 12040
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "yappy-apricot-clludhda-dpkye5lq6vgo.edgeone.dev",
+      "indicator": "www.update.0update.update.admin.beta.35-204-139-184.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yearning-salmon-kjrsq5t3-dp5lf8pyx4hn.edgeone.dev",
+      "indicator": "www.update.4www.api.admin.beta.wwwcomdev.35-204-139-184.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "youngest-purple-s8azjm1x-dp5nfowtlu9v.edgeone.dev",
+      "indicator": "www.update.dupdate.876987650pdate.update.87backend.en.35-205-140-87.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yypfvfb7.up.railway.app",
+      "indicator": "www.vivariendesign.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zestydebate.com",
+      "indicator": "www.wordpress.z1jgmxyfaf06zcvu.edu.209.126.81.211.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zfxntkchbewkpanpojkka.squarespace.com",
+      "indicator": "www.www.www.www.garden-delta-river-yellow.199-91-220-41.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zippy-azure-aagzdh55-dp6xrs3aer1h.edgeone.dev",
+      "indicator": "www.www.yxsrqxwrqljdralfehgbedupdate.8765876103210cvie5vujb80s9e4tapig.91.107.193.189.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zitadel.dev.pleo.io",
+      "indicator": "www.xclusive-p721status.35-225-32-205.git-mms-rm-tool-webhook.3-127-231-133.129-159-26-102.mail.69-5-20-114.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zmxeuh20.up.railway.app",
+      "indicator": "x7hzksiswp4qztiv.dev.34-133-14-7.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zpawpwfoiybdfcpnpfkzi.squarespace.com",
+      "indicator": "xn--digitaltlft-ogb.eve-4p.vercel.app",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zyb9xytu.up.railway.app",
+      "indicator": "youtube-mcp-production-444c.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-05T04:31:08Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "graphql-preprod.predict.fun",
+      "type": "domain",
+      "indicator": "ywhm.auto-s1034464mza7-pbi-kv-dummyonecertv2publiccaujb80s9e4tapig.91.107.193.189.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "academy.bcw.agency",
+      "type": "domain",
+      "indicator": "z1xohuoo.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "bcw.agency",
+      "type": "domain",
+      "indicator": "zaudhaus-em.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "capture.holded.com",
+      "type": "domain",
+      "indicator": "zentein-ai-chatbot-production.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "compra-verlflcation.top",
+      "type": "domain",
+      "indicator": "zerotohundred.games",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "link.bcw.agency",
+      "type": "domain",
+      "indicator": "zimbra-portal-ilcs.vercel.app",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "members.harveynichols.com",
+      "type": "domain",
+      "indicator": "zjkudxexzqehqwicqmlxz.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "tax.bcw.agency",
+      "type": "domain",
+      "indicator": "zv30p1qs.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "www.bcw.agency",
+      "type": "domain",
+      "indicator": "zx76l3h4.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-05T13:47:20Z"
+      "first_seen": "2026-11-05T23:06:02Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 70227,
+  "manual_review_candidates_pending": 71736,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

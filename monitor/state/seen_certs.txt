@@ -1270,6 +1270,7 @@ affiliate.theirstack.com
 affiliates.108.167.165.116.sslip.io
 affiliates.leadmagic.io
 affiliates.limitless.exchange
+affiliates.raycast.com
 affinitycutest.retool.com
 affluent.108.167.165.116.sslip.io
 afiqlamaznun.vercel.app
@@ -1461,6 +1462,8 @@ ai-core.release.aws.topclassactions.com
 ai-core.release.topclassactions.com
 ai-core.topclassactions.com
 ai-datascience.fundingpips.dev
+ai-evals.raycast.com
+ai-images.raycast.com
 ai-personalization.eu.algolia.com
 ai-personalization.us.algolia.com
 ai-search.theirstack.com
@@ -2435,6 +2438,8 @@ api.quasers-products.up.railway.app
 api.quratetest.up.railway.app
 api.radio.plasma.ai
 api.raileon.com
+api.raycast.app
+api.raycast.com
 api.render.com
 api.replicas.dev
 api.resira.app
@@ -2853,6 +2858,7 @@ appcraft.vercel.app
 appdev.trackwired.com
 appen.leadmagic.io
 appk1.vercel.app
+apple-music-oauth.raycast.com
 apple-pear-australia-limited-apal.lms.employmenthero.com
 applebabyshop.50.116.84.142.sslip.io
 appliances.50.116.84.142.sslip.io
@@ -3161,6 +3167,7 @@ as.digid.nl
 as1.vercel.app
 asa.revo.com.au
 asaayers.vercel.app
+asana.oauth.raycast.com
 asap.50.116.84.142.sslip.io
 asapzacy.vercel.app
 ascariandrea1.vercel.app
@@ -3234,6 +3241,7 @@ assets.pim.ftz.dk
 assets.primariatm.ro
 assets.printfriendly.com
 assets.prod.roole.fr
+assets.raycast.com
 assets.render.com
 assets.secure.subsplash.com
 assets.splitbag.com
@@ -3710,6 +3718,7 @@ back.le-roulement.roole.fr
 backblaze-telebot.worker.up.railway.app
 backend-api.bluenote.ai
 backend-api.preview.bluenote.ai
+backend-shadow.raycast.com
 backend.aponect.mavie.care
 backend.averyberkel.com
 backend.chat.spoke.com
@@ -3717,6 +3726,7 @@ backend.developer.moovin.me
 backend.fundingpips.com
 backend.limitless.exchange
 backend.mainnet.canton.kintsu.xyz
+backend.raycast.com
 backend.solutions.com.sa
 backendnew.fundingpips.com
 backmiles.com
@@ -5782,6 +5792,7 @@ cli-proxy.shunkakinoki.com
 cli.codiedev.com
 cli.deepvista.ai
 cli.leadmagic.io
+cli.raycast.com
 click.boin.uk
 click.c.email.api.x.ai
 click.deferred.com
@@ -5899,6 +5910,7 @@ cms.huntington.org
 cms.kintsu.xyz
 cms.leadmagic.io
 cms.optise.com
+cms.raycast.com
 cms.revo.com.au
 cms.samharris.org
 cms.staging.samharris.org
@@ -8199,6 +8211,7 @@ dev.programmingplus.up.railway.app
 dev.progress.spoke.com
 dev.quilia.com
 dev.railway-expressjs.up.railway.app
+dev.raycast.com
 dev.rece.to
 dev.recommend-live-v1.cloud.junyiacademy.org
 dev.recommendation-test-v1.cloud.junyiacademy.org
@@ -8304,6 +8317,7 @@ developer.employmenthero.com
 developer.gitkraken.dev
 developer.moovin.me
 developer.muso.ai
+developer.raycast.com
 developer.staging.boldcommerce.com
 developer.wiz.io
 developer1.vercel.app
@@ -8319,6 +8333,7 @@ developers.deepl.com
 developers.experiment.amplitude.com
 developers.holded.com
 developers.oxylabs.io
+developers.raycast.com
 developers.stellar.org
 developers.x.ai
 developers1.vercel.app
@@ -8429,6 +8444,8 @@ dice.norapiva.com
 dickeylth.vercel.app
 dicondur.vercel.app
 dict-audio.deepl.com
+dictation-api-shadow.raycast.com
+dictation-api.raycast.com
 dieduro.vercel.app
 diegobatista.vercel.app
 diegochavez.retool.com
@@ -8812,6 +8829,7 @@ drift-trade.entendre.finance
 driftnet.io
 dritidagli.vercel.app
 drive.syscore.app
+driver-lounge.sendy.ai
 drixmux.vercel.app
 drizzlymusicc-production.up.railway.app
 drizzlymusicc.production.up.railway.app
@@ -8916,6 +8934,7 @@ dwellerofuniverse.vercel.app
 dwh-hh.intl.datalogue.com
 dwsresearch.entendre.finance
 dx-works1.vercel.app
+dx.sendy.ai
 dyakov-vladislav.vercel.app
 dyareela.vercel.app
 dyharpharpdy.vercel.app
@@ -8953,6 +8972,7 @@ e.ie.sportsdirect.com
 e.listenlabs.ai
 e.nz.sportsdirect.com
 e.pt.sportsdirect.com
+e.raycast.com
 e.s-cloud.up.railway.app
 e.solidroad.com
 e.sportsdirect.com
@@ -10837,6 +10857,8 @@ exsys.geek-salon.com
 ext-api-test.gocity.com
 ext-api.gocity.com
 extension.beanstalkconsulting.co
+extensions-api-proxy.raycast.com
+extensions-bot.raycast.com
 extensiontotal.retool.com
 external-licensing.exclaimer.com
 external-licensing.gblbs.exclaimer.com
@@ -11110,6 +11132,7 @@ files.mavie.care
 files.muso.ai
 files.opendesk-marlonm.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 files.opendesk.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
+files.raycast.com
 filesearch.adfinis.com
 fileservices.intralinks.com
 filestreambot-pro.tk.up.railway.app
@@ -12207,6 +12230,7 @@ ghgugle.vercel.app
 ghorabstore.com
 ghost1.vercel.app
 gib.103.86.51.71.sslip.io
+gif-search.raycast.com
 gift-klaviyo.apps.bloomsybox.com
 gift.cakemembers.com
 gift1.vercel.app
@@ -12246,6 +12270,7 @@ github-bot.zed.dev
 github-pages-8nci.app.render.com
 github-pages-8nci.onrender.com
 github-review.roole.fr
+github.oauth.raycast.com
 githubhook.dev.bluenote.ai
 gitkon.gitkraken.dev
 gitkraken.dev
@@ -14455,6 +14480,7 @@ imartinezl.vercel.app
 imdkva.vercel.app
 imfromrostov.vercel.app
 img.email.grubby.ai
+img.glaze.app
 img.info.frankfred.com
 img.logo.dev
 img.mailing.trezor.io
@@ -14465,6 +14491,8 @@ img.send.cloudpliant.com
 img.send.rouje.com
 imge611k.blackfodder.co
 imgen.x.ai
+imgproxy.rayca.st
+imgproxy.raycast.com
 imhori.vercel.app
 imikay.vercel.app
 imkitae.vercel.app
@@ -14547,6 +14575,7 @@ info.fretebras.com.br
 info.howdy.com
 info.nendazveysonnaz.ch
 info.roole.fr
+info.sendy.ai
 info.wiz.io
 info1.vercel.app
 info10.vercel.app
@@ -14767,8 +14796,10 @@ internal-status.algolia.com
 internal-support.exclaimer.com
 internal-usage-staging.algolia.com
 internal-usage.algolia.com
+internal.app.upfirst.ai
 internal.backpack.exchange
 internal.deepl.com
+internal.dev.upfirst.ai
 internal.getcircuit.com
 internal.howdy.com
 internal.keshav-ornn.fabric.ornn.com
@@ -14790,6 +14821,7 @@ intranet.amplitude.com
 intranet.bauhaus.es
 intranet.tcu.gov.br
 intro.oxylabs.io
+intro.sendy.ai
 intropicexternal.retool.com
 inv-dash-deploy.review.allshares.app
 inv-dash-deploy.review.bolago.app
@@ -15204,6 +15236,7 @@ jimmykoproto.vercel.app
 jinglemarket.org
 jinxi.vercel.app
 jiojiajiu.vercel.app
+jira.oauth.raycast.com
 jira.understood.org
 jirapas95b.vercel.app
 jiri.vercel.app
@@ -16459,6 +16492,7 @@ lindalai615.vercel.app
 lindawoo.retool.com
 lindsey.retool.com
 linea.entendre.finance
+linear.oauth.raycast.com
 linen.nixtla.io
 linguee.cl
 linguee.cn
@@ -16563,6 +16597,7 @@ links.mail.dublivo.com
 links.mail.revo.com.au
 links.news.astra-ai.co
 links.omnyn.com.br
+links.raycast.com
 links.send.logo.dev
 links.topclassactions.com
 links.understood.org
@@ -17600,6 +17635,7 @@ mantas1.vercel.app
 mantis.vercel.app
 mantle.support.boldcommerce.com
 mantlecurve.vercel.app
+manual.raycast.com
 manuel1.vercel.app
 manuelesperon.vercel.app
 manuelm3z.vercel.app
@@ -18074,6 +18110,7 @@ merch-accelerator-demo.algolia.com
 merch-se.nationalmerchandise.co.uk
 merch.nationalmerchandise.co.uk
 merch.pangobooks.com
+merch.raycast.com
 merch.zed.dev
 merchandises.50.116.93.228.sslip.io
 merchandising-staging.de.algolia.com
@@ -18338,11 +18375,14 @@ miraculum-production.up.railway.app
 miraries.vercel.app
 mirkoschubert.vercel.app
 miro.amplitude.com
+miro.oauth.raycast.com
 miro.staging.amplitude.com
 mirror.sportsdirect.com
 mirshko.vercel.app
 mirthful-direction-development.up.railway.app
 misaka.vercel.app
+misc-assets.glaze.app
+misc-assets.raycast.com
 mischaduebendorfer.vercel.app
 misfits.vercel.app
 misha06052000.vercel.app
@@ -18503,6 +18543,7 @@ montevideocollege.queliga.com
 montogeek.vercel.app
 montrose.taxassist.co.uk
 monumentsapp.com
+monzo.oauth-proxy.raycast.com
 mool.fr
 moonfare.retool.com
 moongate.entendre.finance
@@ -19369,6 +19410,7 @@ notify.freskgard.se
 notify.meallions.com
 notify.staging.amplitude.com
 notify.tomorro.com
+notion.oauth.raycast.com
 notnotdarkhole.vercel.app
 notreal002.vercel.app
 noudvankruysbergen.vercel.app
@@ -19484,8 +19526,10 @@ oakline-strength-qa.waypost.co.uk
 oangy.vercel.app
 oauth-dev-prod.junyiacademy.org
 oauth-dev-test.junyiacademy.org
+oauth-proxy.raycast.com
 oauth.builds.understood.org
 oauth.employmenthero.com
+oauth.raycast.com
 oauth.staging.employmenthero.com
 oauth.tester.army
 oauth.tomo.ai
@@ -19896,6 +19940,7 @@ origin-secure.investorvision.intralinks.com
 origin.gocity.com
 origin.operand.up.railway.app
 origin.qa.understood.org
+origin.sync.raycast.com
 origin.usdx.ar
 orion1.vercel.app
 orionidgroup.vercel.app
@@ -20256,6 +20301,7 @@ paulrthompson.vercel.app
 paulsabana.vercel.app
 paulsevere.vercel.app
 paulweiss.virgil.ai
+paupay-pl.eu.cc
 pavan-testing-ltd.lms.employmenthero.com
 pavel1860.vercel.app
 pavelshklovsky.vercel.app
@@ -20638,6 +20684,7 @@ plan-qs.tokyodisneyresort.jp
 plan.bcw.agency
 planalo.frogzz.com
 planb.vercel.app
+planetscale.oauth.raycast.com
 planificadorestanterias.bauhaus.es
 planpost.co.uk
 plans.novonorth.com
@@ -23792,6 +23839,7 @@ pulpit-embed.subsplash.com
 pulpitai.subsplash.com
 pulsar-b9fn.lbc.io
 pulsar.ivan.digital
+pulse.raycast.com
 pulsead.retool.com
 pulylim.contact.up.railway.app
 pumpuli.vercel.app
@@ -24152,6 +24200,8 @@ ravpn.revo.com.au
 raw-dl.app.render.com
 rawouter.vercel.app
 rayane.mlpadaria.up.railway.app
+raybot.raycast.com
+raycast.com
 raycune1.vercel.app
 rayhatfield.vercel.app
 rayi.vercel.app
@@ -24255,6 +24305,7 @@ recrutamos-voce.com.br
 recyclerzhu.vercel.app
 redacted-dev.intralinks.com
 redaction-preview.intralinks.com
+redash.raycast.com
 redauditoriapobreza.tcu.gov.br
 redblue.vercel.app
 redbrick-plumbing-heating.waypost.co.uk
@@ -24344,6 +24395,7 @@ releasenotes.boldcommerce.com
 releases.claude.com
 releases.exclaimer.com
 releases.leadmagic.io
+releases.raycast.com
 releases.retool.com
 relias.retool.com
 relief-backoffice-registry-backend-dev-002.stellar.org
@@ -25466,6 +25518,7 @@ send.nishal.dev
 sendeasy.yeezy-sand.xyz
 sendgrid.wiz.io
 sendgridtesting.gblbs.exclaimer.com
+sendy.ai
 sendy.printfriendly.com
 senia.assistant.understood.org
 senite.app
@@ -25739,6 +25792,7 @@ shopify-staging.algolia.com
 shopify-staging.cakemembers.com
 shopify.cakemembers.com
 shopify.moovin.me
+shopify.raycast.com
 shopify.unvault.co
 shoppe.api.up.railway.app
 shopskychefs.com
@@ -25962,6 +26016,7 @@ slack.codecov.io
 slack.entendre.finance
 slack.hooks.x.ai
 slack.leadmagic.io
+slack.oauth.raycast.com
 slack.ornn.com
 slack1.vercel.app
 slackingnation1.vercel.app
@@ -26503,6 +26558,7 @@ staging.cwdriving.collectivesecretary.up.railway.app
 staging.dashboard.resira.app
 staging.deepvista.ai
 staging.deferred.com
+staging.dictation-api.raycast.com
 staging.ehrocks.com
 staging.employmenthero.com
 staging.energyx.com
@@ -26669,6 +26725,7 @@ stats.oxylabs.io
 stats.revo.com.au
 status-admin-staging.algolia.com
 status-admin.algolia.com
+status-admin.upfirst.ai
 status-board1.vercel.app
 status-code.oxylabs.io
 status-eu1.sysdig.com
@@ -26778,6 +26835,7 @@ status.qualys.com
 status.qubole.com
 status.railway.app
 status.rapid7.com
+status.raycast.com
 status.readingeggs.com
 status.rebrandly.com
 status.recruitee.com
@@ -26942,6 +27000,7 @@ storage.dev
 storage.dev.printfriendly.com
 storage.printfriendly.com
 storage.railway.app
+storage.sendy.ai
 storage.tigris.dev
 storageapi.dev
 store-queue.nintendo.at
@@ -27295,6 +27354,7 @@ sync-stageapi.urbis.primariatm.ro
 sync-test.intralinks.com
 sync.canton.kintsu.xyz
 sync.intralinks.com
+sync.raycast.com
 sync.tablerly.com
 syncpreview.intralinks.com
 syncpreview2.intralinks.com
@@ -28322,6 +28382,7 @@ toc15.vercel.app
 today.algolia.com
 todbot.vercel.app
 todo.list.up.railway.app
+todoist.oauth-proxy.raycast.com
 todos1.vercel.app
 toeytom.vercel.app
 tofo.vercel.app
@@ -28638,6 +28699,7 @@ trust.ornn.com
 trust.paradev.com
 trust.qmb.ai
 trust.railway.app
+trust.raycast.com
 trust.render.com
 trust.replicas.dev
 trust.retool.com
@@ -28848,6 +28910,7 @@ twin.listenlabs.ai
 twins.listenlabs.ai
 twinstake.entendre.finance
 twist.spoke.com
+twitch.oauth.raycast.com
 twitter.bot.up.railway.app
 twitterb.vercel.app
 twixes3d.vercel.app
@@ -31068,6 +31131,7 @@ whoami.dev.212.194.103.104.sslip.io
 whobubble.vercel.app
 wholesale-rat-production.up.railway.app
 wholesale.1906.shop
+whoop.oauth.raycast.com
 wht.vercel.app
 whutzn.vercel.app
 why1.vercel.app
@@ -31272,6 +31336,7 @@ wpu.metrito.com
 wrangler.howdy.com
 wrannaman.vercel.app
 wrapped.leadmagic.io
+wrapped.raycast.com
 wrb1.vercel.app
 wrenandcue.com
 wrenth04.vercel.app
@@ -32528,6 +32593,7 @@ www.rakaza.50.116.84.14.sslip.io
 www.rancher.bauhaus.ch
 www.random.brandbasket.in
 www.ravpn.revo.com.au
+www.raycast.com
 www.rd.revo.com.au
 www.rdp.revo.com.au
 www.rdq.cz
@@ -33440,6 +33506,7 @@ zombie.moovin.me
 zonaverdedelsur.com
 zondascore.com.ar
 zoo46201.vercel.app
+zoom.oauth.raycast.com
 zoomelectrico.vercel.app
 zoovenir.vercel.app
 zorafm-development.up.railway.app
