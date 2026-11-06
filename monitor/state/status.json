@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T09:44:11Z",
-  "last_run_at": "2026-11-06T04:29:56Z",
-  "last_run_summary": "[2026-11-06T04:29:56Z] 345 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-06T04:29:56Z] HEALTH certspotter=14/739 crtsh=1/4 urlscan=804/1149 dns-google=72904/72904 dns-cf=72904/72904",
+  "generated_at": "2026-11-06T19:21:04Z",
+  "last_run_at": "2026-11-06T13:31:03Z",
+  "last_run_summary": "[2026-11-06T13:31:03Z] 4 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-06T13:31:03Z] HEALTH certspotter=15/846 crtsh=1/4 urlscan=100/1181 dns-google=73476/73476 dns-cf=73476/73476",
   "tracked_hosts": {
-    "total": 40584,
+    "total": 40627,
     "by_status": {
-      "dead": 5793,
-      "active": 34791
+      "dead": 5814,
+      "active": 34813
     },
     "by_operator_tier": {
-      "A:tier1": 40584
+      "A:tier1": 40627
     }
   },
   "fingerprints": [
@@ -1609,36 +1609,26 @@
       "added": "2026-11-06",
       "last_confirmed_hit": "2026-11-06",
       "status": "chained"
+    },
+    {
+      "hash": "e6e2010c1a6f2a5b9b7336a1e26c034ca8173ddd7e94987d47ee3bb30c473f8a",
+      "label": "chained",
+      "added": "2026-11-06",
+      "last_confirmed_hit": "2026-11-06",
+      "status": "chained"
+    },
+    {
+      "hash": "ea9ea7938d0908a8657416ff759f794534adcdf457427c667d0818a351cd28f9",
+      "label": "chained",
+      "added": "2026-11-06",
+      "last_confirmed_hit": "2026-11-06",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 12385
+    "A": 12389
   },
   "recent_tier1_findings": [
-    {
-      "type": "domain",
-      "indicator": "warntees.store",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "web-api-live-route-c6c7dydqcae2f8fp.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wildrosend.currentsoftware.app",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wooden-amber-x0nvhzd5-dp3uhdnydy4j.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
     {
       "type": "domain",
       "indicator": "www-resmed-com-au.sandbox.hs-sites.com",
@@ -1734,9 +1724,33 @@
       "indicator": "zoophagous-plum-i5bazz2s-dp65lp98rdqz.edgeone.dev",
       "operator": "A",
       "first_seen": "2026-11-06T04:29:56Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ticket-assistant-api.yuma.ai",
+      "operator": "A",
+      "first_seen": "2026-11-06T13:31:03Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "alab-staging.almostimpossible.agency",
+      "operator": "A",
+      "first_seen": "2026-11-06T13:31:03Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "blocket.fraktleverans.help",
+      "operator": "A",
+      "first_seen": "2026-11-06T13:31:03Z"
+    },
+    {
+      "type": "revival",
+      "indicator": "fraktleverans.help",
+      "operator": "A",
+      "first_seen": "2026-11-06T13:31:03Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 73438,
+  "manual_review_candidates_pending": 74572,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
