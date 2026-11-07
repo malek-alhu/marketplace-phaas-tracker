@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T19:21:04Z",
-  "last_run_at": "2026-11-06T13:31:03Z",
-  "last_run_summary": "[2026-11-06T13:31:03Z] 4 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-06T13:31:03Z] HEALTH certspotter=15/846 crtsh=1/4 urlscan=100/1181 dns-google=73476/73476 dns-cf=73476/73476",
+  "generated_at": "2026-11-07T03:17:41Z",
+  "last_run_at": "2026-11-06T22:36:08Z",
+  "last_run_summary": "[2026-11-06T22:36:08Z] 58 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-06T22:36:08Z] HEALTH certspotter=16/766 crtsh=26/39 urlscan=100/1183 dns-google=72214/72214 dns-cf=72214/72214",
   "tracked_hosts": {
-    "total": 40627,
+    "total": 41032,
     "by_status": {
-      "dead": 5814,
-      "active": 34813
+      "dead": 5871,
+      "active": 35161
     },
     "by_operator_tier": {
-      "A:tier1": 40627
+      "A:tier1": 41032
     }
   },
   "fingerprints": [
@@ -1626,131 +1626,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 12389
+    "A": 12447
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www-resmed-com-au.sandbox.hs-sites.com",
+      "type": "cert",
+      "indicator": "mbe.wslabs.it",
       "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.airbridge.team",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.allegro.offer09255915.shop",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.asuresoftware.com",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.beau-domaine.com",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.cadaimmo.com",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.currentsoftware.app",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.jotform.com",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.milaclinic.app",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.recombee.com",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "www.theearthprize.org",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "wwwhardyakkaconz-d7cud6b9h9dqfadd.a03.azurefd.net",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yelping-azure-muzxfxlu-dptcc461eiq8.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zello.airbridge.io",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zhi-yun-dpdfz92e2drm.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zoophagous-plum-i5bazz2s-dp65lp98rdqz.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-06T04:29:56Z"
+      "first_seen": "2026-11-06T22:36:08Z"
     },
     {
       "type": "cert",
-      "indicator": "ticket-assistant-api.yuma.ai",
+      "indicator": "mbeglobal.wslabs.it",
       "operator": "A",
-      "first_seen": "2026-11-06T13:31:03Z"
+      "first_seen": "2026-11-06T22:36:08Z"
     },
     {
       "type": "cert",
-      "indicator": "alab-staging.almostimpossible.agency",
+      "indicator": "minotti.wslabs.it",
       "operator": "A",
-      "first_seen": "2026-11-06T13:31:03Z"
+      "first_seen": "2026-11-06T22:36:08Z"
     },
     {
-      "type": "revival",
-      "indicator": "blocket.fraktleverans.help",
+      "type": "cert",
+      "indicator": "offsecops.app",
       "operator": "A",
-      "first_seen": "2026-11-06T13:31:03Z"
+      "first_seen": "2026-11-06T22:36:08Z"
     },
     {
-      "type": "revival",
-      "indicator": "fraktleverans.help",
+      "type": "cert",
+      "indicator": "olioclemente-kinsta.wslabs.it",
       "operator": "A",
-      "first_seen": "2026-11-06T13:31:03Z"
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "panaria-de.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "panaria-en.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "panaria-fr.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "panaria-us.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "panaria.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "placefolder.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "rep.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "storybook.wattstack.io",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "the-admission-hub.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "todone.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "uk.offsecops.app",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "ws-deploy-01.wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "wslabs.it",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.mijoreadvisory.co.uk",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.offsecops.app",
+      "operator": "A",
+      "first_seen": "2026-11-06T22:36:08Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 74572,
+  "manual_review_candidates_pending": 75741,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
