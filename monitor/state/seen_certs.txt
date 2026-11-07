@@ -97,6 +97,7 @@
 1468764755.vercel.app
 1475452561.vercel.app
 149.154.64.89.sslip.io
+14e0af47.sni.cloudflaressl.com
 15223361.vercel.app
 1527254027.vercel.app
 153.126.146.154.sslip.io
@@ -298,6 +299,7 @@
 310388ab82634b9f9149fb1bfa4aa22f.solutions.com.sa
 315868879.vercel.app
 319699aa.sni.cloudflaressl.com
+31ad0808.sni.cloudflaressl.com
 330391743.vercel.app
 34-203-246-154.sslip.io
 34.201.243.222.sslip.io
@@ -2774,6 +2776,7 @@ app.beanstalkconsulting.co
 app.beehappychilecl.up.railway.app
 app.beta.getgrout.com
 app.bluenote.ai
+app.brandbasket.in
 app.brightchase.io
 app.bytorhealth.com
 app.chrysalabs.com
@@ -3322,6 +3325,7 @@ assets.splitbag.com
 assets.sportsdirect.com
 assets.staging.roole.fr
 assets.syrs.jp
+assets.thatch.ai
 assets.thatch.com
 assets.tomo.ai
 assets.wiz.io
@@ -5366,6 +5370,7 @@ cd.public.mavie.care
 cd.stag.mavie.care
 cd.test.mavie.care
 cd411411.vercel.app
+cd6c82a6.sni.cloudflaressl.com
 cdanmar.vercel.app
 cdbizone.vercel.app
 cdcvillamaria.wslabs.it
@@ -6027,6 +6032,7 @@ cms-api.predict.fun
 cms-poc1.vercel.app
 cms-v2.standardintelligence.com
 cms.a1.digid.nl
+cms.brandbasket.in
 cms.dev.samharris.org
 cms.digid.nl
 cms.gocity.com
@@ -6173,6 +6179,7 @@ colemanword1.vercel.app
 colette-ai.dev.up.railway.app
 colinrileytaylor.vercel.app
 collab-edge.ftz.dk
+collab.adfinis.com
 collab.autodealer.io
 collaborate.boldcommerce.com
 collapsible-folders.preview.arcade.software
@@ -7177,6 +7184,7 @@ console-pr-999.preview.webscraping.app
 console-staging.preview.webscraping.app
 console-staging.workbrew.com
 console.anthropic.com
+console.brandbasket.in
 console.claude.com
 console.humanforward.io
 console.internal.trading.backpack.exchange
@@ -13841,6 +13849,7 @@ guillaum3.vercel.app
 guillaume.vercel.app
 guillermosauval.vercel.app
 gulas-cafe.udiapps.com
+gulfcrest.brandbasket.in
 gum.yucp.club
 gumbyscout.vercel.app
 gummicube.vercel.app
@@ -14271,6 +14280,7 @@ heygen.retool.com
 heyhedward.vercel.app
 heymatthenry.vercel.app
 heyyyoyy.vercel.app
+hf-accounts.nextgentrainingacademy.com
 hflores.vercel.app
 hgangurde91.vercel.app
 hhaimaster.vercel.app
@@ -16020,6 +16030,7 @@ karthikeyaniyengar.vercel.app
 karthikganiga007.vercel.app
 karthikmam.vercel.app
 karthiram165.vercel.app
+karya-director.nextgentrainingacademy.com
 kasahara1019.vercel.app
 kashihalma.vercel.app
 kasper666.vercel.app
@@ -16217,6 +16228,7 @@ kids.50.116.93.228.sslip.io
 kids.kendro.com.ar
 kidscavern.co.uk
 kidsciencecraft.vercel.app
+kie-mcp.nextgentrainingacademy.com
 kieranallen.vercel.app
 kigorw.vercel.app
 kikuchikaori.vercel.app
@@ -18398,6 +18410,7 @@ media-staging.topclassactions.com
 media.2sync.com
 media.aloportal.com
 media.bloxcart.com
+media.brandbasket.in
 media.cctv.yeopkerphone.co.kr
 media.chainreactioncycles.com
 media.congressinfo.net
@@ -18417,6 +18430,7 @@ media.solutions.com.sa
 media.staging.roole.fr
 media.stg.bloxcart.com
 media.theirstack.com
+media.tidynames.com
 media.topclassactions.com
 media2.huntington.org
 mediacenter.understood.org
@@ -20994,6 +21008,7 @@ pghubstack.retool.com
 pgmads.retool.com
 pgrest.admin.render.com
 ph-staffel.havnwear.com
+ph.thatch.ai
 ph.thatch.com
 phadzhitsanev.vercel.app
 phamtu35.vercel.app
@@ -24530,6 +24545,7 @@ r.email.grubby.ai
 r.envoi.edn-app.fr
 r.info.frankfred.com
 r.info.klirr.com
+r.mail.brandbasket.in
 r.mail.nishal.dev
 r.mail.socra.nishal.dev
 r.mailing.trezor.io
@@ -26141,7 +26157,9 @@ sgajo.vercel.app
 sggk211201.vercel.app
 sgm-pr.algolia.com
 sgmt-api.algolia.com
+sgmt-api.thatch.ai
 sgmt-api.thatch.com
+sgmt-cdn.thatch.ai
 sgmt-cdn.thatch.com
 sgmt.algolia.com
 sgtest.junyiacademy.org
@@ -26681,6 +26699,7 @@ socbetgit-116-203-58-216.sslip.io
 social-cipher.assistant.understood.org
 social-radar.app
 social.myfinanceconsultants.com.au
+social.nextgentrainingacademy.com
 socialclub.stellar.org
 socialflow.vercel.app
 socialize.vercel.app
@@ -29093,6 +29112,7 @@ track.meshki.com.au
 track.meshki.us
 track.news.stage.twincafe.com
 track.news.twincafe.com
+track.nextgentrainingacademy.com
 track.nixtla.io
 track.notifications.community.samharris.org
 track.notify.codiedev.com
@@ -29969,6 +29989,7 @@ vault.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 vault.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 vault.discordservers.com
 vault.h.muso.ai
+vault.nextgentrainingacademy.com
 vault.render.com
 vault.syscore.app
 vaultwarden.adfinis.com
@@ -30344,6 +30365,7 @@ vym925.shopify.moovin.me
 w-n-s.de
 w.uzchi.com
 wa.aokitech.com.ar
+wa.nextgentrainingacademy.com
 wa.opencongress.app
 wa.udiatende.udiapps.com
 waaiezkinnear10.vercel.app

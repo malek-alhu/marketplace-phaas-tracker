@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-07T09:11:51Z",
-  "last_run_at": "2026-11-07T03:56:20Z",
-  "last_run_summary": "[2026-11-07T03:56:20Z] 705 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-07T03:56:20Z] HEALTH certspotter=21/776 crtsh=89/112 urlscan=1100/1183 dns-google=75208/75208 dns-cf=75208/75208",
+  "generated_at": "2026-11-07T17:55:15Z",
+  "last_run_at": "2026-11-07T12:12:08Z",
+  "last_run_summary": "[2026-11-07T12:12:08Z] 113 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-07T12:12:08Z] HEALTH certspotter=14/772 crtsh=1/4 urlscan=200/1194 dns-google=75084/75084 dns-cf=75084/75084",
   "tracked_hosts": {
-    "total": 41831,
+    "total": 41961,
     "by_status": {
-      "dead": 5892,
-      "active": 35939
+      "dead": 5903,
+      "active": 36058
     },
     "by_operator_tier": {
-      "A:tier1": 41831
+      "A:tier1": 41961
     }
   },
   "fingerprints": [
@@ -1626,131 +1626,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 13152
+    "A": 13265
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.lkpgc0d5hq-41efc45a48.vercel.app",
+      "indicator": "6674591.hs-sites.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.netflixclone-drab.vercel.app",
+      "indicator": "7.240.119.136.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.netgain.tech",
+      "indicator": "70.22.205.35.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.permisioning-built-in-accessed.squarespace.com",
+      "indicator": "71.113.196.35.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.roadhousetakeaway.squarespace.com",
+      "indicator": "72.15.254.35.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.skyaccess.capital",
+      "indicator": "73.21.169.34.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.squarespace.com",
+      "indicator": "76.61.155.104.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.staging.wccheck-83cde090-ext.adobedevs.cbackend.34-76-67-67.sslip.io",
+      "indicator": "78.89.88.34.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.storyly.io",
+      "indicator": "79.134.138.34.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "www.syscom.mx",
+      "indicator": "80.13.148.146.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "x7v7yivmj4k9qd9v.www.mforttechniektvww.34.133.14.7.sslip.io",
+      "indicator": "81.78.194.35.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "xbaumgq-103-42-180-32.sslip.io",
+      "indicator": "85.118.255.173.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "xdzw4r7b.up.railway.app",
+      "indicator": "85.168.155.34.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "xerothermic-white-iuo9ppkt-dp177ixpscnn.edgeone.dev",
+      "indicator": "87.129.65.136.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "xeunhkz-103-42-180-32.sslip.io",
+      "indicator": "92.225.133.34.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "y6frztg-103-42-180-32.sslip.io",
+      "indicator": "94.122.217.35.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "yappy-moccasin-6evbvgws-dp4p8gtawspq.edgeone.dev",
+      "indicator": "96.161.133.34.bc.googleusercontent.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "yvie-balbuena.squarespace.com",
+      "indicator": "brighthire-6958879.hs-sites.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "z4h3aqd-103-42-180-32.sslip.io",
+      "indicator": "edu.dpdicacforensics.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     },
     {
       "type": "domain",
-      "indicator": "zsipdesk2.squarespace.com",
+      "indicator": "recruteur-hellowork-com.sandbox.hs-sites.com",
       "operator": "A",
-      "first_seen": "2026-11-07T03:56:20Z"
+      "first_seen": "2026-11-07T12:12:08Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 77027,
+  "manual_review_candidates_pending": 78553,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
