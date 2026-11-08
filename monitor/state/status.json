@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-07T17:55:15Z",
-  "last_run_at": "2026-11-07T12:12:08Z",
-  "last_run_summary": "[2026-11-07T12:12:08Z] 113 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-07T12:12:08Z] HEALTH certspotter=14/772 crtsh=1/4 urlscan=200/1194 dns-google=75084/75084 dns-cf=75084/75084",
+  "generated_at": "2026-11-08T03:07:52Z",
+  "last_run_at": "2026-11-07T21:16:04Z",
+  "last_run_summary": "[2026-11-07T21:16:04Z] 21 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-07T21:16:04Z] HEALTH certspotter=18/853 crtsh=38/50 urlscan=100/1194 dns-google=77542/77542 dns-cf=77542/77542",
   "tracked_hosts": {
-    "total": 41961,
+    "total": 42762,
     "by_status": {
-      "dead": 5903,
-      "active": 36058
+      "dead": 5905,
+      "active": 36857
     },
     "by_operator_tier": {
-      "A:tier1": 41961
+      "A:tier1": 42762
     }
   },
   "fingerprints": [
@@ -1626,131 +1626,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 13265
+    "A": 13286
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "6674591.hs-sites.com",
+      "type": "cert",
+      "indicator": "accounts.withrefill.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "7.240.119.136.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "api.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "70.22.205.35.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "71.113.196.35.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "blog.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "72.15.254.35.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "bps.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "73.21.169.34.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "chapterbrief.net",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "76.61.155.104.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "clerk.withrefill.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "78.89.88.34.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "docs.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "79.134.138.34.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "institutional.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "80.13.148.146.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "login.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "81.78.194.35.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "pay.taptobuy.io",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "85.118.255.173.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "r2-public.postai.llc",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "85.168.155.34.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "t.porradanutra.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "87.129.65.136.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "trk.global.beau-domaine.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "92.225.133.34.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "trk.send.tumbleliving.ca",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "94.122.217.35.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "tumbleliving.ca",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "96.161.133.34.bc.googleusercontent.com",
+      "type": "cert",
+      "indicator": "www.blockchain.com",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "brighthire-6958879.hs-sites.com",
+      "type": "cert",
+      "indicator": "www.chapterbrief.net",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "edu.dpdicacforensics.com",
+      "type": "cert",
+      "indicator": "www.taptobuy.io",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     },
     {
-      "type": "domain",
-      "indicator": "recruteur-hellowork-com.sandbox.hs-sites.com",
+      "type": "cert",
+      "indicator": "www.tumbleliving.ca",
       "operator": "A",
-      "first_seen": "2026-11-07T12:12:08Z"
+      "first_seen": "2026-11-07T21:16:04Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 78553,
+  "manual_review_candidates_pending": 81453,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
