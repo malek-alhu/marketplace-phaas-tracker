@@ -35,6 +35,7 @@ almostimpossible.agency	A
 alnforge.com	A
 aloportal.com	A
 altura1500.lat	A
+amantech-eg.com	A
 amplinutri.com	A
 amplitude.com	A
 anafi.online	A
@@ -71,6 +72,7 @@ avhenting2510.com	A
 avhenting2709.cc	A
 avhenting2909.cc	A
 awen.ai	A
+aworks.si	A
 axelarigato.com	A
 azurecontainerapps.io	A
 backmiles.com	A
@@ -111,11 +113,14 @@ boin.uk	A
 bolago.app	A
 boldcommerce.com	A
 bombayhairpro.com	A
+boredfoundersclub.pl	A
 brandanthonymcdonald.com	A
 brandbasket.in	A
 bravodm.com	A
 bridge-capital.ch	A
 brightchase.io	A
+broker-portal-git-sshelley-jun-1631-fra-1ce7a6-junepointlending.vercel.app	A
+brokerbot.ai	A
 byjolab.com	A
 bytorhealth.com	A
 bzp-radar.pl	A
@@ -155,13 +160,16 @@ codely.com	A
 codiedev.com	A
 coh3stats.com	A
 coldacq.com	A
+collac.io	A
 comilio.app	A
 commutation.app	A
+compend.org	A
 compra-verification.help	A
 compra-verifying.online	A
 compra-verlflcation.top	A
 conciergerieriviera.com	A
 confirm-9580.shop	A
+confirm95815910.shop	A
 confirmacion-venta.com	A
 confirmation-order-gg.cfd	A
 confirmation-order-gg.sbs	A
@@ -205,6 +213,7 @@ deloroom.ru	A
 deltalithium.com.au	A
 dema.vc	A
 denimsocial.com	A
+depresjanastolatkow.pl	A
 der.fish	A
 dezaak.nl	A
 dfclgzw.com	A
@@ -222,6 +231,7 @@ dnfso.pro	A
 dodochat.com.br	A
 doodlecomics.net	A
 driftnet.io	A
+drip-apex.com	A
 dublivo.com	A
 dynamicfinanceconsulting.com.au	A
 easecapital.com	A
@@ -251,6 +261,7 @@ feedhub-agent.vercel.app	A
 fenix-store.com	A
 fernandosousabrasil.com.br	A
 fetchtcg.com	A
+feuerwehren-schleswig-holstein.de	A
 findy-tools.io	A
 fingerprint.to	A
 finishdocs.shop	A
@@ -292,6 +303,7 @@ geldontvangst.com	A
 genokdeal882.shop	A
 getgrout.com	A
 getignis.fr	A
+getopencourt.com	A
 getproject.app	A
 getpropty.ai	A
 getstimulus.ai	A
@@ -316,6 +328,7 @@ happenstance.ai	A
 harveynichols.com	A
 havnwear.com	A
 heartsandmindsinvestments.com.au	A
+helpyourfriendsvote.com	A
 heyfriday.co.uk	A
 hiretalent.lat	A
 hitkabalti.co.il	A
@@ -370,12 +383,15 @@ kaszuby24.pl	A
 keeperhub.com	A
 keltora.com	A
 kintsu.xyz	A
+kitfolio.site	A
 klirr.com	A
 knowyouremoji-com.netlify.app	A
 konduro.com	A
 kpluscreditfix.com	A
+kradle.ai	A
 kreterfoundation.org	A
 kurumsalwebsite.co	A
+lafourche.fr	A
 landing-planiflex.pages.dev	A
 lassie.ai	A
 laters.com	A
@@ -406,6 +422,7 @@ mainfactor.dev	A
 maintombolwd.com	A
 maisonvera.app	A
 manabigurashi.com	A
+mangerdusens.fr	A
 mauricemendy.com	A
 mavie.care	A
 mawgifservices.com	A
@@ -446,6 +463,7 @@ muso.ai	A
 mydose.ai	A
 myfinanceconsultants.com.au	A
 myfpl.co	A
+mynursenavigators.com	A
 nathanthomas.dev	A
 nationalmerchandise.co.uk	A
 naturorder.fr	A
@@ -473,22 +491,27 @@ nycappwiz.com	A
 nycboardflow.com	A
 nzxplorer.co.nz	A
 obos.se	A
+octofly.io	A
 octopusev.com	A
 offer09255915.shop	A
 offer0958892.shop	A
+offer6582518.shop	A
 offer7693012.shop	A
 offer8259012.shop	A
 offer8692056.shop	A
 offer90872801.shop	A
 offer980982.shop	A
 offer9825914.shop	A
+offer982995091.shop	A
 offer986902.shop	A
 offer9898295.shop	A
 offsecops.app	A
 ohdigital.agency	A
 okbca.xyz	A
+omnirogue.com	A
 omnyn.com.br	A
 one-water.at	A
+oneremit.dev	A
 online-order.top	A
 online-pay.space	A
 onlylinks.com	A
@@ -504,6 +527,7 @@ order-detaljer.shop	A
 order-id8219.shop	A
 order-info4297.com	A
 order-info84719.com	A
+order-mayaeastindian.com	A
 orders-info3182.com	A
 orders-info8417.shop	A
 orders-info92841.com	A
@@ -525,6 +549,7 @@ paczzkaa742165.sbs	A
 pageshelp.shop	A
 pangobooks.com	A
 paradev.com	A
+patch.gg	A
 path2you.com	A
 paupay-pl.eu.cc	A
 paupay-pl4.eu.cc	A
@@ -555,6 +580,7 @@ payflow-poland2.biz.id	A
 payflow-poland2.my.id	A
 payflow-poland2.shop	A
 payflow-poland5.eu.cc	A
+paypau-pl4.eu.cc	A
 paypay-pl.eu.cc	A
 paypay-pl1.eu.cc	A
 paypay-pl2.eu.cc	A
@@ -577,6 +603,7 @@ payu-nitro6.eu.cc	A
 payu-nitro7.eu.cc	A
 payu-nitro8.eu.cc	A
 pdrcore.com	A
+penyujitu.ink	A
 petanisecond.com	A
 petlibro.com	A
 phcareerhub.com	A
@@ -592,6 +619,7 @@ pl-pays-confirmation.shop	A
 pl-pays-confirmation.web.id	A
 pl-payu-confirmation.eu.cc	A
 pl-payu-confirmation.shop	A
+pl-payu-confirmation.web.id	A
 pl-payx-confirmation.eu.cc	A
 pl-payx-confirmation.shop	A
 planpost.co.uk	A
@@ -644,6 +672,7 @@ przelew-paycore.sbs	A
 przelew-pl.shop	A
 psd18.com	A
 pubcash.app	A
+pufflyai.com	A
 purefoodstas.com	A
 purnatoto.site	A
 qas9daj89fhj27252874.sbs	A
@@ -658,6 +687,7 @@ raenest.com	A
 raileon.com	A
 railway.app	A
 raised.nz	A
+ranaviv.com	A
 raycast.com	A
 rcem.com.br	A
 real-compra-verif.world	A
@@ -668,6 +698,7 @@ recoboost.app	A
 recombee.com	A
 recordselection.com	A
 recruitee.com	A
+redsim.app	A
 relutv.com	A
 remotion-36qqufa1q-remotion.vercel.app	A
 remotion-43yk3mua6-remotion.vercel.app	A
@@ -724,6 +755,8 @@ sawithokilogin.com	A
 sayhiho.com	A
 scentregroup.com	A
 scoopfinancewa.com.au	A
+scopereader.com	A
+secildin.com	A
 secureflow.click	A
 seen42.com	A
 selfbuildbudget.com	A
@@ -772,6 +805,7 @@ stylest.com	A
 subsplash.com	A
 supercart.live	A
 supplyvan.com	A
+suvidha-escapes-portal.vercel.app	A
 swipress.com	A
 synthex-prompts-ai.pages.dev	A
 syrs.jp	A
@@ -790,6 +824,7 @@ tbbababy.com	A
 tcgslayer.io	A
 tcu.gov.br	A
 techweek-staging.com	A
+tella.com	A
 tellafriends.com	A
 terranovametals.com	A
 tester.army	A
@@ -810,6 +845,7 @@ totalaudiopromo.com	A
 track-inform.cyou	A
 trackwired.com	A
 trademcp.app	A
+traittune.com	A
 trezor.io	A
 truxparking.com	A
 tryprism.com	A
@@ -887,6 +923,7 @@ xfqh.net	A
 yarnquill.com	A
 ycbm.ai	A
 yeopkerphone.co.kr	A
+younited.com	A
 yucp.club	A
 yuma.ai	A
 zebubit.com.br	A
