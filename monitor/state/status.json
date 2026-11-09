@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-08T09:35:00Z",
-  "last_run_at": "2026-11-08T03:41:22Z",
-  "last_run_summary": "[2026-11-08T03:41:22Z] 566 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-08T03:41:22Z] HEALTH certspotter=14/775 crtsh=3/6 urlscan=1100/1194 dns-google=77406/77406 dns-cf=77406/77406",
+  "generated_at": "2026-11-09T02:51:15Z",
+  "last_run_at": "2026-11-08T21:31:06Z",
+  "last_run_summary": "[2026-11-08T21:31:06Z] 20 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-08T21:31:06Z] HEALTH certspotter=15/804 crtsh=3/7 urlscan=100/1214 dns-google=79274/79274 dns-cf=79274/79274",
   "tracked_hosts": {
-    "total": 43715,
+    "total": 43913,
     "by_status": {
-      "dead": 5913,
-      "active": 37802
+      "dead": 5915,
+      "active": 37998
     },
     "by_operator_tier": {
-      "A:tier1": 43715
+      "A:tier1": 43913
     }
   },
   "fingerprints": [
@@ -1626,131 +1626,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 13852
+    "A": 13872
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www.josemadridsalsa.com",
+      "type": "cert",
+      "indicator": "order-3242343.shop",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.musehub.com",
+      "type": "cert",
+      "indicator": "tsowx.de",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.non-conform.squarespace.com",
+      "type": "cert",
+      "indicator": "www.teru-es.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.polydigital.squarespace.com",
+      "type": "cert",
+      "indicator": "www.tsowx.de",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.waterme.app",
+      "type": "cert",
+      "indicator": "0cdcf95a.sni.cloudflaressl.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.www.www.test.mvd.f0dbmvl.9880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io",
+      "type": "cert",
+      "indicator": "3f97adcc.sni.cloudflaressl.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "x0xl.34-133-14-7.sslip.io",
+      "type": "cert",
+      "indicator": "accounts.zerotohundred.dev",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "x402-mcp-gateway-production.up.railway.app",
+      "type": "cert",
+      "indicator": "answers.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "xkrhhpv-103-42-180-32.sslip.io",
+      "type": "cert",
+      "indicator": "api-gateway.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "yawning-pink-tq8xq6jv-dph1kg3r7qe9.edgeone.dev",
+      "type": "cert",
+      "indicator": "circleforum.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "yieldhunter-agent-production.up.railway.app",
+      "type": "cert",
+      "indicator": "clerk.zerotohundred.dev",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "ynd3gjs-103-42-180-32.sslip.io",
+      "type": "cert",
+      "indicator": "developers-preview.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "z16jhxww.up.railway.app",
+      "type": "cert",
+      "indicator": "developers.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "z2xften-103-42-180-32.sslip.io",
+      "type": "cert",
+      "indicator": "forum-staging.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "zbsuvivor-dpi34jull6yv.edgeone.dev",
+      "type": "cert",
+      "indicator": "forum.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "zgvfrontdoor-gyguhbh4hycwexgp.a03.azurefd.net",
+      "type": "cert",
+      "indicator": "mcp-preprod.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "zt6w7kf-103-42-180-32.sslip.io",
+      "type": "cert",
+      "indicator": "mcp-stage.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "zvkrjok8.up.railway.app",
+      "type": "cert",
+      "indicator": "mcp.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "zyroquant-dpejfcki8zzf.edgeone.dev",
+      "type": "cert",
+      "indicator": "pages.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     },
     {
-      "type": "domain",
-      "indicator": "zzr-portfolio-dpz6h7bj94pk.edgeone.dev",
+      "type": "cert",
+      "indicator": "status.editionguard.com",
       "operator": "A",
-      "first_seen": "2026-11-08T03:41:22Z"
+      "first_seen": "2026-11-08T21:31:06Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 82876,
+  "manual_review_candidates_pending": 85281,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
