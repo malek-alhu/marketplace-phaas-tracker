@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-10T06:26:21Z",
-  "last_run_at": "2026-11-10T01:00:48Z",
-  "last_run_summary": "[2026-11-10T01:00:48Z] 640 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-10T01:00:48Z] HEALTH certspotter=16/908 crtsh=1/4 urlscan=1100/1251 dns-google=82964/82964 dns-cf=82964/82964",
+  "generated_at": "2026-11-10T19:50:06Z",
+  "last_run_at": "2026-11-10T14:01:39Z",
+  "last_run_summary": "[2026-11-10T14:01:39Z] 124 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-10T14:01:39Z] HEALTH certspotter=16/873 crtsh=10/16 urlscan=200/1296 dns-google=81536/81536 dns-cf=81536/81536",
   "tracked_hosts": {
-    "total": 45487,
+    "total": 45799,
     "by_status": {
-      "dead": 5977,
-      "active": 39510
+      "dead": 6028,
+      "active": 39771
     },
     "by_operator_tier": {
-      "A:tier1": 45487
+      "A:tier1": 45799
     }
   },
   "fingerprints": [
@@ -1626,131 +1626,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 15256
+    "A": 15380
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.meifix.de",
+      "indicator": "theoretical-copper-c24qgf9o-dp8jed5b4jg9.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.nationalexpress.com",
+      "indicator": "timothyyyyy-dpxq0n2vxish.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.order-mayaeastindian.com",
+      "indicator": "unemployed-amaranth-9ybk1j9d-dpvh96qj6f1h.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.sourcemakerled.squarespace.com",
+      "indicator": "uneven-silver-ieh7r6am-dp2r582pnhzb.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.stayportland.com",
+      "indicator": "vague-rose-rearvaiq-dpt48f93g70h.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tag-der-feuerwehr.de",
+      "indicator": "visual-yellow-k4bphkwb-dpr3itmsmtok.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.westsidepickleballclub.com",
+      "indicator": "vital-fuchsia-djb1n9yy-dp3hivqu5wbt.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "x3kblxop.up.railway.app",
+      "indicator": "vital-green-jpvexttq-dp96ip5iqleb.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "xa3dyny-103-42-180-32.sslip.io",
+      "indicator": "vtsfloatmeow-dpm70emycbzi.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "xrdc46j-103-42-180-32.sslip.io",
+      "indicator": "vxktourbdt-dpcpmyym441z.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "yappiest-salmon-ekkivrur-dpmcdrvlima1.edgeone.dev",
+      "indicator": "weak-apricot-viwasx4s-dpw7igapbd7c.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "yearning-peach-3zwxrjjp-dppxt08ce2gm.edgeone.dev",
+      "indicator": "wily-yellow-rjffeil9-dpgucoywahd5.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "yf1xktjm.up.railway.app",
+      "indicator": "witty-pink-cujchsik-dp11r588qvm1.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "yielding-maroon-6cxiurad-dp9sqffdkqvs.edgeone.dev",
+      "indicator": "wizardchess3d-dpwrpnu0ifu4.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "ypcujvy-103-42-180-32.sslip.io",
+      "indicator": "working-crimson-td6sofoq-dpp7o3g7ldwe.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "ypr0fmrv.up.railway.app",
+      "indicator": "www.easypeasybooking.co.uk",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "yr2ozyqi.up.railway.app",
+      "indicator": "www.easypeasybooking.com",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "yzl9bm7v.up.railway.app",
+      "indicator": "youngest-indigo-dxuxxi80-dptv4904z5sc.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "zaibooks-accounting.com",
+      "indicator": "zippy-lavender-ddy4tvpo-dpshpxgrts2l.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     },
     {
       "type": "domain",
-      "indicator": "zgkygckj.com",
+      "indicator": "zunarisushi-dpa7ard1levq.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T01:00:48Z"
+      "first_seen": "2026-11-10T14:01:39Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 90410,
+  "manual_review_candidates_pending": 93935,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
