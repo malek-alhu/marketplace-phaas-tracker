@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-10T19:50:06Z",
-  "last_run_at": "2026-11-10T14:01:39Z",
-  "last_run_summary": "[2026-11-10T14:01:39Z] 124 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-10T14:01:39Z] HEALTH certspotter=16/873 crtsh=10/16 urlscan=200/1296 dns-google=81536/81536 dns-cf=81536/81536",
+  "generated_at": "2026-11-11T04:01:46Z",
+  "last_run_at": "2026-11-10T22:41:39Z",
+  "last_run_summary": "[2026-11-10T22:41:39Z] 531 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-10T22:41:39Z] HEALTH certspotter=17/879 crtsh=75/83 urlscan=320/1296 dns-google=84030/84030 dns-cf=84030/84030",
   "tracked_hosts": {
-    "total": 45799,
+    "total": 46355,
     "by_status": {
-      "dead": 6028,
-      "active": 39771
+      "dead": 6033,
+      "active": 40322
     },
     "by_operator_tier": {
-      "A:tier1": 45799
+      "A:tier1": 46355
     }
   },
   "fingerprints": [
@@ -1623,134 +1623,148 @@
       "added": "2026-11-06",
       "last_confirmed_hit": "2026-11-08",
       "status": "chained"
+    },
+    {
+      "hash": "e2bef63f0cc0652e29034808f60f10d62c8736da5cd12d5eb2aadcff0bcc1338",
+      "label": "chained",
+      "added": "2026-11-10",
+      "last_confirmed_hit": "2026-11-10",
+      "status": "chained"
+    },
+    {
+      "hash": "f87a513a2429f606feaf88e01adb0bdda1191c52fd069fa1c2a1fbdd70dc3c27",
+      "label": "chained",
+      "added": "2026-11-10",
+      "last_confirmed_hit": "2026-11-10",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 15380
+    "A": 15911
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "theoretical-copper-c24qgf9o-dp8jed5b4jg9.edgeone.dev",
+      "indicator": "www.violet-nova-india-node.199-91-220-41.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "timothyyyyy-dpxq0n2vxish.edgeone.dev",
+      "indicator": "www.whm.www.8www.us-gov-east-1.vpce.amazonaapi.162-244-93-78.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "unemployed-amaranth-9ybk1j9d-dpvh96qj6f1h.edgeone.dev",
+      "indicator": "www.www.beta.www.wwwwww.35-204-139-184.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "uneven-silver-ieh7r6am-dp2r582pnhzb.edgeone.dev",
+      "indicator": "www.www.staging.f0dbmvl.9880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "vague-rose-rearvaiq-dpt48f93g70h.edgeone.dev",
+      "indicator": "www.www.www.beta.98update.staging.wwwdev.35-234-89-244.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "visual-yellow-k4bphkwb-dpr3itmsmtok.edgeone.dev",
+      "indicator": "x-card-eta.vercel.app",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "vital-fuchsia-djb1n9yy-dp3hivqu5wbt.edgeone.dev",
+      "indicator": "x2j5g2d-103-42-180-32.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "vital-green-jpvexttq-dp96ip5iqleb.edgeone.dev",
+      "indicator": "x53gsu2-103-42-180-32.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "vtsfloatmeow-dpm70emycbzi.edgeone.dev",
+      "indicator": "ycbm.ai",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "vxktourbdt-dpcpmyym441z.edgeone.dev",
+      "indicator": "younited-credit.com",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "weak-apricot-viwasx4s-dpw7igapbd7c.edgeone.dev",
+      "indicator": "younited-credit.de",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "wily-yellow-rjffeil9-dpgucoywahd5.edgeone.dev",
+      "indicator": "younited-credit.es",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "witty-pink-cujchsik-dp11r588qvm1.edgeone.dev",
+      "indicator": "younited-credit.fr",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "wizardchess3d-dpwrpnu0ifu4.edgeone.dev",
+      "indicator": "younited-credit.it",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "working-crimson-td6sofoq-dpp7o3g7ldwe.edgeone.dev",
+      "indicator": "younited-credit.pt",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.easypeasybooking.co.uk",
+      "indicator": "zedelivery.vercel.app",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "www.easypeasybooking.com",
+      "indicator": "zendtrackk1.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
       "type": "domain",
-      "indicator": "youngest-indigo-dxuxxi80-dptv4904z5sc.edgeone.dev",
+      "indicator": "zenembedesk3.squarespace.com",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "zippy-lavender-ddy4tvpo-dpshpxgrts2l.edgeone.dev",
+      "type": "revival",
+      "indicator": "wuguijia.com",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     },
     {
-      "type": "domain",
-      "indicator": "zunarisushi-dpa7ard1levq.edgeone.dev",
+      "type": "revival",
+      "indicator": "www.wuguijia.com",
       "operator": "A",
-      "first_seen": "2026-11-10T14:01:39Z"
+      "first_seen": "2026-11-10T22:41:39Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 93935,
+  "manual_review_candidates_pending": 95477,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
