@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-11T04:01:46Z",
-  "last_run_at": "2026-11-10T22:41:39Z",
-  "last_run_summary": "[2026-11-10T22:41:39Z] 531 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-10T22:41:39Z] HEALTH certspotter=17/879 crtsh=75/83 urlscan=320/1296 dns-google=84030/84030 dns-cf=84030/84030",
+  "generated_at": "2026-11-11T19:15:14Z",
+  "last_run_at": "2026-11-11T13:18:43Z",
+  "last_run_summary": "[2026-11-11T13:18:43Z] 63 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-11T13:18:43Z] HEALTH certspotter=18/865 crtsh=78/90 urlscan=100/1298 dns-google=84620/84620 dns-cf=84620/84620",
   "tracked_hosts": {
-    "total": 46355,
+    "total": 46861,
     "by_status": {
-      "dead": 6033,
-      "active": 40322
+      "dead": 6441,
+      "active": 40420
     },
     "by_operator_tier": {
-      "A:tier1": 46355
+      "A:tier1": 46861
     }
   },
   "fingerprints": [
@@ -403,42 +403,42 @@
       "hash": "100913131f3142394de2e095297b72a8cb2aaeeca25c86f3182a6eb83c547b15",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "16074ed660b73eb47c7137ec7dc7bdbdf96bc38552328721676a8e79175ce88c",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "28a5d5867795c87a95a0ec3ca4196da0043e31e87572f1c0c98a3a25058df816",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "2de772b3b8f53a2eb2662ec6e25e5f2724fe587a0920745213ad5a6bd5878a4a",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "4303c0535bdf0608118039af8852c05f5cc5f22d8071dffbee0c474a6f1a5445",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "55e8d4a648ff1372cdc37820d6abc86900b2c34c904f748b2c61057da2fa5435",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -459,14 +459,14 @@
       "hash": "7f61ef401b74f959274636d7dbc67f9eb22bff24a54eefa6e4fda65539649408",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "812570bb54f8ccff93dfa908bdd768bcc9d4db370b3f241e6b5f2cb0b183800e",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -508,21 +508,21 @@
       "hash": "a2155667029d068df38aeeb31447d4daac91404d366a57d538d807886fa15182",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "ab036a7503e22e4d28f4ebe281d5282364bc9a972d2b3aaa885a376ac95836a4",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -536,7 +536,7 @@
       "hash": "b6a6a92baa9d980718a0fd2821b91d445eedff1a335fd36b05b53a55f52f1c69",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -550,21 +550,21 @@
       "hash": "c3cad3c1972281dc17879c474559e98cddba0800b2bd0797738ab4b0632dbfd9",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "cadcc37071f9596fdd1be6e087e448c5073030551684fa9c89c8ce5b5b4a18e4",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "cd5f29364d365748f72e06eb4130ac12555694244c44ea4093eda5c60c9d0af9",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -599,7 +599,7 @@
       "hash": "f92bdf09876a0e81f8a6db6fbd1435229046c253d55193d1ddb20f4c7762133c",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -697,21 +697,21 @@
       "hash": "04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
       "hash": "144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-10",
+      "last_confirmed_hit": "2026-11-11",
       "status": "chained"
     },
     {
@@ -1640,131 +1640,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 15911
+    "A": 15974
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www.violet-nova-india-node.199-91-220-41.sslip.io",
+      "type": "cert",
+      "indicator": "sanfordhealth.login.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.whm.www.8www.us-gov-east-1.vpce.amazonaapi.162-244-93-78.sslip.io",
+      "type": "cert",
+      "indicator": "sanfordhealth.reporting.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.www.beta.www.wwwwww.35-204-139-184.sslip.io",
+      "type": "cert",
+      "indicator": "sanfordhealth.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.www.staging.f0dbmvl.9880647whm.i-0abcfb26a7c5156neo-593a3cb8.sslip.io",
+      "type": "cert",
+      "indicator": "sbchc.api.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "www.www.www.beta.98update.staging.wwwdev.35-234-89-244.sslip.io",
+      "type": "cert",
+      "indicator": "sbchc.login.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "x-card-eta.vercel.app",
+      "type": "cert",
+      "indicator": "sbchc.reporting.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "x2j5g2d-103-42-180-32.sslip.io",
+      "type": "cert",
+      "indicator": "sbchc.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "x53gsu2-103-42-180-32.sslip.io",
+      "type": "cert",
+      "indicator": "seating.viewcy.com",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "ycbm.ai",
+      "type": "cert",
+      "indicator": "spandanloop.com",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "younited-credit.com",
+      "type": "cert",
+      "indicator": "support.musehub.com",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "younited-credit.de",
+      "type": "cert",
+      "indicator": "teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "younited-credit.es",
+      "type": "cert",
+      "indicator": "test.api.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "younited-credit.fr",
+      "type": "cert",
+      "indicator": "test.login.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "younited-credit.it",
+      "type": "cert",
+      "indicator": "test.reporting.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "younited-credit.pt",
+      "type": "cert",
+      "indicator": "test.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "zedelivery.vercel.app",
+      "type": "cert",
+      "indicator": "waypost-5cf492a6-the-copper-kettle.pages.dev",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "zendtrackk1.squarespace.com",
+      "type": "cert",
+      "indicator": "webflow.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "domain",
-      "indicator": "zenembedesk3.squarespace.com",
+      "type": "cert",
+      "indicator": "whitepaper.luckyblock.com",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "revival",
-      "indicator": "wuguijia.com",
+      "type": "cert",
+      "indicator": "www.musehub.com",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     },
     {
-      "type": "revival",
-      "indicator": "www.wuguijia.com",
+      "type": "cert",
+      "indicator": "www.teambuilder.io",
       "operator": "A",
-      "first_seen": "2026-11-10T22:41:39Z"
+      "first_seen": "2026-11-11T13:18:43Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 95477,
+  "manual_review_candidates_pending": 96826,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
