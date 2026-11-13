@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-13T10:12:54Z",
-  "last_run_at": "2026-11-13T05:02:05Z",
-  "last_run_summary": "[2026-11-13T05:02:05Z] 39 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-13T05:02:05Z] HEALTH certspotter=17/924 crtsh=41/48 urlscan=200/1353 dns-google=84838/84838 dns-cf=84838/84838",
+  "generated_at": "2026-11-13T19:05:43Z",
+  "last_run_at": "2026-11-13T13:42:39Z",
+  "last_run_summary": "[2026-11-13T13:42:39Z] 1 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-13T13:42:39Z] HEALTH certspotter=15/929 crtsh=10/13 urlscan=100/1353 dns-google=86304/86304 dns-cf=86304/86304",
   "tracked_hosts": {
-    "total": 47914,
+    "total": 47917,
     "by_status": {
-      "dead": 6483,
-      "active": 41431
+      "dead": 6586,
+      "active": 41331
     },
     "by_operator_tier": {
-      "A:tier1": 47914
+      "A:tier1": 47917
     }
   },
   "fingerprints": [
@@ -1654,15 +1654,9 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 16673
+    "A": 16674
   },
   "recent_tier1_findings": [
-    {
-      "type": "cert",
-      "indicator": "proprt.app",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
     {
       "type": "cert",
       "indicator": "px-apidocs.gainsight.com",
@@ -1776,9 +1770,15 @@
       "indicator": "www.allegro.confirm95815910.shop",
       "operator": "A",
       "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "hub.employmenthero.com",
+      "operator": "A",
+      "first_seen": "2026-11-13T13:42:39Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 101014,
+  "manual_review_candidates_pending": 102197,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
