@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-12T05:30:00Z",
-  "last_run_at": "2026-11-11T23:54:26Z",
-  "last_run_summary": "[2026-11-11T23:54:26Z] 660 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-11T23:54:26Z] HEALTH certspotter=17/948 crtsh=22/25 urlscan=1100/1298 dns-google=87090/87090 dns-cf=87090/87090",
+  "generated_at": "2026-11-13T10:12:54Z",
+  "last_run_at": "2026-11-13T05:02:05Z",
+  "last_run_summary": "[2026-11-13T05:02:05Z] 39 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-13T05:02:05Z] HEALTH certspotter=17/924 crtsh=41/48 urlscan=200/1353 dns-google=84838/84838 dns-cf=84838/84838",
   "tracked_hosts": {
-    "total": 47659,
+    "total": 47914,
     "by_status": {
-      "dead": 6451,
-      "active": 41208
+      "dead": 6483,
+      "active": 41431
     },
     "by_operator_tier": {
-      "A:tier1": 47659
+      "A:tier1": 47914
     }
   },
   "fingerprints": [
@@ -522,7 +522,7 @@
       "hash": "ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
@@ -697,49 +697,49 @@
       "hash": "04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
       "hash": "06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
       "hash": "144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
       "hash": "1c5687f4ae24e6d19592820a324f72f668faaecb061b064848f1ebf1bf9309ab",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
       "hash": "1f4fe5c0506b1035e1a6b4aceb4f53517b2d0d5fe42ce77194dd1db05ec9254a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
       "hash": "29de9fc7b84fbe15abeac5ac0f4a675df3fcf27f8cb363c575aac45e2378cc93",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
       "hash": "2d456158e4b868a147c84ffeaa6c10ac2dce61106a394a208331dfa0250c2b83",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-13",
       "status": "chained"
     },
     {
@@ -1654,131 +1654,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 16634
+    "A": 16673
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "www.lepainquotidien.com",
+      "type": "cert",
+      "indicator": "proprt.app",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "px-apidocs.gainsight.com",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "remix.ethereum.org",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "staging.ethereum.org",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "synthex-prompts-ai.pages.dev",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "translate.ethereum.org",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "trust.gainsight.com",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "unchurned.gainsight.com",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.ethereum.org",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.lectinect.no",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.proprt.app",
+      "operator": "A",
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.lstarsigns.com",
+      "indicator": "243-review-jupiter.della.pro",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.madewithintent.ai",
+      "indicator": "275-review-jupiter.della.pro",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.productapp.com",
+      "indicator": "325-review-jupiter.della.pro",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.travelpearls.com.au",
+      "indicator": "327-review-jupiter.della.pro",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www.update.ai",
+      "indicator": "christchurchcall.org",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "www2.nationalexpress.com",
+      "indicator": "feat-editor-split-dedicate-3efe01.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "wyr71asi.up.railway.app",
+      "indicator": "jobs.copro.eu",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "xhod9qk6iljv5ew8.salmonglacier-6c735f18.westus2.azurecontainerapps.io",
+      "indicator": "poczta-polska.confirm95815910.shop",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     },
     {
       "type": "domain",
-      "indicator": "y6vlogfb.up.railway.app",
+      "indicator": "www.allegro.confirm95815910.shop",
       "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yammering-purple-xejqpxui-dp8cbbkd335z.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yawning-copper-w2ugbqfb-dpqx3f5frism.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yetter-plex-containerapp.victoriousstone-c640ef83.eastus.azurecontainerapps.io",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yhsxslf6.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yooz-2205679.hs-sites.com",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "youngest-silver-wwh7lwqw-dpdg4iolfyc9.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zfvscodemkt-ca.redbush-deb52352.westeurope.azurecontainerapps.io",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zitadel.nicemeadow-3401528a.norwayeast.azurecontainerapps.io",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zmww92d4.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zvtkhy3s.up.railway.app",
-      "operator": "A",
-      "first_seen": "2026-11-11T23:54:26Z"
+      "first_seen": "2026-11-13T05:02:05Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 99392,
+  "manual_review_candidates_pending": 101014,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
