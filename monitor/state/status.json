@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-13T19:05:43Z",
-  "last_run_at": "2026-11-13T13:42:39Z",
-  "last_run_summary": "[2026-11-13T13:42:39Z] 1 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-13T13:42:39Z] HEALTH certspotter=15/929 crtsh=10/13 urlscan=100/1353 dns-google=86304/86304 dns-cf=86304/86304",
+  "generated_at": "2026-11-14T04:52:53Z",
+  "last_run_at": "2026-11-13T23:05:02Z",
+  "last_run_summary": "[2026-11-13T23:05:02Z] 763 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-13T23:05:02Z] HEALTH certspotter=16/913 crtsh=13/16 urlscan=1026/1353 dns-google=87710/87710 dns-cf=87710/87710",
   "tracked_hosts": {
-    "total": 47917,
+    "total": 48856,
     "by_status": {
-      "dead": 6586,
-      "active": 41331
+      "dead": 6603,
+      "active": 42253
     },
     "by_operator_tier": {
-      "A:tier1": 47917
+      "A:tier1": 48856
     }
   },
   "fingerprints": [
@@ -1651,134 +1651,211 @@
       "added": "2026-11-11",
       "last_confirmed_hit": "2026-11-11",
       "status": "chained"
+    },
+    {
+      "hash": "1ee3b9fccca8c85ab5cb00c565cc7568463b76624694dad1d1d889cc3ddd1e51",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "2accee221cc7c8b359894a232d1566b2f056fda39d2e42b88e520232d3e03140",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "2e93aa0edf7c6afd915efcbbb87f792d213f5c934663d7b0d0a26a61eba188ee",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "5c9fdb5410bd74748d2986dc684b2e027e75c80bf40c47e6e7f9bd86f2b5c355",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "72a304ee6041854e0c8dc257d57e8a8651f29d1e440e6d5ab6147063572406bd",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "72b6b3a3f2622c02b0ca5fab70a11759eb8c83f2f2e01d7b7a90ac869036bfc9",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "a4d4fc86450b8e4405281360ed84d6b73cfb18fb11aeae11dd69a2f67181cb82",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "dfdee8d871a234532d72884fa36b0ab58756e9bdd55be9be1301116b8993f78f",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "e1bf5cab8df74218fe1063fbc4e07f00471d0529f98961826ed37e662cac1386",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "ed08d7ede413bda40cb6649e413b8aaa2ad506fd81653391b7c71ade1ca4261a",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
+    },
+    {
+      "hash": "f769db00c118d2df9b2ce9dca6ce8cfdc6c3787690dc1b3a9fd32459abe2089d",
+      "label": "chained",
+      "added": "2026-11-13",
+      "last_confirmed_hit": "2026-11-13",
+      "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 16674
+    "A": 17437
   },
   "recent_tier1_findings": [
     {
-      "type": "cert",
-      "indicator": "px-apidocs.gainsight.com",
+      "type": "domain",
+      "indicator": "www.test.staging.klgoqhaeasqrlxwmvd.m0kim0kii0gestripe-terminal-8765update.update.654admin.35-225-32-205.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "remix.ethereum.org",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "staging.ethereum.org",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "synthex-prompts-ai.pages.dev",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "translate.ethereum.org",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "trust.gainsight.com",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "unchurned.gainsight.com",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.ethereum.org",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.lectinect.no",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.proprt.app",
-      "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "243-review-jupiter.della.pro",
+      "indicator": "www.tongxinedu.org",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "275-review-jupiter.della.pro",
+      "indicator": "www.www.3admin.beta.kdev.35-204-139-184.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "325-review-jupiter.della.pro",
+      "indicator": "www.zis-johannisfest-anmeldung.de",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "327-review-jupiter.della.pro",
+      "indicator": "x9lfu1p3.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "christchurchcall.org",
+      "indicator": "xfmq6ojc.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "feat-editor-split-dedicate-3efe01.preview.hub.dezaak.nl",
+      "indicator": "yammering-moccasin-i3ah0qk7.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "jobs.copro.eu",
+      "indicator": "yandex-reviews.217-198-13-142.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "poczta-polska.confirm95815910.shop",
+      "indicator": "yandex.altaiflori.83-141-73-172.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.allegro.confirm95815910.shop",
+      "indicator": "ybsihxkotuxxhzyknzrwkjbw.35.208.27.90.sslip.io",
       "operator": "A",
-      "first_seen": "2026-11-13T05:02:05Z"
+      "first_seen": "2026-11-13T23:05:02Z"
     },
     {
-      "type": "cert",
-      "indicator": "hub.employmenthero.com",
+      "type": "domain",
+      "indicator": "yjv19t8a.up.railway.app",
       "operator": "A",
-      "first_seen": "2026-11-13T13:42:39Z"
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "youngdental-5204160.hs-sites.com",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "yujie-chen.squarespace.com",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zavdm.vip",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zhidemai-library-production.up.railway.app",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zoho-deconnexion-story2.preview.trilogis.ca",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zoho-deconnexion-story3.preview.trilogis.ca",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zoho-deconnexion.preview.trilogis.ca",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zvxmzhpc.up.railway.app",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "zzqk-none-83127.up.railway.app",
+      "operator": "A",
+      "first_seen": "2026-11-13T23:05:02Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 102197,
+  "manual_review_candidates_pending": 104724,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
