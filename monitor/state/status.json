@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-15T09:19:43Z",
-  "last_run_at": "2026-11-15T04:05:02Z",
-  "last_run_summary": "[2026-11-15T04:05:02Z] 450 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-15T04:05:02Z] HEALTH certspotter=14/997 crtsh=3/6 urlscan=953/1364 dns-google=90114/90114 dns-cf=90114/90114",
+  "generated_at": "2026-11-15T18:28:05Z",
+  "last_run_at": "2026-11-15T13:14:31Z",
+  "last_run_summary": "[2026-11-15T13:14:31Z] 45 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-15T13:14:31Z] HEALTH certspotter=0/1003 crtsh=60/66 urlscan=100/1450 dns-google=87884/87884 dns-cf=87884/87884",
   "tracked_hosts": {
-    "total": 49316,
+    "total": 49587,
     "by_status": {
-      "dead": 6654,
-      "active": 42662
+      "dead": 6688,
+      "active": 42899
     },
     "by_operator_tier": {
-      "A:tier1": 49316
+      "A:tier1": 49587
     }
   },
   "fingerprints": [
@@ -1731,131 +1731,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 17887
+    "A": 17931
   },
   "recent_tier1_findings": [
     {
-      "type": "domain",
-      "indicator": "wiz-support-provider.com",
+      "type": "cert",
+      "indicator": "user-images.fetchtcg.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.flashquotes.com",
+      "operator": "A",
+      "first_seen": "2026-11-15T13:14:31Z"
+    },
+    {
+      "type": "cert",
+      "indicator": "www.open2x.io",
+      "operator": "A",
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "wonderful-beige-d2fo1b6v-dpz28i1l262s.edgeone.dev",
+      "indicator": "avaspace.co",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "wonderful-blush-italb16w-dp333p2uf95r.edgeone.dev",
+      "indicator": "confirm985290.shop",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "work-ockw5rzn-dpwfmqb928ba.edgeone.dev",
+      "indicator": "curator.med",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "wtc-afde-portal-prod-eus-02-g2bqajhvd2eecac9.a03.azurefd.net",
+      "indicator": "draft-d497fda0.aioli.pro",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.arda.gallery",
+      "indicator": "fiscola-git-staging-fiscola.vercel.app",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.boldapps.net",
+      "indicator": "helloskip.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.bookings.innov8djs.com",
+      "indicator": "inpost.paycore-my2.shop",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.brickinvoice.com",
+      "indicator": "lejr.app",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.denplan.co.uk",
+      "indicator": "poczta-polska.paycore-my3.shop",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.futemdia.com.br",
+      "indicator": "postiz.trueprice.club",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.hodsai-dev-ade8b3aff9gnd3ek.a03.azurefd.net",
+      "indicator": "status-waiting.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.inlandempirewarehouses.com",
+      "indicator": "status.miro.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.motorscore.app",
+      "indicator": "vios.int.verticalinsure.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.sportsdirect.es",
+      "indicator": "walk-0b08046a-28e9-4106-8d18-1f44867abace.ignitecoherence.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tegissafety.com",
+      "indicator": "webrenew.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "www.urbanarmorgear.com",
+      "indicator": "www.blindfold-chess.online",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     },
     {
       "type": "domain",
-      "indicator": "yodelling-coral-s05uddx0-dpdxmfhhi3bu.edgeone.dev",
+      "indicator": "yamap.com",
       "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "yoraai-dpzsuihszx2v.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
-    },
-    {
-      "type": "domain",
-      "indicator": "zxcom-dpaowntk4lex.edgeone.dev",
-      "operator": "A",
-      "first_seen": "2026-11-15T04:05:02Z"
+      "first_seen": "2026-11-15T13:14:31Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 106131,
+  "manual_review_candidates_pending": 107276,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }

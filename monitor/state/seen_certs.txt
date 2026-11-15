@@ -147,6 +147,7 @@
 168.235.67.27.sslip.io
 168.63.60.140.sslip.io
 169.staging.flavorqueste.com
+170-81-42-82.cloud2.amssoft.com.br
 171-33-100-116.sslip.io
 171-33-74-164.sslip.io
 171-33-79-23.sslip.io
@@ -645,6 +646,7 @@
 691633847.vercel.app
 6c8ae1fa.sni.cloudflaressl.com
 6d.chmdxmd.gay.up.railway.app
+6ta.pabpereza.dev
 704700551.vercel.app
 709886167.vercel.app
 72.14.191.44.sslip.io
@@ -866,6 +868,7 @@ acc-cms.digid.nl
 acc-preview.digid.nl
 acc-www.blockchain.com---autotargeting.biolinok.com
 acc.balieportaal.digid.nl
+acc.brickinvoice.com
 acc.digid.nl
 acc.helpdesk.machtigen.digid.nl
 acc.machtigen.digid.nl
@@ -957,11 +960,13 @@ accounts.dealteam.virgil.ai
 accounts.doodlecomics.net
 accounts.edumaniaedtech.online
 accounts.electrimancer.com
+accounts.flashquotes.com
 accounts.games.mlabs.ng
 accounts.getpropty.ai
 accounts.getstimulus.ai
 accounts.goldenhourhq.com
 accounts.greathillpartners.virgil.ai
+accounts.guchly.com
 accounts.hamiltonlane.virgil.ai
 accounts.harvestpartners.virgil.ai
 accounts.hendersonpark.virgil.ai
@@ -1177,6 +1182,7 @@ admin-global.byjolab.com
 admin-mcp.staging.cakemembers.com
 admin-meridianpay.stellar.org
 admin-panel.infra.spoke.com
+admin-panel.socbyte.ai
 admin-panel.spoke.com
 admin-panel.zed.dev
 admin-preview.byjolab.com
@@ -1195,6 +1201,7 @@ admin.a24films.com
 admin.algolia.com
 admin.alilawa.id
 admin.aloportal.com
+admin.amsw.amssoft.com.br
 admin.appevent.no
 admin.astra-ai.co
 admin.auction.holmasto.fi
@@ -1211,6 +1218,7 @@ admin.collegiatex.com
 admin.comilio.app
 admin.dashflow.se
 admin.deloroom.ru
+admin.dev.fetchtcg.com
 admin.dev.pay.laters.com
 admin.devel.supplyvan.com
 admin.develop.a24films.com
@@ -1227,6 +1235,7 @@ admin.funfastfit.co
 admin.gambagrid.com
 admin.gotcatalyst.com
 admin.grvt.io
+admin.guchly.com
 admin.howdy.com
 admin.hubblehq.com
 admin.internal.backpack.exchange
@@ -1616,6 +1625,7 @@ ai.ak.muso.ai
 ai.cloudpliant.com
 ai.coreview.com
 ai.entendre.finance
+ai.fetchtcg.com
 ai.flavorqueste.com
 ai.gainsight.com
 ai.h.muso.ai
@@ -1925,6 +1935,24 @@ alton823122.vercel.app
 altrincham.taxassist.co.uk
 altway-internal.bluenote.ai
 alumni.theearthprize.org
+alumno01.labs.pabpereza.dev
+alumno02.labs.pabpereza.dev
+alumno03.labs.pabpereza.dev
+alumno04.labs.pabpereza.dev
+alumno05.labs.pabpereza.dev
+alumno06.labs.pabpereza.dev
+alumno07.labs.pabpereza.dev
+alumno08.labs.pabpereza.dev
+alumno09.labs.pabpereza.dev
+alumno10.labs.pabpereza.dev
+alumno11.labs.pabpereza.dev
+alumno12.labs.pabpereza.dev
+alumno13.labs.pabpereza.dev
+alumno14.labs.pabpereza.dev
+alumno15.labs.pabpereza.dev
+alumno16.labs.pabpereza.dev
+alumno17.labs.pabpereza.dev
+alumno18.labs.pabpereza.dev
 alvieroaws.wslabs.it
 alx1.vercel.app
 alxpettit.vercel.app
@@ -1985,10 +2013,12 @@ amqp.docsearch-hub-rabbitmq.algolia.com
 amritms.vercel.app
 ams.autodealer.io
 amspam.vercel.app
+amssoft.com.br
 amsterdam.posttrade360.com
 amsterdam2021.posttrade360.com
 amsterdam2022.posttrade360.com
 amsterdam2023.posttrade360.com
+amsw.amssoft.com.br
 amy1.vercel.app
 amyh1.vercel.app
 amykateandrews.vercel.app
@@ -2502,6 +2532,7 @@ api.dev.airbridge.io
 api.dev.ak.muso.ai
 api.dev.claimsorted.com
 api.dev.datasets.oxylabs.io
+api.dev.fetchtcg.com
 api.dev.pay.laters.com
 api.dev.plaque.muso.ai
 api.dev.printfriendly.com
@@ -2564,6 +2595,7 @@ api.eu9.app.wiz.io
 api.eu9.integration.wiz.io
 api.feat.airbridge.io
 api.feather-insurance.com
+api.fetchtcg.com
 api.finance.howdy.com
 api.finance.staging.fundingpips.com
 api.financeiro.up.railway.app
@@ -2581,6 +2613,7 @@ api.gocity.com
 api.goldbridgebanking.com
 api.gotcatalyst.com
 api.grubby.ai
+api.guchly.com
 api.guestpedia.com
 api.h.muso.ai
 api.havnwear.com
@@ -2856,6 +2889,7 @@ apiclienttest.intralinks.com
 apicourier.moovin.me
 apict.intralinks.com
 apidev.bidikeducation.up.railway.app
+apidev.fetchtcg.com
 apidocs.preview.render.com
 apidocs.s.recruitee.com
 apidodistribob-cloud.roole.fr
@@ -2967,6 +3001,8 @@ app.airsales.io
 app.airtechrecords.com
 app.ak.muso.ai
 app.amplitude.com
+app.amssolar.amssoft.com.br
+app.amsw.amssoft.com.br
 app.anchor-ai.jp
 app.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 app.arcade.software
@@ -2995,6 +3031,7 @@ app.codecov.io
 app.commnia.com
 app.company-a.beta.getgrout.com
 app.company-b.beta.getgrout.com
+app.control.amssoft.com.br
 app.copy.fundingpips.com
 app.copy.fundingpips.dev
 app.cozastore.up.railway.app
@@ -3023,6 +3060,7 @@ app.eu.amplitude.com
 app.fabricdna.ai
 app.feather-insurance.com
 app.finance.ua
+app.flashquotes.com
 app.flow-wandelen.eu
 app.footballvision.it
 app.forestleads.com
@@ -3557,6 +3595,7 @@ assets-cdn-prod.muso.ai
 assets-preview.ijr.com
 assets-staging.claude.com
 assets-staging.leadmagic.io
+assets.apps.dokploy-1.eigenblue.ai
 assets.cdn.feather-insurance.com
 assets.cdn.staging.feather-insurance.com
 assets.claude.com
@@ -3787,15 +3826,18 @@ auth.dev.upfirst.ai
 auth.dev.wiz.io
 auth.devnet.canton.kintsu.xyz
 auth.discordservers.com
+auth.dokploy-1.eigenblue.ai
 auth.driftnet.io
 auth.easecapital.com
 auth.eu1.integration.wiz.io
 auth.exclaimer.com
 auth.fedramp.claude.com
+auth.fetchtcg.com
 auth.flannels.com
 auth.flavorqueste.com
 auth.gblbs.exclaimer.com
 auth.gblbsapp.exclaimer.com
+auth.getflowfinance.com
 auth.gotcatalyst.com
 auth.grubby.ai
 auth.heyfriday.co.uk
@@ -3995,6 +4037,7 @@ aws-eu-central-1-3-ilb.image-registry-v2.gcp.aws-us-west-2-1.internal.render.com
 aws-eu-central-1-3-ilb.image-registry.gcp.aws-us-west-2-1.internal.render.com
 aws-eu-central-1-3-postgres.render.com
 aws-eu-central-1-3-redis.render.com
+aws-host1.amssoft.com.br
 aws-imap.pidgeon.ai
 aws-smtp.pidgeon.ai
 aws-us-east-1-1-redis.render.com
@@ -4438,6 +4481,7 @@ beta-doc-onboarding.algolia.com
 beta-doc-showcase-instantsearch.algolia.com
 beta-doc.algolia.com
 beta-laboratory.stellar.org
+beta-platform.socbyte.ai
 beta-site.zed.dev
 beta-wallet.trezor.io
 beta.2sync.com
@@ -4753,6 +4797,7 @@ blog.airbridge.io
 blog.airflow-live.cloud.junyiacademy.org
 blog.algolia.com
 blog.amplitude.com
+blog.amssoft.com.br
 blog.api.limitless.exchange
 blog.api02-magento.cloud.junyiacademy.org
 blog.api2-magento.cloud.junyiacademy.org
@@ -5108,6 +5153,8 @@ blueplanet.vercel.app
 bluesight.retool.com
 bluestar-global-logistics-aust.lms.employmenthero.com
 blujosi.vercel.app
+blum-llm-gateway.apps.dokploy-1.eigenblue.ai
+blum-sales-copilot.apps.dokploy-1.eigenblue.ai
 blurrybloop.vercel.app
 blush.50.116.84.142.sslip.io
 blusoulid.vercel.app
@@ -5384,6 +5431,7 @@ briansandbox.retool.com
 briantbates.vercel.app
 bricechristian.vercel.app
 bricetheurillat.vercel.app
+brickinvoice.com
 bridge-capital.ch
 bridge-gel-sepolia.inkonchain.com
 bridge-gel.inkonchain.com
@@ -5759,6 +5807,8 @@ caracole2.algolia.com
 carbon-app.vercel.app
 carbon1.vercel.app
 carbonldp1.vercel.app
+card-images.dev.fetchtcg.com
+card-images.fetchtcg.com
 cardealers.autodealer.io
 cardemo.vercel.app
 cardiffcentral.taxassist.co.uk
@@ -5766,6 +5816,7 @@ cardinal.livekindred.com
 cardinus.exclaimer.com
 cardlytics.retool.com
 cards.50.116.84.142.sslip.io
+cardscanner.fetchtcg.com
 care.icspublicsafety.com
 care.staging.mavie.care
 career.oxylabs.io
@@ -6059,6 +6110,8 @@ challenge.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 chament.vercel.app
 championrobotics.com.au
 chananet.vercel.app
+chanchus.homelab.pabpereza.dev
+chanchus.pabpereza.dev
 chancy1.vercel.app
 chandu.vercel.app
 changelog.algolia.com
@@ -6400,12 +6453,14 @@ clerk.dealteam.virgil.ai
 clerk.doodlecomics.net
 clerk.edumaniaedtech.online
 clerk.electrimancer.com
+clerk.flashquotes.com
 clerk.franciscopartners.virgil.ai
 clerk.games.mlabs.ng
 clerk.getpropty.ai
 clerk.getstimulus.ai
 clerk.goldenhourhq.com
 clerk.greathillpartners.virgil.ai
+clerk.guchly.com
 clerk.hamiltonlane.virgil.ai
 clerk.harvestpartners.virgil.ai
 clerk.hendersonpark.virgil.ai
@@ -6559,6 +6614,7 @@ clothing.50.116.93.228.sslip.io
 cloud-code-development.up.railway.app
 cloud-old.adfinis.com
 cloud.adfinis.com
+cloud.amssoft.com.br
 cloud.codeserver.up.railway.app
 cloud.e.harveynichols.com
 cloud.fretebras.com.br
@@ -6575,6 +6631,8 @@ cloud.taxassist.co.uk
 cloud.viles.info
 cloud.vscode.up.railway.app
 cloud.zed.dev
+cloud1.amssoft.com.br
+cloud2.amssoft.com.br
 cloud9-cm.api.x.ai
 cloudadmin.solutions.com.sa
 cloudapi.exclaimer.com
@@ -6918,6 +6976,7 @@ confirmation-order-gg.sbs
 confirmation-order-payu.cfd
 confirmation-order-payu.sbs
 confirmation-order.sbs
+confluence.eigenblue.ai
 confluence.understood.org
 congleton.taxassist.co.uk
 congressinfo.eu
@@ -7902,6 +7961,7 @@ construction-control-australia-pty-ltd.lms.employmenthero.com
 construction-rental-demo.dashflow.se
 construction-rental-rehearsal.dashflow.se
 consultations.flannels.com
+consultoria.amssoft.com.br
 consultoria.michaelvieira.tech
 consumer.50.116.93.228.sslip.io
 cont.primariatm.ro
@@ -7946,6 +8006,7 @@ contractorbooking.sportsdirect.com
 contractorbookingadmin.sportsdirect.com
 contracts.kpluscreditfix.com
 contratacao.udiapps.com
+control.amssoft.com.br
 control.blockchain.com---autotargeting.biolinok.com
 control.wattstack.io
 control.www.blockchain.com---autotargeting.biolinok.com
@@ -8975,6 +9036,9 @@ demos-v2.algolia.com
 demos.algolia.com
 demos.arcade.software
 demos.retool.com
+den-api.fetchtcg.com
+den.fetchtcg.com
+den.sandbox.fetchtcg.com
 den0xteam.vercel.app
 deneme.kurumsalwebsite.co
 deneyim.setur.com.tr
@@ -9132,6 +9196,7 @@ dev.a24films.com
 dev.aarogyaid.com
 dev.adfinis.com
 dev.admin-panel.spoke.com
+dev.admin.amsw.amssoft.com.br
 dev.admin.carteiracliente.com.br
 dev.agents.getstimulus.ai
 dev.airbridge.io
@@ -9141,12 +9206,14 @@ dev.almostimpossible.agency
 dev.amm.limitless.exchange
 dev.amp4mail.googleusercontent.com
 dev.amplitude.com
+dev.amsw.amssoft.com.br
 dev.api.engine.getstimulus.ai
 dev.api.getstimulus.ai
 dev.api.limitless.exchange
 dev.api.nixtla.io
 dev.api.vurilo.up.railway.app
 dev.api.wingman.howdy.com
+dev.app.amsw.amssoft.com.br
 dev.app.engine.getstimulus.ai
 dev.app.epihelper.com
 dev.app.getstimulus.ai
@@ -9167,6 +9234,7 @@ dev.cloud.junyiacademy.org
 dev.cloud.octopusev.com
 dev.coh3stats.com
 dev.connect.spoke.com
+dev.control.amssoft.com.br
 dev.cryptopet1-51-38-126-80.sslip.io
 dev.cubeprotimer.up.railway.app
 dev.data-integration.pleo.io
@@ -9175,11 +9243,13 @@ dev.deepl.dev
 dev.deepvista.ai
 dev.developer.muso.ai
 dev.dispatch.spoke.com
+dev.eigenblue.ai
 dev.employmenthero.com
 dev.ethereum.org
 dev.eva-zeus.app
 dev.eventjet.at
 dev.fantasy-stocks.up.railway.app
+dev.fetchtcg.com
 dev.finance.howdy.com
 dev.flower-live.cloud.junyiacademy.org
 dev.freshstep.com
@@ -9191,6 +9261,7 @@ dev.getjoyn.auth-service.up.railway.app
 dev.gitkraken.dev
 dev.gocity.com
 dev.grubby.ai
+dev.health.eigenblue.ai
 dev.hellonutrition.ai
 dev.helm-python-example.cloud.junyiacademy.org
 dev.hubblehq.com
@@ -9285,6 +9356,7 @@ dev.yeopkerphone.co.kr
 dev1-bffroolepremium.roole.fr
 dev1.airbridge.io
 dev1.ak.muso.ai
+dev1.control.amssoft.com.br
 dev1.printfriendly.com
 dev1.understood.org
 dev1.upfirst.ai
@@ -9323,6 +9395,7 @@ devapi.raileon.com
 devapp2-tani.coreview.com
 devauth.coreview.com
 devauth01.coreview.com
+devcoder.amssoft.com.br
 devcommunication.coreview.com
 devcomsandbox.retool.com
 devcon.ethereum.org
@@ -9695,6 +9768,7 @@ docker.whoami.212.194.103.104.sslip.io
 docling.test.helium.neuziel.org
 docs-preview.corz.app
 docs-px.gainsight.com
+docs-staging.eigenblue.ai
 docs-staging.oxylabs.io
 docs.adfinis.com
 docs.airbridge.io
@@ -9715,6 +9789,8 @@ docs.deepvista.ai
 docs.dev.standardintelligence.com
 docs.developers.amplitude.com
 docs.drafts.gitkraken.dev
+docs.eigenblue.ai
+docs.flashquotes.com
 docs.fleetempire.tech
 docs.grvt.io
 docs.inkonchain.com
@@ -9784,6 +9860,11 @@ doggos.vercel.app
 dojeed.vercel.app
 dojsys.vercel.app
 dokoliday.vercel.app
+dokploy-opensearch-dash.amssoft.com.br
+dokploy-opensearch-master.amssoft.com.br
+dokploy-opensearch.amssoft.com.br
+dokploy-opensearch1.amssoft.com.br
+dokploy.amssoft.com.br
 dokploy.lumail.io
 dolcy.vercel.app
 dolead.vercel.app
@@ -9824,6 +9905,7 @@ dood3.vercel.app
 doodlecomics.net
 doogue-george.lms.employmenthero.com
 doomling.vercel.app
+door.eigenblue.ai
 doorman-production.up.railway.app
 doormouse.com
 dope.axelarigato.com
@@ -9974,6 +10056,7 @@ duc-duchy.io
 duchieu.vercel.app
 duckbill.retool.com
 ducthotran2010.vercel.app
+dude.amssoft.com.br
 dudebrogan.vercel.app
 duel11.vercel.app
 dulceskarlamexico.com
@@ -10368,6 +10451,7 @@ eid-t2.digid.nl
 eid-t3.digid.nl
 eid.digid.nl
 eig-ingegas.tallerpro.io
+eigenblue.ai
 eikc.vercel.app
 einarlove.vercel.app
 eips.ethereum.org
@@ -11063,6 +11147,7 @@ email.ghost.insights.investclearly.com
 email.go.mccreditcureco.com
 email.growvisory.co
 email.hello.clickgrowth.com.br
+email.hello.flashquotes.com
 email.houseoffraser.co.uk
 email.ie.sportsdirect.com
 email.lb.jestr.gg
@@ -11140,6 +11225,8 @@ embedded-partner-service.staging.pleo.io
 embedding-10m-0806-enterprise.us-east-1.models.x.ai
 emberbill.com
 embriot.net
+emby.homelab.pabpereza.dev
+emby.pabpereza.dev
 emea.blockchain.com---autotargetingewr2.biolinok.com
 emerson-api.gitkraken.dev
 emerson-otel-devex.gitkraken.dev
@@ -12275,6 +12362,7 @@ feed.h.muso.ai
 feed.muso.ai
 feedback.aloportal.com
 feedback.attio.com
+feedback.flashquotes.com
 feedback.getopencourt.com
 feedback.holded.com
 feedback.intralinks.com
@@ -12314,6 +12402,10 @@ fenix-store.com
 fenkem.vercel.app
 fera.mlabs.ng
 ferbraz.vercel.app
+ferminproxy.pabpereza.dev
+ferminproxy1.pabpereza.dev
+ferminproxy2.pabpereza.dev
+ferminproxy3.pabpereza.dev
 ferminyang.vercel.app
 fermuch.vercel.app
 fern-frame-test.waypost.co.uk
@@ -12341,6 +12433,7 @@ festivaleconomia-test.test-fde.wslabs.it
 festivaleconomia-web.ws-deploy-01.wslabs.it
 festivaleconomia.cli-release-01.wslabs.it
 festive.50.116.93.228.sslip.io
+fetchtcg.com
 feuerwehren-schleswig-holstein.de
 ffcgomes.vercel.app
 fffact.vercel.app
@@ -12380,6 +12473,7 @@ files.adfinis.com
 files.ak.muso.ai
 files.awen.ai
 files.bora.35.180.183.140.sslip.io
+files.eigenblue.ai
 files.eu6.integration.wiz.io
 files.getopencourt.com
 files.leadmagic.io
@@ -12862,6 +12956,7 @@ flannels.ie
 flashbear.vercel.app
 flashblocks-gel-sepolia.inkonchain.com
 flashgangsta.vercel.app
+flashquotes.com
 flask-l6ql.app.staging.render.com
 flask.app.render.com
 flask.tut.up.railway.app
@@ -12896,6 +12991,7 @@ florinsz.com.cn.up.railway.app
 flour-chocolate-pty-ltd.lms.employmenthero.com
 flow-builder-j6v359eb7.preview.arcade.software
 flow-builder-mx4jbsdq6-arcadehq.preview.arcade.software
+flow.amssoft.com.br
 flow1.vercel.app
 flower-live.cloud.junyiacademy.org
 flowerq.vercel.app
@@ -13119,6 +13215,7 @@ free-trial.up.railway.app
 free.api.up.railway.app
 free1.vercel.app
 freedomrx.withrefill.com
+freelancer.eigenblue.ai
 freelender.b.lsq.app
 freemagico.vercel.app
 freeman.vercel.app
@@ -13560,6 +13657,7 @@ get.wiz.io
 get.yuma.ai
 geta6.vercel.app
 getembedded1.vercel.app
+getflowfinance.com
 getgrout.com
 geth.aws.ethereum.org
 geth.ethereum.org
@@ -13749,6 +13847,7 @@ go.coreview.com
 go.deepvista.ai
 go.employmenthero.com
 go.exclaimer.com
+go.flashquotes.com
 go.frankfred.com
 go.fundingpips.com
 go.gainsight.com
@@ -14957,6 +15056,7 @@ guardme.claimsorted.com
 guardme.dev.claimsorted.com
 guardme.qa.claimsorted.com
 guberinic040.vercel.app
+guchly.com
 guest.stayportland.com
 guestodo.com
 guestpedia.com
@@ -15190,6 +15290,7 @@ healinghandsdeb.com
 health-auth-poc.staging.feather-insurance.com
 health.50.116.93.228.sslip.io
 health.asuresoftware.com
+health.eigenblue.ai
 health.feather-insurance.com
 health.mydose.ai
 health.staging.feather-insurance.com
@@ -15254,6 +15355,7 @@ hellraum.neuziel.org
 helm-python-example.cloud.junyiacademy.org
 helm.deployment.intralinks.com
 helm.stellar.org
+help-desk.eigenblue.ai
 help-dev.retool.com
 help-docs-new.leadmagic.io
 help.18montrose.com
@@ -15572,6 +15674,7 @@ home.exclaimer.com
 home.livekindred.com
 home.oxylabs.io
 homebase.entendre.finance
+homebridge.pabpereza.dev
 homepage.flavorqueste.com
 homepicker.livekindred.com
 homeroom1.vercel.app
@@ -16022,6 +16125,7 @@ images.cruisefashion.com
 images.discordservers.com
 images.email.obos.se
 images.exclaimer.com
+images.fetchtcg.com
 images.flannels.com
 images.frasers.com
 images.houseoffraser.co.uk
@@ -16464,6 +16568,7 @@ ip-35-229-109-27.sslip.io
 ip-tst.oxylabs.io
 ip.oxylabs.io
 ip4.tuktukvpn.com
+ipam.amssoft.com.br
 ipanasenko.vercel.app
 ipek.kurumsalwebsite.co
 ipek.octofly.io
@@ -16473,6 +16578,9 @@ ippstools.com
 ippsystem.vercel.app
 iptest.oxylabs.io
 iptf.ethereum.org
+ipv6.170-81-42-82.cloud2.amssoft.com.br
+ipv6.cloud1.amssoft.com.br
+ipv6.cloud2.amssoft.com.br
 ipvalverde.vercel.app
 ipw.customatix.nl
 iq3-pty-ltd.lms.employmenthero.com
@@ -16516,6 +16624,7 @@ ismaelgarcia-acn.vercel.app
 ismail.vercel.app
 isnifer.vercel.app
 isogunro.vercel.app
+isp.amssoft.com.br
 isp.oxylabs.io
 isplbpalovpn.revo.com.au
 ispringsolutions.com
@@ -16879,6 +16988,7 @@ jinx.blockchain.com---autotargeting.jbasi.xyz
 jinxi.vercel.app
 jiojiajiu.vercel.app
 jira.blockchain.com---autotargeting.biolinok.com
+jira.eigenblue.ai
 jira.oauth.raycast.com
 jira.understood.org
 jirapas95b.vercel.app
@@ -17000,6 +17110,7 @@ johnproxy.net.up.railway.app
 johns-business-eh.lms.employmenthero.com
 johvia.vercel.app
 join.discordservers.com
+join.eigenblue.ai
 join.howdy.com
 join.musehub.com
 join.mydose.ai
@@ -17353,6 +17464,7 @@ karlmorand.vercel.app
 karnankore.vercel.app
 karri.vercel.app
 karszawa.vercel.app
+kart.guchly.com
 kartashev.vercel.app
 karthikeyaniyengar.vercel.app
 karthikganiga007.vercel.app
@@ -17588,6 +17700,8 @@ kinhluan.vercel.app
 kinsta.staging.x.ai
 kintry.com
 kintsu.xyz
+kiosk.dev.fetchtcg.com
+kiosk.fetchtcg.com
 kiosk.hyunwoo.dev
 kiosk.sportsdirect.com
 kirankunapa.vercel.app
@@ -17847,6 +17961,7 @@ lab.tcu.gov.br
 lab.viles.info
 lab2.goldenplanet.shop
 labcode.vercel.app
+label-studio-guess-the-bom.apps.dokploy-1.eigenblue.ai
 labelsquad1.vercel.app
 labemi.vercel.app
 laboratory-backend-dev.stellar.org
@@ -18163,6 +18278,7 @@ library.goldenhourhq.com
 libretapet.com.ar
 licence-check.cloud.octopusev.com
 licence-check.staging.cloud.octopusev.com
+license1.amssoft.com.br
 licensedtospell.com
 lichangwei.vercel.app
 lichen1.vercel.app
@@ -18293,6 +18409,7 @@ link.email.usc.co.uk
 link.email.viewmybox.axelarigato.com
 link.energyx.com
 link.fal.pro.deepl.com
+link.flashquotes.com
 link.forestleads.com
 link.fundingpips.com
 link.hnd.pro.deepl.com
@@ -18386,6 +18503,8 @@ lishengtoken.vercel.app
 lissisa2003.vercel.app
 listaapp.net
 listenlabs.ai
+listing-img.dev.fetchtcg.com
+listing-img.fetchtcg.com
 listings-s.hubblehq.com
 listings.hubblehq.com
 listmonk.ethereum.org
@@ -18556,6 +18675,8 @@ logs-ingestion.integration.wiz.io
 logs.de.algolia.com
 logs.us.algolia.com
 loicverrall.vercel.app
+loja.amssoft.com.br
+loja1.amssoft.com.br
 loki.argus.corpora.ai
 loki.ops.corpora.ai
 loki.shunkakinoki.com
@@ -19003,6 +19124,7 @@ mail.ais.50.116.84.142.sslip.io
 mail.aliexpress.50.116.84.142.sslip.io
 mail.alilawa.id
 mail.altcoins.50.116.84.142.sslip.io
+mail.amssoft.com.br
 mail.analysis.50.116.84.142.sslip.io
 mail.analytics.50.116.84.142.sslip.io
 mail.animations.50.116.84.142.sslip.io
@@ -19071,6 +19193,7 @@ mail.cheapza.50.116.84.14.sslip.io
 mail.checkraka.50.116.84.14.sslip.io
 mail.cigarettes.50.116.93.228.sslip.io
 mail.clothing.50.116.93.228.sslip.io
+mail.cloud1.amssoft.com.br
 mail.coats.50.116.93.228.sslip.io
 mail.collac.io
 mail.collectibles.50.116.93.228.sslip.io
@@ -19086,6 +19209,7 @@ mail.dev-ermetika.wslabs.it
 mail.dining.50.116.93.228.sslip.io
 mail.dood.50.116.84.14.sslip.io
 mail.dynamicfinanceconsulting.com.au
+mail.eigenblue.ai
 mail.electronic.50.116.93.228.sslip.io
 mail.electronics.50.116.93.228.sslip.io
 mail.enavra.io
@@ -19425,6 +19549,7 @@ manatal.retool.com
 mandalachain.entendre.finance
 maneeshv11.vercel.app
 manferlo81.vercel.app
+mangerdusens.fr
 mangroveinvoicepayments.asuresoftware.com
 manhattan.virgil.ai
 manhcuongbn1989.vercel.app
@@ -19623,6 +19748,7 @@ matabase.cloud.junyiacademy.org
 matanp.vercel.app
 matasj.vercel.app
 matchesfashion.com
+materiais.amssoft.com.br
 material-sync.com
 materialization-source.yucp.club
 mateusmerscher.vercel.app
@@ -19918,6 +20044,7 @@ mediacenter.understood.org
 mediad-view-llc.autodealer.io
 mediademo.retool.com
 mediagenix.vercel.app
+mediakit.pabpereza.dev
 medienwerk.vercel.app
 medilaunch.health
 medjitov10.vercel.app
@@ -20041,6 +20168,7 @@ meta.app.goldmogul.com
 metabase.algolia.com
 metabase.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
 metabase.cloud.junyiacademy.org
+metabase.eigenblue.ai
 metabase.flavorqueste.com
 metabase.recruitee.com
 metabase.render.com
@@ -20391,6 +20519,7 @@ mockup-v2.academiaestudiosglobo.com
 mocutebup.vercel.app
 modal.ornn.com
 modar.solutions.com.sa
+modelo.amssoft.com.br
 modemlooper1.vercel.app
 modernfi.retool.com
 modernslaveryaudit.exclaimer.com
@@ -20897,18 +21026,22 @@ n8n-landtag.test.hydrogen.neuziel.org
 n8n-landtag.test.lithium.neuziel.org
 n8n-mb.test.helium.neuziel.org
 n8n-mb.test.lithium.neuziel.org
+n8n-postiz.amssoft.com.br
 n8n-rubikon.test.helium.neuziel.org
 n8n-rubikon.test.lithium.neuziel.org
 n8n-webhook.beanstalkconsulting.co
+n8n.amssoft.com.br
 n8n.beanstalkconsulting.co
 n8n.cloud.junyiacademy.org
 n8n.coh3stats.com
 n8n.coolify.coh3stats.com
+n8n.homelab.pabpereza.dev
 n8n.lithium.neuziel.org
 n8n.mauricemendy.com
 n8n.metrito.com
 n8n.neuziel.org
 n8n.ovh.coh3stats.com
+n8n.pabpereza.dev
 n8n.test.helium.neuziel.org
 n8n.test.lithium.neuziel.org
 n8n.twr.up.railway.app
@@ -20977,6 +21110,7 @@ naseemsurgicare.cc
 nashscoring.com
 nasimakhtar.vercel.app
 nassimspace.vercel.app
+nat.amssoft.com.br
 nat.stationf.co
 nataliaa-1.lms.employmenthero.com
 nataliaa.lms.employmenthero.com
@@ -21650,7 +21784,9 @@ offer7693012.shop
 offer8259012.shop
 offer8692056.shop
 offer9898295.shop
+offers-staging.eigenblue.ai
 offers.asuresoftware.com
+offers.eigenblue.ai
 offers.tomorro.com
 office-line-group-pty-ltd.lms.employmenthero.com
 office-stage.fretebras.com.br
@@ -21861,6 +21997,7 @@ open-sc-1.lms.employmenthero.com
 open-sc.lms.employmenthero.com
 open-webui-sd-webui.test.helium.neuziel.org
 open-webui.test.helium.neuziel.org
+open2x.io
 openapi.staging.employmenthero.com
 openbao-hsm-primus.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
 openbao.apps.aks-adfch-k8s-int-dev-02.cloud.adfinis.com
@@ -22180,6 +22317,7 @@ pablomoretti.vercel.app
 pablopunk.vercel.app
 pabloreypedrosa.vercel.app
 pablozandona.vercel.app
+pabpereza.dev
 pacdev-moncompte.roole.fr
 pacdev2-moncompte.roole.fr
 pace1.vercel.app
@@ -22306,6 +22444,7 @@ paradev.com
 paradigm-roofing.lms.employmenthero.com
 paradise-valley.impdigital.com
 paranyak.vercel.app
+parceiros.amssoft.com.br
 parent-coach-qa.graph.understood.org
 parent-coach-tr-qa.graph.understood.org
 parent.edumaniaedtech.online
@@ -22569,11 +22708,13 @@ pb.edn-app.fr
 pb1.vercel.app
 pbking.vercel.app
 pbrewing.vercel.app
+pbs1.amssoft.com.br
 pbuderaski.vercel.app
 pbwealthy.co
 pc.blockchain.com---autotargeting.jbasi.xyz
 pc.www.blockchain.com---autotargeting.jbasi.xyz
 pc989333.vercel.app
+pce.eigenblue.ai
 pciuch24.vercel.app
 pcode-ide-development.up.railway.app
 pcontr18.vercel.app
@@ -22749,6 +22890,7 @@ photo.50.116.93.228.sslip.io
 photonlee.vercel.app
 photoshop.103.86.51.71.sslip.io
 php-test.eventjet.at
+phpipam.amssoft.com.br
 phpmyadmin.46.101.121.152.sslip.io
 phpmyadmin.46.101.193.178.sslip.io
 phpmyadmin.a.cloud.junyiacademy.org
@@ -22897,6 +23039,7 @@ platinum-professional-training.lms.employmenthero.com
 plattenschieber.vercel.app
 plausible-1.grvt.io
 plausible-ac0kokkoc0840w80s4gsso04.flavorqueste.com
+plausible.eigenblue.ai
 plausible.flavorqueste.com
 plausible.grvt.io
 plausible.tooling.dcrypte.fr
@@ -23025,6 +23168,7 @@ porradanutra.com
 portaal.geldfit.nl
 portable.50.116.93.228.sslip.io
 portainer.212.194.103.104.sslip.io
+portainer.amssoft.com.br
 portainer.flavorqueste.com
 portainer.syscore.app
 portainer.test.mavie.care
@@ -23684,12 +23828,14 @@ postidag.no
 postiz-copy.test.helium.neuziel.org
 postiz-demo.alplustech.com
 postiz-novatech.srv2137501.hstgr.cloud
+postiz.amssoft.com.br
 postiz.baselyapp.com
 postiz.camilab.es
 postiz.flavorqueste.com
 postiz.leonidas-securite.ch
 postiz.mauricemendy.com
 postiz.metrito.com
+postiz.pabpereza.dev
 postiz.test.helium.neuziel.org
 postiz.test.lithium.neuziel.org
 postiz.viles.info
@@ -25744,6 +25890,7 @@ prince.vercel.app
 princeton.livekindred.com
 principlefocus.lms.employmenthero.com
 print-hn.moovin.me
+print.eigenblue.ai
 print.hn.moovin.me
 print.moovin.me
 printer.solutions.com.sa
@@ -25759,6 +25906,7 @@ pritunl.35.210.14.191.sslip.io
 pritunl.35.233.71.130.sslip.io
 pritunl.35.240.108.74.sslip.io
 priv.blockchain.com---autotargeting.pohasd.xyz
+privacy-note-modjo.eigenblue.ai
 privacy.algolia.com
 privacy.cabaia.com
 privacy.cabaia.fr
@@ -26104,12 +26252,16 @@ prototypes.mavie.care
 prov-final.virgil.ai
 prov-fresh.virgil.ai
 prov-smoke.virgil.ai
+provedor.amssoft.com.br
 provequity.virgil.ai
 provider.connect.exclaimer.com
 providers.quilia.com
 proving-ground.spoke.com
 provisioning.mavie.care
 provisioning.staging.mavie.care
+prox-ams.amssoft.com.br
+proxmox-opensearch2.amssoft.com.br
+proxmox.amssoft.com.br
 proxy-dfns.grvt.io
 proxy-dfns.testnet.grvt.io
 proxy-manager.int.oxylabs.io
@@ -26228,6 +26380,8 @@ puush.vercel.app
 pv.leadmagic.io
 pv.vercel.app
 pvbvwwww.blockchain.com---autotargeting.dev1.biolinok.com
+pve.amssoft.com.br
+pve1.amssoft.com.br
 pw-test.adfinis.com
 pw.adfinis.com
 pw.lithium.neuziel.org
@@ -26321,6 +26475,7 @@ qor.admin.render.com
 qpwtapwzapd.vercel.app
 qq.blockchain.com---autotargeting.biolinok.com
 qr.abandonedgrove.com
+qr.amssoft.com.br
 qr.bauhaus.es
 qr.flavorqueste.com
 qr.omnyn.com.br
@@ -26331,6 +26486,7 @@ qrcodez.gocity.com
 qrctakjh.revo.com.au
 qrmenus.com.br
 qroom.vercel.app
+qros.amssoft.com.br
 qsabogados.com
 qthics.entendre.finance
 quad-care-pty-ltd.lms.employmenthero.com
@@ -26421,6 +26577,7 @@ quiqueciria.vercel.app
 quirky-loss-production.up.railway.app
 quisarbd.vercel.app
 quisquam.vercel.app
+quiz.pabpereza.dev
 quiz.tecrube.az
 quizium.vercel.app
 quizvfr.it
@@ -26651,6 +26808,7 @@ rdai.vercel.app
 rdbcasillas11.vercel.app
 rdgrenalfm.pampa.com.br
 rdngr.vercel.app
+rdp.amssoft.com.br
 rdp.revo.com.au
 rds.revo.com.au
 rds1.revo.com.au
@@ -27649,6 +27807,7 @@ sandbox.algolia.com
 sandbox.blocks.cloud
 sandbox.eventjet.at
 sandbox.ewagrit.asuresoftware.com
+sandbox.fetchtcg.com
 sandbox.fretebras.com.br
 sandbox.getopencourt.com
 sandbox.googleusercontent.com
@@ -27873,6 +28032,7 @@ scaffold-soroban.stellar.org
 scaladocs.algolia.com
 scampersand.vercel.app
 scan-to-pay.mawgifservices.com
+scan.eigenblue.ai
 scan.resira.app
 scaniadigitalforum.scaniamexico.com
 scaryguy.vercel.app
@@ -28268,6 +28428,7 @@ share.algolia.com
 share.arcade.software
 share.bauhaus.ch
 share.dcrypte.fr
+share.eigenblue.ai
 share.irt.wtf
 share.kaito.ai
 share.leadmagic.io
@@ -28396,6 +28557,7 @@ shopify.cakemembers.com
 shopify.moovin.me
 shopify.raycast.com
 shopify.unvault.co
+shopp.amssoft.com.br
 shoppe.api.up.railway.app
 shopskychefs.com
 shorakablair.vercel.app
@@ -28413,6 +28575,7 @@ shovon1010.vercel.app
 showbook.live
 showcase-neu.datalogue.com
 showcase.datalogue.com
+showcase.eigenblue.ai
 showcase.getstimulus.ai
 showefy-ai-api.ws-deploy-01.wslabs.it
 showefy-ai-chat.ws-deploy-01.wslabs.it
@@ -28585,6 +28748,7 @@ sitemaps.muso.ai
 sitemaps.reigartkistlerdds.com
 sitemaps.revo.com.au
 sitereadable.com
+sites.amssoft.com.br
 sites.beta.getgrout.com
 sites.tcu.gov.br
 sittiphont.vercel.app
@@ -28649,6 +28813,7 @@ slacey.vercel.app
 slack-api.leadmagic.io
 slack-channel.mcp.claude.com
 slack.codecov.io
+slack.eigenblue.ai
 slack.entendre.finance
 slack.hooks.x.ai
 slack.leadmagic.io
@@ -28802,6 +28967,7 @@ sobe-tan-qa.goldenhourhq.com
 sobetan.goldenhourhq.com
 sobhakharpoudel.vercel.app
 socbetgit-116-203-58-216.sslip.io
+socbyte.ai
 social-cipher.assistant.understood.org
 social-radar.app
 social.myfinanceconsultants.com.au
@@ -28850,6 +29016,7 @@ solsniper.entendre.finance
 solstice.kurumsalwebsite.co
 soluciones2000.vercel.app
 solutions.com.sa
+solver.eigenblue.ai
 somebottle.vercel.app
 somedude.vercel.app
 someh.vercel.app
@@ -28915,6 +29082,7 @@ southmain1.vercel.app
 southport.taxassist.co.uk
 southwark.taxassist.co.uk
 souvik04in.vercel.app
+souzatur.com.br.amssoft.com.br
 sovietic-boss88.vercel.app
 sovofeel.vercel.app
 sowensnc.vercel.app
@@ -28942,6 +29110,11 @@ spectacular-touch-production.up.railway.app
 speculo1.vercel.app
 speedtest.103.27.200.170.sslip.io
 speedtest.103.86.51.71.sslip.io
+speedtest.amssoft.com.br
+speedtest2.amssoft.com.br
+speedtest3.amssoft.com.br
+speedtest5.amssoft.com.br
+speedtest6.amssoft.com.br
 spell.leadmagic.io
 spencer1.vercel.app
 spencerb.vercel.app
@@ -29048,6 +29221,7 @@ sscaff1.vercel.app
 ssdemir90.vercel.app
 sses79.vercel.app
 ssgtm.setur.com.tr
+ssh-keys.eigenblue.ai
 ssheidaee.vercel.app
 ssidsystem.com
 ssingamneni.vercel.app
@@ -29235,6 +29409,7 @@ staging.amplitude.com
 staging.api.eadapp.up.railway.app
 staging.api.order-me.up.railway.app
 staging.api.ornn.com
+staging.app.flashquotes.com
 staging.arcade.software
 staging.astra-ai.co
 staging.athomearticulation.com
@@ -29473,6 +29648,7 @@ stats.cloudpliant.com
 stats.cosmic-clock.info
 stats.discordservers.com
 stats.driftnet.io
+stats.eigenblue.ai
 stats.ethereum.org
 stats.mauricemendy.com
 stats.oxylabs.io
@@ -29915,6 +30091,7 @@ streamingfast.entendre.finance
 stretchgz.vercel.app
 strickland84.vercel.app
 stripe-link.mcp.claude.com
+stripe.amssoft.com.br
 stripe.exclaimer.com
 stripe.gblbs.exclaimer.com
 stripepayment-production-4552.railway.app.up.railway.app
@@ -30804,8 +30981,10 @@ teller.attio.com
 telligent.qa.understood.org
 tellmemore.airbridge.io
 teman.elsa.video
+temp.amssoft.com.br
 temp.entendre.finance
 temp.fretebras.com.br
+temp3.amssoft.com.br
 tempestlabs.vercel.app
 tempkaew.216.244.93.114.sslip.io
 template.blog.shunkakinoki.com
@@ -30848,9 +31027,11 @@ tessuti.co.uk
 test-2.kurumsalwebsite.co
 test-2.octofly.io
 test-a-1779606027399.autodealer.io
+test-admin.guchly.com
 test-admin.up.railway.app
 test-analytics.amplitude.com
 test-api.app.render.com
+test-api.guchly.com
 test-api.intralinks.com
 test-app-0406.workflowheroes.nl
 test-app-2105.workflowheroes.nl
@@ -30898,6 +31079,7 @@ test-forum.trezor.io
 test-headers.grvt.io
 test-headers.testnet.grvt.io
 test-jp.amplitude.com
+test-kart.guchly.com
 test-kennis.waypost.co.uk
 test-klant-18-mei.workflowheroes.nl
 test-klant-19-mei.workflowheroes.nl
@@ -30995,6 +31177,7 @@ test.optise.com
 test.order.adfinis.com
 test.overwoo.adfinis.com
 test.oxylabs.io
+test.pabpereza.dev
 test.pim.ftz.dk
 test.pimapi.bagkat.ftz.dk
 test.pimapi.ftz.dk
@@ -31338,6 +31521,7 @@ tideview-enrollment.claimsorted.com
 tideview-enrollment.dev.claimsorted.com
 tideview-enrollment.qa.claimsorted.com
 tidynames.com
+tiempo.pabpereza.dev
 tiequinr.vercel.app
 tier2.axelarigato.com
 tifa.finalfantasy.up.railway.app
@@ -32210,6 +32394,7 @@ uni.luckyblock.com
 uniasia-australia-pty-ltd.lms.employmenthero.com
 uniben.dev.portalcliente.izii.io
 unicolored.vercel.app
+unidocs.pabpereza.dev
 unifi.fretebras.com.br
 unifyme.vercel.app
 unigas-home.tallerpro.io
@@ -32454,6 +32639,8 @@ usedidata.com.br
 user-content.algolia.com
 user-defined-marketing-website-development.up.railway.app
 user-defined-marketing-website-production.up.railway.app
+user-images.dev.fetchtcg.com
+user-images.fetchtcg.com
 user-manuals.exclaimer.com
 user.198.57.149.180.sslip.io
 user.50.116.93.211.sslip.io
@@ -32579,6 +32766,7 @@ vault.render.com
 vault.syscore.app
 vaultwarden.adfinis.com
 vaultwarden.apps.aks-adfch-k8s-int-test-02.cloud.adfinis.com
+vaultwarden.eigenblue.ai
 vaultwarden.tooling.dcrypte.fr
 vaut-staging.algolia.com
 vaviloff.vercel.app
@@ -33753,6 +33941,7 @@ webgineers1.vercel.app
 webgyver.vercel.app
 webhook-docs.viewcy.com
 webhook.212.194.103.104.sslip.io
+webhook.amssoft.com.br
 webhook.discordservers.com
 webhook.limitless.exchange
 webhook.metrito.com
@@ -33983,6 +34172,7 @@ webmail.airways.50.116.84.14.sslip.io
 webmail.ais.50.116.84.142.sslip.io
 webmail.aliexpress.50.116.84.142.sslip.io
 webmail.altcoins.50.116.84.142.sslip.io
+webmail.amssoft.com.br
 webmail.analysis.50.116.84.142.sslip.io
 webmail.analytics.50.116.84.142.sslip.io
 webmail.animations.50.116.84.142.sslip.io
@@ -34046,6 +34236,7 @@ webmail.cheapza.50.116.84.14.sslip.io
 webmail.checkraka.50.116.84.14.sslip.io
 webmail.cigarettes.50.116.93.228.sslip.io
 webmail.clothing.50.116.93.228.sslip.io
+webmail.cloud1.amssoft.com.br
 webmail.coats.50.116.93.228.sslip.io
 webmail.collac.io
 webmail.collectibles.50.116.93.228.sslip.io
@@ -34493,6 +34684,7 @@ win.tomorro.com
 win.wiz.io
 win11react.docs.up.railway.app
 winchester.taxassist.co.uk
+windef.apps.dokploy-1.eigenblue.ai
 windows.198.57.149.180.sslip.io
 windows.50.116.93.211.sslip.io
 windows.blockchain.com---autotargeting.jbasi.xyz
@@ -34952,6 +35144,7 @@ www.adidas.50.116.84.14.sslip.io
 www.adisaklive.50.116.84.14.sslip.io
 www.aditif.108.167.165.116.sslip.io
 www.adjusted.108.167.165.116.sslip.io
+www.admin-panel.socbyte.ai
 www.admin.howdy.com
 www.admin.revo.com.au
 www.admittedly.108.167.165.116.sslip.io
@@ -35016,6 +35209,7 @@ www.altcoins.50.116.84.142.sslip.io
 www.amara.com
 www.amplify.amplitude.com
 www.amplitude.com
+www.amssoft.com.br
 www.analysis.50.116.84.142.sslip.io
 www.analytics.50.116.84.142.sslip.io
 www.analytics.eu.amplitude.com
@@ -35157,6 +35351,7 @@ www.besico.50.116.84.142.sslip.io
 www.best-online.webscraping.app
 www.bestseller.45.32.100.107.sslip.io
 www.beta-20230111.comilio.app
+www.beta-platform.socbyte.ai
 www.beta.exclaimer.com
 www.beta.free-email-signature.exclaimer.com
 www.beta.machtigen.digid.nl
@@ -35313,6 +35508,7 @@ www.brands.50.116.84.142.sslip.io
 www.bravodm.com
 www.brianspizza.net
 www.brianthetreeguy.com
+www.brickinvoice.com
 www.bridge-capital.ch
 www.brightchase.io
 www.briuman.com
@@ -35391,6 +35587,7 @@ www.closeties.com
 www.clothing.50.116.93.228.sslip.io
 www.cloud.junyiacademy.org
 www.cloud.revo.com.au
+www.cloud1.amssoft.com.br
 www.cloudapi.exclaimer.com
 www.cloudbeesstatus.com
 www.cloudcontracts365.com
@@ -35428,6 +35625,7 @@ www.congressinfo.net
 www.congressinfo.site
 www.connect.revo.com.au
 www.connectvpn.revo.com.au
+www.consultoria.amssoft.com.br
 www.consumer.50.116.93.228.sslip.io
 www.contentimage.fretebras.com.br
 www.contractorbooking.sportsdirect.com
@@ -35536,6 +35734,7 @@ www.drillevo.com
 www.drkisspalbarna.com
 www.drvpn.revo.com.au
 www.dublivo.com
+www.dude.amssoft.com.br
 www.dwh-hh.intl.datalogue.com
 www.dynamicfinanceconsulting.com.au
 www.easecapital.com
@@ -35546,6 +35745,7 @@ www.eduaz.org
 www.educatorhub.theearthprize.org
 www.edumaniaedtech.online
 www.ehfs.employmenthero.com
+www.eigenblue.ai
 www.elderlink.biz
 www.electronic.50.116.93.228.sslip.io
 www.electronics.50.116.93.228.sslip.io
@@ -35620,6 +35820,7 @@ www.femalefounders.livekindred.com
 www.feminacentrointegral.com.ar
 www.fenix-store.com
 www.festive.50.116.93.228.sslip.io
+www.fetchtcg.com
 www.filemaker.huntington.org
 www.finejewelry.blog
 www.firewall.exclaimer.com
@@ -35627,9 +35828,11 @@ www.firewall.revo.com.au
 www.fjpweb.de
 www.flannels.com
 www.flannels.ie
+www.flashquotes.com
 www.flavorqueste.com
 www.flexiblesites.com
 www.flintzenithpost.com
+www.flow.amssoft.com.br
 www.flw.brandbasket.in
 www.food.50.116.93.228.sslip.io
 www.food.webscraping.app
@@ -35726,6 +35929,7 @@ www.grupotranscer.com
 www.grvt.io
 www.gsb.livekindred.com
 www.gtacarscrapping.com
+www.guchly.com
 www.guestpedia.com
 www.guncert.de
 www.guysi.azure.dev.wiz.io
@@ -35823,6 +36027,7 @@ www.invexi.dev
 www.irewall.blockchain.com---autotargeting.biolinok.com
 www.irix.setur.com.tr
 www.isawitfirst.com
+www.isp.amssoft.com.br
 www.ispringsolutions.com
 www.istheinternetok.com
 www.ivanti.harveynichols.com
@@ -35942,6 +36147,7 @@ www.login-online.webscraping.app
 www.login.revo.com.au
 www.logo.dev
 www.logo.leadmagic.io
+www.loja.amssoft.com.br
 www.longkun100.com
 www.lounge.50.116.93.228.sslip.io
 www.lp.comilio.app
@@ -35975,6 +36181,7 @@ www.mainfactor.dev
 www.maixtron.com
 www.maken-services.solutions.com.sa
 www.manabigurashi.com
+www.mangerdusens.fr
 www.maraguimaraes.adv.br
 www.marcel-garbrecht.de
 www.margaretleibovic.com
@@ -36030,6 +36237,7 @@ www.mlabs.ng
 www.mnqkpodg.revo.com.au
 www.mobile.revo.com.au
 www.mobilewareinc.com
+www.modelo.amssoft.com.br
 www.modibodi.co.il
 www.moi-agent.ru
 www.moncompte.roole.fr
@@ -36144,6 +36352,7 @@ www.onretool.com
 www.ontwikkel.machtigen.digid.nl
 www.oo.blockchain.com---autotargeting.biolinok.com
 www.oodelivery.com.br
+www.open2x.io
 www.opencongress.app
 www.ops.kaito.ai
 www.optise.com
@@ -36165,6 +36374,7 @@ www.owa.huntington.org
 www.owa.revo.com.au
 www.oxylabs.io
 www.oyun.setur.com.tr
+www.pabpereza.dev
 www.paczzkaa742165.sbs
 www.pagamento.cc
 www.palovpn.revo.com.au
@@ -36175,6 +36385,7 @@ www.pantip.103.27.200.170.sslip.io
 www.pants.50.116.93.228.sslip.io
 www.panvpn.revo.com.au
 www.parayno.org
+www.parceiros.amssoft.com.br
 www.parentingchristsway.org
 www.partner.boldcommerce.com
 www.partner.employmenthero.com
@@ -36293,6 +36504,7 @@ www.promo.amplitude.com
 www.promotorfreelance.com
 www.proprt.app
 www.protection.50.116.93.228.sslip.io
+www.provedor.amssoft.com.br
 www.provetto.eu
 www.psd18.com
 www.psicologadaianejordao.com.br
@@ -36305,6 +36517,7 @@ www.purefoodstas.com
 www.purefoodstas.com.au
 www.purefoodstascomau.purefoodstas.com
 www.pvbvwwww.blockchain.com---autotargeting.dev1.biolinok.com
+www.pve.amssoft.com.br
 www.pypi.understood.org
 www.qario.net
 www.qijie.autos
@@ -36334,6 +36547,7 @@ www.ravpn.revo.com.au
 www.raycast.com
 www.rcem.com.br
 www.rd.revo.com.au
+www.rdp.amssoft.com.br
 www.rdp.revo.com.au
 www.rdq.cz
 www.rds.revo.com.au
@@ -36456,6 +36670,7 @@ www.shop.brandbasket.in
 www.shop.cloud.junyiacademy.org
 www.shop.codely.com
 www.shop.josemadridsalsa.com
+www.shopp.amssoft.com.br
 www.shopskychefs.com
 www.shorts.50.116.93.228.sslip.io
 www.shunkakinoki.com
@@ -36468,6 +36683,7 @@ www.simpltutor.com
 www.singed.blockchain.com---autotargeting.jbasi.xyz
 www.sitemap.revo.com.au
 www.sitemaps.revo.com.au
+www.sites.amssoft.com.br
 www.sites.beta.getgrout.com
 www.skinswww.blockchain.com---autotargeting.pohasd.xyz
 www.sko18.asuresoftware.com
@@ -36501,11 +36717,13 @@ www.snapshot-v1-live.cloud.junyiacademy.org
 www.snapshot-v1.cloud.junyiacademy.org
 www.snapshot.cloud.junyiacademy.org
 www.sneakerboy.com
+www.socbyte.ai
 www.socialclub.stellar.org
 www.socks.50.116.93.228.sslip.io
 www.solards.com.au
 www.solidroad.com
 www.souscription-pack.roole.fr
+www.souzatur.com.br.amssoft.com.br
 www.special.50.116.93.228.sslip.io
 www.speedtest.103.27.200.170.sslip.io
 www.speedtest.103.86.51.71.sslip.io
@@ -37395,6 +37613,7 @@ z.astra-ai.co
 z3528654.vercel.app
 z4o4z.vercel.app
 z4qq.vercel.app
+zabbix.amssoft.com.br
 zabbix.ops.discovercars.com
 zacaria.vercel.app
 zachary.vercel.app
