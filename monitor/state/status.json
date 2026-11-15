@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-14T04:52:53Z",
-  "last_run_at": "2026-11-13T23:05:02Z",
-  "last_run_summary": "[2026-11-13T23:05:02Z] 763 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-13T23:05:02Z] HEALTH certspotter=16/913 crtsh=13/16 urlscan=1026/1353 dns-google=87710/87710 dns-cf=87710/87710",
+  "generated_at": "2026-11-15T09:19:43Z",
+  "last_run_at": "2026-11-15T04:05:02Z",
+  "last_run_summary": "[2026-11-15T04:05:02Z] 450 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-15T04:05:02Z] HEALTH certspotter=14/997 crtsh=3/6 urlscan=953/1364 dns-google=90114/90114 dns-cf=90114/90114",
   "tracked_hosts": {
-    "total": 48856,
+    "total": 49316,
     "by_status": {
-      "dead": 6603,
-      "active": 42253
+      "dead": 6654,
+      "active": 42662
     },
     "by_operator_tier": {
-      "A:tier1": 48856
+      "A:tier1": 49316
     }
   },
   "fingerprints": [
@@ -522,7 +522,7 @@
       "hash": "ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
@@ -697,105 +697,105 @@
       "hash": "04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "06f6441d4d00bc238e3ee47d70955e9c2ad2cf3df264729d74a56a0cd55fb259",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "1c5687f4ae24e6d19592820a324f72f668faaecb061b064848f1ebf1bf9309ab",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "1f4fe5c0506b1035e1a6b4aceb4f53517b2d0d5fe42ce77194dd1db05ec9254a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "29de9fc7b84fbe15abeac5ac0f4a675df3fcf27f8cb363c575aac45e2378cc93",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "2d456158e4b868a147c84ffeaa6c10ac2dce61106a394a208331dfa0250c2b83",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "38042515d5e3fd8aa92a8654e055ca746b2b341c4f573481eb5c08dd125d1a23",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "4578582be32b83f45b29034132514fcffbaccc7f532f60f6cb162ade6cb479e0",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "520b60977e1d4fddc894bd080a02dab1c77ebedd1d5034f6b2de4bccc143b1f4",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "59aaa51d76c02261e37225ea6191b5529417e6361be7c802df586159321d24b8",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "6930c2cc6ae51099b69e6d6dcaec2354099d3141567bc92e5d6fab4e73428ffa",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "aebdaf233be9a24893825cbd807580e64e80d52262ac4f11d57c052328dca6e2",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "e39b7773c09af146ab7b39cc0ac44ba4de074cea94bf24f3555f6e4087e5b737",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "f80b9462749e5540c311c849f61b4f72dd5be874fc20665b9a295e856249845a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
@@ -872,7 +872,7 @@
       "hash": "c36806c67d9200d49f228c75f3b1d406b01e277826f0f15128fc59f5dd9561d6",
       "label": "chained",
       "added": "2026-10-15",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
@@ -1040,7 +1040,7 @@
       "hash": "137f3c12bd02b9d15e09714b8f898e1d3a3938aa8dd7dd0631d3be61d72ecb0e",
       "label": "chained",
       "added": "2026-10-24",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
@@ -1390,7 +1390,7 @@
       "hash": "9b8bf1632e8e8700c342ecbb82e632655b3b068d82fdbf6c4a55c2097fe92d02",
       "label": "chained",
       "added": "2026-11-01",
-      "last_confirmed_hit": "2026-11-12",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
@@ -1663,49 +1663,49 @@
       "hash": "2accee221cc7c8b359894a232d1566b2f056fda39d2e42b88e520232d3e03140",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "2e93aa0edf7c6afd915efcbbb87f792d213f5c934663d7b0d0a26a61eba188ee",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "5c9fdb5410bd74748d2986dc684b2e027e75c80bf40c47e6e7f9bd86f2b5c355",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "72a304ee6041854e0c8dc257d57e8a8651f29d1e440e6d5ab6147063572406bd",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "72b6b3a3f2622c02b0ca5fab70a11759eb8c83f2f2e01d7b7a90ac869036bfc9",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "a4d4fc86450b8e4405281360ed84d6b73cfb18fb11aeae11dd69a2f67181cb82",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "dfdee8d871a234532d72884fa36b0ab58756e9bdd55be9be1301116b8993f78f",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
@@ -1719,143 +1719,143 @@
       "hash": "ed08d7ede413bda40cb6649e413b8aaa2ad506fd81653391b7c71ade1ca4261a",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     },
     {
       "hash": "f769db00c118d2df9b2ce9dca6ce8cfdc6c3787690dc1b3a9fd32459abe2089d",
       "label": "chained",
       "added": "2026-11-13",
-      "last_confirmed_hit": "2026-11-13",
+      "last_confirmed_hit": "2026-11-15",
       "status": "chained"
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 17437
+    "A": 17887
   },
   "recent_tier1_findings": [
     {
       "type": "domain",
-      "indicator": "www.test.staging.klgoqhaeasqrlxwmvd.m0kim0kii0gestripe-terminal-8765update.update.654admin.35-225-32-205.sslip.io",
+      "indicator": "wiz-support-provider.com",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.tongxinedu.org",
+      "indicator": "wonderful-beige-d2fo1b6v-dpz28i1l262s.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.www.3admin.beta.kdev.35-204-139-184.sslip.io",
+      "indicator": "wonderful-blush-italb16w-dp333p2uf95r.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "www.zis-johannisfest-anmeldung.de",
+      "indicator": "work-ockw5rzn-dpwfmqb928ba.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "x9lfu1p3.up.railway.app",
+      "indicator": "wtc-afde-portal-prod-eus-02-g2bqajhvd2eecac9.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "xfmq6ojc.up.railway.app",
+      "indicator": "www.arda.gallery",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yammering-moccasin-i3ah0qk7.edgeone.dev",
+      "indicator": "www.boldapps.net",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yandex-reviews.217-198-13-142.sslip.io",
+      "indicator": "www.bookings.innov8djs.com",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yandex.altaiflori.83-141-73-172.sslip.io",
+      "indicator": "www.brickinvoice.com",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "ybsihxkotuxxhzyknzrwkjbw.35.208.27.90.sslip.io",
+      "indicator": "www.denplan.co.uk",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yjv19t8a.up.railway.app",
+      "indicator": "www.futemdia.com.br",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "youngdental-5204160.hs-sites.com",
+      "indicator": "www.hodsai-dev-ade8b3aff9gnd3ek.a03.azurefd.net",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "yujie-chen.squarespace.com",
+      "indicator": "www.inlandempirewarehouses.com",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zavdm.vip",
+      "indicator": "www.motorscore.app",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zhidemai-library-production.up.railway.app",
+      "indicator": "www.sportsdirect.es",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zoho-deconnexion-story2.preview.trilogis.ca",
+      "indicator": "www.tegissafety.com",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zoho-deconnexion-story3.preview.trilogis.ca",
+      "indicator": "www.urbanarmorgear.com",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zoho-deconnexion.preview.trilogis.ca",
+      "indicator": "yodelling-coral-s05uddx0-dpdxmfhhi3bu.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zvxmzhpc.up.railway.app",
+      "indicator": "yoraai-dpzsuihszx2v.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     },
     {
       "type": "domain",
-      "indicator": "zzqk-none-83127.up.railway.app",
+      "indicator": "zxcom-dpaowntk4lex.edgeone.dev",
       "operator": "A",
-      "first_seen": "2026-11-13T23:05:02Z"
+      "first_seen": "2026-11-15T04:05:02Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 104724,
+  "manual_review_candidates_pending": 106131,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
