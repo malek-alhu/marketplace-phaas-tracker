@@ -5,6 +5,7 @@
 2gbpz6ock88lptu.icu	A
 2sync.com	A
 3dprinteros.com	A
+3luan.com	A
 58stw.com	A
 6897926.com	A
 7summits.com	A
@@ -55,6 +56,7 @@ amssoft.com.br	A
 anafi.online	A
 anchor-ai.jp	A
 androidscroll.com	A
+anedot.com	A
 appinnhouse.cloud	A
 apps-online-28circle.com	A
 appwatch.ai	A
@@ -65,6 +67,7 @@ arda.gallery	A
 ardennes-etape.be	A
 aro-cutz.vercel.app	A
 arrayvane.com	A
+arthive-nu.vercel.app	A
 artistspringboard.com	A
 asktutti.com	A
 astra-ai.co	A
@@ -153,6 +156,7 @@ brightchase.io	A
 broker-portal-git-sshelley-jun-1631-fra-1ce7a6-junepointlending.vercel.app	A
 broker-portal-git-sshelley-jun-1678-cre-602489-junepointlending.vercel.app	A
 brokerbot.ai	A
+bullify.io	A
 byjolab.com	A
 bytehabit.com	A
 bytorhealth.com	A
@@ -172,6 +176,7 @@ cdp-external-production-6b8111d442b8.herokuapp.com	A
 central-pay.qpon	A
 central-pay.shop	A
 centumly.com	A
+cfbtel.com	A
 ch-apps.com	A
 chapterbrief.net	A
 chattersnow.org	A
@@ -183,10 +188,14 @@ claimsorted.com	A
 claude.com	A
 clearretentionjet.co	A
 cleso.io	A
+click-pay-poland.biz.id	A
+click-pay-poland.bond	A
+click-pay-poland.shop	A
 clickgrowth.com.br	A
 clicktodeal.pl	A
 clickworkslb.com	A
 clientin.app	A
+closetdropcollective.com	A
 cloudcontracts365.com	A
 cloudpliant.com	A
 cloudremo.com	A
@@ -347,6 +356,7 @@ flipbook.so	A
 flowixai.com	A
 flypiccard.com	A
 flyupclass.com	A
+foodbanknyc.org	A
 forestleads.com	A
 formbricks.com	A
 fornutra.com	A
@@ -397,6 +407,7 @@ goldenpanda.com	A
 goldenplanet.shop	A
 googleusercontent.com	A
 gotcatalyst.com	A
+gram3dlabs.com	A
 growedin.co	A
 grubby.ai	A
 grvt.io	A
@@ -407,11 +418,13 @@ guitartuna.com	A
 gumtreepay-verify.help	A
 guncert.de	A
 gz-zongheng.com	A
+haneysbookkeeping.com	A
 happenstance.ai	A
 hardhatrealestate.com	A
 harveynichols.com	A
 havnwear.com	A
 heartsandmindsinvestments.com.au	A
+hello-flushing.com	A
 helloskip.com	A
 helpyourfriendsvote.com	A
 heyfriday.co.uk	A
@@ -467,6 +480,7 @@ jalawin.ink	A
 jannallenberger.com	A
 jasaperantara.com	A
 jestr.gg	A
+jforpdp.com	A
 jif.ai	A
 jobland.ai	A
 joinformz.com	A
@@ -486,6 +500,7 @@ keeperhub.com	A
 keltora.com	A
 kiia.space	A
 kinderleicht-hk.com	A
+kings-custom-creations.com	A
 kintsu.xyz	A
 kitfolio.site	A
 klirr.com	A
@@ -499,6 +514,7 @@ lafourche.fr	A
 landing-planiflex.pages.dev	A
 lassie.ai	A
 laters.com	A
+lawconnect.com	A
 lawyerinsight.in	A
 layiq.co	A
 layo.co	A
@@ -510,6 +526,7 @@ lejr.app	A
 leonidas-securite.ch	A
 lepainquotidien.com	A
 lexvivens.com	A
+libertarianism.org	A
 libretapet.com.ar	A
 lidio.app	A
 ligapadelsitges.com	A
@@ -598,6 +615,7 @@ navifexpro.com	A
 neeed.directory	A
 neests.com	A
 negabarit.sbs	A
+negococloud.es	A
 nendazveysonnaz.ch	A
 neptunedispatching.com	A
 neta.market	A
@@ -610,6 +628,8 @@ nexorai.es	A
 nextgentrainingacademy.com	A
 nextlayersports.com	A
 nextstopcomedy.com	A
+nicolas.nz	A
+nip.io	A
 nishal.dev	A
 nixtla.io	A
 nodellgraph.ai	A
@@ -630,6 +650,7 @@ octopusev.com	A
 offer09255915.shop	A
 offer0958892.shop	A
 offer6582518.shop	A
+offer75829017.shop	A
 offer7693012.shop	A
 offer8259012.shop	A
 offer8692056.shop	A
@@ -638,11 +659,13 @@ offer92859019.shop	A
 offer980982.shop	A
 offer9825914.shop	A
 offer982995091.shop	A
+offer9859201.shop	A
 offer986902.shop	A
 offer9898295.shop	A
 offsecops.app	A
 ohdigital.agency	A
 okbca.xyz	A
+ollywell.pl	A
 omnirogue.com	A
 omnyn.com.br	A
 one-click.dev	A
@@ -665,6 +688,7 @@ order-id8219.shop	A
 order-info4297.com	A
 order-info84719.com	A
 order-mayaeastindian.com	A
+order-qr.help	A
 orders-info3182.com	A
 orders-info8417.shop	A
 orders-info92841.com	A
@@ -706,6 +730,7 @@ paycore-confirmation44232.beer	A
 paycore-confirmation44232.casa	A
 paycore-confirmation44232.lol	A
 paycore-confirmation44232.study	A
+paycore-my1.shop	A
 paycore-my2.shop	A
 paycore-my3.shop	A
 paycore-nitro-pl.bond	A
@@ -723,6 +748,7 @@ payflow-poland2.biz.id	A
 payflow-poland2.my.id	A
 payflow-poland2.shop	A
 payflow-poland5.eu.cc	A
+paymentrescue.dev	A
 paypau-pl2.eu.cc	A
 paypau-pl4.eu.cc	A
 paypay-pl.eu.cc	A
@@ -746,7 +772,11 @@ payu-nitro5.eu.cc	A
 payu-nitro6.eu.cc	A
 payu-nitro7.eu.cc	A
 payu-nitro8.eu.cc	A
+payu-poland-run.biz.id	A
 payu-poland-run.bond	A
+payu-run-poland.biz.id	A
+payu-run-poland.bond	A
+payu-run-poland.shop	A
 payx-polandcore.my.id	A
 pdrcore.com	A
 penyujitu.ink	A
@@ -764,6 +794,7 @@ pl-paymoney3.eu.cc	A
 pl-paymoney4.eu.cc	A
 pl-pays-confirmation.shop	A
 pl-pays-confirmation.web.id	A
+pl-payu-confirmation.buzz	A
 pl-payu-confirmation.cyou	A
 pl-payu-confirmation.eu.cc	A
 pl-payu-confirmation.shop	A
@@ -805,6 +836,7 @@ poland-payhub6.eu.cc	A
 poland-payhub7.eu.cc	A
 poland-payhub8.eu.cc	A
 poland-payhub9.eu.cc	A
+polandcore-payu.biz.id	A
 poolservicemanager.com	A
 porradanutra.com	A
 postai.llc	A
@@ -841,6 +873,7 @@ qdscdq.com	A
 qmb.ai	A
 quantacore.shop	A
 quilia.com	A
+quipu-finance.app	A
 quizvfr.it	A
 raceface.ca	A
 raceface.com	A
@@ -971,6 +1004,7 @@ spaceswap.to	A
 spandanloop.com	A
 speed-landing-page.vercel.app	A
 splitbag.com	A
+splitpilot.ai	A
 spoke.com	A
 spoo.me	A
 sportsdirect.com	A
@@ -997,6 +1031,7 @@ storymakerduda.com.br	A
 studiohive.art	A
 stylest.com	A
 subsplash.com	A
+sufflor.no	A
 sullivancountynhdems.org	A
 supercart.live	A
 supplyvan.com	A
@@ -1007,6 +1042,7 @@ synthex-prompts-ai.pages.dev	A
 syrs.jp	A
 syscom.mx	A
 syscore.app	A
+syswelt.com	A
 t3n.de	A
 tablerly.com	A
 tagcreative.app	A
@@ -1040,6 +1076,7 @@ theearthprize.org	A
 theirstack.com	A
 thereby.dev	A
 thomasrealestate.de	A
+thrift.plus	A
 tidynames.com	A
 timeflies.live	A
 tipboxhq.com	A
@@ -1100,6 +1137,7 @@ verification-help.com	A
 verification-page.icu	A
 verification-page.pro	A
 verification-page.vip	A
+verificationsales321.pro	A
 verified-compra-es.cyou	A
 verified-compra-online.shop	A
 verify-compra.click	A
@@ -1136,6 +1174,7 @@ webrenew.com	A
 webscraping.app	A
 weddings.ao	A
 wfscgj.com	A
+wfxzcy.com	A
 willyoubehere.com	A
 winslor-demo.com	A
 withmatilda.com	A
@@ -1150,6 +1189,7 @@ world.org	A
 wrenandcue.com	A
 wslabs.it	A
 wuguijia.com	A
+www-thorswap.com	A
 x.ai	A
 xfqh.net	A
 yamap.com	A
