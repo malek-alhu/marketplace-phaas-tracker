@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-21T11:11:30Z",
-  "last_run_at": "2026-11-21T05:31:54Z",
-  "last_run_summary": "[2026-11-21T05:31:54Z] 97 new tier-1 Operator-A indicator(s) this run",
-  "last_health_line": "[2026-11-21T05:31:54Z] HEALTH certspotter=18/1151 crtsh=43/52 urlscan=200/1659 dns-google=92888/92888 dns-cf=92888/92888",
+  "generated_at": "2026-11-23T22:52:04Z",
+  "last_run_at": "2026-11-23T16:58:19Z",
+  "last_run_summary": "[2026-11-23T16:58:19Z] 85 new tier-1 Operator-A indicator(s) this run",
+  "last_health_line": "[2026-11-23T16:58:19Z] HEALTH certspotter=17/1149 crtsh=12/15 urlscan=200/1684 dns-google=94754/94754 dns-cf=94754/94754",
   "tracked_hosts": {
-    "total": 52323,
+    "total": 52671,
     "by_status": {
-      "dead": 7077,
-      "active": 45246
+      "dead": 7097,
+      "active": 45574
     },
     "by_operator_tier": {
-      "A:tier1": 52323
+      "A:tier1": 52671
     }
   },
   "fingerprints": [
@@ -522,7 +522,7 @@
       "hash": "ae51a250fb6a6dccc04b38d53bdccca416c1694c650163fd41a085eac9acdb62",
       "label": "chained",
       "added": "2026-10-11",
-      "last_confirmed_hit": "2026-11-21",
+      "last_confirmed_hit": "2026-11-23",
       "status": "chained"
     },
     {
@@ -697,7 +697,7 @@
       "hash": "04d6a44e87a1466ecd3d6da4b6a1871bd8f06534af74b8c4ae0d5d16e0ccab0a",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-21",
+      "last_confirmed_hit": "2026-11-23",
       "status": "chained"
     },
     {
@@ -711,7 +711,7 @@
       "hash": "144bfa9004386d7d533b39b456d7bcba981adef4e31daf08a87623db51c57a66",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-21",
+      "last_confirmed_hit": "2026-11-23",
       "status": "chained"
     },
     {
@@ -753,7 +753,7 @@
       "hash": "4578582be32b83f45b29034132514fcffbaccc7f532f60f6cb162ade6cb479e0",
       "label": "chained",
       "added": "2026-10-14",
-      "last_confirmed_hit": "2026-11-21",
+      "last_confirmed_hit": "2026-11-23",
       "status": "chained"
     },
     {
@@ -2277,131 +2277,131 @@
     }
   ],
   "tier1_findings_total_by_operator": {
-    "A": 19798
+    "A": 19883
   },
   "recent_tier1_findings": [
     {
-      "type": "cert",
-      "indicator": "www.mein-klavierunterricht-blog.de",
+      "type": "domain",
+      "indicator": "feat-123kvxegrez-partnerpa-e25583.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.selfhack.ai",
-      "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
-    },
-    {
-      "type": "cert",
-      "indicator": "www.trueprice.club",
-      "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "1stdibs.secureflow.click",
+      "indicator": "feat-artikel-opmaakregels.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "2dehands.secureflow.click",
+      "indicator": "feat-beeldbank-upload.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "go.secureflow.click",
+      "indicator": "feat-copernica-profile-sup-1ed78c.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "hermes-gauge.sidelight.ch",
+      "indicator": "feat-data-graph-edge-state.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "parfumklapper.nl",
+      "indicator": "feat-instapage-review-fases.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "pethealthplans.co.uk",
+      "indicator": "feat-outreach-werkbank.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "sidelight.ch",
+      "indicator": "fix-123kvxegrez-iframe-css.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "solidroadscorecards.com",
+      "indicator": "fix-csat-datepicker-custom-range.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "staging.agents.corporate.solidroad.com",
+      "indicator": "fix-data-model-baseline-ga-121d55.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "url4913.mail.workplacewellbeing.pro",
+      "indicator": "fix-iframe-script-exempt-auth.preview.hub.dezaak.nl",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "wharfpipelinehq.co",
+      "indicator": "merbenz.datalogia.app",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.pethealthplans.co.uk",
+      "indicator": "mongodb-rs0-0.mongodb-rs0.data-house.svc.homelab.cluster.dcrypte.fr",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
       "type": "domain",
-      "indicator": "www.scento.com",
+      "indicator": "mongodb-rs0.data-house.svc.homelab.cluster.dcrypte.fr",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
-      "type": "revival",
-      "indicator": "community.leadmagic.io",
+      "type": "domain",
+      "indicator": "onlineteamcorgi.com",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
-      "type": "revival",
-      "indicator": "api-docs.leadmagic.io",
+      "type": "domain",
+      "indicator": "pakietmeblowy.commeriongroup.com",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
-      "type": "revival",
-      "indicator": "logo.leadmagic.io",
+      "type": "domain",
+      "indicator": "pr-4434.preview.deepvista.ai",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
     },
     {
-      "type": "revival",
-      "indicator": "status.leadmagic.io",
+      "type": "domain",
+      "indicator": "www.corgi.insure",
       "operator": "A",
-      "first_seen": "2026-11-21T05:31:54Z"
+      "first_seen": "2026-11-23T16:58:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.datalogue.co.uk",
+      "operator": "A",
+      "first_seen": "2026-11-23T16:58:19Z"
+    },
+    {
+      "type": "domain",
+      "indicator": "www.link.post.ab-iun-den-urlaub.de",
+      "operator": "A",
+      "first_seen": "2026-11-23T16:58:19Z"
     }
   ],
   "pending_operator_b_digest_count": 0,
-  "manual_review_candidates_pending": 114650,
+  "manual_review_candidates_pending": 116306,
   "note": "See docs/operation-dossier.md for full narrative context (kill chain, IOCs, incident history). This file is a point-in-time orientation snapshot only, regenerated every run — do not hand-edit."
 }
